@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/Pidgin.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Pidgin</name>
+  <summary xml:lang="en">Free multi-protocol chat client</summary>
+  <summary xml:lang="de">Freier Multi-Protokoll-Client</summary>
+  <description xml:lang="en">Pidgin is an instant messaging application that supports multiple protocols (AIM, MSN, ICQ, XMPP, YIM and others).</description>
+  <description xml:lang="de">Pidgin ist eine Instant-Messenger Anwendung die mehrere Protokolle (AIM, MSN, ICQ, XMPP, YIM und andere) unterstützt.</description>
+  <homepage>http://www.pidgin.im/</homepage>
+  <icon href="http://0install.de/feed-icons/Pidgin.png" type="image/png" />
+  <icon href="http://0install.de/feed-icons/Pidgin.ico" type="image/vnd.microsoft.icon" />
+  <group license="GPL v2 (GNU General Public License)">
+    <requires interface="http://0install.de/feeds/GTK.xml">
+      <environment name="PATH" insert="bin" />
+    </requires>
+    <group version="2.10.1" released="2011-12-15" stability="stable">
+      <implementation arch="Windows-i486" main="pidgin.exe" id="sha1new=26160efa32365b1d27df6c514b49ee3d5f82d4ef">
+        <manifest-digest sha1new="26160efa32365b1d27df6c514b49ee3d5f82d4ef" sha256="a048b700d95bf07e5ed6e052f276d25d57b1e01cf13b94535422180d093380d8" sha256new="UBELOAGZLPYH4XWW4BJPE5WSLVL3DYA46E5ZIU2UEIMA2CJTQDMA" />
+        <archive href="http://downloads.sourceforge.net/pidgin/Pidgin/2.10.1/pidgin-2.10.1-win32-bin.zip" size="15349580" type="application/zip" extract="pidgin-2.10.1-win32bin" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=9c696df31b31c60f518aa134315d120b63059bfe">
+        <manifest-digest sha1new="9c696df31b31c60f518aa134315d120b63059bfe" sha256="b0265b440f0688a81ea67cfd8ce1bcd665a57d43771bd71747ee124f735c719b" sha256new="WATFWRAPA2EKQHVGPT6YZYN42ZS2K7KDO4N5OF2H5YJE6424OGNQ" />
+        <archive href="http://downloads.sourceforge.net/pidgin/Pidgin/2.10.1/pidgin-2.10.1.tar.bz2" size="9961580" type="application/x-bzip-compressed-tar" extract="pidgin-2.10.1" />
+      </implementation>
+    </group>
+    <group version="2.10.2" released="2012-01-14" stability="stable">
+      <implementation arch="Windows-i486" main="pidgin.exe" id="sha1new=24891ef2291ff253470e1b131b26b61317a91950">
+        <manifest-digest sha1new="24891ef2291ff253470e1b131b26b61317a91950" sha256="80dda59b54861defd5c6fb3258476a77a2a5732c91bd8aa3ac0e6879591366a0" sha256new="QDO2LG2UQYO67VOG7MZFQR3KO6RKK4ZMSG6YVI5MBZUHSWITM2QA" />
+        <archive href="http://downloads.sourceforge.net/pidgin/Pidgin/2.10.2/pidgin-2.10.2-win32-bin.zip" size="15224514" type="application/zip" extract="pidgin-2.10.2-win32bin" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=0bb939391140e73026e40ae3092cb88e245faecd">
+        <manifest-digest sha1new="0bb939391140e73026e40ae3092cb88e245faecd" sha256="14dfa7815e8486c44c283fe6e75ada52888d904f92ac2c1d6ee2f8d3afd078ce" sha256new="CTP2PAK6QSDMITBIH7TOOWW2KKEI3ECPSKWCYHLO4L4NHL6QPDHA" />
+        <archive href="http://downloads.sourceforge.net/pidgin/Pidgin/2.10.2/pidgin-2.10.2.tar.bz2" size="9967172" type="application/x-bzip-compressed-tar" extract="pidgin-2.10.2" />
+      </implementation>
+    </group>
+    <group version="2.10.3" released="2012-03-26" stability="stable">
+      <implementation arch="Windows-i486" main="pidgin.exe" id="sha1new=d245ea91a0e322f7baef340e708a8057d1300597">
+        <manifest-digest sha1new="d245ea91a0e322f7baef340e708a8057d1300597" sha256="94c7ecfef92f5d9192d51cfe408ab350f9a76e6aaf13e13335065b5f25155c69" sha256new="STD6Z7XZF5OZDEWVDT7EBCVTKD42O3TKV4J6CMZVAZNV6JIVLRUQ" />
+        <archive href="http://downloads.sourceforge.net/pidgin/Pidgin/2.10.3/pidgin-2.10.3-win32-bin.zip" size="15352558" type="application/zip" extract="pidgin-2.10.3-win32bin" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=de9d00fd41ee3b262f166456b0dc803de1d6cd3d">
+        <manifest-digest sha1new="de9d00fd41ee3b262f166456b0dc803de1d6cd3d" sha256="31d25610b0937ea761882f299915416bbd3199f3158908fdbfe1ca56c83af8c1" sha256new="GHJFMEFQSN7KOYMIF4UZSFKBNO6TDGPTCWEQR7N74HFFNSB27DAQ" />
+        <archive href="http://downloads.sourceforge.net/pidgin/Pidgin/2.10.3/pidgin-2.10.3.tar.bz2" size="9970676" type="application/x-bzip-compressed-tar" extract="pidgin-2.10.3" />
+      </implementation>
+    </group>
+    <group version="2.10.4" released="2012-05-07" stability="stable">
+      <implementation arch="Windows-i486" main="pidgin.exe" id="sha1new=69b86c78ab96a469372c06e9d722dff37bfe80ef">
+        <manifest-digest sha1new="69b86c78ab96a469372c06e9d722dff37bfe80ef" sha256="a24b46bc5bc708c57302dcf982b25ecfe86b834ce361b680ea6a18f957ba63f1" sha256new="UJFUNPC3Y4EMK4YC3T4YFMS6Z7UGXA2M4NQ3NAHKNIMPSV52MPYQ" />
+        <archive href="http://downloads.sourceforge.net/pidgin/Pidgin/2.10.4/pidgin-2.10.4-win32-bin.zip" size="15142090" type="application/zip" extract="pidgin-2.10.4-win32bin" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=76b4bb91e4fb7952afc83ce1c2d8b09179425c79">
+        <manifest-digest sha1new="76b4bb91e4fb7952afc83ce1c2d8b09179425c79" sha256="5b238f70ea3ab8d91ce3f16611b98855546f154c89e9685f302e5647290567eb" sha256new="LMRY64HKHK4NSHHD6FTBDOMIKVKG6FKMRHUWQXZQFZLEOKIFM7VQ" />
+        <archive href="http://downloads.sourceforge.net/pidgin/Pidgin/2.10.4/pidgin-2.10.4.tar.bz2" size="9970850" type="application/x-bzip-compressed-tar" extract="pidgin-2.10.4" />
+      </implementation>
+    </group>
+    <group version="2.10.5" released="2012-07-05" stability="stable">
+      <implementation arch="Windows-i486" main="pidgin.exe" id="sha1new=8e508c92695f6fb776184f39f2d446a36956306f">
+        <manifest-digest sha1new="8e508c92695f6fb776184f39f2d446a36956306f" sha256="adbbf6399acbc67edb75f159d2226a172e9902eb468457f62c16e0e8873c58ed" sha256new="VW57MOM2ZPDH5W3V6FM5EITKC4XJSAXLI2CFP5RMC3QORBZ4LDWQ" />
+        <archive href="http://downloads.sourceforge.net/pidgin/Pidgin/2.10.5/pidgin-2.10.5-win32-bin.zip" size="15108527" type="application/zip" extract="pidgin-2.10.5-win32bin" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=be4f1b80c13288694c5744101c2e61c5e5ff9f54">
+        <manifest-digest sha1new="be4f1b80c13288694c5744101c2e61c5e5ff9f54" sha256="073aa47db95822362f8158f7c29427a7cdeade3d5f75e155bc30a191616662ec" sha256new="A45KI7NZLARDML4BLD34FFBHU7G6VXR5L526CVN4GCQZCYLGMLWA" />
+        <archive href="http://downloads.sourceforge.net/pidgin/Pidgin/2.10.5/pidgin-2.10.5.tar.bz2" size="10008377" type="application/x-bzip-compressed-tar" extract="pidgin-2.10.5" />
+      </implementation>
+    </group>
+    <group version="2.10.6" released="2012-07-07" stability="stable">
+      <implementation arch="Windows-i486" main="pidgin.exe" id="sha1new=e0d6fc69d3d321415bace2ece1d973c3ddac13ee">
+        <manifest-digest sha1new="e0d6fc69d3d321415bace2ece1d973c3ddac13ee" sha256="affe4fc6d92e07feeb9e035f3e6ee68dd0377b890f3a309beab0fef07f4c4649" sha256new="V77E7RWZFYD75246ANPT43XGRXIDO64JB45DBG7KWD7PA72MIZEQ" />
+        <archive href="http://downloads.sourceforge.net/pidgin/Pidgin/2.10.6/pidgin-2.10.6-win32-bin.zip" size="15108637" type="application/zip" extract="pidgin-2.10.6-win32bin" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=9e6452c3ceac754c8faef5f1534e23caff85cf5f">
+        <manifest-digest sha1new="9e6452c3ceac754c8faef5f1534e23caff85cf5f" sha256="10353c95b2de6a4e29fd0700f858204a37e3d56fca0d1d66ebb9daadac1d301f" sha256new="CA2TZFNS3ZVE4KP5A4APQWBAJI36HVLPZIGR2ZXLXHNK3LA5GAPQ" />
+        <archive href="http://downloads.sourceforge.net/pidgin/Pidgin/2.10.6/pidgin-2.10.6.tar.bz2" size="10007092" type="application/x-bzip-compressed-tar" extract="pidgin-2.10.6" />
+      </implementation>
+    </group>
+    <group version="2.10.7" released="2013-02-14" stability="stable">
+      <implementation arch="Windows-i486" main="pidgin.exe" id="sha1new=a4f7774629d049362e967a41e3d354976abc5c1a">
+        <manifest-digest sha1new="a4f7774629d049362e967a41e3d354976abc5c1a" sha256="428f7ecac09c0063f70c67c826dc0fca90991e3a8a03125d229e04283bb67f96" sha256new="IKHX5SWATQAGH5YMM7ECNXAPZKIJSHR2RIBREXJCTYCCQO5WP6LA" />
+        <archive href="http://downloads.sourceforge.net/pidgin/Pidgin/2.10.7/pidgin-2.10.7-win32-bin.zip" size="15596967" type="application/zip" extract="pidgin-2.10.7-win32bin" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=e194ee00b500cd09df886180e1dc2ee3bab4640c">
+        <manifest-digest sha1new="e194ee00b500cd09df886180e1dc2ee3bab4640c" sha256="195f352a2a70c6758280aff612f1c8bddb68c3cd20fb8f7fdbb1647a4d7fd224" sha256new="DFPTKKRKODDHLAUAV73BF4OIXXNWRQ6NED5Y6763WFSHUTL72ISA" />
+        <archive href="http://downloads.sourceforge.net/pidgin/Pidgin/2.10.7/pidgin-2.10.7.tar.bz2" size="10069279" type="application/x-bzip-compressed-tar" extract="pidgin-2.10.7" />
+      </implementation>
+    </group>
+    <group version="2.10.8" released="2014-01-28" stability="stable">
+      <implementation arch="Windows-i486" main="pidgin.exe" id="sha1new=81329ba1d10e884f0f82fc6ae43f3e4c2bb2fc1d">
+        <manifest-digest sha1new="81329ba1d10e884f0f82fc6ae43f3e4c2bb2fc1d" sha256="3ebf8f78c2bd013c29a33a4c9a876c22f99e8750d1a9290e8179b1f8965fbf55" sha256new="H27Y66GCXUATYKNDHJGJVB3MEL4Z5B2Q2GUSSDUBPGY7RFS7X5KQ" />
+        <archive href="http://downloads.sourceforge.net/pidgin/Pidgin/2.10.8/pidgin-2.10.8-win32-bin.zip" size="15760086" type="application/zip" extract="pidgin-2.10.8-win32bin" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=fd80b5145bfabbbfb511f506ce89aff0e30d566f">
+        <manifest-digest sha1new="fd80b5145bfabbbfb511f506ce89aff0e30d566f" sha256="57f768c05615b018fc0625c2a55ecf408378f27885f2ce6ecad2ca5e52b0b04f" sha256new="K73WRQCWCWYBR7AGEXBKKXWPICBXR4TYQXZM43WK2LFF4UVQWBHQ" />
+        <archive href="http://downloads.sourceforge.net/pidgin/Pidgin/2.10.8/pidgin-2.10.8.tar.bz2" size="10050465" type="application/x-bzip-compressed-tar" extract="pidgin-2.10.8" />
+      </implementation>
+    </group>
+    <group version="2.10.9" released="2014-02-03" stability="stable">
+      <implementation arch="Windows-i486" main="pidgin.exe" id="sha1new=a42e802ea422612691f160ab28a4496baad6a429">
+        <manifest-digest sha1new="a42e802ea422612691f160ab28a4496baad6a429" sha256="5ca25ed49da000b397e4f81837c307cf0055fecc2eef911f15d9566ad0617bc5" sha256new="LSRF5VE5UAALHF7E7AMDPQYHZ4AFL7WMF3XZCHYV3FLGVUDBPPCQ" />
+        <archive href="http://downloads.sourceforge.net/pidgin/Pidgin/2.10.9/pidgin-2.10.9-win32-bin.zip" size="15726727" type="application/zip" extract="pidgin-2.10.9-win32bin" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=e9cb5184420ef1fe2cbf571364b8356d78b4658b">
+        <manifest-digest sha1new="e9cb5184420ef1fe2cbf571364b8356d78b4658b" sha256="96e11aa3120a450ab7ad669382dc4a9c56da114c3e2b3e60aba7e8a951515140" sha256new="S3QRVIYSBJCQVN5NM2JYFXCKTRLNUEKMHYVT4YFLU7UKSUKRKFAA" />
+        <archive href="http://downloads.sourceforge.net/pidgin/Pidgin/2.10.9/pidgin-2.10.9.tar.bz2" size="10093423" type="application/x-bzip-compressed-tar" extract="pidgin-2.10.9" />
+      </implementation>
+    </group>
+  </group>
+  <entry-point command="run" binary-name="pidgin" />
+  <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <url-protocol id="aim">
+      <description xml:lang="en">URL:aim</description>
+      <verb name="Open" args="--protocolhandler=%1" />
+    </url-protocol>
+    <url-protocol id="msnim">
+      <description xml:lang="en">URL:msnim</description>
+      <verb name="Open" args="--protocolhandler=%1" />
+    </url-protocol>
+    <url-protocol id="myim">
+      <description xml:lang="en">URL:myim</description>
+      <verb name="Open" args="--protocolhandler=%1" />
+    </url-protocol>
+    <url-protocol id="xmpp">
+      <description xml:lang="en">URL:xmpp</description>
+      <verb name="Open" args="--protocolhandler=%1" />
+    </url-protocol>
+    <url-protocol id="ymsgr">
+      <description xml:lang="en">URL:ymsgr</description>
+      <verb name="Open" args="--protocolhandler=%1" />
+    </url-protocol>
+  </capabilities>
+</interface>

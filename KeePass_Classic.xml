@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/KeePass_Classic.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>KeePass Classic</name>
+  <summary xml:lang="en">free open source password manager</summary>
+  <summary xml:lang="de">kostenloser Open Source Passwort Manager</summary>
+  <description xml:lang="en">KeePass is a free open source password manager, which helps you to manage your passwords in a secure way. You can put all your passwords in one database, which is locked with one master key or a key file. So you only have to remember one single master password or select the key file to unlock the whole database. The databases are encrypted using the best and most secure encryption algorithms currently known (AES and Twofish).
+Classic runs on all Windows systems without any prerequisites.</description>
+  <description xml:lang="de">KeePass ist ein kostenloser Open Source Passwort Manager, welcher Ihnen hilft Ihre Passwörter auf sichere Art und Weise zu verwalten. Sie können alle Ihre Passwörter in einer Datenbank ablegen, welche mit einem Master-Passwort oder einer Schlüsseldatei gesichert ist. So müssen Sie sich nur ein einzelnes Passwort merken oder die Schlüsseldatei öffnen um die gesamte Datenbank freizugeben.  Die Datenbanken werden mit den derzeit besten und sichersten Verschlüsselungsalgorithmen (AES and Twofish) verschlüsselt.
+Classic läuft auf allen Windows-Systemen ohne weitere Abhängigkeiten.</description>
+  <homepage>http://keepass.info/</homepage>
+  <icon href="http://0install.de/feed-icons/KeePass.png" type="image/png" />
+  <icon href="http://0install.de/feed-icons/KeePass.ico" type="image/vnd.microsoft.icon" />
+  <category>Utility</category>
+  <group license="GPL v2 (GNU General Public License)">
+    <group version="1.0" released="2005-06-04" stability="stable">
+      <implementation arch="Windows-*" main="KeePass.exe" id="sha1new=c4a9b9c8d62d30c983189766a8e6862b862fff34">
+        <manifest-digest sha1new="c4a9b9c8d62d30c983189766a8e6862b862fff34" sha256="f1517586360cd17eddb8ffb053c1637482e64d149279542d108308b87ae48c57" sha256new="6FIXLBRWBTIX5XNY76YFHQLDOSBOMTIUSJ4VILIQQMELQ6XERRLQ" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.00.zip" size="449158" type="application/zip" />
+      </implementation>
+      <implementation arch="Windows-src" id="sha1new=f31ba80c2b016d07ab78adae4979b8d9a1ed5526">
+        <manifest-digest sha1new="f31ba80c2b016d07ab78adae4979b8d9a1ed5526" sha256="2c24306d3e8efce7772f48c0b79d5e363947c1286f9940ed77c59e91e52a877b" sha256new="FQSDA3J6R36OO5ZPJDALPHK6GY4UPQJIN6MUB3LXYWPJDZJKQ55Q" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.00-Src.zip" size="1785236" type="application/zip" />
+      </implementation>
+    </group>
+    <group version="1.1" released="2005-08-16" stability="stable">
+      <implementation arch="Windows-*" main="KeePass.exe" id="sha1new=9851c26f1d0c0377d6b3e3620caf421a10734822">
+        <manifest-digest sha1new="9851c26f1d0c0377d6b3e3620caf421a10734822" sha256="51b64d26f01244963e6ac291579ed096ffd97975e8dab3424930254698c7742a" sha256new="KG3E2JXQCJCJMPTKYKIVPHWQS375S6LV5DNLGQSJGASUNGGHOQVA" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.01.zip" size="445195" type="application/zip" />
+      </implementation>
+      <implementation arch="Windows-src" id="sha1new=39eb05974d2af716e67b699a8e1af7ce1a302df9">
+        <manifest-digest sha1new="39eb05974d2af716e67b699a8e1af7ce1a302df9" sha256="a1d154572cc0082d31a2a4871eda8b56012ff27bded7493025c92d333070a572" sha256new="UHIVIVZMYAEC2MNCUSDR5WULKYAS74T333LUSMBFZEWTGMDQUVZA" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.01-Src.zip" size="1861461" type="application/zip" />
+      </implementation>
+    </group>
+    <group version="1.2" released="2005-09-05" stability="stable">
+      <implementation arch="Windows-*" main="KeePass.exe" id="sha1new=17863414563bb334fbc37ee26f4fa8dafeff8a1d">
+        <manifest-digest sha1new="17863414563bb334fbc37ee26f4fa8dafeff8a1d" sha256="2188118dab71422cb3c39086ca8aa254459f173a5d29f7e96eb98e64c68cdab1" sha256new="EGEBDDNLOFBCZM6DSCDMVCVCKRCZ6FZ2LUU7P2LOXGHGJRUM3KYQ" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.02.zip" size="560802" type="application/zip" />
+      </implementation>
+      <implementation arch="Windows-src" id="sha1new=b5965b4cc0f5b7359a2cc3f62d1ace90d08d87ea">
+        <manifest-digest sha1new="b5965b4cc0f5b7359a2cc3f62d1ace90d08d87ea" sha256="ba5fa3e43a51740355e17a72bef92dd425db7312ef7191b1fe6382166927b1e5" sha256new="XJP2HZB2KF2AGVPBPJZL56JN2QS5W4YS55YZDMP6MOBBM2JHWHSQ" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.02-Src.zip" size="2047484" type="application/zip" />
+      </implementation>
+    </group>
+    <group version="1.3" released="2005-09-10" stability="stable">
+      <implementation arch="Windows-*" main="KeePass.exe" id="sha1new=42976bf5590468a834a612df8dd7f037c6b7daae">
+        <manifest-digest sha1new="42976bf5590468a834a612df8dd7f037c6b7daae" sha256="e1383a1ec67d50be75c899ebec7fd6443ca9ed17991b4a0eefd0d1526dc1b9f5" sha256new="4E4DUHWGPVIL45OITHV6Y76WIQ6KT3IXTENUUDXP2DIVE3OBXH2Q" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.03.zip" size="563262" type="application/zip" />
+      </implementation>
+      <implementation arch="Windows-src" id="sha1new=e8db8e3d956007edaacd528b1aa974325714f3b2">
+        <manifest-digest sha1new="e8db8e3d956007edaacd528b1aa974325714f3b2" sha256="76e7fd07331b885fb4ccf05637ae29e5af1d3a7c2c02e37259fb18aa4834b8b2" sha256new="O3T72BZTDOEF7NGM6BLDPLRJ4WXR2OT4FQBOG4SZ7MMKUSBUXCZA" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.03-Src.zip" size="2088018" type="application/zip" />
+      </implementation>
+    </group>
+    <group version="1.4" released="2006-01-02" stability="stable">
+      <implementation arch="Windows-*" main="KeePass.exe" id="sha1new=9fc6b7e95b883e70c4d0c3895a4ae7f1b62c9e11">
+        <manifest-digest sha1new="9fc6b7e95b883e70c4d0c3895a4ae7f1b62c9e11" sha256="16d34d58c5bbcbab6314441bcfcac44c486a39f62518762bff43e37d7ef0a294" sha256new="C3JU2WGFXPF2WYYUIQN47SWEJREGUOPWEUMHMK77IPRX27XQUKKA" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.04.zip" size="620188" type="application/zip" />
+      </implementation>
+      <implementation arch="Windows-src" id="sha1new=9c871cda27952929e17b1f4b4e567bacba68cd4f">
+        <manifest-digest sha1new="9c871cda27952929e17b1f4b4e567bacba68cd4f" sha256="8016ded898ab236a4890acef84fb27508111e5454c6dfb57994a06fc7baab568" sha256new="QALN5WEYVMRWUSEQVTXYJ6ZHKCARDZKFJRW7WV4ZJIDPY65KWVUA" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.04-Src.zip" size="2007301" type="application/zip" />
+      </implementation>
+    </group>
+    <group version="1.5" released="2006-05-19" stability="stable">
+      <implementation arch="Windows-*" main="KeePass.exe" id="sha1new=0d4fb4e715234c47472577b3e186a4df75e25491">
+        <manifest-digest sha1new="0d4fb4e715234c47472577b3e186a4df75e25491" sha256="a2ea213b1bbd4e4c0a7940e38916031539fb78da43081f6b8e379dc3a9059ad2" sha256new="ULVCCOY3XVHEYCTZIDRYSFQDCU47W6G2IMEB624OG6O4HKIFTLJA" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.05.zip" size="696836" type="application/zip" />
+      </implementation>
+      <implementation arch="Windows-src" id="sha1new=8c9453abe24c51e24f3832b5d86f9a7bb5605c86">
+        <manifest-digest sha1new="8c9453abe24c51e24f3832b5d86f9a7bb5605c86" sha256="0ffbb949a4a15b7e69744b1953082910caca6a07abc130efa98d59db9422d60d" sha256new="B753SSNEUFNX42LUJMMVGCBJCDFMU2QHVPATB35JRVM5XFBC2YGQ" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.05-Src.zip" size="1750363" type="application/zip" />
+      </implementation>
+    </group>
+    <group version="1.6" released="2006-10-14" stability="stable">
+      <implementation arch="Windows-*" main="KeePass.exe" id="sha1new=df9948489ca6ac5c0daa872ad7c5902dde5c5c2e">
+        <manifest-digest sha1new="df9948489ca6ac5c0daa872ad7c5902dde5c5c2e" sha256="5a0472a17213de8176b0c27d7638035e68aeb05ade2dce84f7ad62609c2a0b9b" sha256new="LICHFILSCPPIC5VQYJ6XMOADLZUK5MC23YW45BHXVVRGBHBKBONQ" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.06.zip" size="713119" type="application/zip" />
+      </implementation>
+      <implementation arch="Windows-src" id="sha1new=e58f0084accfe841341189bfb0ef32ccff5bc5fa">
+        <manifest-digest sha1new="e58f0084accfe841341189bfb0ef32ccff5bc5fa" sha256="12309aa61d6c20a7a13c9f88fc9a1e5e1ca4ec2099bbd36d17e0af10ccfdd385" sha256new="CIYJVJQ5NQQKPIJ4T6EPZGQ6LYOKJ3BATG55G3IX4CXRBTH52OCQ" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.06-Src.zip" size="1448631" type="application/zip" />
+      </implementation>
+    </group>
+    <group version="1.7" released="2007-04-16" stability="stable">
+      <implementation arch="Windows-*" main="KeePass.exe" id="sha1new=6cefbf315eeb908df190c9ab587310b3843a08cc">
+        <manifest-digest sha1new="6cefbf315eeb908df190c9ab587310b3843a08cc" sha256="c4b90d180da004a60717341ef06ad9d2f8f3d530ed58ae558c20c50672ce5b58" sha256new="YS4Q2GANUACKMBYXGQPPA2WZ2L4PHVJQ5VMK4VMMEDCQM4WOLNMA" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.07.zip" size="885730" type="application/zip" />
+      </implementation>
+      <implementation arch="Windows-src" id="sha1new=5a00f59dbb3fc0415e8a88a7bb8afc6596dec7cb">
+        <manifest-digest sha1new="5a00f59dbb3fc0415e8a88a7bb8afc6596dec7cb" sha256="9cd0cf6f2c7148621521304ce2fab0ed256472843a20f84d236defbf42ab92f1" sha256new="TTIM63ZMOFEGEFJBGBGOF6VQ5USWI4UEHIQPQTJDNXX36QVLSLYQ" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.07-Src.zip" size="1316685" type="application/zip" />
+      </implementation>
+    </group>
+    <group version="1.8" released="2007-09-01" stability="stable">
+      <implementation arch="Windows-*" main="KeePass.exe" id="sha1new=0c902da2575b84038e06cbb1a2f8ecdeb5386c89">
+        <manifest-digest sha1new="0c902da2575b84038e06cbb1a2f8ecdeb5386c89" sha256="b00a893cedd7d0ac51e855fb166b52aec2863e9d904fad39d27c42844507072d" sha256new="WAFISPHN27IKYUPIKX5RM22SV3BIMPU5SBH22OOSPRBIIRIHA4WQ" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.08.zip" size="901848" type="application/zip" />
+      </implementation>
+      <implementation arch="Windows-src" id="sha1new=ef18c9bb90c78980151468f9eea4f37654eecaaa">
+        <manifest-digest sha1new="ef18c9bb90c78980151468f9eea4f37654eecaaa" sha256="4f84ccc82e07fa7ce8bdf1c6ca4f92608d83764eafce8f6203ca2b9b3aaee9f2" sha256new="J6CMZSBOA75HZ2F56HDMUT4SMCGYG5SOV7HI6YQDZIVZWOVO5HZA" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.08-Src.zip" size="1336225" type="application/zip" />
+      </implementation>
+    </group>
+    <group version="1.9" released="2007-10-12" stability="stable">
+      <implementation arch="Windows-*" main="KeePass.exe" id="sha1new=05c852abcb6b741e9f627ff09c1aa4c0e07831f9">
+        <manifest-digest sha1new="05c852abcb6b741e9f627ff09c1aa4c0e07831f9" sha256="1d5cfb0318c9a7c7c5107dbb92dbf116adef71c4fa09da6b3a608bc1ec98ad91" sha256new="DVOPWAYYZGT4PRIQPW5ZFW7RC2W664OE7IE5U2Z2MCF4D3EYVWIQ" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.09.zip" size="941190" type="application/zip" />
+      </implementation>
+      <implementation arch="Windows-src" id="sha1new=75f0d428525564942bd12bfdcf8abed04eded8a3">
+        <manifest-digest sha1new="75f0d428525564942bd12bfdcf8abed04eded8a3" sha256="04145f23bbb7b8a060bfa33db988d5376d69939dd6b61ea7b5791fd6b82b5a32" sha256new="AQKF6I53W64KAYF7UM63TCGVG5WWTE45223B5J5VPEP5NOBLLIZA" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.09-Src.zip" size="1301863" type="application/zip" />
+      </implementation>
+    </group>
+    <group version="1.10" released="2008-01-12" stability="stable">
+      <implementation arch="Windows-*" main="KeePass.exe" id="sha1new=d86ed419fabeabf235e0901723af9475e90113ec">
+        <manifest-digest sha1new="d86ed419fabeabf235e0901723af9475e90113ec" sha256="375ca9273b78a6909508d4b33a492860e8e1ac170b9af5b5bc9e60d6ae9ab12f" sha256new="G5OKSJZ3PCTJBFII2SZTUSJIMDUODLAXBONPLNN4TZQNNLU2WEXQ" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.10.zip" size="993890" type="application/zip" />
+      </implementation>
+      <implementation arch="Windows-src" id="sha1new=91cbbc3412f54b036ee6757b22b3962cf233bd80">
+        <manifest-digest sha1new="91cbbc3412f54b036ee6757b22b3962cf233bd80" sha256="0ff45328704d92690bf262736976cf046b5ef408886da3f250ee4b0cafdf6aef" sha256new="B72FGKDQJWJGSC7SMJZWS5WPARVV55AIRBW2H4SQ5ZFQZL67NLXQ" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.10-Src.zip" size="1325553" type="application/zip" />
+      </implementation>
+    </group>
+    <group version="1.11" released="2008-04-12" stability="stable">
+      <implementation arch="Windows-*" main="KeePass.exe" id="sha1new=345063a812d821b48a7afbee5520336d7781451f">
+        <manifest-digest sha1new="345063a812d821b48a7afbee5520336d7781451f" sha256="09691d6f903ad4c438ab9a3f6a406682a45371be250a2e2410fedce82fbe61c4" sha256new="BFUR234QHLKMIOFLTI7WUQDGQKSFG4N6EUFC4JAQ73OOQL56MHCA" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.11.zip" size="1021638" type="application/zip" />
+      </implementation>
+      <implementation arch="Windows-src" id="sha1new=6632fba9413758c4be9b334e1c0ade953ea64c45">
+        <manifest-digest sha1new="6632fba9413758c4be9b334e1c0ade953ea64c45" sha256="d07be4aa420ba0f0341fa8c1176868e1fac82656dabb7339a060dfc11bab06b7" sha256new="2B56JKSCBOQPANA7VDARO2DI4H5MQJSW3K5XGONAMDP4CG5LA23Q" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.11-Src.zip" size="1349968" type="application/zip" />
+      </implementation>
+    </group>
+    <group version="1.12" released="2008-08-14" stability="stable">
+      <implementation arch="Windows-*" main="KeePass.exe" id="sha1new=0f417f3ffdd2d39f7e7b772d44a0e335aeddf78a">
+        <manifest-digest sha1new="0f417f3ffdd2d39f7e7b772d44a0e335aeddf78a" sha256="97bc3e39431a51d100bcf307fd9046b8e32d15c0a97c8e20580600bdb8586ff0" sha256new="S66D4OKDDJI5CAF46MD73ECGXDRS2FOAVF6I4ICYAYAL3OCYN7YA" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.12.zip" size="1045940" type="application/zip" />
+      </implementation>
+      <implementation arch="Windows-src" id="sha1new=e9726f001f9ab3b210c4b5017cd986e46cd1b0d8">
+        <manifest-digest sha1new="e9726f001f9ab3b210c4b5017cd986e46cd1b0d8" sha256="984231c8406aff2f7297c15c290a93ab19452219b2e4f8db17dee024bb059cfe" sha256new="TBBDDSCANL7S64UXYFOCSCUTVMMUKIQZWLSPRWYX33QCJOYFTT7A" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.12-Src.zip" size="1365375" type="application/zip" />
+      </implementation>
+    </group>
+    <group version="1.13" released="2008-09-05" stability="stable">
+      <implementation arch="Windows-*" main="KeePass.exe" id="sha1new=f3e1acb01d938fbfdb3f346156f0847f75c201f9">
+        <manifest-digest sha1new="f3e1acb01d938fbfdb3f346156f0847f75c201f9" sha256="dca0258213fbd5da93ee4ef2e9be16b253d7c3e6adcbe3fd912ccf625035e29c" sha256new="3SQCLAQT7PK5VE7OJ3ZOTPQWWJJ5PQ7GVXF6H7MRFTHWEUBV4KOA" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.13.zip" size="1049488" type="application/zip" />
+      </implementation>
+      <implementation arch="Windows-src" id="sha1new=dc5fc9db7f82be1edd9e49470f4d449705c94bf3">
+        <manifest-digest sha1new="dc5fc9db7f82be1edd9e49470f4d449705c94bf3" sha256="591f9f632bc5353ac70f3b6519eb86a2a536809f1dbebd283b873182ead57c5c" sha256new="LEPZ6YZLYU2TVRYPHNSRT24GUKSTNAE7DW7L2KB3Q4YYF2WVPROA" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.13-Src.zip" size="1373543" type="application/zip" />
+      </implementation>
+    </group>
+    <group version="1.14" released="2008-10-15" stability="stable">
+      <implementation arch="Windows-*" main="KeePass.exe" id="sha1new=6b3d3a1fc0d5fc7b0a468400405bd2ff34350a1e">
+        <manifest-digest sha1new="6b3d3a1fc0d5fc7b0a468400405bd2ff34350a1e" sha256="214c81683768b3e2dfeb0b431805cada20189987b4f120edfa29dc16cf44f52b" sha256new="EFGIC2BXNCZ6FX7LBNBRQBOK3IQBRGMHWTYSB3P2FHOBNT2E6UVQ" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.14.zip" size="1052089" type="application/zip" />
+      </implementation>
+      <implementation arch="Windows-src" id="sha1new=a2599be5a2ce827dcd567cd065e1908320d1b2fa">
+        <manifest-digest sha1new="a2599be5a2ce827dcd567cd065e1908320d1b2fa" sha256="9d7bf275cc98a74be8eda6d2f6d03416ed5a22cee9ac79094ccd0b557bb2b71a" sha256new="TV57E5OMTCTUX2HNU3JPNUBUC3WVUIWO5GWHSCKMZUFVK65SW4NA" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.14-Src.zip" size="1379749" type="application/zip" />
+      </implementation>
+    </group>
+    <group version="1.15" released="2009-02-11" stability="stable">
+      <implementation arch="Windows-*" main="KeePass.exe" id="sha1new=19f9a070a4f4a598e42a848b2fbbc72d653e4064">
+        <manifest-digest sha1new="19f9a070a4f4a598e42a848b2fbbc72d653e4064" sha256="32edb534f67a6c2ed45a82aaa521a6c215336da3a37a23641efbb310469dbe5d" sha256new="GLW3KNHWPJWC5VC2QKVKKINGYIKTG3NDUN5CGZA67OZRARU5XZOQ" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.15.zip" size="1146176" type="application/zip" />
+      </implementation>
+      <implementation arch="Windows-src" id="sha1new=eab748767c168217440dd294e8415b1c1e2faa8b">
+        <manifest-digest sha1new="eab748767c168217440dd294e8415b1c1e2faa8b" sha256="6169a083aab9eaf565746f597842a0caf3b848fea55510efa9b806d4be825b9a" sha256new="MFU2BA5KXHVPKZLUN5MXQQVAZLZ3QSH6UVKRB35JXADNJPUCLONA" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.15-Src.zip" size="1431219" type="application/zip" />
+      </implementation>
+    </group>
+    <group version="1.16" released="2009-06-06" stability="stable">
+      <implementation arch="Windows-*" main="KeePass.exe" id="sha1new=237ab47851262dce25d1a94afcc37bef25edf18e">
+        <manifest-digest sha1new="237ab47851262dce25d1a94afcc37bef25edf18e" sha256="40fd936965f689779a917b9364a80b0ccec2f619d6c4dffb07df6d04df09540b" sha256new="ID6ZG2LF62EXPGURPOJWJKALBTHMF5QZ23CN76YH35WQJXYJKQFQ" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.16.zip" size="1168426" type="application/zip" />
+      </implementation>
+      <implementation arch="Windows-src" id="sha1new=017ca43269a3b6f7cc99ad6128cee8502f1d9f65">
+        <manifest-digest sha1new="017ca43269a3b6f7cc99ad6128cee8502f1d9f65" sha256="d743add59e9b34b4115aeabd9353f13321348889ea196c7f8026bf5c9ed04519" sha256new="25B23VM6TM2LIEK25K6ZGU7RGMQTJCEJ5IMWY74AE27VZHWQIUMQ" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.16-Src.zip" size="1453920" type="application/zip" />
+      </implementation>
+    </group>
+    <group version="1.17" released="2009-12-05" stability="stable">
+      <implementation arch="Windows-*" main="KeePass.exe" id="sha1new=761d04f12b5353f544ad5acc34d924b15d2c4837">
+        <manifest-digest sha1new="761d04f12b5353f544ad5acc34d924b15d2c4837" sha256="e2d611216a1911af2cef3a4a328e8b424a630a9c74ed072deda279ee9d631fbd" sha256new="4LLBCILKDEI26LHPHJFDFDULIJFGGCU4OTWQOLPNUJ465HLDD66Q" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.17.zip" size="1148170" type="application/zip" />
+      </implementation>
+      <implementation arch="Windows-src" id="sha1new=e923d8018158b614fc5ff869349f35ee02e11647">
+        <manifest-digest sha1new="e923d8018158b614fc5ff869349f35ee02e11647" sha256="aa996a8d8dce4f1199518442fa282f105df84553b451291fff1a3c0b5f552095" sha256new="VKMWVDMNZZHRDGKRQRBPUKBPCBO7QRKTWRISSH77DI6AWX2VECKQ" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.17-Src.zip" size="1472608" type="application/zip" />
+      </implementation>
+    </group>
+    <group version="1.18" released="2010-09-02" stability="stable">
+      <implementation arch="Windows-*" main="KeePass.exe" id="sha1new=a1161287929e2314944f5cc944090e8454db7b4a">
+        <manifest-digest sha1new="a1161287929e2314944f5cc944090e8454db7b4a" sha256="a1d067563765607c4c5b9f15ae3d599e891bc84f1ae8dde870e84848a1426b25" sha256new="UHIGOVRXMVQHYTC3T4K24PKZT2ERXSCPDLUN32DQ5BEERIKCNMSQ" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.18.zip" size="1159969" type="application/zip" />
+      </implementation>
+      <implementation arch="Windows-src" id="sha1new=1d2951417e7bb6b8ff2302b0af485a864d9dd5b4">
+        <manifest-digest sha1new="1d2951417e7bb6b8ff2302b0af485a864d9dd5b4" sha256="fbae838945b09216a0d86127a2409c8521f6a945a9027c1b8a8cb0a857088adc" sha256new="7OXIHCKFWCJBNIGYMET2EQE4QUQ7NKKFVEBHYG4KRSYKQVYIRLOA" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.18-Src.zip" size="1490154" type="application/zip" />
+      </implementation>
+    </group>
+    <group version="1.19" released="2011-04-03" stability="stable">
+      <implementation arch="Windows-*" main="KeePass.exe" id="sha1new=953947ca52d5e13e5a8921b3584737c590a1d66e">
+        <manifest-digest sha1new="953947ca52d5e13e5a8921b3584737c590a1d66e" sha256="8f755a5f217b92d68d1670f2a7a1eb6ffe070ef65a2df787d5590b73c48101e3" sha256new="R52VUXZBPOJNNDIWODZKPIPLN77AODXWLIW7PB6VLEFXHREBAHRQ" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.19.zip" size="1172248" type="application/zip" />
+      </implementation>
+      <implementation arch="Windows-src" id="sha1new=ff16fa2d3a71a44ae40bcb4fe353be91869a746c">
+        <manifest-digest sha1new="ff16fa2d3a71a44ae40bcb4fe353be91869a746c" sha256="245a1ba03c1e99d256dde79837dd3d99db65cb9c0f448744e45e0c0d66bfe5c7" sha256new="ERNBXIB4D2M5EVW546MDPXJ5THNWLS44B5CIORHELYGA2ZV74XDQ" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.19-Src.zip" size="1496204" type="application/zip" />
+      </implementation>
+    </group>
+    <group version="1.20" released="2011-06-28" stability="stable">
+      <implementation arch="Windows-*" main="KeePass.exe" id="sha1new=b34caf1518d5c6d706ba604807215e4698a15587">
+        <manifest-digest sha1new="b34caf1518d5c6d706ba604807215e4698a15587" sha256="12acfe49653f03af8f6033f9d2489843409291892b805ca85d9fd255a060549b" sha256new="CKWP4SLFH4B27D3AGP45ESEYINAJFEMJFOAFZKC5T7JFLIDAKSNQ" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.20.zip" size="1159185" type="application/zip" />
+      </implementation>
+      <implementation arch="Windows-src" id="sha1new=e0a9458142064e91996a0b7af3c92c2cf4aedd04">
+        <manifest-digest sha1new="e0a9458142064e91996a0b7af3c92c2cf4aedd04" sha256="b14020feabe38da642b8c4445a756ff72c1ae19444c76c3dccc3cfe68c08fb38" sha256new="WFACB7VL4OG2MQVYYRCFU5LP64WBVYMUITDWYPOMYPH6NDAI7M4A" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.20-Src.zip" size="1509011" type="application/zip" />
+      </implementation>
+    </group>
+    <group version="1.21" released="2011-10-12" stability="stable">
+      <implementation arch="Windows-*" main="KeePass.exe" id="sha1new=40e192dfd71160bf24e8be95cf6070f1b57111a8">
+        <manifest-digest sha1new="40e192dfd71160bf24e8be95cf6070f1b57111a8" sha256="b575e4b49b8ac8d16a5fc27c53d3fbabe217c97af6ab6f7b11abc727edcd8afd" sha256new="WV26JNE3RLENC2S7YJ6FHU73VPRBPSL262VW66YRVPDSP3ONRL6Q" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.21.zip" size="1338050" type="application/zip" />
+      </implementation>
+      <implementation arch="Windows-src" id="sha1new=50f615e9c50e5ad831074ebd210cf1cdad69edc3">
+        <manifest-digest sha1new="50f615e9c50e5ad831074ebd210cf1cdad69edc3" sha256="636caa3cda87de2f246fe0227e0bf19223c505516385422e2e050925803ad0ea" sha256new="MNWKUPG2Q7PC6JDP4ARH4C7RSIR4KBKRMOCUELROAUESLAB22DVA" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.21-Src.zip" size="1524241" type="application/zip" />
+      </implementation>
+    </group>
+    <group version="1.22" released="2012-04-20" stability="stable">
+      <implementation arch="Windows-*" main="KeePass.exe" id="sha1new=a93742785c4812651ffded3dbe2f1a4a898168b7">
+        <manifest-digest sha1new="a93742785c4812651ffded3dbe2f1a4a898168b7" sha256="0999e66eaf8c609a39fe240d855ba7366ed19103f5620931b9f08e8f730cd31b" sha256new="BGM6M3VPRRQJUOP6EQGYKW5HGZXNDEID6VRASMNZ6CHI64YM2MNQ" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.22.zip" size="1373512" type="application/zip" />
+      </implementation>
+      <implementation arch="Windows-src" id="sha1new=67e127d164cc7e00cf9e038c9cebdb0adf109787">
+        <manifest-digest sha1new="67e127d164cc7e00cf9e038c9cebdb0adf109787" sha256="d1d2f41072d3d0ad3a7adb7e2c7abffdebf574e9e0fb487d55db8c0042389029" sha256new="2HJPIEDS2PIK2OT23N7CY6V77XV7K5HJ4D5UQ7KV3OGAAQRYSAUQ" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.22-Src.zip" size="1526612" type="application/zip" />
+      </implementation>
+    </group>
+    <group version="1.23" released="2012-07-01" stability="stable">
+      <implementation arch="Windows-*" main="KeePass.exe" id="sha1new=e1c55305610dc9a277f0fc87eba4d28d3bf96671">
+        <manifest-digest sha1new="e1c55305610dc9a277f0fc87eba4d28d3bf96671" sha256="aaaa898a99652cde7d5ad972ac8211498b9156d67e52b7a05a6a6d90f98a5db3" sha256new="VKVITCUZMUWN47K23FZKZAQRJGFZCVWWPZJLPIC2NJWZB6MKLWZQ" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.23.zip" size="1378685" type="application/zip" />
+      </implementation>
+      <implementation arch="Windows-src" id="sha1new=502cdbc7877f62d3004da91d8a9d2e184e9cce4c">
+        <manifest-digest sha1new="502cdbc7877f62d3004da91d8a9d2e184e9cce4c" sha256="c21ca7baae8bbf7ba48b54af642aeaaf5a59826c54c16e06811484b66a0a08a8" sha256new="YIOKPOVORO7XXJELKSXWIKXKV5NFTATMKTAW4BUBCSCLM2QKBCUA" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.23-Src.zip" size="1528154" type="application/zip" />
+      </implementation>
+    </group>
+    <group version="1.24" released="2012-09-01" stability="stable">
+      <implementation arch="Windows-*" main="KeePass.exe" id="sha1new=b9cc6b3062e26174f2d35c527c027b20dc5651f8">
+        <manifest-digest sha1new="b9cc6b3062e26174f2d35c527c027b20dc5651f8" sha256="8c34cfd3c6e45af1e19c4e1c6f2e68143e7588d2697e8786aaf2a8384ff21895" sha256new="RQ2M7U6G4RNPDYM4JYOG6LTICQ7HLCGSNF7IPBVK6KUDQT7SDCKQ" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.24.zip" size="1454068" type="application/zip" />
+      </implementation>
+      <implementation arch="Windows-src" id="sha1new=7f5e2a01588ab881399f89ca1c5101fc29a11174">
+        <manifest-digest sha1new="7f5e2a01588ab881399f89ca1c5101fc29a11174" sha256="a2d987fb9f62296714d25c20ea33d0be89847689807e87e0c92fdd3406b53476" sha256new="ULMYP647MIUWOFGSLQQOUM6QX2EYI5UJQB7IPYGJF7OTIBVVGR3A" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.24-Src.zip" size="1536301" type="application/zip" />
+      </implementation>
+    </group>
+    <group version="1.25" released="2013-01-20" stability="stable">
+      <implementation arch="Windows-*" main="KeePass.exe" id="sha1new=a8bd4eca4f84a861b184912e4291a6c271a27e60">
+        <manifest-digest sha1new="a8bd4eca4f84a861b184912e4291a6c271a27e60" sha256="ddfe3f755a95d95152f242b85c258f808a891a50b58b68288db726da6db190bb" sha256new="3X7D65K2SXMVCUXSIK4FYJMPQCFISGSQWWFWQKENW4TNU3NRSC5Q" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.25.zip" size="1459178" type="application/zip" />
+      </implementation>
+      <implementation arch="Windows-src" id="sha1new=bd03096c0e6fd49d7a073f635d318dc5edb23e73">
+        <manifest-digest sha1new="bd03096c0e6fd49d7a073f635d318dc5edb23e73" sha256="5dd3c7cac0481045648b1b6eb8d2c41f61ca60896809b418a23bc89d09701544" sha256new="LXJ4PSWAJAIEKZELDNXLRUWED5Q4UYEJNAE3IGFCHPEJ2CLQCVCA" />
+        <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.25-Src.zip" size="1542186" type="application/zip" />
+      </implementation>
+    </group>
+  </group>
+  <entry-point command="run" binary-name="KeePass" />
+  <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <file-type id="kdbfile">
+      <description xml:lang="en">KeePass Classic Password Database</description>
+      <description xml:lang="de">KeePass Classic Passwortdatenbank</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".kdb" />
+    </file-type>
+  </capabilities>
+</interface>

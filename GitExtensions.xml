@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/GitExtensions.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>GitExtensions</name>
+  <summary xml:lang="en">GitExtensions is a graphical interface for Git</summary>
+  <summary xml:lang="de">GitExtensions ist eine grafische Oberfläche für Git</summary>
+  <homepage>https://github.com/gitextensions/gitextensions</homepage>
+  <icon href="http://0install.de/feed-icons/GitExtensions.ico" type="image/vnd.microsoft.icon" />
+  <icon href="http://0install.de/feed-icons/GitExtensions.png" type="image/png" />
+  <category>Development</category>
+  <group>
+    <requires interface="http://0install.de/feeds/msysgit.xml" os="Windows" />
+    <requires interface="http://0install.de/feeds/PuTTY.xml" os="Windows" importance="recommended" />
+    <requires interface="http://0install.de/feeds/NotepadPlusPlus.xml" os="Windows" importance="recommended">
+      <environment name="EDITOR" value="notepad++ -multiInst -nosession" mode="replace" />
+      <executable-in-path name="notepad++" />
+    </requires>
+    <command name="run" path="GitExtensions.exe">
+      <runner interface="http://0install.de/feeds/cli/cli.xml" />
+    </command>
+    <command name="translate" path="TranslateApp.exe">
+      <runner interface="http://0install.de/feeds/cli/cli.xml" />
+    </command>
+    <implementation version="2.47.3" id="sha1new=bb31e94a176a828a783be06adf48a7285867043b">
+      <manifest-digest sha1new="bb31e94a176a828a783be06adf48a7285867043b" sha256="d034482ff5ef5699e0396f43a6399ce8f055464f125881c8fa1a9cd204aa6d8d" sha256new="2A2EQL7V55LJTYBZN5B2MOM45DYFKRSPCJMIDSH2DKONEBFKNWGQ" />
+      <archive href="https://gitextensions.googlecode.com/files/GitExtensions24703Mono.zip" size="9598384" type="application/zip" extract="GitExtensions" />
+    </implementation>
+  </group>
+  <entry-point command="run" binary-name="GitExtensions">
+    <name xml:lang="en">GitExtensions</name>
+  </entry-point>
+  <entry-point command="translate" binary-name="TranslationApp">
+    <name xml:lang="en">GitExtensions Translate</name>
+    <name xml:lang="de">GitExtensions Übersetzen</name>
+    <summary xml:lang="en">GUI for creating GitExtensions translation files</summary>
+    <summary xml:lang="de">GUI zum Erstellen von GitExtensions Übersetzungsdateien</summary>
+  </entry-point>
+  <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <url-protocol id="github-windows">
+      <description xml:lang="en">URL: Github for Windows Protocol</description>
+      <verb name="open" args="%1" />
+    </url-protocol>
+    <url-protocol id="git">
+      <description xml:lang="en">URL: Github for Windows Protocol</description>
+      <verb name="open" args="%1" />
+    </url-protocol>
+    <context-menu id="gitex-browse" target="directories">
+      <verb name="gitex_browse" args="browse &quot;%1&quot;">
+        <description xml:lang="en">GitExtensions Browse</description>
+      </verb>
+    </context-menu>
+    <context-menu id="gitex-clone" target="directories">
+      <verb name="gitex_clone" args="clone &quot;%1&quot;">
+        <description xml:lang="en">GitExtensions Clone</description>
+      </verb>
+    </context-menu>
+  </capabilities>
+</interface>

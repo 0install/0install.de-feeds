@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/IronPython.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>IronPython</name>
+  <summary xml:lang="en">implementation of Python running under .NET/Mono</summary>
+  <summary xml:lang="de">Implementierung von Python die unter .NET/Mono läuft</summary>
+  <description xml:lang="en">IronPython is an implementation of the Python programming language running under .NET/Mono and Silverlight/Moonlight. It supports an interactive console with fully dynamic compilation. It's well integrated with the rest of the .NET Framework and makes all .NET libraries easily available to Python programmers, while maintaining compatibility with the Python language. There also is Visual Studio tooling integration.</description>
+  <description xml:lang="de">IronPython ist eine Implementierung der Programmiersprache Python die unter .NET/Mono und Silverlight/Moonlight läuft. Es unterstüzt eine interaktive Konsole mit voller dynamischer Kompilierung. Es ist gut in den Rest des .NET Framework integriert und macht Pythonprogrammierern alle .NET Bibliotheken einfach verfügbar, während es die Kompatiblität mit der Sprache Python aufrechterhält.</description>
+  <homepage>http://ironpython.net/</homepage>
+  <icon href="http://0install.de/feed-icons/IronPython.png" type="image/png" />
+  <icon href="http://0install.de/feed-icons/IronPython.ico" type="image/vnd.microsoft.icon" />
+  <group license="The Apache License v2">
+    <group arch="Windows-x86_64">
+      <command name="run" path="ipy64.exe">
+        <runner interface="http://0install.de/feeds/cli/netfx.xml" />
+      </command>
+      <command name="ipyw" path="ipyw64.exe">
+        <runner interface="http://0install.de/feeds/cli/netfx.xml" />
+      </command>
+      <implementation version="2.6.2" released="2010-10-21" stability="stable" id="v262_x64">
+        <manifest-digest sha1new="733f19e64d46ae61841845d880907f8317dac33d" sha256="6cb1b019512da2d93c6917a801d8376628e281f5c0cd522153c575f141daeba7" sha256new="NSY3AGKRFWRNSPDJC6UADWBXMYUOFAPVYDGVEIKTYV27CQO25OTQ" />
+        <archive href="http://0install.de/files/hosted/IronPython-2.6.2-Bin-Net20.zip" size="2997345" type="application/zip" extract="IronPython-2.6.2" />
+      </implementation>
+      <implementation version="2.7.3" released="2012-07-06" stability="stable" id="v273_x64">
+        <manifest-digest sha1new="317103526b3c028055325ada3d95833e18b109e5" sha256="e9d6a623ac5af6955c32552a4e8e6a1c22ddcd9327195aafed79238268e9a17a" sha256new="5HLKMI5MLL3JKXBSKUVE5DTKDQRN3TMTE4MVVL7NPERYE2HJUF5A" />
+        <archive href="http://0install.de/files/hosted/IronPython-2.7.3.zip" size="11293317" type="application/zip" extract="IronPython-2.7.3" />
+      </implementation>
+    </group>
+    <group>
+      <command name="run" path="ipy.exe">
+        <runner interface="http://0install.de/feeds/cli/cli.xml" />
+      </command>
+      <command name="ipyw" path="ipyw.exe">
+        <runner interface="http://0install.de/feeds/cli/cli.xml" />
+      </command>
+      <implementation version="2.6.2" released="2010-10-21" stability="stable" id="v262_x86">
+        <manifest-digest sha1new="733f19e64d46ae61841845d880907f8317dac33d" sha256="6cb1b019512da2d93c6917a801d8376628e281f5c0cd522153c575f141daeba7" sha256new="NSY3AGKRFWRNSPDJC6UADWBXMYUOFAPVYDGVEIKTYV27CQO25OTQ" />
+        <archive href="http://0install.de/files/hosted/IronPython-2.6.2-Bin-Net20.zip" size="2997345" type="application/zip" extract="IronPython-2.6.2" />
+      </implementation>
+      <implementation version="2.7.3" released="2012-07-06" stability="stable" id="v273_x86">
+        <manifest-digest sha1new="317103526b3c028055325ada3d95833e18b109e5" sha256="e9d6a623ac5af6955c32552a4e8e6a1c22ddcd9327195aafed79238268e9a17a" sha256new="5HLKMI5MLL3JKXBSKUVE5DTKDQRN3TMTE4MVVL7NPERYE2HJUF5A" />
+        <archive href="http://0install.de/files/hosted/IronPython-2.7.3.zip" size="11293317" type="application/zip" extract="IronPython-2.7.3" />
+      </implementation>
+    </group>
+  </group>
+  <package-implementation main="/usr/bin/ipy" package="ironpython" distributions="Debian" />
+  <entry-point command="run" binary-name="ipy">
+    <needs-terminal />
+    <name xml:lang="en">IronPython command-line interpreter</name>
+    <name xml:lang="de">IronPython Kommandozeileninterpreter</name>
+  </entry-point>
+  <entry-point command="ipyw" binary-name="ipyw">
+    <name xml:lang="en">IronPython grafical interpreter</name>
+    <name xml:lang="de">IronPython grafischer Interpreter</name>
+  </entry-point>
+  <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <file-type id="IronPython.File">
+      <description xml:lang="en">Python source code file</description>
+      <description xml:lang="de">Python Quellcodedatei</description>
+      <icon href="http://0install.de/feed-icons/IronPython_doc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".py" />
+    </file-type>
+  </capabilities>
+</interface>

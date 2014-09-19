@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/IconsExtract.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>IconsExtract</name>
+  <summary xml:lang="en">Extracts ICOs from EXE, DLL, OCX, CPL, and in other file types.</summary>
+  <summary xml:lang="de">Extrahiert ICOs aus EXE, DLL, OCX, CPL, und anderen Dateitypen.</summary>
+  <description xml:lang="en">The IconsExtract utility scans the files and folders on your computer, and extract the icons and cursors stored in EXE, DLL, OCX, CPL, and in other file types. You can save the extracted icons to ICO files (or CUR files for cursors), or copy the image of a single icon into the clipboard.</description>
+  <description xml:lang="de">Das IconsExtract Werkzeug scannt die Dateien und Ordner auf Ihrem Computer und extrahiert die Icons und Cursor die in EXE, DLL, OCX, CPL und anderen Dateitypen gespeichert sind. Sie können die extrahierten ICO-Dateien (oder CUR-Dateien bei Cursoren) speichen oder oder das Bild eines einzelnen Icons in die Zwischenablage kopieren.</description>
+  <homepage>http://www.nirsoft.net/utils/iconsext.html</homepage>
+  <icon href="http://0install.de/feed-icons/IconsExtract.png" type="image/png" />
+  <icon href="http://0install.de/feed-icons/IconsExtract.ico" type="image/vnd.microsoft.icon" />
+  <implementation langs="en" arch="Windows-*" version="1.47" released="2010-09-26" stability="stable" license="Freeware" main="iconsext.exe" id="sha1new=47fa98b853b740076d356c9103165b258b251c75">
+    <manifest-digest sha1new="47fa98b853b740076d356c9103165b258b251c75" sha256="110a575639bdf9e8d787c1b901ab98bd76d5b9f8c30b1321b5e4691b022700bf" sha256new="CEFFOVRZXX46RV4HYG4QDK4YXV3NLOPYYMFRGINV4RURWARHAC7Q" />
+    <archive href="http://0install.de/files/hosted/IconsExtract_1.47.zip" size="34712" type="application/zip" />
+  </implementation>
+</interface>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/DVDStyler.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>DVDStyler</name>
+  <summary xml:lang="en">cross-platform free DVD authoring application</summary>
+  <description xml:lang="en">DVDStyler is a cross-platform free DVD authoring application for the creation of professional-looking DVDs. It allows not only burning of video files on DVD that can be played practically on any standalone DVD player, but also creation of individually designed DVD menus.</description>
+  <homepage>http://www.dvdstyler.org/</homepage>
+  <icon href="http://0install.de/feed-icons/DVDStyler.png" type="image/png" />
+  <icon href="http://0install.de/feed-icons/DVDStyler.ico" type="image/vnd.microsoft.icon" />
+  <category>AudioVideo</category>
+  <group license="GPL v2 (GNU General Public License)">
+    <group arch="Windows-*" main="bin/DVDStyler.exe">
+      <implementation version="2.4.2" stability="stable" id="sha1new=1798b3854b3a2574d29dd9918ca87071d72c4b06">
+        <manifest-digest sha1new="1798b3854b3a2574d29dd9918ca87071d72c4b06" sha256="fc1821a4797d9eaa2f7f7e524551fa48a6f2d5b1b77cd56b773accc6732df81d" sha256new="7QMCDJDZPWPKUL37PZJEKUP2JCTPFVNRW56NK23XHLGMM4ZN7AOQ" />
+        <archive href="http://0install.de/files/hosted/DVDStyler-2.4.2-win32.zip" size="34430108" type="application/zip" />
+      </implementation>
+      <implementation version="2.7.1" stability="stable" id="sha1new=31946fd2a98ea4ff63b00f98a14f6a37714900e1">
+        <manifest-digest sha1new="31946fd2a98ea4ff63b00f98a14f6a37714900e1" sha256="0116a335f72b169c671f2119a82830df6faf98c27b622c58bfdbc88169812d93" sha256new="AELKGNPXFMLJYZY7EEM2QKBQ35X27GGCPNRCYWF73PEIC2MBFWJQ" />
+        <archive href="http://0install.de/files/hosted/DVDStyler-2.7.1-win32.zip" size="29398714" type="application/zip" />
+      </implementation>
+    </group>
+  </group>
+  <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <file-type id="DVDStyler.Project">
+      <description xml:lang="en">DVDStyler Project</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".dvds" />
+    </file-type>
+    <file-type id="DVDStyler.Template">
+      <description xml:lang="en">DVDStyler Template</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".dvdt" />
+    </file-type>
+  </capabilities>
+</interface>

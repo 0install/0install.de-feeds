@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/VirtualDub.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>VirtualDub</name>
+  <summary xml:lang="en">video capture/processing utility for Windows platforms</summary>
+  <summary xml:lang="de">video Erfassungs- und Bearbeitungstool für Windows</summary>
+  <description xml:lang="en">VirtualDub is a video capture/processing utility for Windows platforms.
+It lacks the editing power of a general-purpose editor such as Adobe Premiere, but is streamlined for fast linear operations over video.
+It has batch-processing capabilities for processing large numbers of files and can be extended with third-party video filters.
+VirtualDub is mainly geared toward processing AVI files, although it can read (not write) MPEG-1 and also handle sets of BMP images.</description>
+  <description xml:lang="de">VirtualDub ist ein Video Erfassungs- und Bearbeitungstool für Windows.
+Es bietet nicht Feature-Vielfalt eines Allzweck-Editors wie Adobe Premiere. Es ist stattdessen für schnelle linearen Operationen auf Videos optimiert.
+Stapelverarbeitung erlaubt die Verarbeitung einer große Anzahl von Dateien. Das Tool kann mit Drittanbieter Video-Filtern erweitert werden.
+VirtualDub ist vor allem auf die Verarbeitung AVI-Dateien ausgerichtet, kann aber auch MPEG-1 lesen (nicht schreiben) und auch Sätze von BMP-Bildern verarbeiten.</description>
+  <homepage>http://www.virtualdub.org/</homepage>
+  <icon href="http://0install.de/feed-icons/VirtualDub.png" type="image/png" />
+  <icon href="http://0install.de/feed-icons/VirtualDub.ico" type="image/vnd.microsoft.icon" />
+  <category>AudioVideo</category>
+  <category>Utility</category>
+  <group license="GPL v2 (GNU General Public License)">
+    <group version="1.9.11" released="2010-12-24" stability="stable">
+      <implementation arch="Windows-x86_64" main="Veedub64.exe" id="sha1new=b565b4f15d7f8c9321bbb5d043dce17e24a1c0a3">
+        <manifest-digest sha1new="b565b4f15d7f8c9321bbb5d043dce17e24a1c0a3" sha256="c5379db6ac2e538fb670cb85b1a91e5d448e8963b4ee8b02666b41b5bc31cc5b" sha256new="YU3Z3NVMFZJY7NTQZOC3DKI6LVCI5CLDWTXIWATGNNA3LPBRZRNQ" />
+        <archive href="http://downloads.sourceforge.net/virtualdub/virtualdub-win/1.9.11.32842/VirtualDub-1.9.11-AMD64.zip" size="1916953" type="application/zip" />
+      </implementation>
+      <implementation arch="Windows-i486" main="VirtualDub.exe" id="sha1new=ab48ff7e0f89c6cc119d2a5c7187487d6e853ac1">
+        <manifest-digest sha1new="ab48ff7e0f89c6cc119d2a5c7187487d6e853ac1" sha256="db6fab8abfadc27116419c929a7a284ccf9dc54275d4910b0a9bc954f98cbc33" sha256new="3NX2XCV7VXBHCFSBTSJJU6RIJTHZ3RKCOXKJCCYKTPEVJ6MMXQZQ" />
+        <archive href="http://downloads.sourceforge.net/virtualdub/virtualdub-win/1.9.11.32842/VirtualDub-1.9.11.zip" size="1707366" type="application/zip" />
+      </implementation>
+    </group>
+  </group>
+</interface>

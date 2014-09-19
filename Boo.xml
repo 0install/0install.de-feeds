@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/Boo.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Boo</name>
+  <summary xml:lang="en">object-oriented, statically typed, general-purpose programming language</summary>
+  <summary xml:lang="de">objektorientierte, statisch typisierte Mehrzweckprogrammiersprache</summary>
+  <description xml:lang="en">Boo is an object-oriented, statically typed, general-purpose programming language based on the Common Language Infrastructure and using a Python-inspired syntax.</description>
+  <description xml:lang="de">Boo ist eine objektorientierte, statisch typisierte Mehrzweckprogrammiersprache, die auf der Common Language Infrastructure aufbaut und eine Python-inspirierte Syntax verwendet.</description>
+  <homepage>http://boo.codehaus.org/</homepage>
+  <icon href="http://0install.de/feed-icons/Boo.png" type="image/png" />
+  <icon href="http://0install.de/feed-icons/Boo.ico" type="image/vnd.microsoft.icon" />
+  <category>Development</category>
+  <needs-terminal />
+  <group license="MIT/BSD style">
+    <command name="run" path="bin/boo.exe">
+      <runner interface="http://0install.de/feeds/cli/cli.xml" />
+    </command>
+    <command name="booc" path="bin/booc.exe">
+      <runner interface="http://0install.de/feeds/cli/cli.xml" />
+    </command>
+    <command name="booi" path="bin/booi.exe">
+      <runner interface="http://0install.de/feeds/cli/cli.xml" />
+    </command>
+    <command name="booish" path="bin/booish.exe">
+      <runner interface="http://0install.de/feeds/cli/cli.xml" />
+    </command>
+    <implementation version="0.9.1.3287" released="2009-03-19" stability="stable" id="sha1new=e17c99f30aecd496d58fce56606b2d8c851fd15a">
+      <manifest-digest sha1new="e17c99f30aecd496d58fce56606b2d8c851fd15a" sha256="46ece84521d47b0c124faeec49e8142762e4d9bd6c168709700e85739c4b0b0a" sha256new="I3WOQRJB2R5QYESPV3WET2AUE5ROJWN5NQLIOCLQB2CXHHCLBMFA" />
+      <archive href="http://dist.codehaus.org/boo/distributions/boo-0.9.1.3287-bin.zip" size="962307" type="application/zip" />
+    </implementation>
+    <implementation version="0.9.2.3383" released="2009-09-02" stability="stable" id="sha1new=7eecd8e57a7a3cc5e4c8f5feddacd9f460f40265">
+      <manifest-digest sha1new="7eecd8e57a7a3cc5e4c8f5feddacd9f460f40265" sha256="fffb716cf7c23c6f187655512883d249054830ddd57180e135ef2298a678d753" sha256new="775XC3HXYI6G6GDWKVISRA6SJECUQMG52VYYBYJV54RJRJTY25JQ" />
+      <archive href="http://dist.codehaus.org/boo/distributions/boo-0.9.2.3383-bin.zip" size="974682" type="application/zip" />
+    </implementation>
+    <implementation version="0.9.3.3457" released="2009-12-23" stability="stable" id="sha1new=cb4720650b3f239e84f66df3ddd3ac7f35ecc676">
+      <manifest-digest sha1new="cb4720650b3f239e84f66df3ddd3ac7f35ecc676" sha256="80862fa23f58d0c2b2a3cd9c4de0e7c0db3b4861ca91e4f616b4811b2113be10" sha256new="QCDC7IR7LDIMFMVDZWOE3YHHYDNTWSDBZKI6J5QWWSARWIITXYIA" />
+      <archive href="http://dist.codehaus.org/boo/distributions/boo-0.9.3.3457-bin.zip" size="980873" type="application/zip" />
+    </implementation>
+    <implementation version="0.9.4.9" released="2011-01-20" stability="stable" id="sha1new=504e194cb80d6e643669856e349208d52fe0f1fc">
+      <manifest-digest sha1new="504e194cb80d6e643669856e349208d52fe0f1fc" sha256="aac445273611091cfc03078a15894b78bb158dac4b59f861537b9e60f453a09b" sha256new="VLCEKJZWCEERZ7ADA6FBLCKLPC5RLDNMJNM7QYKTPOPGB5CTUCNQ" />
+      <archive href="http://dist.codehaus.org/boo/distributions/boo-0.9.4.9-bin.zip" size="1017968" type="application/zip" />
+    </implementation>
+  </group>
+  <entry-point command="run" binary-name="boo">
+    <name xml:lang="en">Boo command-line tool</name>
+  </entry-point>
+  <entry-point command="booc">
+    <name xml:lang="en">Boo compiler</name>
+  </entry-point>
+  <entry-point command="booi">
+    <name xml:lang="en">Boo interpreter</name>
+  </entry-point>
+  <entry-point command="booish">
+    <name xml:lang="en">Boo interactive shell</name>
+  </entry-point>
+  <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <file-type id="Boo.Code">
+      <description xml:lang="en">Boo Code File</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".boo" />
+    </file-type>
+  </capabilities>
+</interface>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/UltraVNC.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>UltraVNC</name>
+  <summary xml:lang="en">remote-desktop support software</summary>
+  <summary xml:lang="de">Remote-Desktop Support Software</summary>
+  <description xml:lang="en">UltraVNC is a powerful, easy to use and free software that can display the screen of another computer (via internet or network) on your own screen. The program allows you to use your mouse and keyboard to control the other PC remotely.</description>
+  <description xml:lang="de">UltraVNC ist eine mächtige und einfach zu bedienende freie Software, welche den Inhalt des Bildschirms eines anderen Computers (über das Internet oder ein Netzwerk) auf Ihrem eigenen Bildschirm anzeigen kann. Das Programm erlaubt Ihnen Ihre Maus und Tastatur zu verwenden um den anderen PC aus der Ferne zu steuern. </description>
+  <homepage>http://www.uvnc.com/</homepage>
+  <icon href="http://0install.de/feed-icons/UltraVNC.png" type="image/png" />
+  <icon href="http://0install.de/feed-icons/UltraVNC.ico" type="image/vnd.microsoft.icon" />
+  <category>Network</category>
+  <category>Utility</category>
+  <group license="GPL v2 (GNU General Public License)">
+    <command name="run" path="vncviewer.exe" />
+    <command name="server" path="winvnc.exe" />
+    <command name="settings" path="uvnc_settings.exe" />
+    <group version="1.0.9.6.1" released="2011-04-28" stability="stable">
+      <implementation arch="Windows-x86_64" id="sha1new=b002317254a70958cf689d4ec5c9d46ff8f99820">
+        <manifest-digest sha1new="b002317254a70958cf689d4ec5c9d46ff8f99820" sha256="79e779a3672dd464d337daab3561563b6a9228496b3bce283fb3b44d922fd244" sha256new="PHTXTI3HFXKGJUZX3KVTKYKWHNVJEKCJNM544KB7WO2E3ERP2JCA" />
+        <archive href="http://www.uvnc.eu/download/10961/UltraVNC_1.0.9.6.1.bins_x64.zip" size="1485097" type="application/zip" />
+      </implementation>
+      <implementation arch="Windows-i486" id="sha1new=df4b0456d1a714b85031a39fe892f727ef08511f">
+        <manifest-digest sha1new="df4b0456d1a714b85031a39fe892f727ef08511f" sha256="58775850e3f136edc031f6048359a585a0c784ea457834070bfac5edf0078949" sha256new="LB3VQUHD6E3O3QBR6YCIGWNFQWQMPBHKIV4DIBYL7LC634AHRFEQ" />
+        <archive href="http://www.uvnc.eu/download/10961/UltraVNC_1.0.9.6.1.bins.zip" size="2593617" type="application/zip" />
+      </implementation>
+    </group>
+    <group version="1.0.8.2" released="2009-12-15" stability="stable">
+      <implementation arch="Windows-x86_64" id="sha1new=bb8380b50d4e71981d8faa7a82c779870db45a13">
+        <manifest-digest sha1new="bb8380b50d4e71981d8faa7a82c779870db45a13" sha256="f4404fa84b69df746f9436fc41ab73adfe412bf520e7833549b03f177702ae05" sha256new="6RAE7KCLNHPXI34UG36EDK3TVX7ECK7VEDTYGNKJWA7RO5YCVYCQ" />
+        <archive href="http://www.uvnc.eu/download/winvnc_1.0.8.2.bins_x64.zip" size="3025232" type="application/zip" />
+      </implementation>
+      <implementation arch="Windows-i486" id="sha1new=072175cbccb93051bbf429cfabde0b25262d068b">
+        <manifest-digest sha1new="072175cbccb93051bbf429cfabde0b25262d068b" sha256="f242f5f048e6aef6ad269ebde94d8108b8437f320ee23d490f37b6cd570f6669" sha256new="6JBPL4CI42XPNLJGT266STMBBC4EG7ZSB3RD2SIPG63M2VYPMZUQ" />
+        <archive href="http://www.uvnc.eu/download/winvnc_1.0.8.2.bins.zip" size="3070907" type="application/zip" />
+      </implementation>
+    </group>
+  </group>
+  <entry-point command="run" binary-name="vncviewer">
+    <name xml:lang="en">UltraVNC Viewer</name>
+    <icon href="http://0install.de/feed-icons/UltraVNC/Viewer.png" type="image/png" />
+    <icon href="http://0install.de/feed-icons/UltraVNC/Viewer.ico" type="image/vnd.microsoft.icon" />
+  </entry-point>
+  <entry-point command="server" binary-name="winvnc">
+    <name xml:lang="en">UltraVNC Server</name>
+    <icon href="http://0install.de/feed-icons/UltraVNC/Server.png" type="image/png" />
+    <icon href="http://0install.de/feed-icons/UltraVNC/Server.ico" type="image/vnd.microsoft.icon" />
+  </entry-point>
+  <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <file-type description="VNCviewer Config File" id="UltraVNC.VncViewer.Config">
+      <verb name="open" args="-config &quot;%1&quot;" />
+      <extension value=".vnc" />
+    </file-type>
+  </capabilities>
+</interface>

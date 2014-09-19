@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/make-dep.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>make dependencies</name>
+  <summary xml:lang="en">libraries for make</summary>
+  <group arch="Windows-i486" license="GPL v2 (GNU General Public License)">
+    <implementation version="3.81" stability="stable" id="sha1new=f042c9abb8ce530006066d4f4659dd64b0c347db">
+      <manifest-digest sha1new="f042c9abb8ce530006066d4f4659dd64b0c347db" sha256="8c143d3532b5884689a1237c465f23ddcbba7971e7a2ae638dafb392ebd68b0f" sha256new="RQKD2NJSWWEENCNBEN6EMXZD3XF3U6LR46RK4Y4NV6ZZF26WRMHQ" />
+      <archive href="http://downloads.sourceforge.net/gnuwin32/make-3.81-dep.zip" size="708206" type="application/zip" />
+    </implementation>
+  </group>
+</interface>

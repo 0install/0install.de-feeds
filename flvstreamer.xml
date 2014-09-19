@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/flvstreamer.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>flvstreamer</name>
+  <summary xml:lang="en">A command-line RTMP client intended to stream audio or video content.</summary>
+  <summary xml:lang="de">Ein kommandozeilenorientierter RTMP Klient, gedacht um Audio- oder Videoinhalte zu streamen.</summary>
+  <description xml:lang="en">flvstreamer is an open source command-line RTMP client intended to stream audio or video content from all types of flash or rtmp servers. Forked from rtmpdump v1.6 with encrypted rtmp and swf verification support removed. This tool provides free interoperability with the previously undocumented adobe RTMP protocol so widely in use on the internet today. It was developed entirely by reverse engineering methods and without access to any proprietary or restrictive-license protocol specifications. </description>
+  <description xml:lang="de">flvstreamer ist ein Open Source kommandozeilenorientierter RTMP Klient, gedacht um Audio- oder Videoinhalte aller Flash order RTMP Server zu streamen. Es wurde von rtmpdump v1.6 abgespalten, wobei verschlüsselte RTMP und SWF Verifizierung entfernt wurde. Dieses Werkzeug stellt freie Interoperabilität mit dem bisher undokumentierten Adobe RTMP Protokoll bereit, welches heute im Internet weit verbreitet ist. Es wurde vollständig mit reverse engineering Methoden und ohne Zugang zu irgendeiner proprietärer oder lizenzeinschränkender Spezifikation entwickelt.</description>
+  <homepage>http://savannah.nongnu.org/projects/flvstreamer</homepage>
+  <category>AudioVideo</category>
+  <category>Network</category>
+  <needs-terminal />
+  <group arch="Windows-*" stability="stable" license="GPL v2 (GNU General Public License)">
+    <implementation version="2.1.1.1" released="2010-02-15" stability="stable" main="flvstreamer-2.1c1_win32.exe" id="sha1new=564278b4bf0b943338a934803dcea9d3c346748d">
+      <manifest-digest sha1new="a39f0a63032dac8e9bf5731cffcc6f8e3b6c4ee1" sha256="b3eeebc83fa0f339bbed67de1d47ef858bd9da4a2867f00560d78f11ed6a319f" sha256new="WPXOXSB7UDZTTO7NM7PB2R7PQWF5TWSKFBT7ABLA26HRD3LKGGPQ" />
+      <archive href="http://0install.de/files/hosted/flvstreamer-2.1c1_win32.tar.bz2" size="59192" type="application/x-bzip-compressed-tar" />
+    </implementation>
+  </group>
+  <entry-point command="run" binary-name="flvstreamer" />
+</interface>

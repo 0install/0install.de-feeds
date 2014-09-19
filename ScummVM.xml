@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/ScummVM.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>ScummVM</name>
+  <summary xml:lang="en">cross-platform interpreter for several point-and-click adventure engines</summary>
+  <summary xml:lang="de">Plattform-übergreifender Interpreter für mehrere Point-and-Click Adventure Engines</summary>
+  <description xml:lang="en">ScummVM is a cross-platform interpreter for several point-and-click adventure engines. This includes all SCUMM-based adventures by LucasArts, Simon the Sorcerer 1 and 2 by AdventureSoft, Beneath a Steel Sky and Broken Sword 1 and 2 by Revolution, and many more.</description>
+  <description xml:lang="de">ScummVM ist ein Plattform-übergreifender Interpreter für mehrere Point-and-Click Adventure Engines. Dies beinhaltet alle SCUMM-basierten Adventures von LucasArts, Simon the Sorcerer 1 und 2 von AdventureSoft, Beneath a Steel Sky und Broken Sword 1 und 2 von Revolution und viele mehr.</description>
+  <homepage>http://www.scummvm.org/</homepage>
+  <icon href="http://0install.de/feed-icons/ScummVM.png" type="image/png" />
+  <group license="GPL v2 (GNU General Public License)">
+    <group version="1.1.0" released="2010-04-18" stability="stable">
+      <implementation arch="Windows-x86_64" main="scummvm.exe" id="sha1new=871d144c9fb92aba5d422bee129d04242ce49514">
+        <manifest-digest sha1new="871d144c9fb92aba5d422bee129d04242ce49514" sha256="a972f32083622a99f35c29532f761ca78905cd23ff352e4da0babebc61016ade" sha256new="VFZPGIEDMIVJT424FFJS65Q4U6EQLTJD742S4TNAXK7LYYIBNLPA" />
+        <archive href="http://downloads.sourceforge.net/scummvm/scummvm/1.1.0/scummvm-1.1.0-win64.zip" size="5339591" type="application/zip" />
+      </implementation>
+      <implementation arch="Windows-i486" main="scummvm.exe" id="sha1new=e3e033b7dfe6aa4afa4f78b325412abe1cba4aeb">
+        <manifest-digest sha1new="e3e033b7dfe6aa4afa4f78b325412abe1cba4aeb" sha256="b49f3b16082945adda6b155a80924022b8c5f0cbdb1ce9208fc3e842c183fbd8" sha256new="WSPTWFQIFFC23WTLCVNIBESAEK4ML4GL3MOOSIEPYPUEFQMD7PMA" />
+        <archive href="http://downloads.sourceforge.net/scummvm/scummvm/1.1.0/scummvm-1.1.0-win32.zip" size="5079229" type="application/zip" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=53bcd7dcc955c50c5221d53da13d661234663354">
+        <manifest-digest sha1new="53bcd7dcc955c50c5221d53da13d661234663354" sha256="dcea95be6e6814ec0fdbeb1edc5050af9cf2938ed099922713485f2baad59013" sha256new="3TVJLPTONAKOYD635MPNYUCQV6OPFE4O2CMZEJYTJBPSXKWVSAJQ" />
+        <archive href="http://downloads.sourceforge.net/scummvm/scummvm/1.1.0/scummvm-1.1.0.tar.bz2" size="8642000" type="application/x-bzip-compressed-tar" extract="scummvm-1.1.0" />
+      </implementation>
+    </group>
+    <group version="1.1.1" released="2010-08-24" stability="stable">
+      <implementation arch="Windows-x86_64" main="scummvm.exe" id="sha1new=52ad6d054e3d7afb354ec1f2128d5e5e96c7f027">
+        <manifest-digest sha1new="52ad6d054e3d7afb354ec1f2128d5e5e96c7f027" sha256="43ec9c8fc6b36053be0a17d71556c9afe6efe05141bc5e7c3ca94ce8e2eb56fd" sha256new="IPWJZD6GWNQFHPQKC7LRKVWJV7TO7YCRIG6F47B4VFGORYXLK36Q" />
+        <archive href="http://downloads.sourceforge.net/scummvm/scummvm/1.1.1/scummvm-1.1.1-win64.zip" size="5318423" type="application/zip" extract="scummvm-1.1.1-win64" />
+      </implementation>
+      <implementation arch="Windows-i486" main="scummvm.exe" id="sha1new=9a5276f21b6e2a71f36bb080614e9ae88cbec03b">
+        <manifest-digest sha1new="9a5276f21b6e2a71f36bb080614e9ae88cbec03b" sha256="46a0886008c0092a776822332c27f99e9d3c5d5f46d907ca27892c5f6a7c3b94" sha256new="I2QIQYAIYAESU53IEIZSYJ7ZT2OTYXK7I3MQPSRHREWF62T4HOKA" />
+        <archive href="http://downloads.sourceforge.net/scummvm/scummvm/1.1.1/scummvm-1.1.1-win32.zip" size="5078890" type="application/zip" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=0bdd18e6b3de9b3e12573b7f3a78b46a0fb0f2bd">
+        <manifest-digest sha1new="0bdd18e6b3de9b3e12573b7f3a78b46a0fb0f2bd" sha256="e8af44a76c406f38ad549e69a1cdc9cba8e7de50260effcf30286ecd14ef4975" sha256new="5CXUJJ3MIBXTRLKUTZU2DTOJZOUOPXSQEYHP7TZQFBXM2FHPJF2Q" />
+        <archive href="http://downloads.sourceforge.net/scummvm/scummvm/1.1.1/scummvm-1.1.1.tar.bz2" size="8668735" type="application/x-bzip-compressed-tar" extract="scummvm-1.1.1" />
+      </implementation>
+    </group>
+    <group version="1.2.0" released="2010-11-04" stability="stable">
+      <implementation arch="Windows-x86_64" main="scummvm.exe" id="sha1new=c6bfbed9ab45d14bd8ce88b822fe7b796257d1bb">
+        <manifest-digest sha1new="c6bfbed9ab45d14bd8ce88b822fe7b796257d1bb" sha256="69387f0cad43e84b06fae18c55f854b5f84efa174ee5e137fddc9d9822aeb86a" sha256new="NE4H6DFNIPUEWBX24GGFL6CUWX4E56QXJ3S6CN753SOZQIVOXBVA" />
+        <archive href="http://downloads.sourceforge.net/scummvm/scummvm/1.2.0/scummvm-1.2.0-win64.zip" size="6328613" type="application/zip" extract="scummvm-1.2.0-win64" />
+      </implementation>
+      <implementation arch="Windows-i486" main="scummvm.exe" id="sha1new=920727e280fbd1c6c100b10078618719d75f184f">
+        <manifest-digest sha1new="920727e280fbd1c6c100b10078618719d75f184f" sha256="72fd4cd56d8f6da3c78dbebbbf8d26d29c738a99bf408836659a2dce543cb961" sha256new="OL6UZVLNR5W2HR4NX2537DJG2KOHHCUZX5AIQNTFTIW44VB4XFQQ" />
+        <archive href="http://downloads.sourceforge.net/scummvm/scummvm/1.2.0/scummvm-1.2.0-win32.zip" size="5517149" type="application/zip" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=866fdd07b1ab37bc39b5854a0db46ce6ac08eb0e">
+        <manifest-digest sha1new="866fdd07b1ab37bc39b5854a0db46ce6ac08eb0e" sha256="ead900c0b06d9e6e1d6d8b9ff54f5229ef4126dedfc66e9acd16014e88229212" sha256new="5LMQBQFQNWPG4HLNROP7KT2SFHXUCJW637DG5GWNCYAU5CBCSIJA" />
+        <archive href="http://downloads.sourceforge.net/scummvm/scummvm/1.2.0/scummvm-1.2.0.tar.bz2" size="9514141" type="application/x-bzip-compressed-tar" extract="scummvm-1.2.0" />
+      </implementation>
+    </group>
+    <group version="1.2.1" released="2011-01-14" stability="stable">
+      <implementation arch="Windows-x86_64" main="scummvm.exe" id="sha1new=06ac7bd83830a78c062cf748fb67f7193d2339c8">
+        <manifest-digest sha1new="06ac7bd83830a78c062cf748fb67f7193d2339c8" sha256="286da5d0405de74cfa497ed14dc96de6e80bada3805e64e8f8811806e09f2a9a" sha256new="FBW2LUCALXTUZ6SJP3IU3SLN43UAXLNDQBPGJ2HYQEMANYE7FKNA" />
+        <archive href="http://downloads.sourceforge.net/scummvm/scummvm/1.2.1/scummvm-1.2.1-win64.zip" size="6344214" type="application/zip" extract="scummvm-1.2.1-win64" />
+      </implementation>
+      <implementation arch="Windows-i486" main="scummvm.exe" id="sha1new=cddfee7c160e490e10431965b6e7a0ef79c475ae">
+        <manifest-digest sha1new="cddfee7c160e490e10431965b6e7a0ef79c475ae" sha256="4449513961badbbf64aae456d25360322f568cc235150f2b9877d95d55b756d9" sha256new="IREVCOLBXLN36ZFK4RLNEU3AGIXVNDGCGUKQ6K4YO7MV2VNXK3MQ" />
+        <archive href="http://downloads.sourceforge.net/scummvm/scummvm/1.2.1/scummvm-1.2.1-win32.zip" size="5783710" type="application/zip" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=3e9ec7713eaa62dd91f543bd1c2926af422f7457">
+        <manifest-digest sha1new="3e9ec7713eaa62dd91f543bd1c2926af422f7457" sha256="042c1af441ad900eb7ca7023af0c32f0797f68eed3521d9b3e5efcd0d57364b2" sha256new="AQWBV5CBVWIA5N6KOAR26DBS6B4X62HO2NJB3GZ6L36NBVLTMSZA" />
+        <archive href="http://downloads.sourceforge.net/scummvm/scummvm/1.2.1/scummvm-1.2.1.tar.bz2" size="9541548" type="application/x-bzip-compressed-tar" extract="scummvm-1.2.1" />
+      </implementation>
+    </group>
+    <group version="1.3.0" released="2011-05-28" stability="stable">
+      <implementation arch="Windows-x86_64" main="scummvm.exe" id="sha1new=88bf42216bd9441f8453d2ea9f77f3e734f13ecb">
+        <manifest-digest sha1new="88bf42216bd9441f8453d2ea9f77f3e734f13ecb" sha256="a003b5e5b3e0577cd68abfe80ac40cb93ef0fb2465ed4cdb2879c055f56defc8" sha256new="UAB3LZNT4BLXZVUKX7UAVRAMXE7PB6ZEMXWUZWZIPHAFL5LN57EA" />
+        <archive href="http://downloads.sourceforge.net/scummvm/scummvm/1.3.0/scummvm-1.3.0-win64.zip" size="6930648" type="application/zip" extract="scummvm-1.3.0-win64" />
+      </implementation>
+      <implementation arch="Windows-i486" main="scummvm.exe" id="sha1new=01688f3ba3baf23c0b9eea4419c3f796534e25b4">
+        <manifest-digest sha1new="01688f3ba3baf23c0b9eea4419c3f796534e25b4" sha256="aff56bcb5ca00e2e90474e285914254bb0c4b3bf213d60acee23980e8e138d53" sha256new="V72WXS24UAHC5ECHJYUFSFBFJOYMJM57EE6WBLHOEOMA5DQTRVJQ" />
+        <archive href="http://downloads.sourceforge.net/scummvm/scummvm/1.3.0/scummvm-1.3.0-win32.zip" size="6059290" type="application/zip" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=d25d072c9ce1c4852e326c4e15a19f8da097520c">
+        <manifest-digest sha1new="d25d072c9ce1c4852e326c4e15a19f8da097520c" sha256="7da427080eaf63d057028d513605b9388b16725f2922bc8cbd208c8d0fafbd2b" sha256new="PWSCOCAOV5R5AVYCRVITMBNZHCFRM4S7FERLZDF5ECGI2D5PXUVQ" />
+        <archive href="http://downloads.sourceforge.net/scummvm/scummvm/1.3.0/scummvm-1.3.0.tar.bz2" size="10315113" type="application/x-bzip-compressed-tar" extract="scummvm-1.3.0" />
+      </implementation>
+    </group>
+    <group version="1.3.1" released="2011-07-12" stability="stable">
+      <implementation arch="Windows-x86_64" main="scummvm.exe" id="sha1new=4afe86bf211bb96749711a83ac6891ca00ed2c50">
+        <manifest-digest sha1new="4afe86bf211bb96749711a83ac6891ca00ed2c50" sha256="04a4265c1a3ddbd1aede4e60ff77788c5334be2b7b1e6f43d05f27725d33ff40" sha256new="ASSCMXA2HXN5DLW6JZQP653YRRJTJPRLPMPG6Q6QL4TXEXJT75AA" />
+        <archive href="http://downloads.sourceforge.net/scummvm/scummvm/1.3.1/scummvm-1.3.1-win64.zip" size="6935070" type="application/zip" extract="scummvm-1.3.1-win64" />
+      </implementation>
+      <implementation arch="Windows-i486" main="scummvm.exe" id="sha1new=cb9e6f62544b0c9327d86921b71b3de1a4293f75">
+        <manifest-digest sha1new="cb9e6f62544b0c9327d86921b71b3de1a4293f75" sha256="d2e73a5845819e6b4066280cb0b596a0a518d8531a5df1ca97eea93966cdd768" sha256new="2LTTUWCFQGPGWQDGFAGLBNMWUCSRRWCTDJO7DSUX52UTSZWN25UA" />
+        <archive href="http://downloads.sourceforge.net/scummvm/scummvm/1.3.1/scummvm-1.3.1-win32.zip" size="5679240" type="application/zip" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=211dd7c781b028aefcac2b21bb86bb2a3e846af7">
+        <manifest-digest sha1new="211dd7c781b028aefcac2b21bb86bb2a3e846af7" sha256="5072a6c9629b81b783d26dbcef8f71aa9b8f6389ebf33d82a9419c83cd23ca31" sha256new="KBZKNSLCTOA3PA6SNW6O7D3RVKNY6Y4J5PZT3AVJIGOIHTJDZIYQ" />
+        <archive href="http://downloads.sourceforge.net/scummvm/scummvm/1.3.1/scummvm-1.3.1.tar.bz2" size="10479934" type="application/x-bzip-compressed-tar" extract="scummvm-1.3.1" />
+      </implementation>
+    </group>
+    <group version="1.4.0" released="2012-01-03" stability="stable">
+      <implementation arch="Windows-x86_64" main="scummvm.exe" id="sha1new=b61a9acae1979705afa64910c93dc63cc92e4469">
+        <manifest-digest sha1new="b61a9acae1979705afa64910c93dc63cc92e4469" sha256="ba9fc1457b24ee417f03fb2b08ea7626565c450b6ac46bd6aa7b26978bb34603" sha256new="XKP4CRL3ETXEC7YD7MVQR2TWEZLFYRILNLCGXVVKPMTJPC5TIYBQ" />
+        <archive href="http://downloads.sourceforge.net/scummvm/scummvm/1.4.0/scummvm-1.4.0-win64.zip" size="8468207" type="application/zip" extract="scummvm-1.4.0-win64" />
+      </implementation>
+      <implementation arch="Windows-i486" main="scummvm.exe" id="sha1new=61bdb4cda07d565ee95efbba60de577c074e9d00">
+        <manifest-digest sha1new="61bdb4cda07d565ee95efbba60de577c074e9d00" sha256="4dcaa9c76c17d7d0230d212a522ea2fef26ac4cdf8b475f0081e81325918b6bf" sha256new="JXFKTR3MC7L5AIYNEEVFELVC73ZGVRGN7C2HL4AID2ATEWIYW27Q" />
+        <archive href="http://downloads.sourceforge.net/scummvm/scummvm/1.4.0/scummvm-1.4.0-win32.zip" size="8388923" type="application/zip" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=79163068ac0ba0ee7d1e5116aa1734617d1d3600">
+        <manifest-digest sha1new="79163068ac0ba0ee7d1e5116aa1734617d1d3600" sha256="57bc00571f6d08728db08c620f16e1b643897b56a72992af5eff21c5a92a8779" sha256new="K66AAVY7NUEHFDNQRRRA6FXBWZBYS62WU4UZFL2674Q4LKJKQ54Q" />
+        <archive href="http://downloads.sourceforge.net/scummvm/scummvm/1.4.0/scummvm-1.4.0.tar.bz2" size="15580242" type="application/x-bzip-compressed-tar" extract="scummvm-1.4.0" />
+      </implementation>
+    </group>
+    <group version="1.4.1" released="2012-02-08" stability="stable">
+      <implementation arch="Windows-i486" main="scummvm.exe" id="sha1new=171c1cda1e046f44fbc846becd2da2bda7c03400">
+        <manifest-digest sha1new="171c1cda1e046f44fbc846becd2da2bda7c03400" sha256="4117a8a7e0c3671cadd978230bffc56e7ee2b42ba744864520ce6425d06b8164" sha256new="IEL2RJ7AYNTRZLOZPARQX76FNZ7OFNBLU5CIMRJAZZSCLUDLQFSA" />
+        <archive href="http://downloads.sourceforge.net/scummvm/scummvm/1.4.1/scummvm-1.4.1-win32.zip" size="9093886" type="application/zip" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=3982d691da11329c2a4aa8e669d6e1530362dd8d">
+        <manifest-digest sha1new="3982d691da11329c2a4aa8e669d6e1530362dd8d" sha256="b6c1ca7702ab68ef6ce486650f8d7501388e713e5e8c5b9aae600f8b50c375ee" sha256new="W3A4U5YCVNUO63HEQZSQ7DLVAE4I44J6L2GFXGVOMAHYWUGDOXXA" />
+        <archive href="http://downloads.sourceforge.net/scummvm/scummvm/1.4.1/scummvm-1.4.1.tar.bz2" size="15703475" type="application/x-bzip-compressed-tar" extract="scummvm-1.4.1" />
+      </implementation>
+    </group>
+    <group version="1.5.0" released="2012-08-10" stability="stable">
+      <implementation arch="Windows-i486" main="scummvm.exe" id="sha1new=d39dbdec9c8b52beb557da124351f3681730c56d">
+        <manifest-digest sha1new="d39dbdec9c8b52beb557da124351f3681730c56d" sha256="9f35474f7d1baa06188050ad2746fa9e1961f79439e608d54c3274d80eec1fa0" sha256new="T42UOT35DOVAMGEAKCWSORX2TYMWD54UHHTARVKMGJ2NQDXMD6QA" />
+        <archive href="http://downloads.sourceforge.net/scummvm/scummvm/1.5.0/scummvm-1.5.0-win32.zip" size="11104040" type="application/zip" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=5efcecf5363da3943acdb633057b3e8d5be08fed">
+        <manifest-digest sha1new="5efcecf5363da3943acdb633057b3e8d5be08fed" sha256="7c97b99396c5f32123a004f0f93b241a9da49005f5df71e02c9432eb20fb46b9" sha256new="PSL3TE4WYXZSCI5AATYPSOZEDKO2JEAF6XPXDYBMSQZOWIH3I24Q" />
+        <archive href="http://downloads.sourceforge.net/scummvm/scummvm/1.5.0/scummvm-1.5.0.tar.bz2" size="17455085" type="application/x-bzip-compressed-tar" extract="scummvm-1.5.0" />
+      </implementation>
+    </group>
+  </group>
+</interface>

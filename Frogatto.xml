@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/Frogatto.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Frogatto</name>
+  <summary xml:lang="en">A jump-and-run video game with a frog.</summary>
+  <summary xml:lang="de">Ein Jump and Run Videospiel mit einem Frosch.</summary>
+  <description xml:lang="en">Frogatto is an open-source “platformer” or “jump-and-run” videogame. Like in many classic games, the world is viewed as a cross-section seen from the side, and your character (in this case, a small green fellow named Frogatto) walks and jumps between solid platforms, whilst avoiding monsters.</description>
+  <description xml:lang="de">Frogatto ist ein Open-Source “Plattformer” oder “Jump And Run” Videospiel. Wie in vielen klassischen Spielen wird die Welt von der Seite aus gesehen und Ihr Spielcharakter (in diesem Fall ein kleiner, grüner Frosch namens Frogatto) läuft und springt zwischen Plattformen herum, während er Monster abwehrt.</description>
+  <homepage>http://www.frogatto.com/</homepage>
+  <icon href="http://0install.de/feed-icons/Frogatto.png" type="image/png" />
+  <icon href="http://0install.de/feed-icons/Frogatto.ico" type="image/vnd.microsoft.icon" />
+  <category>Game</category>
+  <group license="GPL v3 (GNU General Public License)">
+    <command name="run" path="Frogatto.exe">
+      <arg>--config-path=$APPDATA/Frogatto</arg>
+      <working-dir />
+    </command>
+    <group version="1.1" released="2011-05-11" stability="stable">
+      <implementation arch="Windows-*" id="sha1new=a96090239560f96bfea4855a2bc6188be3fd7d9f">
+        <manifest-digest sha1new="a96090239560f96bfea4855a2bc6188be3fd7d9f" sha256="0745a8341cf8f95f2d441fb2e1bfcdef28987745d66fdd5104124b0626e9b10c" sha256new="A5C2QNA47D4V6LKED6ZODP6N54UJQ52F2ZX52UIECJFQMJXJWEGA" />
+        <archive href="http://www.frogatto.com/files/Frogatto_1.1_Win.zip" size="153025250" type="application/zip" extract="Frogatto 1.1" />
+      </implementation>
+    </group>
+    <group version="1.1.1" released="2011-07-04" stability="stable">
+      <implementation arch="Windows-*" id="sha1new=8c4883a27b0445e7b3ed309e2f3379c8121d264b">
+        <manifest-digest sha1new="8c4883a27b0445e7b3ed309e2f3379c8121d264b" sha256="22c6feb563f567207d2aaeff2e098bba62881a1743fb5e3fb70adbd55e807a53" sha256new="ELDP5NLD6VTSA7JKV37S4CMLXJRIQGQXIP5V4P5XBLN5KXUAPJJQ" />
+        <archive href="http://www.frogatto.com/files/Frogatto_1.1.1_Win.zip" size="153629305" type="application/zip" extract="Frogatto 1.1.1" />
+      </implementation>
+    </group>
+  </group>
+</interface>

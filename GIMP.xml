@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/GIMP.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>GIMP</name>
+  <summary xml:lang="en">image retouching and editing tool</summary>
+  <description xml:lang="en">GIMP is the GNU Image Manipulation Program. It is a freely distributed piece of software for such tasks as photo retouching, image composition and image authoring.</description>
+  <icon href="http://0install.de/feed-icons/GIMP.png" type="image/png" />
+  <icon href="http://0install.de/feed-icons/GIMP.ico" type="image/vnd.microsoft.icon" />
+  <category>Graphics</category>
+  <group>
+    <requires interface="http://repo.roscidus.com/python/python" importance="recommended">
+      <environment name="PATH" insert="." />
+    </requires>
+    <group version="2.8.10" stability="stable">
+      <command name="run" path="bin/gimp-2.8.exe" />
+      <command name="console" path="bin/gimp-console-2.8.exe" />
+      <command name="tool" path="bin/gimptool-2.0.exe" />
+      <implementation arch="Windows-i486" id="sha1new=01a8a9062599ab59a489a4193002a3342f915b65">
+        <manifest-digest sha1new="01a8a9062599ab59a489a4193002a3342f915b65" sha256="773ff6ec8f651aefc99fdc5a656dd7450bcb0625294f8484f81eb1035b74043e" sha256new="O477N3EPMUNO7SM73RNGK3OXIUF4WBRFFFHYJBHYD2YQGW3UAQ7A" />
+        <recipe>
+          <archive href="http://0install.de/files/hosted/gimp-2.8.10-share.7z" size="18865959" type="application/x-7z-compressed" />
+          <archive href="http://0install.de/files/hosted/gimp-2.8.10-win32.7z" size="32278835" type="application/x-7z-compressed" />
+        </recipe>
+      </implementation>
+      <implementation arch="Windows-x86_64" id="sha1new=1b6cf5a75c79614364e680d550a5babf27ad14b3">
+        <manifest-digest sha1new="1b6cf5a75c79614364e680d550a5babf27ad14b3" sha256="54556b697ca0ad08a5ad83e9c4c78f69aebf7a1a58e7a17da0b242379b9d7bcc" sha256new="KRKWW2L4UCWQRJNNQPU4JR4PNGXL66Q2LDT2C7NAWJBDPG45PPGA" />
+        <recipe>
+          <archive href="http://0install.de/files/hosted/gimp-2.8.10-share.7z" size="18865959" type="application/x-7z-compressed" />
+          <archive href="http://0install.de/files/hosted/gimp-2.8.10-win64.7z" size="36423524" type="application/x-7z-compressed" />
+        </recipe>
+      </implementation>
+    </group>
+  </group>
+  <entry-point command="run" binary-name="gimp">
+    <name xml:lang="en">GIMP</name>
+  </entry-point>
+  <entry-point command="console" binary-name="gimp-console">
+    <needs-terminal />
+    <name xml:lang="en">GIMP Console</name>
+  </entry-point>
+  <entry-point command="tool" binary-name="gimptool">
+    <needs-terminal />
+    <name xml:lang="en">GIMP Tool</name>
+  </entry-point>
+  <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <file-type id="GIMP-bmp">
+      <description xml:lang="en">Windows and OS/2 Bitmaps</description>
+      <icon href="http://0install.de/feed-icons/GIMP_doc.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <icon href="http://0install.de/feed-icons/GIMP_doc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".bmp" mime-type="image/bmp" perceived-type="image" />
+    </file-type>
+    <file-type id="GIMP-cel">
+      <description xml:lang="en">KISS CEL</description>
+      <icon href="http://0install.de/feed-icons/GIMP_doc.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <icon href="http://0install.de/feed-icons/GIMP_doc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".cel" />
+    </file-type>
+    <file-type id="GIMP-dicom">
+      <description xml:lang="en">Digital Imaging and Communications in Medicine</description>
+      <icon href="http://0install.de/feed-icons/GIMP_doc.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <icon href="http://0install.de/feed-icons/GIMP_doc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".dcm" />
+      <extension value=".dicom" />
+    </file-type>
+    <file-type id="GIMP-fit">
+      <description xml:lang="en">Flexible Image Transport System</description>
+      <icon href="http://0install.de/feed-icons/GIMP_doc.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <icon href="http://0install.de/feed-icons/GIMP_doc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".fit" />
+      <extension value=".fits" />
+    </file-type>
+    <file-type id="GIMP-g3">
+      <description xml:lang="en">Fax G3 Image file</description>
+      <icon href="http://0install.de/feed-icons/GIMP_doc.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <icon href="http://0install.de/feed-icons/GIMP_doc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".g3" />
+    </file-type>
+    <file-type id="GIMP-gbr">
+      <description xml:lang="en">GIMP brush</description>
+      <icon href="http://0install.de/feed-icons/GIMP_doc.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <icon href="http://0install.de/feed-icons/GIMP_doc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".gbr" />
+      <extension value=".gpb" />
+    </file-type>
+    <file-type id="GIMP-gif">
+      <description xml:lang="en">Compuserve GIF</description>
+      <icon href="http://0install.de/feed-icons/GIMP_doc.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <icon href="http://0install.de/feed-icons/GIMP_doc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".gif" mime-type="image/gif" perceived-type="image" />
+    </file-type>
+    <file-type id="GIMP-gih">
+      <description xml:lang="en">GIMP brush pipe</description>
+      <icon href="http://0install.de/feed-icons/GIMP_doc.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <icon href="http://0install.de/feed-icons/GIMP_doc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".gih" />
+    </file-type>
+    <file-type id="GIMP-ico">
+      <description xml:lang="en">Windows Icon</description>
+      <icon href="http://0install.de/feed-icons/GIMP_doc.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <icon href="http://0install.de/feed-icons/GIMP_doc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".ico" mime-type="image/x-icon" perceived-type="image" />
+    </file-type>
+    <file-type id="GIMP-jpeg">
+      <description xml:lang="en">JPEG image</description>
+      <icon href="http://0install.de/feed-icons/GIMP_doc.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <icon href="http://0install.de/feed-icons/GIMP_doc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".jpeg" mime-type="image/jpeg" perceived-type="image" />
+      <extension value=".jpg" mime-type="image/jpeg" perceived-type="image" />
+    </file-type>
+    <file-type id="GIMP-matte">
+      <description xml:lang="en">Alias|Wavefront PowerAnimator</description>
+      <icon href="http://0install.de/feed-icons/GIMP_doc.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <icon href="http://0install.de/feed-icons/GIMP_doc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".alpha" />
+      <extension value=".als" />
+      <extension value=".mask" />
+      <extension value=".matte" />
+      <extension value=".pix" />
+    </file-type>
+    <file-type id="GIMP-pat">
+      <description xml:lang="en">GIMP pattern</description>
+      <icon href="http://0install.de/feed-icons/GIMP_doc.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <icon href="http://0install.de/feed-icons/GIMP_doc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".pat" />
+    </file-type>
+    <file-type id="GIMP-pcx">
+      <description xml:lang="en">ZSoft Paintbrush image</description>
+      <icon href="http://0install.de/feed-icons/GIMP_doc.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <icon href="http://0install.de/feed-icons/GIMP_doc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".pcx" />
+    </file-type>
+    <file-type id="GIMP-png">
+      <description xml:lang="en">Portable Network Graphics</description>
+      <icon href="http://0install.de/feed-icons/GIMP_doc.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <icon href="http://0install.de/feed-icons/GIMP_doc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".png" mime-type="image/png" perceived-type="image" />
+    </file-type>
+    <file-type id="GIMP-pnm">
+      <description xml:lang="en">Netpbm format</description>
+      <icon href="http://0install.de/feed-icons/GIMP_doc.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <icon href="http://0install.de/feed-icons/GIMP_doc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".pbm" />
+      <extension value=".pgm" />
+      <extension value=".pnm" />
+      <extension value=".ppm" />
+    </file-type>
+    <file-type id="GIMP-ps">
+      <description xml:lang="en">PostScript, Encapsulated PostScript</description>
+      <icon href="http://0install.de/feed-icons/GIMP_doc.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <icon href="http://0install.de/feed-icons/GIMP_doc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".eps" mime-type="application/postscript" />
+      <extension value=".ps" mime-type="application/postscript" />
+    </file-type>
+    <file-type id="GIMP-psd">
+      <description xml:lang="en">Adobe Photoshop(tm) image</description>
+      <icon href="http://0install.de/feed-icons/GIMP_doc.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <icon href="http://0install.de/feed-icons/GIMP_doc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".psd" />
+    </file-type>
+    <file-type id="GIMP-psp">
+      <description xml:lang="en">Corel PaintShopPro image</description>
+      <icon href="http://0install.de/feed-icons/GIMP_doc.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <icon href="http://0install.de/feed-icons/GIMP_doc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".psp" />
+      <extension value=".pspimage" />
+      <extension value=".tub" />
+    </file-type>
+    <file-type id="GIMP-ras">
+      <description xml:lang="en">SUN Raster Image</description>
+      <icon href="http://0install.de/feed-icons/GIMP_doc.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <icon href="http://0install.de/feed-icons/GIMP_doc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".im1" />
+      <extension value=".im24" />
+      <extension value=".im32" />
+      <extension value=".im8" />
+      <extension value=".ras" />
+      <extension value=".rs" />
+    </file-type>
+    <file-type id="GIMP-sgi">
+      <description xml:lang="en">SGI image format</description>
+      <icon href="http://0install.de/feed-icons/GIMP_doc.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <icon href="http://0install.de/feed-icons/GIMP_doc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".bw" />
+      <extension value=".rgb" />
+      <extension value=".sgi" />
+    </file-type>
+    <file-type id="GIMP-svg">
+      <description xml:lang="en">Scalable Vector Graphics</description>
+      <icon href="http://0install.de/feed-icons/GIMP_doc.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <icon href="http://0install.de/feed-icons/GIMP_doc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".svg" />
+    </file-type>
+    <file-type id="GIMP-tga">
+      <description xml:lang="en">TrueVision Targa</description>
+      <icon href="http://0install.de/feed-icons/GIMP_doc.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <icon href="http://0install.de/feed-icons/GIMP_doc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".tga" />
+    </file-type>
+    <file-type id="GIMP-tif">
+      <description xml:lang="en">Tagged Image File</description>
+      <icon href="http://0install.de/feed-icons/GIMP_doc.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <icon href="http://0install.de/feed-icons/GIMP_doc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".tif" mime-type="image/tiff" perceived-type="image" />
+      <extension value=".tiff" mime-type="image/tiff" perceived-type="image" />
+    </file-type>
+    <file-type id="GIMP-wmf">
+      <description xml:lang="en">Windows Metafile</description>
+      <icon href="http://0install.de/feed-icons/GIMP_doc.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <icon href="http://0install.de/feed-icons/GIMP_doc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".wmf" perceived-type="image" />
+    </file-type>
+    <file-type id="GIMP-xbm">
+      <description xml:lang="en">X10 and X11 Bitmap</description>
+      <icon href="http://0install.de/feed-icons/GIMP_doc.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <icon href="http://0install.de/feed-icons/GIMP_doc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".bitmap" />
+      <extension value=".icon" />
+      <extension value=".xbm" mime-type="image/x-xbitmap" />
+    </file-type>
+    <file-type id="GIMP-xcf">
+      <description xml:lang="en">GIMP image</description>
+      <icon href="http://0install.de/feed-icons/GIMP_doc.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <icon href="http://0install.de/feed-icons/GIMP_doc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".xcf" />
+    </file-type>
+    <file-type id="GIMP-xpm">
+      <description xml:lang="en">X Pixmap</description>
+      <icon href="http://0install.de/feed-icons/GIMP_doc.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <icon href="http://0install.de/feed-icons/GIMP_doc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".xpm" />
+    </file-type>
+    <file-type id="GIMP-xwd">
+      <description xml:lang="en">X Window Dump</description>
+      <icon href="http://0install.de/feed-icons/GIMP_doc.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <icon href="http://0install.de/feed-icons/GIMP_doc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".xwd" />
+    </file-type>
+  </capabilities>
+</interface>

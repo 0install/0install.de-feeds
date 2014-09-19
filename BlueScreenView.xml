@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/BlueScreenView.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>BlueScreenView</name>
+  <summary xml:lang="en">scans minidump files created during 'blue screen of death' crashes</summary>
+  <homepage>http://www.nirsoft.net/utils/blue_screen_view.html</homepage>
+  <icon href="http://0install.de/feed-icons/BlueScreenView.ico" type="image/vnd.microsoft.icon" />
+  <icon href="http://0install.de/feed-icons/BlueScreenView.png" type="image/png" />
+  <category>Utility</category>
+  <group main="BlueScreenView.exe">
+    <implementation arch="Windows-i486" version="1.52" id="sha1new=3d6a9e217ec89a1cac2203b6a8352f355869db25">
+      <manifest-digest sha1new="3d6a9e217ec89a1cac2203b6a8352f355869db25" sha256="a0a84afbc8cfb6db325f610cbe5308b1892757d144d90315f3e7aba4a692403c" sha256new="UCUEV66IZ63NWMS7MEGL4UYIWGESOV6RITMQGFPT46V2JJUSIA6A" />
+      <archive href="http://www.nirsoft.net/utils/bluescreenview.zip" size="66913" type="application/zip" />
+    </implementation>
+    <implementation arch="Windows-x86_64" version="1.52" id="sha1new=f43babe8cbc96b03cb9a584d5dd3adff6ee3dece">
+      <manifest-digest sha1new="f43babe8cbc96b03cb9a584d5dd3adff6ee3dece" sha256="3aade538028a5ce0b3474387a61f33d2400a912d85be01f58528302e7b1b4254" sha256new="HKW6KOACRJOOBM2HIOD2MHZT2JAAVEJNQW7AD5MFFAYC46Y3IJKA" />
+      <archive href="http://www.nirsoft.net/utils/bluescreenview-x64.zip" size="84917" type="application/zip" />
+    </implementation>
+  </group>
+  <entry-point command="run" binary-name="BlueScreenView">
+    <name xml:lang="en">BlueScreenView</name>
+  </entry-point>
+</interface>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/Gtk-Sharp.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Gtk-Sharp</name>
+  <summary xml:lang="en">Graphical User Interface Toolkit for mono and .Net</summary>
+  <description xml:lang="en">
+Gtk# is a Graphical User Interface Toolkit for mono and .Net. The project binds
+the gtk+ (http://www.gtk.org/) toolkit and assorted GNOME
+(http://www.gnome.org/) libraries, enabling fully native graphical Gnome
+application development using the Mono and .Net development frameworks.</description>
+  <homepage>http://www.mono-project.com/GtkSharp</homepage>
+  <icon href="http://0install.de/feed-icons/Mono.png" type="image/png" />
+  <group stability="stable">
+    <package-implementation package="gtk-sharp2" distributions="Debian" />
+    <package-implementation package="gtk-sharp2" distributions="RPM" />
+  </group>
+</interface>

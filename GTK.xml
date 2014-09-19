@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/GTK.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>GTK+ Runtime</name>
+  <summary xml:lang="en">runtime components of GTK+</summary>
+  <description xml:lang="en">This package contains the runtime components for GTK+.</description>
+  <homepage>http://www.gtk.org/</homepage>
+  <group arch="Windows-i486" license="GPL v2 (GNU General Public License)">
+    <implementation version="2.16.6.1" stability="stable" id="sha1new=0a05c4513eecb8bee87e8068b03a18bc34c0d2d6">
+      <manifest-digest sha1new="0a05c4513eecb8bee87e8068b03a18bc34c0d2d6" sha256="bde1af7db43756ae894e333712ca14ed89b621c55b65841c085e3d82fd37d132" sha256new="XXQ267NUG5LK5CKOGM3RFSQU5WE3MIOFLNSYIHAILY6YF7JX2EZA" />
+      <archive href="http://downloads.sourceforge.net/pidgin/GTK+ for Windows/2.16.6.1/gtk-runtime-2.16.6.1.zip" size="12110421" type="application/zip" extract="Gtk" />
+    </implementation>
+  </group>
+</interface>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/NotepadPlusPlus.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Notepad++</name>
+  <summary xml:lang="en">free source code editor and Notepad replacement that supports several languages</summary>
+  <summary xml:lang="de">freier Quellcode-Editor und Notepad-Ersatz mit Unterstützung für mehrere Sprachen</summary>
+  <description xml:lang="en">Notepad++ is a free source code editor and Notepad replacement that supports several languages. Based on the powerful editing component Scintilla, Notepad++ is written in C++ and uses pure Win32 API and STL which ensures a higher execution speed and smaller program size. By optimizing as many routines as possible without losing user friendliness, Notepad++ is trying to reduce the world carbon dioxide emissions.</description>
+  <description xml:lang="en">Notepad++ ist ein freier Quellcode-Editor und Notepad-Ersatz mit Unterstützung für mehrere Sprachen. Auf der mächtigen Editor-Komponente Scintilla aufbauen ist Notepad++ C++ geschrieben und verwendet die reine Win32 API und STL was zu einer höheren Ausführungsgeschwindigkeit und einer kleineren Programmgröße führt. Durch die Optimierung so vieler Routinen wie möglich ohne Benutzerfreundlichkeit zu verlieren, versucht Notepad++ die weltweiten CO2 Emissionen zu senken.</description>
+  <homepage>http://notepad-plus-plus.org/</homepage>
+  <icon href="http://0install.de/feed-icons/NotepadPlusPlus.png" type="image/png" />
+  <icon href="http://0install.de/feed-icons/NotepadPlusPlus.ico" type="image/vnd.microsoft.icon" />
+  <category>Development</category>
+  <category>Utility</category>
+  <group arch="Windows-*" license="GPL v2 (GNU General Public License)" main="notepad++.exe">
+    <implementation version="5.9.8" released="2012-01-05" stability="stable" id="sha1new=cef187716e8eadd2e75530cec5b3c6f505313af6">
+      <manifest-digest sha1new="cef187716e8eadd2e75530cec5b3c6f505313af6" sha256="fa3b38a7659a20446dc9aa7b09114623dc13bf394a1196cd0cd460c393bda0ed" sha256new="7I5TRJ3FTIQEI3OJVJ5QSEKGEPOBHPZZJIIZNTIM2RQMHE55UDWQ" />
+      <recipe>
+        <archive href="http://download.tuxfamily.org/notepadplus/5.9.8/npp.5.9.8.bin.zip" size="8110919" type="application/zip" extract="unicode" />
+        <rename source="doLocalConf.xml" dest="junk" />
+      </recipe>
+    </implementation>
+    <implementation version="6.0" released="2012-03-26" stability="stable" id="sha1new=da1669dfa91858c06a20b435088a23dadeecd4d9">
+      <manifest-digest sha1new="da1669dfa91858c06a20b435088a23dadeecd4d9" sha256="e973ba5a52308edf7d729968292e605be20cc41041e4aea531c0cf4e969f2285" sha256new="5FZ3UWSSGCHN67LSTFUCSLTALPRAZRAQIHSK5JJRYDHU5FU7EKCQ" />
+      <recipe>
+        <archive href="http://download.tuxfamily.org/notepadplus/6.0/npp.6.0.bin.zip" size="8148111" type="application/zip" extract="unicode" />
+        <rename source="doLocalConf.xml" dest="junk" />
+      </recipe>
+    </implementation>
+    <implementation version="6.1" released="2012-04-10" stability="stable" id="sha1new=a0dd78134d33d24bffb9d902898f4d2e72b44e31">
+      <manifest-digest sha1new="a0dd78134d33d24bffb9d902898f4d2e72b44e31" sha256="0a8116d8e460100aa4c859f691d00066962cb8a194dd824b1ddd5de7a8a2fd00" sha256new="BKARNWHEMAIAVJGILH3JDUAAM2LCZOFBSTOYESY53VO6PKFC7UAA" />
+      <recipe>
+        <archive href="http://download.tuxfamily.org/notepadplus/6.1/npp.6.1.bin.zip" size="4618369" type="application/zip" extract="unicode" />
+        <rename source="doLocalConf.xml" dest="junk" />
+      </recipe>
+    </implementation>
+    <implementation version="6.1.1" released="2012-04-18" stability="stable" id="sha1new=3c9da35e37545ed8897edef53b41022d6a074c6c">
+      <manifest-digest sha1new="3c9da35e37545ed8897edef53b41022d6a074c6c" sha256="2e6fa3b043a9a8b0180cc60c4b162e70360190843d88a3496c5bed4dbbb75861" sha256new="FZX2HMCDVGULAGAMYYGEWFROOA3ADEEEHWEKGSLMLPWU3O5XLBQQ" />
+      <recipe>
+        <archive href="http://download.tuxfamily.org/notepadplus/6.1.1/npp.6.1.1.bin.zip" size="4617718" type="application/zip" extract="unicode" />
+        <rename source="doLocalConf.xml" dest="junk" />
+      </recipe>
+    </implementation>
+    <implementation version="6.1.2" released="2012-04-26" stability="stable" id="sha1new=6a5ec1478908fbf168ee1fe1f6e7b137afe5d9ae">
+      <manifest-digest sha1new="6a5ec1478908fbf168ee1fe1f6e7b137afe5d9ae" sha256="aa4b988bf0075e0c357dcee0ff862372285f89209a074118a4652f54b44fa4ad" sha256new="VJFZRC7QA5PAYNL5Z3QP7BRDOIUF7CJATIDUCGFEMUXVJNCPUSWQ" />
+      <recipe>
+        <archive href="http://download.tuxfamily.org/notepadplus/6.1.2/npp.6.1.2.bin.zip" size="4629995" type="application/zip" extract="unicode" />
+        <rename source="doLocalConf.xml" dest="junk" />
+      </recipe>
+    </implementation>
+    <implementation version="6.1.3" released="2012-05-28" stability="stable" id="sha1new=2737144ace845ddb2322732c5c69d3dd57fd993f">
+      <manifest-digest sha1new="2737144ace845ddb2322732c5c69d3dd57fd993f" sha256="eb86057c2f03416e72fcedb0c72737006fdecd9aff91308bd5aa1e04d459d38e" sha256new="5ODAK7BPANAW44X45WYMOJZXABX55TM276ITBC6VVIPAJVCZ2OHA" />
+      <recipe>
+        <archive href="http://download.tuxfamily.org/notepadplus/6.1.3/npp.6.1.3.bin.zip" size="4642556" type="application/zip" extract="unicode" />
+        <rename source="doLocalConf.xml" dest="junk" />
+      </recipe>
+    </implementation>
+    <implementation version="6.1.4" released="2012-06-25" stability="stable" id="sha1new=70585e2535eb6fbe6b424c2336e672d3d582690c">
+      <manifest-digest sha1new="70585e2535eb6fbe6b424c2336e672d3d582690c" sha256="d4eb969f33e4859f31ea7185dbb10afd14fb4610b50caec3784a26ba0f95207d" sha256new="2TVZNHZT4SCZ6MPKOGC5XMIK7UKPWRQQWUGK5Q3YJITLUD4VEB6Q" />
+      <recipe>
+        <archive href="http://download.tuxfamily.org/notepadplus/6.1.4/npp.6.1.4.bin.zip" size="4672263" type="application/zip" extract="unicode" />
+        <rename source="doLocalConf.xml" dest="junk" />
+      </recipe>
+    </implementation>
+    <implementation version="6.1.5" released="2012-07-07" stability="stable" id="sha1new=3190ebc93ad9b7d0263b3ee40e8814caffae17ae">
+      <manifest-digest sha1new="3190ebc93ad9b7d0263b3ee40e8814caffae17ae" sha256="a42b64a34f6846abdf7033135e3cffe087a2a0f4d8153eefaf0fce0b720da0f5" sha256new="UQVWJI2PNBDKXX3QGMJV4PH74CD2FIHU3AKT535PB7HAW4QNUD2Q" />
+      <recipe>
+        <archive href="http://download.tuxfamily.org/notepadplus/6.1.5/npp.6.1.5.bin.zip" size="4674363" type="application/zip" extract="unicode" />
+        <rename source="doLocalConf.xml" dest="junk" />
+      </recipe>
+    </implementation>
+    <implementation version="6.1.6" released="2012-08-16" stability="stable" id="sha1new=bc967a94ca545220a0f2eeb4ae1d0054d453e71a">
+      <manifest-digest sha1new="bc967a94ca545220a0f2eeb4ae1d0054d453e71a" sha256="88036cc0ead799887ec8528e13fa0d1fdf3c35f5ce14aeeeb9cbfbeea719a0ea" sha256new="RABWZQHK26MYQ7WIKKHBH6QND7PTYNPVZYKK53VZZP565JYZUDVA" />
+      <recipe>
+        <archive href="http://download.tuxfamily.org/notepadplus/6.1.6/npp.6.1.6.bin.zip" size="4680364" type="application/zip" extract="unicode" />
+        <rename source="doLocalConf.xml" dest="junk" />
+      </recipe>
+    </implementation>
+    <implementation version="6.1.7" released="2012-09-11" stability="stable" id="sha1new=32908cf3ac5b2b76fdd676aeb17793dce9e45d8b">
+      <manifest-digest sha1new="32908cf3ac5b2b76fdd676aeb17793dce9e45d8b" sha256="7959908746aac03824cad3ab6bc34d47307700848b8c447b36ce61878fc49748" sha256new="PFMZBB2GVLADQJGK2OVWXQ2NI4YHOAEEROGEI6ZWZZQYPD6ES5EA" />
+      <recipe>
+        <archive href="http://download.tuxfamily.org/notepadplus/6.1.7/npp.6.1.7.bin.zip" size="4695914" type="application/zip" extract="unicode" />
+        <rename source="doLocalConf.xml" dest="junk" />
+      </recipe>
+    </implementation>
+    <implementation version="6.1.8" released="2012-09-17" stability="stable" id="sha1new=dde2f9988a5e819906e12ddb43453e9e78dd0e0e">
+      <manifest-digest sha1new="dde2f9988a5e819906e12ddb43453e9e78dd0e0e" sha256="0df05ab4de03df8d6bb249b6cd077c88ad75889fd35ce184adc2b40b96066a6c" sha256new="BXYFVNG6APPY225SJG3M2B34RCWXLCE72NOODBFNYK2AXFQGNJWA" />
+      <recipe>
+        <archive href="http://download.tuxfamily.org/notepadplus/6.1.8/npp.6.1.8.bin.zip" size="4698070" type="application/zip" extract="unicode" />
+        <rename source="doLocalConf.xml" dest="junk" />
+      </recipe>
+    </implementation>
+    <implementation version="6.2" released="2012-10-10" stability="stable" id="sha1new=77e76456f61e28de1738122758759342c0892ae5">
+      <manifest-digest sha1new="77e76456f61e28de1738122758759342c0892ae5" sha256="103b975bfc933c538aa2c9abea7cdb2d6586803db8d7776258d57bf5a5f5cd5e" sha256new="CA5ZOW74SM6FHCVCZGV6U7G3FVSYNAB5XDLXOYSY2V57LJPVZVPA" />
+      <recipe>
+        <archive href="http://download.tuxfamily.org/notepadplus/6.2/npp.6.2.bin.zip" size="4721891" type="application/zip" extract="unicode" />
+        <rename source="doLocalConf.xml" dest="junk" />
+      </recipe>
+    </implementation>
+    <implementation version="6.2.1" released="2012-11-11" stability="stable" id="sha1new=7a22ae38b883c9b5dd04ddd281d2c3edb70f3d6c">
+      <manifest-digest sha1new="7a22ae38b883c9b5dd04ddd281d2c3edb70f3d6c" sha256="f7bec698a1f41e3c98c2ad6f65c9784f4514acf49c9fb6bae0336a19d31f68c2" sha256new="667MNGFB6QPDZGGCVVXWLSLYJ5CRJLHUTSP3NOXAGNVBTUY7NDBA" />
+      <recipe>
+        <archive href="http://download.tuxfamily.org/notepadplus/6.2.1/npp.6.2.1.bin.zip" size="4752974" type="application/zip" extract="unicode" />
+        <rename source="doLocalConf.xml" dest="junk" />
+      </recipe>
+    </implementation>
+    <implementation version="6.2.3" released="2012-12-16" stability="stable" id="sha1new=b12c426104db2861739df9fafe86dcff24f0029e">
+      <manifest-digest sha1new="b12c426104db2861739df9fafe86dcff24f0029e" sha256="8ea50ab4352fed9b6040529952ed4b3cae3e3c5dfd496ccc82e624b785f3c978" sha256new="R2SQVNBVF7WZWYCAKKMVF3KLHSXD4PC57VEWZTEC4YSLPBPTZF4A" />
+      <recipe>
+        <archive href="http://download.tuxfamily.org/notepadplus/6.2.3/npp.6.2.3.bin.zip" size="4763794" type="application/zip" extract="unicode" />
+        <remove path="doLocalConf.xml" />
+      </recipe>
+    </implementation>
+    <implementation version="6.3.3" released="2013-05-06" stability="stable" id="sha1new=e2dbfc7b02f8c441cb3c3735383b70e4e9d1530f">
+      <manifest-digest sha1new="e2dbfc7b02f8c441cb3c3735383b70e4e9d1530f" sha256="27f1bb1413c0327bfe117a269ee60a0ba4e761ca8c67c3055439ba0c82f511ab" sha256new="E7Y3WFATYAZHX7QRPITJ5ZQKBOSOOYOKRRT4GBKUHG5AZAXVCGVQ" />
+      <recipe>
+        <archive href="http://download.tuxfamily.org/notepadplus/6.3.3/npp.6.3.3.bin.zip" size="5857021" type="application/zip" />
+        <remove path="doLocalConf.xml" />
+      </recipe>
+    </implementation>
+    <implementation version="6.4.5" released="2013-08-09" stability="stable" id="sha1new=e008720fafcc8a6ee8cfa3bd76a23946db9140b2">
+      <manifest-digest sha1new="e008720fafcc8a6ee8cfa3bd76a23946db9140b2" sha256="452076c65b41449417073067fe2277ec536edecd1facbda0546f11d3c7fe028b" sha256new="IUQHNRS3IFCJIFYHGBT74ITX5RJW5XWND6WL3ICUN4I5HR76AKFQ" />
+      <recipe>
+        <archive href="http://download.tuxfamily.org/notepadplus/6.4.5/npp.6.4.5.bin.zip" size="6201698" type="application/zip" />
+        <remove path="doLocalConf.xml" />
+      </recipe>
+    </implementation>
+    <implementation version="6.5.5" released="2014-03-07" stability="stable" id="sha1new=c925be2172e1347a787d3e2c0ea71e94b6f06a62">
+      <manifest-digest sha1new="c925be2172e1347a787d3e2c0ea71e94b6f06a62" sha256="3f1ea089b6dfd479e67c8978cf266321bfc4ca66b0123365845cd0e2df8b553e" sha256new="H4PKBCNW37KHTZT4RF4M6JTDEG74JSTGWAJDGZMELTIOFX4LKU7A" />
+      <recipe>
+        <archive href="http://download.tuxfamily.org/notepadplus/6.5.5/npp.6.5.5.bin.zip" size="6409886" type="application/zip" />
+        <remove path="doLocalConf.xml" />
+      </recipe>
+    </implementation>
+    <implementation version="6.6.6" released="2014-06-13" stability="stable" id="sha1new=34f953ed8a839f88a657fa6b6eb2b629510c2c4c">
+      <manifest-digest sha1new="34f953ed8a839f88a657fa6b6eb2b629510c2c4c" sha256="c923561f7e522cf06fca44c5dc75a99fdc568271aaed2f581273a0576096cc96" sha256new="ZERVMH36KIWPA36KITC5Y5NJT7OFNATRVLWS6WASOOQFOYEWZSLA" />
+      <recipe>
+        <archive href="http://download.tuxfamily.org/notepadplus/6.6.6/npp.6.6.6.bin.zip" size="6448215" type="application/zip" />
+        <remove path="doLocalConf.xml" />
+      </recipe>
+    </implementation>
+  </group>
+  <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <file-type id="Notepad++_textfile">
+      <description xml:lang="en">Notepad++ Text file</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".txt" mime-type="text/plain" perceived-type="text" />
+    </file-type>
+    <file-type id="Notepad++_file" explicit-only="true">
+      <description xml:lang="en">Notepad++ Document</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".as" />
+      <extension value=".asp" />
+      <extension value=".bsh" />
+      <extension value=".c" perceived-type="text" />
+      <extension value=".cc" />
+      <extension value=".cpp" perceived-type="text" />
+      <extension value=".cs" />
+      <extension value=".css" mime-type="text/css" perceived-type="text" />
+      <extension value=".cxx" perceived-type="text" />
+      <extension value=".f" />
+      <extension value=".f2k" />
+      <extension value=".f90" />
+      <extension value=".f95" />
+      <extension value=".for" />
+      <extension value=".h" perceived-type="text" />
+      <extension value=".hpp" perceived-type="text" />
+      <extension value=".htm" mime-type="text/html" perceived-type="text" />
+      <extension value=".html" mime-type="text/html" perceived-type="text" />
+      <extension value=".hxx" perceived-type="text" />
+      <extension value=".inc" perceived-type="text" />
+      <extension value=".ini" />
+      <extension value=".java" perceived-type="text" />
+      <extension value=".js" />
+      <extension value=".jsp" />
+      <extension value=".log" />
+      <extension value=".lua" />
+      <extension value=".m" />
+      <extension value=".mak" />
+      <extension value=".mx" />
+      <extension value=".nfo" />
+      <extension value=".nsh" />
+      <extension value=".nsi" />
+      <extension value=".pas" />
+      <extension value=".php" />
+      <extension value=".phtml" />
+      <extension value=".pl" perceived-type="text" />
+      <extension value=".pm" />
+      <extension value=".py" />
+      <extension value=".rc" />
+      <extension value=".sh" />
+      <extension value=".sql" perceived-type="text" />
+      <extension value=".tex" />
+      <extension value=".vb" />
+      <extension value=".vbs" />
+      <extension value=".xml" mime-type="text/xml" />
+    </file-type>
+    <context-menu id="open-with">
+      <verb name="notepad_plus_plus" args="&quot;%1&quot;">
+        <description xml:lang="en">Open with Notepad++</description>
+        <description xml:lang="de">Öffnen mit Notepad++</description>
+      </verb>
+    </context-menu>
+  </capabilities>
+</interface>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/TightVNC.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>TightVNC</name>
+  <summary xml:lang="en">free remote-desktop tool</summary>
+  <summary xml:lang="de">freies Remote-Desktop Tool</summary>
+  <description xml:lang="en">TightVNC is an improved version of VNC, the great free remote-desktop tool. The improvements include bandwidth-friendly "Tight" encoding, file transfers in the Windows version, enhanced GUI, many bugfixes, and more.</description>
+  <description xml:lang="de">TightVNC ist eine verbessert Version von VNC, dem großartigen Remote-Desktop Tool. Die Verbesserungen beinhalten bandbreitenschonende "Tight" Kodierungen, Dateiübertragung in den Windows Versionen, verbessertes GUI, viele Bugfixes und mehr.</description>
+  <homepage>http://www.tightvnc.com/</homepage>
+  <icon href="http://0install.de/feed-icons/TightVNC.png" type="image/png" />
+  <icon href="http://0install.de/feed-icons/TightVNC.ico" type="image/vnd.microsoft.icon" />
+  <category>Network</category>
+  <category>Utility</category>
+  <group license="GPL v2 (GNU General Public License)">
+    <command name="run" path="vncviewer.exe" />
+    <command name="server" path="WinVNC.exe" />
+    <group version="1.3.10" released="2009-03-08" stability="stable">
+      <implementation arch="Windows-*" id="sha1new=0e45840b436677a6bc1392df799deb91ebf6e833">
+        <manifest-digest sha1new="0e45840b436677a6bc1392df799deb91ebf6e833" sha256="5440c5946c4b9c69a4c2817338a477979b98fab8cbd10c7f41c739c757b3cac3" sha256new="KRAMLFDMJOOGTJGCQFZTRJDXS6NZR6VYZPIQY72BY444OV5TZLBQ" />
+        <archive href="http://www.tightvnc.com/download/1.3.10/tightvnc-1.3.10_x86.zip" size="943591" type="application/zip" />
+      </implementation>
+      <implementation arch="Windows-src" id="sha1new=e48b1ec437c83215388321b524b680ba99d17fe8">
+        <manifest-digest sha1new="e48b1ec437c83215388321b524b680ba99d17fe8" sha256="f1b9ad2a447fcbba07ad40fc5b70dad9f60da53fbe8a4d63489121028e0f5d29" sha256new="6G422KSEP7F3UB5NID6FW4G23H3A3JJ7X2FE2Y2ISEQQFDQPLUUQ" />
+        <archive href="http://www.tightvnc.com/download/1.3.10/tightvnc-1.3.10_winsrc.tar.bz2" size="1617947" type="application/x-bzip-compressed-tar" extract="vnc_winsrc" />
+      </implementation>
+      <implementation arch="Linux-src" id="sha1new=9f6364fc74a361e219ed45ed0c6afbf0562ce431">
+        <manifest-digest sha1new="9f6364fc74a361e219ed45ed0c6afbf0562ce431" sha256="14e07ae52edb143218217f300979b4b259e6d59858cc6027bdf33c289f8cf316" sha256new="CTQHVZJO3MKDEGBBP4YAS6NUWJM6NVMYLDGGAJ556M6CRH4M6MLA" />
+        <archive href="http://www.tightvnc.com/download/1.3.10/tightvnc-1.3.10_unixsrc.tar.bz2" size="1780510" type="application/x-bzip-compressed-tar" extract="vnc_unixsrc" />
+      </implementation>
+    </group>
+  </group>
+  <entry-point command="run" binary-name="vncviewer">
+    <name xml:lang="en">TightVNC Viewer</name>
+    <icon href="http://0install.de/feed-icons/TightVNC/Viewer.png" type="image/png" />
+    <icon href="http://0install.de/feed-icons/TightVNC/Viewer.ico" type="image/vnd.microsoft.icon" />
+  </entry-point>
+  <entry-point command="server" binary-name="winvnc">
+    <name xml:lang="en">TightVNC Server</name>
+    <icon href="http://0install.de/feed-icons/TightVNC/Server.png" type="image/png" />
+    <icon href="http://0install.de/feed-icons/TightVNC/Server.ico" type="image/vnd.microsoft.icon" />
+  </entry-point>
+  <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <file-type description="VNCviewer Config File" id="TightVNC.VncViewer.Config">
+      <verb name="open" args="-config &quot;%1&quot;" />
+      <extension value=".vnc" />
+    </file-type>
+  </capabilities>
+</interface>

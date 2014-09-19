@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/M4AExtract.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>M4AExtract</name>
+  <summary xml:lang="en">a small tool that extracts M4As from MP4s</summary>
+  <summary xml:lang="de">ein kleines Tool, dass M4As aus MP4s extrahiert</summary>
+  <homepage>http://www.nanobyte.de/</homepage>
+  <category>Audio</category>
+  <category>Utility</category>
+  <group license="MIT/X Consortium License">
+    <requires interface="http://0install.de/feeds/MP4Box.xml">
+      <executable-in-path name="MP4Box" />
+    </requires>
+    <command name="run" path="M4AExtract.exe">
+      <runner interface="http://0install.de/feeds/cli/cli.xml" />
+    </command>
+    <implementation version="0.2.0" released="2014-08-31" stability="stable" id="sha1new=7f0a010b7ab2264f7fce07fde9a13fabab9874d0">
+      <manifest-digest sha1new="7f0a010b7ab2264f7fce07fde9a13fabab9874d0" sha256="807a54654571a2c86b08e83a634d6b296eb5525148672b8e8c7dcbb6ae51fed4" sha256new="QB5FIZKFOGRMQ2YI5A5GGTLLFFXLKUSRJBTSXDUMPXF3NLSR73KA" />
+      <archive href="http://0install.de/files/hosted/m4aextract-0.2.0.zip" size="190659" type="application/zip" />
+    </implementation>
+  </group>
+  <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <file-type id="M4AExtract.mp4">
+      <description xml:lang="en">Video file (.mp4)</description>
+      <verb name="ExtractAudio" args="&quot;%1&quot;">
+        <description xml:lang="en">Extract M4A Audio</description>
+        <description xml:lang="de">M4A Audio extrahieren</description>
+      </verb>
+      <extension value=".mp4" mime-type="video/mp4" perceived-type="video" />
+    </file-type>
+    <file-type id="M4AExtract.aac">
+      <description xml:lang="en">Audio file (.aac)</description>
+      <verb name="ExtractAudio" args="&quot;%1&quot;">
+        <description xml:lang="en">Extract M4A Audio</description>
+        <description xml:lang="de">M4A Audio extrahieren</description>
+      </verb>
+      <extension value=".aac" mime-type="audio/vnd.dlna.adts" perceived-type="audio" />
+    </file-type>
+  </capabilities>
+</interface>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/Lynx.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Lynx</name>
+  <summary xml:lang="en">text-based web browser</summary>
+  <summary xml:lang="de">text-basierter Web Browser</summary>
+  <description xml:lang="en">Lynx is a highly configurable text-based web browser for use on cursor-addressable terminals.</description>
+  <description xml:lang="de">Lynx ist ein stark konfigurierbarer text-basierter Web Browser der für Cursor-adressierbare Terminals ausgelegt ist.</description>
+  <homepage>http://www.fdisk.com/doslynx/lynxport.htm</homepage>
+  <icon href="http://0install.de/feed-icons/Lynx.png" type="image/png" />
+  <category>Network</category>
+  <needs-terminal />
+  <group arch="Windows-*" license="GPL v2 (GNU General Public License)" doc-dir="help">
+    <command name="run" path="lynx.exe">
+      <working-dir src="." />
+    </command>
+    <implementation version="2.8.2-1" stability="stable" id="sha1new=23f987e752fa8e5b6874f6a9d3c9f1ba9a9bc6f8">
+      <manifest-digest sha1new="23f987e752fa8e5b6874f6a9d3c9f1ba9a9bc6f8" sha256="3388bbd9fd9afd1c0804b5520d221bd259e63b033c8d832c580b079988c44d29" sha256new="GOELXWP5TL6RYCAEWVJA2IQ32JM6MOYDHSGYGLCYBMDZTCGEJUUQ" />
+      <archive href="http://www.fdisk.com/doslynx/wlynx/lynx_w32.2.8.2rel.1.zip" size="674597" type="application/zip" />
+    </implementation>
+  </group>
+  <entry-point command="run" binary-name="lynx" />
+</interface>

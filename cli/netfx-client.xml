@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd" uri="http://0install.de/feeds/cli/netfx-client.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>.NET Framework Client Profile</name>
+  <summary xml:lang="en">a limited version of the .NET Framework from Microsoft</summary>
+  <feed src="http://0install.de/feeds/cli/netfx.xml" />
+  <package-implementation package="netfx-client" distributions="Windows" />
+</interface>

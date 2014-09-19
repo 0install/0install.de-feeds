@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/SevenZip_CLI.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>7-Zip Command-line</name>
+  <summary xml:lang="en">file archiver with a high compression ratio</summary>
+  <summary xml:lang="de">Datei-Archivierer mit einer hohen Kompressionsrate</summary>
+  <description xml:lang="en">7-Zip is a file archiver with a high compression ratio. The program supports 7z, ZIP, CAB, RAR, ARJ, LZH, CHM, GZIP, BZIP2, Z, TAR, CPIO, ISO, MSI, WIM, NSIS, RPM and DEB formats. This is the command-line portion of 7-Zip.</description>
+  <description xml:lang="de">7-Zip ist ein Datei-Archivierer mit einer hohen Kompressionsrate. Das Programm unterstützt 7z, ZIP, CAB, RAR, ARJ, LZH, CHM, GZIP, BZIP2, Z, TAR, CPIO, ISO, MSI, WIM, NSIS, RPM und DEB. Dies ist der Befehlszeilenteil von 7-Zip.</description>
+  <homepage>http://www.7-zip.org/</homepage>
+  <icon href="http://www.7-zip.org/7ziplogo.png" type="image/png" />
+  <category>Utility</category>
+  <needs-terminal />
+  <group arch="Windows-*" license="GPL v2 (GNU General Public License)" main="7za.exe">
+    <implementation version="9.17" released="2010-10-04" stability="stable" id="sha1new=ece32c056e78f11654a62f558d4c457bc1fa1d28">
+      <manifest-digest sha1new="ece32c056e78f11654a62f558d4c457bc1fa1d28" sha256="e80ba334db33b538ed7218ef6da5622e628ac9ea35c8c1b8903802c8aecca823" sha256new="5AF2GNG3GO2TR3LSDDXW3JLCFZRIVSPKGXEMDOEQHABMRLWMVARQ" />
+      <archive href="http://downloads.sourceforge.net/sevenzip/7za917.zip" size="383256" type="application/zip" />
+    </implementation>
+    <implementation version="9.18" released="2010-11-02" stability="stable" id="sha1new=f255aaff1d3b2d8dd0973d25e82cda12684f1403">
+      <manifest-digest sha1new="f255aaff1d3b2d8dd0973d25e82cda12684f1403" sha256="507bca517e31d3d974426990a3317e7c91c1ef816bf4c345f3e168651a0cd655" sha256new="KB54UUL6GHJ5S5CCNGIKGML6PSI4D34BNP2MGRPT4FUGKGQM2ZKQ" />
+      <archive href="http://downloads.sourceforge.net/sevenzip/7za918.zip" size="384286" type="application/zip" />
+    </implementation>
+    <implementation version="9.19" released="2010-11-11" stability="stable" id="sha1new=c9adccde07a2eb97556ccb93c0d87c79157ca05f">
+      <manifest-digest sha1new="c9adccde07a2eb97556ccb93c0d87c79157ca05f" sha256="21ba0f48286922792ef51ea0996a64e889234b10b352ee4ad80268c8661d5071" sha256new="EG5A6SBINERHSLXVD2QJS2TE5CESGSYQWNJO4SWYAJUMQZQ5KBYQ" />
+      <archive href="http://downloads.sourceforge.net/sevenzip/7za919.zip" size="384784" type="application/zip" />
+    </implementation>
+    <implementation version="9.20" released="2010-11-18" stability="stable" id="sha1new=a168020014f6de4f42c82e1288f634923489b0c9">
+      <manifest-digest sha1new="a168020014f6de4f42c82e1288f634923489b0c9" sha256="4142af592b2d05ca69430579818835e161e301ac1d7ab2f8060431136a3831a5" sha256new="IFBK6WJLFUC4U2KDAV4YDCBV4FQ6GANMDV5LF6AGAQYRG2RYGGSQ" />
+      <archive href="http://downloads.sourceforge.net/sevenzip/7za920.zip" size="384846" type="application/zip" />
+    </implementation>
+  </group>
+  <entry-point command="run" binary-name="7za" />
+</interface>

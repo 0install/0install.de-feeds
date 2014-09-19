@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/Audacity.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Audacity</name>
+  <summary xml:lang="en">fast multi-track audio editor and recorder</summary>
+  <summary xml:lang="de">schneller Mehrspur-Audio-Editor und -Aufzeichner</summary>
+  <description xml:lang="en">A fast multi-track audio editor and recorder. Supports WAV, AIFF, Ogg, and MP3 formats. Features include envelope editing, mixing, built-in effects and plug-ins, all with unlimited undo.</description>
+  <description xml:lang="de">Ein schneller Mehrspur-Audio-Editor und -Aufzeichner. Unterstützt die WAV, AIFF, Ogg, und MP3 Formate.</description>
+  <homepage>http://audacity.sourceforge.net/</homepage>
+  <icon href="http://0install.de/feed-icons/Audacity.png" type="image/png" />
+  <icon href="http://0install.de/feed-icons/Audacity.ico" type="image/vnd.microsoft.icon" />
+  <category>Audio</category>
+  <group license="GPL v2 (GNU General Public License)">
+    <package-implementation arch="Linux-*" main="/usr/bin/audacity" package="audacity" distributions="Debian Gentoo Ports RPM Slack" />
+    <group version="1.2.0" released="2004-03-01" stability="stable">
+      <implementation arch="Windows-*" main="audacity.exe" id="sha1new=d566679c1089b30b0e56c2d9d83529a5bbe26bc8">
+        <manifest-digest sha1new="d566679c1089b30b0e56c2d9d83529a5bbe26bc8" sha256="505ebcfd3b2b0070ec3dc60056e1a62aad2e45cf23546e7a8dd631aaa5dede6f" sha256new="KBPLZ7J3FMAHB3B5YYAFNYNGFKWS4ROPENKG46UN2YY2VJO63ZXQ" />
+        <archive href="http://downloads.sourceforge.net/audacity/audacity-win-1.2.0.zip" size="2690143" type="application/zip" extract="Audacity" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=9a7f81725a1241607cdfa7ec80d708ac02da0240">
+        <manifest-digest sha1new="9a7f81725a1241607cdfa7ec80d708ac02da0240" sha256="3ea04c97738abe2a76af101e18d7b16453cd52e8ac48574dbe7432a0c3f50f3c" sha256new="H2QEZF3TRK7CU5VPCAPBRV5RMRJ42UXIVREFOTN6OQZKBQ7VB46A" />
+        <archive href="http://downloads.sourceforge.net/audacity/audacity-src-1.2.0.tar.gz" size="3341562" type="application/x-compressed-tar" extract="audacity-src-1.2.0" />
+      </implementation>
+    </group>
+    <group version="1.2.2" released="2004-08-26" stability="stable">
+      <implementation arch="Windows-*" main="audacity.exe" id="sha1new=cfd88761d0c3702f8bacf513036a0da5a5675a15">
+        <manifest-digest sha1new="cfd88761d0c3702f8bacf513036a0da5a5675a15" sha256="f3201bbb39c061a8f260ba1d67162c6f716c1436d5e671bff088ad8549abc55f" sha256new="6MQBXOZZYBQ2R4TAXIOWOFRMN5YWYFBW2XTHDP7QRCWYKSNLYVPQ" />
+        <archive href="http://downloads.sourceforge.net/audacity/audacity-win-1.2.2.zip" size="2781732" type="application/zip" extract="Audacity" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=d870339fa67f19294a1b8c312109707c1c001fb5">
+        <manifest-digest sha1new="d870339fa67f19294a1b8c312109707c1c001fb5" sha256="5eefc7798039ca44e8db52ae7ca58d5d0f2d3d61e87b22c942b7a55d72bf895d" sha256new="L3X4O6MAHHFEJ2G3KKXHZJMNLUHS2PLB5B5SFSKCW6SV24V7RFOQ" />
+        <archive href="http://downloads.sourceforge.net/audacity/audacity-src-1.2.2.tar.gz" size="3603400" type="application/x-compressed-tar" extract="audacity-src-1.2.2" />
+      </implementation>
+    </group>
+    <group version="1.2.3" released="2004-11-19" stability="stable">
+      <implementation arch="Windows-*" main="audacity.exe" id="sha1new=6254a70b41931e441935b87d74d3a668556392d1">
+        <manifest-digest sha1new="6254a70b41931e441935b87d74d3a668556392d1" sha256="0d565f70f9158384366328f1d391282be24f93342d3185ce042b1240ce67535c" sha256new="BVLF64HZCWBYINTDFDY5HEJIFPRE7EZUFUYYLTQEFMJEBTTHKNOA" />
+        <archive href="http://downloads.sourceforge.net/audacity/audacity-win-1.2.3.zip" size="2822570" type="application/zip" extract="Audacity" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=5f9b4f97b70726cc4c4ccbfc9a86685949e21e5d">
+        <manifest-digest sha1new="5f9b4f97b70726cc4c4ccbfc9a86685949e21e5d" sha256="95faea6149e98ac1430c828754cab5f356e21f7f7cec3e274037030a5275d380" sha256new="SX5OUYKJ5GFMCQYMQKDVJSVV6NLOEH37PTWD4J2AG4BQUUTV2OAA" />
+        <archive href="http://downloads.sourceforge.net/audacity/audacity-src-1.2.3.tar.gz" size="4175943" type="application/x-compressed-tar" extract="audacity-src-1.2.3" />
+      </implementation>
+    </group>
+    <group version="1.2.5" released="2006-10-30" stability="stable">
+      <implementation arch="Windows-*" main="audacity.exe" id="sha1new=1ceef2a7af23b11467b591dd18fc0c39c88b0e50">
+        <manifest-digest sha1new="1ceef2a7af23b11467b591dd18fc0c39c88b0e50" sha256="9cc3ce989369f619b982dd4ca105ee759398c10144a7e64bb4e0a0d30cf05b2c" sha256new="TTB45GETNH3BTOMC3VGKCBPOOWJZRQIBIST6MS5U4CQNGDHQLMWA" />
+        <archive href="http://downloads.sourceforge.net/audacity/audacity-win-1.2.5.zip" size="3113854" type="application/zip" extract="Audacity" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=1aa39dc25c8874acf1a7a5cb84883b7671e6d2f6">
+        <manifest-digest sha1new="1aa39dc25c8874acf1a7a5cb84883b7671e6d2f6" sha256="a0dd8ba85fed77d1e41c563bdedd95a9ff435ee6c337bb655d5413dbeae4d523" sha256new="UDOYXKC75V35DZA4KY555XMVVH7UGXXGYM33WZK5KQJ5X2XE2URQ" />
+        <archive href="http://downloads.sourceforge.net/audacity/audacity-src-1.2.5.tar.gz" size="5767225" type="application/x-compressed-tar" extract="audacity-src-1.2.5" />
+      </implementation>
+    </group>
+    <group version="1.2.6" released="2008-05-09" stability="stable">
+      <implementation arch="Windows-*" main="audacity.exe" id="sha1new=4c77820507dddd15f4d8741d6c6621806878eda1">
+        <manifest-digest sha1new="4c77820507dddd15f4d8741d6c6621806878eda1" sha256="a0566751c56541804970da63ce230ebaad75ab85adbc488dec2da4163ee6747b" sha256new="UBLGOUOFMVAYASLQ3JR44IYOXKWXLK4FVW6ERDPMFWSBMPXGOR5Q" />
+        <archive href="http://downloads.sourceforge.net/audacity/audacity-win-1.2.6.zip" size="3154009" type="application/zip" extract="Audacity" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=408310f1aa4baef267f67c114023d83b36382b9a">
+        <manifest-digest sha1new="408310f1aa4baef267f67c114023d83b36382b9a" sha256="19801ed02ee7c90e4f7382c60bd5b8a5e4a2f51683d1b4d4d8de672a5b30f8e0" sha256new="DGAB5UBO47EQ4T3TQLDAXVNYUXSKF5IWQPI3JVGY3ZTSUWZQ7DQA" />
+        <archive href="http://downloads.sourceforge.net/audacity/audacity-src-1.2.6.tar.gz" size="4882379" type="application/x-compressed-tar" extract="audacity-src-1.2.6" />
+      </implementation>
+    </group>
+    <group version="2.0" released="2012-02-13" stability="stable">
+      <implementation arch="Windows-*" main="audacity.exe" id="sha1new=b49e45ef61f25b81cffa42eaa351bb3351826f69">
+        <manifest-digest sha1new="b49e45ef61f25b81cffa42eaa351bb3351826f69" sha256="d4085e07e627ddd74d4f0412a12e20aaf59af4a2e14443c8802cfe1720ced7cb" sha256new="2QEF4B7GE7O5OTKPAQJKCLRAVL2ZV5FC4FCEHSEAFT7BOIGO27FQ" />
+        <archive href="http://audacity.googlecode.com/files/audacity-win-2.0.zip" size="8122109" type="application/zip" extract="Audacity" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=a8a9b078a8f8ae56e682130b064d239f3de59065">
+        <manifest-digest sha1new="a8a9b078a8f8ae56e682130b064d239f3de59065" sha256="0b55de6cb335ee2db6894a256706e87e5c76756cb2ebab8277cf41994d1bc9ee" sha256new="BNK543FTGXXC3NUJJISWOBXIPZOHM5LMWLV2XATXZ5AZSTI3ZHXA" />
+        <archive href="http://audacity.googlecode.com/files/audacity-fullsrc-2.0.0.tar.bz2" size="18784590" type="application/x-bzip-compressed-tar" extract="audacity-src-2.0" />
+      </implementation>
+    </group>
+    <group version="2.0.1" released="2012-06-28" stability="stable">
+      <implementation arch="Windows-*" main="audacity.exe" id="sha1new=f159c142a2eab0b58ab393ad98a722a40989bef9">
+        <manifest-digest sha1new="f159c142a2eab0b58ab393ad98a722a40989bef9" sha256="3f716be7013296e77f151013aaacabb63059e80a84aedf03e2b45b8a4b5b3165" sha256new="H5YWXZYBGKLOO7YVCAJ2VLFLWYYFT2AKQSXN6A7CWRNYUS23GFSQ" />
+        <archive href="http://audacity.googlecode.com/files/audacity-win-2.0.1.zip" size="8305196" type="application/zip" extract="Audacity" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=9adc946730dd817142338762cd28be4160434345">
+        <manifest-digest sha1new="9adc946730dd817142338762cd28be4160434345" sha256="f38b7edfd21cd41b9680f1e1069c21d035415a80c4d6864ab7880e510a5faf0b" sha256new="6OFX5X6SDTKBXFUA6HQQNHBB2A2UCWUAYTLIMSVXRAHFCCS7V4FQ" />
+        <archive href="http://audacity.googlecode.com/files/audacity-fullsrc-2.0.1.tar.bz2" size="19008568" type="application/x-bzip-compressed-tar" extract="audacity-src-2.0.1" />
+      </implementation>
+    </group>
+    <group version="2.0.2" released="2012-08-23" stability="stable">
+      <implementation arch="Windows-*" main="audacity.exe" id="sha1new=be0617ab7447f0047122261c761affcdaa90c607">
+        <manifest-digest sha1new="be0617ab7447f0047122261c761affcdaa90c607" sha256="f179032d29948a89f868b6288a128c9051914505e74e84e1089cdd335f822197" sha256new="6F4QGLJJSSFIT6DIWYUIUEUMSBIZCRIF45HIJYIITTOTGX4CEGLQ" />
+        <archive href="http://audacity.googlecode.com/files/audacity-win-2.0.2.zip" size="8671686" type="application/zip" extract="Audacity" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=6c1b5830771632b6ccf49f066d4af8925356c688">
+        <manifest-digest sha1new="6c1b5830771632b6ccf49f066d4af8925356c688" sha256="b3f23d48c5212c1de9827ef4486981ef526e441563123c0cd0a78ed369542e9c" sha256new="WPZD2SGFEEWB32MCP32EQ2MB55JG4RAVMMJDYDGQU6HNG2KUF2OA" />
+        <archive href="http://audacity.googlecode.com/files/audacity-fullsrc-2.0.2.tar.bz2" size="19151002" type="application/x-bzip-compressed-tar" extract="audacity-src-2.0.2" />
+      </implementation>
+    </group>
+  </group>
+  <entry-point command="run" binary-name="audacity" />
+  <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <file-type id="Audacity.Project">
+      <description xml:lang="en">Audacity Project File</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".AUP" />
+    </file-type>
+  </capabilities>
+</interface>

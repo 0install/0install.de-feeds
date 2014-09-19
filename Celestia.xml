@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/Celestia.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Celestia</name>
+  <summary xml:lang="en">free space simulation</summary>
+  <description xml:lang="en">The free space simulation that lets you explore our universe in three dimensions.</description>
+  <icon href="http://0install.de/feed-icons/Celestia.png" type="image/png" />
+  <icon href="http://0install.de/feed-icons/Celestia.ico" type="image/vnd.microsoft.icon" />
+  <category>Education</category>
+  <group license="GPL v3 (GNU General Public License)">
+    <group arch="Windows-*">
+      <environment name="CELESTIA_DIR" insert="." />
+      <command name="run" path="celestia.exe">
+        <arg>--dir</arg>
+        <arg>$CELESTIA_DIR</arg>
+      </command>
+      <implementation version="1.6.1" released="2011-06-07" stability="stable" id="sha1new=da64ac42bc62fdc38d7c1eaf917b8f40d8d1f5d6">
+        <manifest-digest sha1new="da64ac42bc62fdc38d7c1eaf917b8f40d8d1f5d6" sha256="575b23ddb44f5e5537035de2db57ebc3d6bbb74583600ec19bf85d3c04ef49d8" sha256new="K5NSHXNUJ5PFKNYDLXRNWV7LYPLLXN2FQNQA5QM37BOTYBHPJHMA" />
+        <archive href="http://0install.de/files/hosted/celestia-1.6.1.tar.bz2" size="38332626" type="application/x-bzip-compressed-tar" />
+      </implementation>
+    </group>
+  </group>
+  <entry-point command="run" binary-name="celestia" />
+  <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <url-protocol id="cel">
+      <description xml:lang="en">Celestia protocol</description>
+      <verb name="open" args="--once -u &quot;%1&quot;" />
+    </url-protocol>
+    <file-type id="celestia_script">
+      <description xml:lang="en">Celestia script</description>
+      <verb name="open" args="--once -u &quot;%1&quot;" />
+      <extension value=".cel" />
+      <extension value=".celx" />
+      <extension value=".clx" />
+    </file-type>
+  </capabilities>
+</interface>

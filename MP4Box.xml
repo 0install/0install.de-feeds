@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/MP4Box.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>MP4Box</name>
+  <summary xml:lang="en">a MP4 multiplexer</summary>
+  <description xml:lang="en">MP4Box is a MP4 multiplexer. It can import MPEG-4 video, DivX, XviD, 3ivx, h264 etc, audio streams and subtitles into the .mp4 container. The end result is a compliant MP4 stream. It can also extract streams from a .mp4</description>
+  <homepage>http://gpac.wp.mines-telecom.fr/mp4box/</homepage>
+  <category>AudioVideo</category>
+  <needs-terminal />
+  <group license="LGPL (GNU Lesser General Public License)" main="MP4Box.exe">
+    <requires interface="http://0install.de/feeds/MSVC100.xml">
+      <environment name="PATH" insert="." mode="append" />
+    </requires>
+    <group version="0.4.6-2735" released="2011-03-02" stability="stable">
+      <implementation arch="Windows-*" id="sha1new=c9da505148416a933484075c47a7e3dfb036206e">
+        <manifest-digest sha1new="c9da505148416a933484075c47a7e3dfb036206e" sha256="04efa1a144d9342fd81bb70df5c31ebd9790beb43d9dc2e6d934872ebad7789b" sha256new="ATX2DIKE3E2C7WA3W4G7LQY6XWLZBPVUHWO4FZWZGSDS5OWXPCNQ" />
+        <archive href="http://0install.de/files/hosted/MP4Box-0.4.6-rev2735.tar.bz2" size="1500498" type="application/x-bzip-compressed-tar" />
+      </implementation>
+    </group>
+  </group>
+</interface>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/NetBeans_All_Scala.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>NetBeans All with Scala</name>
+  <summary xml:lang="en">A multi-language software development environment</summary>
+  <summary xml:lang="de">Eine multi-Sprachen Softwareentwicklungsumgebung</summary>
+  <description xml:lang="en">NetBeans is a multi-language integrated development environment.</description>
+  <description xml:lang="de">NetBeans ist eine multi-Sprachen integrierte Entwicklungsumgebung (IDE).</description>
+  <homepage>http://www.netbeans.org/</homepage>
+  <icon href="http://0install.de/feed-icons/NetBeans.png" type="image/png" />
+  <icon href="http://0install.de/feed-icons/NetBeans.ico" type="image/vnd.microsoft.icon" />
+  <category>Development</category>
+  <implementation version="1" stability="stable" id="empty">
+    <requires interface="http://0install.de/feeds/Scala.xml">
+      <environment name="SCALA_HOME" insert="." mode="replace" />
+    </requires>
+    <command name="run">
+      <runner interface="http://0install.de/feeds/NetBeans_All.xml" />
+    </command>
+    <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709" sha256="e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" sha256new="4OYMIQUY7QOBJGX36TEJS35ZEQT24QPEMSNZGTFESWMRW6CSXBKQ" />
+    <recipe />
+  </implementation>
+</interface>

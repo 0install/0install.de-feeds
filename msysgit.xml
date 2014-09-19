@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/msysgit.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Git for Windows</name>
+  <summary xml:lang="en">decentralized version control system</summary>
+  <summary xml:lang="de">dezentrales Versionsverwaltungssystem</summary>
+  <description xml:lang="en">Git is a powerful version control system aiming to be the fastest decentralized source code management tool on this planet.</description>
+  <description xml:lang="de">Git ist ein mächtiges Versionsverwaltungssystem mit dem Ziel das schnellste denzentrale Quellcodeverwaltungstool auf diesem Planeten zu sein.</description>
+  <homepage>http://msysgit.github.com/</homepage>
+  <icon href="http://msysgit.github.io/img/gwindows_logo.png" type="image/png" />
+  <category>Development</category>
+  <needs-terminal />
+  <feed-for interface="http://repo.roscidus.com/git/core" />
+  <group arch="Windows-*" license="GPL v2 (GNU General Public License)">
+    <requires interface="http://0install.de/feeds/PuTTY.xml" distribution="">
+      <environment name="GIT_SSH" insert="plink.exe" mode="replace" />
+    </requires>
+    <environment name="PATH" insert="bin" />
+    <command name="git-bash" path="bin/sh.exe">
+      <arg>--login</arg>
+      <arg>-i</arg>
+    </command>
+    <command name="run" path="bin/git.exe" />
+    <command name="gitk" path="bin/sh.exe">
+      <arg>/bin/gitk</arg>
+    </command>
+    <command name="antiword" path="bin/antiword.exe" />
+    <command name="astextplain" path="bin/sh.exe">
+      <arg>/bin/astextplain</arg>
+    </command>
+    <command name="basename" path="bin/basename.exe" />
+    <command name="bash" path="bin/bash.exe" />
+    <command name="bison" path="bin/bison.exe" />
+    <command name="bzip2" path="bin/bzip2" />
+    <command name="bunzip2" path="bin/bzip2.exe">
+      <arg>-d</arg>
+    </command>
+    <command name="c_rehash" path="bin/perl">
+      <arg>/bin/c_rehash</arg>
+    </command>
+    <command name="cat" path="bin/cat.exe" />
+    <command name="chmod" path="bin/chmod.exe" />
+    <command name="cmp" path="bin/cmp.exe" />
+    <command name="connect" path="bin/connect.exe" />
+    <command name="cp" path="bin/cp.exe" />
+    <command name="curl" path="bin/curl.exe" />
+    <command name="cut" path="bin/cut.exe" />
+    <command name="date" path="bin/date.exe" />
+    <command name="diff" path="bin/diff.exe" />
+    <command name="dirname" path="bin/dirname.exe" />
+    <command name="docx2txt" path="bin/perl">
+      <arg>/bin/docx2txt</arg>
+    </command>
+    <command name="dos2unix" path="bin/dos2unix.exe" />
+    <command name="du" path="bin/du.exe" />
+    <command name="grep" path="bin/grep.exe">
+      <arg>-E</arg>
+    </command>
+    <command name="env" path="bin/env.exe" />
+    <command name="expr" path="bin/expr.exe" />
+    <command name="false" path="bin/false.exe" />
+    <command name="find" path="bin/find.exe" />
+    <command name="flex" path="bin/flex.exe" />
+    <command name="gawk" path="bin/gawk.exe" />
+    <command name="getcp" path="bin/getcp.exe" />
+    <command name="gpg" path="bin/gpg.exe" />
+    <command name="gpgsplit" path="bin/gpgsplit.exe" />
+    <command name="gpgv" path="bin/gpgv.exe" />
+    <command name="gpg-zip" path="bin/sh.exe">
+      <arg>/bin/gpg-zip</arg>
+    </command>
+    <command name="grep" path="bin/grep.exe" />
+    <command name="gunzip" path="bin/gunzip.exe" />
+    <command name="gzip" path="bin/gzip.exe" />
+    <command name="head" path="bin/head.exe" />
+    <command name="id" path="bin/id.exe" />
+    <command name="kill" path="bin/kill.exe" />
+    <command name="less" path="bin/less.exe" />
+    <command name="ln" path="bin/ln.exe" />
+    <command name="ls" path="bin/ls.exe" />
+    <command name="m4" path="bin/m4.exe" />
+    <command name="md5sum" path="bin/md5sum.exe" />
+    <command name="mkdir" path="bin/mkdir.exe" />
+    <command name="msmtp" path="bin/msmtp.exe" />
+    <command name="mv" path="bin/mv.exe" />
+    <command name="openssl" path="bin/openssl.exe" />
+    <command name="patch" path="bin/patch.exe" />
+    <command name="pdfinfo" path="bin/pdfinfo.exe" />
+    <command name="pdftotext" path="bin/pdftotext.exe" />
+    <command name="perl" path="bin/perl.exe" />
+    <command name="ps" path="bin/ps.exe" />
+    <command name="rebase" path="bin/rebase.exe" />
+    <command name="recodetree" path="bin/sh.exe">
+      <arg>/bin/recodetree</arg>
+    </command>
+    <command name="rm" path="bin/rm.exe" />
+    <command name="rmdir" path="bin/rmdir.exe" />
+    <command name="rxvt" path="bin/rxvt.exe" />
+    <command name="scp" path="bin/scp.exe" />
+    <command name="sed" path="bin/sed.exe" />
+    <command name="sh" path="bin/sh.exe" />
+    <command name="sleep" path="bin/sleep.exe" />
+    <command name="sort" path="bin/sort.exe" />
+    <command name="split" path="bin/split.exe" />
+    <command name="ssh" path="bin/ssh.exe" />
+    <command name="ssh-add" path="bin/ssh-add.exe" />
+    <command name="ssh-agent" path="bin/ssh-agent.exe" />
+    <command name="ssh-keygen" path="bin/ssh-keygen.exe" />
+    <command name="ssh-keyscan" path="bin/ssh-keyscan.exe" />
+    <command name="tail" path="bin/tail.exe" />
+    <command name="tar" path="bin/tar.exe" />
+    <command name="tclsh" path="bin/tclsh.exe" />
+    <command name="tclsh85" path="bin/tclsh85.exe" />
+    <command name="tee" path="bin/tee.exe" />
+    <command name="touch" path="bin/touch.exe" />
+    <command name="tr" path="bin/tr.exe" />
+    <command name="true" path="bin/true.exe" />
+    <command name="uname" path="bin/uname.exe" />
+    <command name="uniq" path="bin/uniq.exe" />
+    <command name="unzip" path="bin/unzip.exe" />
+    <command name="wc" path="bin/wc.exe" />
+    <command name="which" path="bin/sh.exe">
+      <arg>/bin/which</arg>
+    </command>
+    <command name="wish" path="bin/wish.exe" />
+    <command name="wish85" path="bin/wish85.exe" />
+    <command name="xargs" path="bin/xargs.exe" />
+    <implementation version="1.9.0" released="2014-02-17" stability="stable" id="sha1new=dcc6db374e915eae7032c2d41ed06cfeae1094c6">
+      <command name="vim" path="share/vim/vim73/vim.exe" />
+      <manifest-digest sha1new="dcc6db374e915eae7032c2d41ed06cfeae1094c6" sha256="8d5474885c31419433f85d39c289f11e0d752e72a8569c78392c57cd51112e9c" sha256new="RVKHJCC4GFAZIM7YLU44FCPRDYGXKLTSVBLJY6BZFRL42UIRF2OA" />
+      <archive href="https://github.com/msysgit/msysgit/releases/download/Git-1.9.0-preview20140217/PortableGit-1.9.0-preview20140217.7z" size="21790316" type="application/x-7z-compressed" />
+    </implementation>
+    <implementation version="1.9.2" released="2014-06-13" stability="stable" id="sha1new=82af0410d9e08deb612a45e0f665c80e0947ec6e">
+      <command name="vim" path="share/vim/vim74/vim.exe" />
+      <manifest-digest sha1new="82af0410d9e08deb612a45e0f665c80e0947ec6e" sha256="5ff12e28eb2d101a0abedb9cb4f720852df5e22aa137a8c06201b846eea0dc01" sha256new="L7YS4KHLFUIBUCV63OOLJ5ZAQUW7LYRKUE32RQDCAG4EN3VA3QAQ" />
+      <archive href="https://github.com/msysgit/msysgit/releases/download/Git-1.9.4-preview20140611/PortableGit-1.9.4-preview20140611.7z" size="21986935" type="application/x-7z-compressed" />
+    </implementation>
+  </group>
+  <entry-point command="git-bash">
+    <name xml:lang="en">Git Bash</name>
+    <summary xml:lang="en">MSYS-based bash prompt</summary>
+  </entry-point>
+  <entry-point command="run" binary-name="git">
+    <needs-terminal />
+    <name xml:lang="en">Git</name>
+    <summary xml:lang="en">command-line interface for Git</summary>
+  </entry-point>
+  <entry-point command="gitk" binary-name="gitk">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="vim" binary-name="vim">
+    <name xml:lang="en">Vim</name>
+    <summary xml:lang="en">text editor</summary>
+  </entry-point>
+  <entry-point command="antiword">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="astextplain">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="basename">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="bash">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="bison">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="bzip2">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="bunzip2">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="c_rehash">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="cat">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="chmod">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="cmp">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="connect">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="cp">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="curl">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="cut">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="date">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="diff">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="dirname">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="docx2txt">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="dos2unix">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="du">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="env">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="expr">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="false">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="find">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="flex">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="gawk">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="getcp">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="grep">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="gunzip">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="gzip">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="head">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="id">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="kill">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="less">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="ln">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="ls">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="m4">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="md5sum">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="mkdir">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="msmtp">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="mv">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="openssl">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="patch">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="pdfinfo">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="pdftotext">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="perl">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="ps">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="rebase">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="recodetree">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="rm">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="rmdir">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="rxvt">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="scp">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="sed">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="sh">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="sleep">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="sort">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="split">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="ssh">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="ssh-add">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="ssh-agent">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="ssh-keygen">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="ssh-keyscan">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="tail">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="tar">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="tclsh">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="tclsh85">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="tee">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="touch">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="tr">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="true">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="uname">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="uniq">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="unzip">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="wc">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="which">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="wish">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="wish85">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="xargs">
+    <needs-terminal />
+  </entry-point>
+  <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <file-type id="ShellScript">
+      <description xml:lang="en">Shell Script</description>
+      <verb name="open" args="&quot;--login&quot; &quot;%1&quot; %*" />
+      <extension value=".sh" />
+    </file-type>
+    <context-menu id="git-bash" target="directories">
+      <verb name="git_bash" command="sh" args="-c &quot;cd \&quot;%1\&quot;; exec sh --login -i&quot;">
+        <description xml:lang="en">Git Bash</description>
+      </verb>
+    </context-menu>
+    <context-menu id="gitk" target="directories">
+      <verb name="gitk" command="gitk" args="&quot;%1&quot;">
+        <description xml:lang="en">gitk</description>
+      </verb>
+    </context-menu>
+  </capabilities>
+</interface>

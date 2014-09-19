@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/NAnt.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>NAnt</name>
+  <summary xml:lang="en">free .NET build tool</summary>
+  <summary xml:lang="de">freies .NET Build Tool</summary>
+  <description xml:lang="en">NAnt is a free .NET build tool. In theory it is kind of like make without make's wrinkles. In practice it's a lot like Ant.</description>
+  <description xml:lang="de">NAnt ist ein freies .NET Build Tool. In der Theorie ist es etwa wie make ohne make's Eigenheiten. In der Praxis ist es Ant sehr ähnlich.</description>
+  <homepage>http://nant.sourceforge.net/</homepage>
+  <icon href="http://0install.de/feed-icons/NAnt.png" type="image/png" />
+  <category>Development</category>
+  <category>Utility</category>
+  <needs-terminal />
+  <group license="GPL v2 (GNU General Public License)">
+    <group version="0.91-pre2" released="2010-08-18" stability="stable">
+      <implementation arch="Windows-*" main="bin/NAnt.exe" id="0.91-pre2-win">
+        <manifest-digest sha1new="1dc96589364908bbeb63d2155f5845ef4c9c5174" sha256="68cf4e894ce8ec9eb9c76cbf8d0e855d979c0b5bff4b2cec505b3ba5d65da84a" sha256new="NDHU5CKM5DWJ5OOHNS7Y2DUFLWLZYC2375FSZ3CQLM52LVS5VBFA" />
+        <archive href="http://downloads.sourceforge.net/nant/nant-0.91-alpha2-bin.zip" size="4391452" type="application/zip" extract="nant-0.91-alpha2" />
+      </implementation>
+      <implementation arch="Linux-*" main="bin/NAnt.exe" id="0.91-pre2-linux">
+        <manifest-digest sha1new="b2a3c0568df49476d003740557b5c69e53d8261f" sha256="07bc67b988ec177ec0bd1e090cbea1d62c07850fce313672405d55aa632c72cf" sha256new="A66GPOMI5QLX5QF5DYEQZPVB2YWAPBIPZYYTM4SALVK2UYZMOLHQ" />
+        <archive href="http://downloads.sourceforge.net/nant/nant-0.91-alpha2-bin.tar.gz" size="2901335" type="application/x-compressed-tar" extract="nant-0.91-alpha2" />
+      </implementation>
+      <implementation arch="MacOSX-*" main="bin/NAnt.exe" id="0.91-pre2-macosx">
+        <manifest-digest sha1new="b2a3c0568df49476d003740557b5c69e53d8261f" sha256="07bc67b988ec177ec0bd1e090cbea1d62c07850fce313672405d55aa632c72cf" sha256new="A66GPOMI5QLX5QF5DYEQZPVB2YWAPBIPZYYTM4SALVK2UYZMOLHQ" />
+        <archive href="http://downloads.sourceforge.net/nant/nant-0.91-alpha2-bin.tar.gz" size="2901335" type="application/x-compressed-tar" extract="nant-0.91-alpha2" />
+      </implementation>
+      <implementation arch="*-src" id="0.91-pre2-src">
+        <manifest-digest sha1new="02ecd75609faf2e3474fb87d8df7d48e0e1954e3" sha256="0d832e0ddb7f39e1d818d05d4f4f6760264407845c1b10ff94b838f83df616a2" sha256new="BWBS4DO3P446DWAY2BOU6T3HMATEIB4ELQNRB74UXA4PQPPWC2RA" />
+        <archive href="http://downloads.sourceforge.net/nant/nant-0.91-alpha2-src.tar.gz" size="1593104" type="application/x-compressed-tar" extract="nant-0.91-alpha2" />
+      </implementation>
+    </group>
+  </group>
+</interface>

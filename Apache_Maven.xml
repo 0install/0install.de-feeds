@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/Apache_Maven.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Apache Maven</name>
+  <summary xml:lang="en">A software project management and comprehension tool</summary>
+  <summary xml:lang="de">Ein Softwareprojeketmanagementwerkzeug</summary>
+  <homepage>http://maven.apache.org/</homepage>
+  <category>Development</category>
+  <needs-terminal />
+  <group langs="en" license="The Apache Software License, Version 2.0">
+    <environment name="MAVEN_OPTS" value="" mode="append" />
+    <environment name="M2_HOME" insert="" mode="replace" />
+    <environment name="CLASSWORLDS_JAR" insert="boot/*" mode="replace" />
+    <environment name="CLASSWORLDS_LAUNCHER" value="org.codehaus.plexus.classworlds.launcher.Launcher" mode="replace" />
+    <command name="run">
+      <runner interface="http://repo.roscidus.com/java/openjdk-jdk" command="java">
+        <arg>$MAVEN_OPTS</arg>
+        <arg>-classpath</arg>
+        <arg>$CLASSWORLDS_JAR</arg>
+        <arg>-Dclassworlds.conf=$M2_HOME/bin/m2.conf</arg>
+        <arg>-Dmaven.home=$M2_HOME</arg>
+        <arg>$CLASSWORLDS_LAUNCHER</arg>
+      </runner>
+    </command>
+    <command name="mvnDebug">
+      <environment name="MAVEN_DEBUG_OPTS" value="-Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000" mode="replace" />
+      <runner interface="http://repo.roscidus.com/java/openjdk-jre" command="java">
+        <arg>$MAVEN_OPTS</arg>
+        <arg>$MAVEN_DEBUG_OPTS</arg>
+        <arg>-classpath</arg>
+        <arg>$CLASSWORLDS_JAR</arg>
+        <arg>-Dclassworlds.conf=$M2_HOME/bin/m2.conf</arg>
+        <arg>-Dmaven.home=$M2_HOME</arg>
+        <arg>$CLASSWORLDS_LAUNCHER</arg>
+      </runner>
+    </command>
+    <group version="3.0.4" released="2012-01-20" stability="stable">
+      <implementation id="sha1new=06ba3813eabc2b0cf6bac1aaddfaff72b6177884">
+        <manifest-digest sha1new="06ba3813eabc2b0cf6bac1aaddfaff72b6177884" sha256="1d68a398baea70a0b3d79f2b2ed8898da7684a16eef5a1e844612d1e15e06d76" sha256new="DVUKHGF25JYKBM6XT4VS5WEJRWTWQSQW5322D2CEMEWR4FPANV3A" />
+        <archive href="http://0install.de/files/hosted/apache-maven-3.0.4-bin.zip" size="4889768" type="application/zip" extract="apache-maven-3.0.4" />
+      </implementation>
+    </group>
+    <group version="3.0.5" released="2013-02-27" stability="stable">
+      <implementation id="sha1new=c80bd0b8c32f6ac973b6b355874cd5e7af35d6ab">
+        <manifest-digest sha1new="c80bd0b8c32f6ac973b6b355874cd5e7af35d6ab" sha256="3091a55c0abcda1049ffe3af0921d51c4cd1f11a4a4cf9243ce3b80ea94418c2" sha256new="GCI2KXAKXTNBASP74OXQSIOVDRGND4I2JJGPSJB44O4A5KKEDDBA" />
+        <archive href="http://0install.de/files/hosted/apache-maven-3.0.5-bin.zip" size="5870668" type="application/zip" extract="apache-maven-3.0.5" />
+      </implementation>
+    </group>
+  </group>
+  <entry-point command="run" binary-name="mvn" />
+</interface>

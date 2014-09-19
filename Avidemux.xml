@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/Avidemux.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Avidemux</name>
+  <summary xml:lang="de">freier Video-Editor ausgelegt auf einfache Schneide-, Filter- und Encodier-Aufgaben</summary>
+  <summary xml:lang="en">free video editor designed for simple cutting, filtering and encoding tasks</summary>
+  <description xml:lang="de">Avidemux ist ein freier Video-Editor, ausgelegt auf einfache Schneide-, Filter- und Encodier-Aufgaben. Es unterstützt viele Dateitypen, inklusive AVI, DVD-kompatible MPEG-Dateien, MP4 und ASF mit einer Reihe von Codecs. Aufgaben können mittels Projekten, Auftrags-Schlangen und mächtigen Skripting-Fähigkeiten automatisiert werden.</description>
+  <description xml:lang="en">Avidemux is a free video editor designed for simple cutting, filtering and encoding tasks. It supports many file types, including AVI, DVD compatible MPEG files, MP4 and ASF, using a variety of codecs. Tasks can be automated using projects, job queue and powerful scripting capabilities.</description>
+  <homepage>http://avidemux.sourceforge.net/</homepage>
+  <icon href="http://0install.de/feed-icons/Avidemux.png" type="image/png" />
+  <icon href="http://0install.de/feed-icons/Avidemux.ico" type="image/vnd.microsoft.icon" />
+  <category>AudioVideo</category>
+  <category>Utility</category>
+  <group license="GPL v2 (GNU General Public License)">
+    <group version="2.4.1" released="2008-03-30" stability="stable">
+      <implementation arch="Windows-*" main="avidemux2_gtk.exe" id="sha1new=0cc7156c0b6c1b761ee7c292a3c42af26ca259f6">
+        <manifest-digest sha1new="0cc7156c0b6c1b761ee7c292a3c42af26ca259f6" sha256="ddfa7fb3d68155131f69ef538e52348a295def913cd2b0d5a41bda7a34c74d01" sha256new="3X5H7M6WQFKRGH3J55JY4URURIUV334RHTJLBVNEDPNHUNGHJUAQ" />
+        <archive href="http://downloads.sourceforge.net/avidemux/avidemux_2.4.1_win32.zip" size="20095912" type="application/zip" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=08da8afbdee4c89dda5f5d81241cb787bd65f065">
+        <manifest-digest sha1new="08da8afbdee4c89dda5f5d81241cb787bd65f065" sha256="3d1377d6c452e1140acce2afd8608fef42657c3952c9083d3d3feacfa4aa8146" sha256new="HUJXPVWEKLQRICWM4KX5QYEP55BGK7BZKLEQQPJ5H7VM7JFKQFDA" />
+        <archive href="http://downloads.sourceforge.net/avidemux/avidemux_2.4.1.tar.gz" size="5788014" type="application/x-compressed-tar" extract="avidemux_2.4.1" />
+      </implementation>
+    </group>
+    <group version="2.4.2" released="2008-07-06" stability="stable">
+      <implementation arch="Windows-*" main="avidemux2_gtk.exe" id="sha1new=4baae73230917ca8ec8fa0d65096d14884574d2b">
+        <manifest-digest sha1new="4baae73230917ca8ec8fa0d65096d14884574d2b" sha256="b2212366d48714e4d204cd27edaa0d4d11773ade310a41791a299f55a97164d5" sha256new="WIQSGZWUQ4KOJUQEZUT63KQNJUIXOOW6GEFEC6I2FGPVLKLRMTKQ" />
+        <archive href="http://downloads.sourceforge.net/avidemux/avidemux_2.4.2_win32.zip" size="21342481" type="application/zip" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=510b2d326e2fa3e78b6e34c406be9d3b35fd6e71">
+        <manifest-digest sha1new="510b2d326e2fa3e78b6e34c406be9d3b35fd6e71" sha256="aa6d208e8c3987b887859587ad197be974bd570efdfcd2e67c985b06a1662ba4" sha256new="VJWSBDUMHGD3RB4FSWD22GL35F2L2VYO7X6NFZT4TBNQNILGFOSA" />
+        <archive href="http://downloads.sourceforge.net/avidemux/avidemux_2.4.2.tar.gz" size="6683907" type="application/x-compressed-tar" extract="avidemux_2.4.2" />
+      </implementation>
+    </group>
+    <group version="2.4.3" released="2008-08-03" stability="stable">
+      <implementation arch="Windows-*" main="avidemux2_gtk.exe" id="sha1new=4e202af0f70704585e50741a0d1deba813d37850">
+        <manifest-digest sha1new="4e202af0f70704585e50741a0d1deba813d37850" sha256="48977ddf689cbc9fe009cf74c85ca2c596ca0b356abec7807a5cd8abb95655d5" sha256new="JCLX3X3ITS6J7YAJZ52MQXFCYWLMUCZVNK7MPAD2LTMKXOKWKXKQ" />
+        <archive href="http://downloads.sourceforge.net/avidemux/avidemux_2.4.3_win32.zip" size="21351988" type="application/zip" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=ca9934a4f9da2c1532d1b883ccc75182322e172f">
+        <manifest-digest sha1new="ca9934a4f9da2c1532d1b883ccc75182322e172f" sha256="6d5534c757163421ca7a460336db5af6af8612735a85b13bcc93c25535eb4fc0" sha256new="NVKTJR2XCY2CDST2IYBTNW2262XYMETTLKC3CO6MSPBFKNPLJ7AA" />
+        <archive href="http://downloads.sourceforge.net/avidemux/avidemux_2.4.3.tar.gz" size="6707930" type="application/x-compressed-tar" extract="avidemux_2.4.3" />
+      </implementation>
+    </group>
+    <group version="2.4.4" released="2009-02-08" stability="stable">
+      <implementation arch="Windows-*" main="avidemux2_gtk.exe" id="sha1new=7b6ff67a0ccbd5a28fa560dd21b0eabf0d2b9510">
+        <manifest-digest sha1new="7b6ff67a0ccbd5a28fa560dd21b0eabf0d2b9510" sha256="2435bc45942eb98135388b97e005cecb195f4050230124dd0a86d1146b278dc8" sha256new="EQ23YRMUF24YCNJYROL6ABOOZMMV6QCQEMASJXIKQ3IRI2ZHRXEA" />
+        <archive href="http://downloads.sourceforge.net/avidemux/avidemux_2.4.4_win32.zip" size="22145979" type="application/zip" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=95535449824a0f30ecfa44dc262dc6f624e3be1f">
+        <manifest-digest sha1new="95535449824a0f30ecfa44dc262dc6f624e3be1f" sha256="5576c71e6f36e65618eacb2dea894cb7cb544d53eb3e9596d7009b9f87d13d48" sha256new="KV3MOHTPG3TFMGHKZMW6VCKMW7FVITKT5M7JLFWXACNZ7B6RHVEA" />
+        <archive href="http://downloads.sourceforge.net/avidemux/avidemux_2.4.4.tar.gz" size="6894690" type="application/x-compressed-tar" extract="avidemux_2.4.4" />
+      </implementation>
+    </group>
+    <group version="2.5.3" released="2010-05-16" stability="stable">
+      <implementation arch="Windows-*" main="avidemux2.exe" id="sha1new=f989434c13d00773910976724af2a8b2906138cc">
+        <manifest-digest sha1new="f989434c13d00773910976724af2a8b2906138cc" sha256="e5b8d280af8a90517b30047175848d3ee69635abdb6660fd0ad0c1f05fa06363" sha256new="4W4NFAFPRKIFC6ZQARYXLBENH3TJMNNL3NTGB7IK2DA7AX5AMNRQ" />
+        <archive href="http://downloads.sourceforge.net/avidemux/avidemux_2.5.3_win32.zip" size="17297931" type="application/zip" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=5a82a9ef1e069b241e8c61c1800cd9623d3e2570">
+        <manifest-digest sha1new="5a82a9ef1e069b241e8c61c1800cd9623d3e2570" sha256="98e665a2d6b62ada2ec7ae954f73a070d1bdda1c5883f183107e66ebb37a819d" sha256new="TDTGLIWWWYVNULWHV2KU645AODI33WQ4LCB7DAYQPZTOXM32QGOQ" />
+        <archive href="http://downloads.sourceforge.net/avidemux/avidemux_2.5.3.tar.gz" size="14309500" type="application/x-compressed-tar" extract="avidemux_2.5.3" />
+      </implementation>
+    </group>
+    <group version="2.5.4" released="2010-11-01" stability="stable">
+      <implementation arch="Windows-*" main="avidemux2.exe" id="sha1new=2f49aaf0af71986afe88065acbec6300ff1380c8">
+        <manifest-digest sha1new="2f49aaf0af71986afe88065acbec6300ff1380c8" sha256="fdd9dfd7586235b3f946dd2ae93b112b4738eb57b22b3e24ecdd13203ce97ea0" sha256new="7XM57V2YMI23H6KG3UVOSOYRFNDTR22XWIVT4JHM3UJSAPHJP2QA" />
+        <archive href="http://downloads.sourceforge.net/avidemux/avidemux_2.5.4_win32.zip" size="14900316" type="application/zip" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=261d31232f331c3eba49161f1663cd8682d0f261">
+        <manifest-digest sha1new="261d31232f331c3eba49161f1663cd8682d0f261" sha256="2241a96f0d3433f0b0b1d3c0aa10ad6ce0f1780e477ada8d9742f08bf5f01193" sha256new="EJA2S3YNGQZ7BMFR2PAKUEFNNTQPC6AOI55NVDMXILYIX5PQCGJQ" />
+        <archive href="http://downloads.sourceforge.net/avidemux/avidemux_2.5.4.tar.gz" size="18154965" type="application/x-compressed-tar" extract="avidemux_2.5.4" />
+      </implementation>
+    </group>
+    <group version="2.5.6" released="2011-12-31" stability="stable">
+      <implementation arch="Windows-*" main="avidemux2.exe" id="sha1new=0bb2fa277bcc785bd3f0e8c310aa609d506c98e7">
+        <manifest-digest sha1new="0bb2fa277bcc785bd3f0e8c310aa609d506c98e7" sha256="4a198d0bf7e77baf17f25c161ffcce16f49354c83d6b81bef8e2a9d245e1c26d" sha256new="JIMY2C7X45526F7SLQLB77GOC32JGVGIHVVYDPXY4KU5ERPBYJWQ" />
+        <archive href="http://downloads.sourceforge.net/avidemux/avidemux_2.5.6_win32.zip" size="16121271" type="application/zip" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=6c9149f5a7ce22f9fcfba791e10eeb3e0ca3ee30">
+        <manifest-digest sha1new="6c9149f5a7ce22f9fcfba791e10eeb3e0ca3ee30" sha256="363ef5a214479cb2353480fda8c3d437f7326a523f290235399e0d801da4e1db" sha256new="GY7PLIQUI6OLENJUQD62RQ6UG73TE2SSH4UQENJZTYGYAHNE4HNQ" />
+        <archive href="http://downloads.sourceforge.net/avidemux/avidemux_2.5.6.tar.gz" size="14914123" type="application/x-compressed-tar" extract="avidemux_2.5.6" />
+      </implementation>
+    </group>
+    <group version="2.6.0" released="2012-09-06" stability="stable">
+      <implementation arch="Windows-*" main="avidemux.exe" id="sha1new=37e29153fedbeabfde1f803066d8394a0f8a23c8">
+        <manifest-digest sha1new="37e29153fedbeabfde1f803066d8394a0f8a23c8" sha256="bbf3e0e698a08f0e4fcbd3b58588ab10c6108fa2d39386c630a7ae0f0d179fc6" sha256new="XPZ6BZUYUCHQ4T6L2O2YLCFLCDDBBD5C2OJYNRRQU6XA6DIXT7DA" />
+        <archive href="http://downloads.sourceforge.net/avidemux/avidemux_2.6.0_win32.zip" size="20573997" type="application/zip" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=2826e656a153b963a8ef89659f453384db07cdb3">
+        <manifest-digest sha1new="2826e656a153b963a8ef89659f453384db07cdb3" sha256="d4f4b34ed19f1f35df1e72afc34a1a57c19ede468aac4041611722e22c4a5224" sha256new="2T2LGTWRT4PTLXY6OKX4GSQ2K7AZ5XSGRKWEAQLBC4ROELCKKISA" />
+        <archive href="http://downloads.sourceforge.net/avidemux/avidemux_2.6.0.tar.gz" size="16145705" type="application/x-compressed-tar" extract="avidemux_2.6.0" />
+      </implementation>
+    </group>
+  </group>
+</interface>

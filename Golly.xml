@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/Golly.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Golly</name>
+  <summary xml:lang="en">Game of Life simulator</summary>
+  <summary xml:lang="de">Spiel des Lebens Simulator</summary>
+  <description xml:lang="en">A cross-platform application for exploring Conway's Game of Life and other cellular automata. Features include an unbounded universe, fast generating algorithms, multiple layers, Perl/Python scripting, and a state-of-the-art pattern collection.</description>
+  <description xml:lang="de">Eine Plattform-übergreifende Anwendung um Conway's Game of Life (Spiel des Lebens) und andere zelluläre Automaten zu erforschen. Zu den Features gehören ein Universum mit unbeschränkter Größe, schnelle erzeugende Algorithmen, mehrere Ebenden, Perl/Python Scripting und eine hochmoderne Sammlung von Mustern.</description>
+  <homepage>http://golly.sourceforge.net/</homepage>
+  <icon href="http://0install.de/feed-icons/Golly.png" type="image/png" />
+  <icon href="http://0install.de/feed-icons/Golly.ico" type="image/vnd.microsoft.icon" />
+  <category>Education</category>
+  <group license="GPL v2 (GNU General Public License)" doc-dir="Help">
+    <group version="1.0" released="2006-06-18" stability="stable">
+      <implementation arch="Windows-*" main="Golly.exe" id="sha1new=9643a5a96720e5cf3f52ffd7842a26a6b96d652a">
+        <manifest-digest sha1new="9643a5a96720e5cf3f52ffd7842a26a6b96d652a" sha256="3ac597c884b10b7307f2f36d4f8b7a4c4e68bd25cc84be3cd5c66afa7ed4ea08" sha256new="HLCZPSEEWEFXGB7S6NWU7C32JRHGRPJFZSCL4PGVYZVPU7WU5IEA" />
+        <archive href="http://downloads.sourceforge.net/golly/golly-1.0-win.zip" size="1826025" type="application/zip" extract="golly-1.0-win" />
+      </implementation>
+      <implementation arch="Linux-i586" main="golly" id="sha1new=9a1fa0aa2c060e69f19649cb27af7de592a1295f">
+        <manifest-digest sha1new="9a1fa0aa2c060e69f19649cb27af7de592a1295f" sha256="6df6d5fd0d398f6dc8f7c569dd924156e6619b0fd49656b8a3b83a8abcb32f5a" sha256new="NX3NL7INHGHW3SHXYVU53ESBK3TGDGYP2SLFNOFDXA5IVPFTF5NA" />
+        <archive href="http://downloads.sourceforge.net/golly/golly-1.0-gtk.tar.gz" size="2827585" type="application/x-compressed-tar" extract="golly-1.0-gtk" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=a005fab6a865be8434d3817ffea54f7c20ceaf8d">
+        <manifest-digest sha1new="a005fab6a865be8434d3817ffea54f7c20ceaf8d" sha256="3ba1aa2718c5fc7542c71f5f48493cee4c4201b3cc31167f76aa2b777c53a6c8" sha256new="HOQ2UJYYYX6HKQWHD5PUQSJ45ZGEEANTZQYRM73WVIVXO7CTU3EA" />
+        <archive href="http://downloads.sourceforge.net/golly/golly-1.0-src.tar.gz" size="1007188" type="application/x-compressed-tar" extract="golly-1.0-src" />
+      </implementation>
+    </group>
+    <group version="1.1" released="2006-11-04" stability="stable">
+      <implementation arch="Windows-*" main="Golly.exe" id="sha1new=58a857926c5b27115ec5d91c4ae0e2a536e1c094">
+        <manifest-digest sha1new="58a857926c5b27115ec5d91c4ae0e2a536e1c094" sha256="d9f614d930a327d2323e80e2ebe87afcddc0b6953fdb1462ad200e760018e8d2" sha256new="3H3BJWJQUMT5EMR6QDROX2D27TO4BNUVH7NRIYVNEAHHMAAY5DJA" />
+        <archive href="http://downloads.sourceforge.net/golly/golly-1.1-win.zip" size="1981476" type="application/zip" extract="golly-1.1-win" />
+      </implementation>
+      <implementation arch="Linux-i586" main="golly" id="sha1new=9499f526426e50c969092cf9ba20c4896383b936">
+        <manifest-digest sha1new="9499f526426e50c969092cf9ba20c4896383b936" sha256="1f5cf9be7f38dffae3aece1456aaa4a9a48733d0f8521e050049a6609fc5bc3a" sha256new="D5OPTPT7HDP7VY5OZYKFNKVEVGSIOM6Q7BJB4BIAJGTGBH6FXQ5A" />
+        <archive href="http://downloads.sourceforge.net/golly/golly-1.1-gtk.tar.gz" size="3036972" type="application/x-compressed-tar" extract="golly-1.1-gtk" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=a34b1c76aa13c2f7393dec612d831dc888167fd8">
+        <manifest-digest sha1new="a34b1c76aa13c2f7393dec612d831dc888167fd8" sha256="d4381c5d324bfb33d5fa6f1f4ab0f5ae2bf45ce596c3d16d57030158949a033e" sha256new="2Q4BYXJSJP5THVP2N4PUVMHVVYV7IXHFS3B5C3KXAMAVRFE2AM7A" />
+        <archive href="http://downloads.sourceforge.net/golly/golly-1.1-src.tar.gz" size="1115083" type="application/x-compressed-tar" extract="golly-1.1-src" />
+      </implementation>
+    </group>
+    <group version="1.2" released="2007-04-22" stability="stable">
+      <implementation arch="Windows-*" main="Golly.exe" id="sha1new=4064d99f7366ebcf4d3516d0a1a6223394f4faf0">
+        <manifest-digest sha1new="4064d99f7366ebcf4d3516d0a1a6223394f4faf0" sha256="cd01ba301b9c9d4319c3e418f3db2516bb7c94f3a0e737c02a267ba2723118b6" sha256new="ZUA3UMA3TSOUGGOD4QMPHWZFC25XZFHTUDTTPQBKEZ52E4RRDC3A" />
+        <archive href="http://downloads.sourceforge.net/golly/golly-1.2-win.zip" size="2178327" type="application/zip" extract="golly-1.2-win" />
+      </implementation>
+      <implementation arch="Linux-i586" main="golly" id="sha1new=e54a09e0409ceda958ba8f542741644d96795180">
+        <manifest-digest sha1new="e54a09e0409ceda958ba8f542741644d96795180" sha256="a430b30ca2a746459adad7521e18f792f10fe24e67c06a904cfac999ebb47112" sha256new="UQYLGDFCU5DELGW225JB4GHXSLYQ7YSOM7AGVECM7LEZT25UOEJA" />
+        <archive href="http://downloads.sourceforge.net/golly/golly-1.2-gtk.tar.gz" size="2999619" type="application/x-compressed-tar" extract="golly-1.2-gtk" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=79cec168b43bf45866d255871d1abda2d350c632">
+        <manifest-digest sha1new="79cec168b43bf45866d255871d1abda2d350c632" sha256="ebeac9a6fb178e51c36345b531d723be116718721f42b9f73402b6059ef08d09" sha256new="5PVMTJX3C6HFDQ3DIW2TDVZDXYIWOGDSD5BLT5ZUAK3ALHXQRUEQ" />
+        <archive href="http://downloads.sourceforge.net/golly/golly-1.2-src.tar.gz" size="1278913" type="application/x-compressed-tar" extract="golly-1.2-src" />
+      </implementation>
+    </group>
+    <group version="1.3" released="2007-11-18" stability="stable">
+      <implementation arch="Windows-*" main="Golly.exe" id="sha1new=eca3b9d7f8ad529be4ff97b2a95fd1ed2dfc0f00">
+        <manifest-digest sha1new="eca3b9d7f8ad529be4ff97b2a95fd1ed2dfc0f00" sha256="3c080b5d2f9fc6210f47e30cf28e218ab5c4a55ddcab954253e627c8685cacd2" sha256new="HQEAWXJPT7DCCD2H4MGPFDRBRK24JJK53SVZKQST4YT4Q2C4VTJA" />
+        <archive href="http://downloads.sourceforge.net/golly/golly-1.3-win.zip" size="2320749" type="application/zip" extract="golly-1.3-win" />
+      </implementation>
+      <implementation arch="Linux-i586" main="golly" id="sha1new=0a0cfe43f52fa568d8fc1a24f94f18f578402520">
+        <manifest-digest sha1new="0a0cfe43f52fa568d8fc1a24f94f18f578402520" sha256="9c0a2955e612fe86cf768522ab3d07afd665ec9cfc668aa3fc0d62e27f3309e2" sha256new="TQFCSVPGCL7INT3WQURKWPIHV7LGL3E47RTIVI74BVROE7ZTBHRA" />
+        <archive href="http://downloads.sourceforge.net/golly/golly-1.3-gtk.tar.gz" size="3202402" type="application/x-compressed-tar" extract="golly-1.3-gtk" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=0292f89b2868e86ac3d5b5f1b77bf90a7cc5444a">
+        <manifest-digest sha1new="0292f89b2868e86ac3d5b5f1b77bf90a7cc5444a" sha256="cd356797f32630a3957651410db8b529ef504b7ddd8569be90d82a6fc1ebcc7b" sha256new="ZU2WPF7TEYYKHFLWKFAQ3OFVFHXVAS353WCWTPUQ3AVG7QPLZR5Q" />
+        <archive href="http://downloads.sourceforge.net/golly/golly-1.3-src.tar.gz" size="1408131" type="application/x-compressed-tar" extract="golly-1.3-src" />
+      </implementation>
+    </group>
+    <group version="1.4" released="2008-05-25" stability="stable">
+      <implementation arch="Windows-*" main="Golly.exe" id="sha1new=81327f22b0f46b9188876f009fb325f40d3671dc">
+        <manifest-digest sha1new="81327f22b0f46b9188876f009fb325f40d3671dc" sha256="1ef1be20b0065cc8cd5449157e2a7d21029952d0329ec53f22d2d790f2a8a6c5" sha256new="D3Y34IFQAZOMRTKUJEKX4KT5EEBJSUWQGKPMKPZC2LLZB4VIU3CQ" />
+        <archive href="http://downloads.sourceforge.net/golly/golly-1.4-win.zip" size="2347109" type="application/zip" extract="golly-1.4-win" />
+      </implementation>
+      <implementation arch="Linux-i586" main="golly" id="sha1new=7509abe64cfe81f094b1d7d2fe692b53839427c2">
+        <manifest-digest sha1new="7509abe64cfe81f094b1d7d2fe692b53839427c2" sha256="37dc58581f3614a3223b32443b235420d36b4b07c10b37a094fa1392397cb135" sha256new="G7OFQWA7GYKKGIR3GJCDWI2UEDJWWSYHYEFTPIEU7IJZEOL4WE2Q" />
+        <archive href="http://downloads.sourceforge.net/golly/golly-1.4-gtk.tar.gz" size="3232148" type="application/x-compressed-tar" extract="golly-1.4-gtk" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=730ac04f15946548c8dc675433064abfef993a12">
+        <manifest-digest sha1new="730ac04f15946548c8dc675433064abfef993a12" sha256="4fd5f7272537f246babcdc37b16a2ce105d3fb07cf463745d4fa8acac0a10042" sha256new="J7K7OJZFG7ZENOV43Q33C2RM4EC5H6YHZ5DDOROU7KFMVQFBABBA" />
+        <archive href="http://downloads.sourceforge.net/golly/golly-1.4-src.tar.gz" size="1444433" type="application/x-compressed-tar" extract="golly-1.4-src" />
+      </implementation>
+    </group>
+    <group version="2.0" released="2008-12-03" stability="stable">
+      <implementation arch="Windows-*" main="Golly.exe" id="sha1new=f68a78126b67f855f7fbb0502da6f97285e8f22b">
+        <manifest-digest sha1new="f68a78126b67f855f7fbb0502da6f97285e8f22b" sha256="aae20e4c9a18fab58b2c743a84d5a0fdbac9c61b4304c33dde62e6e54b7f646a" sha256new="VLRA4TE2DD5LLCZMOQ5IJVNA7W5MTRQ3IMCMGPO6MLTOKS37MRVA" />
+        <archive href="http://downloads.sourceforge.net/golly/golly-2.0-win.zip" size="3164800" type="application/zip" extract="golly-2.0-win" />
+      </implementation>
+      <implementation arch="Linux-i586" main="golly" id="sha1new=4954b41e2957cc2f2f7480bb0bc8a65695b63dd8">
+        <manifest-digest sha1new="4954b41e2957cc2f2f7480bb0bc8a65695b63dd8" sha256="0db604a6e2edc677ed6b55232ef2f24670a01330e916fee64ce4acacb361529e" sha256new="BW3AJJXC5XDHP3LLKURS54XSIZYKAEZQ5ELP5ZSM4SWKZM3BKKPA" />
+        <archive href="http://downloads.sourceforge.net/golly/golly-2.0-gtk.tar.gz" size="3756273" type="application/x-compressed-tar" extract="golly-2.0-gtk" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=8b3ba0c78fcf48e4539d191d710c35b88faab6a2">
+        <manifest-digest sha1new="8b3ba0c78fcf48e4539d191d710c35b88faab6a2" sha256="a277af7edf1ed95ff50091b64a39ce435d8e70f15c9662982a03033fb40212ed" sha256new="UJ3267W7D3MV75IASG3EUOOOINOY44HRLSLGFGBKAMBT7NACCLWQ" />
+        <archive href="http://downloads.sourceforge.net/golly/golly-2.0-src.tar.gz" size="2047486" type="application/x-compressed-tar" extract="golly-2.0-src" />
+      </implementation>
+    </group>
+    <group version="2.1" released="2009-09-13" stability="stable">
+      <implementation arch="Windows-*" main="Golly.exe" id="sha1new=077f8c7c0dab4fe8afdefab11b76a70c9d3556db">
+        <manifest-digest sha1new="077f8c7c0dab4fe8afdefab11b76a70c9d3556db" sha256="b7d637344f2fb508d26d50244334eec05f942a2d73fba71283421c61f11b389b" sha256new="W7LDONCPF62QRUTNKASEGNHOYBPZIKRNOP52OEUDIIOGD4I3HCNQ" />
+        <archive href="http://downloads.sourceforge.net/golly/golly-2.1-win.zip" size="3562455" type="application/zip" extract="golly-2.1-win" />
+      </implementation>
+      <implementation arch="Linux-i586" main="golly" id="sha1new=673aea87b93334cc440708600b10d44ff8e94862">
+        <manifest-digest sha1new="673aea87b93334cc440708600b10d44ff8e94862" sha256="56c59139527033be96ee6445fb8b6d70e206636e21829043de79de65b84b0d6d" sha256new="K3CZCOKSOAZ35FXOMRC7XC3NODRAMY3OEGBJAQ66PHPGLOCLBVWQ" />
+        <archive href="http://downloads.sourceforge.net/golly/golly-2.1-gtk.tar.gz" size="4207289" type="application/x-compressed-tar" extract="golly-2.1-gtk" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=33aaa465c9223db2bc67a9814a14bbd4fc083d1e">
+        <manifest-digest sha1new="33aaa465c9223db2bc67a9814a14bbd4fc083d1e" sha256="d4a78fe3854d0743f656d439a4ed5237d128a198bb6b9821957b3e7110bd23fc" sha256new="2STY7Y4FJUDUH5SW2Q42J3KSG7ISRIMYXNVZQIMVPM7HCEF5EP6A" />
+        <archive href="http://downloads.sourceforge.net/golly/golly-2.1-src.tar.gz" size="2394506" type="application/x-compressed-tar" extract="golly-2.1-src" />
+      </implementation>
+    </group>
+    <group version="2.2" released="2010-11-22" stability="stable">
+      <implementation arch="Windows-*" main="Golly.exe" id="sha1new=a90627910cf845c2e6120b6e87374512a9a6656f">
+        <manifest-digest sha1new="a90627910cf845c2e6120b6e87374512a9a6656f" sha256="a3fc204c16896dc3c654a3e5568f28fb36b5c4ec90691a6740091467544960bf" sha256new="UP6CATAWRFW4HRSUUPSVNDZI7M3LLRHMSBURUZ2ABEKGOVCJMC7Q" />
+        <archive href="http://downloads.sourceforge.net/golly/golly-2.2-win.zip" size="3764588" type="application/zip" extract="golly-2.2-win" />
+      </implementation>
+      <implementation arch="Linux-i586" main="golly" id="sha1new=af4afce4f9cbe365a08e72e93b2d6a628144da3c">
+        <manifest-digest sha1new="af4afce4f9cbe365a08e72e93b2d6a628144da3c" sha256="54df6388e7b462959e80c71f7e8cfce07eadf140a2e841f91e71b047829a2389" sha256new="KTPWHCHHWRRJLHUAY4PX5DH44B7K34KAULUED6I6OGYEPAU2EOEQ" />
+        <archive href="http://downloads.sourceforge.net/golly/golly-2.2-gtk.tar.gz" size="4506964" type="application/x-compressed-tar" extract="golly-2.2-gtk" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=eb68a8e13f3f7facdc79775aef416327f4539c05">
+        <manifest-digest sha1new="eb68a8e13f3f7facdc79775aef416327f4539c05" sha256="c973b92c22d4b9c97ed62a8f64303ed274b427e5c1cddce53a8fd7c72bae0d4d" sha256new="ZFZ3SLBC2S44S7WWFKHWIMB62J2LIJ7FYHG5ZZJ2R7L4OK5OBVGQ" />
+        <archive href="http://downloads.sourceforge.net/golly/golly-2.2-src.tar.gz" size="2535583" type="application/x-compressed-tar" extract="golly-2.2-src" />
+      </implementation>
+    </group>
+    <group version="2.3" released="2011-12-05" stability="stable">
+      <implementation arch="Windows-*" main="Golly.exe" id="sha1new=ce66a5c3a21fd719b0a2a75f82d0d43399ba6a61">
+        <manifest-digest sha1new="ce66a5c3a21fd719b0a2a75f82d0d43399ba6a61" sha256="24b02a5e35631537cdfa9ff800d377b8d97f8a815cc4fbf18f0fa9bd2e2d83af" sha256new="ESYCUXRVMMKTPTP2T74ABU3XXDMX7CUBLTCPX4MPB6U32LRNQOXQ" />
+        <archive href="http://downloads.sourceforge.net/golly/golly-2.3-win.zip" size="3865346" type="application/zip" extract="golly-2.3-win" />
+      </implementation>
+      <implementation arch="Linux-i586" main="golly" id="sha1new=c65daf6011cb8165a2d0b14ec8735d6f9e549e8a">
+        <manifest-digest sha1new="c65daf6011cb8165a2d0b14ec8735d6f9e549e8a" sha256="de2fc39b3d607e35852f5611b7e05e53cc85ed779cfb35bba9ca18ef887e2d5b" sha256new="3YX4HGZ5MB7DLBJPKYI3PYC6KPGIL3LXTT5TLO5JZIMO7CD6FVNQ" />
+        <archive href="http://downloads.sourceforge.net/golly/golly-2.3-gtk.tar.gz" size="4583076" type="application/x-compressed-tar" extract="golly-2.3-gtk" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=3d0d4588868c59427764ba4ddce1d371bfe2ed7b">
+        <manifest-digest sha1new="3d0d4588868c59427764ba4ddce1d371bfe2ed7b" sha256="ad9c329d60a3a6e80569e5b6854cea884b86832a4bdec91348110bb8ad8d4e5f" sha256new="VWODFHLAUOTOQBLJ4W3IKTHKRBFYNAZKJPPMSE2ICEF3RLMNJZPQ" />
+        <archive href="http://downloads.sourceforge.net/golly/golly-2.3-src.tar.gz" size="2613073" type="application/x-compressed-tar" extract="golly-2.3-src" />
+      </implementation>
+    </group>
+    <group version="2.4" released="2012-06-29" stability="stable">
+      <implementation arch="Windows-*" main="Golly.exe" id="sha1new=84f9abbf698de15a3fa982fe559967a99a253a9c">
+        <manifest-digest sha1new="84f9abbf698de15a3fa982fe559967a99a253a9c" sha256="fed9781b151ab93a867014cf5383e9aa671c8a38f7090fc0271da7aaf4598cc2" sha256new="73MXQGYVDK4TVBTQCTHVHA7JVJTRZCRY64EQ7QBHDWT2V5CZRTBA" />
+        <archive href="http://downloads.sourceforge.net/golly/golly-2.4-win.zip" size="3866002" type="application/zip" extract="golly-2.4-win" />
+      </implementation>
+      <implementation arch="Linux-i586" main="golly" id="sha1new=aa8c182ad868d2986304517ed5183686b00d832a">
+        <manifest-digest sha1new="aa8c182ad868d2986304517ed5183686b00d832a" sha256="67c0522794a0bb4e39cf6335b60e744956946cfbc455fdf5cf73d3742a250d7c" sha256new="M7AFEJ4UUC5U4OOPMM23MDTUJFLJI3H3YRK735OPOPJXIKRFBV6A" />
+        <archive href="http://downloads.sourceforge.net/golly/golly-2.4-gtk.tar.gz" size="4587153" type="application/x-compressed-tar" extract="golly-2.4-gtk" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=cd2f1b11a1a7a910647f69b4433dcfb946c61e46">
+        <manifest-digest sha1new="cd2f1b11a1a7a910647f69b4433dcfb946c61e46" sha256="6b15b4b94095a55cc7dfb754ff0588dd0ccf224f14e448ab40262af3df1aa87c" sha256new="NMK3JOKASWSVZR67W5KP6BMI3UGM6ISPCTSERK2AEYVPHXY2VB6A" />
+        <archive href="http://downloads.sourceforge.net/golly/golly-2.4-src.tar.gz" size="2613548" type="application/x-compressed-tar" extract="golly-2.4-src" />
+      </implementation>
+    </group>
+  </group>
+</interface>

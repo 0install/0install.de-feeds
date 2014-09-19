@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/dotPeek.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>JetBrains dotPeek</name>
+  <summary xml:lang="en">free .NET Decompiler and Assembly Browser</summary>
+  <description xml:lang="en">dotPeek is a free-of-charge .NET decompiler from JetBrains, the makers of ReSharper and more developer productivity tools.</description>
+  <homepage>http://www.jetbrains.com/decompiler/</homepage>
+  <icon href="http://0install.de/feed-icons/dotPeek.ico" type="image/vnd.microsoft.icon" />
+  <icon href="http://0install.de/feed-icons/dotPeek.png" type="image/png" />
+  <category>Development</category>
+  <group>
+    <command name="run" path="dotPeek.exe">
+      <runner interface="http://0install.de/feeds/cli/netfx.xml" version="2.0.." />
+    </command>
+    <group version="1.1.1.33" stability="stable">
+      <implementation arch="Windows-x86_64" id="sha1new=6ad7a1fcce4cb19c2054db24769904a9b5cbab5f">
+        <manifest-digest sha1new="6ad7a1fcce4cb19c2054db24769904a9b5cbab5f" sha256="e26e89c242a44fc46e3e90c881a14051d2688635b3e64ec5816b4410fc7f6935" sha256new="4JXITQSCURH4I3R6SDEIDIKAKHJGRBRVWPTE5RMBNNCBB7D7NE2Q" />
+        <file href="http://download.jetbrains.com/dotpeek/dotPeekPack64.1.1.1.33.exe" size="24607232" dest="dotPeek.exe" />
+      </implementation>
+      <implementation arch="Windows-i486" id="sha1new=bacdf56befaf2942f3332e1c3f8d80610e30d774">
+        <manifest-digest sha1new="bacdf56befaf2942f3332e1c3f8d80610e30d774" sha256="d3f068fb3185d5a360aaf78b57ceea7262224547cbefc5a2d4a775658e72a470" sha256new="2PYGR6ZRQXK2GYFK66FVPTXKOJRCERKHZPX4LIWUU52WLDTSURYA" />
+        <file href="http://download.jetbrains.com/dotpeek/dotPeekPack32.1.1.1.33.exe" size="24417792" dest="dotPeek.exe" />
+      </implementation>
+    </group>
+  </group>
+  <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <file-type id="dotPeek.assembly" explicit-only="true">
+      <description xml:lang="en">dotPeek Assembly</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".dll" />
+      <extension value=".exe" />
+    </file-type>
+    <file-type id="dotPeek.assemblyList">
+      <description xml:lang="en">dotPeek Assembly List</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".dpl" />
+    </file-type>
+  </capabilities>
+</interface>

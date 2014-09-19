@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/DCPlusPlus.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>DC++</name>
+  <summary xml:lang="en">client for the ADC file sharing protocol</summary>
+  <summary xml:lang="de">Klient für das ADC Filesharing Protokol</summary>
+  <description xml:lang="en">DC++ is a file sharing client using the ADC protocol. It also supports connecting to the Direct Connect network.</description>
+  <description xml:lang="de">DC++ ist ein Filesharing Klient der das ADC Protokol verwendet. Es unterstützt auch Verbindungen mit dem Direct Connect Netzwerk.</description>
+  <homepage>http://dcplusplus.sourceforge.net/</homepage>
+  <icon href="http://0install.de/feed-icons/DCPlusPlus.png" type="image/png" />
+  <icon href="http://0install.de/feed-icons/DCPlusPlus.ico" type="image/vnd.microsoft.icon" />
+  <category>Network</category>
+  <group license="GPL v2 (GNU General Public License)">
+    <group version="0.782" released="2011-03-05" stability="stable">
+      <implementation arch="Windows-*" main="DCPlusPlus.exe" id="sha1new=ccaa52c2ae8efed5a9a6c3904fe8012ff8bbbf41">
+        <manifest-digest sha1new="ccaa52c2ae8efed5a9a6c3904fe8012ff8bbbf41" sha256="2b650abdfabaa7ec9e0ab753815cf945b60b571133bb1d2242e68d656f28fda2" sha256new="FNSQVPP2XKT6ZHQKW5JYCXHZIW3AWVYRGO5R2ISC42GWK3ZI7WRA" />
+        <archive href="http://downloads.sourceforge.net/dcplusplus/DCPlusPlus-0.782.zip" size="26003968" type="application/zip" />
+      </implementation>
+      <implementation arch="Windows-src" id="sha1new=bee9a0a0021962f2b4a247afb8dc1406126c7b4b">
+        <manifest-digest sha1new="bee9a0a0021962f2b4a247afb8dc1406126c7b4b" sha256="bc61742149d4eaefed2621940ebc306edccbeabb23a1ad6fb7eb7ee5adff45cb" sha256new="XRQXIIKJ2TVO73JGEGKA5PBQN3OMX2V3EOQ2235X5N7OLLP7IXFQ" />
+        <archive href="http://downloads.sourceforge.net/dcplusplus/DCPlusPlus-0.782-src.zip" size="29638485" type="application/zip" extract="DCPlusPlus-xxx-src" />
+      </implementation>
+    </group>
+    <group version="0.791" released="2012-01-14" stability="stable">
+      <implementation arch="Windows-*" main="DCPlusPlus.exe" id="sha1new=6841c9e8bdad2cddc220fa0d246b0155eb715da3">
+        <manifest-digest sha1new="6841c9e8bdad2cddc220fa0d246b0155eb715da3" sha256="ef7267135aa4a3f8b5d26097ee2e2e43e6d82743ceacfa784ec70aedbbb6349d" sha256new="55ZGOE22USR7RNOSMCL64LROIPTNQJ2DZ2WPU6COY4FO3O5WGSOQ" />
+        <archive href="http://downloads.sourceforge.net/dcplusplus/DCPlusPlus-0.791.zip" size="58096550" type="application/zip" />
+      </implementation>
+      <implementation arch="Windows-src" id="sha1new=91742ca59d343ee5cccc681f19098cc8a1795d0e">
+        <manifest-digest sha1new="91742ca59d343ee5cccc681f19098cc8a1795d0e" sha256="ed4c579fc46cf655148a3d280903b08944c91cb8903c454da15330f1497642c6" sha256new="5VGFPH6ENT3FKFEKHUUASA5QRFCMSHFYSA6EKTNBKMYPCSLWILDA" />
+        <archive href="http://downloads.sourceforge.net/dcplusplus/DCPlusPlus-0.791-src.zip" size="30927599" type="application/zip" extract="DCPlusPlus-xxx-src" />
+      </implementation>
+    </group>
+    <group version="0.799" released="2012-05-06" stability="stable">
+      <implementation arch="Windows-*" main="DCPlusPlus.exe" id="sha1new=01c470e373de3cb0de608ed96edaf9ce19820e8f">
+        <manifest-digest sha1new="01c470e373de3cb0de608ed96edaf9ce19820e8f" sha256="faae9579b97ce6659d125b05e83ad21f285cf71032bb96e224fe598819a8f2c9" sha256new="7KXJK6NZPTTGLHISLMC6QOWSD4UFZ5YQGK5ZNYRE7ZMYQGNI6LEQ" />
+        <archive href="http://downloads.sourceforge.net/dcplusplus/DCPlusPlus-0.799.zip" size="59261057" type="application/zip" />
+      </implementation>
+      <implementation arch="Windows-src" id="sha1new=328baddea21b7e9aa10ceab359d025fc3ca5c829">
+        <manifest-digest sha1new="328baddea21b7e9aa10ceab359d025fc3ca5c829" sha256="1497c9ef8dcaaff479829b0d433caef660b6c1d9468f314aa08cc886a7f6b9a6" sha256new="CSL4T34NZKX7I6MCTMGUGPFO6ZQLNQOZI2HTCSVARTEINJ7WXGTA" />
+        <archive href="http://downloads.sourceforge.net/dcplusplus/DCPlusPlus-0.799-src.zip" size="31787234" type="application/zip" extract="DCPlusPlus-xxx-src" />
+      </implementation>
+    </group>
+    <group version="0.801" released="2012-09-29" stability="stable">
+      <implementation arch="Windows-*" main="DCPlusPlus.exe" id="sha1new=c688102d3dabb693b44a4984afc633d3d536f3f3">
+        <manifest-digest sha1new="c688102d3dabb693b44a4984afc633d3d536f3f3" sha256="1600971a5af2ccfb8f30d3925111b96a459f0fbeaa2f861828eb22eda43fa8c6" sha256new="CYAJOGS26LGPXDZQ2OJFCENZNJCZ6D56VIXYMGBI5MRO3JB7VDDA" />
+        <archive href="http://downloads.sourceforge.net/dcplusplus/DCPlusPlus-0.801.zip" size="65556421" type="application/zip" />
+      </implementation>
+      <implementation arch="Windows-src" id="sha1new=dec2e815cdc3050b2669aa10b4a7cdfec04a40ba">
+        <manifest-digest sha1new="dec2e815cdc3050b2669aa10b4a7cdfec04a40ba" sha256="5fdcb592ab319b4d671244cc3da3bbfcea6276270d1a985d7fe76a1474b54f37" sha256new="L7OLLEVLGGNU2ZYSITGD3I537TVGE5RHBUNJQXL745VBI5FVJ43Q" />
+        <archive href="http://downloads.sourceforge.net/dcplusplus/DCPlusPlus-0.801-src.zip" size="32432167" type="application/zip" extract="DCPlusPlus-xxx-src" />
+      </implementation>
+    </group>
+  </group>
+</interface>

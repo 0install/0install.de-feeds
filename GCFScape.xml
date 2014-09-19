@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/GCFScape.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>GCFScape</name>
+  <summary xml:lang="en">Valve GCF file extractor</summary>
+  <description xml:lang="en">GCFScape is an explorer like utility that enables users to browse Half-Life packages and extract their contents. GCFScape supports .bsp, .gcf, .ncf, .pak, .vpk, .wad and .xzp packages and runs independently of Steam.</description>
+  <homepage>http://nemesis.thewavelength.net/index.php?p=25</homepage>
+  <icon href="http://0install.de/feed-icons/GCFScape.ico" type="image/vnd.microsoft.icon" />
+  <icon href="http://0install.de/feed-icons/GCFScape.png" type="image/png" />
+  <category>Development</category>
+  <category>Game</category>
+  <group>
+    <command name="run" path="GCFScape.exe">
+      <runner interface="http://0install.de/feeds/cli/netfx.xml" version="2.0.." />
+    </command>
+    <group version="1.8.5" stability="stable">
+      <implementation arch="Windows-x86_64" id="sha1new=284b8f837fc499e5fbda64cb00c62da664c21ced">
+        <manifest-digest sha1new="284b8f837fc499e5fbda64cb00c62da664c21ced" sha256="f91e1baa683faff6b808ff1533470a1e1c0ad45c0f438dffd2754295e2636636" sha256new="7EPBXKTIH6X7NOAI74KTGRYKDYOAVVC4B5BY376SOVBJLYTDMY3A" />
+        <archive href="http://nemesis.thewavelength.net/files/files/gcfscape185.zip" size="431445" type="application/zip" extract="x86" />
+      </implementation>
+      <implementation arch="Windows-i486" id="sha1new=723fd776bac016f73bacafd52dc3745cf6182ada">
+        <manifest-digest sha1new="723fd776bac016f73bacafd52dc3745cf6182ada" sha256="f64f0b4288504ddb861e32b464fc682531b504f838e70ccc1d239d5474f59f48" sha256new="6ZHQWQUIKBG5XBQ6GK2GJ7DIEUY3KBHYHDTQZTA5EOOVI5HVT5EA" />
+        <archive href="http://nemesis.thewavelength.net/files/files/gcfscape185.zip" size="431445" type="application/zip" extract="x64" />
+      </implementation>
+    </group>
+  </group>
+  <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <file-type id="GCFFile">
+      <description xml:lang="en">Game Cache File</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".gcf" />
+    </file-type>
+    <file-type id="NCFFile">
+      <description xml:lang="en">No Cache File</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".ncf" />
+    </file-type>
+    <file-type id="PAKFile">
+      <description xml:lang="en">Pack File</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".pak" />
+    </file-type>
+    <file-type id="SGAFile">
+      <description xml:lang="en">Archive File</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".sga" />
+    </file-type>
+    <file-type id="VPKFile">
+      <description xml:lang="en">Valve Pack File</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".vpk" />
+    </file-type>
+    <file-type id="WADFile">
+      <description xml:lang="en">Half-Life 1 Texture Package</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".wad" />
+    </file-type>
+    <file-type id="XZPFile">
+      <description xml:lang="en">XBox Zip File</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".xzp" />
+    </file-type>
+  </capabilities>
+</interface>

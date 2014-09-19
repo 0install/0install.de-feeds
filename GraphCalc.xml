@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/GraphCalc.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>GraphCalc</name>
+  <summary xml:lang="en">the ultimate Windows Graphing Calculator</summary>
+  <summary xml:lang="de">der ultimative Windows Grafik-Rechner</summary>
+  <description xml:lang="en">When in the course of computing events it becomes apparent that not all calculators are created equal, one must turn no further than to GraphCalc. When the requirements of your computations exceed the capabilities of your four-function figurer, turn to GraphCalc. When you need to see what multiple compound exponential sinusoidal waves look like, turn to GraphCalc. Haven't we all at some point wanted to see what "sin(x)^2-3*ln(tan(x*pi))" looked like, and the Windows calculator just wasn't up to the task?
+GraphCalc can be your first, last, and only line of offense against the mathematics that threaten to push you over the brink of insanity. It slices, dices, shreds and purees functions that leave other calculators wondering what hit them.
+GraphCalc is an all-in-one solution to everything from everyday arithmetic to statistical analysis, from betas to Booleans, from cubes to calculus, from decimals to derivatives. GraphCalc combines all the features of a professional mathematics package with the simplicity of an easy to learn windows interface. It provides user-friendly help and tutorials to guide you through the easy and fun process of mastering GraphCalc.
+GraphCalc is ready to use out of the box. Don't bother reading the documentation. Just start the program and you'll see how easy it is to use.</description>
+  <description xml:lang="de">GraphCalc ist ein Mehrzweck-Rechner mit umfangreichen Funktionen zur grafischen Darstellung.</description>
+  <homepage>http://www.graphcalc.com/</homepage>
+  <icon href="http://0install.de/feed-icons/GraphCalc.png" type="image/png" />
+  <icon href="http://0install.de/feed-icons/GraphCalc.ico" type="image/vnd.microsoft.icon" />
+  <category>Education</category>
+  <category>Utility</category>
+  <group arch="Windows-*" license="GPL v2 (GNU General Public License)" main="GrphCalc.exe">
+    <implementation version="4.0.1" released="2003-11-24" stability="stable" id="sha1new=7e25b028d6c74885f36e1bfb23d37f0e08b56437">
+      <manifest-digest sha1new="7e25b028d6c74885f36e1bfb23d37f0e08b56437" sha256="b26e3db5ce1fddc6f29878fc910e31ed833bd3ff408002d5d56b7a5e593ef0e0" sha256new="WJXD3NOOD7O4N4UYPD6JCDRR5WBTXU77ICAAFVOVNN5F4WJ66DQA" />
+      <archive href="http://downloads.sourceforge.net/gcalc/GraphCalc4.0.1.zip" size="529762" type="application/zip" extract="GraphCalc" />
+    </implementation>
+  </group>
+</interface>
