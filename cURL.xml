@@ -7,9 +7,9 @@
   <category>Utility</category>
   <needs-terminal />
   <group main="curl.exe">
-    <implementation arch="Windows-i486" version="7.37.1" id="sha1new=f683678882e2c2ace81dfc9393f4b546bc7cce1d">
-      <manifest-digest sha1new="f683678882e2c2ace81dfc9393f4b546bc7cce1d" sha256="766e68ba81af1976d10857b9bf3ac8bc2d1399300d058b0dfdfe44b24a5653ff" sha256new="OZXGROUBV4MXNUIIK6436OWIXQWRHGJQBUCYWDP57ZCLESSWKP7Q" />
-      <archive href="http://www.paehl.com/open_source/?download=curl_737_1_ssl.zip" size="290614" type="application/zip" />
+    <implementation arch="Windows-i486" version="7.38.0" id="sha1new=271a3470df45168a4a6c258b5e229efa31480aac">
+      <manifest-digest sha1new="271a3470df45168a4a6c258b5e229efa31480aac" sha256="c4935bd77ca69a5a4feb40642569ab0819eb615ee61ecccce1b87197172afe71" sha256new="YSJVXV34U2NFUT7LIBSCK2NLBAM6WYK64YPMZTHBXBYZOFZK7ZYQ" />
+      <archive href="http://www.paehl.com/open_source/?download=curl_738_0_ssl.zip" size="274496" type="application/zip" />
     </implementation>
   </group>
 </interface>
