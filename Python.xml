@@ -9,8 +9,7 @@
   <feed-for interface="http://repo.roscidus.com/python/python" />
   <group arch="Windows-*" license="Python License">
     <environment name="PATH" insert="." />
-    <environment name="PYTHONPATH" insert="Lib" />
-    <environment name="PYTHONPATH" insert="DLLs" />
+    <environment name='PYTHONHOME' mode='replace' insert='.' />
     <command name="run" path="python.exe" />
     <command name="run-win" path="pythonw.exe" />
     <implementation version="2.7.3" stability="stable" id="sha1new=ba49095fc6d4a65a1837cafab6e145006eaf3d7f">
