@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/aria2-shim.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<!-- This feed is used as a compatability shim for versions of Zero Install for Windows older than 2.6.8, that have a bug that causes incorrect manifest digests to be calculated for certain ZIP archives. -->
+  <name>aria2</name>
+  <summary xml:lang="en">A lightweight multi-protocol and multi-source download utility</summary>
+  <summary xml:lang="de">Ein leichtgewichtiges Downloadwerkzeug für mehrere Protokolle und Quellen</summary>
+  <homepage>http://aria2.sourceforge.net/</homepage>
+  <category>Internet</category>
+  <needs-terminal />
+  <feed-for interface="http://0install.de/feeds/aria2.xml" />
+  <group if-0install-version="..!2.6.8" license="GPL v2 (GNU General Public License)">
+    <group version="1.11.0" released="2011-03-18" stability="stable">
+      <implementation arch="Windows-*" main="aria2c.exe" id="sha1new=dd3a05c8dd57bc39a428ce082f873c1dac3b468c">
+        <manifest-digest sha1new="dd3a05c8dd57bc39a428ce082f873c1dac3b468c" sha256="164d200299a23b02f5102465ff6d8e51475e6cc4a00cab4b3a97f45531ff418f" sha256new="CZGSAAUZUI5QF5IQERS763MOKFDV43GEUAGKWSZ2S72FKMP7IGHQ" />
+        <archive href="http://downloads.sourceforge.net/aria2/stable/aria2-1.11.0/aria2-1.11.0-mingw32msvc-build1.zip" size="2336461" type="application/zip" extract="aria2-1.11.0-mingw32msvc-build1" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=973568d69ee41121b21aaf1b95641f559bf67506">
+        <manifest-digest sha1new="973568d69ee41121b21aaf1b95641f559bf67506" sha256="a2cda0aee1b106f3b09b2dfe7800fbcfa66f278d2bf670eae7d6daeee0e7525f" sha256new="ULG2BLXBWEDPHME3FX7HQAH3Z6TG6J4NFP3HB2XH23NO5YHHKJPQ" />
+        <archive href="http://downloads.sourceforge.net/aria2/stable/aria2-1.11.0/aria2-1.11.0.tar.bz2" size="1473997" type="application/x-bzip-compressed-tar" extract="aria2-1.11.0" />
+      </implementation>
+    </group>
+    <group version="1.11.1" released="2011-03-30" stability="stable">
+      <implementation arch="Windows-*" main="aria2c.exe" id="sha1new=191278dc0d96b9145f5c54b0eb8ca670688ebfec">
+        <manifest-digest sha1new="191278dc0d96b9145f5c54b0eb8ca670688ebfec" sha256="084baeeed233355a50a016315c84ee20152789d0b5a5c7b49bdae6ce08e79320" sha256new="BBF253WSGM2VUUFACYYVZBHOEAKSPCOQWWS4PNE33LTM4CHHSMQA" />
+        <archive href="http://downloads.sourceforge.net/aria2/stable/aria2-1.11.1/aria2-1.11.1-mingw32msvc-build1.zip" size="2331095" type="application/zip" extract="aria2-1.11.1-mingw32msvc-build1" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=5ed0f1d27e8869603495fbdbdddd83fac3bdd1e1">
+        <manifest-digest sha1new="5ed0f1d27e8869603495fbdbdddd83fac3bdd1e1" sha256="8fc75d7e895797bff02db1ddcdc63648806895dbe4790ee4030374a20dce2471" sha256new="R7DV27UJK6L374BNWHO43RRWJCAGRFO34R4Q5ZADAN2KEDOOERYQ" />
+        <archive href="http://downloads.sourceforge.net/aria2/stable/aria2-1.11.1/aria2-1.11.1.tar.bz2" size="1476116" type="application/x-bzip-compressed-tar" extract="aria2-1.11.1" />
+      </implementation>
+    </group>
+    <group version="1.11.2" released="2011-05-22" stability="stable">
+      <implementation arch="Windows-*" main="aria2c.exe" id="sha1new=7639bf0524aba58c42d5e4be15c089570c09cac6">
+        <manifest-digest sha1new="7639bf0524aba58c42d5e4be15c089570c09cac6" sha256="cd8cd1d33a59dc40419ba9dbf6ff40184eb8cd56dca81054c11c9de134790201" sha256new="ZWGNDUZ2LHOEAQM3VHN7N72ADBHLRTKW3SUBAVGBDSO6CNDZAIAQ" />
+        <archive href="http://downloads.sourceforge.net/aria2/stable/aria2-1.11.2/aria2-1.11.2-mingw32msvc-build1.zip" size="2285018" type="application/zip" extract="aria2-1.11.2-mingw32msvc-build1" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=3a30c861cfc24bf982946b1475ce1b5a3e4643c3">
+        <manifest-digest sha1new="3a30c861cfc24bf982946b1475ce1b5a3e4643c3" sha256="27dbef627ae827895b945151455c1fadb48529afd29ecc69b65427b57d083e8d" sha256new="E7N66YT25ATYSW4UKFIUKXA7VW2IKKNP2KPMY2NWKQT3K7IIH2GQ" />
+        <archive href="http://downloads.sourceforge.net/aria2/stable/aria2-1.11.2/aria2-1.11.2.tar.bz2" size="1483973" type="application/x-bzip-compressed-tar" extract="aria2-1.11.2" />
+      </implementation>
+    </group>
+    <group version="1.12.0" released="2011-06-30" stability="stable">
+      <implementation arch="Windows-*" main="aria2c.exe" id="sha1new=6761e3b8b9cf4975ee29fa2878e23a706fee21fc">
+        <manifest-digest sha1new="6761e3b8b9cf4975ee29fa2878e23a706fee21fc" sha256="94fa07e08c8168c1f2484e9f0701dfe431b2f158ab8efdf361d9567cb26483ee" sha256new="ST5APYEMQFUMD4SIJ2PQOAO74QY3F4KYVOHP343B3FLHZMTEQPXA" />
+        <archive href="http://downloads.sourceforge.net/aria2/stable/aria2-1.12.0/aria2-1.12.0-mingw32msvc-build1.zip" size="2291462" type="application/zip" extract="aria2-1.12.0-mingw32msvc-build1" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=d9d233bf0de36411d650b9defef5cdb97af2c7f4">
+        <manifest-digest sha1new="d9d233bf0de36411d650b9defef5cdb97af2c7f4" sha256="1f439adb32894f7e9b0191f0d73dcd37ff3c2a6ec02c1672a8a9d035a00a5ec5" sha256new="D5BZVWZSRFHX5GYBSHYNOPONG77TYKTOYAWBM4VIVHIDLIAKL3CQ" />
+        <archive href="http://downloads.sourceforge.net/aria2/stable/aria2-1.12.0/aria2-1.12.0.tar.bz2" size="1577163" type="application/x-bzip-compressed-tar" extract="aria2-1.12.0" />
+      </implementation>
+    </group>
+    <group version="1.12.1" released="2011-08-02" stability="stable">
+      <implementation arch="Windows-*" main="aria2c.exe" id="sha1new=b6b95a13bbb681584458e09c64845e85feaf0867">
+        <manifest-digest sha1new="b6b95a13bbb681584458e09c64845e85feaf0867" sha256="d3421834dfbbd77f0b68f5f13a044e9bf10c1b29b2f7f493ef1b18621bfa1438" sha256new="2NBBQNG7XPLX6C3I6XYTUBCOTPYQYGZJWL37JE7PDMMGEG72CQ4A" />
+        <archive href="http://downloads.sourceforge.net/aria2/stable/aria2-1.12.1/aria2-1.12.1-mingw32msvc-build1.zip" size="2302570" type="application/zip" extract="aria2-1.12.1-mingw32msvc-build1" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=178bc37f1f35eb41e216b06accbcaf7ced19ec43">
+        <manifest-digest sha1new="178bc37f1f35eb41e216b06accbcaf7ced19ec43" sha256="e36bed0e2da867676cc5ff4812a2531443f31f88bfb5c2e2e47308cd39b6371a" sha256new="4NV62DRNVBTWO3GF75EBFISTCRB7GH4IX624FYXEOMEM2ONWG4NA" />
+        <archive href="http://downloads.sourceforge.net/aria2/stable/aria2-1.12.1/aria2-1.12.1.tar.bz2" size="1590472" type="application/x-bzip-compressed-tar" extract="aria2-1.12.1" />
+      </implementation>
+    </group>
+    <group version="1.13.0" released="2011-10-10" stability="stable">
+      <implementation arch="Windows-*" main="aria2c.exe" id="sha1new=c845a7e89506a51d4fa28b189a80782b24232929">
+        <manifest-digest sha1new="c845a7e89506a51d4fa28b189a80782b24232929" sha256="316135802a2b69839be24fb315c78e65bb314f1539624c4cc930aab5bc34ced9" sha256new="GFQTLABKFNUYHG7CJ6ZRLR4OMW5TCTYVHFREYTGJGCVLLPBUZ3MQ" />
+        <archive href="http://downloads.sourceforge.net/aria2/stable/aria2-1.13.0/aria2-1.13.0-mingw32msvc-build1.zip" size="2315095" type="application/zip" extract="aria2-1.13.0-mingw32msvc-build1" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=7e8910c4809bad393c9cc9117ca82535d7fcd8f2">
+        <manifest-digest sha1new="7e8910c4809bad393c9cc9117ca82535d7fcd8f2" sha256="b679487ec4c779688a70a45dfab1ed5a59204176c0cce3869b2ccdad4d1cb07b" sha256new="WZ4UQ7WEY54WRCTQURO7VMPNLJMSAQLWYDGOHBU3FTG22TI4WB5Q" />
+        <archive href="http://downloads.sourceforge.net/aria2/stable/aria2-1.13.0/aria2-1.13.0.tar.bz2" size="1631574" type="application/x-bzip-compressed-tar" extract="aria2-1.13.0" />
+      </implementation>
+    </group>
+    <group version="1.14.0" released="2011-12-25" stability="stable">
+      <implementation arch="Windows-*" main="aria2c.exe" id="sha1new=139b4db07525d236178def48b6c1eaf1566c8095">
+        <manifest-digest sha1new="139b4db07525d236178def48b6c1eaf1566c8095" sha256="c2af043c94dd405618ebe1c1be2b9c080b23491e291ec0dd69ff751993525f7a" sha256new="YKXQIPEU3VAFMGHL4HA34K44BAFSGSI6FEPMBXLJ752RTE2SL55A" />
+        <archive href="http://downloads.sourceforge.net/aria2/stable/aria2-1.14.0/aria2-1.14.0-mingw32msvc-build1.zip" size="2258045" type="application/zip" extract="aria2-1.14.0-mingw32msvc-build1" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=4ef4a31c9e14cc7c94c1335f524ad2c954f5516b">
+        <manifest-digest sha1new="4ef4a31c9e14cc7c94c1335f524ad2c954f5516b" sha256="a59b29e06b0b25486be5bb4813959e78596b3706e482fe614837c19a0001f87c" sha256new="UWNSTYDLBMSUQ27FXNEBHFM6PBMWWNYG4SBP4YKIG7AZUAAB7B6A" />
+        <archive href="http://downloads.sourceforge.net/aria2/stable/aria2-1.14.0/aria2-1.14.0.tar.bz2" size="1642811" type="application/x-bzip-compressed-tar" extract="aria2-1.14.0" />
+      </implementation>
+    </group>
+    <group version="1.14.1" released="2012-01-14" stability="stable">
+      <implementation arch="Windows-*" main="aria2c.exe" id="sha1new=14f4ebe5bd64fa021e1b5fa7b098b352ab152098">
+        <manifest-digest sha1new="14f4ebe5bd64fa021e1b5fa7b098b352ab152098" sha256="f61c271ffcc8ea56cc16fcaca99761507765a444d36b5fdf75d8b37b9b1c3756" sha256new="6YOCOH74ZDVFNTAW7SWKTF3BKB3WLJCE2NVV7X3V3CZXXGY4G5LA" />
+        <archive href="http://downloads.sourceforge.net/aria2/stable/aria2-1.14.1/aria2-1.14.1-mingw32msvc-build1.zip" size="2250744" type="application/zip" extract="aria2-1.14.1-mingw32msvc-build1" />
+      </implementation>
+      <implementation arch="*-src" id="sha1new=21cf974a75e76f0b6e2577873ae428a8a3a19794">
+        <manifest-digest sha1new="21cf974a75e76f0b6e2577873ae428a8a3a19794" sha256="2ad2dda171553e98e4256d74efcc3b68b9bc357c110e316680a8511a03ead763" sha256new="FLJN3ILRKU7JRZBFNV2O7TB3NC43YNL4CEHDCZUAVBIRUA7K25RQ" />
+        <archive href="http://downloads.sourceforge.net/aria2/stable/aria2-1.14.1/aria2-1.14.1.tar.bz2" size="1636900" type="application/x-bzip-compressed-tar" extract="aria2-1.14.1" />
+      </implementation>
+    </group>
+  </group>
+</interface>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/pngcrush-shim.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<!-- This feed is used as a compatability shim for versions of Zero Install for Windows older than 2.6.8, that have a bug that causes incorrect manifest digests to be calculated for certain ZIP archives. -->
+  <name>pngcrush</name>
+  <summary xml:lang="en">optimizer for PNG files</summary>
+  <description xml:lang="en">Pngcrush is an optimizer for PNG (Portable Network Graphics) files.</description>
+  <homepage>http://pmt.sourceforge.net/pngcrush/</homepage>
+  <category>Utility</category>
+  <needs-terminal />
+  <feed-for interface="http://0install.de/feeds/pngcrush.xml" />
+  <group if-0install-version="..!2.6.8" version="1.7.15" released="2011-04-28" stability="stable">
+    <implementation arch="Windows-*" main="pngcrush.exe" id="sha1new=598c4c54179ed09f111ac3984e4055995c793366">
+      <manifest-digest sha1new="598c4c54179ed09f111ac3984e4055995c793366" sha256="a9b3315ed057bcb4870ed5b8ce8474cdd512eec1fc2b8cf40796c924f5c400c2" sha256new="VGZTCXWQK66LJBYO2W4M5BDUZXKRF3WB7QVYZ5AHS3ESJ5OEADBA" />
+      <archive href="http://downloads.sourceforge.net/pmt/pngcrush-1.7.15-win32.zip" size="217406" type="application/zip" />
+    </implementation>
+  </group>
+</interface>
