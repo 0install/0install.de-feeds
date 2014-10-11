@@ -1,68 +1,40 @@
-<?xml version="1.0" encoding="utf-8"?>
-<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/Eclipse_Java.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<?xml version="1.0" ?>
+<interface uri="http://0install.de/feeds/Eclipse_Java.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
   <name>Eclipse IDE for Java Developers</name>
   <summary xml:lang="en">A multi-language software development environment - subset for Java</summary>
   <summary xml:lang="de">Eine multi-Sprachen Softwareentwicklungsumgebung - Teilmenge für Java</summary>
   <description xml:lang="en">Eclipse is a multi-language software development environment comprising an integrated development environment and an extensible plug-in system.</description>
   <description xml:lang="de">Eclipse ist eine multi-Sprachen Softwareentwicklungsumgebung, bestehend aus einer integrierten Entwicklungsumgebung (IDE) und einem erweiterbaren Plugin-System.</description>
   <homepage>http://www.eclipse.org/</homepage>
-  <icon href="http://0install.de/feed-icons/Eclipse.png" type="image/png" />
+  <icon href="http://0install.de/feed-icons/Eclipse.png" type="image/png"/>
   <category>Development</category>
   <group license="EPL (Eclipse Public License)">
     <requires interface="http://repo.roscidus.com/java/openjdk-jre">
-      <environment name="JAVAHOME" insert="." mode="replace" />
+      <environment insert="." mode="replace" name="JAVAHOME"/>
     </requires>
-    <group version="3.7.1" stability="stable">
-      <implementation arch="Windows-x86_64" main="eclipse.exe" id="sha1new=e587c33b8934b0a2e3fb293b2922d5a415ebbd17">
-        <manifest-digest sha1new="e587c33b8934b0a2e3fb293b2922d5a415ebbd17" sha256="8fc936c76a77880987c65c904d294e0ca958d0bdb4e91deca5ce7b584a5325bc" sha256new="R7ETNR3KO6EATB6GLSIE2KKOBSUVRUF5WTUR33FFZZ5VQSSTEW6A" />
-        <archive href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/indigo/SR1/eclipse-java-indigo-SR1-win32-x86_64.zip&amp;r=1" size="134290771" type="application/zip" extract="eclipse" />
-      </implementation>
-      <implementation arch="Windows-i486" main="eclipse.exe" id="sha1new=70595a4cfe8c8bd7fa08ee9d5eaf3f6d2add844a">
-        <manifest-digest sha1new="70595a4cfe8c8bd7fa08ee9d5eaf3f6d2add844a" sha256="77c3c50b0911d7963f23fbfb25c91099cc75cae7705c031e2b5ff687d3fe755d" sha256new="O7B4KCYJCHLZMPZD7P5SLSIQTHGHLSXHOBOAGHRLL73IPU76OVOQ" />
-        <archive href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/indigo/SR1/eclipse-java-indigo-SR1-win32.zip&amp;r=1" size="134301135" type="application/zip" extract="eclipse" />
-      </implementation>
-      <implementation arch="Linux-x86_64" main="eclipse" id="sha1new=00f0a8f45e62475d9923499e8cfdf90a61069dbe">
-        <manifest-digest sha1new="00f0a8f45e62475d9923499e8cfdf90a61069dbe" sha256="d4f5f50e01e6894e5f672d50ea33a337dd6d2500350de6c7de75476a9f96fd4c" sha256new="2T27KDQB42EU4X3HFVIOUM5DG7OW2JIAGUG6NR66OVDWVH4W7VGA" />
-        <archive href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/indigo/SR1/eclipse-java-indigo-SR1-linux-gtk-x86_64.tar.gz&amp;r=1" size="133678171" type="application/x-compressed-tar" extract="eclipse" />
-      </implementation>
-      <implementation arch="Linux-i586" main="eclipse" id="sha1new=ee00210c024bf6047c5d73de7d741cf6acb68218">
-        <manifest-digest sha1new="ee00210c024bf6047c5d73de7d741cf6acb68218" sha256="9b1ae15073d922dc8b3205ba4fcc02b344fb05cd7007c148491e43a0c32edb9d" sha256new="TMNOCUDT3ERNZCZSAW5E7TACWNCPWBONOAD4CSCJDZB2BQZO3OOQ" />
-        <archive href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/indigo/SR1/eclipse-java-indigo-SR1-linux-gtk.tar.gz&amp;r=1" size="133473839" type="application/x-compressed-tar" extract="eclipse" />
-      </implementation>
-      <implementation arch="MacOSX-x86_64" main="Eclipse.app/Contents/MacOS/eclipse" id="sha1new=57d13479e7e7490a21b601e4b201bbadb10abcb7">
-        <manifest-digest sha1new="57d13479e7e7490a21b601e4b201bbadb10abcb7" sha256="f10ab1d34f534d6b8789cf9e4f30d6c459e27a254de4760f6f12f4fef4f14690" sha256new="6EFLDU2PKNGWXB4JZ6PE6MGWYRM6E6RFJXSHMD3PCL2P55HRI2IA" />
-        <archive href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/indigo/SR1/eclipse-java-indigo-SR1-macosx-cocoa-x86_64.tar.gz&amp;r=1" size="133059853" type="application/x-compressed-tar" extract="eclipse" />
-      </implementation>
-      <implementation arch="MacOSX-i686" main="Eclipse.app/Contents/MacOS/eclipse" id="sha1new=42ffe6f202b0efb3bdd719c9ac038b32e4c4f649">
-        <manifest-digest sha1new="42ffe6f202b0efb3bdd719c9ac038b32e4c4f649" sha256="552fbe3b8de9bc9078697cacd62489bd7071b69c321da822e2d57251a9e4e438" sha256new="KUX34O4N5G6JA6DJPSWNMJEJXVYHDNU4GIO2QIXC2VZFDKPE4Q4A" />
-        <archive href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/indigo/SR1/eclipse-java-indigo-SR1-macosx-cocoa.tar.gz&amp;r=1" size="133188678" type="application/x-compressed-tar" extract="eclipse" />
-      </implementation>
-    </group>
-    <group version="4.3.1" stability="stable">
-      <implementation arch="Windows-x86_64" main="eclipse.exe" id="sha1new=59d1c50547d6610887e0d7a734cd84d10131b7f9">
-        <manifest-digest sha1new="59d1c50547d6610887e0d7a734cd84d10131b7f9" sha256="9e4e379bed5283e818a3e5e2b2349279efd968f82601203c5d7bd008927cdee3" sha256new="TZHDPG7NKKB6QGFD4XRLENESPHX5S2HYEYASAPC5PPIARET433RQ" />
-        <archive href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/kepler/SR1/eclipse-java-kepler-SR1-win32-x86_64.zip&amp;r=1" size="158826718" type="application/zip" extract="eclipse" />
-      </implementation>
-      <implementation arch="Windows-i486" main="eclipse.exe" id="sha1new=82cbf4bc113d67ac574401996f6cf1203d1e81a2">
-        <manifest-digest sha1new="82cbf4bc113d67ac574401996f6cf1203d1e81a2" sha256="5cfb4ba13d21e7a45ded9bd2bf02095e3b9499cd3d1254fefbeafe3e284867da" sha256new="LT5UXIJ5EHT2IXPNTPJL6AQJLY5ZJGONHUJFJ7X35L7D4KCIM7NA" />
-        <archive href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/kepler/SR1/eclipse-java-kepler-SR1-win32.zip&amp;r=1" size="158776211" type="application/zip" extract="eclipse" />
-      </implementation>
-      <implementation arch="Linux-x86_64" main="eclipse" id="sha1new=b09a580610cc8097419778e904a5573f486ce675">
-        <manifest-digest sha1new="b09a580610cc8097419778e904a5573f486ce675" sha256="865fd62ae235bf10640014a12cbae9a5d53e3d9d64878076a0b5dbba3cfc9673" sha256new="QZP5MKXCGW7RAZAACSQSZOXJUXKT4PM5MSDYA5VAWXN3UPH4SZZQ" />
-        <archive href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/kepler/SR1/eclipse-java-kepler-SR1-linux-gtk-x86_64.tar.gz&amp;r=1" size="157607208" type="application/x-compressed-tar" extract="eclipse" />
-      </implementation>
-      <implementation arch="Linux-i586" main="eclipse" id="sha1new=52f905e34a8f46d6e06ec2a353b028622e3ce6ef">
-        <manifest-digest sha1new="52f905e34a8f46d6e06ec2a353b028622e3ce6ef" sha256="4b1cc89a677388784c5442de3408905b90a377feceef27df9325247eef92147f" sha256new="JMOMRGTHOOEHQTCUILPDICEQLOIKG576Z3XSPX4TEUSH534SCR7Q" />
-        <archive href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/kepler/SR1/eclipse-java-kepler-SR1-linux-gtk.tar.gz&amp;r=1" size="157456717" type="application/x-compressed-tar" extract="eclipse" />
-      </implementation>
-      <implementation arch="MacOSX-x86_64" main="Eclipse.app/Contents/MacOS/eclipse" id="sha1new=5c77140676a395b6bde9f010a4d5cb7dae88e663">
-        <manifest-digest sha1new="5c77140676a395b6bde9f010a4d5cb7dae88e663" sha256="92ef9fdd0f0a22141e6766416fa9c6b20dd8628a2241c1a5abd38662b7ed1c6e" sha256new="SLXZ7XIPBIRBIHTHMZAW7KOGWIG5QYUKEJA4DJNL2ODGFN7NDRXA" />
-        <archive href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/kepler/SR1/eclipse-java-kepler-SR1-macosx-cocoa-x86_64.tar.gz&amp;r=1" size="157821825" type="application/x-compressed-tar" extract="eclipse" />
-      </implementation>
-      <implementation arch="MacOSX-i686" main="Eclipse.app/Contents/MacOS/eclipse" id="sha1new=12546d51c8227729e15a52ad2253712b6f8f6bcb">
-        <manifest-digest sha1new="12546d51c8227729e15a52ad2253712b6f8f6bcb" sha256="5845221a9081ad527c5775ca7be326369535bed73d9389de8b8fd1f9d66c0320" sha256new="LBCSEGUQQGWVE7CXOXFHXYZGG2KTLPWXHWJYTXULR7I7TVTMAMQA" />
-        <archive href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/kepler/SR1/eclipse-java-kepler-SR1-macosx-cocoa.tar.gz&amp;r=1" size="157944523" type="application/x-compressed-tar" extract="eclipse" />
-      </implementation>
-    </group>
+    <implementation arch="Windows-x86_64" id="sha1new=b8a71188ec03e95761a28a8c32e52b594a038d13" main="eclipse.exe" released="2014-09-26" stability="stable" version="4.4.1">
+      <manifest-digest sha256new="DJOLQZSFM7LTIUZSTB2KXYKSPCWGRQVZXITDMHRYTUB3TRS3J33Q"/>
+      <archive extract="eclipse" href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/luna/SR1/eclipse-java-luna-SR1-win32-x86_64.zip&amp;r=1" size="161354797" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=8c88da0dacd53fe4712ad47b4de08dc86ad92f27" main="eclipse.exe" released="2014-09-26" stability="stable" version="4.4.1">
+      <manifest-digest sha256new="W2L6NWADLBY4MOIUOT7GCMG3OKIKNUDQPDZNAH2ZPEICQH2RFJDA"/>
+      <archive extract="eclipse" href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/luna/SR1/eclipse-java-luna-SR1-win32.zip&amp;r=1" size="161303340" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=e7ac9d0fce18fa002b57a5389701db9dab177cb8" main="eclipse" released="2014-09-26" stability="stable" version="4.4.1">
+      <manifest-digest sha256new="K5NEDSRVFR7OOKTAB7BP5YKHEF5RN5SBMR56PK4NZNWXYKIBWVTA"/>
+      <archive extract="eclipse" href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/luna/SR1/eclipse-java-luna-SR1-linux-gtk-x86_64.tar.gz&amp;r=1" size="160242552" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i586" id="sha1new=e8cb4c823f87592e3745774328f714daf0db3bf1" main="eclipse" released="2014-09-26" stability="stable" version="4.4.1">
+      <manifest-digest sha256new="J7ZZGAGTWFWQHAJA3FJA3JJKBYUMBAWKJDLL6POZS4JK4OVYNUQQ"/>
+      <archive extract="eclipse" href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/luna/SR1/eclipse-java-luna-SR1-linux-gtk.tar.gz&amp;r=1" size="160092015" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="MacOSX-x86_64" id="sha1new=53c5f5f5f2a6f5b0824d98b59850f7c90e262384" main="Eclipse.app/Contents/MacOS/eclipse" released="2014-09-26" stability="stable" version="4.4.1">
+      <manifest-digest sha256new="G7OGECJHBGEQKYZRNQMT6KQSMBG434PYJRXQMM3ZJB2GCYXHT3QA"/>
+      <archive extract="eclipse" href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/luna/SR1/eclipse-java-luna-SR1-macosx-cocoa-x86_64.tar.gz&amp;r=1" size="160216029" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="MacOSX-i686" id="sha1new=e25ddc990b8053ae500f8953dccd701049c99433" main="Eclipse.app/Contents/MacOS/eclipse" released="2014-09-26" stability="stable" version="4.4.1">
+      <manifest-digest sha256new="7Y222ODZFX6BSTENOAPAUQC7FHZJAVRKILZVW5EET6K7WHT2QGCA"/>
+      <archive extract="eclipse" href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/luna/SR1/eclipse-java-luna-SR1-macosx-cocoa.tar.gz&amp;r=1" size="160342790" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
 </interface>

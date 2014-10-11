@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/VirtualDub.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<?xml version="1.0" ?>
+<interface uri="http://0install.de/feeds/VirtualDub.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
   <name>VirtualDub</name>
   <summary xml:lang="en">video capture/processing utility for Windows platforms</summary>
   <summary xml:lang="de">video Erfassungs- und Bearbeitungstool für Windows</summary>
@@ -12,20 +12,82 @@ Es bietet nicht Feature-Vielfalt eines Allzweck-Editors wie Adobe Premiere. Es i
 Stapelverarbeitung erlaubt die Verarbeitung einer große Anzahl von Dateien. Das Tool kann mit Drittanbieter Video-Filtern erweitert werden.
 VirtualDub ist vor allem auf die Verarbeitung AVI-Dateien ausgerichtet, kann aber auch MPEG-1 lesen (nicht schreiben) und auch Sätze von BMP-Bildern verarbeiten.</description>
   <homepage>http://www.virtualdub.org/</homepage>
-  <icon href="http://0install.de/feed-icons/VirtualDub.png" type="image/png" />
-  <icon href="http://0install.de/feed-icons/VirtualDub.ico" type="image/vnd.microsoft.icon" />
+  <icon href="http://0install.de/feed-icons/VirtualDub.png" type="image/png"/>
+  <icon href="http://0install.de/feed-icons/VirtualDub.ico" type="image/vnd.microsoft.icon"/>
   <category>AudioVideo</category>
   <category>Utility</category>
   <group license="GPL v2 (GNU General Public License)">
-    <group version="1.9.11" released="2010-12-24" stability="stable">
-      <implementation arch="Windows-x86_64" main="Veedub64.exe" id="sha1new=b565b4f15d7f8c9321bbb5d043dce17e24a1c0a3">
-        <manifest-digest sha1new="b565b4f15d7f8c9321bbb5d043dce17e24a1c0a3" sha256="c5379db6ac2e538fb670cb85b1a91e5d448e8963b4ee8b02666b41b5bc31cc5b" sha256new="YU3Z3NVMFZJY7NTQZOC3DKI6LVCI5CLDWTXIWATGNNA3LPBRZRNQ" />
-        <archive href="http://downloads.sourceforge.net/virtualdub/virtualdub-win/1.9.11.32842/VirtualDub-1.9.11-AMD64.zip" size="1916953" type="application/zip" />
-      </implementation>
-      <implementation arch="Windows-i486" main="VirtualDub.exe" id="sha1new=ab48ff7e0f89c6cc119d2a5c7187487d6e853ac1">
-        <manifest-digest sha1new="ab48ff7e0f89c6cc119d2a5c7187487d6e853ac1" sha256="db6fab8abfadc27116419c929a7a284ccf9dc54275d4910b0a9bc954f98cbc33" sha256new="3NX2XCV7VXBHCFSBTSJJU6RIJTHZ3RKCOXKJCCYKTPEVJ6MMXQZQ" />
-        <archive href="http://downloads.sourceforge.net/virtualdub/virtualdub-win/1.9.11.32842/VirtualDub-1.9.11.zip" size="1707366" type="application/zip" />
-      </implementation>
-    </group>
+    <implementation arch="Windows-x86_64" id="sha1new=f5d239c6d7ba1e3903a61cbff45fb0216784e834" main="Veedub64.exe" released="2013-10-27" stability="stable" version="1.10.4">
+      <manifest-digest sha256new="HCAIKMKXBWN7JEBEGNOYUT7EUXK5QFJBE63N5RZXMEIYGZAZGRNQ"/>
+      <archive href="http://downloads.sourceforge.net/virtualdub/VirtualDub-1.10.4-AMD64.zip" size="2209528" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=7a23592076d38a74f441097e15a9443b3260a5a0" main="VirtualDub.exe" released="2013-10-27" stability="stable" version="1.10.4">
+      <manifest-digest sha256new="H6SAIWNNW45HZANIXHGRKGSY5BB7OHVNGSA7XIHUG24UNHRTZR4A"/>
+      <archive href="http://downloads.sourceforge.net/virtualdub/VirtualDub-1.10.4.zip" size="1908225" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=7d7744e500efd1069f684a6fd9546b7ae89b1e1f" main="Veedub64.exe" released="2010-09-06" stability="stable" version="1.9.10">
+      <manifest-digest sha256new="HQPQKCU2DB3WW2SIZENYEB5PCRFWJXB4FNEDZGYSVUGFI4BVI66A"/>
+      <archive href="http://downloads.sourceforge.net/virtualdub/VirtualDub-1.9.10-AMD64.zip" size="1916670" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=8fa9a359e3943f5dfa94898049a8d3df725c5f28" main="VirtualDub.exe" released="2010-09-06" stability="stable" version="1.9.10">
+      <manifest-digest sha256new="HCHYBZW26BOV54S7JPMIMRJLCKJKJ62UY3NEPO4AVARJSOIWL4HQ"/>
+      <archive href="http://downloads.sourceforge.net/virtualdub/VirtualDub-1.9.10.zip" size="1706709" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=b565b4f15d7f8c9321bbb5d043dce17e24a1c0a3" main="Veedub64.exe" released="2010-12-24" stability="stable" version="1.9.11">
+      <manifest-digest sha256new="YU3Z3NVMFZJY7NTQZOC3DKI6LVCI5CLDWTXIWATGNNA3LPBRZRNQ"/>
+      <archive href="http://downloads.sourceforge.net/virtualdub/VirtualDub-1.9.11-AMD64.zip" size="1916953" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=ab48ff7e0f89c6cc119d2a5c7187487d6e853ac1" main="VirtualDub.exe" released="2010-12-24" stability="stable" version="1.9.11">
+      <manifest-digest sha256new="3NX2XCV7VXBHCFSBTSJJU6RIJTHZ3RKCOXKJCCYKTPEVJ6MMXQZQ"/>
+      <archive href="http://downloads.sourceforge.net/virtualdub/VirtualDub-1.9.11.zip" size="1707366" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=854baa1f836fbc4c91ddd6e46fc15f7d6d0e3c66" main="Veedub64.exe" released="2009-07-27" stability="stable" version="1.9.4">
+      <manifest-digest sha256new="XFH4RYS677V6LC4KNQUOMFUV5LE3K5ECUHKST3LAMEDFIUEIZSEA"/>
+      <archive href="http://downloads.sourceforge.net/virtualdub/VirtualDub-1.9.4-AMD64.zip" size="1908836" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=729b5ba3d1621e2cc5fe6f4f06a018a9813d4cef" main="VirtualDub.exe" released="2009-07-27" stability="stable" version="1.9.4">
+      <manifest-digest sha256new="C43DXMI7LSCVE3PR2YKBXSY2WE7SQ3CBIC6WRBGZJLAXVRB3B7EA"/>
+      <archive href="http://downloads.sourceforge.net/virtualdub/VirtualDub-1.9.4.zip" size="1496679" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=c703d740e6ddffd51e2dfb0267964d9f100274f9" main="Veedub64.exe" released="2009-08-23" stability="stable" version="1.9.5">
+      <manifest-digest sha256new="N6DSJOMF4A7PHJEIPZZ467OR26TQINBVAINIEBKHLSDM3RMYWI3Q"/>
+      <archive href="http://downloads.sourceforge.net/virtualdub/VirtualDub-1.9.5-AMD64.zip" size="1910167" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=fdfe102038e5d430fdc9dd68428f8a2422f4004a" main="VirtualDub.exe" released="2009-08-23" stability="stable" version="1.9.5">
+      <manifest-digest sha256new="H4M6JBRBUOGXVEUX4GKBZYNCNWEOQSLYDFOOTWO666CYF2YD2AQA"/>
+      <archive href="http://downloads.sourceforge.net/virtualdub/VirtualDub-1.9.5.zip" size="1701194" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=86e92a169980d7480fcf41c1b41552d921f28f5d" main="Veedub64.exe" released="2009-09-19" stability="stable" version="1.9.6">
+      <manifest-digest sha256new="2PU636IKY5MC67AIJHEXRSKAGJ6P2F5RU5N5XHPXINGAEITSDDQQ"/>
+      <archive href="http://downloads.sourceforge.net/virtualdub/VirtualDub-1.9.6-AMD64.zip" size="1910536" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=babfcff4fe64f1c2cb321296ec9b24f9721ab78c" main="VirtualDub.exe" released="2009-09-19" stability="stable" version="1.9.6">
+      <manifest-digest sha256new="75TQYVGPJSYV3CZVBWLHYARDRPALZV3YRS7SMUDESORL2WGE7RTQ"/>
+      <archive href="http://downloads.sourceforge.net/virtualdub/VirtualDub-1.9.6.zip" size="1701937" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=d9963531b19eb863ce4d1247902e16c7fc07ed9a" main="Veedub64.exe" released="2009-10-18" stability="stable" version="1.9.7">
+      <manifest-digest sha256new="PWES2UPEYZRG3QCH5WZLMH3SI3HH6GOHEAHQQDN6V3WK4Q6BAI6A"/>
+      <archive href="http://downloads.sourceforge.net/virtualdub/VirtualDub-1.9.7-AMD64.zip" size="1911828" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=6fdc9c4c5911d7a8adcdd9ec45f4fc773a430435" main="VirtualDub.exe" released="2009-10-18" stability="stable" version="1.9.7">
+      <manifest-digest sha256new="O5MUCJ5TBISTZJ7GAIATFNU4SYON7CIPTXXPL3GL2NKJXWH2IWTA"/>
+      <archive href="http://downloads.sourceforge.net/virtualdub/VirtualDub-1.9.7.zip" size="1703968" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=d91bc11c7835a337089066ede3ef34471926947e" main="Veedub64.exe" released="2009-12-25" stability="stable" version="1.9.8">
+      <manifest-digest sha256new="332KFH337ULY6N74Y7RP6252RQJZKWPCMLGHQM7BORPX6SWME7MA"/>
+      <archive href="http://downloads.sourceforge.net/virtualdub/VirtualDub-1.9.8-AMD64.zip" size="1913464" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=357604d4011ce2c31965027dc4172a5a34f4c548" main="VirtualDub.exe" released="2009-12-25" stability="stable" version="1.9.8">
+      <manifest-digest sha256new="J6UN6U2W25ATBS4LUXPY5VCNQXUOVVKEEBQFGZHO3FM77VNNQW5Q"/>
+      <archive href="http://downloads.sourceforge.net/virtualdub/VirtualDub-1.9.8.zip" size="1704669" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=40bd53d80f92b198f6b2c7a02d27f316fbeabbe4" main="Veedub64.exe" released="2010-04-09" stability="stable" version="1.9.9">
+      <manifest-digest sha256new="BM6XPEDCNZ2OBE4PJ3LGM2RBSC3XNYH4UQV2Q6KYWBBDODFHMTDQ"/>
+      <archive href="http://downloads.sourceforge.net/virtualdub/VirtualDub-1.9.9-AMD64.zip" size="1914998" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=57811264a0ce0d8d99d3dfc60b287ca2c75cccb4" main="VirtualDub.exe" released="2010-04-09" stability="stable" version="1.9.9">
+      <manifest-digest sha256new="24T342NZ5O7OUJ4K5E6C5YV7KF6LOG5JL3LEU6GC6XGW3PSO5P7A"/>
+      <archive href="http://downloads.sourceforge.net/virtualdub/VirtualDub-1.9.9.zip" size="1705959" type="application/zip"/>
+    </implementation>
   </group>
 </interface>

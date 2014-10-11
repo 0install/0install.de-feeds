@@ -1,329 +1,97 @@
-<?xml version="1.0" encoding="utf-8"?>
-<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/NetBeans_PHP.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<?xml version="1.0" ?>
+<interface uri="http://0install.de/feeds/NetBeans_PHP.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
   <name>NetBeans PHP</name>
   <summary xml:lang="en">A multi-language software development environment - subset for PHP</summary>
   <summary xml:lang="de">Eine multi-Sprachen Softwareentwicklungsumgebung - Teilmenge für PHP</summary>
   <description xml:lang="en">NetBeans is a multi-language integrated development environment.</description>
   <description xml:lang="de">NetBeans ist eine multi-Sprachen integrierte Entwicklungsumgebung (IDE).</description>
   <homepage>http://www.netbeans.org/</homepage>
-  <icon href="http://0install.de/feed-icons/NetBeans.png" type="image/png" />
-  <icon href="http://0install.de/feed-icons/NetBeans.ico" type="image/vnd.microsoft.icon" />
+  <icon href="http://0install.de/feed-icons/NetBeans.png" type="image/png"/>
+  <icon href="http://0install.de/feed-icons/NetBeans.ico" type="image/vnd.microsoft.icon"/>
   <category>Development</category>
   <group license="CDDL, GPL v2 with Classpath Exception">
     <requires interface="http://repo.roscidus.com/java/openjdk-jre">
-      <environment name="netbeans_jdkhome" insert="." mode="replace" />
+      <environment insert="." mode="replace" name="netbeans_jdkhome"/>
     </requires>
-    <group version="6.9.1" released="2010-07-28" stability="stable">
-      <implementation arch="Windows-*" id="v691_windows">
-        <command name="run" path="bin/netbeans.exe">
-          <arg>--jdkhome</arg>
-          <arg>$netbeans_jdkhome</arg>
-        </command>
-        <manifest-digest sha1new="362848641f0ce7ef2babd61312961722a952d154" sha256="f3881c9307d7ed044fe73dd21d9dbbbc85f5549e0d10f794c61f0196783aa130" sha256new="6OEBZEYH27WQIT7HHXJB3HN3XSC7KVE6BUIPPFGGD4AZM6B2UEYA" />
-        <archive href="http://download.netbeans.org/netbeans/6.9.1/final/zip/netbeans-6.9.1-201007282301-ml-php.zip" size="61330082" type="application/zip" extract="netbeans" />
+  </group>
+  <group>
+    <requires interface="http://repo.roscidus.com/java/openjdk-jdk">
+      <environment insert="." mode="replace" name="netbeans_jdkhome"/>
+    </requires>
+    <command name="run" path="bin/netbeans64.exe">
+      <arg>--jdkhome</arg>
+      <arg>$netbeans_jdkhome</arg>
+    </command>
+    <implementation arch="Windows-x86_64" id="v7.4_windows64" license="CDDL, GPL v2 with Classpath Exception" released="2013-10-11" stability="stable" version="7.4">
+      <manifest-digest sha256new="7KFVEX7W3QVEIY3Q6UCSW2Z7IZNJCYJA6O6ZYDL46POJNA2M2Q4Q"/>
+      <archive extract="netbeans" href="http://download.netbeans.org/netbeans/7.4/final/zip/netbeans-7.4-201310111528-php.zip" size="106933838" type="application/zip"/>
+    </implementation>
+    <group>
+      <command name="run" path="bin/netbeans.exe">
+        <arg>--jdkhome</arg>
+        <arg>$netbeans_jdkhome</arg>
+      </command>
+      <implementation arch="Windows-i486" id="v7.4_windows32" license="CDDL, GPL v2 with Classpath Exception" released="2013-10-11" stability="stable" version="7.4">
+        <manifest-digest sha256new="7KFVEX7W3QVEIY3Q6UCSW2Z7IZNJCYJA6O6ZYDL46POJNA2M2Q4Q"/>
+        <archive extract="netbeans" href="http://download.netbeans.org/netbeans/7.4/final/zip/netbeans-7.4-201310111528-php.zip" size="106933838" type="application/zip"/>
       </implementation>
-      <implementation arch="Linux-*" main="bin/netbeans" id="v691_linux">
-        <manifest-digest sha1new="362848641f0ce7ef2babd61312961722a952d154" sha256="f3881c9307d7ed044fe73dd21d9dbbbc85f5549e0d10f794c61f0196783aa130" sha256new="6OEBZEYH27WQIT7HHXJB3HN3XSC7KVE6BUIPPFGGD4AZM6B2UEYA" />
-        <archive href="http://download.netbeans.org/netbeans/6.9.1/final/zip/netbeans-6.9.1-201007282301-ml-php.zip" size="61330082" type="application/zip" extract="netbeans" />
+      <implementation arch="Windows-i486" id="v8.0.1_windows32" license="CDDL, GPL v2 with Classpath Exception" released="2014-08-25" stability="stable" version="8.0.1">
+        <manifest-digest sha256new="G33CXJQFMP2AMVJX4LCBM5JWUSBVHV3JYQIXUFLSYFZX22P2E22A"/>
+        <archive extract="netbeans" href="http://download.netbeans.org/netbeans/8.0.1/final/zip/netbeans-8.0.1-201408251540-php.zip" size="111036868" type="application/zip"/>
       </implementation>
-      <implementation arch="Solaris-*" main="bin/netbeans" id="v691_solaris">
-        <manifest-digest sha1new="362848641f0ce7ef2babd61312961722a952d154" sha256="f3881c9307d7ed044fe73dd21d9dbbbc85f5549e0d10f794c61f0196783aa130" sha256new="6OEBZEYH27WQIT7HHXJB3HN3XSC7KVE6BUIPPFGGD4AZM6B2UEYA" />
-        <archive href="http://download.netbeans.org/netbeans/6.9.1/final/zip/netbeans-6.9.1-201007282301-ml-php.zip" size="61330082" type="application/zip" extract="netbeans" />
-      </implementation>
-      <implementation arch="Darwin-*" main="bin/netbeans" id="v691_darwin">
-        <manifest-digest sha1new="362848641f0ce7ef2babd61312961722a952d154" sha256="f3881c9307d7ed044fe73dd21d9dbbbc85f5549e0d10f794c61f0196783aa130" sha256new="6OEBZEYH27WQIT7HHXJB3HN3XSC7KVE6BUIPPFGGD4AZM6B2UEYA" />
-        <archive href="http://download.netbeans.org/netbeans/6.9.1/final/zip/netbeans-6.9.1-201007282301-ml-php.zip" size="61330082" type="application/zip" extract="netbeans" />
-      </implementation>
-    </group>
-    <group version="7.0" released="2011-04-08" stability="stable">
-      <implementation arch="Windows-*" id="v70_windows">
-        <command name="run" path="bin/netbeans.exe">
-          <arg>--jdkhome</arg>
-          <arg>$netbeans_jdkhome</arg>
-        </command>
-        <manifest-digest sha1new="be003d1f83c9dcbd3da6aabee68a2c2bd7fbf2ea" sha256="c60298d2e2b3dfc452f7a955b936c8577655bba03ab9352c224e124f03d044df" sha256new="YYBJRUXCWPP4IUXXVFK3SNWIK53FLO5AHK4TKLBCJYJE6A6QITPQ" />
-        <archive href="http://download.netbeans.org/netbeans/7.0/final/zip/netbeans-7.0-201104080000-ml-php.zip" size="76806240" type="application/zip" extract="netbeans" />
-      </implementation>
-      <implementation arch="Linux-*" main="bin/netbeans" id="v70_linux">
-        <manifest-digest sha1new="be003d1f83c9dcbd3da6aabee68a2c2bd7fbf2ea" sha256="c60298d2e2b3dfc452f7a955b936c8577655bba03ab9352c224e124f03d044df" sha256new="YYBJRUXCWPP4IUXXVFK3SNWIK53FLO5AHK4TKLBCJYJE6A6QITPQ" />
-        <archive href="http://download.netbeans.org/netbeans/7.0/final/zip/netbeans-7.0-201104080000-ml-php.zip" size="76806240" type="application/zip" extract="netbeans" />
-      </implementation>
-      <implementation arch="Solaris-*" main="bin/netbeans" id="v70_solaris">
-        <manifest-digest sha1new="be003d1f83c9dcbd3da6aabee68a2c2bd7fbf2ea" sha256="c60298d2e2b3dfc452f7a955b936c8577655bba03ab9352c224e124f03d044df" sha256new="YYBJRUXCWPP4IUXXVFK3SNWIK53FLO5AHK4TKLBCJYJE6A6QITPQ" />
-        <archive href="http://download.netbeans.org/netbeans/7.0/final/zip/netbeans-7.0-201104080000-ml-php.zip" size="76806240" type="application/zip" extract="netbeans" />
-      </implementation>
-      <implementation arch="Darwin-*" main="bin/netbeans" id="v70_darwin">
-        <manifest-digest sha1new="be003d1f83c9dcbd3da6aabee68a2c2bd7fbf2ea" sha256="c60298d2e2b3dfc452f7a955b936c8577655bba03ab9352c224e124f03d044df" sha256new="YYBJRUXCWPP4IUXXVFK3SNWIK53FLO5AHK4TKLBCJYJE6A6QITPQ" />
-        <archive href="http://download.netbeans.org/netbeans/7.0/final/zip/netbeans-7.0-201104080000-ml-php.zip" size="76806240" type="application/zip" extract="netbeans" />
+      <implementation arch="Windows-i486" id="v8.0_windows32" license="CDDL, GPL v2 with Classpath Exception" released="2013-03-10" stability="stable" version="8.0">
+        <manifest-digest sha256new="JJ5SZ7HHHGIRBTCQQTDTMVSP6PNQVRADFY7LWRONJWU27DXZOP6Q"/>
+        <archive extract="netbeans" href="http://download.netbeans.org/netbeans/8.0/final/zip/netbeans-8.0-201403101706-php.zip" size="110321567" type="application/zip"/>
       </implementation>
     </group>
-    <group version="7.0.1" released="2011-08-01" stability="stable">
-      <implementation arch="Windows-*" id="v701_windows">
-        <command name="run" path="bin/netbeans.exe">
-          <arg>--jdkhome</arg>
-          <arg>$netbeans_jdkhome</arg>
-        </command>
-        <manifest-digest sha1new="436b430217cdb9cd69a0d0728683c7017ba30882" sha256="e7b6438855f57ee8ecee8087da6b25ed2b9be44b9b65ce22dd281061a484515e" sha256new="463EHCCV6V7OR3HOQCD5U2ZF5UVZXZCLTNS44IW5FAIGDJEEKFPA" />
-        <archive href="http://download.netbeans.org/netbeans/7.0.1/final/zip/netbeans-7.0.1-201107282000-ml-php.zip" size="77015084" type="application/zip" extract="netbeans" />
-      </implementation>
-      <implementation arch="Linux-*" main="bin/netbeans" id="v701_linux">
-        <manifest-digest sha1new="436b430217cdb9cd69a0d0728683c7017ba30882" sha256="e7b6438855f57ee8ecee8087da6b25ed2b9be44b9b65ce22dd281061a484515e" sha256new="463EHCCV6V7OR3HOQCD5U2ZF5UVZXZCLTNS44IW5FAIGDJEEKFPA" />
-        <archive href="http://download.netbeans.org/netbeans/7.0.1/final/zip/netbeans-7.0.1-201107282000-ml-php.zip" size="77015084" type="application/zip" extract="netbeans" />
-      </implementation>
-      <implementation arch="Solaris-*" main="bin/netbeans" id="v701_solaris">
-        <manifest-digest sha1new="436b430217cdb9cd69a0d0728683c7017ba30882" sha256="e7b6438855f57ee8ecee8087da6b25ed2b9be44b9b65ce22dd281061a484515e" sha256new="463EHCCV6V7OR3HOQCD5U2ZF5UVZXZCLTNS44IW5FAIGDJEEKFPA" />
-        <archive href="http://download.netbeans.org/netbeans/7.0.1/final/zip/netbeans-7.0.1-201107282000-ml-php.zip" size="77015084" type="application/zip" extract="netbeans" />
-      </implementation>
-      <implementation arch="Darwin-*" main="bin/netbeans" id="v701_darwin">
-        <manifest-digest sha1new="436b430217cdb9cd69a0d0728683c7017ba30882" sha256="e7b6438855f57ee8ecee8087da6b25ed2b9be44b9b65ce22dd281061a484515e" sha256new="463EHCCV6V7OR3HOQCD5U2ZF5UVZXZCLTNS44IW5FAIGDJEEKFPA" />
-        <archive href="http://download.netbeans.org/netbeans/7.0.1/final/zip/netbeans-7.0.1-201107282000-ml-php.zip" size="77015084" type="application/zip" extract="netbeans" />
-      </implementation>
-    </group>
-    <group version="7.1" released="2012-01-05" stability="stable">
-      <implementation arch="Windows-*" id="v71_windows">
-        <command name="run" path="bin/netbeans.exe">
-          <arg>--jdkhome</arg>
-          <arg>$netbeans_jdkhome</arg>
-        </command>
-        <manifest-digest sha1new="759fc3922fa164e502da748e93f9f42442622300" sha256="e2c385f405f979b37b0e3941faca264778dbda876ca3798f7ec160211e3908b4" sha256new="4LBYL5AF7F43G6YOHFA7VSRGI54NXWUHNSRXTD36YFQCCHRZBC2A" />
-        <archive href="http://download.netbeans.org/netbeans/7.1/final/zip/netbeans-7.1-201112071828-ml-php.zip" size="84760427" type="application/zip" extract="netbeans" />
-      </implementation>
-      <implementation arch="Linux-*" main="bin/netbeans" id="v71_linux">
-        <manifest-digest sha1new="759fc3922fa164e502da748e93f9f42442622300" sha256="e2c385f405f979b37b0e3941faca264778dbda876ca3798f7ec160211e3908b4" sha256new="4LBYL5AF7F43G6YOHFA7VSRGI54NXWUHNSRXTD36YFQCCHRZBC2A" />
-        <archive href="http://download.netbeans.org/netbeans/7.1/final/zip/netbeans-7.1-201112071828-ml-php.zip" size="84760427" type="application/zip" extract="netbeans" />
-      </implementation>
-      <implementation arch="Solaris-*" main="bin/netbeans" id="v71_solaris">
-        <manifest-digest sha1new="759fc3922fa164e502da748e93f9f42442622300" sha256="e2c385f405f979b37b0e3941faca264778dbda876ca3798f7ec160211e3908b4" sha256new="4LBYL5AF7F43G6YOHFA7VSRGI54NXWUHNSRXTD36YFQCCHRZBC2A" />
-        <archive href="http://download.netbeans.org/netbeans/7.1/final/zip/netbeans-7.1-201112071828-ml-php.zip" size="84760427" type="application/zip" extract="netbeans" />
-      </implementation>
-      <implementation arch="Darwin-*" main="bin/netbeans" id="v71_darwin">
-        <manifest-digest sha1new="759fc3922fa164e502da748e93f9f42442622300" sha256="e2c385f405f979b37b0e3941faca264778dbda876ca3798f7ec160211e3908b4" sha256new="4LBYL5AF7F43G6YOHFA7VSRGI54NXWUHNSRXTD36YFQCCHRZBC2A" />
-        <archive href="http://download.netbeans.org/netbeans/7.1/final/zip/netbeans-7.1-201112071828-ml-php.zip" size="84760427" type="application/zip" extract="netbeans" />
-      </implementation>
-    </group>
-    <group version="7.1.1" released="2012-03-03" stability="stable">
-      <implementation arch="Windows-*" id="v711_windows">
-        <command name="run" path="bin/netbeans.exe">
-          <arg>--jdkhome</arg>
-          <arg>$netbeans_jdkhome</arg>
-        </command>
-        <manifest-digest sha1new="3905efba48c678f1b29592faa2fbc8335af73547" sha256="bc657f82a264481cc7e320df9e7a83f7108756df4e8badacbe07fa0f21b55759" sha256new="XRSX7AVCMREBZR7DEDPZ46UD64IIOVW7J2F23LF6A75A6INVK5MQ" />
-        <archive href="http://download.netbeans.org/netbeans/7.1.1/final/zip/netbeans-7.1.1-201203012225-ml-php.zip" size="84808780" type="application/zip" extract="netbeans" />
-      </implementation>
-      <implementation arch="Linux-*" main="bin/netbeans" id="v711_linux">
-        <manifest-digest sha1new="3905efba48c678f1b29592faa2fbc8335af73547" sha256="bc657f82a264481cc7e320df9e7a83f7108756df4e8badacbe07fa0f21b55759" sha256new="XRSX7AVCMREBZR7DEDPZ46UD64IIOVW7J2F23LF6A75A6INVK5MQ" />
-        <archive href="http://download.netbeans.org/netbeans/7.1.1/final/zip/netbeans-7.1.1-201203012225-ml-php.zip" size="84808780" type="application/zip" extract="netbeans" />
-      </implementation>
-      <implementation arch="Solaris-*" main="bin/netbeans" id="v711_solaris">
-        <manifest-digest sha1new="3905efba48c678f1b29592faa2fbc8335af73547" sha256="bc657f82a264481cc7e320df9e7a83f7108756df4e8badacbe07fa0f21b55759" sha256new="XRSX7AVCMREBZR7DEDPZ46UD64IIOVW7J2F23LF6A75A6INVK5MQ" />
-        <archive href="http://download.netbeans.org/netbeans/7.1.1/final/zip/netbeans-7.1.1-201203012225-ml-php.zip" size="84808780" type="application/zip" extract="netbeans" />
-      </implementation>
-      <implementation arch="Darwin-*" main="bin/netbeans" id="v711_darwin">
-        <manifest-digest sha1new="3905efba48c678f1b29592faa2fbc8335af73547" sha256="bc657f82a264481cc7e320df9e7a83f7108756df4e8badacbe07fa0f21b55759" sha256new="XRSX7AVCMREBZR7DEDPZ46UD64IIOVW7J2F23LF6A75A6INVK5MQ" />
-        <archive href="http://download.netbeans.org/netbeans/7.1.1/final/zip/netbeans-7.1.1-201203012225-ml-php.zip" size="84808780" type="application/zip" extract="netbeans" />
-      </implementation>
-    </group>
-    <group version="7.1.2" released="2012-04-26" stability="stable">
-      <implementation arch="Windows-*" id="v712_windows">
-        <command name="run" path="bin/netbeans.exe">
-          <arg>--jdkhome</arg>
-          <arg>$netbeans_jdkhome</arg>
-        </command>
-        <manifest-digest sha1new="af871b53dd6d97d1061a13cb600a666c1bc83f30" sha256="d168cc25c2e260589da8f3ceae1c004d4c404244a76f1671a37f4a2eb502211a" sha256new="2FUMYJOC4JQFRHNI6PHK4HAAJVGEAQSEU5XRM4NDP5FC5NICEENA" />
-        <archive href="http://download.netbeans.org/netbeans/7.1.2/final/zip/netbeans-7.1.2-201204101705-ml-php.zip" size="84821391" type="application/zip" extract="netbeans" />
-      </implementation>
-      <implementation arch="Linux-*" main="bin/netbeans" id="v712_linux">
-        <manifest-digest sha1new="af871b53dd6d97d1061a13cb600a666c1bc83f30" sha256="d168cc25c2e260589da8f3ceae1c004d4c404244a76f1671a37f4a2eb502211a" sha256new="2FUMYJOC4JQFRHNI6PHK4HAAJVGEAQSEU5XRM4NDP5FC5NICEENA" />
-        <archive href="http://download.netbeans.org/netbeans/7.1.2/final/zip/netbeans-7.1.2-201204101705-ml-php.zip" size="84821391" type="application/zip" extract="netbeans" />
-      </implementation>
-      <implementation arch="Solaris-*" main="bin/netbeans" id="v712_solaris">
-        <manifest-digest sha1new="af871b53dd6d97d1061a13cb600a666c1bc83f30" sha256="d168cc25c2e260589da8f3ceae1c004d4c404244a76f1671a37f4a2eb502211a" sha256new="2FUMYJOC4JQFRHNI6PHK4HAAJVGEAQSEU5XRM4NDP5FC5NICEENA" />
-        <archive href="http://download.netbeans.org/netbeans/7.1.2/final/zip/netbeans-7.1.2-201204101705-ml-php.zip" size="84821391" type="application/zip" extract="netbeans" />
-      </implementation>
-      <implementation arch="Darwin-*" main="bin/netbeans" id="v712_darwin">
-        <manifest-digest sha1new="af871b53dd6d97d1061a13cb600a666c1bc83f30" sha256="d168cc25c2e260589da8f3ceae1c004d4c404244a76f1671a37f4a2eb502211a" sha256new="2FUMYJOC4JQFRHNI6PHK4HAAJVGEAQSEU5XRM4NDP5FC5NICEENA" />
-        <archive href="http://download.netbeans.org/netbeans/7.1.2/final/zip/netbeans-7.1.2-201204101705-ml-php.zip" size="84821391" type="application/zip" extract="netbeans" />
-      </implementation>
-    </group>
-    <group version="7.2" released="2012-07-24" stability="stable">
-      <implementation arch="Windows-x86_64" id="v72_windows64">
-        <command name="run" path="bin/netbeans64.exe">
-          <arg>--jdkhome</arg>
-          <arg>$netbeans_jdkhome</arg>
-        </command>
-        <manifest-digest sha1new="31b8749454edcd7fc67820033069da4a3be1a920" sha256="12013e47fa1c83604fa2a48cabd57bb0b74dc036d3bf9e39c0e0c4e6e1b7b1eb" sha256new="CIAT4R72DSBWAT5CUSGKXVL3WC3U3QBW2O7Z4OOA4DCONYNXWHVQ" />
-        <archive href="http://download.netbeans.org/netbeans/7.2/final/zip/netbeans-7.2-201207171143-ml-php.zip" size="92891501" type="application/zip" extract="netbeans" />
-      </implementation>
-      <implementation arch="Windows-i486" id="v72_windows32">
-        <command name="run" path="bin/netbeans.exe">
-          <arg>--jdkhome</arg>
-          <arg>$netbeans_jdkhome</arg>
-        </command>
-        <manifest-digest sha1new="31b8749454edcd7fc67820033069da4a3be1a920" sha256="12013e47fa1c83604fa2a48cabd57bb0b74dc036d3bf9e39c0e0c4e6e1b7b1eb" sha256new="CIAT4R72DSBWAT5CUSGKXVL3WC3U3QBW2O7Z4OOA4DCONYNXWHVQ" />
-        <archive href="http://download.netbeans.org/netbeans/7.2/final/zip/netbeans-7.2-201207171143-ml-php.zip" size="92891501" type="application/zip" extract="netbeans" />
-      </implementation>
-      <implementation arch="Linux-*" main="bin/netbeans" id="v72_linux">
-        <manifest-digest sha1new="31b8749454edcd7fc67820033069da4a3be1a920" sha256="12013e47fa1c83604fa2a48cabd57bb0b74dc036d3bf9e39c0e0c4e6e1b7b1eb" sha256new="CIAT4R72DSBWAT5CUSGKXVL3WC3U3QBW2O7Z4OOA4DCONYNXWHVQ" />
-        <archive href="http://download.netbeans.org/netbeans/7.2/final/zip/netbeans-7.2-201207171143-ml-php.zip" size="92891501" type="application/zip" extract="netbeans" />
-      </implementation>
-      <implementation arch="Solaris-*" main="bin/netbeans" id="v72_solaris">
-        <manifest-digest sha1new="31b8749454edcd7fc67820033069da4a3be1a920" sha256="12013e47fa1c83604fa2a48cabd57bb0b74dc036d3bf9e39c0e0c4e6e1b7b1eb" sha256new="CIAT4R72DSBWAT5CUSGKXVL3WC3U3QBW2O7Z4OOA4DCONYNXWHVQ" />
-        <archive href="http://download.netbeans.org/netbeans/7.2/final/zip/netbeans-7.2-201207171143-ml-php.zip" size="92891501" type="application/zip" extract="netbeans" />
-      </implementation>
-      <implementation arch="Darwin-*" main="bin/netbeans" id="v72_darwin">
-        <manifest-digest sha1new="31b8749454edcd7fc67820033069da4a3be1a920" sha256="12013e47fa1c83604fa2a48cabd57bb0b74dc036d3bf9e39c0e0c4e6e1b7b1eb" sha256new="CIAT4R72DSBWAT5CUSGKXVL3WC3U3QBW2O7Z4OOA4DCONYNXWHVQ" />
-        <archive href="http://download.netbeans.org/netbeans/7.2/final/zip/netbeans-7.2-201207171143-ml-php.zip" size="92891501" type="application/zip" extract="netbeans" />
-      </implementation>
-    </group>
-    <group version="7.2.1" released="2012-10-09" stability="stable">
-      <implementation arch="Windows-x86_64" id="v721_windows64">
-        <command name="run" path="bin/netbeans64.exe">
-          <arg>--jdkhome</arg>
-          <arg>$netbeans_jdkhome</arg>
-        </command>
-        <manifest-digest sha1new="cfaf7dcab576f57294a80ce93ce0b3648edeba06" sha256="b9bca875335eba7ab9737542c35b0af561476de0712d8f184b30e823921873f2" sha256new="XG6KQ5JTL25HVOLTOVBMGWYK6VQUO3PAOEWY6GCLGDUCHEQYOPZA" />
-        <archive href="http://download.netbeans.org/netbeans/7.2.1/final/zip/netbeans-7.2.1-201210100934-ml-php.zip" size="92911843" type="application/zip" extract="netbeans" />
-      </implementation>
-      <implementation arch="Windows-i486" id="v721_windows32">
-        <command name="run" path="bin/netbeans.exe">
-          <arg>--jdkhome</arg>
-          <arg>$netbeans_jdkhome</arg>
-        </command>
-        <manifest-digest sha1new="cfaf7dcab576f57294a80ce93ce0b3648edeba06" sha256="b9bca875335eba7ab9737542c35b0af561476de0712d8f184b30e823921873f2" sha256new="XG6KQ5JTL25HVOLTOVBMGWYK6VQUO3PAOEWY6GCLGDUCHEQYOPZA" />
-        <archive href="http://download.netbeans.org/netbeans/7.2.1/final/zip/netbeans-7.2.1-201210100934-ml-php.zip" size="92911843" type="application/zip" extract="netbeans" />
-      </implementation>
-      <implementation arch="Linux-*" main="bin/netbeans" id="v721_linux">
-        <manifest-digest sha1new="cfaf7dcab576f57294a80ce93ce0b3648edeba06" sha256="b9bca875335eba7ab9737542c35b0af561476de0712d8f184b30e823921873f2" sha256new="XG6KQ5JTL25HVOLTOVBMGWYK6VQUO3PAOEWY6GCLGDUCHEQYOPZA" />
-        <archive href="http://download.netbeans.org/netbeans/7.2.1/final/zip/netbeans-7.2.1-201210100934-ml-php.zip" size="92911843" type="application/zip" extract="netbeans" />
-      </implementation>
-      <implementation arch="Solaris-*" main="bin/netbeans" id="v721_solaris">
-        <manifest-digest sha1new="cfaf7dcab576f57294a80ce93ce0b3648edeba06" sha256="b9bca875335eba7ab9737542c35b0af561476de0712d8f184b30e823921873f2" sha256new="XG6KQ5JTL25HVOLTOVBMGWYK6VQUO3PAOEWY6GCLGDUCHEQYOPZA" />
-        <archive href="http://download.netbeans.org/netbeans/7.2.1/final/zip/netbeans-7.2.1-201210100934-ml-php.zip" size="92911843" type="application/zip" extract="netbeans" />
-      </implementation>
-      <implementation arch="Darwin-*" main="bin/netbeans" id="v721_darwin">
-        <manifest-digest sha1new="cfaf7dcab576f57294a80ce93ce0b3648edeba06" sha256="b9bca875335eba7ab9737542c35b0af561476de0712d8f184b30e823921873f2" sha256new="XG6KQ5JTL25HVOLTOVBMGWYK6VQUO3PAOEWY6GCLGDUCHEQYOPZA" />
-        <archive href="http://download.netbeans.org/netbeans/7.2.1/final/zip/netbeans-7.2.1-201210100934-ml-php.zip" size="92911843" type="application/zip" extract="netbeans" />
-      </implementation>
-    </group>
-    <group version="7.3" released="2013-02-13" stability="stable">
-      <implementation arch="Windows-x86_64" id="v73_windows64">
-        <command name="run" path="bin/netbeans64.exe">
-          <arg>--jdkhome</arg>
-          <arg>$netbeans_jdkhome</arg>
-        </command>
-        <manifest-digest sha1new="d644a4e19c3b54114014ad1af6a5f286afcc4dd7" sha256="cf97ace022d2e90903188246857a3716c90d0c63d9336a1724749e9a4752fd44" sha256new="Z6L2ZYBC2LUQSAYYQJDIK6RXC3EQ2DDD3EZWUFZEOSPJUR2S7VCA" />
-        <archive href="http://download.netbeans.org/netbeans/7.3/final/zip/netbeans-7.3-201302132200-php.zip" size="100039846" type="application/zip" extract="netbeans" />
-      </implementation>
-      <implementation arch="Windows-i486" id="v73_windows32">
-        <command name="run" path="bin/netbeans.exe">
-          <arg>--jdkhome</arg>
-          <arg>$netbeans_jdkhome</arg>
-        </command>
-        <manifest-digest sha1new="d644a4e19c3b54114014ad1af6a5f286afcc4dd7" sha256="cf97ace022d2e90903188246857a3716c90d0c63d9336a1724749e9a4752fd44" sha256new="Z6L2ZYBC2LUQSAYYQJDIK6RXC3EQ2DDD3EZWUFZEOSPJUR2S7VCA" />
-        <archive href="http://download.netbeans.org/netbeans/7.3/final/zip/netbeans-7.3-201302132200-php.zip" size="100039846" type="application/zip" extract="netbeans" />
-      </implementation>
-      <implementation arch="Linux-*" main="bin/netbeans" id="v73_linux">
-        <manifest-digest sha1new="d644a4e19c3b54114014ad1af6a5f286afcc4dd7" sha256="cf97ace022d2e90903188246857a3716c90d0c63d9336a1724749e9a4752fd44" sha256new="Z6L2ZYBC2LUQSAYYQJDIK6RXC3EQ2DDD3EZWUFZEOSPJUR2S7VCA" />
-        <archive href="http://download.netbeans.org/netbeans/7.3/final/zip/netbeans-7.3-201302132200-php.zip" size="100039846" type="application/zip" extract="netbeans" />
-      </implementation>
-      <implementation arch="Solaris-*" main="bin/netbeans" id="v73_solaris">
-        <manifest-digest sha1new="d644a4e19c3b54114014ad1af6a5f286afcc4dd7" sha256="cf97ace022d2e90903188246857a3716c90d0c63d9336a1724749e9a4752fd44" sha256new="Z6L2ZYBC2LUQSAYYQJDIK6RXC3EQ2DDD3EZWUFZEOSPJUR2S7VCA" />
-        <archive href="http://download.netbeans.org/netbeans/7.3/final/zip/netbeans-7.3-201302132200-php.zip" size="100039846" type="application/zip" extract="netbeans" />
-      </implementation>
-      <implementation arch="Darwin-*" main="bin/netbeans" id="v73_darwin">
-        <manifest-digest sha1new="d644a4e19c3b54114014ad1af6a5f286afcc4dd7" sha256="cf97ace022d2e90903188246857a3716c90d0c63d9336a1724749e9a4752fd44" sha256new="Z6L2ZYBC2LUQSAYYQJDIK6RXC3EQ2DDD3EZWUFZEOSPJUR2S7VCA" />
-        <archive href="http://download.netbeans.org/netbeans/7.3/final/zip/netbeans-7.3-201302132200-php.zip" size="100039846" type="application/zip" extract="netbeans" />
-      </implementation>
-    </group>
-    <group version="7.3.1" released="2013-06-05" stability="stable">
-      <implementation arch="Windows-x86_64" id="v731_windows64">
-        <command name="run" path="bin/netbeans64.exe">
-          <arg>--jdkhome</arg>
-          <arg>$netbeans_jdkhome</arg>
-        </command>
-        <manifest-digest sha1new="7de59c4188c5b999d3ae92beba64c364628411d1" sha256="f4d879a391956824a1ea0e674a43877fec4eb19b2f63db0ef05fa652510cdc95" sha256new="6TMHTI4RSVUCJIPKBZTUUQ4HP7WE5MM3F5R5WDXQL6TFEUIM3SKQ" />
-        <archive href="http://download.netbeans.org/netbeans/7.3.1/final/zip/netbeans-7.3.1-201306052037-php.zip" size="99449189" type="application/zip" extract="netbeans" />
-      </implementation>
-      <implementation arch="Windows-i486" id="v731_windows32">
-        <command name="run" path="bin/netbeans.exe">
-          <arg>--jdkhome</arg>
-          <arg>$netbeans_jdkhome</arg>
-        </command>
-        <manifest-digest sha1new="7de59c4188c5b999d3ae92beba64c364628411d1" sha256="f4d879a391956824a1ea0e674a43877fec4eb19b2f63db0ef05fa652510cdc95" sha256new="6TMHTI4RSVUCJIPKBZTUUQ4HP7WE5MM3F5R5WDXQL6TFEUIM3SKQ" />
-        <archive href="http://download.netbeans.org/netbeans/7.3.1/final/zip/netbeans-7.3.1-201306052037-php.zip" size="99449189" type="application/zip" extract="netbeans" />
-      </implementation>
-      <implementation arch="Linux-*" main="bin/netbeans" id="v731_linux">
-        <manifest-digest sha1new="7de59c4188c5b999d3ae92beba64c364628411d1" sha256="f4d879a391956824a1ea0e674a43877fec4eb19b2f63db0ef05fa652510cdc95" sha256new="6TMHTI4RSVUCJIPKBZTUUQ4HP7WE5MM3F5R5WDXQL6TFEUIM3SKQ" />
-        <archive href="http://download.netbeans.org/netbeans/7.3.1/final/zip/netbeans-7.3.1-201306052037-php.zip" size="99449189" type="application/zip" extract="netbeans" />
-      </implementation>
-      <implementation arch="Solaris-*" main="bin/netbeans" id="v731_solaris">
-        <manifest-digest sha1new="7de59c4188c5b999d3ae92beba64c364628411d1" sha256="f4d879a391956824a1ea0e674a43877fec4eb19b2f63db0ef05fa652510cdc95" sha256new="6TMHTI4RSVUCJIPKBZTUUQ4HP7WE5MM3F5R5WDXQL6TFEUIM3SKQ" />
-        <archive href="http://download.netbeans.org/netbeans/7.3.1/final/zip/netbeans-7.3.1-201306052037-php.zip" size="99449189" type="application/zip" extract="netbeans" />
-      </implementation>
-      <implementation arch="Darwin-*" main="bin/netbeans" id="v731_darwin">
-        <manifest-digest sha1new="7de59c4188c5b999d3ae92beba64c364628411d1" sha256="f4d879a391956824a1ea0e674a43877fec4eb19b2f63db0ef05fa652510cdc95" sha256new="6TMHTI4RSVUCJIPKBZTUUQ4HP7WE5MM3F5R5WDXQL6TFEUIM3SKQ" />
-        <archive href="http://download.netbeans.org/netbeans/7.3.1/final/zip/netbeans-7.3.1-201306052037-php.zip" size="99449189" type="application/zip" extract="netbeans" />
-      </implementation>
-    </group>
-    <group version="7.4" released="2013-10-11" stability="stable">
-      <implementation arch="Windows-x86_64" id="v74_windows64">
-        <command name="run" path="bin/netbeans64.exe">
-          <arg>--jdkhome</arg>
-          <arg>$netbeans_jdkhome</arg>
-        </command>
-        <manifest-digest sha1new="543cbee5383c050eab53247032d9b90bc7e45ba7" sha256="fa8b525ff6dc2a446370f5052b6b3f465a916120f3bd9c0d7cf3dc96834cd439" sha256new="7KFVEX7W3QVEIY3Q6UCSW2Z7IZNJCYJA6O6ZYDL46POJNA2M2Q4Q" />
-        <archive href="http://download.netbeans.org/netbeans/7.4/final/zip/netbeans-7.4-201310111528-php.zip" size="106933838" type="application/zip" extract="netbeans" />
-      </implementation>
-      <implementation arch="Windows-i486" id="v74_windows32">
-        <command name="run" path="bin/netbeans.exe">
-          <arg>--jdkhome</arg>
-          <arg>$netbeans_jdkhome</arg>
-        </command>
-        <manifest-digest sha1new="543cbee5383c050eab53247032d9b90bc7e45ba7" sha256="fa8b525ff6dc2a446370f5052b6b3f465a916120f3bd9c0d7cf3dc96834cd439" sha256new="7KFVEX7W3QVEIY3Q6UCSW2Z7IZNJCYJA6O6ZYDL46POJNA2M2Q4Q" />
-        <archive href="http://download.netbeans.org/netbeans/7.4/final/zip/netbeans-7.4-201310111528-php.zip" size="106933838" type="application/zip" extract="netbeans" />
-      </implementation>
-      <implementation arch="Linux-*" main="bin/netbeans" id="v74_linux">
-        <manifest-digest sha1new="543cbee5383c050eab53247032d9b90bc7e45ba7" sha256="fa8b525ff6dc2a446370f5052b6b3f465a916120f3bd9c0d7cf3dc96834cd439" sha256new="7KFVEX7W3QVEIY3Q6UCSW2Z7IZNJCYJA6O6ZYDL46POJNA2M2Q4Q" />
-        <archive href="http://download.netbeans.org/netbeans/7.4/final/zip/netbeans-7.4-201310111528-php.zip" size="106933838" type="application/zip" extract="netbeans" />
-      </implementation>
-      <implementation arch="Solaris-*" main="bin/netbeans" id="v74_solaris">
-        <manifest-digest sha1new="543cbee5383c050eab53247032d9b90bc7e45ba7" sha256="fa8b525ff6dc2a446370f5052b6b3f465a916120f3bd9c0d7cf3dc96834cd439" sha256new="7KFVEX7W3QVEIY3Q6UCSW2Z7IZNJCYJA6O6ZYDL46POJNA2M2Q4Q" />
-        <archive href="http://download.netbeans.org/netbeans/7.4/final/zip/netbeans-7.4-201310111528-php.zip" size="106933838" type="application/zip" extract="netbeans" />
-      </implementation>
-      <implementation arch="Darwin-*" main="bin/netbeans" id="v74_darwin">
-        <manifest-digest sha1new="543cbee5383c050eab53247032d9b90bc7e45ba7" sha256="fa8b525ff6dc2a446370f5052b6b3f465a916120f3bd9c0d7cf3dc96834cd439" sha256new="7KFVEX7W3QVEIY3Q6UCSW2Z7IZNJCYJA6O6ZYDL46POJNA2M2Q4Q" />
-        <archive href="http://download.netbeans.org/netbeans/7.4/final/zip/netbeans-7.4-201310111528-php.zip" size="106933838" type="application/zip" extract="netbeans" />
-      </implementation>
-    </group>
-    <group version="8.0" released="2013-03-10" stability="stable">
-      <implementation arch="Windows-x86_64" id="v80_windows64">
-        <command name="run" path="bin/netbeans64.exe">
-          <arg>--jdkhome</arg>
-          <arg>$netbeans_jdkhome</arg>
-        </command>
-        <manifest-digest sha1new="741df124d469efc69f79c10675f03ed2ee8267f5" sha256="4a7b2cfce7399110cc5084c736564ff3db0ac4032e3ebb45cd4da9af8ef973fd" sha256new="JJ5SZ7HHHGIRBTCQQTDTMVSP6PNQVRADFY7LWRONJWU27DXZOP6Q" />
-        <archive href="http://download.netbeans.org/netbeans/8.0/final/zip/netbeans-8.0-201403101706-php.zip" size="110321567" type="application/zip" extract="netbeans" />
-      </implementation>
-      <implementation arch="Windows-i486" id="v80_windows32">
-        <command name="run" path="bin/netbeans.exe">
-          <arg>--jdkhome</arg>
-          <arg>$netbeans_jdkhome</arg>
-        </command>
-        <manifest-digest sha1new="741df124d469efc69f79c10675f03ed2ee8267f5" sha256="4a7b2cfce7399110cc5084c736564ff3db0ac4032e3ebb45cd4da9af8ef973fd" sha256new="JJ5SZ7HHHGIRBTCQQTDTMVSP6PNQVRADFY7LWRONJWU27DXZOP6Q" />
-        <archive href="http://download.netbeans.org/netbeans/8.0/final/zip/netbeans-8.0-201403101706-php.zip" size="110321567" type="application/zip" extract="netbeans" />
-      </implementation>
-      <implementation arch="Linux-*" main="bin/netbeans" id="v80_linux">
-        <manifest-digest sha1new="741df124d469efc69f79c10675f03ed2ee8267f5" sha256="4a7b2cfce7399110cc5084c736564ff3db0ac4032e3ebb45cd4da9af8ef973fd" sha256new="JJ5SZ7HHHGIRBTCQQTDTMVSP6PNQVRADFY7LWRONJWU27DXZOP6Q" />
-        <archive href="http://download.netbeans.org/netbeans/8.0/final/zip/netbeans-8.0-201403101706-php.zip" size="110321567" type="application/zip" extract="netbeans" />
-      </implementation>
-      <implementation arch="Solaris-*" main="bin/netbeans" id="v80_solaris">
-        <manifest-digest sha1new="741df124d469efc69f79c10675f03ed2ee8267f5" sha256="4a7b2cfce7399110cc5084c736564ff3db0ac4032e3ebb45cd4da9af8ef973fd" sha256new="JJ5SZ7HHHGIRBTCQQTDTMVSP6PNQVRADFY7LWRONJWU27DXZOP6Q" />
-        <archive href="http://download.netbeans.org/netbeans/8.0/final/zip/netbeans-8.0-201403101706-php.zip" size="110321567" type="application/zip" extract="netbeans" />
-      </implementation>
-      <implementation arch="Darwin-*" main="bin/netbeans" id="v80_darwin">
-        <manifest-digest sha1new="741df124d469efc69f79c10675f03ed2ee8267f5" sha256="4a7b2cfce7399110cc5084c736564ff3db0ac4032e3ebb45cd4da9af8ef973fd" sha256new="JJ5SZ7HHHGIRBTCQQTDTMVSP6PNQVRADFY7LWRONJWU27DXZOP6Q" />
-        <archive href="http://download.netbeans.org/netbeans/8.0/final/zip/netbeans-8.0-201403101706-php.zip" size="110321567" type="application/zip" extract="netbeans" />
-      </implementation>
-    </group>
+    <implementation arch="Windows-x86_64" id="v8.0.1_windows64" license="CDDL, GPL v2 with Classpath Exception" released="2014-08-25" stability="stable" version="8.0.1">
+      <manifest-digest sha256new="G33CXJQFMP2AMVJX4LCBM5JWUSBVHV3JYQIXUFLSYFZX22P2E22A"/>
+      <archive extract="netbeans" href="http://download.netbeans.org/netbeans/8.0.1/final/zip/netbeans-8.0.1-201408251540-php.zip" size="111036868" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="v8.0_windows64" license="CDDL, GPL v2 with Classpath Exception" released="2013-03-10" stability="stable" version="8.0">
+      <manifest-digest sha256new="JJ5SZ7HHHGIRBTCQQTDTMVSP6PNQVRADFY7LWRONJWU27DXZOP6Q"/>
+      <archive extract="netbeans" href="http://download.netbeans.org/netbeans/8.0/final/zip/netbeans-8.0-201403101706-php.zip" size="110321567" type="application/zip"/>
+    </implementation>
+  </group>
+  <group>
+    <requires interface="http://repo.roscidus.com/java/openjdk-jdk">
+      <environment insert="." mode="replace" name="netbeans_jdkhome"/>
+    </requires>
+    <implementation arch="Linux-*" id="v7.4_linux" license="CDDL, GPL v2 with Classpath Exception" main="bin/netbeans" released="2013-10-11" stability="stable" version="7.4">
+      <manifest-digest sha256new="7KFVEX7W3QVEIY3Q6UCSW2Z7IZNJCYJA6O6ZYDL46POJNA2M2Q4Q"/>
+      <archive extract="netbeans" href="http://download.netbeans.org/netbeans/7.4/final/zip/netbeans-7.4-201310111528-php.zip" size="106933838" type="application/zip"/>
+    </implementation>
+    <implementation arch="Solaris-*" id="v7.4_solaris" license="CDDL, GPL v2 with Classpath Exception" main="bin/netbeans" released="2013-10-11" stability="stable" version="7.4">
+      <manifest-digest sha256new="7KFVEX7W3QVEIY3Q6UCSW2Z7IZNJCYJA6O6ZYDL46POJNA2M2Q4Q"/>
+      <archive extract="netbeans" href="http://download.netbeans.org/netbeans/7.4/final/zip/netbeans-7.4-201310111528-php.zip" size="106933838" type="application/zip"/>
+    </implementation>
+    <implementation arch="Darwin-*" id="v7.4_darwin" license="CDDL, GPL v2 with Classpath Exception" main="bin/netbeans" released="2013-10-11" stability="stable" version="7.4">
+      <manifest-digest sha256new="7KFVEX7W3QVEIY3Q6UCSW2Z7IZNJCYJA6O6ZYDL46POJNA2M2Q4Q"/>
+      <archive extract="netbeans" href="http://download.netbeans.org/netbeans/7.4/final/zip/netbeans-7.4-201310111528-php.zip" size="106933838" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-*" id="v8.0.1_linux" license="CDDL, GPL v2 with Classpath Exception" main="bin/netbeans" released="2014-08-25" stability="stable" version="8.0.1">
+      <manifest-digest sha256new="G33CXJQFMP2AMVJX4LCBM5JWUSBVHV3JYQIXUFLSYFZX22P2E22A"/>
+      <archive extract="netbeans" href="http://download.netbeans.org/netbeans/8.0.1/final/zip/netbeans-8.0.1-201408251540-php.zip" size="111036868" type="application/zip"/>
+    </implementation>
+    <implementation arch="Solaris-*" id="v8.0.1_solaris" license="CDDL, GPL v2 with Classpath Exception" main="bin/netbeans" released="2014-08-25" stability="stable" version="8.0.1">
+      <manifest-digest sha256new="G33CXJQFMP2AMVJX4LCBM5JWUSBVHV3JYQIXUFLSYFZX22P2E22A"/>
+      <archive extract="netbeans" href="http://download.netbeans.org/netbeans/8.0.1/final/zip/netbeans-8.0.1-201408251540-php.zip" size="111036868" type="application/zip"/>
+    </implementation>
+    <implementation arch="Darwin-*" id="v8.0.1_darwin" license="CDDL, GPL v2 with Classpath Exception" main="bin/netbeans" released="2014-08-25" stability="stable" version="8.0.1">
+      <manifest-digest sha256new="G33CXJQFMP2AMVJX4LCBM5JWUSBVHV3JYQIXUFLSYFZX22P2E22A"/>
+      <archive extract="netbeans" href="http://download.netbeans.org/netbeans/8.0.1/final/zip/netbeans-8.0.1-201408251540-php.zip" size="111036868" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-*" id="v8.0_linux" license="CDDL, GPL v2 with Classpath Exception" main="bin/netbeans" released="2013-03-10" stability="stable" version="8.0">
+      <manifest-digest sha256new="JJ5SZ7HHHGIRBTCQQTDTMVSP6PNQVRADFY7LWRONJWU27DXZOP6Q"/>
+      <archive extract="netbeans" href="http://download.netbeans.org/netbeans/8.0/final/zip/netbeans-8.0-201403101706-php.zip" size="110321567" type="application/zip"/>
+    </implementation>
+    <implementation arch="Solaris-*" id="v8.0_solaris" license="CDDL, GPL v2 with Classpath Exception" main="bin/netbeans" released="2013-03-10" stability="stable" version="8.0">
+      <manifest-digest sha256new="JJ5SZ7HHHGIRBTCQQTDTMVSP6PNQVRADFY7LWRONJWU27DXZOP6Q"/>
+      <archive extract="netbeans" href="http://download.netbeans.org/netbeans/8.0/final/zip/netbeans-8.0-201403101706-php.zip" size="110321567" type="application/zip"/>
+    </implementation>
+    <implementation arch="Darwin-*" id="v8.0_darwin" license="CDDL, GPL v2 with Classpath Exception" main="bin/netbeans" released="2013-03-10" stability="stable" version="8.0">
+      <manifest-digest sha256new="JJ5SZ7HHHGIRBTCQQTDTMVSP6PNQVRADFY7LWRONJWU27DXZOP6Q"/>
+      <archive extract="netbeans" href="http://download.netbeans.org/netbeans/8.0/final/zip/netbeans-8.0-201403101706-php.zip" size="110321567" type="application/zip"/>
+    </implementation>
   </group>
 </interface>
