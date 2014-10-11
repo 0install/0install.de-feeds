@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
-<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/Apache_Maven.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<?xml version="1.0" ?>
+<interface uri="http://0install.de/feeds/Apache_Maven.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
   <name>Apache Maven</name>
   <summary xml:lang="en">A software project management and comprehension tool</summary>
   <summary xml:lang="de">Ein Softwareprojeketmanagementwerkzeug</summary>
   <homepage>http://maven.apache.org/</homepage>
   <category>Development</category>
-  <needs-terminal />
+  <needs-terminal/>
   <group langs="en" license="The Apache Software License, Version 2.0">
-    <environment name="MAVEN_OPTS" value="" mode="append" />
-    <environment name="M2_HOME" insert="" mode="replace" />
-    <environment name="CLASSWORLDS_JAR" insert="boot/*" mode="replace" />
-    <environment name="CLASSWORLDS_LAUNCHER" value="org.codehaus.plexus.classworlds.launcher.Launcher" mode="replace" />
+    <environment mode="append" name="MAVEN_OPTS" value=""/>
+    <environment insert="" mode="replace" name="M2_HOME"/>
+    <environment insert="boot/*" mode="replace" name="CLASSWORLDS_JAR"/>
+    <environment mode="replace" name="CLASSWORLDS_LAUNCHER" value="org.codehaus.plexus.classworlds.launcher.Launcher"/>
     <command name="run">
-      <runner interface="http://repo.roscidus.com/java/openjdk-jdk" command="java">
+      <runner command="java" interface="http://repo.roscidus.com/java/openjdk-jdk">
         <arg>$MAVEN_OPTS</arg>
         <arg>-classpath</arg>
         <arg>$CLASSWORLDS_JAR</arg>
@@ -22,8 +22,8 @@
       </runner>
     </command>
     <command name="mvnDebug">
-      <environment name="MAVEN_DEBUG_OPTS" value="-Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000" mode="replace" />
-      <runner interface="http://repo.roscidus.com/java/openjdk-jre" command="java">
+      <environment mode="replace" name="MAVEN_DEBUG_OPTS" value="-Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000"/>
+      <runner command="java" interface="http://repo.roscidus.com/java/openjdk-jre">
         <arg>$MAVEN_OPTS</arg>
         <arg>$MAVEN_DEBUG_OPTS</arg>
         <arg>-classpath</arg>
@@ -33,18 +33,18 @@
         <arg>$CLASSWORLDS_LAUNCHER</arg>
       </runner>
     </command>
-    <group version="3.0.4" released="2012-01-20" stability="stable">
-      <implementation id="sha1new=06ba3813eabc2b0cf6bac1aaddfaff72b6177884">
-        <manifest-digest sha1new="06ba3813eabc2b0cf6bac1aaddfaff72b6177884" sha256="1d68a398baea70a0b3d79f2b2ed8898da7684a16eef5a1e844612d1e15e06d76" sha256new="DVUKHGF25JYKBM6XT4VS5WEJRWTWQSQW5322D2CEMEWR4FPANV3A" />
-        <archive href="http://0install.de/files/hosted/apache-maven-3.0.4-bin.zip" size="4889768" type="application/zip" extract="apache-maven-3.0.4" />
-      </implementation>
-    </group>
-    <group version="3.0.5" released="2013-02-27" stability="stable">
-      <implementation id="sha1new=c80bd0b8c32f6ac973b6b355874cd5e7af35d6ab">
-        <manifest-digest sha1new="c80bd0b8c32f6ac973b6b355874cd5e7af35d6ab" sha256="3091a55c0abcda1049ffe3af0921d51c4cd1f11a4a4cf9243ce3b80ea94418c2" sha256new="GCI2KXAKXTNBASP74OXQSIOVDRGND4I2JJGPSJB44O4A5KKEDDBA" />
-        <archive href="http://0install.de/files/hosted/apache-maven-3.0.5-bin.zip" size="5870668" type="application/zip" extract="apache-maven-3.0.5" />
-      </implementation>
-    </group>
+    <implementation id="sha1new=e788278471bb86db90710c9273998606aa5c4fe5" released="2013-02-23" stability="stable" version="3.0.5">
+      <manifest-digest sha256new="OIK64UK6TZTJWXY2NITBGW6LF6IBTKLLF2VPHWBBOEMBZU7ULPZA"/>
+      <archive extract="apache-maven-3.0.5" href="http://www.apache.org/dist/maven/maven-3/3.0.5/binaries/apache-maven-3.0.5-bin.tar.gz" size="5144659" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation id="sha1new=79f5d13272ab401923bf49a1ff33a4fb982977b5" released="2013-10-04" stability="stable" version="3.1.1">
+      <manifest-digest sha256new="5DPCYBNNUUVCK7ZZQQSPHXJ66CK5I3B5AFG5WQQRT76CO42F2UDQ"/>
+      <archive extract="apache-maven-3.1.1" href="http://www.apache.org/dist/maven/maven-3/3.1.1/binaries/apache-maven-3.1.1-bin.tar.gz" size="5494427" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation id="sha1new=3aca011d4ca966bf602bb719e564df9975e0db33" released="2014-08-17" stability="stable" version="3.2.3">
+      <manifest-digest sha256new="GRWAZ5PWMOOHDQAQWT55JOVUOONXEA4HOVT2PAAUTTFEON7LGWCQ"/>
+      <archive extract="apache-maven-3.2.3" href="http://www.apache.org/dist/maven/maven-3/3.2.3/binaries/apache-maven-3.2.3-bin.tar.gz" size="6956162" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
-  <entry-point command="run" binary-name="mvn" />
+  <entry-point binary-name="mvn" command="run"/>
 </interface>

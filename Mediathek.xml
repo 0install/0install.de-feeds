@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/Mediathek.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<?xml version="1.0" ?>
+<interface uri="http://0install.de/feeds/Mediathek.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
   <name>MediathekView</name>
   <summary xml:lang="de">Mediatheksammlung der öffentlich-rechtlichen Sender.</summary>
   <description xml:lang="de">Das Programm durchsucht die Mediathek verschiedener Sender (ARD, ZDF, Arte, 3Sat, MDR, NDR, ORF, SF), lädt Beiträge mit einem Programm eigener Wahl und kann Themen als Abos anlegen und neue Beiträge automatisch downloaden. Es gibt auch eine Möglichkeit, Podcast zu verwalten und zu Downloaden.</description>
   <homepage>http://zdfmediathk.sourceforge.net/</homepage>
-  <icon href="http://0install.de/feed-icons/Mediathek.png" type="image/png" />
+  <icon href="http://0install.de/feed-icons/Mediathek.png" type="image/png"/>
   <category>AudioVideo</category>
   <group license="GPL v3 (GNU General Public License)">
     <command name="run" path="Mediathek.jar">
@@ -12,37 +12,37 @@
         <arg>-jar</arg>
       </runner>
     </command>
-    <implementation version="2.1.0" released="2010-05-24" stability="stable" id="sha1new=e7a164f3e2738b0220bb479bd542d7371b2dcdb8">
-      <manifest-digest sha1new="e7a164f3e2738b0220bb479bd542d7371b2dcdb8" sha256="c8c7ec64c22cca42c2e1783ed7e19c5968c95d13c7f2134ff83aa7e1bf79672e" sha256new="ZDD6YZGCFTFEFQXBPA7NPYM4LFUMSXITY7ZBGT7YHKT6DP3ZM4XA" />
-      <archive href="http://downloads.sourceforge.net/zdfmediathk/Mediathek_2.1.0.zip" size="874468" type="application/zip" />
+    <implementation id="sha1new=e7a164f3e2738b0220bb479bd542d7371b2dcdb8" released="2010-05-24" stability="stable" version="2.1.0">
+      <manifest-digest sha1new="e7a164f3e2738b0220bb479bd542d7371b2dcdb8" sha256="c8c7ec64c22cca42c2e1783ed7e19c5968c95d13c7f2134ff83aa7e1bf79672e" sha256new="ZDD6YZGCFTFEFQXBPA7NPYM4LFUMSXITY7ZBGT7YHKT6DP3ZM4XA"/>
+      <archive href="http://downloads.sourceforge.net/zdfmediathk/Mediathek_2.1.0.zip" size="874468" type="application/zip"/>
     </implementation>
-    <implementation version="2.1.1" released="2010-06-23" stability="stable" id="sha1new=ae0a94b72503d7a0f1dc061ebc8f128e89dc2334">
-      <manifest-digest sha1new="ae0a94b72503d7a0f1dc061ebc8f128e89dc2334" sha256="6381be5c0f58d13c01cf0c284fafd58206df49f3115526f108caa4b2b00fdaad" sha256new="MOA34XAPLDITYAOPBQUE7L6VQIDN6SPTCFKSN4IIZKSLFMAP3KWQ" />
-      <archive href="http://downloads.sourceforge.net/zdfmediathk/Mediathek_2.1.1.zip" size="2083735" type="application/zip" />
+    <implementation id="sha1new=ae0a94b72503d7a0f1dc061ebc8f128e89dc2334" released="2010-06-23" stability="stable" version="2.1.1">
+      <manifest-digest sha1new="ae0a94b72503d7a0f1dc061ebc8f128e89dc2334" sha256="6381be5c0f58d13c01cf0c284fafd58206df49f3115526f108caa4b2b00fdaad" sha256new="MOA34XAPLDITYAOPBQUE7L6VQIDN6SPTCFKSN4IIZKSLFMAP3KWQ"/>
+      <archive href="http://downloads.sourceforge.net/zdfmediathk/Mediathek_2.1.1.zip" size="2083735" type="application/zip"/>
     </implementation>
-    <implementation version="2.1.2" released="2010-08-09" stability="stable" id="sha1new=16b8bed6f689c55b6f564601556e33e48bf19ec2">
-      <manifest-digest sha1new="16b8bed6f689c55b6f564601556e33e48bf19ec2" sha256="fd69438ed2c5f537c74f9cbd29b8a030c9bd016471390ab1643ecac410939d4d" sha256new="7VUUHDWSYX2TPR2PTS6STOFAGDE32ALEOE4QVMLEH3FMIEETTVGQ" />
-      <archive href="http://downloads.sourceforge.net/zdfmediathk/Mediathek_2.1.2.zip" size="2137957" type="application/zip" />
+    <implementation id="sha1new=16b8bed6f689c55b6f564601556e33e48bf19ec2" released="2010-08-09" stability="stable" version="2.1.2">
+      <manifest-digest sha1new="16b8bed6f689c55b6f564601556e33e48bf19ec2" sha256="fd69438ed2c5f537c74f9cbd29b8a030c9bd016471390ab1643ecac410939d4d" sha256new="7VUUHDWSYX2TPR2PTS6STOFAGDE32ALEOE4QVMLEH3FMIEETTVGQ"/>
+      <archive href="http://downloads.sourceforge.net/zdfmediathk/Mediathek_2.1.2.zip" size="2137957" type="application/zip"/>
     </implementation>
-    <implementation version="2.1.3" released="2010-09-05" stability="stable" id="sha1new=1a1884d585be811e42dafcab818b91766a46cf74">
-      <manifest-digest sha1new="1a1884d585be811e42dafcab818b91766a46cf74" sha256="1a628bb31e87a9c0b272f5772bd24246dd4ce7a3350438d560439d0b3fa9ec2a" sha256new="DJRIXMY6Q6U4BMTS6V3SXUSCI3OUZZ5DGUCDRVLAIOOQWP5J5QVA" />
-      <archive href="http://downloads.sourceforge.net/zdfmediathk/Mediathek_2.1.3.zip" size="1910407" type="application/zip" />
+    <implementation id="sha1new=1a1884d585be811e42dafcab818b91766a46cf74" released="2010-09-05" stability="stable" version="2.1.3">
+      <manifest-digest sha1new="1a1884d585be811e42dafcab818b91766a46cf74" sha256="1a628bb31e87a9c0b272f5772bd24246dd4ce7a3350438d560439d0b3fa9ec2a" sha256new="DJRIXMY6Q6U4BMTS6V3SXUSCI3OUZZ5DGUCDRVLAIOOQWP5J5QVA"/>
+      <archive href="http://downloads.sourceforge.net/zdfmediathk/Mediathek_2.1.3.zip" size="1910407" type="application/zip"/>
     </implementation>
-    <implementation version="2.1.4" released="2010-09-07" stability="stable" id="sha1new=cf141664de54b345e59d97d3f9f8f8b9ae7838bd">
-      <manifest-digest sha1new="cf141664de54b345e59d97d3f9f8f8b9ae7838bd" sha256="174858021a012a7447a13f3f29ef58a8d434958b69287861e822b73a4f10f71b" sha256new="C5EFQAQ2AEVHIR5BH47ST32YVDKDJFMLNEUHQYPIEK3TUTYQ64NQ" />
-      <archive href="http://downloads.sourceforge.net/zdfmediathk/Mediathek_2.1.4.zip" size="1909289" type="application/zip" />
+    <implementation id="sha1new=cf141664de54b345e59d97d3f9f8f8b9ae7838bd" released="2010-09-07" stability="stable" version="2.1.4">
+      <manifest-digest sha1new="cf141664de54b345e59d97d3f9f8f8b9ae7838bd" sha256="174858021a012a7447a13f3f29ef58a8d434958b69287861e822b73a4f10f71b" sha256new="C5EFQAQ2AEVHIR5BH47ST32YVDKDJFMLNEUHQYPIEK3TUTYQ64NQ"/>
+      <archive href="http://downloads.sourceforge.net/zdfmediathk/Mediathek_2.1.4.zip" size="1909289" type="application/zip"/>
     </implementation>
-    <implementation version="2.1.5" released="2010-09-13" stability="stable" id="sha1new=2579636c6591e34b5eb94357a8891661036b8896">
-      <manifest-digest sha1new="2579636c6591e34b5eb94357a8891661036b8896" sha256="0f8ce0f715217093e7d10d60d866cdba00a44ae08a5c9d1919ec7a534cc4c992" sha256new="B6GOB5YVEFYJHZ6RBVQNQZWNXIAKISXARJOJ2GIZ5R5FGTGEZGJA" />
-      <archive href="http://downloads.sourceforge.net/zdfmediathk/Mediathek_2.1.5.zip" size="1916620" type="application/zip" />
+    <implementation id="sha1new=2579636c6591e34b5eb94357a8891661036b8896" released="2010-09-13" stability="stable" version="2.1.5">
+      <manifest-digest sha1new="2579636c6591e34b5eb94357a8891661036b8896" sha256="0f8ce0f715217093e7d10d60d866cdba00a44ae08a5c9d1919ec7a534cc4c992" sha256new="B6GOB5YVEFYJHZ6RBVQNQZWNXIAKISXARJOJ2GIZ5R5FGTGEZGJA"/>
+      <archive href="http://downloads.sourceforge.net/zdfmediathk/Mediathek_2.1.5.zip" size="1916620" type="application/zip"/>
     </implementation>
-    <implementation version="2.2.0" released="2010-09-23" stability="stable" id="sha1new=616a57f8c39e7ef0f67199681d382f22e39c28af">
-      <manifest-digest sha1new="616a57f8c39e7ef0f67199681d382f22e39c28af" sha256="cdc35ea3f725117408f138e1b821e586769e70a2566ed9389f2f545b6a982564" sha256new="ZXBV5I7XEUIXICHRHDQ3QIPFQZ3J44FCKZXNSOE7F5KFW2UYEVSA" />
-      <archive href="http://downloads.sourceforge.net/zdfmediathk/Mediathek_2.2.0.zip" size="2290637" type="application/zip" />
+    <implementation id="sha1new=616a57f8c39e7ef0f67199681d382f22e39c28af" released="2010-09-23" stability="stable" version="2.2.0">
+      <manifest-digest sha1new="616a57f8c39e7ef0f67199681d382f22e39c28af" sha256="cdc35ea3f725117408f138e1b821e586769e70a2566ed9389f2f545b6a982564" sha256new="ZXBV5I7XEUIXICHRHDQ3QIPFQZ3J44FCKZXNSOE7F5KFW2UYEVSA"/>
+      <archive href="http://downloads.sourceforge.net/zdfmediathk/Mediathek_2.2.0.zip" size="2290637" type="application/zip"/>
     </implementation>
-    <implementation version="2.2.1" released="2010-10-04" stability="stable" id="sha1new=a98c2d9a1036d24175d2e2e53f8465bdb7da7cfe">
-      <manifest-digest sha1new="a98c2d9a1036d24175d2e2e53f8465bdb7da7cfe" sha256="0ca53504a031f399333297f3062f8c6fd05161f3e8405a05cf59bf56b94a4f8d" sha256new="BSSTKBFAGHZZSMZSS7ZQML4MN7IFCYPT5BAFUBOPLG7VNOKKJ6GQ" />
-      <archive href="http://downloads.sourceforge.net/zdfmediathk/Mediathek_2.2.1.zip" size="2207312" type="application/zip" />
+    <implementation id="sha1new=a98c2d9a1036d24175d2e2e53f8465bdb7da7cfe" released="2010-10-04" stability="stable" version="2.2.1">
+      <manifest-digest sha1new="a98c2d9a1036d24175d2e2e53f8465bdb7da7cfe" sha256="0ca53504a031f399333297f3062f8c6fd05161f3e8405a05cf59bf56b94a4f8d" sha256new="BSSTKBFAGHZZSMZSS7ZQML4MN7IFCYPT5BAFUBOPLG7VNOKKJ6GQ"/>
+      <archive href="http://downloads.sourceforge.net/zdfmediathk/Mediathek_2.2.1.zip" size="2207312" type="application/zip"/>
     </implementation>
   </group>
   <group license="GPL v3 (GNU General Public License)">
@@ -51,61 +51,65 @@
         <arg>-jar</arg>
       </runner>
     </command>
-    <implementation version="2.6.1" released="2012-09-15" stability="stable" id="sha1new=1bc8e79e41c08c456c469935f32c3fcc3c6a17b3">
-      <manifest-digest sha1new="1bc8e79e41c08c456c469935f32c3fcc3c6a17b3" sha256="38b9737ac51cf8798bfd18a560d486c7c72f375862a509a91199186946cd6bc6" sha256new="HC4XG6WFDT4HTC75DCSWBVEGY7DS6N2YMKSQTKIRTEMGSRWNNPDA" />
-      <archive href="http://downloads.sourceforge.net/zdfmediathk/Mediathek_2.6.1.zip" size="1868222" type="application/zip" />
+    <implementation id="sha1new=1bc8e79e41c08c456c469935f32c3fcc3c6a17b3" released="2012-09-15" stability="stable" version="2.6.1">
+      <manifest-digest sha1new="1bc8e79e41c08c456c469935f32c3fcc3c6a17b3" sha256="38b9737ac51cf8798bfd18a560d486c7c72f375862a509a91199186946cd6bc6" sha256new="HC4XG6WFDT4HTC75DCSWBVEGY7DS6N2YMKSQTKIRTEMGSRWNNPDA"/>
+      <archive href="http://downloads.sourceforge.net/zdfmediathk/Mediathek_2.6.1.zip" size="1868222" type="application/zip"/>
     </implementation>
-    <implementation version="3.0.0" released="2012-05-14" stability="stable" id="sha1new=ff1654bb3ace006ca7f555bbbcd4b601635ecc91">
-      <manifest-digest sha1new="ff1654bb3ace006ca7f555bbbcd4b601635ecc91" sha256="6879740b0107ddcb3106748e84b853e14e4acbe21dcbd30cffad1bedc21c4c35" sha256new="NB4XICYBA7O4WMIGOSHIJOCT4FHEVS7CDXF5GDH7VUN63QQ4JQ2Q" />
-      <archive href="http://downloads.sourceforge.net/zdfmediathk/MediathekView_3.0.0.zip" size="2043758" type="application/zip" />
+    <implementation id="sha1new=ff1654bb3ace006ca7f555bbbcd4b601635ecc91" released="2012-05-14" stability="stable" version="3.0.0">
+      <manifest-digest sha1new="ff1654bb3ace006ca7f555bbbcd4b601635ecc91" sha256="6879740b0107ddcb3106748e84b853e14e4acbe21dcbd30cffad1bedc21c4c35" sha256new="NB4XICYBA7O4WMIGOSHIJOCT4FHEVS7CDXF5GDH7VUN63QQ4JQ2Q"/>
+      <archive href="http://downloads.sourceforge.net/zdfmediathk/MediathekView_3.0.0.zip" size="2043758" type="application/zip"/>
     </implementation>
-    <implementation version="3.1.0" released="2013-01-07" stability="stable" id="sha1new=2c870fb801eb574227e3c9157118056c749f6911">
-      <manifest-digest sha1new="2c870fb801eb574227e3c9157118056c749f6911" sha256="e17e0bb9dc1ccab5ab7c6819d2de7f4fd675889889f48eab388bbb2de874fd84" sha256new="4F7AXOO4DTFLLK34NAM5FXT7J7LHLCEYRH2I5KZYRO5S32DU7WCA" />
-      <archive href="http://downloads.sourceforge.net/zdfmediathk/MediathekView_3.1.0.zip" size="4343470" type="application/zip" />
+    <implementation id="sha1new=2c870fb801eb574227e3c9157118056c749f6911" released="2013-01-07" stability="stable" version="3.1.0">
+      <manifest-digest sha1new="2c870fb801eb574227e3c9157118056c749f6911" sha256="e17e0bb9dc1ccab5ab7c6819d2de7f4fd675889889f48eab388bbb2de874fd84" sha256new="4F7AXOO4DTFLLK34NAM5FXT7J7LHLCEYRH2I5KZYRO5S32DU7WCA"/>
+      <archive href="http://downloads.sourceforge.net/zdfmediathk/MediathekView_3.1.0.zip" size="4343470" type="application/zip"/>
     </implementation>
-    <implementation version="2.3.0" released="2010-10-26" stability="stable" id="sha1new=df7a576cdeac767a7fe752ffaa99f71fba028695">
-      <manifest-digest sha1new="df7a576cdeac767a7fe752ffaa99f71fba028695" sha256="7e7965522412c61f8cc26f0fea35edbba7846f79dd0410653f050fa10952ea5f" sha256new="PZ4WKURECLDB7DGCN4H6UNPNXOTYI33Z3UCBAZJ7AUH2CCKS5JPQ" />
-      <archive href="http://downloads.sourceforge.net/zdfmediathk/Mediathek_2.3.0.zip" size="1776456" type="application/zip" />
+    <implementation id="sha1new=df7a576cdeac767a7fe752ffaa99f71fba028695" released="2010-10-26" stability="stable" version="2.3.0">
+      <manifest-digest sha1new="df7a576cdeac767a7fe752ffaa99f71fba028695" sha256="7e7965522412c61f8cc26f0fea35edbba7846f79dd0410653f050fa10952ea5f" sha256new="PZ4WKURECLDB7DGCN4H6UNPNXOTYI33Z3UCBAZJ7AUH2CCKS5JPQ"/>
+      <archive href="http://downloads.sourceforge.net/zdfmediathk/Mediathek_2.3.0.zip" size="1776456" type="application/zip"/>
     </implementation>
-    <implementation version="2.4.0" released="2010-12-07" stability="stable" id="sha1new=814100e2fc6d208a5482e30ff7f15381e9511c9f">
-      <manifest-digest sha1new="814100e2fc6d208a5482e30ff7f15381e9511c9f" sha256="4ba30f9964c34c5ea18fc947f90a7a4653e9776e56c3a82bb6f50b18a7bfd174" sha256new="JORQ7GLEYNGF5IMPZFD7SCT2IZJ6S53OK3B2QK5W6UFRRJ572F2A" />
-      <archive href="http://downloads.sourceforge.net/zdfmediathk/Mediathek_2.4.0.zip" size="1410509" type="application/zip" />
+    <implementation id="sha1new=814100e2fc6d208a5482e30ff7f15381e9511c9f" released="2010-12-07" stability="stable" version="2.4.0">
+      <manifest-digest sha1new="814100e2fc6d208a5482e30ff7f15381e9511c9f" sha256="4ba30f9964c34c5ea18fc947f90a7a4653e9776e56c3a82bb6f50b18a7bfd174" sha256new="JORQ7GLEYNGF5IMPZFD7SCT2IZJ6S53OK3B2QK5W6UFRRJ572F2A"/>
+      <archive href="http://downloads.sourceforge.net/zdfmediathk/Mediathek_2.4.0.zip" size="1410509" type="application/zip"/>
     </implementation>
-    <implementation version="2.5.0" released="2011-03-06" stability="stable" id="sha1new=ccd2d184530d571e2f04ad171e91266a45cd4f0e">
-      <manifest-digest sha1new="ccd2d184530d571e2f04ad171e91266a45cd4f0e" sha256="a70935bb2ec421a54d5b333218d71c0df1521ef734f36859f80baa9931694193" sha256new="U4ETLOZOYQQ2KTK3GMZBRVY4BXYVEHXXGTZWQWPYBOVJSMLJIGJQ" />
-      <archive href="http://downloads.sourceforge.net/zdfmediathk/Mediathek_2.5.0.zip" size="1617886" type="application/zip" />
+    <implementation id="sha1new=ccd2d184530d571e2f04ad171e91266a45cd4f0e" released="2011-03-06" stability="stable" version="2.5.0">
+      <manifest-digest sha1new="ccd2d184530d571e2f04ad171e91266a45cd4f0e" sha256="a70935bb2ec421a54d5b333218d71c0df1521ef734f36859f80baa9931694193" sha256new="U4ETLOZOYQQ2KTK3GMZBRVY4BXYVEHXXGTZWQWPYBOVJSMLJIGJQ"/>
+      <archive href="http://downloads.sourceforge.net/zdfmediathk/Mediathek_2.5.0.zip" size="1617886" type="application/zip"/>
     </implementation>
-    <implementation version="2.6.0" released="2011-09-09" stability="stable" id="sha1new=ef113a8966b8645ffd872776b0342184efe6c92e">
-      <manifest-digest sha1new="ef113a8966b8645ffd872776b0342184efe6c92e" sha256="144cb91d77f35e38d16ec6a71710dff5ee4d7912499f2813152f7179395a0665" sha256new="CRGLSHLX6NPDRULOY2TROEG76XXE26ISJGPSQEYVF5YXSOK2AZSQ" />
-      <archive href="http://downloads.sourceforge.net/zdfmediathk/Mediathek_2.6.0.zip" size="1880966" type="application/zip" />
+    <implementation id="sha1new=ef113a8966b8645ffd872776b0342184efe6c92e" released="2011-09-09" stability="stable" version="2.6.0">
+      <manifest-digest sha1new="ef113a8966b8645ffd872776b0342184efe6c92e" sha256="144cb91d77f35e38d16ec6a71710dff5ee4d7912499f2813152f7179395a0665" sha256new="CRGLSHLX6NPDRULOY2TROEG76XXE26ISJGPSQEYVF5YXSOK2AZSQ"/>
+      <archive href="http://downloads.sourceforge.net/zdfmediathk/Mediathek_2.6.0.zip" size="1880966" type="application/zip"/>
     </implementation>
-    <implementation version="3.2.0" released="2013-03-17" stability="stable" id="sha1new=f2d06931ec78588219a80ab4ec173141020a1457">
-      <manifest-digest sha1new="f2d06931ec78588219a80ab4ec173141020a1457" sha256="0972c77a1041a4be4a3cf992735557d4e376c9049244c001753095a6411ac1e8" sha256new="BFZMO6QQIGSL4SR47GJHGVKX2TRXNSIESJCMAALVGCK2MQI2YHUA" />
-      <archive href="http://downloads.sourceforge.net/zdfmediathk/MediathekView_3.2.0.zip" size="8524743" type="application/zip" />
+    <implementation id="sha1new=f2d06931ec78588219a80ab4ec173141020a1457" released="2013-03-17" stability="stable" version="3.2.0">
+      <manifest-digest sha1new="f2d06931ec78588219a80ab4ec173141020a1457" sha256="0972c77a1041a4be4a3cf992735557d4e376c9049244c001753095a6411ac1e8" sha256new="BFZMO6QQIGSL4SR47GJHGVKX2TRXNSIESJCMAALVGCK2MQI2YHUA"/>
+      <archive href="http://downloads.sourceforge.net/zdfmediathk/MediathekView_3.2.0.zip" size="8524743" type="application/zip"/>
     </implementation>
-    <implementation version="3.2.1" released="2013-03-21" stability="stable" id="sha1new=81ab1d8fa13e9e6eefcc00824885fde024f973ad">
-      <manifest-digest sha1new="81ab1d8fa13e9e6eefcc00824885fde024f973ad" sha256="15953c6017c42d94ad8f754ee9c535d385c904cd94fc557c82cf888874aaaa4e" sha256new="CWKTYYAXYQWZJLMPOVHOTRJV2OC4SBGNST6FK7ECZ6EIQ5FKVJHA" />
-      <archive href="http://downloads.sourceforge.net/zdfmediathk/MediathekView_3.2.1.zip" size="9737619" type="application/zip" />
+    <implementation id="sha1new=81ab1d8fa13e9e6eefcc00824885fde024f973ad" released="2013-03-21" stability="stable" version="3.2.1">
+      <manifest-digest sha1new="81ab1d8fa13e9e6eefcc00824885fde024f973ad" sha256="15953c6017c42d94ad8f754ee9c535d385c904cd94fc557c82cf888874aaaa4e" sha256new="CWKTYYAXYQWZJLMPOVHOTRJV2OC4SBGNST6FK7ECZ6EIQ5FKVJHA"/>
+      <archive href="http://downloads.sourceforge.net/zdfmediathk/MediathekView_3.2.1.zip" size="9737619" type="application/zip"/>
     </implementation>
-    <implementation version="3.3.0" released="2013-09-10" stability="stable" id="sha1new=fd3370abf7538c2c7c506b71c853180b8efecc71">
-      <manifest-digest sha1new="fd3370abf7538c2c7c506b71c853180b8efecc71" sha256="229b9ef062f8faac27506dfeddc3bb7733a505454b9101a904a2abb25b80573b" sha256new="EKNZ54DC7D5KYJ2QNX7N3Q53O4Z2KBKFJOIQDKIEUKV3EW4AK45Q" />
-      <archive href="http://downloads.sourceforge.net/zdfmediathk/MediathekView_3.3.0.zip" size="12839824" type="application/zip" />
+    <implementation id="sha1new=fd3370abf7538c2c7c506b71c853180b8efecc71" released="2013-09-10" stability="stable" version="3.3.0">
+      <manifest-digest sha1new="fd3370abf7538c2c7c506b71c853180b8efecc71" sha256="229b9ef062f8faac27506dfeddc3bb7733a505454b9101a904a2abb25b80573b" sha256new="EKNZ54DC7D5KYJ2QNX7N3Q53O4Z2KBKFJOIQDKIEUKV3EW4AK45Q"/>
+      <archive href="http://downloads.sourceforge.net/zdfmediathk/MediathekView_3.3.0.zip" size="12839824" type="application/zip"/>
     </implementation>
-    <implementation version="4" released="2014-01-03" stability="stable" id="sha1new=d6f02f94c260eb9c93369761d59186be4e05462d">
-      <manifest-digest sha1new="d6f02f94c260eb9c93369761d59186be4e05462d" sha256="a3ae6d3f76465dbfa08f08305d9ac3c66effd46f543572787fe872982d6fcfb3" sha256new="UOXG2P3WIZO37IEPBAYF3GWDYZXP7VDPKQ2XE6D75BZJQLLPZ6ZQ" />
-      <archive href="http://downloads.sourceforge.net/zdfmediathk/MediathekView_4.zip" size="29640231" type="application/zip" />
+    <implementation id="sha1new=d6f02f94c260eb9c93369761d59186be4e05462d" released="2014-01-03" stability="stable" version="4">
+      <manifest-digest sha1new="d6f02f94c260eb9c93369761d59186be4e05462d" sha256="a3ae6d3f76465dbfa08f08305d9ac3c66effd46f543572787fe872982d6fcfb3" sha256new="UOXG2P3WIZO37IEPBAYF3GWDYZXP7VDPKQ2XE6D75BZJQLLPZ6ZQ"/>
+      <archive href="http://downloads.sourceforge.net/zdfmediathk/MediathekView_4.zip" size="29640231" type="application/zip"/>
     </implementation>
-    <implementation version="5" released="2014-04-10" stability="stable" id="sha1new=951636607793419346dcfb67e506e31b6597f283">
-      <manifest-digest sha1new="951636607793419346dcfb67e506e31b6597f283" sha256="c869da832818ab8e8c2cffca7340acf63ecf0e756136029bfbd5a0ef57c93ba1" sha256new="ZBU5VAZIDCVY5DBM77FHGQFM6Y7M6DTVME3AFG732WQO6V6JHOQQ" />
-      <archive href="http://downloads.sourceforge.net/zdfmediathk/MediathekView_5.zip" size="28872744" type="application/zip" />
+    <implementation id="sha1new=951636607793419346dcfb67e506e31b6597f283" released="2014-04-10" stability="stable" version="5">
+      <manifest-digest sha1new="951636607793419346dcfb67e506e31b6597f283" sha256="c869da832818ab8e8c2cffca7340acf63ecf0e756136029bfbd5a0ef57c93ba1" sha256new="ZBU5VAZIDCVY5DBM77FHGQFM6Y7M6DTVME3AFG732WQO6V6JHOQQ"/>
+      <archive href="http://downloads.sourceforge.net/zdfmediathk/MediathekView_5.zip" size="28872744" type="application/zip"/>
     </implementation>
-    <implementation version="6" released="2014-04-15" stability="stable" id="sha1new=dd7fec9d28e36f0de021dbb3057f90754375e5ab">
-      <manifest-digest sha1new="dd7fec9d28e36f0de021dbb3057f90754375e5ab" sha256="004ef4649095dc73792b48a34a8754536c7a8fd26dc60de42237e7a6af2c2987" sha256new="ABHPIZEQSXOHG6JLJCRUVB2UKNWHVD6SNXDA3ZBCG7T2NLZMFGDQ" />
-      <archive href="http://downloads.sourceforge.net/zdfmediathk/MediathekView_6.zip" size="28875706" type="application/zip" />
+    <implementation id="sha1new=dd7fec9d28e36f0de021dbb3057f90754375e5ab" released="2014-04-15" stability="stable" version="6">
+      <manifest-digest sha1new="dd7fec9d28e36f0de021dbb3057f90754375e5ab" sha256="004ef4649095dc73792b48a34a8754536c7a8fd26dc60de42237e7a6af2c2987" sha256new="ABHPIZEQSXOHG6JLJCRUVB2UKNWHVD6SNXDA3ZBCG7T2NLZMFGDQ"/>
+      <archive href="http://downloads.sourceforge.net/zdfmediathk/MediathekView_6.zip" size="28875706" type="application/zip"/>
     </implementation>
-    <implementation version="7" released="2014-07-20" stability="stable" id="sha1new=ca6f5f928fdcba80d0e84a72bb1195d7a94e20b2">
-      <manifest-digest sha1new="ca6f5f928fdcba80d0e84a72bb1195d7a94e20b2" sha256="ea0b80274ae0951c8db55d0b799d8ff76e30fb2848bf473a23efe132eb8ba8a0" sha256new="5IFYAJ2K4CKRZDNVLUFXTHMP65XDB6ZIJC7UOORD57QTF24LVCQA" />
-      <archive href="http://downloads.sourceforge.net/zdfmediathk/MediathekView_7.zip" size="30755210" type="application/zip" />
+    <implementation id="sha1new=ca6f5f928fdcba80d0e84a72bb1195d7a94e20b2" released="2014-07-20" stability="stable" version="7">
+      <manifest-digest sha1new="ca6f5f928fdcba80d0e84a72bb1195d7a94e20b2" sha256="ea0b80274ae0951c8db55d0b799d8ff76e30fb2848bf473a23efe132eb8ba8a0" sha256new="5IFYAJ2K4CKRZDNVLUFXTHMP65XDB6ZIJC7UOORD57QTF24LVCQA"/>
+      <archive href="http://downloads.sourceforge.net/zdfmediathk/MediathekView_7.zip" size="30755210" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=dcc32134218e9b9339498080e9b5cd72d6c1e1d9" released="2014-10-08" stability="stable" version="8">
+      <manifest-digest sha256new="6WLOHIRMKNE5G6PPTEDMPVDZSEJIQHMHHZUVILC7YCUDVWQY5S2A"/>
+      <archive href="http://downloads.sourceforge.net/zdfmediathk/MediathekView_8.zip" size="31470563"/>
     </implementation>
   </group>
 </interface>

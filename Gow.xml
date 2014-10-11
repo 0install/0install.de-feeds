@@ -1,474 +1,483 @@
-<?xml version="1.0" encoding="utf-8"?>
-<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/Gow.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<?xml version="1.0" ?>
+<interface uri="http://0install.de/feeds/Gow.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
   <name>Gow</name>
   <summary xml:lang="en">the lightweight alternative to Cygwin</summary>
-  <icon href="http://0install.de/feed-icons/Gnu.ico" type="image/vnd.microsoft.icon" />
-  <icon href="http://0install.de/feed-icons/Gnu.png" type="image/png" />
+  <homepage>https://github.com/bmatzelle/gow</homepage>
+  <icon href="http://0install.de/feed-icons/Gnu.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="http://0install.de/feed-icons/Gnu.png" type="image/png"/>
   <category>Utility</category>
-  <needs-terminal />
+  <needs-terminal/>
   <group arch="Windows-*">
-    <requires interface="http://0install.de/feeds/PuTTY.xml" importance="recommended">
-      <executable-in-path name="putty" />
-      <executable-in-path command="puttygen" name="puttygen" />
-      <executable-in-path command="pageant" name="pageant" />
-      <executable-in-path command="pscp" name="pscp" />
-      <executable-in-path command="psftp" name="psftp" />
+    <requires importance="recommended" interface="http://0install.de/feeds/PuTTY.xml">
+      <executable-in-path name="putty"/>
+      <executable-in-path command="puttygen" name="puttygen"/>
+      <executable-in-path command="pageant" name="pageant"/>
+      <executable-in-path command="pscp" name="pscp"/>
+      <executable-in-path command="psftp" name="psftp"/>
     </requires>
-    <environment name="PATH" insert="bin" />
-    <command name="run" path="bin/bash.exe" />
-    <command name="awk" path="bin/awk.exe" />
-    <command name="basename" path="bin/basename.exe" />
-    <command name="bc" path="bin/bc.exe" />
-    <command name="bison" path="bin/bison.exe" />
-    <command name="bunzip2" path="bin/bunzip2.exe" />
-    <command name="bzip2" path="bin/bzip2.exe" />
-    <command name="bzip2recover" path="bin/bzip2recover.exe" />
-    <command name="cat" path="bin/cat.exe" />
-    <command name="chgrp" path="bin/chgrp.exe" />
-    <command name="chmod" path="bin/chmod.exe" />
-    <command name="chown" path="bin/chown.exe" />
-    <command name="chroot" path="bin/chroot.exe" />
-    <command name="cksum" path="bin/cksum.exe" />
-    <command name="cp" path="bin/cp.exe" />
-    <command name="csplit" path="bin/csplit.exe" />
-    <command name="curl" path="bin/curl.exe" />
-    <command name="cut" path="bin/cut.exe" />
-    <command name="dc" path="bin/dc.exe" />
-    <command name="dd" path="bin/dd.exe" />
-    <command name="df" path="bin/df.exe" />
-    <command name="diff" path="bin/diff.exe" />
-    <command name="diff3" path="bin/diff3.exe" />
-    <command name="dirname" path="bin/dirname.exe" />
-    <command name="dos2unix" path="bin/dos2unix.exe" />
-    <command name="du" path="bin/du.exe" />
-    <command name="egrep" path="bin/egrep.exe" />
-    <command name="env" path="bin/env.exe" />
-    <command name="expand" path="bin/expand.exe" />
-    <command name="expr" path="bin/expr.exe" />
-    <command name="factor" path="bin/factor.exe" />
-    <command name="fgrep" path="bin/fgrep.exe" />
-    <command name="flex" path="bin/flex.exe" />
-    <command name="fmt" path="bin/fmt.exe" />
-    <command name="fold" path="bin/fold.exe" />
-    <command name="gawk" path="bin/gawk.exe" />
-    <command name="gfind" path="bin/gfind.exe" />
-    <command name="grep" path="bin/grep.exe" />
-    <command name="gsar" path="bin/gsar.exe" />
-    <command name="gow" path="bin/gow.bat" />
-    <command name="gzip" path="bin/gzip.exe" />
-    <command name="head" path="bin/head.exe" />
-    <command name="hostid" path="bin/.exe" />
-    <command name="hostname" path="bin/hostid.exe" />
-    <command name="id" path="bin/id.exe" />
-    <command name="indent" path="bin/indent.exe" />
-    <command name="install" path="bin/install.exe" />
-    <command name="join" path="bin/join.exe" />
-    <command name="jwhois" path="bin/jwhois.exe" />
-    <command name="less" path="bin/less.exe" />
-    <command name="lesskey" path="bin/lesskey.exe" />
-    <command name="ln" path="bin/ln.exe" />
-    <command name="ls" path="bin/ls.exe" />
-    <command name="m4" path="bin/m4.exe" />
-    <command name="make" path="bin/.exe" />
-    <command name="md5sum" path="bin/md5sum.exe" />
-    <command name="mkdir" path="bin/md5sum.exe" />
-    <command name="mkfifo" path="bin/mkfifo.exe" />
-    <command name="mknod" path="bin/mknod.exe" />
-    <command name="mv" path="bin/mv.exe" />
-    <command name="ncftp" path="bin/.exe" />
-    <command name="nl" path="bin/nl.exe" />
-    <command name="od" path="bin/od.exe" />
-    <command name="paste" path="bin/paste.exe" />
-    <command name="patch" path="bin/patch.exe" />
-    <command name="pathchk" path="bin/pathchk.exe" />
-    <command name="pr" path="bin/pr.exe" />
-    <command name="printenv" path="bin/printenv.exe" />
-    <command name="printf" path="bin/printf.exe" />
-    <command name="pwd" path="bin/pwd.exe" />
-    <command name="rm" path="bin/rm.exe" />
-    <command name="rmdir" path="bin/rmdir.exe" />
-    <command name="sdiff" path="bin/sdiff.exe" />
-    <command name="sed" path="bin/sed.exe" />
-    <command name="seq" path="bin/seq.exe" />
-    <command name="sha1sum" path="bin/sha1sum.exe" />
-    <command name="shar" path="bin/shar.exe" />
-    <command name="sleep" path="bin/sleep.exe" />
-    <command name="split" path="bin/split.exe" />
-    <command name="su" path="bin/su.exe" />
-    <command name="sum" path="bin/sum.exe" />
-    <command name="sync" path="bin/.exe" />
-    <command name="tac" path="bin/tac.exe" />
-    <command name="tail" path="bin/tail.exe" />
-    <command name="tar" path="bin/tar.exe" />
-    <command name="tee" path="bin/tee.exe" />
-    <command name="test" path="bin/test.exe" />
-    <command name="touch" path="bin/touch.exe" />
-    <command name="tr" path="bin/tr.exe" />
-    <command name="uname" path="bin/uname.exe" />
-    <command name="unexpand" path="bin/unexpand.exe" />
-    <command name="uniq" path="bin/uniq.exe" />
-    <command name="unix2dos" path="bin/unix2dos.exe" />
-    <command name="unlink" path="bin/unlink.exe" />
-    <command name="unrar" path="bin/unrar.exe" />
-    <command name="unshar" path="bin/unshar.exe" />
-    <command name="uudecode" path="bin/uudecode.exe" />
-    <command name="uuencode" path="bin/uuencode.exe" />
-    <command name="vim" path="bin/vim.exe" />
-    <command name="wc" path="bin/wc.exe" />
-    <command name="wget" path="bin/wget.exe" />
-    <command name="which" path="bin/which.exe" />
-    <command name="whoami" path="bin/whoami.exe" />
-    <command name="xargs" path="bin/xargs.exe" />
-    <command name="yes" path="bin/yes.exe" />
-    <command name="zip" path="bin/zip.exe" />
-    <command name="whereis" path="bin/whereis.bat" />
-    <command name="clear" path="bin/clear.bat" />
-    <command name="scp" path="bin/scp.bat" />
-    <command name="sftp" path="bin/sftp.bat" />
-    <command name="ssh" path="bin/ssh.bat" />
-    <implementation version="0.7.0" stability="stable" id="sha1new=97dc9bf7f4c4277b06d7cb55fc62cf61126a1af2">
-      <command name="sort" path="bin/sort.exe" />
-      <manifest-digest sha1new="97dc9bf7f4c4277b06d7cb55fc62cf61126a1af2" sha256="db74c5c1647bb29cccae8244fff14f44929e7e3e738c38df9e741701093d6cf7" sha256new="3N2MLQLEPOZJZTFOQJCP74KPISJJ47R6OOGDRX46OQLQCCJ5NT3Q" />
-      <archive href="http://0install.de/files/hosted/gow-0.7.0.zip" size="9350909" type="application/zip" />
+    <environment insert="bin" name="PATH"/>
+    <command name="run" path="bin/bash.exe"/>
+    <command name="awk" path="bin/awk.exe"/>
+    <command name="basename" path="bin/basename.exe"/>
+    <command name="bc" path="bin/bc.exe"/>
+    <command name="bison" path="bin/bison.exe"/>
+    <command name="bunzip2" path="bin/bunzip2.exe"/>
+    <command name="bzip2" path="bin/bzip2.exe"/>
+    <command name="bzip2recover" path="bin/bzip2recover.exe"/>
+    <command name="cat" path="bin/cat.exe"/>
+    <command name="chgrp" path="bin/chgrp.exe"/>
+    <command name="chmod" path="bin/chmod.exe"/>
+    <command name="chown" path="bin/chown.exe"/>
+    <command name="chroot" path="bin/chroot.exe"/>
+    <command name="cksum" path="bin/cksum.exe"/>
+    <command name="cp" path="bin/cp.exe"/>
+    <command name="csplit" path="bin/csplit.exe"/>
+    <command name="curl" path="bin/curl.exe"/>
+    <command name="cut" path="bin/cut.exe"/>
+    <command name="dc" path="bin/dc.exe"/>
+    <command name="dd" path="bin/dd.exe"/>
+    <command name="df" path="bin/df.exe"/>
+    <command name="diff" path="bin/diff.exe"/>
+    <command name="diff3" path="bin/diff3.exe"/>
+    <command name="dirname" path="bin/dirname.exe"/>
+    <command name="dos2unix" path="bin/dos2unix.exe"/>
+    <command name="du" path="bin/du.exe"/>
+    <command name="egrep" path="bin/egrep.exe"/>
+    <command name="env" path="bin/env.exe"/>
+    <command name="expand" path="bin/expand.exe"/>
+    <command name="expr" path="bin/expr.exe"/>
+    <command name="factor" path="bin/factor.exe"/>
+    <command name="fgrep" path="bin/fgrep.exe"/>
+    <command name="flex" path="bin/flex.exe"/>
+    <command name="fmt" path="bin/fmt.exe"/>
+    <command name="fold" path="bin/fold.exe"/>
+    <command name="gawk" path="bin/gawk.exe"/>
+    <command name="gfind" path="bin/gfind.exe"/>
+    <command name="grep" path="bin/grep.exe"/>
+    <command name="gsar" path="bin/gsar.exe"/>
+    <command name="gow" path="bin/gow.bat"/>
+    <command name="gzip" path="bin/gzip.exe"/>
+    <command name="head" path="bin/head.exe"/>
+    <command name="hostid" path="bin/.exe"/>
+    <command name="hostname" path="bin/hostid.exe"/>
+    <command name="id" path="bin/id.exe"/>
+    <command name="indent" path="bin/indent.exe"/>
+    <command name="install" path="bin/install.exe"/>
+    <command name="join" path="bin/join.exe"/>
+    <command name="jwhois" path="bin/jwhois.exe"/>
+    <command name="less" path="bin/less.exe"/>
+    <command name="lesskey" path="bin/lesskey.exe"/>
+    <command name="ln" path="bin/ln.exe"/>
+    <command name="ls" path="bin/ls.exe"/>
+    <command name="m4" path="bin/m4.exe"/>
+    <command name="make" path="bin/.exe"/>
+    <command name="md5sum" path="bin/md5sum.exe"/>
+    <command name="mkdir" path="bin/md5sum.exe"/>
+    <command name="mkfifo" path="bin/mkfifo.exe"/>
+    <command name="mknod" path="bin/mknod.exe"/>
+    <command name="mv" path="bin/mv.exe"/>
+    <command name="ncftp" path="bin/.exe"/>
+    <command name="nl" path="bin/nl.exe"/>
+    <command name="od" path="bin/od.exe"/>
+    <command name="paste" path="bin/paste.exe"/>
+    <command name="patch" path="bin/patch.exe"/>
+    <command name="pathchk" path="bin/pathchk.exe"/>
+    <command name="pr" path="bin/pr.exe"/>
+    <command name="printenv" path="bin/printenv.exe"/>
+    <command name="printf" path="bin/printf.exe"/>
+    <command name="pwd" path="bin/pwd.exe"/>
+    <command name="rm" path="bin/rm.exe"/>
+    <command name="rmdir" path="bin/rmdir.exe"/>
+    <command name="sdiff" path="bin/sdiff.exe"/>
+    <command name="sed" path="bin/sed.exe"/>
+    <command name="seq" path="bin/seq.exe"/>
+    <command name="sha1sum" path="bin/sha1sum.exe"/>
+    <command name="shar" path="bin/shar.exe"/>
+    <command name="sleep" path="bin/sleep.exe"/>
+    <command name="split" path="bin/split.exe"/>
+    <command name="su" path="bin/su.exe"/>
+    <command name="sum" path="bin/sum.exe"/>
+    <command name="sync" path="bin/.exe"/>
+    <command name="tac" path="bin/tac.exe"/>
+    <command name="tail" path="bin/tail.exe"/>
+    <command name="tar" path="bin/tar.exe"/>
+    <command name="tee" path="bin/tee.exe"/>
+    <command name="test" path="bin/test.exe"/>
+    <command name="touch" path="bin/touch.exe"/>
+    <command name="tr" path="bin/tr.exe"/>
+    <command name="uname" path="bin/uname.exe"/>
+    <command name="unexpand" path="bin/unexpand.exe"/>
+    <command name="uniq" path="bin/uniq.exe"/>
+    <command name="unix2dos" path="bin/unix2dos.exe"/>
+    <command name="unlink" path="bin/unlink.exe"/>
+    <command name="unrar" path="bin/unrar.exe"/>
+    <command name="unshar" path="bin/unshar.exe"/>
+    <command name="uudecode" path="bin/uudecode.exe"/>
+    <command name="uuencode" path="bin/uuencode.exe"/>
+    <command name="vim" path="bin/vim.exe"/>
+    <command name="wc" path="bin/wc.exe"/>
+    <command name="wget" path="bin/wget.exe"/>
+    <command name="which" path="bin/which.exe"/>
+    <command name="whoami" path="bin/whoami.exe"/>
+    <command name="xargs" path="bin/xargs.exe"/>
+    <command name="yes" path="bin/yes.exe"/>
+    <command name="zip" path="bin/zip.exe"/>
+    <command name="whereis" path="bin/whereis.bat"/>
+    <command name="clear" path="bin/clear.bat"/>
+    <command name="scp" path="bin/scp.bat"/>
+    <command name="sftp" path="bin/sftp.bat"/>
+    <command name="ssh" path="bin/ssh.bat"/>
+    <implementation id="sha1new=97dc9bf7f4c4277b06d7cb55fc62cf61126a1af2" stability="stable" version="0.7.0">
+      <command name="sort" path="bin/sort.exe"/>
+      <manifest-digest sha1new="97dc9bf7f4c4277b06d7cb55fc62cf61126a1af2" sha256="db74c5c1647bb29cccae8244fff14f44929e7e3e738c38df9e741701093d6cf7" sha256new="3N2MLQLEPOZJZTFOQJCP74KPISJJ47R6OOGDRX46OQLQCCJ5NT3Q"/>
+      <archive href="http://0install.de/files/hosted/gow-0.7.0.zip" size="9350909" type="application/zip"/>
     </implementation>
+    <group>
+      <command name="nano" path="bin/nano.exe"/>
+      <command name="sort" path="bin/gsort.exe"/>
+      <implementation id="sha1new=594be0dee46349fe782d529c57c8fbf15c2535ba" released="2014-02-15" stability="stable" version="0.8.0">
+        <manifest-digest sha256new="GKCTISVKMM5Z2JNJWMYKZBU3OGUOC4H36PDTADD73W4BXP3OC3MQ"/>
+        <archive href="http://0install.de/files/hosted/gow-0.8.0.zip" size="10808938" type="application/zip"/>
+      </implementation>
+    </group>
   </group>
   <entry-point command="run">
     <name xml:lang="en">Gow Bash</name>
   </entry-point>
   <entry-point command="awk">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="basename">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="bc">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="bison">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="bunzip2">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="bzip2">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="bzip2recover">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="cat">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="chgrp">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="chmod">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="chown">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="chroot">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="cksum">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="cp">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="csplit">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="curl">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="cut">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="dc">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="dd">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="df">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="diff">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="diff3">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="dirname">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="dos2unix">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="du">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="egrep">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="env">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="expand">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="expr">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="factor">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="fgrep">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="flex">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="fmt">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="fold">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="gawk">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="gfind">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="grep">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="gsar">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="gow">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="gzip">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="head">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="hostid">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="hostname">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="id">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="indent">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="install">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="join">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="jwhois">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="less">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="lesskey">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="ln">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="ls">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="m4">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="make">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="md5sum">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="mkdir">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="mkfifo">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="mknod">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="mv">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="nano">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="ncftp">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="nl">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="od">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="paste">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="patch">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="pathchk">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="pr">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="printenv">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="printf">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="pwd">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="rm">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="rmdir">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="sdiff">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="sed">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="seq">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="sha1sum">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="shar">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="sleep">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="sort">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="split">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="su">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="sum">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="sync">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="tac">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="tail">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="tar">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="tee">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="test">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="touch">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="tr">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="uname">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="unexpand">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="uniq">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="unix2dos">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="unlink">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="unrar">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="unshar">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="uudecode">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="uuencode">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="vim">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="wc">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="wget">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="which">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="whoami">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="xargs">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="yes">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="zip">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="whereis">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="clear">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="scp">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="sftp">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
   <entry-point command="ssh">
-    <needs-terminal />
+    <needs-terminal/>
   </entry-point>
 </interface>

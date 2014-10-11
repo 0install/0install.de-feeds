@@ -1,45 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?>
-<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/Nmap.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<?xml version="1.0" ?>
+<interface uri="http://0install.de/feeds/Nmap.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
   <name>Nmap</name>
   <summary xml:lang="en">utility for network discovery and security auditing</summary>
-  <description xml:lang="en">Nmap ("Network Mapper") is a free and open source utility for network discovery and security auditing. Many systems and network administrators also find it useful for tasks such as network inventory, managing service upgrade schedules, and monitoring host or service uptime. Nmap uses raw IP packets in novel ways to determine what hosts are available on the network, what services (application name and version) those hosts are offering, what operating systems (and OS versions) they are running, what type of packet filters/firewalls are in use, and dozens of other characteristics. It was designed to rapidly scan large networks, but works fine against single hosts.</description>
-  <icon href="http://0install.de/feed-icons/Nmap.ico" type="image/vnd.microsoft.icon" />
-  <icon href="http://0install.de/feed-icons/Nmap.png" type="image/png" />
+  <description xml:lang="en">Nmap (&quot;Network Mapper&quot;) is a free and open source utility for network discovery and security auditing. Many systems and network administrators also find it useful for tasks such as network inventory, managing service upgrade schedules, and monitoring host or service uptime. Nmap uses raw IP packets in novel ways to determine what hosts are available on the network, what services (application name and version) those hosts are offering, what operating systems (and OS versions) they are running, what type of packet filters/firewalls are in use, and dozens of other characteristics. It was designed to rapidly scan large networks, but works fine against single hosts.</description>
+  <icon href="http://0install.de/feed-icons/Nmap.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="http://0install.de/feed-icons/Nmap.png" type="image/png"/>
   <category>Network</category>
   <category>Utility</category>
-  <needs-terminal />
+  <needs-terminal/>
   <group arch="Windows-*">
     <requires interface="http://0install.de/feeds/MSVC100.xml">
-      <environment name="PATH" insert="." mode="append" />
+      <environment insert="." mode="append" name="PATH"/>
     </requires>
-    <command name="run" path="nmap.exe" />
-    <command name="ncat" path="ncat.exe" />
-    <command name="nping" path="nping.exe" />
+    <command name="run" path="nmap.exe"/>
+    <command name="ncat" path="ncat.exe"/>
+    <command name="nping" path="nping.exe"/>
     <command name="ndiff" path="ndiff.py">
-      <runner interface="http://repo.roscidus.com/python/python" />
+      <runner interface="http://repo.roscidus.com/python/python"/>
     </command>
-    <command name="install-winpcap" path="winpcap-nmap-4.12" />
-    <implementation version="6.40" stability="stable" id="sha1new=21fc9e72217ba4c2cb5dc9bbedca157493a58137">
-      <manifest-digest sha1new="21fc9e72217ba4c2cb5dc9bbedca157493a58137" sha256="7420931ab833ec411be9308072c8cbd982f53d1a55e88a67ac6795a4735a25a3" sha256new="OQQJGGVYGPWECG7JGCAHFSGL3GBPKPI2KXUIUZ5MM6K2I422EWRQ" />
-      <archive href="http://nmap.org/dist/nmap-6.40-win32.zip" size="19863449" type="application/zip" extract="nmap-6.40" />
+    <command name="install-winpcap" path="winpcap-nmap-4.12"/>
+    <implementation id="sha1new=21fc9e72217ba4c2cb5dc9bbedca157493a58137" stability="stable" version="6.40">
+      <manifest-digest sha1new="21fc9e72217ba4c2cb5dc9bbedca157493a58137" sha256="7420931ab833ec411be9308072c8cbd982f53d1a55e88a67ac6795a4735a25a3" sha256new="OQQJGGVYGPWECG7JGCAHFSGL3GBPKPI2KXUIUZ5MM6K2I422EWRQ"/>
+      <archive extract="nmap-6.40" href="http://nmap.org/dist/nmap-6.40-win32.zip" size="19863449" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=7eb8207633ff66085220788ab9e39f7c63e0fb62" released="2014-08-22" stability="stable" version="6.47">
+      <manifest-digest sha256new="MH2JFSDIS75VIK562GFRKJOZ4SPCLUFPF7UD27MXXNL35Q6F5EUA"/>
+      <archive extract="nmap-6.47" href="http://nmap.org/dist/nmap-6.47-win32.zip" size="20002559" type="application/zip"/>
     </implementation>
   </group>
-  <entry-point command="run" binary-name="nmap">
-    <needs-terminal />
+  <entry-point binary-name="nmap" command="run">
+    <needs-terminal/>
     <name xml:lang="en">Nmap</name>
   </entry-point>
-  <entry-point command="ncat" binary-name="ncat">
-    <needs-terminal />
+  <entry-point binary-name="ncat" command="ncat">
+    <needs-terminal/>
     <name xml:lang="en">Ncat</name>
     <summary xml:lang="en">reads and writes data across networks from the command line</summary>
     <description xml:lang="en">Ncat is a feature-packed networking utility which reads and writes data across networks from the command line. Ncat was written for the Nmap Project as a much-improved reimplementation of the venerable Netcat. It uses both TCP and UDP for communication and is designed to be a reliable back-end tool to instantly provide network connectivity to other applications and users. Ncat will not only work with IPv4 and IPv6 but provides the user with a virtually limitless number of potential uses.</description>
   </entry-point>
-  <entry-point command="nping" binary-name="nping">
+  <entry-point binary-name="nping" command="nping">
     <name xml:lang="en">Nping</name>
     <summary xml:lang="en">network packet generation tool / ping utiliy</summary>
     <description xml:lang="en">Nping is an open source tool for network packet generation, response analysis and response time measurement. Nping can generate network packets for a wide range of protocols, allowing users full control over protocol headers. While Nping can be used as a simple ping utility to detect active hosts, it can also be used as a raw packet generator for network stack stress testing, ARP poisoning, Denial of Service attacks, route tracing, etc. Nping's novel echo mode lets users see how packets change in transit between the source and destination hosts. That's a great way to understand firewall rules, detect packet corruption, and more.</description>
   </entry-point>
-  <entry-point command="ndiff" binary-name="ndiff">
+  <entry-point binary-name="ndiff" command="ndiff">
     <name xml:lang="en">Ndiff</name>
     <summary xml:lang="en">a utility for comparing Nmap scan results</summary>
     <description xml:lang="en">Ndiff is a tool to aid in the comparison of Nmap scans. Specifically, it takes two Nmap XML output files and prints the differences between them: hosts coming up and down, ports becoming open or closed, and things like that. Ndiff can produce output in human-readable text or machine-readable XML formats. Many people like to scan their networks regularly (daily, weekly, etc.) and then use ndiff to easily detect any changes.</description>
