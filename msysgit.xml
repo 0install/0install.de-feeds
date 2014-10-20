@@ -394,7 +394,7 @@
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
     <file-type id="ShellScript">
       <description xml:lang="en">Shell Script</description>
-      <verb name="open" args="&quot;--login&quot; &quot;%1&quot; %*" />
+      <verb name="open" command="sh" args="--login &quot;%1&quot; %*" />
       <extension value=".sh" />
     </file-type>
     <context-menu id="git-bash" target="directories">
