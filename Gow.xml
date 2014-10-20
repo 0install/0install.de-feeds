@@ -9,14 +9,18 @@
   <needs-terminal/>
   <group arch="Windows-*">
     <requires importance="recommended" interface="http://0install.de/feeds/PuTTY.xml">
-      <executable-in-path name="putty"/>
-      <executable-in-path command="puttygen" name="puttygen"/>
-      <executable-in-path command="pageant" name="pageant"/>
-      <executable-in-path command="pscp" name="pscp"/>
-      <executable-in-path command="psftp" name="psftp"/>
+      <executable-in-path command="plink" name="ssh"/>
+      <executable-in-path command="pscp" name="scp"/>
+      <executable-in-path command="psftp" name="sftp"/>
     </requires>
     <environment insert="bin" name="PATH"/>
+    <executable-in-path command="gow" name="gow"/>
+    <executable-in-path command="clear" name="clear"/>
+    <executable-in-path command="whereis" name="whereis"/>
     <command name="run" path="bin/bash.exe"/>
+    <command name="gow" path="bin/gow.bat"/>
+    <command name="clear" path="bin/clear.bat"/>
+    <command name="whereis" path="bin/whereis.bat"/>
     <command name="awk" path="bin/awk.exe"/>
     <command name="basename" path="bin/basename.exe"/>
     <command name="bc" path="bin/bc.exe"/>
@@ -55,7 +59,6 @@
     <command name="gfind" path="bin/gfind.exe"/>
     <command name="grep" path="bin/grep.exe"/>
     <command name="gsar" path="bin/gsar.exe"/>
-    <command name="gow" path="bin/gow.bat"/>
     <command name="gzip" path="bin/gzip.exe"/>
     <command name="head" path="bin/head.exe"/>
     <command name="hostid" path="bin/.exe"/>
@@ -122,27 +125,25 @@
     <command name="xargs" path="bin/xargs.exe"/>
     <command name="yes" path="bin/yes.exe"/>
     <command name="zip" path="bin/zip.exe"/>
-    <command name="whereis" path="bin/whereis.bat"/>
-    <command name="clear" path="bin/clear.bat"/>
-    <command name="scp" path="bin/scp.bat"/>
-    <command name="sftp" path="bin/sftp.bat"/>
-    <command name="ssh" path="bin/ssh.bat"/>
-    <implementation id="sha1new=97dc9bf7f4c4277b06d7cb55fc62cf61126a1af2" stability="stable" version="0.7.0">
-      <command name="sort" path="bin/sort.exe"/>
-      <manifest-digest sha1new="97dc9bf7f4c4277b06d7cb55fc62cf61126a1af2" sha256="db74c5c1647bb29cccae8244fff14f44929e7e3e738c38df9e741701093d6cf7" sha256new="3N2MLQLEPOZJZTFOQJCP74KPISJJ47R6OOGDRX46OQLQCCJ5NT3Q"/>
-      <archive href="http://0install.de/files/hosted/gow-0.7.0.zip" size="9350909" type="application/zip"/>
+    <command name="sort" path="bin/gsort.exe"/>
+    <command name="nano" path="bin/nano.exe"/>
+    <implementation id="sha1new=9a6da1557ea77463a39d5991f439be49aefeb658" released="2014-02-15" stability="stable" version="0.8.0">
+      <manifest-digest sha256new="GO7RP6M4FIE6PA65IEND3UZY7GKGWNO2FARHJOV4WJPWSIMQJXPA"/>
+      <archive href="http://0install.de/files/hosted/gow-0.8.0.zip" size="10641211" type="application/zip"/>
     </implementation>
-    <group>
-      <command name="nano" path="bin/nano.exe"/>
-      <command name="sort" path="bin/gsort.exe"/>
-      <implementation id="sha1new=594be0dee46349fe782d529c57c8fbf15c2535ba" released="2014-02-15" stability="stable" version="0.8.0">
-        <manifest-digest sha256new="GKCTISVKMM5Z2JNJWMYKZBU3OGUOC4H36PDTADD73W4BXP3OC3MQ"/>
-        <archive href="http://0install.de/files/hosted/gow-0.8.0.zip" size="10808938" type="application/zip"/>
-      </implementation>
-    </group>
   </group>
   <entry-point command="run">
     <name xml:lang="en">Gow Bash</name>
+  </entry-point>
+  <entry-point command="gow">
+    <needs-terminal/>
+    <name xml:lang="en">Gow command list</name>
+  </entry-point>
+  <entry-point command="clear">
+    <needs-terminal/>
+  </entry-point>
+  <entry-point command="whereis">
+    <needs-terminal/>
   </entry-point>
   <entry-point command="awk">
     <needs-terminal/>
@@ -256,9 +257,6 @@
     <needs-terminal/>
   </entry-point>
   <entry-point command="gsar">
-    <needs-terminal/>
-  </entry-point>
-  <entry-point command="gow">
     <needs-terminal/>
   </entry-point>
   <entry-point command="gzip">
@@ -465,19 +463,16 @@
   <entry-point command="zip">
     <needs-terminal/>
   </entry-point>
-  <entry-point command="whereis">
-    <needs-terminal/>
-  </entry-point>
-  <entry-point command="clear">
-    <needs-terminal/>
-  </entry-point>
-  <entry-point command="scp">
-    <needs-terminal/>
-  </entry-point>
-  <entry-point command="sftp">
-    <needs-terminal/>
-  </entry-point>
-  <entry-point command="ssh">
-    <needs-terminal/>
-  </entry-point>
+  <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <file-type id="Gow.ShellScript">
+      <description xml:lang="en">Shell Script</description>
+      <verb args="&quot;%1&quot; %*" name="open"/>
+      <extension value=".sh"/>
+    </file-type>
+    <context-menu id="gow-bash" target="directories">
+      <verb args="-c &quot;cd \&quot;%1\&quot;; exec bash&quot;" name="gow_bash">
+        <description xml:lang="en">Gow Bash</description>
+      </verb>
+    </context-menu>
+  </capabilities>
 </interface>
