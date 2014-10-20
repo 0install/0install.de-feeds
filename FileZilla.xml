@@ -153,5 +153,25 @@
       <manifest-digest sha256new="GI7L6PI7FEDH4NGQLBCYUHJEVXTKJY2FXAFNREGZ4PQNIMFJU6NQ"/>
       <archive extract="filezilla-3.9.0" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.9.0_src.tar.bz2" size="4170514"/>
     </implementation>
+    <implementation arch="Windows-*" id="sha1new=70deaba25dc21d330e36ee496a95b3eb8ed7682f" main="filezilla.exe" released="2014-10-20" stability="stable" version="3.9.0.6">
+      <manifest-digest sha256new="MEXIYJBVAKL2WDJJ6YV3YKP3XZRP6GTOCQUG64TJZYWVS6K27CTA"/>
+      <archive extract="FileZilla-3.9.0.6" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.9.0.6_win32.zip" size="9131342" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=8311e4b6a1c06ade4ecc43075f0749402c6bf433" main="bin/filezilla" released="2014-10-20" stability="stable" version="3.9.0.6">
+      <manifest-digest sha256new="RT4FOEH7NDRKPJXRUNQOHSOF3BFOIGEZMREGY2J3YD74DOQ2AYMA"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.9.0.6_x86_64-linux-gnu.tar.bz2" size="6385191"/>
+    </implementation>
+    <implementation arch="Linux-i586" id="sha1new=c56b7a2343d78270ba0f12fb4c2a491d042a97d0" main="bin/filezilla" released="2014-10-20" stability="stable" version="3.9.0.6">
+      <manifest-digest sha256new="EQXPGICWLERVWH2Y5TO7C5RACJ2AIEF66EWH5UBWFRJSJD4ZP67A"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.9.0.6_i586-linux-gnu.tar.bz2" size="6357271"/>
+    </implementation>
+    <implementation arch="MacOSX-i686" id="sha1new=c04bafd6acc09c7037de9d4ca97c32e6f21a2594" main="FileZilla.app/Contents/MacOS/filezilla" released="2014-10-20" stability="stable" version="3.9.0.6">
+      <manifest-digest sha256new="ORN7PT3Y36QUUR25E5XQWOCCIMO3NFGHX4ZH3UIFORN3YAKXVZIA"/>
+      <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.9.0.6_macosx-x86.app.tar.bz2" size="6831818"/>
+    </implementation>
+    <implementation arch="*-src" id="sha1new=962ce2f1709c15f928e05b9a61c79ba32bb8333f" released="2014-10-20" stability="stable" version="3.9.0.6">
+      <manifest-digest sha256new="L4QHYPTS3ORNJQGHWYMDLXVZZ7IGLE3PMAQ74UPCQGGXKHRC5HCA"/>
+      <archive extract="filezilla-3.9.0.6" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.9.0.6_src.tar.bz2" size="4181121"/>
+    </implementation>
   </group>
 </interface>
