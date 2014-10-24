@@ -1,0 +1,237 @@
+<?xml version="1.0" ?>
+<interface uri="http://0install.de/feeds/Sublime_Text.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <name>Sublime Text</name>
+  <summary xml:lang="en">a sophisticated text editor for code, markup and prose</summary>
+  <homepage>http://www.sublimetext.com/</homepage>
+  <icon href="http://0install.de/feed-icons/Sublime_Text.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="http://0install.de/feed-icons/Sublime_Text.png" type="image/png"/>
+  <entry-point binary-name="sublime_text" command="run"/>
+  <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <context-menu id="open-with">
+      <verb args="&quot;%1&quot;" name="sublime_text">
+        <description xml:lang="en">Open with Sublime Text</description>
+        <description xml:lang="de">Öffnen mit Sublime Text</description>
+      </verb>
+    </context-menu>
+  </capabilities>
+  <implementation arch="Windows-x86_64" id="sha1new=1668b3bf508c1df4440dc1297ad6618f49c1ad35" main="sublime_text.exe" released="2012-06-26" stability="stable" version="2.0">
+    <manifest-digest sha256new="2SXIXV7CI7I3IRXRHBKHCNYRO64G5IK2E4OBY6AL5Z7VQD75LCWA"/>
+    <recipe>
+      <archive href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0%20x64.zip" size="8002666" type="application/zip"/>
+      <remove path="Data"/>
+    </recipe>
+  </implementation>
+  <implementation arch="Windows-i486" id="sha1new=52ecb15ae0dee22decb062139fe975f532b3bc17" main="sublime_text.exe" released="2012-06-26" stability="stable" version="2.0">
+    <manifest-digest sha256new="TI7IWCOHSDSK6JFCT6TU4DN4ZMM6ZRU2JPBJHUIGX6YHXWUNPWDA"/>
+    <recipe>
+      <archive href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.zip" size="6554451" type="application/zip"/>
+      <remove path="Data"/>
+    </recipe>
+  </implementation>
+  <implementation arch="Linux-x86_64" id="sha1new=46e6f3ebb48c86cfddd197ca741fd6d8e681e44b" main="sublime_text" released="2012-06-26" stability="stable" version="2.0">
+    <manifest-digest sha256new="4FXPTDQSA2Q753RESJQVQMUF5Y2PSJDMY6Q3YK3P4EMWXVPCQIFA"/>
+    <archive extract="Sublime Text 2" href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0%20x64.tar.bz2" size="5663757" type="application/x-bzip-compressed-tar"/>
+  </implementation>
+  <implementation arch="Linux-i486" id="sha1new=c269bba2b5f357597b05176495c8381c1b92b5ae" main="sublime_text" released="2012-06-26" stability="stable" version="2.0">
+    <manifest-digest sha256new="MEKYZGRNW4EYC4SGWFWYCY3OFWKXT7POBBOPPBGOUGVMWXIWNQ3Q"/>
+    <archive extract="Sublime Text 2" href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.tar.bz2" size="5585489" type="application/x-bzip-compressed-tar"/>
+  </implementation>
+  <implementation arch="Windows-x86_64" id="sha1new=cfacbeb51615df0f650738db4dfe09131e854c40" main="sublime_text.exe" released="2012-07-14" stability="stable" version="2.0.1">
+    <manifest-digest sha256new="IUVXUJFMWHE6BBMKK5XQ3K4GUOKFP7MDSILPI3CUSJDXHKEHRA7A"/>
+    <recipe>
+      <archive href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.1%20x64.zip" size="8005016" type="application/zip"/>
+      <remove path="Data"/>
+    </recipe>
+  </implementation>
+  <implementation arch="Windows-i486" id="sha1new=afa77f2b1e1f0b33d0e487ed00c3989d24788001" main="sublime_text.exe" released="2012-07-14" stability="stable" version="2.0.1">
+    <manifest-digest sha256new="ROXBZL66ZRX7GNU33KIMVFL25AFY5ITSXIHE7P3LWSODJEDXCAPA"/>
+    <recipe>
+      <archive href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.1.zip" size="6556428" type="application/zip"/>
+      <remove path="Data"/>
+    </recipe>
+  </implementation>
+  <implementation arch="Linux-x86_64" id="sha1new=ac1e6291b66504887124bc2501595e4e93337f01" main="sublime_text" released="2012-07-14" stability="stable" version="2.0.1">
+    <manifest-digest sha256new="35MEWEDOU67O5GKWETERVCDC3W4M26KTL73IVWGFDA6SKRNUXSVA"/>
+    <archive extract="Sublime Text 2" href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.1%20x64.tar.bz2" size="5664664" type="application/x-bzip-compressed-tar"/>
+  </implementation>
+  <implementation arch="Linux-i486" id="sha1new=daa271db4d56cf6425d4717b2d2115ae854772f3" main="sublime_text" released="2012-07-14" stability="stable" version="2.0.1">
+    <manifest-digest sha256new="AQRDPOF2JERVC2RZIWFCTOKAC3KDH73BA6XBE6BZ5NR7B5EZDOBA"/>
+    <archive extract="Sublime Text 2" href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.1.tar.bz2" size="5587508" type="application/x-bzip-compressed-tar"/>
+  </implementation>
+  <implementation arch="Windows-x86_64" id="sha1new=d0323765b890d322887fefeb48761f7031b0148d" main="sublime_text.exe" released="2013-02-10" stability="testing" version="3-pre3012">
+    <manifest-digest sha256new="6GDAHBMVVW573N5CTRUGTW6QD2VPR7YIXFXZHTYWV5ZPXSC224VQ"/>
+    <recipe>
+      <archive href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203012%20x64.zip" size="9392987" type="application/zip"/>
+      <remove path="Data"/>
+    </recipe>
+  </implementation>
+  <implementation arch="Windows-i486" id="sha1new=22a4a2f4e9eb75144c51cccaae68a35f55f7e38a" main="sublime_text.exe" released="2013-02-10" stability="testing" version="3-pre3012">
+    <manifest-digest sha256new="ZNQJB45E6OQH32IJJTTANJTHI3E34IYEUIGYO5DWYSHNQTO3RNVQ"/>
+    <recipe>
+      <archive href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203012.zip" size="8550791" type="application/zip"/>
+      <remove path="Data"/>
+    </recipe>
+  </implementation>
+  <implementation arch="Linux-x86_64" id="sha1new=555436433f493d0edea41bc8e813c75a6c86d3c4" main="sublime_text" released="2013-02-10" stability="testing" version="3-pre3012">
+    <manifest-digest sha256new="KJYBYNO52RKX4MWO7ZWHX52BRXC75WZLI4WIRGUDEZTWIQW7LO2Q"/>
+    <archive extract="sublime_text_3" href="http://c758482.r82.cf2.rackcdn.com/sublime_text_3_build_3012_x64.tar.bz2" size="6729007" type="application/x-bzip-compressed-tar"/>
+  </implementation>
+  <implementation arch="Linux-i486" id="sha1new=0a7a5195de553eaefd4aa2b70a2bdd38881c6865" main="sublime_text" released="2013-02-10" stability="testing" version="3-pre3012">
+    <manifest-digest sha256new="YLJAH66WNXTWSN55GD5H2DJ4XB4Z2HA4IROYYGEM4BKXGYXZDK7A"/>
+    <archive extract="sublime_text_3" href="http://c758482.r82.cf2.rackcdn.com/sublime_text_3_build_3012_x32.tar.bz2" size="6789522" type="application/x-bzip-compressed-tar"/>
+  </implementation>
+  <implementation arch="Windows-x86_64" id="sha1new=662b4b6ee2d449088aa2ce221bff5ebdcb919090" main="sublime_text.exe" released="2013-03-12" stability="testing" version="3-pre3019">
+    <manifest-digest sha256new="AMN5TXTYFFFYRLLMIBSXRPN3EMD7TEV732B5JQOI753AIRFB2PWA"/>
+    <recipe>
+      <archive href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203019%20x64.zip" size="9423978" type="application/zip"/>
+      <remove path="Data"/>
+    </recipe>
+  </implementation>
+  <implementation arch="Windows-i486" id="sha1new=5c6c4a3c7a5ea772e602652143bd4d10a3c279a8" main="sublime_text.exe" released="2013-03-12" stability="testing" version="3-pre3019">
+    <manifest-digest sha256new="K3NIWGK2YOTI5MHGORCY73TVX6O5Y3DJ5D2JIQ3JCOQBHGCB2KAQ"/>
+    <recipe>
+      <archive href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203019.zip" size="8566222" type="application/zip"/>
+      <remove path="Data"/>
+    </recipe>
+  </implementation>
+  <implementation arch="Linux-x86_64" id="sha1new=36606cb9ec0bdf2d25bd61dc5faa2d8a4d1129b6" main="sublime_text" released="2013-03-12" stability="testing" version="3-pre3019">
+    <manifest-digest sha256new="KNYFELDLK5VJZ5GGBK7OV757Y3IHOG4BXWK4NQ66HRFYZHCEIQBA"/>
+    <archive extract="sublime_text_3" href="http://c758482.r82.cf2.rackcdn.com/sublime_text_3_build_3019_x64.tar.bz2" size="6805087" type="application/x-bzip-compressed-tar"/>
+  </implementation>
+  <implementation arch="Linux-i486" id="sha1new=1f2464f4cdf0afa09e39ae8c33f9133621e183e2" main="sublime_text" released="2013-03-12" stability="testing" version="3-pre3019">
+    <manifest-digest sha256new="2M4GQTGFFLIHRCVU34CT3M4JXHC3ARFE2IWPOM4X2HS7AKIZ2AXA"/>
+    <archive extract="sublime_text_3" href="http://c758482.r82.cf2.rackcdn.com/sublime_text_3_build_3019_x32.tar.bz2" size="6863170" type="application/x-bzip-compressed-tar"/>
+  </implementation>
+  <implementation arch="Windows-x86_64" id="sha1new=92bc5c48028ea826284bd6c798330af90fa10209" main="sublime_text.exe" released="2013-03-14" stability="testing" version="3-pre3021">
+    <manifest-digest sha256new="ARXRAXFEOQIVCHV7EYQIVBRNFKMYBCYWVKWEFXUTOLO3DN3TZ4YQ"/>
+    <recipe>
+      <archive href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203021%20x64.zip" size="9423236" type="application/zip"/>
+      <remove path="Data"/>
+    </recipe>
+  </implementation>
+  <implementation arch="Windows-i486" id="sha1new=2a4a2dde09476ab94b1d64f6d3519e5e25f3e3f3" main="sublime_text.exe" released="2013-03-14" stability="testing" version="3-pre3021">
+    <manifest-digest sha256new="C7HQP5Y57MHJ2DGZERTTSDL6TXWTXTQIEHOYEAQIL3GSRNENCEKA"/>
+    <recipe>
+      <archive href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203021.zip" size="8566252" type="application/zip"/>
+      <remove path="Data"/>
+    </recipe>
+  </implementation>
+  <implementation arch="Linux-x86_64" id="sha1new=c6de704c711930eb5c7a3e578c06a49ba122c60a" main="sublime_text" released="2013-03-14" stability="testing" version="3-pre3021">
+    <manifest-digest sha256new="ORLIOCTRBM5GATFFWNMRNVW7RVWXWPJZPNP4GA6PGZTVEDL4OT2Q"/>
+    <archive extract="sublime_text_3" href="http://c758482.r82.cf2.rackcdn.com/sublime_text_3_build_3021_x64.tar.bz2" size="6806009" type="application/x-bzip-compressed-tar"/>
+  </implementation>
+  <implementation arch="Linux-i486" id="sha1new=9dc7a21d53bb7448eaf6e2c887198066bb6596b1" main="sublime_text" released="2013-03-14" stability="testing" version="3-pre3021">
+    <manifest-digest sha256new="T75QUSRWQARP6A4CK7AMXHVOCU733FRFML4PUKATYKYFQMINAFOA"/>
+    <archive extract="sublime_text_3" href="http://c758482.r82.cf2.rackcdn.com/sublime_text_3_build_3021_x32.tar.bz2" size="6861898" type="application/x-bzip-compressed-tar"/>
+  </implementation>
+  <implementation arch="Windows-x86_64" id="sha1new=914eae8946c2850de7a8d0a255617e550cf0408a" main="sublime_text.exe" released="2013-05-10" stability="testing" version="3-pre3033">
+    <manifest-digest sha256new="HDVQHJPZBRG7HF2LQ3QH2WI5QP7UCMPJGFTNYTGTOTIVFPPVUVWA"/>
+    <recipe>
+      <archive href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203033%20x64.zip" size="9642567" type="application/zip"/>
+      <remove path="Data"/>
+    </recipe>
+  </implementation>
+  <implementation arch="Windows-i486" id="sha1new=99e988787486d808deab1c96ed2409082174d98f" main="sublime_text.exe" released="2013-05-10" stability="testing" version="3-pre3033">
+    <manifest-digest sha256new="JCWLEAHQ7B4RZSBKHMWC2TCYXENLRNU2MJXI3PH6QDR5IM4CTSMQ"/>
+    <recipe>
+      <archive href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203033.zip" size="8762163" type="application/zip"/>
+      <remove path="Data"/>
+    </recipe>
+  </implementation>
+  <implementation arch="Linux-x86_64" id="sha1new=b0854511216ad826bafcf248ddb53c820c1f02b8" main="sublime_text" released="2013-05-10" stability="testing" version="3-pre3033">
+    <manifest-digest sha256new="TG4QU2CICQ2KZIYL3VFM5HJXJLQH4BEZLRGDPXF2XZ5O3BFWIZ3A"/>
+    <archive extract="sublime_text_3" href="http://c758482.r82.cf2.rackcdn.com/sublime_text_3_build_3033_x64.tar.bz2" size="7030996" type="application/x-bzip-compressed-tar"/>
+  </implementation>
+  <implementation arch="Linux-i486" id="sha1new=4a409fcf6cfd8a67e98a3fc9e9c5fc79cc0ad647" main="sublime_text" released="2013-05-10" stability="testing" version="3-pre3033">
+    <manifest-digest sha256new="SZSFXSZIWYNQH4NTLML65HXMHZ3I47NDTVYC6SNXIG6FPHMSADKA"/>
+    <archive extract="sublime_text_3" href="http://c758482.r82.cf2.rackcdn.com/sublime_text_3_build_3033_x32.tar.bz2" size="7099412" type="application/x-bzip-compressed-tar"/>
+  </implementation>
+  <implementation arch="Windows-x86_64" id="sha1new=56287537da5a096e2a726f9d46b850c551db3490" main="sublime_text.exe" released="2013-06-27" stability="testing" version="3-pre3047">
+    <manifest-digest sha256new="DLVPLAKRP6HYPESIOPSV6M5RQRETTHGG342IUVKUV3BLT2SW565Q"/>
+    <recipe>
+      <archive href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203047%20x64.zip" size="9739456" type="application/zip"/>
+      <remove path="Data"/>
+    </recipe>
+  </implementation>
+  <implementation arch="Windows-i486" id="sha1new=f0c439d54e17a6fab46151ec8debe3493852a8e5" main="sublime_text.exe" released="2013-06-27" stability="testing" version="3-pre3047">
+    <manifest-digest sha256new="QEH7MW6N5YADJA6CDORZC7CEJWRD2OYQZHVOKYSSAISGBVXUNSYA"/>
+    <recipe>
+      <archive href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203047.zip" size="8869477" type="application/zip"/>
+      <remove path="Data"/>
+    </recipe>
+  </implementation>
+  <implementation arch="Linux-x86_64" id="sha1new=7da837a1ade93b675802d28836bfefce7bba2101" main="sublime_text" released="2013-06-27" stability="testing" version="3-pre3047">
+    <manifest-digest sha256new="SRPMSLCZDTG6KLODEZGMTAD42RTHTEHZN3ADIEQTYUQKFHFBVXDQ"/>
+    <archive extract="sublime_text_3" href="http://c758482.r82.cf2.rackcdn.com/sublime_text_3_build_3047_x64.tar.bz2" size="7292290" type="application/x-bzip-compressed-tar"/>
+  </implementation>
+  <implementation arch="Linux-i486" id="sha1new=fcd3b6dceaf0acdaa07d57f4a472277ba779ebd7" main="sublime_text" released="2013-06-27" stability="testing" version="3-pre3047">
+    <manifest-digest sha256new="UZPLJT5HY667KBVCVRP5XZ2A3IXFRMIVLNAGRLI5WWYME5XF5DEA"/>
+    <archive extract="sublime_text_3" href="http://c758482.r82.cf2.rackcdn.com/sublime_text_3_build_3047_x32.tar.bz2" size="7362021" type="application/x-bzip-compressed-tar"/>
+  </implementation>
+  <implementation arch="Windows-x86_64" id="sha1new=2e481b0f22f43ddd5b4afd680e3f97eb19cae1db" main="sublime_text.exe" released="2013-07-08" stability="stable" version="2.0.2">
+    <manifest-digest sha256new="X3NCNR3S3TAQUUHCLWET6OUYQDYPJOORID355MLDJCNLAQFQMJGA"/>
+    <recipe>
+      <archive href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.2%20x64.zip" size="8007978" type="application/zip"/>
+      <remove path="Data"/>
+    </recipe>
+  </implementation>
+  <implementation arch="Windows-i486" id="sha1new=94d7f17d4fb9d78c56712f18522d280affe4f409" main="sublime_text.exe" released="2013-07-08" stability="stable" version="2.0.2">
+    <manifest-digest sha256new="RZJNECQIGBD676N6QH5USR4DQJOES3NL7QLVWIZNVPQCX3WPRMIA"/>
+    <recipe>
+      <archive href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.2.zip" size="6558366" type="application/zip"/>
+      <remove path="Data"/>
+    </recipe>
+  </implementation>
+  <implementation arch="Linux-x86_64" id="sha1new=beb02277107497b62e7fa4234bf0bb01e767ef66" main="sublime_text" released="2013-07-08" stability="stable" version="2.0.2">
+    <manifest-digest sha256new="XOA7XI2N6GQS275VJHNQJNOTFNXWRNT4EYNNMW5BGN5OCOKUMXNQ"/>
+    <archive extract="Sublime Text 2" href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.2%20x64.tar.bz2" size="5662968" type="application/x-bzip-compressed-tar"/>
+  </implementation>
+  <implementation arch="Linux-i486" id="sha1new=ad801d99c0c1b88b62a1ce02f489b26a8628547f" main="sublime_text" released="2013-07-08" stability="stable" version="2.0.2">
+    <manifest-digest sha256new="TZEG7QPZKZ6ZOAODSTNRUOAUD5B3TZE3JKKGN3BCBQV5G3NYTAHA"/>
+    <archive extract="Sublime Text 2" href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.2.tar.bz2" size="5584673" type="application/x-bzip-compressed-tar"/>
+  </implementation>
+  <implementation arch="Windows-x86_64" id="sha1new=7703340f1c24d34f4c0cb0fd345186cd786e09be" main="sublime_text.exe" released="2013-12-17" stability="testing" version="3-pre3059">
+    <manifest-digest sha256new="B6MNU5WVEIYYBXMA6YZ6UUFSHBMGMSSBJYVGBSJO3VQN4ORWS63Q"/>
+    <recipe>
+      <archive href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203059%20x64.zip" size="9907147" type="application/zip"/>
+      <remove path="Data"/>
+    </recipe>
+  </implementation>
+  <implementation arch="Windows-i486" id="sha1new=ec12a1b6dae5ddb680e411c85c0b692a849779f0" main="sublime_text.exe" released="2013-12-17" stability="testing" version="3-pre3059">
+    <manifest-digest sha256new="5KPO42OYYNOSR5LWMB26JLGNRQNZM2LFSSOGCG6T6FHJPNORKDRA"/>
+    <recipe>
+      <archive href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203059.zip" size="8980759" type="application/zip"/>
+      <remove path="Data"/>
+    </recipe>
+  </implementation>
+  <implementation arch="Linux-x86_64" id="sha1new=1ba7bc8c9f80b4233a92143c73515f9a8cd56e43" main="sublime_text" released="2013-12-17" stability="testing" version="3-pre3059">
+    <manifest-digest sha256new="WQZ45BEAYLAA2LUSMT7OZVVBNG5LO6QWNHREJIVARUWNLNOLCSQQ"/>
+    <archive extract="sublime_text_3" href="http://c758482.r82.cf2.rackcdn.com/sublime_text_3_build_3059_x64.tar.bz2" size="7475726" type="application/x-bzip-compressed-tar"/>
+  </implementation>
+  <implementation arch="Linux-i486" id="sha1new=5158dd48d0f239e81a69e045d392dd799b9c22c1" main="sublime_text" released="2013-12-17" stability="testing" version="3-pre3059">
+    <manifest-digest sha256new="Z7NKI2LIJBSL4HUQFP6KNK5V2UP6SRPLV4YPCI6WFHWHJOR4ED5A"/>
+    <archive extract="sublime_text_3" href="http://c758482.r82.cf2.rackcdn.com/sublime_text_3_build_3059_x32.tar.bz2" size="7533926" type="application/x-bzip-compressed-tar"/>
+  </implementation>
+  <implementation arch="Windows-x86_64" id="sha1new=b1742f8e423afe010d5e9d2d149a696f98a5b34c" main="sublime_text.exe" released="2014-08-29" stability="testing" version="3-pre3065">
+    <manifest-digest sha256new="MRMLDMUOR5WHJXDVNRZLQRPTZEEQM6BDDXAGLUHMIF65W7DFXCKQ"/>
+    <recipe>
+      <archive href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203065%20x64.zip" size="10072996" type="application/zip"/>
+      <remove path="Data"/>
+    </recipe>
+  </implementation>
+  <implementation arch="Windows-i486" id="sha1new=1276167bfde6d35fb74f595f3ef8b1e9eb8441bf" main="sublime_text.exe" released="2014-08-29" stability="testing" version="3-pre3065">
+    <manifest-digest sha256new="XEKVFQWKXIAEHWKCRFJVXLLKNVBB4F6BXH4K7LXMECISLPQST4RQ"/>
+    <recipe>
+      <archive href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203065.zip" size="9140308" type="application/zip"/>
+      <remove path="Data"/>
+    </recipe>
+  </implementation>
+  <implementation arch="Linux-x86_64" id="sha1new=a00d71b6c38d7adacb40ec773e1a72e57884d802" main="sublime_text" released="2014-08-29" stability="testing" version="3-pre3065">
+    <manifest-digest sha256new="7MQCPL3ZTW26L7V7USIQ4IMJDJITKQNJVHU2V34OT3A66FHEY7UA"/>
+    <archive extract="sublime_text_3" href="http://c758482.r82.cf2.rackcdn.com/sublime_text_3_build_3065_x64.tar.bz2" size="7557246" type="application/x-bzip-compressed-tar"/>
+  </implementation>
+  <implementation arch="Linux-i486" id="sha1new=851eae56812090e4005b086c42bfa5f781763a5d" main="sublime_text" released="2014-08-29" stability="testing" version="3-pre3065">
+    <manifest-digest sha256new="DDHJBW7KMKMDNPQB4J43BT4KE7KKDKSHQQ6YC5YPUMIIINHRKAUA"/>
+    <archive extract="sublime_text_3" href="http://c758482.r82.cf2.rackcdn.com/sublime_text_3_build_3065_x32.tar.bz2" size="7624149" type="application/x-bzip-compressed-tar"/>
+  </implementation>
+</interface>
