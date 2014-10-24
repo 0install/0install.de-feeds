@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<interface uri="http://0install.de/feeds/Gradle.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <name>Gradle</name>
+  <summary xml:lang="en">A software project management and comprehension tool</summary>
+  <summary xml:lang="de">Ein Softwareprojeketmanagementwerkzeug</summary>
+  <homepage>http://www.gradle.org/</homepage>
+  <category>Development</category>
+  <needs-terminal/>
+  <group langs="en" license="The Apache Software License, Version 2.0">
+    <environment mode="append" name="GRADLE_OPTS" value=""/>
+    <environment insert="" mode="replace" name="APP_BASE_NAME"/>
+    <command name="run">
+      <runner command="java" interface="http://repo.roscidus.com/java/openjdk-jdk">
+        <arg>$GRADLE_OPTS</arg>
+        <arg>-Dorg.gradle.appname=$APP_BASE_NAME</arg>
+        <arg>-classpath</arg>
+        <arg>org.gradle.launcher.GradleMain</arg>
+      </runner>
+    </command>
+    <implementation id="sha1new=2f5fe791986d746c6dd123fd4787800c7be6a2fa" released="2013-12-17" stability="stable" version="1.10">
+      <manifest-digest sha256new="XR3HCLQBUX4BPDDCFTLX5JW5A5ZJVDEB53KVFEAH6TYGVFKIQ5RQ"/>
+      <archive extract="gradle-1.10" href="https://services.gradle.org/distributions/gradle-1.10-bin.zip" size="40404574" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=8a4aeb6c468368ab866258d437509c46aa7db8ed" released="2014-02-11" stability="stable" version="1.11">
+      <manifest-digest sha256new="NYIUWTIJ6LSD2GVGD3JHLIUTGPQ34KAU253PPPLL2T4SODNXXRYA"/>
+      <archive extract="gradle-1.11" href="https://services.gradle.org/distributions/gradle-1.11-bin.zip" size="41856417" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=f99007bc14d577e27a853856913b067c87b618b4" released="2014-04-29" stability="stable" version="1.12">
+      <manifest-digest sha256new="XMD244NUCU462FRKB2ZAPJ36AU2LC4KZEOEVBQ66WNBX6KX6LRTA"/>
+      <archive extract="gradle-1.12" href="https://services.gradle.org/distributions/gradle-1.12-bin.zip" size="42080843" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=6032161410573f91f79f39166ee8e71808f43f33" released="2014-07-01" stability="stable" version="2.0">
+      <manifest-digest sha256new="FJHPZOKFQA7W2FJO52HQMF2EVCYCQGNO32ZPIG77QTDN5JO2WCLQ"/>
+      <archive extract="gradle-2.0" href="https://services.gradle.org/distributions/gradle-2.0-bin.zip" size="41468729" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=6e1a9ee8a4e869d0aa0165532ee310ffc0974e10" released="2014-11-08" stability="stable" version="2.1">
+      <manifest-digest sha256new="QEQP6AXSJ5GTRH6PE5KHI237AKMPMHWTTNOM7G53MMCXARSTNLPQ"/>
+      <archive extract="gradle-2.1" href="https://services.gradle.org/distributions/gradle-2.1-bin.zip" size="41540840" type="application/zip"/>
+    </implementation>
+  </group>
+  <entry-point binary-name="gradle" command="run"/>
+</interface>
