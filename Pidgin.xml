@@ -205,6 +205,14 @@
       <manifest-digest sha256new="2HZSRYMJPSC2YXYV3LGRXINXBPFHI25ZAR4D5D3KUURQOTQ76OFQ"/>
       <archive extract="pidgin-2.9.0" href="http://downloads.sourceforge.net/pidgin/Pidgin/2.9.0/pidgin-2.9.0.tar.bz2" size="9925589"/>
     </implementation>
+    <implementation arch="Windows-*" id="sha1new=62ab8f0df92b5b71c8dcfb26dc7acc8145efdaf2" main="pidgin.exe" released="2014-10-26" stability="stable" version="2.10.10">
+      <manifest-digest sha256new="KGROV3FUQRG52QNKUORDBT6GBV6QKZNCGHWDY55SMXZWX4LYPBYA"/>
+      <archive extract="pidgin-2.10.10-win32bin" href="http://downloads.sourceforge.net/pidgin/Pidgin/2.10.10/pidgin-2.10.10-win32-bin.zip" size="15893242" type="application/zip"/>
+    </implementation>
+    <implementation arch="*-src" id="sha1new=ddc0c6ae04c32340b2828fc4d79a008cec8f190e" released="2014-10-26" stability="stable" version="2.10.10">
+      <manifest-digest sha256new="KX2USXE23GVFZQQEGWOAX3XRZQJ4PPF34XKSY4WEPFSFBZI3F3YQ"/>
+      <archive extract="pidgin-2.10.10" href="http://downloads.sourceforge.net/pidgin/Pidgin/2.10.10/pidgin-2.10.10.tar.bz2" size="9409485"/>
+    </implementation>
   </group>
   <entry-point binary-name="pidgin" command="run"/>
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
