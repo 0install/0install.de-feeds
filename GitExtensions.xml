@@ -8,7 +8,7 @@
   <icon href="http://0install.de/feed-icons/GitExtensions.png" type="image/png"/>
   <category>Development</category>
   <group>
-    <requires interface="http://0install.de/feeds/msysgit.xml" os="Windows">
+    <requires interface="http://repo.roscidus.com/git/core">
       <environment insert="." mode="replace" name="GITEXT_GIT"/>
     </requires>
     <requires importance="recommended" interface="http://0install.de/feeds/PuTTY.xml" os="Windows">
