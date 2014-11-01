@@ -11,7 +11,7 @@
     <environment name="PATH" insert="." />
     <environment name='PYTHONHOME' mode='replace' insert='.' />
     <command name="run" path="python.exe" />
-    <command name="run-win" path="pythonw.exe" />
+    <command name="run-gui" path="pythonw.exe" />
     <implementation version="2.7.3" stability="stable" id="sha1new=ba49095fc6d4a65a1837cafab6e145006eaf3d7f">
       <manifest-digest sha1new="ba49095fc6d4a65a1837cafab6e145006eaf3d7f" sha256="778015e019d05e2bb1608cc8289012a6d094881333a525fac0669bd3faba93ee" sha256new="O6ABLYAZ2BPCXMLARTECREASU3IJJCATGOSSL6WAM2N5H6V2SPXA" />
       <archive href="http://0install.de/files/hosted/python-2.7.3-win32-portable.tar.lzma" size="9265517" type="application/x-lzma-compressed-tar" />
@@ -30,7 +30,7 @@
     <name xml:lang="en">Python command-line interpreter</name>
     <name xml:lang="de">Python Befehlszeileninterpreter</name>
   </entry-point>
-  <entry-point command="pythonw">
+  <entry-point command="run-gui">
     <name xml:lang="en">Python GUI interpreter</name>
     <name xml:lang="de">Python Grafischer Interpreter</name>
   </entry-point>
@@ -42,7 +42,7 @@
     </file-type>
     <file-type id="Python.NoConFile">
       <description xml:lang="en">Python File (no console)</description>
-      <verb name="open" command="run-win" args="&quot;%1&quot; %*" />
+      <verb name="open" command="run-gui" args="&quot;%1&quot; %*" />
       <extension value=".pyw" mime-type="text/plain" />
     </file-type>
     <file-type id="Python.CompiledFile">

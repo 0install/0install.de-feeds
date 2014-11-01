@@ -5,7 +5,7 @@
   <feed-for interface="http://repo.roscidus.com/java/openjdk-jre" />
   <group license="Oracle Binary Code License Agreement for the Java SE Platform Products and JavaFX">
     <command name="run" path="bin/java.exe" />
-    <command name="javaw" path="bin/javaw.exe" />
+    <command name="run-gui" path="bin/javaw.exe" />
     <command name="javaws" path="bin/javaws.exe" />
     <command name="java-rmi" path="bin/java-rmi.exe" />
     <command name="javacpl" path="bin/javacpl.exe" />
@@ -51,7 +51,7 @@
     <needs-terminal />
     <name xml:lang="en">Java command-line runner</name>
   </entry-point>
-  <entry-point command="javaw">
+  <entry-point command="run-gui">
     <name xml:lang="en">Java GUI runner</name>
   </entry-point>
   <entry-point command="javaws">
