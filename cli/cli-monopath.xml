@@ -4,8 +4,13 @@
   <summary xml:lang="en">an implementation of the Common Language Infrastucture (.NET Framework on Windows, Mono on POSIX) using .NET profiles as version numbers</summary>
   <group arch="Windows-*">
     <implementation version="2.0" id="netfx-2.0">
-      <command name="run" path="monopath-emulator-win.clr2.exe">
-        <runner interface="http://0install.de/feeds/cli/netfx.xml">
+      <command name="run" path="monopath-emulator.clr2.exe">
+        <runner interface="http://0install.de/feeds/cli/netfx.xml" command="run">
+          <version not-before="2.0" before="3.0" />
+        </runner>
+      </command>
+      <command name="run-gui" path="monopath-emulator-win.clr2.exe">
+        <runner interface="http://0install.de/feeds/cli/netfx.xml" command="run-gui">
           <version not-before="2.0" before="3.0" />
         </runner>
       </command>
@@ -13,8 +18,13 @@
       <archive href="http://0install.de/files/hosted/monopath-emulator.zip" size="11586" type="application/zip" />
     </implementation>
     <implementation version="3.0" id="netfx-3.0">
-      <command name="run" path="monopath-emulator-win.clr2.exe">
-        <runner interface="http://0install.de/feeds/cli/netfx.xml">
+      <command name="run" path="monopath-emulator.clr2.exe">
+        <runner interface="http://0install.de/feeds/cli/netfx.xml" command="run">
+          <version not-before="3.0" before="3.5" />
+        </runner>
+      </command>
+      <command name="run-gui" path="monopath-emulator-win.clr2.exe">
+        <runner interface="http://0install.de/feeds/cli/netfx.xml" command="run-gui">
           <version not-before="3.0" before="3.5" />
         </runner>
       </command>
@@ -22,8 +32,13 @@
       <archive href="http://0install.de/files/hosted/monopath-emulator.zip" size="11586" type="application/zip" />
     </implementation>
     <implementation version="3.5" id="netfx-3.5">
-      <command name="run" path="monopath-emulator-win.clr2.exe">
-        <runner interface="http://0install.de/feeds/cli/netfx.xml">
+      <command name="run" path="monopath-emulator.clr2.exe">
+        <runner interface="http://0install.de/feeds/cli/netfx.xml" command="run">
+          <version not-before="3.5" before="4.0" />
+        </runner>
+      </command>
+      <command name="run-gui" path="monopath-emulator-win.clr2.exe">
+        <runner interface="http://0install.de/feeds/cli/netfx.xml" command="run-gui">
           <version not-before="3.5" before="4.0" />
         </runner>
       </command>
@@ -31,8 +46,13 @@
       <archive href="http://0install.de/files/hosted/monopath-emulator.zip" size="11586" type="application/zip" />
     </implementation>
     <implementation version="4.0" id="netfx-4.0">
-      <command name="run" path="monopath-emulator-win.clr4.exe">
-        <runner interface="http://0install.de/feeds/cli/netfx.xml">
+      <command name="run" path="monopath-emulator.clr4.exe">
+        <runner interface="http://0install.de/feeds/cli/netfx.xml" command="run">
+          <version not-before="4.0" before="4.5" />
+        </runner>
+      </command>
+      <command name="run-gui" path="monopath-emulator-win.clr4.exe">
+        <runner interface="http://0install.de/feeds/cli/netfx.xml" command="run-gui">
           <version not-before="4.0" before="4.5" />
         </runner>
       </command>
@@ -40,8 +60,13 @@
       <archive href="http://0install.de/files/hosted/monopath-emulator.zip" size="11586" type="application/zip" />
     </implementation>
     <implementation version="4.5" id="netfx-4.5">
-      <command name="run" path="monopath-emulator-win.clr4.exe">
-        <runner interface="http://0install.de/feeds/cli/netfx.xml">
+      <command name="run" path="monopath-emulator.clr4.exe">
+        <runner interface="http://0install.de/feeds/cli/netfx.xml" command="run">
+          <version not-before="4.5" />
+        </runner>
+      </command>
+      <command name="run-gui" path="monopath-emulator-win.clr4.exe">
+        <runner interface="http://0install.de/feeds/cli/netfx.xml" command="run-gui">
           <version not-before="4.5" />
         </runner>
       </command>
@@ -52,7 +77,12 @@
   <group arch="POSIX-*">
     <implementation version="2.0" id="mono-2.0">
       <command name="run">
-        <runner interface="http://0install.de/feeds/cli/mono.xml">
+        <runner interface="http://0install.de/feeds/cli/mono.xml" command="run">
+          <version not-before="1.2" before="2.0" />
+        </runner>
+      </command>
+      <command name="run-gui">
+        <runner interface="http://0install.de/feeds/cli/mono.xml" command="run-gui">
           <version not-before="1.2" before="2.0" />
         </runner>
       </command>
@@ -61,7 +91,12 @@
     </implementation>
     <implementation version="3.0" id="mono-3.0">
       <command name="run">
-        <runner interface="http://0install.de/feeds/cli/mono.xml">
+        <runner interface="http://0install.de/feeds/cli/mono.xml" command="run">
+          <version not-before="2.0" before="2.8" />
+        </runner>
+      </command>
+      <command name="run-gui">
+        <runner interface="http://0install.de/feeds/cli/mono.xml" command="run-gui">
           <version not-before="2.0" before="2.8" />
         </runner>
       </command>
@@ -70,7 +105,12 @@
     </implementation>
     <implementation version="3.5" id="mono-3.5">
       <command name="run">
-        <runner interface="http://0install.de/feeds/cli/mono.xml">
+        <runner interface="http://0install.de/feeds/cli/mono.xml" command="run">
+          <version not-before="2.0" before="2.8" />
+        </runner>
+      </command>
+      <command name="run-gui">
+        <runner interface="http://0install.de/feeds/cli/mono.xml" command="run-gui">
           <version not-before="2.0" before="2.8" />
         </runner>
       </command>
@@ -79,7 +119,12 @@
     </implementation>
     <implementation version="4.0" id="mono-4.0">
       <command name="run">
-        <runner interface="http://0install.de/feeds/cli/mono.xml">
+        <runner interface="http://0install.de/feeds/cli/mono.xml" command="run">
+          <version not-before="2.8" before="3.0" />
+        </runner>
+      </command>
+      <command name="run-gui">
+        <runner interface="http://0install.de/feeds/cli/mono.xml" command="run-gui">
           <version not-before="2.8" before="3.0" />
         </runner>
       </command>
@@ -88,7 +133,12 @@
     </implementation>
     <implementation version="4.5" id="mono-4.5">
       <command name="run">
-        <runner interface="http://0install.de/feeds/cli/mono.xml">
+        <runner interface="http://0install.de/feeds/cli/mono.xml" command="run">
+          <version not-before="3.0" />
+        </runner>
+      </command>
+      <command name="run-gui">
+        <runner interface="http://0install.de/feeds/cli/mono.xml" command="run-gui">
           <version not-before="3.0" />
         </runner>
       </command>

@@ -3,5 +3,9 @@
   <name>.NET Framework Client Profile</name>
   <summary xml:lang="en">a limited version of the .NET Framework from Microsoft</summary>
   <feed src="http://0install.de/feeds/cli/netfx.xml" />
-  <package-implementation package="netfx-client" distributions="Windows" />
+
+  <package-implementation package="netfx-client" distributions="Windows">
+    <!-- There is a seperate GUI version of the Mono executable on Windows. For .NET we treat "run" and "run-gui" exactly the same. -->
+    <command name="run-gui" path="" />
+  </package-implementation>
 </interface>
