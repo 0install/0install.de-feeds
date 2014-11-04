@@ -11,7 +11,7 @@
       <executable-in-path name="MP4Box" />
     </requires>
     <command name="run" path="M4AExtract.exe">
-      <runner interface="http://0install.de/feeds/cli/cli.xml" />
+      <runner interface="http://0install.de/feeds/cli/cli.xml" command="run-gui" />
     </command>
     <implementation version="0.2.0" released="2014-08-31" stability="stable" id="sha1new=7f0a010b7ab2264f7fce07fde9a13fabab9874d0">
       <manifest-digest sha1new="7f0a010b7ab2264f7fce07fde9a13fabab9874d0" sha256="807a54654571a2c86b08e83a634d6b296eb5525148672b8e8c7dcbb6ae51fed4" sha256new="QB5FIZKFOGRMQ2YI5A5GGTLLFFXLKUSRJBTSXDUMPXF3NLSR73KA" />

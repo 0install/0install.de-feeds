@@ -7,7 +7,7 @@
   <category>Utility</category>
   <group license="MIT/X Consortium License">
     <command name="run" path="LightTag.exe">
-      <runner interface="http://0install.de/feeds/cli/cli.xml" />
+      <runner interface="http://0install.de/feeds/cli/cli.xml" command="run-gui" />
     </command>
     <implementation version="0.1.0" released="2014-08-31" stability="stable" id="sha1new=dd9d3d99accf80a8ba34cd83654da5d707db0f3b">
       <manifest-digest sha1new="dd9d3d99accf80a8ba34cd83654da5d707db0f3b" sha256="e889ba659c392a4256b91d3c1b5d101134011fd4a3e6af8ac111fcd4309578ed" sha256new="5CE3UZM4HEVEEVVZDU6BWXIQCE2ACH6UUPTK7CWBCH6NIMEVPDWQ" />

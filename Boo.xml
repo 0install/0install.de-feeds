@@ -12,16 +12,16 @@
   <needs-terminal />
   <group license="MIT/BSD style">
     <command name="run" path="bin/boo.exe">
-      <runner interface="http://0install.de/feeds/cli/cli.xml" />
+      <runner interface="http://0install.de/feeds/cli/cli.xml" command="run" />
     </command>
     <command name="booc" path="bin/booc.exe">
-      <runner interface="http://0install.de/feeds/cli/cli.xml" />
+      <runner interface="http://0install.de/feeds/cli/cli.xml" command="run" />
     </command>
     <command name="booi" path="bin/booi.exe">
-      <runner interface="http://0install.de/feeds/cli/cli.xml" />
+      <runner interface="http://0install.de/feeds/cli/cli.xml" command="run" />
     </command>
     <command name="booish" path="bin/booish.exe">
-      <runner interface="http://0install.de/feeds/cli/cli.xml" />
+      <runner interface="http://0install.de/feeds/cli/cli.xml" command="run" />
     </command>
     <implementation version="0.9.1.3287" released="2009-03-19" stability="stable" id="sha1new=e17c99f30aecd496d58fce56606b2d8c851fd15a">
       <manifest-digest sha1new="e17c99f30aecd496d58fce56606b2d8c851fd15a" sha256="46ece84521d47b0c124faeec49e8142762e4d9bd6c168709700e85739c4b0b0a" sha256new="I3WOQRJB2R5QYESPV3WET2AUE5ROJWN5NQLIOCLQB2CXHHCLBMFA" />

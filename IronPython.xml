@@ -11,10 +11,10 @@
   <group license="The Apache License v2">
     <group arch="Windows-x86_64">
       <command name="run" path="ipy64.exe">
-        <runner interface="http://0install.de/feeds/cli/netfx.xml" />
+        <runner interface="http://0install.de/feeds/cli/netfx.xml" command="run" />
       </command>
       <command name="ipyw" path="ipyw64.exe">
-        <runner interface="http://0install.de/feeds/cli/netfx.xml" />
+        <runner interface="http://0install.de/feeds/cli/netfx.xml" command="run-gui" />
       </command>
       <implementation version="2.6.2" released="2010-10-21" stability="stable" id="v262_x64">
         <manifest-digest sha1new="733f19e64d46ae61841845d880907f8317dac33d" sha256="6cb1b019512da2d93c6917a801d8376628e281f5c0cd522153c575f141daeba7" sha256new="NSY3AGKRFWRNSPDJC6UADWBXMYUOFAPVYDGVEIKTYV27CQO25OTQ" />
@@ -27,10 +27,10 @@
     </group>
     <group>
       <command name="run" path="ipy.exe">
-        <runner interface="http://0install.de/feeds/cli/cli.xml" />
+        <runner interface="http://0install.de/feeds/cli/cli.xml" command="run" />
       </command>
       <command name="ipyw" path="ipyw.exe">
-        <runner interface="http://0install.de/feeds/cli/cli.xml" />
+        <runner interface="http://0install.de/feeds/cli/cli.xml" command="run-gui" />
       </command>
       <implementation version="2.6.2" released="2010-10-21" stability="stable" id="v262_x86">
         <manifest-digest sha1new="733f19e64d46ae61841845d880907f8317dac33d" sha256="6cb1b019512da2d93c6917a801d8376628e281f5c0cd522153c575f141daeba7" sha256new="NSY3AGKRFWRNSPDJC6UADWBXMYUOFAPVYDGVEIKTYV27CQO25OTQ" />

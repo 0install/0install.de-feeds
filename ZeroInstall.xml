@@ -15,19 +15,13 @@ Konzeptuell können Sie sich vorstellen, dass die Software nur auf einem Server 
   <category>Utility</category>
   <group license="LGPL v3 (GNU Lesser General Public License)">
     <command name="run" path="ZeroInstall.exe">
-      <runner interface="http://0install.de/feeds/cli/cli.xml"/>
+      <runner interface="http://0install.de/feeds/cli/cli.xml" command="run-gui"/>
     </command>
     <command name="0install" path="0install.exe">
-      <runner interface="http://0install.de/feeds/cli/cli.xml"/>
+      <runner interface="http://0install.de/feeds/cli/cli.xml" command="run"/>
     </command>
     <command name="0install-win" path="0install-win.exe">
-      <runner interface="http://0install.de/feeds/cli/cli.xml"/>
-    </command>
-    <command name="0store" path="0store.exe">
-      <runner interface="http://0install.de/feeds/cli/cli.xml"/>
-    </command>
-    <command name="0store-win" path="0store-win.exe">
-      <runner interface="http://0install.de/feeds/cli/cli.xml"/>
+      <runner interface="http://0install.de/feeds/cli/cli.xml" command="run-gui"/>
     </command>
     <command name="update">
       <environment insert="." mode="replace" name="ZEROINSTALL_UPDATER_SOURCE"/>

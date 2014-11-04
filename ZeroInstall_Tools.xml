@@ -17,16 +17,16 @@ und der New Feed Wizard (leitet Sie durch den kompletten Feed-Erstellungsprozess
       <environment insert="." name="PATH"/>
     </requires>
     <command name="run" path="0publish-win.exe">
-      <runner interface="http://0install.de/feeds/cli/cli.xml"/>
+      <runner interface="http://0install.de/feeds/cli/cli.xml" command="run-gui"/>
     </command>
     <command name="0capture-win" path="0capture-win.exe">
-      <runner interface="http://0install.de/feeds/cli/cli.xml"/>
+      <runner interface="http://0install.de/feeds/cli/cli.xml" command="run-gui"/>
     </command>
     <command name="0publish" path="0publish.exe">
-      <runner interface="http://0install.de/feeds/cli/cli.xml"/>
+      <runner interface="http://0install.de/feeds/cli/cli.xml" command="run"/>
     </command>
     <command name="0capture" path="0capture.exe">
-      <runner interface="http://0install.de/feeds/cli/cli.xml"/>
+      <runner interface="http://0install.de/feeds/cli/cli.xml" command="run"/>
     </command>
     <implementation id="sha1new=a67d200a5ba1ebfb8d8fabee076d34dc6c0e3b65" released="2012-10-04" stability="stable" version="0.9.2">
       <manifest-digest sha1new="a67d200a5ba1ebfb8d8fabee076d34dc6c0e3b65" sha256="0575664bda2958c9e9b28332790bcf7033e915cde62929dae428b936ff4917ed" sha256new="AV2WMS62FFMMT2NSQMZHSC6POAZ6SFON4YUSTWXEFC4TN72JC7WQ"/>
