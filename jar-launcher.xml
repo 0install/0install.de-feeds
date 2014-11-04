@@ -9,7 +9,13 @@ Workaround for java -classpath ... -jar ... which does not work.</description>
     <requires interface="http://repo.roscidus.com/java/openjdk-jre" version="1.3.." />
     <command name="run">
       <environment name="CLASSPATH" insert="jar-launcher-1.0-SNAPSHOT.jar" />
-      <runner interface="http://repo.roscidus.com/java/openjdk-jre">
+      <runner interface="http://repo.roscidus.com/java/openjdk-jre" command="run">
+        <arg>net.zeroinstall.jar.launcher.JarLauncher</arg>
+      </runner>
+    </command>
+    <command name="run-gui">
+      <environment name="CLASSPATH" insert="jar-launcher-1.0-SNAPSHOT.jar" />
+      <runner interface="http://repo.roscidus.com/java/openjdk-jre" command="run-gui">
         <arg>net.zeroinstall.jar.launcher.JarLauncher</arg>
       </runner>
     </command>

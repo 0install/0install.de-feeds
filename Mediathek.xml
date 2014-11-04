@@ -8,7 +8,7 @@
   <category>AudioVideo</category>
   <group license="GPL v3 (GNU General Public License)">
     <command name="run" path="Mediathek.jar">
-      <runner interface="http://repo.roscidus.com/java/openjdk-jre">
+      <runner interface="http://repo.roscidus.com/java/openjdk-jre" command="run-gui">
         <arg>-jar</arg>
       </runner>
     </command>
@@ -47,7 +47,7 @@
   </group>
   <group license="GPL v3 (GNU General Public License)">
     <command name="run" path="MediathekView.jar">
-      <runner interface="http://repo.roscidus.com/java/openjdk-jre">
+      <runner interface="http://repo.roscidus.com/java/openjdk-jre" command="run-gui">
         <arg>-jar</arg>
       </runner>
     </command>
