@@ -230,4 +230,17 @@ Konzeptuell können Sie sich vorstellen, dass die Software nur auf einem Server 
       <archive href="http://0install.de/files/zero-install-2.6.8.tar.gz" size="7072582"/>
     </implementation>
   </group>
+  <entry-point binary-name="ZeroInstall" command="run">
+    <name xml:lang="en">Zero Install Central</name>
+    <summary xml:lang="en">the main graphical user interface</summary>
+  </entry-point>
+  <entry-point command="0install">
+    <needs-terminal/>
+    <name xml:lang="en">Zero Install Command command-line interface</name>
+    <summary xml:lang="en">command-line interface for Zero Install, for installing and launching applications, managing caches, etc.</summary>
+  </entry-point>
+  <entry-point command="0install-win">
+    <name xml:lang="en">Zero Install Command GUI</name>
+    <summary xml:lang="en">WinForms-based GUI for Zero Install, for installing and launching applications, managing caches, etc.</summary>
+  </entry-point>
 </interface>
