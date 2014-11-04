@@ -2,6 +2,7 @@
 <interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/Oracle_JDK.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>Oracle JDK</name>
   <summary xml:lang="en">official Oracle Java Development Kit</summary>
+  <feed-for interface="http://repo.roscidus.com/java/openjdk-jdk" />
   <needs-terminal />
   <group license="Oracle Binary Code License Agreement for the Java SE Platform Products and JavaFX">
     <command name="run" path="bin/javac.exe" />
