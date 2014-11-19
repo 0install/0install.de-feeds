@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<interface uri="http://0install.de/feeds/FixParts.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <name>FixParts</name>
+  <summary xml:lang="en">text-mode tool designed to correct some common problems with computer partition tables</summary>
+  <homepage>http://www.rodsbooks.com/fixparts/</homepage>
+  <category>System</category>
+  <category>Utility</category>
+  <needs-terminal/>
+  <group license="GPL v2 (GNU General Public License)">
+    <implementation arch="Windows-x86_64" id="sha1new=d3a3a96794baddf9a450a5c790be82c1eddbe02a" main="fixparts64.exe" released="2014-03-02" stability="stable" version="0.8.10">
+      <manifest-digest sha256new="5QJHYQVS7SVL62BEVULSNABTKEGMPPOG2A4NC7XT5AOI5N4XOAEQ"/>
+      <archive href="http://sourceforge.net/projects/gptfdisk/files/gptfdisk/0.8.10/fixparts-binaries/fixparts-windows-0.8.10.zip" size="515827" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=d3a3a96794baddf9a450a5c790be82c1eddbe02a" main="fixparts32.exe" released="2014-03-02" stability="stable" version="0.8.10">
+      <manifest-digest sha256new="5QJHYQVS7SVL62BEVULSNABTKEGMPPOG2A4NC7XT5AOI5N4XOAEQ"/>
+      <archive href="http://sourceforge.net/projects/gptfdisk/files/gptfdisk/0.8.10/fixparts-binaries/fixparts-windows-0.8.10.zip" size="515827" type="application/zip"/>
+    </implementation>
+  </group>
+</interface>
