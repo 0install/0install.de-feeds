@@ -7,11 +7,11 @@
   <group license="GPL v2 (GNU General Public License)">
     <command name="run" path="doxygen.exe"/>
     <command name="doxyindexer" path="doxyindexer.exe"/>
-    <implementation arch="Windows-i486" id="sha1new=982df9a169a417288d8824288ec4878419600bdf" released="2014-08-21" version="1.8.8">
+    <implementation arch="Windows-i486" id="sha1new=982df9a169a417288d8824288ec4878419600bdf" released="2014-08-21" stability="stable" version="1.8.8">
       <manifest-digest sha256new="7IBWQBPELV264SQA5EZR7LIPUADSKJJRSQEVDPV4H4W2REBXJD4Q"/>
       <archive href="http://ftp.stack.nl/pub/users/dimitri/doxygen-1.8.8.windows.bin.zip" size="7431671" type="application/zip"/>
     </implementation>
-    <implementation arch="Windows-x86_64" id="sha1new=35be2eaa94a4316adab6e16b3fa45785566d00c4" released="2014-08-21" version="1.8.8">
+    <implementation arch="Windows-x86_64" id="sha1new=35be2eaa94a4316adab6e16b3fa45785566d00c4" released="2014-08-21" stability="stable" version="1.8.8">
       <manifest-digest sha256new="PUVX4RJFIR57FNZSUHNGJ4GEFC2SFO2OH7UZISKXMG3BVUFLXY5Q"/>
       <archive href="http://ftp.stack.nl/pub/users/dimitri/doxygen-1.8.8.windows.x64.bin.zip" size="9462618" type="application/zip"/>
     </implementation>

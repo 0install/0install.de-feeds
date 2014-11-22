@@ -16,23 +16,23 @@
       <manifest-digest sha256new="LGH75XMX47REY2HBVJKXFNXWYWL4PFDV2FH3HJZ5YFBFEDZTA3IA"/>
       <archive extract="eclipse" href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/luna/SR1/eclipse-standard-luna-SR1-win32-x86_64.zip&amp;r=1" size="214709721" type="application/zip"/>
     </implementation>
-    <implementation arch="Windows-i486" id="sha1new=dfe2f6c24e313403a3dd5a9c2d66f453cfa4bd7c" main="eclipse.exe" released="2014-10-10" version="4.4.1">
+    <implementation arch="Windows-i486" id="sha1new=dfe2f6c24e313403a3dd5a9c2d66f453cfa4bd7c" main="eclipse.exe" released="2014-10-10" stability="stable" version="4.4.1">
       <manifest-digest sha256new="XTA46BYFGE73RSWX64XMHDOKWU7774BT5X2NKYWTAD2NAIZQEEEA"/>
       <archive extract="eclipse" href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/luna/SR1/eclipse-standard-luna-SR1-win32.zip&amp;r=1" size="214665009" type="application/zip"/>
     </implementation>
-    <implementation arch="Linux-x86_64" id="sha1new=5e6df0ef94f41eb6b5c401aa3c851cd48842218b" main="eclipse" released="2014-10-10" version="4.4.1">
+    <implementation arch="Linux-x86_64" id="sha1new=5e6df0ef94f41eb6b5c401aa3c851cd48842218b" main="eclipse" released="2014-10-10" stability="stable" version="4.4.1">
       <manifest-digest sha256new="33TE62TUTV4SFZB3MP4BZX4C6DAC4XZUL6SRT33PWA3ANWH326MQ"/>
       <archive extract="eclipse" href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/luna/SR1/eclipse-standard-luna-SR1-linux-gtk-x86_64.tar.gz&amp;r=1" size="213417453" type="application/x-compressed-tar"/>
     </implementation>
-    <implementation arch="Linux-i586" id="sha1new=e8a902f55fde40ca434ea08666cff1ab1a61b602" main="eclipse" released="2014-10-10" version="4.4.1">
+    <implementation arch="Linux-i586" id="sha1new=e8a902f55fde40ca434ea08666cff1ab1a61b602" main="eclipse" released="2014-10-10" stability="stable" version="4.4.1">
       <manifest-digest sha256new="JVWLNJHEO4PYDYNAUPWO53ROKISNK5474AA3EDM6DLYJIYUW5LFQ"/>
       <archive extract="eclipse" href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/luna/SR1/eclipse-standard-luna-SR1-linux-gtk.tar.gz&amp;r=1" size="213269731" type="application/x-compressed-tar"/>
     </implementation>
-    <implementation arch="MacOSX-x86_64" id="sha1new=c2cb7e431db3623c89eff9bd6fe078ed3d33f79b" main="Eclipse.app/Contents/MacOS/eclipse" released="2014-10-10" version="4.4.1">
+    <implementation arch="MacOSX-x86_64" id="sha1new=c2cb7e431db3623c89eff9bd6fe078ed3d33f79b" main="Eclipse.app/Contents/MacOS/eclipse" released="2014-10-10" stability="stable" version="4.4.1">
       <manifest-digest sha256new="S7OXGJETC2YPLXIXRT7PN56RYNH7ZMZZ5F2TBRJBZ6UZN5CI3WCQ"/>
       <archive extract="eclipse" href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/luna/SR1/eclipse-standard-luna-SR1-macosx-cocoa-x86_64.tar.gz&amp;r=1" size="213322117" type="application/x-compressed-tar"/>
     </implementation>
-    <implementation arch="MacOSX-i686" id="sha1new=f16f21349d1ae4a52fb51f9ad6eab3e0cf03b7dc" main="Eclipse.app/Contents/MacOS/eclipse" released="2014-10-10" version="4.4.1">
+    <implementation arch="MacOSX-i686" id="sha1new=f16f21349d1ae4a52fb51f9ad6eab3e0cf03b7dc" main="Eclipse.app/Contents/MacOS/eclipse" released="2014-10-10" stability="stable" version="4.4.1">
       <manifest-digest sha256new="CUHZOUZDQGJB56RNERSKF74AWV4DAFYXFJNSSVYIPYSTJPYWZFVA"/>
       <archive extract="eclipse" href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/luna/SR1/eclipse-standard-luna-SR1-macosx-cocoa.tar.gz&amp;r=1" size="213460610" type="application/x-compressed-tar"/>
     </implementation>
