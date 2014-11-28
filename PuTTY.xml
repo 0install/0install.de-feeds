@@ -10,7 +10,8 @@
   <icon href="http://0install.de/feed-icons/PuTTY.ico" type="image/vnd.microsoft.icon" />
   <category>Network</category>
   <category>Utility</category>
-  <group arch="Windows-*" license="MIT/X Consortium License">
+  <feed if-0install-version="..!2.6.8" arch="Windows-*" src="http://0install.de/feeds/PuTTY-shim.xml" />
+  <group if-0install-version="2.6.8.." arch="Windows-*" license="MIT/X Consortium License">
     <command name="run" path="PUTTY.EXE" />
     <command name="putty" path="PUTTY.EXE" />
     <command name="puttygen" path="PUTTYGEN.EXE" />
@@ -19,19 +20,19 @@
     <command name="pscp" path="PSCP.EXE" />
     <command name="psftp" path="PSFTP.EXE" />
     <implementation version="0.60" released="2007-04-29" stability="stable" id="sha1new=889b9bf64b02af4f043f886fc05c766513b11d17">
-      <manifest-digest sha1new="889b9bf64b02af4f043f886fc05c766513b11d17" sha256="09f28a72a66bf13a5ce6807b5e903d8d50fe5e0449cb03a5b820219dae1ce243" sha256new="BHZIU4VGNPYTUXHGQB5V5EB5RVIP4XQEJHFQHJNYEAQZ3LQ44JBQ" />
+      <manifest-digest sha1new="f28eb78ac8c30898130fa4ec7074bfceefdfd58b" sha256="695d41bfb11290a6631befd93db76bf6179bcac91f6c71649ca08eca67403f29" sha256new="NFOUDP5RCKIKMYY357MT3N3L6YLZXSWJD5WHCZE4UCHMUZ2AH4UQ" />
       <archive href="http://the.earth.li/~sgtatham/putty/0.60/x86/putty.zip" size="1518921" type="application/zip" />
     </implementation>
     <implementation version="0.61" released="2011-07-12" stability="stable" id="sha1new=18952d37e92783f1a730030f888fb2984f2998b3">
-      <manifest-digest sha1new="18952d37e92783f1a730030f888fb2984f2998b3" sha256="e87ef412c7a78b9c675a2f79b89dc2c61c3c0fbe20a8d56c35538e600d5c9e4d" sha256new="5B7PIEWHU6FZYZ22F543RHOCYYODYD56ECUNK3BVKOHGADK4TZGQ" />
+      <manifest-digest sha1new="fcd8b928e5ade37537a9a53b0fc52407be058fcf" sha256="56dd5b877db5846b6307b746dc7f51a65078e3631294182e7fd681dd0848e4b9" sha256new="K3OVXB35WWCGWYYHW5DNY72RUZIHRY3DCKKBQLT722A52CCI4S4Q" />
       <archive href="http://the.earth.li/~sgtatham/putty/0.61/x86/putty.zip" size="1596372" type="application/zip" />
     </implementation>
-    <implementation version="0.62" released="2011-07-12" stability="stable" id="sha1new=be3532893941f6ff65bf0ab7a379ad90b80d20b2">
-      <manifest-digest sha1new="be3532893941f6ff65bf0ab7a379ad90b80d20b2" sha256="1c8d1ce4b3a97965859e593c7c05ce866d8d623f2d368a34f215e7e38fbc1fe5" sha256new="DSGRZZFTVF4WLBM6LE6HYBOOQZWY2YR7FU3IUNHSCXT6HD54D7SQ" />
+    <implementation version="0.62" released="2011-12-10" stability="stable" id="sha1new=be3532893941f6ff65bf0ab7a379ad90b80d20b2">
+      <manifest-digest sha1new="686b88c1b81de2d834a5a6fe2589f683fcd6fdcf" sha256="4dead360d4b4b787b217ad7b025787cada82e6cbef78b31ca0ff8f493761a8b4" sha256new="JXVNGYGUWS3YPMQXVV5QEV4HZLNIFZWL554LGHFA76HUSN3BVC2A" />
       <archive href="http://the.earth.li/~sgtatham/putty/0.62/x86/putty.zip" size="1597060" type="application/zip" />
     </implementation>
-    <implementation version="0.63" released="2011-07-12" stability="stable" id="sha1new=510fc7fd43faa1a80a110e5c2feb96b04eaa4b34">
-      <manifest-digest sha1new="510fc7fd43faa1a80a110e5c2feb96b04eaa4b34" sha256="4604f931ae871991745b7ef578d38b60ad8013c2e5ef1d02021f7df9b562cc68" sha256new="IYCPSMNOQ4MZC5C3P32XRU4LMCWYAE6C4XXR2AQCD567TNLCZRUA" />
+    <implementation version="0.63" released="2013-08-06" stability="stable" id="sha1new=510fc7fd43faa1a80a110e5c2feb96b04eaa4b34">
+      <manifest-digest sha1new="e6778b3ba7d30cf841b845f299424b3369f8871e" sha256="bd3a8439eedd8a4a6d050366528b03223576e84ca5c70e610ded4b3aeb45bd86" sha256new="XU5IIOPO3WFEU3IFANTFFCYDEI2XN2CMUXDQ4YIN5VFTV22FXWDA" />
       <archive href="http://the.earth.li/~sgtatham/putty/0.63/x86/putty.zip" size="1621853" type="application/zip" />
     </implementation>
   </group>
