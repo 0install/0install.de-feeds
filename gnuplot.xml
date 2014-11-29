@@ -12,7 +12,7 @@
   <category>Utility</category>
   <group license="GPL v2 (GNU General Public License)">
     <command name="run" path="bin/wgnuplot.exe"/>
-    <command name="cli" path="bin/gnuplot.exe"/>
+    <command name="console" path="bin/gnuplot.exe"/>
     <implementation arch="Windows-*" id="sha1new=f9d7518a15456df012b967e00d21c458ca31151b" released="2012-03-12" stability="stable" version="4.6.0">
       <manifest-digest sha1new="f9d7518a15456df012b967e00d21c458ca31151b" sha256="deca15cf952f9e42b589df5e15f7d2dbb0cf1c8aa190400d5de2fc7e28a4c35b" sha256new="33FBLT4VF6PEFNMJ35PBL56S3OYM6HEKUGIEADK54L6H4KFEYNNQ"/>
       <archive extract="gnuplot" href="http://downloads.sourceforge.net/gnuplot/gp460win32.zip" size="12580915" type="application/zip"/>
