@@ -15,13 +15,13 @@ Konzeptuell können Sie sich vorstellen, dass die Software nur auf einem Server 
   <category>Utility</category>
   <group license="LGPL v3 (GNU Lesser General Public License)">
     <command name="run" path="ZeroInstall.exe">
-      <runner interface="http://0install.de/feeds/cli/cli.xml" command="run-gui"/>
+      <runner command="run-gui" interface="http://0install.de/feeds/cli/cli.xml"/>
     </command>
     <command name="0install" path="0install.exe">
-      <runner interface="http://0install.de/feeds/cli/cli.xml" command="run"/>
+      <runner command="run" interface="http://0install.de/feeds/cli/cli.xml"/>
     </command>
     <command name="0install-win" path="0install-win.exe">
-      <runner interface="http://0install.de/feeds/cli/cli.xml" command="run-gui"/>
+      <runner command="run-gui" interface="http://0install.de/feeds/cli/cli.xml"/>
     </command>
     <command name="update">
       <environment insert="." mode="replace" name="ZEROINSTALL_UPDATER_SOURCE"/>
@@ -229,6 +229,14 @@ Konzeptuell können Sie sich vorstellen, dass die Software nur auf einem Server 
       <manifest-digest sha256new="HSDCDV5IMZAVMYJRLAYIPXFEB7P5ZXDC4WK4L6O2BALIXCD2VXAA"/>
       <archive href="http://0install.de/files/zero-install-2.6.8.tar.gz" size="7072582"/>
     </implementation>
+    <group>
+      <environment mode="replace" name="ZEROINSTALL_VERSION" value="2.6.9"/>
+      <implementation id="sha1new=da411f11f75695ceb6f62cb311ee1f8dc03b909d" released="2014-11-30" stability="stable" version="2.6.9">
+        <environment mode="replace" name="ZEROINSTALL_VERSION" value="2.6.9"/>
+        <manifest-digest sha256new="LVKFJZRQL7E53QGOARXKORBPAL4C2N22CU4MQZH4HBRDTCQO3BOQ"/>
+        <archive href="http://0install.de/files/zero-install-2.6.9.tar.gz" size="7080230"/>
+      </implementation>
+    </group>
   </group>
   <entry-point binary-name="ZeroInstall" command="run">
     <name xml:lang="en">Zero Install Central</name>
