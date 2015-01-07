@@ -19,14 +19,18 @@
       <executable-in-path name="notepad++"/>
     </requires>
     <command name="run" path="GitExtensions.exe">
-      <runner interface="http://0install.de/feeds/cli/cli.xml" command="run-gui"/>
+      <runner command="run-gui" interface="http://0install.de/feeds/cli/cli.xml"/>
     </command>
     <command name="translate" path="TranslateApp.exe">
-      <runner interface="http://0install.de/feeds/cli/cli.xml" command="run-gui"/>
+      <runner command="run-gui" interface="http://0install.de/feeds/cli/cli.xml"/>
     </command>
     <implementation id="sha1new=f341da9df56a0fbb7afdb4eaaa606b476c4eb357" released="2014-08-19" stability="stable" version="2.48">
       <manifest-digest sha256new="QVN3SXBJ35JCT3Q3SJUY4ZZ4GYCHRV6G265TJTPXVQPO2X6U2WNA"/>
       <archive extract="GitExtensions" href="http://downloads.sourceforge.net/gitextensions/GitExtensions-2.48-Mono.zip" size="7515572" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=d4aebdaa157dc72bbac166187010b8a9883481ff" released="2014-11-28" stability="stable" version="2.48.02">
+      <manifest-digest sha256new="PK3O34PV4MDULMDM2VE42JV57Z2E4G3O7C5HGP6TT64XE6OVQMEA"/>
+      <archive extract="GitExtensions" href="http://downloads.sourceforge.net/gitextensions/GitExtensions-2.48.02-Mono.zip" size="7516888" type="application/zip"/>
     </implementation>
   </group>
   <entry-point binary-name="GitExtensions" command="run">
