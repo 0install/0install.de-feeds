@@ -15,6 +15,14 @@
       <manifest-digest sha256new="PUVX4RJFIR57FNZSUHNGJ4GEFC2SFO2OH7UZISKXMG3BVUFLXY5Q"/>
       <archive href="http://ftp.stack.nl/pub/users/dimitri/doxygen-1.8.8.windows.x64.bin.zip" size="9462618" type="application/zip"/>
     </implementation>
+    <implementation arch="Windows-i486" id="sha1new=27c7aec3cb8492a5077b3f514095db410fdca3cf" released="2015-01-04" stability="stable" version="1.8.9.1">
+      <manifest-digest sha256new="6LW7Q5HNNNVPTR5O3YUCAWWKGHTNO66665UM5KZFJIPPV66JCW2Q"/>
+      <archive href="http://ftp.stack.nl/pub/users/dimitri/doxygen-1.8.9.1.windows.bin.zip" size="7413966" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=483905df26d28c5a3ed90bbda8cd336f0eca7902" released="2015-01-04" stability="stable" version="1.8.9.1">
+      <manifest-digest sha256new="LP6N67XHOI3OVEZXDMQRVHEWZ5N2WCMLBC5RWFFTJLHLRORMATVA"/>
+      <archive href="http://ftp.stack.nl/pub/users/dimitri/doxygen-1.8.9.1.windows.x64.bin.zip" size="9559908" type="application/zip"/>
+    </implementation>
   </group>
   <entry-point binary-name="doxygen" command="run">
     <name xml:lang="en">Doxygen</name>
