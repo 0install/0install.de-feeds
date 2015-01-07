@@ -45,6 +45,10 @@
       <manifest-digest sha256new="GRWAZ5PWMOOHDQAQWT55JOVUOONXEA4HOVT2PAAUTTFEON7LGWCQ"/>
       <archive extract="apache-maven-3.2.3" href="http://archive.apache.org/dist/maven/maven-3/3.2.3/binaries/apache-maven-3.2.3-bin.tar.gz" size="6956162" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation id="sha1new=4468bfd40d0a08f00255cf073023de778c492c74" released="2014-12-20" stability="stable" version="3.2.5">
+      <manifest-digest sha256new="ODD3GBRJ37YCUVFV53WQ2SILOSE6ZGR2U5C7DB2USUOKWL4WDGJA"/>
+      <archive extract="apache-maven-3.2.5" href="http://archive.apache.org/dist/maven/maven-3/3.2.5/binaries/apache-maven-3.2.5-bin.tar.gz" size="7956528" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
   <entry-point binary-name="mvn" command="run"/>
 </interface>
