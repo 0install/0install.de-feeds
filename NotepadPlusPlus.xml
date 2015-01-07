@@ -158,6 +158,34 @@
         <remove path="doLocalConf.xml"/>
       </recipe>
     </implementation>
+    <implementation id="sha1new=2d91a8bbd34c1f6e201c3f420bd3e8b0b1da97a4" released="2014-12-14" stability="stable" version="6.7">
+      <manifest-digest sha256new="WRXO5Q6AMAQHVENV4MQOSCDZ4EJIOQGDLP2BJAV6RDXUXYY35GUA"/>
+      <recipe>
+        <archive href="http://download.tuxfamily.org/notepadplus/6.7/npp.6.7.bin.zip" size="6722373" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
+    <implementation id="sha1new=65d7de738f10421111fdc7179165af25f0124395" released="2014-12-21" stability="stable" version="6.7.1">
+      <manifest-digest sha256new="25TGG6U5UWUZSUXFFYJGQXAMUZACCWLRIN4RGL3QCVXP2ZFWBJOQ"/>
+      <recipe>
+        <archive href="http://download.tuxfamily.org/notepadplus/6.7.1/npp.6.7.1.bin.zip" size="6733148" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
+    <implementation id="sha1new=afd496cee5660f310523691343423a09e60b1524" released="2015-01-01" stability="stable" version="6.7.3">
+      <manifest-digest sha256new="INEXOMAL5KJFPZCU2HTIG6XT3PTV3HJYLGV26CHLFYYSFWZ6Y2PQ"/>
+      <recipe>
+        <archive href="http://download.tuxfamily.org/notepadplus/6.7.3/npp.6.7.3.bin.zip" size="6739222" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
+    <implementation id="sha1new=761ecb3bd0983050c75dabc8ea5f0c9ad1df39b6" released="2014-12-27" stability="stable" version="6.7.2">
+      <manifest-digest sha256new="2WLHJOR3JNVTCO4A3Y4TZBBNQXAYYL42XGKG6MQ64AELXFXU7D2A"/>
+      <recipe>
+        <archive href="http://download.tuxfamily.org/notepadplus/6.7.2/npp.6.7.2.bin.zip" size="6732599" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
   </group>
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
     <file-type id="Notepad++_textfile">
