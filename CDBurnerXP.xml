@@ -232,6 +232,20 @@
         <archive href="http://us.un4seen.com/files/z/2/bass_aac24.zip" size="312174" type="application/zip"/>
       </recipe>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=48e67ed062180a6586cfeaa113ef15ce046a3124" released="2014-10-19" stability="stable" version="4.5.4.5143">
+      <manifest-digest sha256new="TJVYT5CJRO3DDLB36J2X72W57CQ5QOSMWQ5FRKAH446Z3PHHX7GQ"/>
+      <recipe>
+        <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.4.5143.zip" size="6685822" type="application/zip"/>
+        <archive extract="x64" href="http://us.un4seen.com/files/z/2/bass_aac24.zip" size="312020" type="application/zip"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=011b46855b68be7673c3acaf2ee5ad433a0ecad9" released="2014-10-19" stability="stable" version="4.5.4.5143">
+      <manifest-digest sha256new="ZPCND42F55JPCFRSAGXNKFR6MUAAJGPAGDGYVBKS26TJHS2MHTOA"/>
+      <recipe>
+        <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.4.5143.zip" size="6421266" type="application/zip"/>
+        <archive href="http://us.un4seen.com/files/z/2/bass_aac24.zip" size="312020" type="application/zip"/>
+      </recipe>
+    </implementation>
   </group>
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
     <registration capability-reg-path="Software\Canneverbe Limited\CDBurnerXP\Capabilities" id="CDBurnerXP"/>
