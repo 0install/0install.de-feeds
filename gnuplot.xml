@@ -29,6 +29,10 @@
       <manifest-digest sha256new="CGNQH572RZOO23YTVRJV7PAX2RF5NUAG3B2FRC2MUSZU2RJHNURQ"/>
       <archive extract="gnuplot" href="http://downloads.sourceforge.net/gnuplot/gp466-win32.zip" size="18619570" type="application/zip"/>
     </implementation>
+    <implementation arch="Windows-*" id="sha1new=09792d532826fad85f0ff39c18690fa8699bf156" released="2015-01-01" stability="stable" version="5.0.0">
+      <manifest-digest sha256new="EK2SG2GL3CDZTQIBZKLHHZNS2TSET526RAIWE2MBDMN7XWJJDDGA"/>
+      <archive extract="gnuplot" href="http://downloads.sourceforge.net/gnuplot/gp500-win32-mingw.zip" size="32246165" type="application/zip"/>
+    </implementation>
   </group>
   <package-implementation arch="Linux-*" distributions="Debian Gentoo Ports RPM Slack" main="/usr/bin/gnuplot" package="gnuplot"/>
   <entry-point binary-name="wgnuplot" command="run">
