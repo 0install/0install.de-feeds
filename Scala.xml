@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/Scala.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<?xml version="1.0" ?>
+<interface uri="http://0install.de/feeds/Scala.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
   <name>Scala</name>
   <summary xml:lang="en">functional and object-oriented programming language</summary>
   <summary xml:lang="de">funktionale und objektorientierte Programmiersprache</summary>
   <description xml:lang="en">Scala is a functional and object-oriented programming language based on the Java Virtual Machine.</description>
   <description xml:lang="de">Scala ist eine funktionale und objektorientierte Programmiersprache auf Basis der Java Virtual Machine.</description>
   <homepage>http://www.scala-lang.org/</homepage>
-  <icon href="http://0install.de/feed-icons/Scala.png" type="image/png" />
-  <icon href="http://0install.de/feed-icons/Scala.ico" type="image/vnd.microsoft.icon" />
+  <icon href="http://0install.de/feed-icons/Scala.png" type="image/png"/>
+  <icon href="http://0install.de/feed-icons/Scala.ico" type="image/vnd.microsoft.icon"/>
   <category>Development</category>
-  <needs-terminal />
+  <needs-terminal/>
   <group license="Scala">
-    <environment name="SCALA_HOME" insert="." mode="replace" />
+    <environment insert="." mode="replace" name="SCALA_HOME"/>
     <command name="run">
       <runner interface="http://repo.roscidus.com/java/openjdk-jre">
         <arg>-Xmx256M</arg>
@@ -57,72 +57,76 @@
       </runner>
     </command>
     <group>
-      <environment name="_TOOL_CLASSPATH" insert="lib/jline.jar" mode="replace" />
-      <environment name="_TOOL_CLASSPATH" insert="lib/scala-compiler.jar" mode="append" />
-      <environment name="_TOOL_CLASSPATH" insert="lib/scala-dbc.jar" mode="append" />
-      <environment name="_TOOL_CLASSPATH" insert="lib/scala-library.jar" mode="append" />
-      <environment name="_TOOL_CLASSPATH" insert="lib/scalap.jar" mode="append" />
-      <environment name="_TOOL_CLASSPATH" insert="lib/scala-swing.jar" mode="append" />
-      <implementation version="2.8.2" released="2011-09-27" stability="stable" id="sha1new=2dbe97ea6ae38a41eda9d21b29d9687d7b219367">
-        <manifest-digest sha1new="2dbe97ea6ae38a41eda9d21b29d9687d7b219367" sha256="84a9658ccd2f9a74059729e3c8ba2f58222d03bdf54ae20b907f6c4d1ae578c8" sha256new="QSUWLDGNF6NHIBMXFHR4RORPLARC2A556VFOEC4QP5WE2GXFPDEA" />
-        <archive href="http://www.scala-lang.org/files/archive/scala-2.8.2.final.tgz" size="20430705" type="application/x-compressed-tar" extract="scala-2.8.2.final" />
+      <environment insert="lib/jline.jar" mode="replace" name="_TOOL_CLASSPATH"/>
+      <environment insert="lib/scala-compiler.jar" mode="append" name="_TOOL_CLASSPATH"/>
+      <environment insert="lib/scala-dbc.jar" mode="append" name="_TOOL_CLASSPATH"/>
+      <environment insert="lib/scala-library.jar" mode="append" name="_TOOL_CLASSPATH"/>
+      <environment insert="lib/scalap.jar" mode="append" name="_TOOL_CLASSPATH"/>
+      <environment insert="lib/scala-swing.jar" mode="append" name="_TOOL_CLASSPATH"/>
+      <implementation id="sha1new=2dbe97ea6ae38a41eda9d21b29d9687d7b219367" released="2011-09-27" stability="stable" version="2.8.2">
+        <manifest-digest sha1new="2dbe97ea6ae38a41eda9d21b29d9687d7b219367" sha256="84a9658ccd2f9a74059729e3c8ba2f58222d03bdf54ae20b907f6c4d1ae578c8" sha256new="QSUWLDGNF6NHIBMXFHR4RORPLARC2A556VFOEC4QP5WE2GXFPDEA"/>
+        <archive extract="scala-2.8.2.final" href="http://www.scala-lang.org/files/archive/scala-2.8.2.final.tgz" size="20430705" type="application/x-compressed-tar"/>
       </implementation>
-      <implementation version="2.9.0" released="2011-05-12" stability="stable" id="sha1new=1c3eaf14f7f45ceeb7045ce5b42f8d07bcd8ed79">
-        <manifest-digest sha1new="1c3eaf14f7f45ceeb7045ce5b42f8d07bcd8ed79" sha256="eb9ed0af0dea0f77f546d94e5e7fe3cc5168758e2f92e1e9eb2b0bb0766f98fa" sha256new="5OPNBLYN5IHXP5KG3FHF477DZRIWQ5MOF6JOD2PLFMF3A5TPTD5A" />
-        <archive href="http://www.scala-lang.org/files/archive/scala-2.9.0.final.tgz" size="25358518" type="application/x-compressed-tar" extract="scala-2.9.0.final" />
+      <implementation id="sha1new=1c3eaf14f7f45ceeb7045ce5b42f8d07bcd8ed79" released="2011-05-12" stability="stable" version="2.9.0">
+        <manifest-digest sha1new="1c3eaf14f7f45ceeb7045ce5b42f8d07bcd8ed79" sha256="eb9ed0af0dea0f77f546d94e5e7fe3cc5168758e2f92e1e9eb2b0bb0766f98fa" sha256new="5OPNBLYN5IHXP5KG3FHF477DZRIWQ5MOF6JOD2PLFMF3A5TPTD5A"/>
+        <archive extract="scala-2.9.0.final" href="http://www.scala-lang.org/files/archive/scala-2.9.0.final.tgz" size="25358518" type="application/x-compressed-tar"/>
       </implementation>
-      <implementation version="2.9.1" released="2011-08-31" stability="stable" id="sha1new=992cccec69afd9dba5068ca1a41787e18bebb5a7">
-        <manifest-digest sha1new="992cccec69afd9dba5068ca1a41787e18bebb5a7" sha256="1df1b5f4ac0b7a56654f0652266eacde6fef7db6b0cf498086e537f46fe31faa" sha256new="DXY3L5FMBN5FMZKPAZJCM3VM3ZX667NWWDHUTAEG4U37I37DD6VA" />
-        <archive href="http://www.scala-lang.org/files/archive/scala-2.9.1.final.tgz" size="24993458" type="application/x-compressed-tar" extract="scala-2.9.1.final" />
+      <implementation id="sha1new=992cccec69afd9dba5068ca1a41787e18bebb5a7" released="2011-08-31" stability="stable" version="2.9.1">
+        <manifest-digest sha1new="992cccec69afd9dba5068ca1a41787e18bebb5a7" sha256="1df1b5f4ac0b7a56654f0652266eacde6fef7db6b0cf498086e537f46fe31faa" sha256new="DXY3L5FMBN5FMZKPAZJCM3VM3ZX667NWWDHUTAEG4U37I37DD6VA"/>
+        <archive extract="scala-2.9.1.final" href="http://www.scala-lang.org/files/archive/scala-2.9.1.final.tgz" size="24993458" type="application/x-compressed-tar"/>
       </implementation>
-      <implementation version="2.9.1-1" released="2012-03-04" stability="stable" id="sha1new=5e2a8abf146563fa1e10fd03da387be2aa967ee9">
-        <manifest-digest sha1new="5e2a8abf146563fa1e10fd03da387be2aa967ee9" sha256="5271526851849dc69291a562243611a32f8ed26740c41270008e67cd829a4f92" sha256new="KJYVE2CRQSO4NEURUVRCINQRUMXY5UTHIDCBE4AARZT43AU2J6JA" />
-        <archive href="http://www.scala-lang.org/files/archive/scala-2.9.1-1.tgz" size="43489403" type="application/x-compressed-tar" extract="scala-2.9.1-1" />
+      <implementation id="sha1new=5e2a8abf146563fa1e10fd03da387be2aa967ee9" released="2012-03-04" stability="stable" version="2.9.1-1">
+        <manifest-digest sha1new="5e2a8abf146563fa1e10fd03da387be2aa967ee9" sha256="5271526851849dc69291a562243611a32f8ed26740c41270008e67cd829a4f92" sha256new="KJYVE2CRQSO4NEURUVRCINQRUMXY5UTHIDCBE4AARZT43AU2J6JA"/>
+        <archive extract="scala-2.9.1-1" href="http://www.scala-lang.org/files/archive/scala-2.9.1-1.tgz" size="43489403" type="application/x-compressed-tar"/>
       </implementation>
-      <implementation version="2.9.2" released="2012-04-14" stability="stable" id="sha1new=a34c1bf399cf8be7866473fe4e20f809be2919dd">
-        <manifest-digest sha1new="a34c1bf399cf8be7866473fe4e20f809be2919dd" sha256="609f5786555f176f9a207f02e5144daa8bb549c49695b13e1c515929fc0c31d8" sha256new="MCPVPBSVL4LW7GRAP4BOKFCNVKF3KSOES2K3CPQ4KFMST7AMGHMA" />
-        <archive href="http://www.scala-lang.org/files/archive/scala-2.9.2.tgz" size="24408278" type="application/x-compressed-tar" extract="scala-2.9.2" />
+      <implementation id="sha1new=a34c1bf399cf8be7866473fe4e20f809be2919dd" released="2012-04-14" stability="stable" version="2.9.2">
+        <manifest-digest sha1new="a34c1bf399cf8be7866473fe4e20f809be2919dd" sha256="609f5786555f176f9a207f02e5144daa8bb549c49695b13e1c515929fc0c31d8" sha256new="MCPVPBSVL4LW7GRAP4BOKFCNVKF3KSOES2K3CPQ4KFMST7AMGHMA"/>
+        <archive extract="scala-2.9.2" href="http://www.scala-lang.org/files/archive/scala-2.9.2.tgz" size="24408278" type="application/x-compressed-tar"/>
       </implementation>
     </group>
     <group>
-      <environment name="_TOOL_CLASSPATH" insert="lib/jline.jar" mode="replace" />
-      <environment name="_TOOL_CLASSPATH" insert="lib/scala-actors.jar" mode="append" />
-      <environment name="_TOOL_CLASSPATH" insert="lib/scala-actors-migration.jar" mode="append" />
-      <environment name="_TOOL_CLASSPATH" insert="lib/scala-compiler.jar" mode="append" />
-      <environment name="_TOOL_CLASSPATH" insert="lib/scala-library.jar" mode="append" />
-      <environment name="_TOOL_CLASSPATH" insert="lib/scalap.jar" mode="append" />
-      <environment name="_TOOL_CLASSPATH" insert="lib/scala-partest.jar" mode="append" />
-      <environment name="_TOOL_CLASSPATH" insert="lib/scala-reflect.jar" mode="append" />
-      <environment name="_TOOL_CLASSPATH" insert="lib/scala-swing.jar" mode="append" />
-      <environment name="_TOOL_CLASSPATH" insert="lib/typesafe-config.jar" mode="append" />
-      <environment name="_TOOL_CLASSPATH" insert="lib/akka-actors.jar" mode="append" />
-      <implementation version="2.10.0" released="2013-01-04" stability="stable" id="sha1new=390c9acd9e2dcb648e072964cffeb306f7555ba0">
-        <manifest-digest sha1new="390c9acd9e2dcb648e072964cffeb306f7555ba0" sha256="7ed2b6ead0766f8bbcbefb63bec76e83bff32dd9fbd506ac52afba5b618ca286" sha256new="P3JLN2WQOZXYXPF67NR35R3OQO77GLOZ7PKQNLCSV65FWYMMUKDA" />
-        <archive href="http://www.scala-lang.org/files/archive/scala-2.10.0.tgz" size="29856741" type="application/x-compressed-tar" extract="scala-2.10.0" />
+      <environment insert="lib/jline.jar" mode="replace" name="_TOOL_CLASSPATH"/>
+      <environment insert="lib/scala-actors.jar" mode="append" name="_TOOL_CLASSPATH"/>
+      <environment insert="lib/scala-actors-migration.jar" mode="append" name="_TOOL_CLASSPATH"/>
+      <environment insert="lib/scala-compiler.jar" mode="append" name="_TOOL_CLASSPATH"/>
+      <environment insert="lib/scala-library.jar" mode="append" name="_TOOL_CLASSPATH"/>
+      <environment insert="lib/scalap.jar" mode="append" name="_TOOL_CLASSPATH"/>
+      <environment insert="lib/scala-partest.jar" mode="append" name="_TOOL_CLASSPATH"/>
+      <environment insert="lib/scala-reflect.jar" mode="append" name="_TOOL_CLASSPATH"/>
+      <environment insert="lib/scala-swing.jar" mode="append" name="_TOOL_CLASSPATH"/>
+      <environment insert="lib/typesafe-config.jar" mode="append" name="_TOOL_CLASSPATH"/>
+      <environment insert="lib/akka-actors.jar" mode="append" name="_TOOL_CLASSPATH"/>
+      <implementation id="sha1new=390c9acd9e2dcb648e072964cffeb306f7555ba0" released="2013-01-04" stability="stable" version="2.10.0">
+        <manifest-digest sha1new="390c9acd9e2dcb648e072964cffeb306f7555ba0" sha256="7ed2b6ead0766f8bbcbefb63bec76e83bff32dd9fbd506ac52afba5b618ca286" sha256new="P3JLN2WQOZXYXPF67NR35R3OQO77GLOZ7PKQNLCSV65FWYMMUKDA"/>
+        <archive extract="scala-2.10.0" href="http://www.scala-lang.org/files/archive/scala-2.10.0.tgz" size="29856741" type="application/x-compressed-tar"/>
       </implementation>
-      <implementation version="2.10.3" released="2013-01-04" stability="stable" id="sha1new=778d369f1af2bc1f802af05cc584b9e23b75e9fd">
-        <manifest-digest sha1new="778d369f1af2bc1f802af05cc584b9e23b75e9fd" sha256="119c4d6d1ac6be3d0f5f5f985592470839792e7a9c0cf4167289d89e54061c24" sha256new="CGOE23I2Y27D2D27L6MFLESHBA4XSLT2TQGPIFTSRHMJ4VAGDQSA" />
-        <archive href="http://www.scala-lang.org/files/archive/scala-2.10.3.tgz" size="30531249" type="application/x-compressed-tar" extract="scala-2.10.3" />
+      <implementation id="sha1new=778d369f1af2bc1f802af05cc584b9e23b75e9fd" released="2013-01-04" stability="stable" version="2.10.3">
+        <manifest-digest sha1new="778d369f1af2bc1f802af05cc584b9e23b75e9fd" sha256="119c4d6d1ac6be3d0f5f5f985592470839792e7a9c0cf4167289d89e54061c24" sha256new="CGOE23I2Y27D2D27L6MFLESHBA4XSLT2TQGPIFTSRHMJ4VAGDQSA"/>
+        <archive extract="scala-2.10.3" href="http://www.scala-lang.org/files/archive/scala-2.10.3.tgz" size="30531249" type="application/x-compressed-tar"/>
       </implementation>
-      <implementation version="2.10.4" stability="stable" id="sha1new=7a95d3c2611bfae22a2e5eaf6280f8c3dc916671">
-        <manifest-digest sha1new="7a95d3c2611bfae22a2e5eaf6280f8c3dc916671" sha256="3da4a4d22cedfeef113b3c32a5773bd75ac707972d65cf164f90e1d6d353b9c9" sha256new="HWSKJURM5X7O6EJ3HQZKK5Z325NMOB4XFVS46FSPSDQ5NU2TXHEQ" />
-        <archive href="http://www.scala-lang.org/files/archive/scala-2.10.4.tgz" size="29937534" type="application/x-compressed-tar" extract="scala-2.10.4" />
+      <implementation id="sha1new=7a95d3c2611bfae22a2e5eaf6280f8c3dc916671" stability="stable" version="2.10.4">
+        <manifest-digest sha1new="7a95d3c2611bfae22a2e5eaf6280f8c3dc916671" sha256="3da4a4d22cedfeef113b3c32a5773bd75ac707972d65cf164f90e1d6d353b9c9" sha256new="HWSKJURM5X7O6EJ3HQZKK5Z325NMOB4XFVS46FSPSDQ5NU2TXHEQ"/>
+        <archive extract="scala-2.10.4" href="http://www.scala-lang.org/files/archive/scala-2.10.4.tgz" size="29937534" type="application/x-compressed-tar"/>
       </implementation>
-      <implementation version="2.11.0" stability="stable" id="sha1new=9d4d0ddb99ae9a889eaa46fb97ee7c303aff5801">
-        <manifest-digest sha1new="9d4d0ddb99ae9a889eaa46fb97ee7c303aff5801" sha256="5b2203aedf763f46a6a5ace88d5e47e7919a45cc481968493f2e33a265d51268" sha256new="LMRAHLW7OY7UNJVFVTUI2XSH46IZUROMJAMWQSJ7FYZ2EZOVCJUA" />
-        <archive href="http://www.scala-lang.org/files/archive/scala-2.11.0.tgz" size="26007395" type="application/x-compressed-tar" extract="scala-2.11.0" />
+      <implementation id="sha1new=9d4d0ddb99ae9a889eaa46fb97ee7c303aff5801" stability="stable" version="2.11.0">
+        <manifest-digest sha1new="9d4d0ddb99ae9a889eaa46fb97ee7c303aff5801" sha256="5b2203aedf763f46a6a5ace88d5e47e7919a45cc481968493f2e33a265d51268" sha256new="LMRAHLW7OY7UNJVFVTUI2XSH46IZUROMJAMWQSJ7FYZ2EZOVCJUA"/>
+        <archive extract="scala-2.11.0" href="http://www.scala-lang.org/files/archive/scala-2.11.0.tgz" size="26007395" type="application/x-compressed-tar"/>
       </implementation>
-      <implementation version="2.11.1" stability="stable" id="sha1new=939cd1adedc0383c67fcc984dcff369058b38ab6">
-        <manifest-digest sha1new="939cd1adedc0383c67fcc984dcff369058b38ab6" sha256="b3724eee43e668f4e02f94bfa9eea01706d9407f1702ed16e34fe87143a95a7f" sha256new="WNZE53SD4ZUPJYBPSS72T3VAC4DNSQD7C4BO2FXDJ7UHCQ5JLJ7Q" />
-        <archive href="http://www.scala-lang.org/files/archive/scala-2.11.1.tgz" size="25685521" type="application/x-compressed-tar" extract="scala-2.11.1" />
+      <implementation id="sha1new=939cd1adedc0383c67fcc984dcff369058b38ab6" stability="stable" version="2.11.1">
+        <manifest-digest sha1new="939cd1adedc0383c67fcc984dcff369058b38ab6" sha256="b3724eee43e668f4e02f94bfa9eea01706d9407f1702ed16e34fe87143a95a7f" sha256new="WNZE53SD4ZUPJYBPSS72T3VAC4DNSQD7C4BO2FXDJ7UHCQ5JLJ7Q"/>
+        <archive extract="scala-2.11.1" href="http://www.scala-lang.org/files/archive/scala-2.11.1.tgz" size="25685521" type="application/x-compressed-tar"/>
       </implementation>
-      <implementation version="2.11.2" stability="stable" id="sha1new=64018cb91ca11ce249b4473e315a198d3e50ce38">
-        <manifest-digest sha1new="64018cb91ca11ce249b4473e315a198d3e50ce38" sha256="00f3f8b12bc9677567c07c83a25d90261f1c0711be18dee930a440390c487ea5" sha256new="ADZ7RMJLZFTXKZ6APSB2EXMQEYPRYBYRXYMN52JQURADSDCIP2SQ" />
-        <archive href="http://www.scala-lang.org/files/archive/scala-2.11.2.tgz" size="26488789" type="application/x-compressed-tar" extract="scala-2.11.2" />
+      <implementation id="sha1new=64018cb91ca11ce249b4473e315a198d3e50ce38" stability="stable" version="2.11.2">
+        <manifest-digest sha1new="64018cb91ca11ce249b4473e315a198d3e50ce38" sha256="00f3f8b12bc9677567c07c83a25d90261f1c0711be18dee930a440390c487ea5" sha256new="ADZ7RMJLZFTXKZ6APSB2EXMQEYPRYBYRXYMN52JQURADSDCIP2SQ"/>
+        <archive extract="scala-2.11.2" href="http://www.scala-lang.org/files/archive/scala-2.11.2.tgz" size="26488789" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=18c1f7cbb7777b06fcb9148277d19dafb9725ec4" released="2014-10-31" stability="stable" version="2.11.4">
+        <manifest-digest sha256new="SOCEBTR65KMH7WXZVFBRBV7PHRYIM5YQ4SP7ZFSDV3CPLIZKU4LA"/>
+        <archive extract="scala-2.11.4" href="http://www.scala-lang.org/files/archive/scala-2.11.4.tgz" size="26509669" type="application/x-compressed-tar"/>
       </implementation>
     </group>
   </group>
-  <entry-point command="run" binary-name="scala">
+  <entry-point binary-name="scala" command="run">
     <name xml:lang="en">Scala interpreter</name>
   </entry-point>
   <entry-point command="scalac">
@@ -137,8 +141,8 @@
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
     <file-type id="Scala.Code">
       <description xml:lang="en">Scala Code File</description>
-      <verb name="open" args="&quot;%1&quot;" />
-      <extension value=".scala" />
+      <verb args="&quot;%1&quot;" name="open"/>
+      <extension value=".scala"/>
     </file-type>
   </capabilities>
 </interface>
