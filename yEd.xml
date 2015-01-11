@@ -1,66 +1,69 @@
-<?xml version="1.0" encoding="utf-8"?>
-<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/yEd.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<?xml version="1.0" ?>
+<interface uri="http://0install.de/feeds/yEd.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
   <name>yEd Graph Editor</name>
   <summary xml:lang="en">quickly and effectively generate high-quality diagrams</summary>
   <homepage>http://www.yworks.com/</homepage>
-  <icon href="http://0install.de/feed-icons/yEd.png" type="image/png" />
-  <icon href="http://0install.de/feed-icons/yEd.ico" type="image/vnd.microsoft.icon" />
+  <icon href="http://0install.de/feed-icons/yEd.png" type="image/png"/>
+  <icon href="http://0install.de/feed-icons/yEd.ico" type="image/vnd.microsoft.icon"/>
   <category>Graphics</category>
   <group>
     <command name="run" path="yed.jar">
-      <runner interface="http://repo.roscidus.com/java/openjdk-jre" command="run-gui">
+      <runner command="run-gui" interface="http://repo.roscidus.com/java/openjdk-jre">
         <arg>-jar</arg>
       </runner>
     </command>
-    <implementation version="3.11.1" stability="stable" id="sha1new=96f959851752eb7aada6095c6d3340ed74b9c856">
-      <manifest-digest sha1new="96f959851752eb7aada6095c6d3340ed74b9c856" sha256="fcc874a235cbb02eb0c2f915b5fe5ed5341646e2a18118aa6112f5fed8467489" sha256new="7TEHJIRVZOYC5MGC7EK3L7S62U2BMRXCUGARRKTBCL275WCGOSEQ" />
+    <implementation id="sha1new=96f959851752eb7aada6095c6d3340ed74b9c856" stability="stable" version="3.11.1">
+      <manifest-digest sha1new="96f959851752eb7aada6095c6d3340ed74b9c856" sha256="fcc874a235cbb02eb0c2f915b5fe5ed5341646e2a18118aa6112f5fed8467489" sha256new="7TEHJIRVZOYC5MGC7EK3L7S62U2BMRXCUGARRKTBCL275WCGOSEQ"/>
     </implementation>
-    <implementation version="3.12.2" released="2014-08-17" stability="stable" id="sha1new=b46e8854a76dece458e7c225bbbe1836f95bcb1b">
-      <manifest-digest sha1new="b46e8854a76dece458e7c225bbbe1836f95bcb1b" sha256="63e50423c707f80629ec7165f7680884df5ca8b19312ade36a5b538a1e484354" sha256new="MPSQII6HA74AMKPMOFS7O2AIQTPVZKFRSMJK3Y3KLNJYUHSIINKA" />
+    <implementation id="sha1new=b46e8854a76dece458e7c225bbbe1836f95bcb1b" released="2014-08-17" stability="stable" version="3.12.2">
+      <manifest-digest sha1new="b46e8854a76dece458e7c225bbbe1836f95bcb1b" sha256="63e50423c707f80629ec7165f7680884df5ca8b19312ade36a5b538a1e484354" sha256new="MPSQII6HA74AMKPMOFS7O2AIQTPVZKFRSMJK3Y3KLNJYUHSIINKA"/>
     </implementation>
-    <implementation version="3.13" released="2014-09-07" stability="stable" id="sha1new=131e367eb4c1f0c9e2d7206e3bde3f7cd9c49964">
-      <manifest-digest sha1new="131e367eb4c1f0c9e2d7206e3bde3f7cd9c49964" sha256="8b7cadce20211cdd70a531adf452a9a1f67f487ef5dd8661d18824a5295db027" sha256new="RN6K3TRAEEON24FFGGW7IUVJUH3H6SD66XOYMYORRASKKKK5WATQ" />
-      <archive href="http://www.yworks.com/products/yed/demo/yEd-3.13.zip" size="27745044" type="application/zip" extract="yed-3.13" />
+    <implementation id="sha1new=131e367eb4c1f0c9e2d7206e3bde3f7cd9c49964" released="2014-09-07" stability="stable" version="3.13">
+      <manifest-digest sha1new="131e367eb4c1f0c9e2d7206e3bde3f7cd9c49964" sha256="8b7cadce20211cdd70a531adf452a9a1f67f487ef5dd8661d18824a5295db027" sha256new="RN6K3TRAEEON24FFGGW7IUVJUH3H6SD66XOYMYORRASKKKK5WATQ"/>
+    </implementation>
+    <implementation id="sha1new=5ed8c24689e0ddc2b27f0076a0f5f270dd4b6aad" released="2014-12-22" stability="stable" version="3.14">
+      <manifest-digest sha256new="RCYC3AAT76YMF3HANYKXKGM5ZD4LZLMSAJW3NYXUQ5TOISJUYPCA"/>
+      <archive extract="yed-3.14" href="http://live.yworks.com/yed-downloads/yEd-3.14.zip" size="27940970" type="application/zip"/>
     </implementation>
   </group>
-  <entry-point command="run" binary-name="yed">
+  <entry-point binary-name="yed" command="run">
     <name xml:lang="en">yEd Graph Editor</name>
   </entry-point>
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
     <file-type id="yEd">
       <description xml:lang="en">Graph Markup Language</description>
-      <verb name="open" args="&quot;%1&quot;" />
-      <extension value=".graphml" />
+      <verb args="&quot;%1&quot;" name="open"/>
+      <extension value=".graphml"/>
     </file-type>
     <file-type id="yEd 1">
       <description xml:lang="en">Graph Markup Language (Compressed)</description>
-      <verb name="open" args="&quot;%1&quot;" />
-      <extension value=".graphmlz" />
+      <verb args="&quot;%1&quot;" name="open"/>
+      <extension value=".graphmlz"/>
     </file-type>
     <file-type id="yEd 2">
       <description xml:lang="en">yWorks Binary Graph Format</description>
-      <verb name="open" args="&quot;%1&quot;" />
-      <extension value=".ygf" />
+      <verb args="&quot;%1&quot;" name="open"/>
+      <extension value=".ygf"/>
     </file-type>
     <file-type id="yEd 3">
       <description xml:lang="en">Graph Modeling Language</description>
-      <verb name="open" args="&quot;%1&quot;" />
-      <extension value=".gml" />
+      <verb args="&quot;%1&quot;" name="open"/>
+      <extension value=".gml"/>
     </file-type>
     <file-type id="yEd 4">
       <description xml:lang="en">Graph Modeling Language (XML)</description>
-      <verb name="open" args="&quot;%1&quot;" />
-      <extension value=".xgml" />
+      <verb args="&quot;%1&quot;" name="open"/>
+      <extension value=".xgml"/>
     </file-type>
     <file-type id="yEd 5">
       <description xml:lang="en">Trivial Graph Format</description>
-      <verb name="open" args="&quot;%1&quot;" />
-      <extension value=".tgf" />
+      <verb args="&quot;%1&quot;" name="open"/>
+      <extension value=".tgf"/>
     </file-type>
     <file-type id="yEd 6">
       <description xml:lang="en">GEDCOM Data</description>
-      <verb name="open" args="&quot;%1&quot;" />
-      <extension value=".ged" />
+      <verb args="&quot;%1&quot;" name="open"/>
+      <extension value=".ged"/>
     </file-type>
   </capabilities>
 </interface>
