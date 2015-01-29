@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.zh-CN/schema/injector/interface/interface.xsd http://0install.zh-CN/schema/zh-CNsktop-integration/capabilities http://0install.zh-CN/schema/zh-CNsktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/Mozilla_Firefox.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Mozilla Firefox</name>
+  <summary xml:lang="en">free webbrowser of the Mozilla project</summary>
+  <summary xml:lang="de">freier Webbrowser des Mozilla-Projektes</summary>
+  <summary xml:lang="fr">libre navigateur web du projet Mozilla</summary>
+  <summary xml:lang="es">libre navegador web del proyecto Mozilla</summary>
+  <summary xml:lang="ru">бесплатно веб-браузера проекта Mozilla</summary>
+  <summary xml:lang="ja">Mozillaプロジェクトの自由なウェブブラウザ</summary>
+  <summary xml:lang="zh">Mozilla项目的免费网页浏览器</summary>
+  <homepage>http://www.mozilla.com/</homepage>
+  <icon href="http://0install.de/feed-icons/Mozilla_Firefox.ico" type="image/vnd.microsoft.icon" />
+  <icon href="http://0install.de/feed-icons/Mozilla_Firefox.png" type="image/png" />
+  <category>Network</category>
+  <feed langs="en_US" src="http://0install.de/feeds/Mozilla_Firefox/en-US.xml" />
+  <feed if-0install-version="2.7.1.." langs="de" src="http://0install.de/feeds/Mozilla_Firefox/de.xml" />
+  <feed if-0install-version="2.7.1.." langs="fr" src="http://0install.de/feeds/Mozilla_Firefox/fr.xml" />
+  <feed if-0install-version="2.7.1.." langs="es_ES" src="http://0install.de/feeds/Mozilla_Firefox/es-ES.xml" />
+  <feed if-0install-version="2.7.1.." langs="ru" src="http://0install.de/feeds/Mozilla_Firefox/ru.xml" />
+  <feed if-0install-version="2.7.1.." langs="ja" src="http://0install.de/feeds/Mozilla_Firefox/ja.xml" />
+  <feed if-0install-version="2.7.1.." langs="zh_CN" src="http://0install.de/feeds/Mozilla_Firefox/zh-CN.xml" />
+  <package-implementation package="firefox" />
+</interface>

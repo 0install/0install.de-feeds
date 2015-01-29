@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<interface uri="http://0install.de/feeds/Mozilla_Firefox/ru.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.zh-CN/schema/injector/interface/interface.xsd http://0install.zh-CN/schema/zh-CNsktop-integration/capabilities http://0install.zh-CN/schema/zh-CNsktop-integration/capabilities/capabilities.xsd">
+  <name>Mozilla Firefox (Russian)</name>
+  <summary xml:lang="ru">бесплатно веб-браузера проекта Mozilla</summary>
+  <homepage>http://www.mozilla.com/</homepage>
+  <icon href="http://0install.de/feed-icons/Mozilla_Firefox.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="http://0install.de/feed-icons/Mozilla_Firefox.png" type="image/png"/>
+  <category>Network</category>
+  <feed-for interface="http://0install.de/feeds/Mozilla_Firefox.xml"/>
+  <group langs="ru" license="MPL (Mozilla Public License)">
+
+    <implementation arch="Windows-*" id="sha1new=92ee2f5d6b2097a30f675656511cfb28329618ed" main="firefox.exe" released="2015-01-27" stability="stable" version="35.0.1">
+      <manifest-digest sha1new="92ee2f5d6b2097a30f675656511cfb28329618ed" sha256="3e2fa8d22c27fe4003087a469a738020586fed7f80a6193cb56f0b33dea51a24" sha256new="HYX2RURME77EAAYIPJDJU44AEBMG73L7QCTBSPFVN4FTHXVFDISA"/>
+      <recipe>
+        <archive extract="core" href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/35.0.1/win32/ru/Firefox%20Setup%2035.0.1.exe" size="40103456" type="application/x-7z-compressed"/>
+        <archive href="http://0install.de/files/app-configs/Mozilla_Firefox.zip" size="833" type="application/zip"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Linux-i686" id="sha1new=d426fc76bdfa58fc2ee4a15c430dcb8655cfd7c0" main="run-mozilla.sh" released="2015-01-27" stability="stable" version="35.0.1">
+      <manifest-digest sha1new="d426fc76bdfa58fc2ee4a15c430dcb8655cfd7c0" sha256="83231b5bdda37796a814cd722fe42d45de855b6f6d788820860171ba17f5a895" sha256new="QMRRWW65UN3ZNKAUZVZC7ZBNIXPIKW3PNV4IQIEGAFY3UF7VVCKQ"/>
+      <recipe>
+        <archive extract="firefox" href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/35.0.1/linux-i686/ru/firefox-35.0.1.tar.bz2" size="47306336" type="application/x-bzip-compressed-tar"/>
+        <archive href="http://0install.de/files/app-configs/Mozilla_Firefox.zip" size="833" type="application/zip"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=3c2d966c017d7e993621b1b11eb2310e8227d0d2" main="run-mozilla.sh" released="2015-01-27" stability="stable" version="35.0.1">
+      <manifest-digest sha1new="3c2d966c017d7e993621b1b11eb2310e8227d0d2" sha256="bd6d05d5e67443fdc88d68c0c50554820223c76d395beb90a98f118e5e77e0af" sha256new="XVWQLVPGORB73SENNDAMKBKUQIBCHR3NHFN6XEFJR4IY4XTX4CXQ"/>
+      <recipe>
+        <archive extract="firefox" href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/35.0.1/linux-x86_64/ru/firefox-35.0.1.tar.bz2" size="46440971" type="application/x-bzip-compressed-tar"/>
+        <archive href="http://0install.de/files/app-configs/Mozilla_Firefox.zip" size="833" type="application/zip"/>
+      </recipe>
+    </implementation>
+  </group>
+</interface>
