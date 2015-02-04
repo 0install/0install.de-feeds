@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<interface uri="http://0install.de/feeds/Jitsi.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <name>Jitsi</name>
+  <summary xml:lang="en">VoIP and instant messaging</summary>
+  <summary xml:lang="de">IP-Telefonie und Instant-Messenger</summary>
+  <description xml:lang="en">Jitsi is a free and open source multiplatform voice (VoIP), videoconferencing and instant messaging application.</description>
+  <description xml:lang="de">Jitsi ist eine multiprotokollfähige IP-Telefonie- und Instant-Messenger-Anwendung, mit der auch Videotelefonie möglich ist.</description>
+  <homepage>http://jitsi.org/</homepage>
+  <icon href="http://0install.de/feed-icons/Jitsi.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="http://0install.de/feed-icons/Jitsi.png" type="image/png"/>
+  <implementation arch="Windows-x86_64" id="sha1new=3517cee89eb3853e0115118677565607850bc592" main="Jitsi.exe" released="2015-02-01" stability="stable" version="2.6.5390">
+    <manifest-digest sha1new="3517cee89eb3853e0115118677565607850bc592" sha256="d6d545bedebc550d2a258e9824e037a646d14e00cb3554ddbb5cd3e67afedaf1" sha256new="23KULPW6XRKQ2KRFR2MCJYBXUZDNCTQAZM2VJXN3LTJ6M6X63LYQ"/>
+    <archive extract="SourceDir/PFiles/Jitsi" href="https://download.jitsi.org/jitsi/msi/jitsi-2.6.5390-x64.msi" size="64434176" type="application/x-msi"/>
+  </implementation>
+  <implementation arch="Windows-i486" id="sha1new=d54cf65c289525c3d00142572e974fb1074dae13" main="Jitsi.exe" released="2015-02-01" stability="stable" version="2.6.5390">
+    <manifest-digest sha1new="d54cf65c289525c3d00142572e974fb1074dae13" sha256="2f3a653ea30dcad57fbb113cc0389a6aea37ae9de0a87e601f17219ab7d37d58" sha256new="F45GKPVDBXFNK753CE6MAOE2NLVDPLU54CUH4YA7C4QZVN6TPVMA"/>
+    <archive extract="SourceDir/PFiles/Jitsi" href="https://download.jitsi.org/jitsi/msi/jitsi-2.6.5390-x86.msi" size="62803968" type="application/x-msi"/>
+  </implementation>
+</interface>
