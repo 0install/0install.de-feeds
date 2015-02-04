@@ -172,6 +172,13 @@
         <remove path="doLocalConf.xml"/>
       </recipe>
     </implementation>
+    <implementation id="sha1new=761ecb3bd0983050c75dabc8ea5f0c9ad1df39b6" released="2014-12-27" stability="stable" version="6.7.2">
+      <manifest-digest sha256new="2WLHJOR3JNVTCO4A3Y4TZBBNQXAYYL42XGKG6MQ64AELXFXU7D2A"/>
+      <recipe>
+        <archive href="http://download.tuxfamily.org/notepadplus/6.7.2/npp.6.7.2.bin.zip" size="6732599" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
     <implementation id="sha1new=afd496cee5660f310523691343423a09e60b1524" released="2015-01-01" stability="stable" version="6.7.3">
       <manifest-digest sha256new="INEXOMAL5KJFPZCU2HTIG6XT3PTV3HJYLGV26CHLFYYSFWZ6Y2PQ"/>
       <recipe>
@@ -179,10 +186,10 @@
         <remove path="doLocalConf.xml"/>
       </recipe>
     </implementation>
-    <implementation id="sha1new=761ecb3bd0983050c75dabc8ea5f0c9ad1df39b6" released="2014-12-27" stability="stable" version="6.7.2">
-      <manifest-digest sha256new="2WLHJOR3JNVTCO4A3Y4TZBBNQXAYYL42XGKG6MQ64AELXFXU7D2A"/>
+    <implementation id="sha1new=75fee89c885732bc42c26165ef5b310c3c4bb17f" released="2015-01-10" stability="stable" version="6.7.4">
+      <manifest-digest sha256new="6R73ULOT2VVSHZTWOSE57NXGYIYWZUYMQDRBIDHOUYBJFWJVB5LA"/>
       <recipe>
-        <archive href="http://download.tuxfamily.org/notepadplus/6.7.2/npp.6.7.2.bin.zip" size="6732599" type="application/zip"/>
+        <archive href="http://download.tuxfamily.org/notepadplus/6.7.4/npp.6.7.4.bin.zip" size="6741886" type="application/zip"/>
         <remove path="doLocalConf.xml"/>
       </recipe>
     </implementation>
