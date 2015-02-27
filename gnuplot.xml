@@ -10,9 +10,10 @@
   <icon href="http://0install.de/feed-icons/gnuplot.ico" type="image/vnd.microsoft.icon"/>
   <category>Graphics</category>
   <category>Utility</category>
+  <needs-terminal/>
   <group license="GPL v2 (GNU General Public License)">
-    <command name="run" path="bin/wgnuplot.exe"/>
-    <command name="console" path="bin/gnuplot.exe"/>
+    <command name="run" path="bin/gnuplot.exe"/>
+    <command name="run-gui" path="bin/wgnuplot.exe"/>
     <implementation arch="Windows-*" id="sha1new=f9d7518a15456df012b967e00d21c458ca31151b" released="2012-03-12" stability="stable" version="4.6.0">
       <manifest-digest sha1new="f9d7518a15456df012b967e00d21c458ca31151b" sha256="deca15cf952f9e42b589df5e15f7d2dbb0cf1c8aa190400d5de2fc7e28a4c35b" sha256new="33FBLT4VF6PEFNMJ35PBL56S3OYM6HEKUGIEADK54L6H4KFEYNNQ"/>
       <archive extract="gnuplot" href="http://downloads.sourceforge.net/gnuplot/gp460win32.zip" size="12580915" type="application/zip"/>
@@ -29,19 +30,22 @@
       <manifest-digest sha256new="CGNQH572RZOO23YTVRJV7PAX2RF5NUAG3B2FRC2MUSZU2RJHNURQ"/>
       <archive extract="gnuplot" href="http://downloads.sourceforge.net/gnuplot/gp466-win32.zip" size="18619570" type="application/zip"/>
     </implementation>
-    <implementation arch="Windows-*" id="sha1new=09792d532826fad85f0ff39c18690fa8699bf156" released="2015-01-01" stability="stable" version="5.0.0">
+    <implementation arch="Windows-x86_64" id="sha1new=b47628842922e6fbc3296bc204786dbd7eddea68" released="2015-02-20" stability="stable" version="5.0.0">
+      <manifest-digest sha256new="ORT2PZNSRX6ENTSTONUCLLWHYCVBGMI47XZYXGQ5A2ODKWX5ZWCA"/>
+      <archive extract="gnuplot" href="http://downloads.sourceforge.net/gnuplot/gp500-win64-mingw.zip" size="27008593" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=09792d532826fad85f0ff39c18690fa8699bf156" released="2015-01-01" stability="stable" version="5.0.0">
       <manifest-digest sha256new="EK2SG2GL3CDZTQIBZKLHHZNS2TSET526RAIWE2MBDMN7XWJJDDGA"/>
       <archive extract="gnuplot" href="http://downloads.sourceforge.net/gnuplot/gp500-win32-mingw.zip" size="32246165" type="application/zip"/>
     </implementation>
   </group>
-  <package-implementation arch="Linux-*" distributions="Debian Gentoo Ports RPM Slack" main="/usr/bin/gnuplot" package="gnuplot"/>
-  <entry-point binary-name="wgnuplot" command="run">
-    <name xml:lang="en">Gnuplot graphical interface</name>
-    <name xml:lang="de">Gnuplot grafische Oberfläche</name>
-  </entry-point>
-  <entry-point binary-name="gnuplot" command="console">
-    <needs-terminal/>
+  <package-implementation distributions="Debian Gentoo Ports RPM Slack" main="/usr/bin/gnuplot" package="gnuplot"/>
+  <entry-point binary-name="gnuplot" command="run">
     <name xml:lang="en">Gnuplot command-line interface</name>
     <name xml:lang="de">Gnuplot Befehlszeilenoberfläche</name>
+  </entry-point>
+  <entry-point binary-name="wgnuplot" command="run-gui">
+    <name xml:lang="en">Gnuplot graphical interface</name>
+    <name xml:lang="de">Gnuplot grafische Oberfläche</name>
   </entry-point>
 </interface>
