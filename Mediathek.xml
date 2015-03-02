@@ -8,7 +8,7 @@
   <category>AudioVideo</category>
   <group license="GPL v3 (GNU General Public License)">
     <command name="run" path="Mediathek.jar">
-      <runner interface="http://repo.roscidus.com/java/openjdk-jre" command="run-gui">
+      <runner command="run-gui" interface="http://repo.roscidus.com/java/openjdk-jre">
         <arg>-jar</arg>
       </runner>
     </command>
@@ -47,7 +47,7 @@
   </group>
   <group license="GPL v3 (GNU General Public License)">
     <command name="run" path="MediathekView.jar">
-      <runner interface="http://repo.roscidus.com/java/openjdk-jre" command="run-gui">
+      <runner command="run-gui" interface="http://repo.roscidus.com/java/openjdk-jre">
         <arg>-jar</arg>
       </runner>
     </command>
@@ -110,6 +110,10 @@
     <implementation id="sha1new=dcc32134218e9b9339498080e9b5cd72d6c1e1d9" released="2014-10-08" stability="stable" version="8">
       <manifest-digest sha256new="6WLOHIRMKNE5G6PPTEDMPVDZSEJIQHMHHZUVILC7YCUDVWQY5S2A"/>
       <archive href="http://downloads.sourceforge.net/zdfmediathk/MediathekView_8.zip" size="31470563"/>
+    </implementation>
+    <implementation id="sha1new=1381ddc9ea28915325bce42b7d66384b95cc651f" released="2015-02-22" stability="stable" version="9">
+      <manifest-digest sha256new="SMSAMSD4HLD2MWGHCC3JX6HR4G3KUO4ANXNJ5NK6HOBUPTQ6FQFQ"/>
+      <archive href="http://downloads.sourceforge.net/zdfmediathk/MediathekView_9.zip" size="31682440" type="application/zip"/>
     </implementation>
   </group>
 </interface>
