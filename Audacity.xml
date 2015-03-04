@@ -27,5 +27,20 @@
       <verb args="&quot;%1&quot;" name="open"/>
       <extension value=".AUP"/>
     </file-type>
+    <file-type id="Audacity.wav" explicit-only="true">
+      <description xml:lang="en">Audio File (.wav)</description>
+      <verb name="edit" args="&quot;%1&quot;"/>
+      <extension value=".wav" mime-type="audio/wav" perceived-type="audio"/>
+    </file-type>
+    <file-type id="Audacity.mp3" explicit-only="true">
+      <description xml:lang="en">Audio File (.mp3)</description>
+      <verb name="edit" args="&quot;%1&quot;"/>
+      <extension value=".mp3" mime-type="audio/mpeg" perceived-type="audio"/>
+    </file-type>
+    <file-type id="Audacity.ogg" explicit-only="true">
+      <description xml:lang="en">Audio File (.ogg)</description>
+      <verb name="edit" args="&quot;%1&quot;"/>
+      <extension value=".ogg"/>
+    </file-type>
   </capabilities>
 </interface>
