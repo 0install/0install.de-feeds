@@ -279,5 +279,28 @@
       <manifest-digest sha256new="GF2LGDN4FLYIWRCQR2O24P2LAKZFL64AWXPRYJWNQLBQ33L3EHQQ"/>
       <archive extract="filezilla-3.10.1.1" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.10.1.1_src.tar.bz2" size="4572160"/>
     </implementation>
+    <implementation arch="Windows-*" id="sha1new=06beacf87b7f665a516c3914f10b62a69da14717" main="filezilla.exe" released="2015-03-02" stability="stable" version="3.10.2">
+      <manifest-digest sha256new="FHCFMK76DLYCMSJ3NBCSNSM3DL3HFHN2D3IVHACCWONYSZEA6KZQ"/>
+      <recipe>
+        <archive extract="FileZilla-3.10.2" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.10.2_win32.zip" size="9172497" type="application/zip"/>
+        <archive href="http://0install.de/files/app-configs/FileZilla.zip" size="332" type="application/zip"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=3361f9004ae356a35f12e55bce474dca5d240981" main="bin/filezilla" released="2015-03-02" stability="stable" version="3.10.2">
+      <manifest-digest sha256new="BI3C6YERI3NEIR4HBBUAQYPW4MP5J6BJ3SBJ3ZAWULBKWP2S6PYQ"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.10.2_x86_64-linux-gnu.tar.bz2" size="6622947"/>
+    </implementation>
+    <implementation arch="Linux-i586" id="sha1new=15c4cbac677e90aa2fc35a353e166d46e36f3274" main="bin/filezilla" released="2015-03-02" stability="stable" version="3.10.2">
+      <manifest-digest sha256new="5V3LAX3BBZCQXWEBDMHCK6TB5BUMDHDSK6XLM44OIUYX3W2MIOSQ"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.10.2_i586-linux-gnu.tar.bz2" size="6616358"/>
+    </implementation>
+    <implementation arch="MacOSX-i686" id="sha1new=3dc9a84e6371cd76faa5e0f21785a3d9b2f21a07" main="FileZilla.app/Contents/MacOS/filezilla" released="2015-03-02" stability="stable" version="3.10.2">
+      <manifest-digest sha256new="64P26K2XN2T7UDPHLQ2BWAKFVZFM5UFNKPHLEEADJVVNFFC2G4SQ"/>
+      <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.10.2_macosx-x86.app.tar.bz2" size="7252289"/>
+    </implementation>
+    <implementation arch="*-src" id="sha1new=3debe2c02a75dfc3024e275fedf5a8f2a795abc7" released="2015-03-02" stability="stable" version="3.10.2">
+      <manifest-digest sha256new="TIO4ERB46TYUK3TKJNAQQW2DXGXQ43SYQWYT7R67OJ5CALEIPUAQ"/>
+      <archive extract="filezilla-3.10.2" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.10.2_src.tar.bz2" size="4232889"/>
+    </implementation>
   </group>
 </interface>
