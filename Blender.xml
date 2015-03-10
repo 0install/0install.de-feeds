@@ -123,6 +123,22 @@
       <manifest-digest sha256new="MNRAOJSLYEIZLDA24DBLYISXEYNES2RVXNMPAQSR53MML2G6ZYRA"/>
       <archive extract="blender-2.72-linux-glibc211-i686" href="http://download.blender.org/release/Blender2.72/blender-2.72-linux-glibc211-i686.tar.bz2" size="88523897" type="application/x-bzip-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=e9242e41bf78a129a342ebac74907ae3822cf8fc" main="blender.exe" released="2015-01-21" stability="stable" version="2.73">
+      <manifest-digest sha256new="ZUMGPVKJGFHJOZWNFGOPDPZUJWUFNRUQTBPSQTJABO64DPZDPNSQ"/>
+      <archive extract="blender-2.73-windows64" href="http://download.blender.org/release/Blender2.73/blender-2.73-windows64.zip" size="95153154" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=62af46683b88a6afdb237f496439451fefd94566" main="blender.exe" released="2015-01-21" stability="stable" version="2.73">
+      <manifest-digest sha256new="UGR34LFIZTVEZBLR2MPVBBWT6PQFRXUFZULUT42L35MGNTVHBL2A"/>
+      <archive extract="blender-2.73-windows32" href="http://download.blender.org/release/Blender2.73/blender-2.73-windows32.zip" size="79589861" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=be3ac6d8a08891a3cd6d7ce31fa2568cb0dec9c7" main="blender" released="2015-01-21" stability="stable" version="2.73">
+      <manifest-digest sha256new="AUOHCRMMJQFE2TPP7B5WYBNAKG26VLKHW26XQGDJ2JK5NHAH7TXA"/>
+      <archive extract="blender-2.73-linux-glibc211-x86_64" href="http://download.blender.org/release/Blender2.73/blender-2.73-linux-glibc211-x86_64.tar.bz2" size="94057040" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i686" id="sha1new=2621c954d6fbeb12d9bb61e885ffb4925f389b34" main="blender" released="2015-01-21" stability="stable" version="2.73">
+      <manifest-digest sha256new="F4Z55BWW4RIDMTNUHWSCO2RM72WSO2OJLFULAHAMEYCDWQ7RQXWA"/>
+      <archive extract="blender-2.73-linux-glibc211-i686" href="http://download.blender.org/release/Blender2.73/blender-2.73-linux-glibc211-i686.tar.bz2" size="92261683" type="application/x-bzip-compressed-tar"/>
+    </implementation>
   </group>
   <entry-point binary-name="blender" command="run"/>
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
