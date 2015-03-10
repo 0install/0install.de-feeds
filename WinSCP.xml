@@ -75,5 +75,9 @@
       <manifest-digest sha256new="PNTPJ7ZQ4TTTEGDBKU32CQOCKPXFW5IHKVSOXVN6JT4GGUSSZLQA"/>
       <archive href="http://downloads.sourceforge.net/winscp/winscp556.zip" size="4421991" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=af26cea7a3fabad7f4f74b1eb9c01c0c79841f7c" released="2015-02-20" stability="stable" version="5.7">
+      <manifest-digest sha256new="DH6Y7UPHOZN3KYLMXYAVBPS3WCB3LF3QS7THSEPM55MCI3RRDDEA"/>
+      <archive href="http://downloads.sourceforge.net/winscp/winscp570.zip" size="4915350" type="application/zip"/>
+    </implementation>
   </group>
 </interface>
