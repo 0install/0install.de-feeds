@@ -19,9 +19,6 @@ und der New Feed Wizard (leitet Sie durch den kompletten Feed-Erstellungsprozess
     <command name="run" path="0publish-win.exe">
       <runner command="run-gui" interface="http://0install.de/feeds/cli/cli.xml"/>
     </command>
-    <command name="0capture-win" path="0capture-win.exe">
-      <runner command="run-gui" interface="http://0install.de/feeds/cli/cli.xml"/>
-    </command>
     <command name="0publish" path="0publish.exe">
       <runner command="run" interface="http://0install.de/feeds/cli/cli.xml"/>
     </command>
@@ -147,9 +144,6 @@ und der New Feed Wizard (leitet Sie durch den kompletten Feed-Erstellungsprozess
   </group>
   <entry-point binary-name="0publish-win" command="run">
     <name xml:lang="en">Zero Install Publishing Tools</name>
-  </entry-point>
-  <entry-point command="0capture-win">
-    <name xml:lang="en">Desktop Integration Capture</name>
   </entry-point>
   <entry-point command="0publish">
     <needs-terminal/>
