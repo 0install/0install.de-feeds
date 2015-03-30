@@ -30,5 +30,26 @@
         <archive href="http://0install.de/files/app-configs/Mozilla_Firefox.zip" size="833" type="application/zip"/>
       </recipe>
     </implementation>
+    <implementation arch="Windows-*" id="sha1new=f335720700bcd1b383b52f5d4f50866d7b8802d8" main="firefox.exe" released="2015-03-21" stability="stable" version="36.0.4">
+      <manifest-digest sha1new="f335720700bcd1b383b52f5d4f50866d7b8802d8" sha256="1da7f179cb96c0f9810ea1dfd6b22f050ec28ce51965c92a4cd3481ff2432dc4" sha256new="DWT7C6OLS3APTAIOUHP5NMRPAUHMFDHFDFS4SKSM2NEB74SDFXCA"/>
+      <recipe>
+        <archive extract="core" href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/36.0.4/win32/es-ES/Firefox%20Setup%2036.0.4.exe" size="40821000" type="application/x-7z-compressed"/>
+        <archive href="http://0install.de/files/app-configs/Mozilla_Firefox.zip" size="833" type="application/zip"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Linux-i686" id="sha1new=e91139b33a13b216bbfd244e6cca0cb5f7ba1ca5" main="run-mozilla.sh" released="2015-03-21" stability="stable" version="36.0.4">
+      <manifest-digest sha1new="e91139b33a13b216bbfd244e6cca0cb5f7ba1ca5" sha256="ce0233a700048dfc08f92f124a0ed214d75d264d20f644ab0e4526c13b8eb98c" sha256new="ZYBDHJYAASG7YCHZF4JEUDWSCTLV2JSNED3EJKYOIUTMCO4OXGGA"/>
+      <recipe>
+        <archive extract="firefox" href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/36.0.4/linux-i686/es-ES/firefox-36.0.4.tar.bz2" size="47538870" type="application/x-bzip-compressed-tar"/>
+        <archive href="http://0install.de/files/app-configs/Mozilla_Firefox.zip" size="833" type="application/zip"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=c0c263ab138de7d92a9ced04a958c61961c02a15" main="run-mozilla.sh" released="2015-03-21" stability="stable" version="36.0.4">
+      <manifest-digest sha1new="c0c263ab138de7d92a9ced04a958c61961c02a15" sha256="166707ae69ca972b6b4960aa5628c0f9bd7b2d386101106bd7462abb98a7d46e" sha256new="CZTQPLTJZKLSW22JMCVFMKGA7G6XWLJYMEARA26XIYVLXGFH2RXA"/>
+      <recipe>
+        <archive extract="firefox" href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/36.0.4/linux-x86_64/es-ES/firefox-36.0.4.tar.bz2" size="46591071" type="application/x-bzip-compressed-tar"/>
+        <archive href="http://0install.de/files/app-configs/Mozilla_Firefox.zip" size="833" type="application/zip"/>
+      </recipe>
+    </implementation>
   </group>
 </interface>
