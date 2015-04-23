@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/PPSSPP.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>PPSSPP</name>
+  <summary xml:lang="en">PSP emulator</summary>
+  <icon href="http://0install.de/feed-icons/PPSSPP.ico" type="image/vnd.microsoft.icon" />
+  <icon href="http://0install.de/feed-icons/PPSSPP.png" type="image/png" />
+  <category>Game</category>
+  <homepage>http://www.ppsspp.org/</homepage>
+  <implementation arch="Windows-x86_64" version="1.0.1" main="PPSSPPWindows64.exe" id="v1.0.1_windows64">
+    <manifest-digest sha1new="d1451a86a05f8e33b08bc87c8d75a1413d1e7da0" sha256="77a7c8ef21271a8a58fc1e9ea9d5abebba4b6ca343d82f2442b890088f6453e7" sha256new="O6T4R3ZBE4NIUWH4D2PKTVNL5O5EW3FDIPMC6JCCXCIARD3EKPTQ" />
+    <archive href="http://www.ppsspp.org/files/1_0_1/ppsspp_win.zip" size="14466492" type="application/zip" extract="ppsspp" />
+  </implementation>
+  <implementation arch="Windows-i486" version="1.0.1" main="PPSSPPWindows.exe" id="v1.0.1_windows32">
+    <manifest-digest sha1new="d1451a86a05f8e33b08bc87c8d75a1413d1e7da0" sha256="77a7c8ef21271a8a58fc1e9ea9d5abebba4b6ca343d82f2442b890088f6453e7" sha256new="O6T4R3ZBE4NIUWH4D2PKTVNL5O5EW3FDIPMC6JCCXCIARD3EKPTQ" />
+    <archive href="http://www.ppsspp.org/files/1_0_1/ppsspp_win.zip" size="14466492" type="application/zip" extract="ppsspp" />
+  </implementation>
+</interface>
