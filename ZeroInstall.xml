@@ -269,6 +269,14 @@ Konzeptuell können Sie sich vorstellen, dass die Software nur auf einem Server 
         <archive href="http://0install.de/files/zero-install-2.7.3.tar.gz" size="7175275"/>
       </implementation>
     </group>
+    <group>
+      <environment mode="replace" name="ZEROINSTALL_VERSION" value="2.8.0"/>
+      <implementation id="sha1new=5805162e33bae8c1dd91696f4a362e8fbb42e4a4" released="2015-05-08" stability="stable" version="2.8.0">
+        <environment mode="replace" name="ZEROINSTALL_VERSION" value="2.8.0"/>
+        <manifest-digest sha256new="DAKNBWN7XXLNFE5G4KHVTFF3RZGN5PFCX6ZIQZKO77UQRC3IWKBQ"/>
+        <archive href="http://0install.de/files/zero-install-2.8.0.tar.gz" size="7202727"/>
+      </implementation>
+    </group>
   </group>
   <entry-point binary-name="ZeroInstall" command="run">
     <name xml:lang="en">Zero Install Central</name>
