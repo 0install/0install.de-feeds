@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/DocFetcher.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>DocFetcher</name>
+  <summary xml:lang="en">desktop search application</summary>
+  <summary xml:lang="de">Desktop-Suchprogramm</summary>
+  <description xml:lang="en">DocFetcher is an Open Source desktop search application: It allows you to search the contents of files on your computer. — You can think of it as Google for your local files.</description>
+  <description xml:lang="de">DocFetcher ist ein Open Source Desktop-Suchprogramm: Es ermöglicht die Volltext-Suche in Dateien auf dem Computer — eine Art Google für den Heimrechner.</description>
+  <icon href="http://0install.de/feed-icons/DocFetcher.png" type="image/png" />
+  <icon href="http://0install.de/feed-icons/DocFetcher.ico" type="image/vnd.microsoft.icon" />
+  <category>Office</category>
+  <homepage>http://docfetcher.sourceforge.net/</homepage>
+  <implementation arch="Windows-*" version="1.1.14" stability="stable" id="v1.1.14-win">
+    <command name="run">
+      <environment name="DOCFETCHER_LIB" insert="lib" mode="replace" />
+      <environment name="CLASSPATH" insert="lib/*" />
+      <working-dir />
+      <runner interface="http://repo.roscidus.com/java/openjdk-jre" command="run-gui">
+        <arg>-enableassertions</arg>
+        <arg>-Xmx512m</arg>
+        <arg>-Xss2m</arg>
+        <arg>-cp</arg>
+        <arg>${CLASSPATH}</arg>
+        <arg>-Djava.library.path=${DOCFETCHER_LIB}</arg>
+        <arg>net.sourceforge.docfetcher.Main</arg>
+      </runner>
+    </command>
+    <manifest-digest sha1new="d6840fd152d1b772d04ea23fc5984f9e6d666f25" sha256="9787a763e1a5ce9cf6d48f3b3d5a7c493f69cb4e25489bd40a83d5da5b0956dc" sha256new="S6D2OY7BUXHJZ5WUR45T2WT4JE7WTS2OEVEJXVAKQPK5UWYJK3OA" />
+    <archive href="http://0install.de/files/hosted/docfetcher-1.1.14.zip" size="45448001" type="application/zip" extract="DocFetcher-1.1.14" />
+    <recipe>
+      <archive href="http://downloads.sourceforge.net/docfetcher/docfetcher-1.1.14-portable.zip" size="45451575" type="application/zip" extract="DocFetcher-1.1.14" />
+      <remove path="conf" />
+      <remove path="indexes" />
+      <remove path="lib/net.sourceforge.docfetcher_1.1.14_20150217-2200.jar" />
+      <file href="http://0install.de/files/hosted/net.sourceforge.docfetcher_1.1.14_20150217-2213.jar" size="2545158" dest="lib/net.sourceforge.docfetcher_1.1.14_20150217-2213.jar" />
+    </recipe>
+  </implementation>
+  <implementation arch="POSIX-*" version="1.1.14" stability="stable" id="v1.1.14-posix">
+    <command name="run" path="DocFetcher.sh">
+      <requires interface="http://repo.roscidus.com/java/openjdk-jre">
+        <executable-in-path name="java" />
+      </requires>
+    </command>
+    <manifest-digest sha1new="d6840fd152d1b772d04ea23fc5984f9e6d666f25" sha256="9787a763e1a5ce9cf6d48f3b3d5a7c493f69cb4e25489bd40a83d5da5b0956dc" sha256new="S6D2OY7BUXHJZ5WUR45T2WT4JE7WTS2OEVEJXVAKQPK5UWYJK3OA" />
+    <recipe>
+      <archive href="http://downloads.sourceforge.net/docfetcher/docfetcher-1.1.14-portable.zip" size="45451575" type="application/zip" extract="DocFetcher-1.1.14" />
+      <remove path="conf" />
+      <remove path="indexes" />
+      <remove path="lib/net.sourceforge.docfetcher_1.1.14_20150217-2200.jar" />
+      <file href="http://0install.de/files/hosted/net.sourceforge.docfetcher_1.1.14_20150217-2213.jar" size="2545158" dest="lib/net.sourceforge.docfetcher_1.1.14_20150217-2213.jar" />
+    </recipe>
+  </implementation>
+  <implementation arch="MacOSX-*" version="1.1.14" stability="stable" id="v1.1.14-mac">
+    <command name="run" path="DocFetcher.app/Contents/MacOS/DocFetcher">
+      <requires interface="http://repo.roscidus.com/java/openjdk-jre">
+        <executable-in-path name="java" />
+      </requires>
+    </command>
+    <manifest-digest sha1new="d6840fd152d1b772d04ea23fc5984f9e6d666f25" sha256="9787a763e1a5ce9cf6d48f3b3d5a7c493f69cb4e25489bd40a83d5da5b0956dc" sha256new="S6D2OY7BUXHJZ5WUR45T2WT4JE7WTS2OEVEJXVAKQPK5UWYJK3OA" />
+    <recipe>
+      <archive href="http://downloads.sourceforge.net/docfetcher/docfetcher-1.1.14-portable.zip" size="45451575" type="application/zip" extract="DocFetcher-1.1.14" />
+      <remove path="conf" />
+      <remove path="indexes" />
+      <remove path="lib/net.sourceforge.docfetcher_1.1.14_20150217-2200.jar" />
+      <file href="http://0install.de/files/hosted/net.sourceforge.docfetcher_1.1.14_20150217-2213.jar" size="2545158" dest="lib/net.sourceforge.docfetcher_1.1.14_20150217-2213.jar" />
+    </recipe>
+  </implementation>
+</interface>
