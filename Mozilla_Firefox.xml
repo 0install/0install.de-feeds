@@ -8,10 +8,10 @@
   <summary xml:lang="ru">бесплатно веб-браузера проекта Mozilla</summary>
   <summary xml:lang="ja">Mozillaプロジェクトの自由なウェブブラウザ</summary>
   <summary xml:lang="zh">Mozilla项目的免费网页浏览器</summary>
-  <homepage>http://www.mozilla.com/</homepage>
   <icon href="http://0install.de/feed-icons/Mozilla_Firefox.ico" type="image/vnd.microsoft.icon" />
   <icon href="http://0install.de/feed-icons/Mozilla_Firefox.png" type="image/png" />
   <category>Network</category>
+  <homepage>http://www.mozilla.com/</homepage>
   <feed langs="en_US" src="http://0install.de/feeds/Mozilla_Firefox/en-US.xml" />
   <feed if-0install-version="2.7.1.." langs="de" src="http://0install.de/feeds/Mozilla_Firefox/de.xml" />
   <feed if-0install-version="2.7.1.." langs="fr" src="http://0install.de/feeds/Mozilla_Firefox/fr.xml" />
@@ -20,4 +20,38 @@
   <feed if-0install-version="2.7.1.." langs="ja" src="http://0install.de/feeds/Mozilla_Firefox/ja.xml" />
   <feed if-0install-version="2.7.1.." langs="zh_CN" src="http://0install.de/feeds/Mozilla_Firefox/zh-CN.xml" />
   <package-implementation package="firefox" />
+  <capabilities os="Windows" xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <file-type id="FirefoxHTML">
+      <description xml:lang="en">Firefox HTML Document</description>
+      <verb name="open" args="-osint -url &quot;%1&quot;" />
+      <extension value=".htm" mime-type="text/html" perceived-type="text" />
+      <extension value=".html" mime-type="text/html" perceived-type="text" />
+      <extension value=".oga" />
+      <extension value=".ogg" />
+      <extension value=".ogv" />
+      <extension value=".pdf" />
+      <extension value=".shtml" mime-type="text/html" perceived-type="text" />
+      <extension value=".webm" />
+      <extension value=".xht" mime-type="application/xhtml+xml" />
+      <extension value=".xhtml" mime-type="application/xhtml+xml" />
+    </file-type>
+    <default-program id="FIREFOX.EXE" service="StartMenuInternet">
+      <verb name="open" />
+      <verb name="properties" args="-preferences">
+        <description xml:lang="en">Firefox &amp;Options</description>
+      </verb>
+      <verb name="safemode" args="-safe-mode">
+        <description xml:lang="en">Firefox &amp;Safe Mode</description>
+      </verb>
+      <install-commands reinstall="uninstall\helper.exe" reinstall-args="/SetAsDefaultAppGlobal" show-icons="uninstall\helper.exe" show-icons-args="/ShowShortcuts" hide-icons="uninstall\helper.exe" hide-icons-args="/HideShortcuts" />
+    </default-program>
+    <url-protocol id="FirefoxURL">
+      <description xml:lang="en">Firefox URL</description>
+      <verb name="open" args="-osint -url &quot;%1&quot;" />
+      <known-prefix value="http" />
+      <known-prefix value="https" />
+      <known-prefix value="ftp" />
+    </url-protocol>
+    <registration id="Firefox" capability-reg-path="Software\Clients\StartMenuInternet\FIREFOX.EXE\Capabilities" />
+  </capabilities>
 </interface>
