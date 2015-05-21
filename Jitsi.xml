@@ -24,4 +24,14 @@
     <manifest-digest sha1new="86d6d7e9635b9d1ad2ad7f8bfbd0e1e6b30948c5" sha256="4ca8ac64b70d83c952e180ac45999bdd64a26476389054ca78c4ea099381b8c2" sha256new="JSUKYZFXBWB4SUXBQCWELGM33VSKEZDWHCIFJSTYYTVATE4BXDBA"/>
     <archive extract="SourceDir/PFiles/Jitsi" href="https://download.jitsi.org/jitsi/msi/jitsi-2.8.5426-x86.msi" size="63479808" type="application/x-msi"/>
   </implementation>
+  <capabilities os="Windows" xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <url-protocol id="sip">
+      <description xml:lang="en">URL: SIP Protocol handler</description>
+      <verb name="open" args="%1" />
+    </url-protocol>
+    <url-protocol id="xmpp">
+      <description xml:lang="en">URL: XMPP Protocol handler</description>
+      <verb name="open" args="%1" />
+    </url-protocol>
+  </capabilities>
 </interface>
