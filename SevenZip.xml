@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/SevenZip.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>7-Zip</name>
+  <summary xml:lang="en">file archiver with a high compression ratio</summary>
+  <summary xml:lang="de">Datei-Archivierer mit einer hohen Kompressionsrate</summary>
+  <description xml:lang="en">7-Zip is a file archiver with a high compression ratio. The program supports 7z, ZIP, CAB, RAR, ARJ, LZH, CHM, GZIP, BZIP2, Z, TAR, CPIO, ISO, MSI, WIM, NSIS, RPM and DEB formats. This is the command-line portion of 7-Zip.</description>
+  <description xml:lang="de">7-Zip ist ein Datei-Archivierer mit einer hohen Kompressionsrate. Das Programm unterstützt 7z, ZIP, CAB, RAR, ARJ, LZH, CHM, GZIP, BZIP2, Z, TAR, CPIO, ISO, MSI, WIM, NSIS, RPM und DEB. Dies ist der Befehlszeilenteil von 7-Zip.</description>
+  <icon href="http://0install.de/feed-icons/SevenZip.ico" type="image/vnd.microsoft.icon" />
+  <icon href="http://www.7-zip.org/7ziplogo.png" type="image/png" />
+  <category>Utility</category>
+  <homepage>http://www.7-zip.org/</homepage>
+  <group>
+    <command name="run" path="7zFM.exe" />
+    <command name="7z" path="7z.exe" />
+    <command name="7zG" path="7zG.exe" />
+    <implementation arch="Windows-x86_64" version="9.20" stability="stable" id="sha1new=5ce1ae12a02ec1ea266ebef23f88edf8c5e3f2f5">
+      <manifest-digest sha1new="5ce1ae12a02ec1ea266ebef23f88edf8c5e3f2f5" sha256="6eb1165d891d3caa55d3f1f19caba5e68a394ef5e59f0ddaa62e93fa8c911903" sha256new="N2YRMXMJDU6KUVOT6HYZZK5F42FDSTXV4WPQ3WVGF2J7VDERDEBQ" />
+      <archive href="http://www.7-zip.org/a/7z920-x64.msi" size="1376768" type="application/x-msi" extract="SourceDir/Files/7-Zip" />
+    </implementation>
+    <implementation arch="Windows-i486" version="9.20" stability="stable" id="sha1new=dd31080618f104472f37b9297838025dc4258043">
+      <manifest-digest sha1new="dd31080618f104472f37b9297838025dc4258043" sha256="0e3b6281256f4095dd28fc86f2b6c90aa878d72c5b921511c98439a297cdb3d2" sha256new="BY5WFAJFN5AJLXJI7SDPFNWJBKUHRVZMLOJBKEOJQQ42FF6NWPJA" />
+      <archive href="http://www.7-zip.org/a/7z920.msi" size="1122816" type="application/x-msi" extract="SourceDir/Files/7-Zip" />
+    </implementation>
+  </group>
+  <entry-point command="run" binary-name="7zFM">
+    <name xml:lang="en">7-Zip File Manager</name>
+  </entry-point>
+  <entry-point command="7z" binary-name="7z">
+    <needs-terminal />
+    <name xml:lang="en">7-Zip Console</name>
+  </entry-point>
+  <entry-point command="7zG" binary-name="7zG">
+    <name xml:lang="en">7-Zip GUI</name>
+  </entry-point>
+  <capabilities os="Windows" xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <file-type id="7-Zip.001">
+      <description xml:lang="en">001 Archive</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".001" />
+    </file-type>
+    <file-type id="7-Zip.7z">
+      <description xml:lang="en">7z Archive</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".7z" />
+    </file-type>
+    <file-type id="7-Zip.arj">
+      <description xml:lang="en">arj Archive</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".arj" />
+    </file-type>
+    <file-type id="7-Zip.bz2">
+      <description xml:lang="en">bz2 Archive</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".bz2" />
+    </file-type>
+    <file-type id="7-Zip.bzip2">
+      <description xml:lang="en">bzip2 Archive</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".bzip2" />
+    </file-type>
+    <file-type id="7-Zip.cab">
+      <description xml:lang="en">cab Archive</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".cab" />
+    </file-type>
+    <file-type id="7-Zip.cpio">
+      <description xml:lang="en">cpio Archive</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".cpio" />
+    </file-type>
+    <file-type id="7-Zip.deb">
+      <description xml:lang="en">deb Archive</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".deb" />
+    </file-type>
+    <file-type id="7-Zip.dmg">
+      <description xml:lang="en">dmg Archive</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".dmg" />
+    </file-type>
+    <file-type id="7-Zip.fat">
+      <description xml:lang="en">fat Archive</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".fat" />
+    </file-type>
+    <file-type id="7-Zip.gz">
+      <description xml:lang="en">gz Archive</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".gz" />
+    </file-type>
+    <file-type id="7-Zip.gzip">
+      <description xml:lang="en">gzip Archive</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".gzip" />
+    </file-type>
+    <file-type id="7-Zip.hfs">
+      <description xml:lang="en">hfs Archive</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".hfs" />
+    </file-type>
+    <file-type id="7-Zip.iso">
+      <description xml:lang="en">iso Archive</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".iso" />
+    </file-type>
+    <file-type id="7-Zip.lha">
+      <description xml:lang="en">lha Archive</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".lha" />
+    </file-type>
+    <file-type id="7-Zip.lzh">
+      <description xml:lang="en">lzh Archive</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".lzh" />
+    </file-type>
+    <file-type id="7-Zip.lzma">
+      <description xml:lang="en">lzma Archive</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".lzma" />
+    </file-type>
+    <file-type id="7-Zip.ntfs">
+      <description xml:lang="en">ntfs Archive</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".ntfs" />
+    </file-type>
+    <file-type id="7-Zip.rar">
+      <description xml:lang="en">rar Archive</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".rar" />
+    </file-type>
+    <file-type id="7-Zip.rpm">
+      <description xml:lang="en">rpm Archive</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".rpm" />
+    </file-type>
+    <file-type id="7-Zip.squashfs">
+      <description xml:lang="en">squashfs Archive</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".squashfs" />
+    </file-type>
+    <file-type id="7-Zip.swm">
+      <description xml:lang="en">swm Archive</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".swm" />
+    </file-type>
+    <file-type id="7-Zip.tar">
+      <description xml:lang="en">tar Archive</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".tar" />
+    </file-type>
+    <file-type id="7-Zip.taz">
+      <description xml:lang="en">taz Archive</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".taz" />
+    </file-type>
+    <file-type id="7-Zip.tbz">
+      <description xml:lang="en">tbz Archive</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".tbz" />
+    </file-type>
+    <file-type id="7-Zip.tbz2">
+      <description xml:lang="en">tbz2 Archive</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".tbz2" />
+    </file-type>
+    <file-type id="7-Zip.tgz">
+      <description xml:lang="en">tgz Archive</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".tgz" />
+    </file-type>
+    <file-type id="7-Zip.tpz">
+      <description xml:lang="en">tpz Archive</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".tpz" />
+    </file-type>
+    <file-type id="7-Zip.txz">
+      <description xml:lang="en">txz Archive</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".txz" />
+    </file-type>
+    <file-type id="7-Zip.vhd">
+      <description xml:lang="en">vhd Archive</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".vhd" />
+    </file-type>
+    <file-type id="7-Zip.wim">
+      <description xml:lang="en">wim Archive</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".wim" />
+    </file-type>
+    <file-type id="7-Zip.xar">
+      <description xml:lang="en">xar Archive</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".xar" />
+    </file-type>
+    <file-type id="7-Zip.xz">
+      <description xml:lang="en">xz Archive</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".xz" />
+    </file-type>
+    <file-type id="7-Zip.z">
+      <description xml:lang="en">z Archive</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".z" />
+    </file-type>
+    <file-type id="7-Zip.zip">
+      <description xml:lang="en">zip Archive</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".zip" mime-type="application/x-zip-compressed" perceived-type="compressed" />
+    </file-type>
+  </capabilities>
+</interface>
