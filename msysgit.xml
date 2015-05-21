@@ -134,6 +134,11 @@
       <manifest-digest sha1new="82af0410d9e08deb612a45e0f665c80e0947ec6e" sha256="5ff12e28eb2d101a0abedb9cb4f720852df5e22aa137a8c06201b846eea0dc01" sha256new="L7YS4KHLFUIBUCV63OOLJ5ZAQUW7LYRKUE32RQDCAG4EN3VA3QAQ" />
       <archive href="https://github.com/msysgit/msysgit/releases/download/Git-1.9.4-preview20140611/PortableGit-1.9.4-preview20140611.7z" size="21986935" type="application/x-7z-compressed" />
     </implementation>
+   <implementation version="1.9.5" released="2015-03-19" stability="stable" id="sha1new=c6cdca7659d8d44147bdf38517c0120d95120716">
+      <command name="vim" path="share/vim/vim74/vim.exe" />
+      <manifest-digest sha1new="c6cdca7659d8d44147bdf38517c0120d95120716" sha256="696326dd0b61fd8f99a6ed59d6f5152cec457af8b4f3f65c5e9c69d48b88f39b" sha256new="NFRSNXILMH6Y7GNG5VM5N5IVFTWEK6XYWTZ7MXC6TRU5JC4I6ONQ" />
+      <archive href="http://github.com/msysgit/msysgit/releases/download/Git-1.9.5-preview20150319/PortableGit-1.9.5-preview20150319.7z" size="23564206" type="application/x-7z-compressed" />
+    </implementation>
   </group>
   <entry-point command="git-bash">
     <name xml:lang="en">Git Bash</name>
