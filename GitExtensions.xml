@@ -40,6 +40,10 @@
       <manifest-digest sha256new="7DM6D4HKZMZHMHYNKSG6SG3LPZEOLACKL7OUEODPPNRUZO5MC3HA"/>
       <archive extract="GitExtensions" href="http://downloads.sourceforge.net/gitextensions/GitExtensions-2.48.04-Mono.zip" size="7517773" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=ac3785c5a2f82bf65864abc20938aecbd612746a" released="2015-05-15" stability="stable" version="2.48.05">
+      <manifest-digest sha256new="J4S7KNE3BIH36HYVF6LLEO5BPZTWGCHAV6ZVCXVOWVMCY5NXIORQ"/>
+      <archive extract="GitExtensions" href="http://downloads.sourceforge.net/gitextensions/GitExtensions-2.48.05-Mono.zip" size="7518013" type="application/zip"/>
+    </implementation>
   </group>
   <entry-point binary-name="GitExtensions" command="run">
     <name xml:lang="en">GitExtensions</name>
