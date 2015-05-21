@@ -16,4 +16,12 @@
     <manifest-digest sha1new="d54cf65c289525c3d00142572e974fb1074dae13" sha256="2f3a653ea30dcad57fbb113cc0389a6aea37ae9de0a87e601f17219ab7d37d58" sha256new="F45GKPVDBXFNK753CE6MAOE2NLVDPLU54CUH4YA7C4QZVN6TPVMA"/>
     <archive extract="SourceDir/PFiles/Jitsi" href="https://download.jitsi.org/jitsi/msi/jitsi-2.6.5390-x86.msi" size="62803968" type="application/x-msi"/>
   </implementation>
+  <implementation arch="Windows-x86_64" id="sha1new=48cb80fe0a679fb876872fc056afe296c8fc493c" main="Jitsi.exe" released="2015-03-19" stability="stable" version="2.8.5426">
+    <manifest-digest sha1new="48cb80fe0a679fb876872fc056afe296c8fc493c" sha256="ff02f94c36deefaa4bd5fc94f97bdd11df88df3eaf39edbbf21c048c16ae1bad" sha256new="74BPSTBW33X2US6V7SKPS665CHPYRXZ6V4463O7SDQCIYFVODOWQ"/>
+    <archive extract="SourceDir/PFiles/Jitsi" href="https://download.jitsi.org/jitsi/msi/jitsi-2.8.5426-x64.msi" size="65138688" type="application/x-msi"/>
+  </implementation>
+  <implementation arch="Windows-i486" id="sha1new=86d6d7e9635b9d1ad2ad7f8bfbd0e1e6b30948c5" main="Jitsi.exe" released="2015-03-19" stability="stable" version="2.8.5426">
+    <manifest-digest sha1new="86d6d7e9635b9d1ad2ad7f8bfbd0e1e6b30948c5" sha256="4ca8ac64b70d83c952e180ac45999bdd64a26476389054ca78c4ea099381b8c2" sha256new="JSUKYZFXBWB4SUXBQCWELGM33VSKEZDWHCIFJSTYYTVATE4BXDBA"/>
+    <archive extract="SourceDir/PFiles/Jitsi" href="https://download.jitsi.org/jitsi/msi/jitsi-2.8.5426-x86.msi" size="63479808" type="application/x-msi"/>
+  </implementation>
 </interface>
