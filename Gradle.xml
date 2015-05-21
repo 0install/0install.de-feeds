@@ -41,6 +41,10 @@
       <manifest-digest sha256new="E524KAMWA63LGYUL5JZDE2TIKXA6HSFMK5V5ZTGIDYVPFNX7FRCA"/>
       <archive extract="gradle-2.2.1" href="https://services.gradle.org/distributions/gradle-2.2.1-bin.zip" size="41653933" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=896a7a156cf172dc4b1f84cfedff6602fe930f30" released="2015-05-05" stability="stable" version="2.4">
+      <manifest-digest sha256new="GXQ25B6VLQB3RRTEEQWDJREBVSNBWQGI6EZF2CC3SZCKT3QJJ2DQ"/>
+      <archive extract="gradle-2.4" href="https://services.gradle.org/distributions/gradle-2.4-bin.zip" size="45383133" type="application/zip"/>
+    </implementation>
   </group>
   <entry-point binary-name="gradle" command="run"/>
 </interface>
