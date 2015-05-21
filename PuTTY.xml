@@ -36,9 +36,7 @@
       <archive href="http://the.earth.li/~sgtatham/putty/0.63/x86/putty.zip" size="1621853" type="application/zip" />
     </implementation>
   </group>
-  <entry-point command="run" binary-name="putty">
-    <name xml:lang="en">PuTTY</name>
-  </entry-point>
+  <entry-point command="run" binary-name="putty" />
   <entry-point command="puttygen">
     <name xml:lang="en">PuTTY Key Generator</name>
     <icon href="http://0install.de/feed-icons/PuTTY/puttygen.png" type="image/png" />

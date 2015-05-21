@@ -52,9 +52,7 @@
       <archive extract="SourceDir" href="http://download.documentfoundation.org/libreoffice/stable/4.4.2/win/x86/LibreOffice_4.4.2_Win_x86.msi" size="224325632" type="application/x-msi"/>
     </implementation>
   </group>
-  <entry-point binary-name="soffice" command="run">
-    <name xml:lang="en">LibreOffice</name>
-  </entry-point>
+  <entry-point binary-name="soffice" command="run" />
   <entry-point binary-name="swriter" command="writer">
     <name xml:lang="en">LibreOffice Writer</name>
     <icon href="http://0install.de/feed-icons/LibreOffice/Writer.png" type="image/png"/>

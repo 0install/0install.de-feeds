@@ -16,9 +16,7 @@ Inkscape supports many advanced SVG features (markers, clones, alpha blending, e
       <archive href="http://0install.de/files/hosted/inkscape-0.48.4-1-win32.tar.bz2" size="56036178" type="application/x-bzip-compressed-tar" extract="inkscape" />
     </implementation>
   </group>
-  <entry-point command="run" binary-name="inkscape">
-    <name xml:lang="en">Inkscape</name>
-  </entry-point>
+  <entry-point command="run" binary-name="inkscape" />
   <entry-point command="inkview" binary-name="inkview">
     <name xml:lang="en">Inkview</name>
     <summary xml:lang="en">slideshow program</summary>

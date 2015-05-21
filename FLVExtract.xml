@@ -18,11 +18,9 @@
       <archive href="http://moitah.net/download/byversion/FLV_Extract-1_6_3.zip" size="82992" type="application/zip" />
     </implementation>
   </group>
-  <entry-point command="run" binary-name="FLVExtract">
-    <name xml:lang="en">FLV Extract</name>
-  </entry-point>
+  <entry-point command="run" binary-name="FLVExtract" />
   <entry-point command="console" binary-name="FLVExtractCL">
     <needs-terminal />
-    <name xml:lang="en">FLV Extract</name>
+    <name xml:lang="en">FLV Extract command-line</name>
   </entry-point>
 </interface>

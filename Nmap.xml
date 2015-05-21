@@ -30,7 +30,6 @@
   </group>
   <entry-point binary-name="nmap" command="run">
     <needs-terminal/>
-    <name xml:lang="en">Nmap</name>
   </entry-point>
   <entry-point binary-name="ncat" command="ncat">
     <needs-terminal/>

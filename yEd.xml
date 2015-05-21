@@ -26,9 +26,7 @@
       <archive extract="yed-3.14" href="http://live.yworks.com/yed-downloads/yEd-3.14.zip" size="27940970" type="application/zip"/>
     </implementation>
   </group>
-  <entry-point binary-name="yed" command="run">
-    <name xml:lang="en">yEd Graph Editor</name>
-  </entry-point>
+  <entry-point binary-name="yed" command="run" />
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
     <file-type id="yEd">
       <description xml:lang="en">Graph Markup Language</description>

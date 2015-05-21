@@ -22,9 +22,7 @@ because it uses IDEA (which is patented worldwide).</description>
       <archive href="http://0install.de/files/hosted/gnupg-w32-1.4.11.zip" size="2114852" type="application/zip" />
     </implementation>
   </group>
-  <entry-point command="run" binary-name="gpg">
-    <name xml:lang="en">GnuPG</name>
-  </entry-point>
+  <entry-point command="run" binary-name="gpg" />
   <entry-point command="gpgv">
     <name xml:lang="en">OpenPGP signature checking tool</name>
     <summary xml:lang="en">stripped down version of gpg which is only able to check signatures</summary>

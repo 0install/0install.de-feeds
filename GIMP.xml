@@ -30,9 +30,7 @@
       </implementation>
     </group>
   </group>
-  <entry-point command="run" binary-name="gimp">
-    <name xml:lang="en">GIMP</name>
-  </entry-point>
+  <entry-point command="run" binary-name="gimp" />
   <entry-point command="console" binary-name="gimp-console">
     <needs-terminal />
     <name xml:lang="en">GIMP Console</name>

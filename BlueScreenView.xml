@@ -16,7 +16,4 @@
       <archive href="http://www.nirsoft.net/utils/bluescreenview-x64.zip" size="84917" type="application/zip" />
     </implementation>
   </group>
-  <entry-point command="run" binary-name="BlueScreenView">
-    <name xml:lang="en">BlueScreenView</name>
-  </entry-point>
 </interface>
