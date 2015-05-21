@@ -89,4 +89,18 @@
   <entry-point binary-name="unpak200" command="unpak200">
     <needs-terminal/>
   </entry-point>
+  <capabilities os="Windows" xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <file-type id="jarfile">
+      <description xml:lang="en">Executable Jar File</description>
+      <verb name="open" command="run-gui" args="-jar &quot;%1&quot; %*" />
+      <extension value=".jar" />
+    </file-type>
+    <file-type id="JNLPFile">
+      <description xml:lang="en">JNLP File</description>
+      <verb name="Open" command="javaws" args="&quot;%1&quot;">
+        <description xml:lang="en">&amp;Launch</description>
+      </verb>
+      <extension value=".jnlp" mime-type="application/x-java-jnlp-file" />
+    </file-type>
+  </capabilities>
 </interface>
