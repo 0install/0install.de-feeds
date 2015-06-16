@@ -20,6 +20,7 @@
   <feed if-0install-version="2.7.1.." langs="ja" src="http://0install.de/feeds/Mozilla_Firefox/ja.xml" />
   <feed if-0install-version="2.7.1.." langs="zh_CN" src="http://0install.de/feeds/Mozilla_Firefox/zh-CN.xml" />
   <package-implementation package="firefox" />
+  <entry-point command="run" binary-name="firefox" />
   <capabilities os="Windows" xmlns="http://0install.de/schema/desktop-integration/capabilities">
     <file-type id="FirefoxHTML">
       <description xml:lang="en">Firefox HTML Document</description>

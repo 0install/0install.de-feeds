@@ -9,7 +9,8 @@ Inkscape supports many advanced SVG features (markers, clones, alpha blending, e
   <icon href="http://0install.de/feed-icons/Inkscape.png" type="image/png" />
   <icon href="http://0install.de/feed-icons/Inkscape.ico" type="image/vnd.microsoft.icon" />
   <category>Graphics</category>
-  <group main="inkscape.exe">
+  <group>
+    <command name="run" path="inkscape.exe" />
     <command name="inkview" path="inkview.exe" />
     <implementation arch="Windows-*" version="0.48.1-2" id="sha1new=7b7be2acc757cba08b242c6e7222c9cb7aa605eb">
       <manifest-digest sha1new="7b7be2acc757cba08b242c6e7222c9cb7aa605eb" sha256="8c57c17901d15017c09f94f2d1e319fb66aee9419056f115bd86f065bab5a84e" sha256new="RRL4C6IB2FIBPQE7STZNDYYZ7NTK52KBSBLPCFN5Q3YGLOVVVBHA" />
