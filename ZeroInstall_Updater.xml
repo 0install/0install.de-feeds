@@ -33,5 +33,9 @@
       <manifest-digest sha256new="KSCZSRACOXFBZVOL63MYHTYQFM2VIHFQWMXHR5LLLRZFQHU3DSCA"/>
       <archive href="http://0install.de/files/zero-install-updater-1.4.1.tar.gz" size="510337"/>
     </implementation>
+    <implementation id="sha1new=fdca78643469f567625e737d70c530356a2d3fa6" released="2015-06-24" stability="stable" version="1.4.3">
+      <manifest-digest sha256new="GPZ45GL67T2VFHFAQ44UNSTIXHDY3KYFPM7ZDEXQJFXDHJE2ID7A"/>
+      <archive href="http://0install.de/files/zero-install-updater-1.4.3.tar.gz" size="520761"/>
+    </implementation>
   </group>
 </interface>
