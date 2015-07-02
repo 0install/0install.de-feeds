@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<interface uri="http://0install.de/feeds/Eclipse_CPP.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <name>Eclipse IDE for C/C++ Developers</name>
+  <summary xml:lang="en">A multi-language software development environment - subset for C/C++</summary>
+  <summary xml:lang="de">Eine multi-Sprachen Softwareentwicklungsumgebung - Teilmenge für C/C++</summary>
+  <description xml:lang="en">Eclipse is a multi-language software development environment comprising an integrated development environment and an extensible plug-in system.</description>
+  <description xml:lang="de">Eclipse ist eine multi-Sprachen Softwareentwicklungsumgebung, bestehend aus einer integrierten Entwicklungsumgebung (IDE) und einem erweiterbaren Plugin-System.</description>
+  <homepage>http://www.eclipse.org/</homepage>
+  <icon href="http://0install.de/feed-icons/Eclipse.png" type="image/png"/>
+  <category>Development</category>
+  <group license="EPL (Eclipse Public License)">
+    <requires interface="http://repo.roscidus.com/java/openjdk-jre">
+      <environment insert="bin" name="PATH"/>
+    </requires>
+    <implementation arch="Windows-x86_64" id="sha1new=aa44b8d7c022db57a10c2c50feae61c61ac78be8" main="eclipse.exe" released="2015-06-24" stability="stable" version="4.5">
+      <manifest-digest sha256new="VHATMNQ3ECDCAZNRB2HYLAKRGFSMRN5Y2Q5BJPMN6J7TQL4CXFJA"/>
+      <archive extract="eclipse" href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/mars/R/eclipse-cpp-mars-R-win32-x86_64.zip&amp;r=1" size="183249860" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=c8022416e724effc59ccbd07101577881c3cc11f" main="eclipse.exe" released="2015-06-24" stability="stable" version="4.5">
+      <manifest-digest sha256new="P5K3JDNSLKREXLAUNMOOGHOGRENG77R5F4KCJNRI3ECFFJ3QHKNA"/>
+      <archive extract="eclipse" href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/mars/R/eclipse-cpp-mars-R-win32.zip&amp;r=1" size="183103176" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=e2704f3380de6bf1dbff47f48ba277eb28ba428a" main="eclipse" released="2015-06-24" stability="stable" version="4.5">
+      <manifest-digest sha256new="NLNYSDHHCOERSSL76JNJBV63E6I6FVU2MFOXP2EIVXSB3NO4LXLQ"/>
+      <archive extract="eclipse" href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/mars/R/eclipse-cpp-mars-R-linux-gtk-x86_64.tar.gz&amp;r=1" size="189519790" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i586" id="sha1new=43bab183653322c060619112eee04c1c9eb39846" main="eclipse" released="2015-06-24" stability="stable" version="4.5">
+      <manifest-digest sha256new="HQQUGLBCRCWUQHXYYXNFO7J4ASBLADV3VAL5CAFY45LIALY4K6SA"/>
+      <archive extract="eclipse" href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/mars/R/eclipse-cpp-mars-R-linux-gtk.tar.gz&amp;r=1" size="189374184" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="MacOSX-x86_64" id="sha1new=52388fb891e965d335438d79d465941e0f04cdca" main="Eclipse.app/Contents/MacOS/eclipse" released="2015-06-24" stability="stable" version="4.5">
+      <manifest-digest sha256new="JE3NAQJ6AWBZX7TM6G3C77RLAPC2JWJV2IABNWPAY4324MMG7GCA"/>
+      <archive extract="Eclipse.app" href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/mars/R/eclipse-cpp-mars-R-macosx-cocoa-x86_64.tar.gz&amp;r=1" size="182004577" type="application/x-compressed-tar"/>
+    </implementation>
+  </group>
+</interface>

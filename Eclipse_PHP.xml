@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<interface uri="http://0install.de/feeds/Eclipse_PHP.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <name>Eclipse for PHP Developers</name>
+  <summary xml:lang="en">A multi-language software development environment - subset for PHP</summary>
+  <summary xml:lang="de">Eine multi-Sprachen Softwareentwicklungsumgebung - Teilmenge für PHP</summary>
+  <description xml:lang="en">Eclipse is a multi-language software development environment comprising an integrated development environment and an extensible plug-in system.</description>
+  <description xml:lang="de">Eclipse ist eine multi-Sprachen Softwareentwicklungsumgebung, bestehend aus einer integrierten Entwicklungsumgebung (IDE) und einem erweiterbaren Plugin-System.</description>
+  <homepage>http://www.eclipse.org/</homepage>
+  <icon href="http://0install.de/feed-icons/Eclipse.png" type="image/png"/>
+  <category>Development</category>
+  <group license="EPL (Eclipse Public License)">
+    <requires interface="http://repo.roscidus.com/java/openjdk-jre">
+      <environment insert="bin" name="PATH"/>
+    </requires>
+    <implementation arch="Windows-x86_64" id="sha1new=fbfcaaedf0c1920dd1df9c1c454083a25165fa54" main="eclipse.exe" released="2015-06-24" stability="stable" version="4.5">
+      <manifest-digest sha256new="YY67AS42Y4QAEI62K2BF7J6HGS5HGHJY3C2FFRVD25RTMRQYQMJQ"/>
+      <archive extract="eclipse" href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/mars/R/eclipse-php-mars-R-win32-x86_64.zip&amp;r=1" size="152092549" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=56915dd21ffe18b5c57cdef709f3164a3876494a" main="eclipse.exe" released="2015-06-24" stability="stable" version="4.5">
+      <manifest-digest sha256new="6P5PO4CDYW6HMPVENTMLU56UBCC64X4E5KAVNUX2ZLSIUMEXFMOA"/>
+      <archive extract="eclipse" href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/mars/R/eclipse-php-mars-R-win32.zip&amp;r=1" size="152048998" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=460c54638030414ac47b20bd85a2af677cf62b9c" main="eclipse" released="2015-06-24" stability="stable" version="4.5">
+      <manifest-digest sha256new="E74BPZIG2ZN2OKETCEX3A3SW3BQQRMLCGUXGPML2YRCCG5GUNCCQ"/>
+      <archive extract="eclipse" href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/mars/R/eclipse-php-mars-R-linux-gtk-x86_64.tar.gz&amp;r=1" size="151314328" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i586" id="sha1new=5ec0c0fde55e90dcd7a887fb454d498ee79eef38" main="eclipse" released="2015-06-24" stability="stable" version="4.5">
+      <manifest-digest sha256new="JJQW47BCJ6HELT6M5SMTTA2W3ZKIFZALWYGXNRMSOTJG6S3EYZ2A"/>
+      <archive extract="eclipse" href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/mars/R/eclipse-php-mars-R-linux-gtk.tar.gz&amp;r=1" size="151137019" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="MacOSX-x86_64" id="sha1new=707ff59fb078ae8138ce220e1c7033bf4e24a7be" main="Eclipse.app/Contents/MacOS/eclipse" released="2015-06-24" stability="stable" version="4.5">
+      <manifest-digest sha256new="FSFLJ3Y4FVPUTAZSNELQSG4IWTSPGHTGDIEX3GGWPMR2YIKXQCEQ"/>
+      <archive extract="Eclipse.app" href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/mars/R/eclipse-php-mars-R-macosx-cocoa-x86_64.tar.gz&amp;r=1" size="151385633" type="application/x-compressed-tar"/>
+    </implementation>
+  </group>
+</interface>

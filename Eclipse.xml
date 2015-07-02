@@ -1,16 +1,17 @@
 <?xml version="1.0" ?>
 <interface uri="http://0install.de/feeds/Eclipse.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
-  <name>Eclipse Standard</name>
-  <summary xml:lang="en">A multi-language software development environment</summary>
-  <summary xml:lang="de">Eine multi-Sprachen Softwareentwicklungsumgebung</summary>
+  <name>Eclipse IDE for Java EE Developers</name>
+  <summary xml:lang="en">A multi-language software development environment - subset for Java EE</summary>
+  <summary xml:lang="de">Eine multi-Sprachen Softwareentwicklungsumgebung - Teilmenge für Java EE</summary>
   <description xml:lang="en">Eclipse is a multi-language software development environment comprising an integrated development environment and an extensible plug-in system.</description>
   <description xml:lang="de">Eclipse ist eine multi-Sprachen Softwareentwicklungsumgebung, bestehend aus einer integrierten Entwicklungsumgebung (IDE) und einem erweiterbaren Plugin-System.</description>
   <homepage>http://www.eclipse.org/</homepage>
   <icon href="http://0install.de/feed-icons/Eclipse.png" type="image/png"/>
   <category>Development</category>
   <group license="EPL (Eclipse Public License)">
-    <requires interface="http://repo.roscidus.com/java/openjdk-jre">
-      <environment insert="." mode="replace" name="JAVAHOME"/>
+    <requires interface="http://repo.roscidus.com/java/openjdk-jdk">
+      <environment insert="." mode="replace" name="JAVA_HOME"/>
+      <environment insert="bin" name="PATH"/>
     </requires>
     <implementation arch="Windows-x86_64" id="sha1new=c5655c08404e4eaac7e7260aa023b6771782f5c5" main="eclipse.exe" released="2014-09-26" stability="stable" version="4.4.1">
       <manifest-digest sha256new="LGH75XMX47REY2HBVJKXFNXWYWL4PFDV2FH3HJZ5YFBFEDZTA3IA"/>
@@ -35,6 +36,26 @@
     <implementation arch="MacOSX-i686" id="sha1new=f16f21349d1ae4a52fb51f9ad6eab3e0cf03b7dc" main="Eclipse.app/Contents/MacOS/eclipse" released="2014-10-10" stability="stable" version="4.4.1">
       <manifest-digest sha256new="CUHZOUZDQGJB56RNERSKF74AWV4DAFYXFJNSSVYIPYSTJPYWZFVA"/>
       <archive extract="eclipse" href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/luna/SR1/eclipse-standard-luna-SR1-macosx-cocoa.tar.gz&amp;r=1" size="213460610" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=b2952234087fa2163b7ddd5433b5148949dd5998" main="eclipse.exe" released="2015-06-24" stability="stable" version="4.5">
+      <manifest-digest sha256new="L6FFPTCEIPPHGONNO5FJW2JQZFW25HBIUUH33GRQU4NF5VRRGE2Q"/>
+      <archive extract="eclipse" href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/mars/R/eclipse-jee-mars-R-win32-x86_64.zip&amp;r=1" size="282533464" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=95375c9eb2e5ff689c60b16427f889ac7977c3a4" main="eclipse.exe" released="2015-06-24" stability="stable" version="4.5">
+      <manifest-digest sha256new="LXQELBBIBNMTQIGH33FXLYCQXJLK7C7OMYPSLWXXVDUJKVTUECAQ"/>
+      <archive extract="eclipse" href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/mars/R/eclipse-jee-mars-R-win32.zip&amp;r=1" size="282386003" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=6dad15e3d270c08cee3ceaddf30ee599666343ae" main="eclipse" released="2015-06-24" stability="stable" version="4.5">
+      <manifest-digest sha256new="5SEB7TJV4OEKRF6RCDWXJ7YORFNCDMYA7AY6GWQV7XWTA7RFRL4A"/>
+      <archive extract="eclipse" href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/mars/R/eclipse-jee-mars-R-linux-gtk-x86_64.tar.gz&amp;r=1" size="280578105" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i586" id="sha1new=30520eb7b83869927a09adf79ef714ec9c86f29a" main="eclipse" released="2015-06-24" stability="stable" version="4.5">
+      <manifest-digest sha256new="ZYG5OHSY4P76ZHH3JWTMRJSPNID6LSNHJJB23PUIJA4ZYNRL2YDQ"/>
+      <archive extract="eclipse" href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/mars/R/eclipse-jee-mars-R-linux-gtk.tar.gz&amp;r=1" size="280398256" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="MacOSX-x86_64" id="sha1new=0a805a41d8884abd3456d0c4fce0072342a62b54" main="Eclipse.app/Contents/MacOS/eclipse" released="2015-06-24" stability="stable" version="4.5">
+      <manifest-digest sha256new="DJEPXMISD564UG6FCIOWYOK5A5P23FPCVT4N5634PQRUXUGKKMWQ"/>
+      <archive extract="Eclipse.app" href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/mars/R/eclipse-jee-mars-R-macosx-cocoa-x86_64.tar.gz&amp;r=1" size="280793400" type="application/x-compressed-tar"/>
     </implementation>
   </group>
 </interface>
