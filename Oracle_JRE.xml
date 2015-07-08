@@ -14,22 +14,6 @@
     <command name="keytool" path="bin/keytool.exe"/>
     <command name="pak200" path="bin/pak200.exe"/>
     <command name="unpak200" path="bin/unpak200.exe"/>
-    <implementation arch="Windows-x86_64" id="sha1new=8514a18c8d7e0f191badef9a1eb36f89f88251d0" stability="stable" version="7.0.9">
-      <manifest-digest sha1new="8514a18c8d7e0f191badef9a1eb36f89f88251d0" sha256="68e77d09e60691beca93fd18dfeadc2cb1d62b75b93ff41e56df30a3022305cd" sha256new="NDTX2CPGA2I35SUT7UMN72W4FSY5MK3VXE77IHSW34YKGARDAXGQ"/>
-      <archive extract="jre1.7.0_09" href="http://0install.de/files/hosted/jre-7u9-windows-x64.tar.gz" size="43192320" type="application/x-compressed-tar"/>
-    </implementation>
-    <implementation arch="Windows-i486" id="sha1new=38e7fd0ea1981498e3ac94fde8d3d06a6d6c67da" stability="stable" version="7.0.9">
-      <manifest-digest sha1new="38e7fd0ea1981498e3ac94fde8d3d06a6d6c67da" sha256="77812299749161610d5d3bede06553a117b2844deb387ed17a83e87472de6f68" sha256new="O6ASFGLUSFQWCDK5HPW6AZKTUEL3FBCN5M4H5UL2QPUHI4W6N5UA"/>
-      <archive extract="jre1.7.0_09" href="http://0install.de/files/hosted/jre-7u9-windows-i586.tar.gz" size="41338880" type="application/x-compressed-tar"/>
-    </implementation>
-    <implementation arch="Windows-x86_64" id="sha1new=4a980ae41f8f16f637a547be35e0d707762131cc" stability="stable" version="7.0.10">
-      <manifest-digest sha1new="4a980ae41f8f16f637a547be35e0d707762131cc" sha256="e3be2a6a052953c93e96788039e9a44aa75e9c8320d10a3760ab8e1242c806c9" sha256new="4O7CU2QFFFJ4SPUWPCADT2NEJKTV5HEDEDIQUN3AVOHBEQWIA3EQ"/>
-      <archive extract="jre1.7.0_10" href="http://0install.de/files/hosted/jre-7u10-windows-x64.tar.gz" size="43479040" type="application/x-compressed-tar"/>
-    </implementation>
-    <implementation arch="Windows-i486" id="sha1new=7b9589c6ccf6e4c028f7045f0b424e477d28eef9" stability="stable" version="7.0.10">
-      <manifest-digest sha1new="7b9589c6ccf6e4c028f7045f0b424e477d28eef9" sha256="0f607029a89758e4fa279d71fa233a598775b64e43fff4ccd5851768deefc8c9" sha256new="B5QHAKNIS5MOJ6RHTVY7UIZ2LGDXLNSOIP77JTGVQULWRXXPZDEQ"/>
-      <archive extract="jre1.7.0_10" href="http://0install.de/files/hosted/jre-7u10-windows-i586.tar.gz" size="41656320" type="application/x-compressed-tar"/>
-    </implementation>
     <implementation arch="Windows-x86_64" id="sha1new=11faf0265fab2c3cf105e3a892f7d69527eba723" stability="stable" version="7.0.45">
       <manifest-digest sha1new="11faf0265fab2c3cf105e3a892f7d69527eba723" sha256="73400bb6fd15f37bc89dffb7227ce21bf0cb9e74e17b61485849cf0703937656" sha256new="ONAAXNX5CXZXXSE5763SE7HCDPYMXHTU4F5WCSCYJHHQOA4TOZLA"/>
       <archive extract="jre1.7.0_45" href="http://0install.de/files/hosted/jre-7u45-windows-x64.tar.gz" size="43386880" type="application/x-compressed-tar"/>
@@ -37,14 +21,6 @@
     <implementation arch="Windows-i486" id="sha1new=cd226027e47a099a400a6d0d0c6d4139476976bb" stability="stable" version="7.0.45">
       <manifest-digest sha1new="cd226027e47a099a400a6d0d0c6d4139476976bb" sha256="e6ffa1bf681c2c25f8591c2f261e614ed3efad7573d791185bc92f1105b72164" sha256new="4372DP3IDQWCL6CZDQXSMHTBJ3J67LLVOPLZCGC3ZEXRCBNXEFSA"/>
       <archive extract="jre1.7.0_45" href="http://0install.de/files/hosted/jre-7u45-windows-i586.tar.gz" size="41492480" type="application/x-compressed-tar"/>
-    </implementation>
-    <implementation arch="Windows-x86_64" id="sha1new=13244a905eac47435b44c272327186a29c9b3d4a" stability="stable" version="8.0.11">
-      <manifest-digest sha1new="13244a905eac47435b44c272327186a29c9b3d4a" sha256="bf0973055987332d8ddca2225b051eb1043a5c660cdfe0b472d1a55cea3a5b88" sha256new="X4EXGBKZQ4ZS3DO4UIRFWBI6WECDUXDGBTP6BNDS2GSVZ2R2LOEA"/>
-      <archive extract="jre1.8.0_11" href="http://0install.de/files/hosted/jre-8u11-windows-x64.tar.gz" size="51317591" type="application/x-compressed-tar"/>
-    </implementation>
-    <implementation arch="Windows-i486" id="sha1new=082c06df3bf2f8ee4ce9c3c019daecb5b9fcd510" stability="stable" version="8.0.11">
-      <manifest-digest sha1new="082c06df3bf2f8ee4ce9c3c019daecb5b9fcd510" sha256="31a60c60da6442c56f42f0803c2ee3dbc486e811ee71095c0ab8f8178c16676d" sha256new="GGTAYYG2MRBMK32C6CADYLXD3PCIN2AR5ZYQSXAKXD4BPDAWM5WQ"/>
-      <archive extract="jre1.8.0_11" href="http://0install.de/files/hosted/jre-8u11-windows-i586.tar.gz" size="48161740" type="application/x-compressed-tar"/>
     </implementation>
     <implementation arch="Windows-x86_64" id="sha1new=eca63b237ec347e1e3df7a087c65ab2754bc6024" released="2014-10-14" stability="stable" version="8.0.25">
       <manifest-digest sha256new="R2M5ZNLYCQAOVTKXRNYKA4ORT3N34ISXHOLE3MHLGVCUQRTZCN3A"/>

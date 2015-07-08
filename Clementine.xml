@@ -10,16 +10,6 @@
   <icon href="http://0install.de/feed-icons/Clementine.ico" type="image/vnd.microsoft.icon" />
   <category>Audio</category>
   <group license="GPL v3 (GNU General Public License)">
-    <group version="1.0.0" released="2011-12-27" stability="stable">
-      <implementation arch="Windows-*" main="clementine.exe" id="sha1new=8e571400cfe6da64a5f55a0436aef2494bbc0021">
-        <manifest-digest sha1new="8e571400cfe6da64a5f55a0436aef2494bbc0021" sha256="1ad31d8c4aeb56899c5fdba0611ebf0e335be2b26d64877c5c72c7ae25572479" sha256new="DLJR3DCK5NLITHC73OQGCHV7BYZVXYVSNVSIO7C4OLD24JKXER4Q" />
-        <archive href="http://0install.de/files/hosted/Clementine-1.0.0.tar.bz2" size="22666533" type="application/x-bzip-compressed-tar" extract="Clementine-1.0.0" />
-      </implementation>
-      <implementation arch="*-src" id="sha1new=801f645b89c5e29dff7b4db7edf56eb58fbc9e80">
-        <manifest-digest sha1new="801f645b89c5e29dff7b4db7edf56eb58fbc9e80" sha256="51405f95dc38d4a30391dfd254b67c724ab9f4701c21a8837854215bf54230f4" sha256new="KFAF7FO4HDKKGA4R37JFJNT4OJFLT5DQDQQ2RA3YKQQVX5KCGD2A" />
-        <archive href="http://clementine-player.googlecode.com/files/clementine-1.0.0.tar.gz" size="8222950" type="application/x-compressed-tar" />
-      </implementation>
-    </group>
     <group version="1.0.1" released="2012-01-22" stability="stable">
       <implementation arch="Windows-*" main="clementine.exe" id="sha1new=7773071986a8acd1076d43cb16e1c8e975720fb8">
         <manifest-digest sha1new="7773071986a8acd1076d43cb16e1c8e975720fb8" sha256="fdd406472aad423dcd1a53213f9a71d49fdf86a00c5f1c456b6281ad65aaf31b" sha256new="7XKAMRZKVVBD3TI2KMQT7GTR2SP57BVABRPRYRLLMKA22ZNK6MNQ" />

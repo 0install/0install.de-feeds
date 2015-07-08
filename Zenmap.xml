@@ -13,10 +13,6 @@
       <executable-in-path command="nping" name="nping"/>
       <executable-in-path command="ndiff" name="ndiff"/>
     </requires>
-    <implementation id="sha1new=357003263b7db737f9bd759cf77590391f11aeb7" stability="stable" version="6.40">
-      <manifest-digest sha1new="357003263b7db737f9bd759cf77590391f11aeb7" sha256="9d2572e1ba47354bf61098efce56ed248c2e6a264f612af4edd6030e8e31bb6c" sha256new="TUSXFYN2I42UX5QQTDX44VXNESGC42RGJ5QSV5HN2YBQ5DRRXNWA"/>
-      <archive href="http://0install.de/files/hosted/zenmap-6.40.zip" size="11021657" type="application/zip"/>
-    </implementation>
     <implementation id="sha1new=521dc12a092484bb8ab8c7989ffbf0eafe1a495b" released="2014-08-22" stability="stable" version="6.47">
       <manifest-digest sha256new="A76ZSLLK332YJDWSTEIGZ5M6QR4UYZIL7XKNBQ52OSQAQNUQLFVQ"/>
       <archive href="http://0install.de/files/hosted/zenmap-6.47.zip" size="11315039" type="application/zip"/>
