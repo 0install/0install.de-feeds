@@ -49,6 +49,10 @@
       <manifest-digest sha1new="49d32418638b5855dbf57b5cefe46aeb656b3235" sha256="6ae5b5ebec80dd417f73e2276c05d2c980135346d8aec0b55d2fcd7df6600834" sha256new="NLS3L27MQDOUC73T4ITWYBOSZGABGU2G3CXMBNK5F7GX35TABA2A"/>
       <archive extract="SourceDir" href="http://downloadarchive.documentfoundation.org/libreoffice/old/4.4.4.3/win/x86/LibreOffice_4.4.4.3_Win_x86.msi" size="224423936" type="application/x-msi"/>
     </implementation>
+    <implementation id="sha1new=174a8f2116da32b152e076ee64bbf6bb7a82a60e" released="2015-07-09" stability="stable" version="4.4.5.1">
+      <manifest-digest sha1new="174a8f2116da32b152e076ee64bbf6bb7a82a60e" sha256="f9cc24852af36b4d1b9f2936099d8c334c842fd4f2a7c72368d9dfd196cadf50" sha256new="7HGCJBJK6NVU2G47FE3ATHMMGNGIIL6U6KT4OI3I3HP5DFWK35IA"/>
+      <archive extract="SourceDir" href="http://downloadarchive.documentfoundation.org/libreoffice/old/4.4.5.1/win/x86/LibreOffice_4.4.5.1_Win_x86.msi" size="224542720" type="application/x-msi"/>
+    </implementation>
   </group>
   <entry-point binary-name="soffice" command="run"/>
   <entry-point binary-name="swriter" command="writer">
