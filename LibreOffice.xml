@@ -41,8 +41,12 @@
       <manifest-digest sha1new="e5fc2245d1a2846ff68069bfefe39dfc4773f50a" sha256="db62a1de5157522d461c64be47c438598c2835d635803717c550ede27e00b581" sha256new="3NRKDXSRK5JC2RQ4MS7EPRBYLGGCQNOWGWADOF6FKDW6E7QAWWAQ"/>
       <archive extract="SourceDir" href="http://downloadarchive.documentfoundation.org/libreoffice/old/4.4.3.2/win/x86/LibreOffice_4.4.3.2_Win_x86.msi" size="224387072" type="application/x-msi"/>
     </implementation>
+    <implementation id="sha1new=0e8c6987c952ffbf1aa1f7ce5adec12e67f0d511" released="2015-06-11" stability="stable" version="4.4.4.2">
+      <manifest-digest sha1new="0e8c6987c952ffbf1aa1f7ce5adec12e67f0d511" sha256="3e6d4213e68122d11e4cccd23d0d40fc3bdac3d79a51f2afdd216a67e8193fbd" sha256new="HZWUEE7GQERNCHSMZTJD2DKA7Q55VQ6XTJI7FL65EFVGP2AZH66Q"/>
+      <archive extract="SourceDir" href="http://downloadarchive.documentfoundation.org/libreoffice/old/4.4.4.2/win/x86/LibreOffice_4.4.4.2_Win_x86.msi" size="224448512" type="application/x-msi"/>
+    </implementation>
   </group>
-  <entry-point binary-name="soffice" command="run" />
+  <entry-point binary-name="soffice" command="run"/>
   <entry-point binary-name="swriter" command="writer">
     <name xml:lang="en">LibreOffice Writer</name>
     <icon href="http://0install.de/feed-icons/LibreOffice/Writer.png" type="image/png"/>
