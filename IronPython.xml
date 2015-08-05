@@ -8,6 +8,7 @@
   <homepage>http://ironpython.net/</homepage>
   <icon href="http://0install.de/feed-icons/IronPython.png" type="image/png" />
   <icon href="http://0install.de/feed-icons/IronPython.ico" type="image/vnd.microsoft.icon" />
+  <category>Development</category>
   <group license="The Apache License v2">
     <group arch="Windows-x86_64">
       <command name="run" path="ipy64.exe">
