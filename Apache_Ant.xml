@@ -7,14 +7,12 @@
   <category>Development</category>
   <needs-terminal/>
   <group langs="en" license="The Apache Software License, Version 2.0">
-    <environment mode="append" name="ANT_OPTS" value=""/>
     <environment insert="" mode="replace" name="ANT_HOME"/>
     <command name="run">
       <runner command="java" interface="http://repo.roscidus.com/java/openjdk-jdk">
-        <arg>$ANT_OPTS</arg>
+        <arg>-Dant.home=$ANT_HOME</arg>
         <arg>-classpath</arg>
         <arg>$ANT_HOME/lib/ant-launcher.jar</arg>
-        <arg>-Dant.home=$ANT_HOME</arg>
         <arg>org.apache.tools.ant.launch.Launcher</arg>
       </runner>
     </command>

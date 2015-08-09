@@ -7,11 +7,9 @@
   <category>Development</category>
   <needs-terminal/>
   <group langs="en" license="The Apache Software License, Version 2.0">
-    <environment mode="append" name="GRADLE_OPTS" value=""/>
     <environment insert="" mode="replace" name="APP_BASE_NAME"/>
     <command name="run">
       <runner command="java" interface="http://repo.roscidus.com/java/openjdk-jdk">
-        <arg>$GRADLE_OPTS</arg>
         <arg>-Dorg.gradle.appname=$APP_BASE_NAME</arg>
         <arg>-classpath</arg>
         <arg>org.gradle.launcher.GradleMain</arg>
