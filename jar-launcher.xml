@@ -4,7 +4,7 @@
   <summary xml:lang="en">launcher that starts the main class while preserving the CLASSPATH</summary>
   <description xml:lang="en">A launcher that starts the main class specified in a JAR while preserving the CLASSPATH.
 Workaround for java -classpath ... -jar ... which does not work.</description>
-  <homepage>http://bitbucket.org/nanobyte/jar-launcher</homepage>
+  <homepage>https://github.com/0install/jar-launcher</homepage>
   <implementation version="1.0-pre" stability="stable" id="1.0-SNAPSHOT">
     <requires interface="http://repo.roscidus.com/java/openjdk-jre" version="1.3.." />
     <command name="run">
@@ -19,7 +19,7 @@ Workaround for java -classpath ... -jar ... which does not work.</description>
         <arg>net.zeroinstall.jar.launcher.JarLauncher</arg>
       </runner>
     </command>
-    <manifest-digest sha1new="4b94b2fc50623cdcd2f93b5a46a22f7bcb4c15e7" sha256="9e88f9637b9e443ab09a2b6139ee847ee39082a67980983890c4d085cc24bbda" sha256new="T2EPSY33TZCDVME2FNQTT3UEP3RZBAVGPGAJQOEQYTIILTBEXPNA" />
-    <file href="http://0install.de/files/hosted/jar-launcher-1.0-SNAPSHOT.jar" size="3140" dest="jar-launcher-1.0-SNAPSHOT.jar" />
+    <manifest-digest sha1new="f5af192ee7f0e52b207ec20bb740585402b850ea" sha256="2096f2abc618dd030bee289da081635be4d38652fa2a131cb34bd02a97f0318b" sha256new="ECLPFK6GDDOQGC7OFCO2BALDLPSNHBSS7IVBGHFTJPICVF7QGGFQ" />
+    <file href="http://0install.de/files/jar-launcher-1.0-SNAPSHOT.jar" size="3220" dest="jar-launcher-1.0-SNAPSHOT.jar" />
   </implementation>
 </interface>
