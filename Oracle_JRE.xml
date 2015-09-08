@@ -30,6 +30,14 @@
       <manifest-digest sha256new="ZZV7BN6QE5U2525QDPWDLBBINWCRXFOENAXSDFDZJ4A32C7YI2GA"/>
       <archive extract="jre1.8.0_25" href="http://0install.de/files/hosted/jre-8u25-windows-i586.tar.gz" size="54191472" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=ee4891638465fcb5078c181565fb55ef950c2813" released="2015-08-04" stability="stable" version="8.0.60">
+      <manifest-digest sha256new="MALES7DMZ5L7DRGDMUHXOHAPASUJXGU432X52AIUEQDITYKZBHSQ"/>
+      <archive extract="jre1.8.0_60" href="http://0install.de/files/hosted/jre-8u60-windows-x64.tar.gz" size="65630026" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=21080bba5423ca877488d3943385dc08e53bd4b6" released="2015-08-04" stability="stable" version="8.0.60">
+      <manifest-digest sha256new="P6I662LNMVVFXGVEV7ORDQ2M6ATTPPUYSLW3HDDBX45NYGBI3RZA"/>
+      <archive extract="jre1.8.0_60" href="http://0install.de/files/hosted/jre-8u60-windows-i586.tar.gz" size="62125424" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
   <entry-point binary-name="java" command="run">
     <needs-terminal/>
@@ -68,15 +76,15 @@
   <capabilities os="Windows" xmlns="http://0install.de/schema/desktop-integration/capabilities">
     <file-type id="jarfile">
       <description xml:lang="en">Executable Jar File</description>
-      <verb name="open" command="run-gui" args="-jar &quot;%1&quot; %*" />
-      <extension value=".jar" />
+      <verb args="-jar &quot;%1&quot; %*" command="run-gui" name="open"/>
+      <extension value=".jar"/>
     </file-type>
     <file-type id="JNLPFile">
       <description xml:lang="en">JNLP File</description>
-      <verb name="Open" command="javaws" args="&quot;%1&quot;">
+      <verb args="&quot;%1&quot;" command="javaws" name="Open">
         <description xml:lang="en">&amp;Launch</description>
       </verb>
-      <extension value=".jnlp" mime-type="application/x-java-jnlp-file" />
+      <extension mime-type="application/x-java-jnlp-file" value=".jnlp"/>
     </file-type>
   </capabilities>
 </interface>
