@@ -15,6 +15,14 @@
       <manifest-digest sha1new="f186f09e2d6385e6b26e4dd07c4c90e02634fd9b" sha256="86192d92dda3f420ab96bb9c51f2ce544bd34a2f18e2d40d937a9daa93020e12" sha256new="QYMS3EW5UP2CBK4WXOOFD4WOKRF5GSRPDDRNIDMTPKO2VEYCBYJA"/>
       <archive href="http://0install.de/files/hosted/jdk-8u25-windows-i586.7z" size="105751202" type="application/x-7z-compressed"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=a39e24282a36d8dd22edf84b0eed7cea164ddfd6" released="2015-08-04" stability="stable" version="8.0.60">
+      <manifest-digest sha1new="a39e24282a36d8dd22edf84b0eed7cea164ddfd6" sha256="10d2b09253ed674d65607f153cb35b995c7e383ce2e92d24f86a96046c0039f7" sha256new="CDJLBEST5VTU2ZLAP4KTZM23TFOH4OB44LUS2JHYNKLAI3AAHH3Q"/>
+      <archive href="http://0install.de/files/hosted/jdk-8u60-windows-x64.7z" size="111625749" type="application/x-7z-compressed"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=916b6cbdfec34e2484c55ad1c2fada41de1d8718" released="2015-08-04" stability="stable" version="8.0.60">
+      <manifest-digest sha1new="916b6cbdfec34e2484c55ad1c2fada41de1d8718" sha256="76125610742b95d55cf572f9ce02ef9ff46e5ffbfcf0827e82bb65b780560d95" sha256new="OYJFMEDUFOK5KXHVOL444AXPT72G4X737TYIE7UCXNS3PACWBWKQ"/>
+      <archive href="http://0install.de/files/hosted/jdk-8u60-windows-i586.7z" size="110123539" type="application/x-7z-compressed"/>
+    </implementation>
   </group>
   <entry-point binary-name="javac" command="run">
     <name xml:lang="en">Java compiler</name>
