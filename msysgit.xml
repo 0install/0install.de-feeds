@@ -5,12 +5,12 @@
   <summary xml:lang="de">dezentrales Versionsverwaltungssystem</summary>
   <description xml:lang="en">Git is a powerful version control system aiming to be the fastest decentralized source code management tool on this planet.</description>
   <description xml:lang="de">Git ist ein mächtiges Versionsverwaltungssystem mit dem Ziel das schnellste denzentrale Quellcodeverwaltungstool auf diesem Planeten zu sein.</description>
-  <homepage>http://msysgit.github.com/</homepage>
-  <icon href="http://msysgit.github.io/img/gwindows_logo.png" type="image/png" />
+  <homepage>https://git-for-windows.github.io/</homepage>
+  <icon href="https://git-for-windows.github.io/img/gwindows_logo.png" type="image/png" />
   <category>Development</category>
   <needs-terminal />
   <feed-for interface="http://repo.roscidus.com/git/core" />
-  <group arch="Windows-*" license="GPL v2 (GNU General Public License)">
+  <group license="GPL v2 (GNU General Public License)">
     <requires interface="http://0install.de/feeds/PuTTY.xml" distribution="">
       <environment name="GIT_SSH" insert="plink.exe" mode="replace" />
     </requires>
@@ -124,17 +124,17 @@
     <command name="wish" path="bin/wish.exe" />
     <command name="wish85" path="bin/wish85.exe" />
     <command name="xargs" path="bin/xargs.exe" />
-    <implementation version="1.9.0" released="2014-02-17" stability="stable" id="sha1new=dcc6db374e915eae7032c2d41ed06cfeae1094c6">
+    <implementation arch="Windows-*" version="1.9.0" released="2014-02-17" stability="stable" id="sha1new=dcc6db374e915eae7032c2d41ed06cfeae1094c6">
       <command name="vim" path="share/vim/vim73/vim.exe" />
       <manifest-digest sha1new="dcc6db374e915eae7032c2d41ed06cfeae1094c6" sha256="8d5474885c31419433f85d39c289f11e0d752e72a8569c78392c57cd51112e9c" sha256new="RVKHJCC4GFAZIM7YLU44FCPRDYGXKLTSVBLJY6BZFRL42UIRF2OA" />
       <archive href="https://github.com/msysgit/msysgit/releases/download/Git-1.9.0-preview20140217/PortableGit-1.9.0-preview20140217.7z" size="21790316" type="application/x-7z-compressed" />
     </implementation>
-    <implementation version="1.9.2" released="2014-06-13" stability="stable" id="sha1new=82af0410d9e08deb612a45e0f665c80e0947ec6e">
+    <implementation arch="Windows-*" version="1.9.2" released="2014-06-13" stability="stable" id="sha1new=82af0410d9e08deb612a45e0f665c80e0947ec6e">
       <command name="vim" path="share/vim/vim74/vim.exe" />
       <manifest-digest sha1new="82af0410d9e08deb612a45e0f665c80e0947ec6e" sha256="5ff12e28eb2d101a0abedb9cb4f720852df5e22aa137a8c06201b846eea0dc01" sha256new="L7YS4KHLFUIBUCV63OOLJ5ZAQUW7LYRKUE32RQDCAG4EN3VA3QAQ" />
       <archive href="https://github.com/msysgit/msysgit/releases/download/Git-1.9.4-preview20140611/PortableGit-1.9.4-preview20140611.7z" size="21986935" type="application/x-7z-compressed" />
     </implementation>
-   <implementation version="1.9.5" released="2015-03-19" stability="stable" id="sha1new=c6cdca7659d8d44147bdf38517c0120d95120716">
+   <implementation arch="Windows-*" version="1.9.5" released="2015-03-19" stability="stable" id="sha1new=c6cdca7659d8d44147bdf38517c0120d95120716">
       <command name="vim" path="share/vim/vim74/vim.exe" />
       <manifest-digest sha1new="c6cdca7659d8d44147bdf38517c0120d95120716" sha256="696326dd0b61fd8f99a6ed59d6f5152cec457af8b4f3f65c5e9c69d48b88f39b" sha256new="NFRSNXILMH6Y7GNG5VM5N5IVFTWEK6XYWTZ7MXC6TRU5JC4I6ONQ" />
       <archive href="http://github.com/msysgit/msysgit/releases/download/Git-1.9.5-preview20150319/PortableGit-1.9.5-preview20150319.7z" size="23564206" type="application/x-7z-compressed" />
