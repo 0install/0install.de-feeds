@@ -11,58 +11,10 @@
   <category>Development</category>
   <category>Utility</category>
   <group license="GPL v2 (GNU General Public License)">
-    <requires interface="http://0install.de/feeds/MSVC71.xml">
+    <requires interface="http://0install.de/feeds/MSVC90.xml">
       <environment insert="." mode="append" name="PATH"/>
     </requires>
-    <implementation arch="Windows-*" id="sha1new=1ff5f962b7afcc8ab92ef3341cf7524de494457b" main="WinMergeU.exe" released="2008-09-17" stability="stable" version="2.10.0">
-      <manifest-digest sha256new="QFMZFDRBWIGLIQNKMUELGO3OS6DVLEM7CMRCNG57GQEFWZU3XOXA"/>
-      <archive extract="WinMerge-2.10.0-exe" href="http://downloads.sourceforge.net/winmerge/stable/2.10.0/WinMerge-2.10.0-exe.zip" size="3413050" type="application/zip"/>
-    </implementation>
-    <implementation arch="Windows-src" id="sha1new=abb4ae13e35007978a1b72f51967495b56cd21a5" released="2008-09-17" stability="stable" version="2.10.0">
-      <manifest-digest sha256new="V3VY2MW4AI2QFAUGDDR3ZHVJ76TO3TY7UN4EV77YJYFXUIUXWVYA"/>
-      <archive extract="WinMerge-2.10.0-src" href="http://downloads.sourceforge.net/winmerge/stable/2.10.0/WinMerge-2.10.0-src.zip" size="9730347" type="application/zip"/>
-    </implementation>
-    <implementation arch="Windows-*" id="sha1new=fe6c31daaf01aa91d115797a865867af880a5e7e" main="WinMergeU.exe" released="2008-11-06" stability="stable" version="2.10.2">
-      <manifest-digest sha256new="WE57U6AJVBIWUYYCVTTRGOUFBFASJUAVFXPK6OZRP5HWQX5XVJ4A"/>
-      <archive extract="WinMerge-2.10.2-exe" href="http://downloads.sourceforge.net/winmerge/stable/2.10.2/WinMerge-2.10.2-exe.zip" size="3441767" type="application/zip"/>
-    </implementation>
-    <implementation arch="Windows-src" id="sha1new=afaf5e99064752c1cc3865f6bb350560515806da" released="2008-11-06" stability="stable" version="2.10.2">
-      <manifest-digest sha256new="CVWZTSUMIXJCNG2LN2GHURZDPMTGL2EYXFCZZQQAW5LSAT4LLXOQ"/>
-      <archive extract="WinMerge-2.10.2-src" href="http://downloads.sourceforge.net/winmerge/stable/2.10.2/WinMerge-2.10.2-src.zip" size="9767957" type="application/zip"/>
-    </implementation>
-    <implementation arch="Windows-*" id="sha1new=410d5a44500b7b935e10b10f9cb5ffe9493d2d69" main="WinMergeU.exe" released="2009-01-13" stability="stable" version="2.10.4">
-      <manifest-digest sha256new="G5REEZ5TWHQSPCMBOSBIE5AI4W6PGNVGZDUCZUSEERQR7EJU3MYQ"/>
-      <archive extract="WinMerge-2.10.4-exe" href="http://downloads.sourceforge.net/winmerge/stable/2.10.4/WinMerge-2.10.4-exe.zip" size="3447991" type="application/zip"/>
-    </implementation>
-    <implementation arch="Windows-src" id="sha1new=9fa8d9690b6bf20c3cbecbf86d1d09f2ac73a55a" released="2009-01-13" stability="stable" version="2.10.4">
-      <manifest-digest sha256new="YHRDI3KVEXG5KJTHEV6EOK2KDZNZGYBLYKB5BEGBOAZ5NCBQP7UA"/>
-      <archive extract="WinMerge-2.10.4-src" href="http://downloads.sourceforge.net/winmerge/stable/2.10.4/WinMerge-2.10.4-src.zip" size="9774992" type="application/zip"/>
-    </implementation>
-    <implementation arch="Windows-*" id="sha1new=7edca2680f4255cc8de19851b56ab8e35ffcacf5" main="WinMergeU.exe" released="2009-03-05" stability="stable" version="2.12.0">
-      <manifest-digest sha256new="IL3HYLVSNUSVXVPZUOLKUEPAI3CJ5WLJXPI5HUIXBHTPEPN4EWXQ"/>
-      <archive extract="WinMerge-2.12.0-exe" href="http://downloads.sourceforge.net/winmerge/stable/2.12.0/WinMerge-2.12.0-exe.zip" size="3465451" type="application/zip"/>
-    </implementation>
-    <implementation arch="Windows-src" id="sha1new=9419ef1239d5582d4f238a3a9331bb4d514e1724" released="2009-03-05" stability="stable" version="2.12.0">
-      <manifest-digest sha256new="R525SZVXO3FIPHBL7WJY66UQBQ42TBW2DC6LWV6VZK546HTAVC3Q"/>
-      <archive extract="WinMerge-2.12.0-src" href="http://downloads.sourceforge.net/winmerge/stable/2.12.0/WinMerge-2.12.0-src.zip" size="9341602" type="application/zip"/>
-    </implementation>
-    <implementation arch="Windows-*" id="sha1new=18ee4e956a87c83df668752f450617dfa9ab115c" main="WinMergeU.exe" released="2009-04-01" stability="stable" version="2.12.2">
-      <manifest-digest sha256new="D4PRHBTKRYZALIVWXTKXM4JZZ3OBOM6G54UH7E5WHJM2Z7DWAWGQ"/>
-      <archive extract="WinMerge-2.12.2-exe" href="http://downloads.sourceforge.net/winmerge/stable/2.12.2/WinMerge-2.12.2-exe.zip" size="3466686" type="application/zip"/>
-    </implementation>
-    <implementation arch="Windows-src" id="sha1new=855f96de704ef243cee493304e57791b66d3eafb" released="2009-04-01" stability="stable" version="2.12.2">
-      <manifest-digest sha256new="U2O5LVQSKCX2TN2SNPR3ZYT4NQYBTHPO77U4XRKODOUQFRV4UP5A"/>
-      <archive extract="WinMerge-2.12.2-src" href="http://downloads.sourceforge.net/winmerge/stable/2.12.2/WinMerge-2.12.2-src.zip" size="9342371" type="application/zip"/>
-    </implementation>
-    <implementation arch="Windows-*" id="sha1new=17d13c69fc2c9c42533ff35d9ea99cf36c3350bd" main="WinMergeU.exe" released="2009-06-09" stability="stable" version="2.12.4">
-      <manifest-digest sha256new="S6E6FSKFYEIISSQZBBC3JI2BTSHAL5MAA76IYOS4O3KZ36HGNH7Q"/>
-      <archive extract="WinMerge-2.12.4-exe" href="http://downloads.sourceforge.net/winmerge/stable/2.12.4/WinMerge-2.12.4-exe.zip" size="3504710" type="application/zip"/>
-    </implementation>
-    <implementation arch="Windows-src" id="sha1new=733b67977eaaa931e09efed338fcaabe1950ccfd" released="2009-06-09" stability="stable" version="2.12.4">
-      <manifest-digest sha256new="3TXF4AW2YXX6YU3XOCAQUFCQ445HJN6GBLKKZ2CMCHESEN5ORGPA"/>
-      <archive extract="WinMerge-2.12.4-src" href="http://downloads.sourceforge.net/winmerge/stable/2.12.4/WinMerge-2.12.4-src.zip" size="9378049" type="application/zip"/>
-    </implementation>
-    <implementation arch="Windows-*" id="sha1new=e26983ef702f773dd8d0177e6372b0f61972aabf" main="WinMergeU.exe" released="2013-02-03" stability="stable" version="2.14.0">
+    <implementation arch="Windows-i486" id="sha1new=e26983ef702f773dd8d0177e6372b0f61972aabf" main="WinMergeU.exe" released="2013-02-03" stability="stable" version="2.14.0">
       <manifest-digest sha256new="DKZW2SYSUDTQZJKMUHQXDZDC6QGSDTPS2S3NNWBLW67PL4PGLKFQ"/>
       <archive extract="WinMerge-2.14.0-exe" href="http://downloads.sourceforge.net/winmerge/stable/2.14.0/WinMerge-2.14.0-exe.zip" size="2764125" type="application/zip"/>
     </implementation>
