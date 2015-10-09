@@ -16,27 +16,27 @@
     <command name="unpak200" path="bin/unpak200.exe"/>
     <implementation arch="Windows-x86_64" id="sha1new=11faf0265fab2c3cf105e3a892f7d69527eba723" stability="stable" version="7.0.45">
       <manifest-digest sha1new="11faf0265fab2c3cf105e3a892f7d69527eba723" sha256="73400bb6fd15f37bc89dffb7227ce21bf0cb9e74e17b61485849cf0703937656" sha256new="ONAAXNX5CXZXXSE5763SE7HCDPYMXHTU4F5WCSCYJHHQOA4TOZLA"/>
-      <archive extract="jre1.7.0_45" href="http://0install.de/files/hosted/jre-7u45-windows-x64.tar.gz" size="43386880" type="application/x-compressed-tar"/>
+      <archive extract="jre1.7.0_45" href="jre-7u45-windows-x64.tar.gz" size="43386880" type="application/x-compressed-tar"/>
     </implementation>
     <implementation arch="Windows-i486" id="sha1new=cd226027e47a099a400a6d0d0c6d4139476976bb" stability="stable" version="7.0.45">
       <manifest-digest sha1new="cd226027e47a099a400a6d0d0c6d4139476976bb" sha256="e6ffa1bf681c2c25f8591c2f261e614ed3efad7573d791185bc92f1105b72164" sha256new="4372DP3IDQWCL6CZDQXSMHTBJ3J67LLVOPLZCGC3ZEXRCBNXEFSA"/>
-      <archive extract="jre1.7.0_45" href="http://0install.de/files/hosted/jre-7u45-windows-i586.tar.gz" size="41492480" type="application/x-compressed-tar"/>
+      <archive extract="jre1.7.0_45" href="jre-7u45-windows-i586.tar.gz" size="41492480" type="application/x-compressed-tar"/>
     </implementation>
     <implementation arch="Windows-x86_64" id="sha1new=eca63b237ec347e1e3df7a087c65ab2754bc6024" released="2014-10-14" stability="stable" version="8.0.25">
       <manifest-digest sha256new="R2M5ZNLYCQAOVTKXRNYKA4ORT3N34ISXHOLE3MHLGVCUQRTZCN3A"/>
-      <archive extract="jre1.8.0_25" href="http://0install.de/files/hosted/jre-8u25-windows-x64.tar.gz" size="57346098" type="application/x-compressed-tar"/>
+      <archive extract="jre1.8.0_25" href="jre-8u25-windows-x64.tar.gz" size="57346098" type="application/x-compressed-tar"/>
     </implementation>
     <implementation arch="Windows-i486" id="sha1new=fbba5220489fae808f91e16aba1e0e15c211e01c" released="2014-10-14" stability="stable" version="8.0.25">
       <manifest-digest sha256new="ZZV7BN6QE5U2525QDPWDLBBINWCRXFOENAXSDFDZJ4A32C7YI2GA"/>
-      <archive extract="jre1.8.0_25" href="http://0install.de/files/hosted/jre-8u25-windows-i586.tar.gz" size="54191472" type="application/x-compressed-tar"/>
+      <archive extract="jre1.8.0_25" href="jre-8u25-windows-i586.tar.gz" size="54191472" type="application/x-compressed-tar"/>
     </implementation>
     <implementation arch="Windows-x86_64" id="sha1new=ee4891638465fcb5078c181565fb55ef950c2813" released="2015-08-04" stability="stable" version="8.0.60">
       <manifest-digest sha256new="MALES7DMZ5L7DRGDMUHXOHAPASUJXGU432X52AIUEQDITYKZBHSQ"/>
-      <archive extract="jre1.8.0_60" href="http://0install.de/files/hosted/jre-8u60-windows-x64.tar.gz" size="65630026" type="application/x-compressed-tar"/>
+      <archive extract="jre1.8.0_60" href="jre-8u60-windows-x64.tar.gz" size="65630026" type="application/x-compressed-tar"/>
     </implementation>
     <implementation arch="Windows-i486" id="sha1new=21080bba5423ca877488d3943385dc08e53bd4b6" released="2015-08-04" stability="stable" version="8.0.60">
       <manifest-digest sha256new="P6I662LNMVVFXGVEV7ORDQ2M6ATTPPUYSLW3HDDBX45NYGBI3RZA"/>
-      <archive extract="jre1.8.0_60" href="http://0install.de/files/hosted/jre-8u60-windows-i586.tar.gz" size="62125424" type="application/x-compressed-tar"/>
+      <archive extract="jre1.8.0_60" href="jre-8u60-windows-i586.tar.gz" size="62125424" type="application/x-compressed-tar"/>
     </implementation>
   </group>
   <entry-point binary-name="java" command="run">

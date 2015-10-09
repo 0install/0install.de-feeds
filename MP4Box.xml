@@ -13,7 +13,7 @@
     <group version="0.4.6-2735" released="2011-03-02" stability="stable">
       <implementation arch="Windows-*" id="sha1new=c9da505148416a933484075c47a7e3dfb036206e">
         <manifest-digest sha1new="c9da505148416a933484075c47a7e3dfb036206e" sha256="04efa1a144d9342fd81bb70df5c31ebd9790beb43d9dc2e6d934872ebad7789b" sha256new="ATX2DIKE3E2C7WA3W4G7LQY6XWLZBPVUHWO4FZWZGSDS5OWXPCNQ" />
-        <archive href="http://0install.de/files/hosted/MP4Box-0.4.6-rev2735.tar.bz2" size="1500498" type="application/x-bzip-compressed-tar" />
+        <archive href="MP4Box-0.4.6-rev2735.tar.bz2" size="1500498" type="application/x-bzip-compressed-tar" />
       </implementation>
     </group>
   </group>

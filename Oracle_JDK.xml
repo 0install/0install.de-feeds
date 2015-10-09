@@ -9,11 +9,11 @@
     <command name="java" path="bin/java.exe"/>
     <implementation arch="Windows-x86_64" id="sha1new=77fd2fc64b114335420db55788d94dfbc6141196" released="2014-10-14" stability="stable" version="8.0.25">
       <manifest-digest sha1new="77fd2fc64b114335420db55788d94dfbc6141196" sha256="d75dff095c553982b88ca790f708ef967f38f6cd28e793b717fc1875e42810c0" sha256new="25O76CK4KU4YFOEMU6IPOCHPSZ7TR5WNFDTZHNYX7QMHLZBICDAA"/>
-      <archive href="http://0install.de/files/hosted/jdk-8u25-windows-x64.7z" size="107119080" type="application/x-7z-compressed"/>
+      <archive href="jdk-8u25-windows-x64.7z" size="107119080" type="application/x-7z-compressed"/>
     </implementation>
     <implementation arch="Windows-i486" id="sha1new=f186f09e2d6385e6b26e4dd07c4c90e02634fd9b" released="2014-10-14" stability="stable" version="8.0.25">
       <manifest-digest sha1new="f186f09e2d6385e6b26e4dd07c4c90e02634fd9b" sha256="86192d92dda3f420ab96bb9c51f2ce544bd34a2f18e2d40d937a9daa93020e12" sha256new="QYMS3EW5UP2CBK4WXOOFD4WOKRF5GSRPDDRNIDMTPKO2VEYCBYJA"/>
-      <archive href="http://0install.de/files/hosted/jdk-8u25-windows-i586.7z" size="105751202" type="application/x-7z-compressed"/>
+      <archive href="jdk-8u25-windows-i586.7z" size="105751202" type="application/x-7z-compressed"/>
     </implementation>
   </group>
   <entry-point binary-name="javac" command="run">

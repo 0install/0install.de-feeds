@@ -14,15 +14,15 @@
     <command name="run-gui" path="pythonw.exe" />
     <implementation version="2.7.3" stability="stable" id="sha1new=ba49095fc6d4a65a1837cafab6e145006eaf3d7f">
       <manifest-digest sha1new="ba49095fc6d4a65a1837cafab6e145006eaf3d7f" sha256="778015e019d05e2bb1608cc8289012a6d094881333a525fac0669bd3faba93ee" sha256new="O6ABLYAZ2BPCXMLARTECREASU3IJJCATGOSSL6WAM2N5H6V2SPXA" />
-      <archive href="http://0install.de/files/hosted/python-2.7.3-win32-portable.tar.lzma" size="9265517" type="application/x-lzma-compressed-tar" />
+      <archive href="python-2.7.3-win32-portable.tar.lzma" size="9265517" type="application/x-lzma-compressed-tar" />
     </implementation>
     <implementation version="2.7.6.1" stability="stable" id="sha1new=6d319d86607e74a8d3a77813cbb762d24dedcfee">
       <manifest-digest sha1new="6d319d86607e74a8d3a77813cbb762d24dedcfee" sha256="82873a4469e435e0af8e4a008275621962cff7d55e83f0f63dcf4ea501fc37d4" sha256new="QKDTURDJ4Q26BL4OJIAIE5LCDFRM756VL2B7B5R5Z5HKKAP4G7KA" />
-      <archive href="http://0install.de/files/hosted/python-2.7.6.1-win32-portable.7z" size="35308007" type="application/x-7z-compressed" />
+      <archive href="python-2.7.6.1-win32-portable.7z" size="35308007" type="application/x-7z-compressed" />
     </implementation>
     <implementation version="3.2.5.1" stability="stable" id="sha1new=31548215cd2c050bacd717d600414c506732ecbc">
       <manifest-digest sha1new="31548215cd2c050bacd717d600414c506732ecbc" sha256="18797ec4d535eb0fe4103cae60db69f0bffb530a04ff49cb17b516174c55d079" sha256new="DB4X5RGVGXVQ7ZAQHSXGBW3J6C77WUYKAT7UTSYXWULBOTCV2B4Q" />
-      <archive href="http://0install.de/files/hosted/python-3.2.5.1-win32-portable.7z" size="11475532" type="application/x-7z-compressed" />
+      <archive href="python-3.2.5.1-win32-portable.7z" size="11475532" type="application/x-7z-compressed" />
     </implementation>
   </group>
   <entry-point command="run" binary-name="python">

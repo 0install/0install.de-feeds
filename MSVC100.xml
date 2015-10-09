@@ -7,7 +7,7 @@
   <group arch="Windows-i486">
     <implementation version="10.0.40219.325" released="2011-06-11" stability="stable" id="sha1new=0eaf193154db736fb1bbed370777a790af5f842f">
       <manifest-digest sha1new="0eaf193154db736fb1bbed370777a790af5f842f" sha256="9f1356124b290deede48acb04df4104a6b704f55a3534fb66926c08b5ab59f8c" sha256new="T4JVMESLFEG65XSIVSYE35AQJJVXAT2VUNJU7NTJE3AIWWVVT6GA" />
-      <archive href="http://0install.de/files/hosted/msvc100.tar.bz2" size="575542" type="application/x-bzip-compressed-tar" />
+      <archive href="msvc100.tar.bz2" size="575542" type="application/x-bzip-compressed-tar" />
     </implementation>
   </group>
 </interface>

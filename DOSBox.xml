@@ -23,7 +23,7 @@
     </command>
     <implementation version="0.74" id="sha1new=1527bf154455184cd70b09075fc8beeb3effb63a">
       <manifest-digest sha1new="1527bf154455184cd70b09075fc8beeb3effb63a" sha256="e4312b5cf6a836bbb79322f0694866776c447b2d1cba782515428f71e3a0de7d" sha256new="4QYSWXHWVA3LXN4TELYGSSDGO5WEI6ZNDS5HQJIVIKHXDY5A3Z6Q" />
-      <archive href="http://0install.de/files/hosted/DOSBox-0.74.zip" size="1802205" type="application/zip" />
+      <archive href="DOSBox-0.74.zip" size="1802205" type="application/zip" />
     </implementation>
   </group>
   <entry-point command="run" binary-name="DOSBox">

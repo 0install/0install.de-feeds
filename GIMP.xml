@@ -17,15 +17,15 @@
       <implementation arch="Windows-i486" id="sha1new=01a8a9062599ab59a489a4193002a3342f915b65">
         <manifest-digest sha1new="01a8a9062599ab59a489a4193002a3342f915b65" sha256="773ff6ec8f651aefc99fdc5a656dd7450bcb0625294f8484f81eb1035b74043e" sha256new="O477N3EPMUNO7SM73RNGK3OXIUF4WBRFFFHYJBHYD2YQGW3UAQ7A" />
         <recipe>
-          <archive href="http://0install.de/files/hosted/gimp-2.8.10-share.7z" size="18865959" type="application/x-7z-compressed" />
-          <archive href="http://0install.de/files/hosted/gimp-2.8.10-win32.7z" size="32278835" type="application/x-7z-compressed" />
+          <archive href="gimp-2.8.10-share.7z" size="18865959" type="application/x-7z-compressed" />
+          <archive href="gimp-2.8.10-win32.7z" size="32278835" type="application/x-7z-compressed" />
         </recipe>
       </implementation>
       <implementation arch="Windows-x86_64" id="sha1new=1b6cf5a75c79614364e680d550a5babf27ad14b3">
         <manifest-digest sha1new="1b6cf5a75c79614364e680d550a5babf27ad14b3" sha256="54556b697ca0ad08a5ad83e9c4c78f69aebf7a1a58e7a17da0b242379b9d7bcc" sha256new="KRKWW2L4UCWQRJNNQPU4JR4PNGXL66Q2LDT2C7NAWJBDPG45PPGA" />
         <recipe>
-          <archive href="http://0install.de/files/hosted/gimp-2.8.10-share.7z" size="18865959" type="application/x-7z-compressed" />
-          <archive href="http://0install.de/files/hosted/gimp-2.8.10-win64.7z" size="36423524" type="application/x-7z-compressed" />
+          <archive href="gimp-2.8.10-share.7z" size="18865959" type="application/x-7z-compressed" />
+          <archive href="gimp-2.8.10-win64.7z" size="36423524" type="application/x-7z-compressed" />
         </recipe>
       </implementation>
     </group>

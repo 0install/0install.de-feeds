@@ -14,7 +14,7 @@ Inkscape supports many advanced SVG features (markers, clones, alpha blending, e
     <command name="inkview" path="inkview.exe" />
     <implementation arch="Windows-*" version="0.48.1-2" id="sha1new=7b7be2acc757cba08b242c6e7222c9cb7aa605eb">
       <manifest-digest sha1new="7b7be2acc757cba08b242c6e7222c9cb7aa605eb" sha256="8c57c17901d15017c09f94f2d1e319fb66aee9419056f115bd86f065bab5a84e" sha256new="RRL4C6IB2FIBPQE7STZNDYYZ7NTK52KBSBLPCFN5Q3YGLOVVVBHA" />
-      <archive href="http://0install.de/files/hosted/inkscape-0.48.4-1-win32.tar.bz2" size="56036178" type="application/x-bzip-compressed-tar" extract="inkscape" />
+      <archive href="inkscape-0.48.4-1-win32.tar.bz2" size="56036178" type="application/x-bzip-compressed-tar" extract="inkscape" />
     </implementation>
   </group>
   <entry-point command="run" binary-name="inkscape" />

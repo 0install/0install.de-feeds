@@ -8,7 +8,7 @@
   <category>Development</category>
   <implementation arch="Windows-*" version="1.5" stability="stable" license="GNU GPL" main="ddt.exe" id="sha1new=8c438f43d7dd1c7499204e0b04b31c30720edf1b">
     <manifest-digest sha1new="8c438f43d7dd1c7499204e0b04b31c30720edf1b" sha256="cc67c776d74af2ed1369c4e99fd7d3a8c84e5a3ef5f0bda365d565d065824909" sha256new="ZRT4O5WXJLZO2E3JYTUZ7V6TVDEE4WR66XYL3I3F2VS5AZMCJEEQ" />
-    <archive href="http://0install.de/files/hosted/DDT.zip" size="316738" type="application/zip" />
+    <archive href="DDT.zip" size="316738" type="application/zip" />
   </implementation>
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
     <file-type id="DatabaseDesignTool">

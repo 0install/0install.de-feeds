@@ -15,7 +15,7 @@
     </requires>
     <implementation id="sha1new=521dc12a092484bb8ab8c7989ffbf0eafe1a495b" released="2014-08-22" stability="stable" version="6.47">
       <manifest-digest sha256new="A76ZSLLK332YJDWSTEIGZ5M6QR4UYZIL7XKNBQ52OSQAQNUQLFVQ"/>
-      <archive href="http://0install.de/files/hosted/zenmap-6.47.zip" size="11315039" type="application/zip"/>
+      <archive href="zenmap-6.47.zip" size="11315039" type="application/zip"/>
     </implementation>
   </group>
 </interface>

@@ -11,11 +11,11 @@
   <group main="Dolphin.exe">
     <implementation arch="Windows-x86_64" id="sha1new=4226d28d74dfc5b5ff926c863d95515d364b1182" released="2013-09-30" stability="stable" version="4.0.2">
       <manifest-digest sha1new="4226d28d74dfc5b5ff926c863d95515d364b1182" sha256="d7860293bd6cb9040b2da5db5af2d06676924be507e6379e59ecbfabdae94095" sha256new="26DAFE55NS4QICZNUXNVV4WQMZ3JES7FA7TDPHSZ5S72XWXJICKQ"/>
-      <archive href="http://0install.de/files/hosted/dolphin-x64-4.0.2.7z" size="4224000" type="application/x-7z-compressed"/>
+      <archive href="dolphin-x64-4.0.2.7z" size="4224000" type="application/x-7z-compressed"/>
     </implementation>
     <implementation arch="Windows-i486" id="sha1new=db51943be155660aafc31afb2958491616094b16" released="2013-09-30" stability="stable" version="4.0.2">
       <manifest-digest sha1new="db51943be155660aafc31afb2958491616094b16" sha256="75ced1c2d44ad94574ad041e32d94e3c8ac537888aef06570e81f01f60700cf5" sha256new="OXHNDQWUJLMUK5FNAQPDFWKOHSFMKN4IRLXQMVYOQHYB6YDQBT2Q"/>
-      <archive href="http://0install.de/files/hosted/dolphin-x86-4.0.2.7z" size="3860629" type="application/x-7z-compressed"/>
+      <archive href="dolphin-x86-4.0.2.7z" size="3860629" type="application/x-7z-compressed"/>
     </implementation>
   </group>
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">

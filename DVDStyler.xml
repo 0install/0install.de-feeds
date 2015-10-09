@@ -11,7 +11,7 @@
     <group arch="Windows-*" main="bin/DVDStyler.exe">
       <implementation version="2.7.1" stability="stable" id="sha1new=31946fd2a98ea4ff63b00f98a14f6a37714900e1">
         <manifest-digest sha1new="31946fd2a98ea4ff63b00f98a14f6a37714900e1" sha256="0116a335f72b169c671f2119a82830df6faf98c27b622c58bfdbc88169812d93" sha256new="AELKGNPXFMLJYZY7EEM2QKBQ35X27GGCPNRCYWF73PEIC2MBFWJQ" />
-        <archive href="http://0install.de/files/hosted/DVDStyler-2.7.1-win32.zip" size="29398714" type="application/zip" />
+        <archive href="DVDStyler-2.7.1-win32.zip" size="29398714" type="application/zip" />
       </implementation>
     </group>
   </group>

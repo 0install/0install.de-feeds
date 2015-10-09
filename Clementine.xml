@@ -13,7 +13,7 @@
     <group version="1.0.1" released="2012-01-22" stability="stable">
       <implementation arch="Windows-*" main="clementine.exe" id="sha1new=7773071986a8acd1076d43cb16e1c8e975720fb8">
         <manifest-digest sha1new="7773071986a8acd1076d43cb16e1c8e975720fb8" sha256="fdd406472aad423dcd1a53213f9a71d49fdf86a00c5f1c456b6281ad65aaf31b" sha256new="7XKAMRZKVVBD3TI2KMQT7GTR2SP57BVABRPRYRLLMKA22ZNK6MNQ" />
-        <archive href="http://0install.de/files/hosted/Clementine-1.0.1.tar.bz2" size="22357778" type="application/x-bzip-compressed-tar" extract="Clementine-1.0.1" />
+        <archive href="Clementine-1.0.1.tar.bz2" size="22357778" type="application/x-bzip-compressed-tar" extract="Clementine-1.0.1" />
       </implementation>
       <implementation arch="*-src" id="sha1new=70ee3b7cbacdc6f81939be14db3c027c2f1f5759">
         <manifest-digest sha1new="70ee3b7cbacdc6f81939be14db3c027c2f1f5759" sha256="09398734a920d2951250699148f0af2e52d72ce9d05bd8059d99e2f9bdcab8ae" sha256new="BE4YONFJEDJJKESQNGIUR4FPFZJNOLHJ2BN5QBM5THRPTPOKXCXA" />

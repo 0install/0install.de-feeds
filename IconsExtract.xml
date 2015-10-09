@@ -10,6 +10,6 @@
   <icon href="http://0install.de/feed-icons/IconsExtract.ico" type="image/vnd.microsoft.icon" />
   <implementation langs="en" arch="Windows-*" version="1.47" released="2010-09-26" stability="stable" license="Freeware" main="iconsext.exe" id="sha1new=47fa98b853b740076d356c9103165b258b251c75">
     <manifest-digest sha1new="47fa98b853b740076d356c9103165b258b251c75" sha256="110a575639bdf9e8d787c1b901ab98bd76d5b9f8c30b1321b5e4691b022700bf" sha256new="CEFFOVRZXX46RV4HYG4QDK4YXV3NLOPYYMFRGINV4RURWARHAC7Q" />
-    <archive href="http://0install.de/files/hosted/IconsExtract_1.47.zip" size="34712" type="application/zip" />
+    <archive href="IconsExtract_1.47.zip" size="34712" type="application/zip" />
   </implementation>
 </interface>

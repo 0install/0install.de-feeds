@@ -129,7 +129,7 @@
     <command name="nano" path="bin/nano.exe"/>
     <implementation id="sha1new=9a6da1557ea77463a39d5991f439be49aefeb658" released="2014-02-15" stability="stable" version="0.8.0">
       <manifest-digest sha256new="GO7RP6M4FIE6PA65IEND3UZY7GKGWNO2FARHJOV4WJPWSIMQJXPA"/>
-      <archive href="http://0install.de/files/hosted/gow-0.8.0.zip" size="10641211" type="application/zip"/>
+      <archive href="gow-0.8.0.zip" size="10641211" type="application/zip"/>
     </implementation>
   </group>
   <entry-point command="run">
