@@ -155,6 +155,22 @@
       <manifest-digest sha256new="G6CUD6UZDDZW453LXSRKDGYB7NZJGLHYHQJ4KZ4LYMSVLO3XBKGA"/>
       <archive extract="blender-2.74-linux-glibc211-i686" href="http://download.blender.org/release/Blender2.74/blender-2.74-linux-glibc211-i686.tar.bz2" size="94017893" type="application/x-bzip-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=cbdf5b7b1cb6b493932dd29d70c54452ca0ba6b8" main="blender.exe" released="2015-10-11" stability="stable" version="2.76">
+      <manifest-digest sha256new="TNEHGUNUQBYOQXIYQWNTHPFHU4VSWOGX7RPN4PNW5SWMFBY5OXUQ"/>
+      <archive extract="blender-2.76-windows64" href="http://download.blender.org/release/Blender2.76/blender-2.76-windows64.zip" size="104858465" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=d09ba3a9710015b58c554fc3de425f9536de8994" main="blender.exe" released="2015-10-11" stability="stable" version="2.76">
+      <manifest-digest sha256new="52CAPESQFU4RE7YGO2G2KWCFRUBFVGPXS5DAHIHJOR2AWTGRLI4Q"/>
+      <archive extract="blender-2.76-windows32" href="http://download.blender.org/release/Blender2.76/blender-2.76-windows32.zip" size="82540351" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=31432d2705dda0f6048c550e129cf7b9a9cce6ad" main="blender" released="2015-10-11" stability="stable" version="2.76">
+      <manifest-digest sha256new="AS5ZSZGAUCMR7H43Q6A2DWDJOMCL23DCTB6RZKJBQMXL7MTMJALQ"/>
+      <archive extract="blender-2.76-linux-glibc211-x86_64" href="http://download.blender.org/release/Blender2.76/blender-2.76-linux-glibc211-x86_64.tar.bz2" size="101346485" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i686" id="sha1new=33b3b6a804b8c3f663596c4c0bf0b6a0cbc6f1ab" main="blender" released="2015-10-11" stability="stable" version="2.76">
+      <manifest-digest sha256new="4F4SI757S3KWTCXSHZ5QEJLWEAZXGQASHTDSFDIEPINOOWL2XOTQ"/>
+      <archive extract="blender-2.76-linux-glibc211-i686" href="http://download.blender.org/release/Blender2.76/blender-2.76-linux-glibc211-i686.tar.bz2" size="98286348" type="application/x-bzip-compressed-tar"/>
+    </implementation>
   </group>
   <entry-point binary-name="blender" command="run"/>
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
