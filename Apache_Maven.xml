@@ -11,6 +11,9 @@
     <environment insert="" mode="replace" name="M2_HOME"/>
     <environment insert="boot/*" mode="replace" name="CLASSWORLDS_JAR"/>
     <environment mode="replace" name="CLASSWORLDS_LAUNCHER" value="org.codehaus.plexus.classworlds.launcher.Launcher"/>
+    <requires interface="http://repo.roscidus.com/java/openjdk-jdk">
+      <environment insert="" mode="replace" name="JAVA_HOME"/>
+    </requires>
     <command name="run">
       <runner command="java" interface="http://repo.roscidus.com/java/openjdk-jdk">
         <arg>-Dclassworlds.conf=$M2_HOME/bin/m2.conf</arg>
