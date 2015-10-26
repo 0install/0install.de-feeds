@@ -27,7 +27,10 @@
     </implementation>
     <implementation id="sha1new=f94bdceaaa6af74f4f88e49dc458610fa5adfd3d" released="2015-05-18" stability="stable" version="3.14.2">
       <manifest-digest sha256new="PDOVXBYDYF4WXN7EQMHVFAC7RGAVMUCT5NN7QHJA5FCLNIQDASFQ"/>
-      <archive extract="yed-3.14.2" href="http://www.yworks.com/products/yed/demo/yEd-3.14.2.zip" size="28690181" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=9214872c794bc12c16faebbba28c37e6e4d5132c" released="2015-05-08" stability="stable" version="3.14.4">
+      <manifest-digest sha256new="CLNFL2GFJJCU7ZZU7LLDXQTKFS4KT5FZL2M4QRLSVRZLVCFB2YXA"/>
+      <archive extract="yed-3.14.4" href="http://www.yworks.com/products/yed/demo/yEd-3.14.4.zip" size="29485917" type="application/zip"/>
     </implementation>
   </group>
   <entry-point binary-name="yed" command="run"/>
