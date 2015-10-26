@@ -234,4 +234,26 @@
     <manifest-digest sha256new="DDHJBW7KMKMDNPQB4J43BT4KE7KKDKSHQQ6YC5YPUMIIINHRKAUA"/>
     <archive extract="sublime_text_3" href="http://c758482.r82.cf2.rackcdn.com/sublime_text_3_build_3065_x32.tar.bz2" size="7624149" type="application/x-bzip-compressed-tar"/>
   </implementation>
+  <implementation arch="Windows-x86_64" id="sha1new=6c29c9bdcdfe7d1f765f01001fc663bfad6a0c24" main="sublime_text.exe" released="2015-07-10" stability="testing" version="3-pre3095">
+    <manifest-digest sha256new="NZYRJ2AN5Z6REZEJOMXFFTMOMIUYBEBGG7F3LK2YHZLYTE3KWCXA"/>
+    <recipe>
+      <archive href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203095%20x64.zip" size="10354444" type="application/zip"/>
+      <remove path="Data"/>
+    </recipe>
+  </implementation>
+  <implementation arch="Windows-i486" id="sha1new=c106b709d632dd109256a32256958632a708cb77" main="sublime_text.exe" released="2015-07-10" stability="testing" version="3-pre3095">
+    <manifest-digest sha256new="VUF5C2UT5UZLJRC6RSXJVM67OQCADZIUUKK2UK4S4IMKWLBIWLGQ"/>
+    <recipe>
+      <archive href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203095.zip" size="9348285" type="application/zip"/>
+      <remove path="Data"/>
+    </recipe>
+  </implementation>
+  <implementation arch="Linux-x86_64" id="sha1new=2cf1ac29a683af1ad0600b6b14e59843314d663f" main="sublime_text" released="2015-07-10" stability="testing" version="3-pre3095">
+    <manifest-digest sha256new="HLQJISD6NDC53HUWP2V6SVHFT6UPQQMARWEIW73EQHQMPQALWCYQ"/>
+    <archive extract="sublime_text_3" href="http://c758482.r82.cf2.rackcdn.com/sublime_text_3_build_3095_x64.tar.bz2" size="7688717" type="application/x-bzip-compressed-tar"/>
+  </implementation>
+  <implementation arch="Linux-i486" id="sha1new=9c855b38c62c58b2ad44aa962e431e705e201b95" main="sublime_text" released="2015-07-10" stability="testing" version="3-pre3095">
+    <manifest-digest sha256new="CZ4ELVCPLXDGK7WEOPE4IA6KS324NNYWEYUZBJ6IJLWZK7AK4IQQ"/>
+    <archive extract="sublime_text_3" href="http://c758482.r82.cf2.rackcdn.com/sublime_text_3_build_3095_x32.tar.bz2" size="7772998" type="application/x-bzip-compressed-tar"/>
+  </implementation>
 </interface>
