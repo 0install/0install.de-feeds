@@ -18,7 +18,7 @@
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709" sha256="e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" sha256new="4OYMIQUY7QOBJGX36TEJS35ZEQT24QPEMSNZGTFESWMRW6CSXBKQ" />
       <recipe />
     </implementation>
-    <implementation version="3.0" id="netfx-3.0">
+    <implementation version="3.0" id="mono-3.0">
       <command name="run">
         <runner interface="http://0install.de/feeds/cli/mono.xml" command="run">
           <version not-before="2.0" before="2.8" />
@@ -26,13 +26,13 @@
       </command>
       <command name="run-gui">
         <runner interface="http://0install.de/feeds/cli/mono.xml" command="run-gui">
-          <version not-before="1.2" before="2.0" />
+          <version not-before="2.0" before="2.8" />
         </runner>
       </command>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709" sha256="e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" sha256new="4OYMIQUY7QOBJGX36TEJS35ZEQT24QPEMSNZGTFESWMRW6CSXBKQ" />
       <recipe />
     </implementation>
-    <implementation version="3.5" id="netfx-3.5">
+    <implementation version="3.5" id="mono-3.5">
       <command name="run">
         <runner interface="http://0install.de/feeds/cli/mono.xml" command="run">
           <version not-before="2.0" before="2.8" />
@@ -40,13 +40,13 @@
       </command>
       <command name="run-gui">
         <runner interface="http://0install.de/feeds/cli/mono.xml" command="run-gui">
-          <version not-before="1.2" before="2.0" />
+          <version not-before="2.0" before="2.8" />
         </runner>
       </command>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709" sha256="e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" sha256new="4OYMIQUY7QOBJGX36TEJS35ZEQT24QPEMSNZGTFESWMRW6CSXBKQ" />
       <recipe />
     </implementation>
-    <implementation version="4.0" id="netfx-4.0">
+    <implementation version="4.0" id="mono-4.0">
       <command name="run">
         <runner interface="http://0install.de/feeds/cli/mono.xml" command="run">
           <version not-before="2.8" before="3.0" />
@@ -54,13 +54,13 @@
       </command>
       <command name="run-gui">
         <runner interface="http://0install.de/feeds/cli/mono.xml" command="run-gui">
-          <version not-before="1.2" before="2.0" />
+          <version not-before="2.8" before="3.0" />
         </runner>
       </command>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709" sha256="e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" sha256new="4OYMIQUY7QOBJGX36TEJS35ZEQT24QPEMSNZGTFESWMRW6CSXBKQ" />
       <recipe />
     </implementation>
-    <implementation version="4.5" id="netfx-4.5">
+    <implementation version="4.5" id="mono-4.5">
       <command name="run">
         <runner interface="http://0install.de/feeds/cli/mono.xml" command="run">
           <version not-before="3.0" />
@@ -68,7 +68,7 @@
       </command>
       <command name="run-gui">
         <runner interface="http://0install.de/feeds/cli/mono.xml" command="run-gui">
-          <version not-before="1.2" before="2.0" />
+          <version not-before="3.0" />
         </runner>
       </command>
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709" sha256="e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" sha256new="4OYMIQUY7QOBJGX36TEJS35ZEQT24QPEMSNZGTFESWMRW6CSXBKQ" />
