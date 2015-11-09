@@ -74,6 +74,14 @@
       <manifest-digest sha256new="4CILXJYRPJNAPRLKAB7J76A5Q6Z5TLOSJMU3AJ3MBBRD2TDRM32Q"/>
       <archive extract="MPC-HC.1.7.7.x86" href="http://downloads.sourceforge.net/mpc-hc/MPC-HC.1.7.7.x86.zip" size="15207623" type="application/zip"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=9fa615036530d6e725d52cb3fc2241bf298782e3" main="mpc-hc64.exe" released="2015-06-01" stability="stable" version="1.7.9">
+      <manifest-digest sha256new="KTFFALJ7XVTEF34K25Z2XHWGBHKFO73H4UUHR3K2EL3OXLSYGP2Q"/>
+      <archive extract="MPC-HC.1.7.9.x64" href="http://downloads.sourceforge.net/mpc-hc/MPC-HC.1.7.9.x64.zip" size="18030776" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=861f522b60945d15d508a4bb0e9f9c4f21b0f699" main="mpc-hc.exe" released="2015-06-01" stability="stable" version="1.7.9">
+      <manifest-digest sha256new="S7JSEJIO7TJOBOY22B6NOI46CDJUTO2NYJ3DLZ3CMJHBLI6DAHCQ"/>
+      <archive extract="MPC-HC.1.7.9.x86" href="http://downloads.sourceforge.net/mpc-hc/MPC-HC.1.7.9.x86.zip" size="16766177" type="application/zip"/>
+    </implementation>
   </group>
   <entry-point binary-name="mpc-hc" command="run"/>
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
