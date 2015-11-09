@@ -1,68 +1,72 @@
-<?xml version="1.0" encoding="utf-8"?>
-<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/PuTTY.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<?xml version="1.0" ?>
+<interface uri="http://0install.de/feeds/PuTTY.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
   <name>PuTTY</name>
   <summary xml:lang="en">Telnet and SSH client</summary>
   <summary xml:lang="de">Telnet und SSH Klient</summary>
   <description xml:lang="en">PuTTY is a free implementation of Telnet and SSH for Windows and Unix platforms, along with an xterm terminal emulator.</description>
   <description xml:lang="de">PuTTY ist eine freie Implementierung von Telnet und SSH für Windows und Unix Plattformen kombiniert mit einem xterm Terminal Emulator.</description>
   <homepage>http://www.chiark.greenend.org.uk/~sgtatham/putty/</homepage>
-  <icon href="http://0install.de/feed-icons/PuTTY.png" type="image/png" />
-  <icon href="http://0install.de/feed-icons/PuTTY.ico" type="image/vnd.microsoft.icon" />
+  <icon href="http://0install.de/feed-icons/PuTTY.png" type="image/png"/>
+  <icon href="http://0install.de/feed-icons/PuTTY.ico" type="image/vnd.microsoft.icon"/>
   <category>Network</category>
   <category>Utility</category>
-  <feed if-0install-version="..!2.6.8" arch="Windows-*" src="http://0install.de/feeds/PuTTY-shim.xml" />
-  <group if-0install-version="2.6.8.." arch="Windows-*" license="MIT/X Consortium License">
-    <command name="run" path="PUTTY.EXE" />
-    <command name="putty" path="PUTTY.EXE" />
-    <command name="puttygen" path="PUTTYGEN.EXE" />
-    <command name="pageant" path="PAGEANT.EXE" />
-    <command name="plink" path="PLINK.EXE" />
-    <command name="pscp" path="PSCP.EXE" />
-    <command name="psftp" path="PSFTP.EXE" />
-    <implementation version="0.60" released="2007-04-29" stability="stable" id="sha1new=889b9bf64b02af4f043f886fc05c766513b11d17">
-      <manifest-digest sha1new="f28eb78ac8c30898130fa4ec7074bfceefdfd58b" sha256="695d41bfb11290a6631befd93db76bf6179bcac91f6c71649ca08eca67403f29" sha256new="NFOUDP5RCKIKMYY357MT3N3L6YLZXSWJD5WHCZE4UCHMUZ2AH4UQ" />
-      <archive href="http://the.earth.li/~sgtatham/putty/0.60/x86/putty.zip" size="1518921" type="application/zip" />
+  <feed arch="Windows-*" if-0install-version="..!2.6.8" src="http://0install.de/feeds/PuTTY-shim.xml"/>
+  <group arch="Windows-*" if-0install-version="2.6.8.." license="MIT/X Consortium License">
+    <command name="run" path="PUTTY.EXE"/>
+    <command name="putty" path="PUTTY.EXE"/>
+    <command name="puttygen" path="PUTTYGEN.EXE"/>
+    <command name="pageant" path="PAGEANT.EXE"/>
+    <command name="plink" path="PLINK.EXE"/>
+    <command name="pscp" path="PSCP.EXE"/>
+    <command name="psftp" path="PSFTP.EXE"/>
+    <implementation id="sha1new=889b9bf64b02af4f043f886fc05c766513b11d17" released="2007-04-29" stability="stable" version="0.60">
+      <manifest-digest sha1new="f28eb78ac8c30898130fa4ec7074bfceefdfd58b" sha256="695d41bfb11290a6631befd93db76bf6179bcac91f6c71649ca08eca67403f29" sha256new="NFOUDP5RCKIKMYY357MT3N3L6YLZXSWJD5WHCZE4UCHMUZ2AH4UQ"/>
+      <archive href="http://the.earth.li/~sgtatham/putty/0.60/x86/putty.zip" size="1518921" type="application/zip"/>
     </implementation>
-    <implementation version="0.61" released="2011-07-12" stability="stable" id="sha1new=18952d37e92783f1a730030f888fb2984f2998b3">
-      <manifest-digest sha1new="fcd8b928e5ade37537a9a53b0fc52407be058fcf" sha256="56dd5b877db5846b6307b746dc7f51a65078e3631294182e7fd681dd0848e4b9" sha256new="K3OVXB35WWCGWYYHW5DNY72RUZIHRY3DCKKBQLT722A52CCI4S4Q" />
-      <archive href="http://the.earth.li/~sgtatham/putty/0.61/x86/putty.zip" size="1596372" type="application/zip" />
+    <implementation id="sha1new=18952d37e92783f1a730030f888fb2984f2998b3" released="2011-07-12" stability="stable" version="0.61">
+      <manifest-digest sha1new="fcd8b928e5ade37537a9a53b0fc52407be058fcf" sha256="56dd5b877db5846b6307b746dc7f51a65078e3631294182e7fd681dd0848e4b9" sha256new="K3OVXB35WWCGWYYHW5DNY72RUZIHRY3DCKKBQLT722A52CCI4S4Q"/>
+      <archive href="http://the.earth.li/~sgtatham/putty/0.61/x86/putty.zip" size="1596372" type="application/zip"/>
     </implementation>
-    <implementation version="0.62" released="2011-12-10" stability="stable" id="sha1new=be3532893941f6ff65bf0ab7a379ad90b80d20b2">
-      <manifest-digest sha1new="686b88c1b81de2d834a5a6fe2589f683fcd6fdcf" sha256="4dead360d4b4b787b217ad7b025787cada82e6cbef78b31ca0ff8f493761a8b4" sha256new="JXVNGYGUWS3YPMQXVV5QEV4HZLNIFZWL554LGHFA76HUSN3BVC2A" />
-      <archive href="http://the.earth.li/~sgtatham/putty/0.62/x86/putty.zip" size="1597060" type="application/zip" />
+    <implementation id="sha1new=be3532893941f6ff65bf0ab7a379ad90b80d20b2" released="2011-12-10" stability="stable" version="0.62">
+      <manifest-digest sha1new="686b88c1b81de2d834a5a6fe2589f683fcd6fdcf" sha256="4dead360d4b4b787b217ad7b025787cada82e6cbef78b31ca0ff8f493761a8b4" sha256new="JXVNGYGUWS3YPMQXVV5QEV4HZLNIFZWL554LGHFA76HUSN3BVC2A"/>
+      <archive href="http://the.earth.li/~sgtatham/putty/0.62/x86/putty.zip" size="1597060" type="application/zip"/>
     </implementation>
-    <implementation version="0.63" released="2013-08-06" stability="stable" id="sha1new=510fc7fd43faa1a80a110e5c2feb96b04eaa4b34">
-      <manifest-digest sha1new="e6778b3ba7d30cf841b845f299424b3369f8871e" sha256="bd3a8439eedd8a4a6d050366528b03223576e84ca5c70e610ded4b3aeb45bd86" sha256new="XU5IIOPO3WFEU3IFANTFFCYDEI2XN2CMUXDQ4YIN5VFTV22FXWDA" />
-      <archive href="http://the.earth.li/~sgtatham/putty/0.63/x86/putty.zip" size="1621853" type="application/zip" />
+    <implementation id="sha1new=510fc7fd43faa1a80a110e5c2feb96b04eaa4b34" released="2013-08-06" stability="stable" version="0.63">
+      <manifest-digest sha1new="e6778b3ba7d30cf841b845f299424b3369f8871e" sha256="bd3a8439eedd8a4a6d050366528b03223576e84ca5c70e610ded4b3aeb45bd86" sha256new="XU5IIOPO3WFEU3IFANTFFCYDEI2XN2CMUXDQ4YIN5VFTV22FXWDA"/>
+      <archive href="http://the.earth.li/~sgtatham/putty/0.63/x86/putty.zip" size="1621853" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=13c2ff08d8efe6d927b23e4699dced83d2587a69" released="2015-11-07" stability="stable" version="0.66">
+      <manifest-digest sha256new="3U55OFSURIFWVEUME4P6CPYSBUOZQMVOYANQIJX5SGEH4CIBKGDA"/>
+      <archive href="http://the.earth.li/~sgtatham/putty/0.66/x86/putty.zip" size="1708829" type="application/zip"/>
     </implementation>
   </group>
-  <entry-point command="run" binary-name="putty" />
+  <entry-point binary-name="putty" command="run"/>
   <entry-point command="puttygen">
     <name xml:lang="en">PuTTY Key Generator</name>
-    <icon href="http://0install.de/feed-icons/PuTTY/puttygen.png" type="image/png" />
-    <icon href="http://0install.de/feed-icons/PuTTY/puttygen.ico" type="image/vnd.microsoft.icon" />
+    <icon href="http://0install.de/feed-icons/PuTTY/puttygen.png" type="image/png"/>
+    <icon href="http://0install.de/feed-icons/PuTTY/puttygen.ico" type="image/vnd.microsoft.icon"/>
   </entry-point>
   <entry-point command="pageant">
     <name xml:lang="en">PuTTY authentication agent</name>
-    <icon href="http://0install.de/feed-icons/PuTTY/pageant.png" type="image/png" />
-    <icon href="http://0install.de/feed-icons/PuTTY/pageant.ico" type="image/vnd.microsoft.icon" />
+    <icon href="http://0install.de/feed-icons/PuTTY/pageant.png" type="image/png"/>
+    <icon href="http://0install.de/feed-icons/PuTTY/pageant.ico" type="image/vnd.microsoft.icon"/>
   </entry-point>
   <entry-point command="plink">
-    <needs-terminal />
+    <needs-terminal/>
     <name xml:lang="en">PuTTY Plink</name>
-    <icon href="http://0install.de/feed-icons/PuTTY/plink.png" type="image/png" />
-    <icon href="http://0install.de/feed-icons/PuTTY/plink.ico" type="image/vnd.microsoft.icon" />
+    <icon href="http://0install.de/feed-icons/PuTTY/plink.png" type="image/png"/>
+    <icon href="http://0install.de/feed-icons/PuTTY/plink.ico" type="image/vnd.microsoft.icon"/>
   </entry-point>
   <entry-point command="pscp">
-    <needs-terminal />
+    <needs-terminal/>
     <name xml:lang="en">PuTTY Secure Copy</name>
-    <icon href="http://0install.de/feed-icons/PuTTY/pscp.png" type="image/png" />
-    <icon href="http://0install.de/feed-icons/PuTTY/pscp.ico" type="image/vnd.microsoft.icon" />
+    <icon href="http://0install.de/feed-icons/PuTTY/pscp.png" type="image/png"/>
+    <icon href="http://0install.de/feed-icons/PuTTY/pscp.ico" type="image/vnd.microsoft.icon"/>
   </entry-point>
   <entry-point command="psftp">
-    <needs-terminal />
+    <needs-terminal/>
     <name xml:lang="en">PuTTY SFTP</name>
-    <icon href="http://0install.de/feed-icons/PuTTY/psftp.png" type="image/png" />
-    <icon href="http://0install.de/feed-icons/PuTTY/psftp.ico" type="image/vnd.microsoft.icon" />
+    <icon href="http://0install.de/feed-icons/PuTTY/psftp.png" type="image/png"/>
+    <icon href="http://0install.de/feed-icons/PuTTY/psftp.ico" type="image/vnd.microsoft.icon"/>
   </entry-point>
 </interface>
