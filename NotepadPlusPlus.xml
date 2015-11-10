@@ -221,6 +221,41 @@
         <remove path="doLocalConf.xml"/>
       </recipe>
     </implementation>
+    <implementation id="sha1new=27f9ecc4535ec42a528db169bdf45712fb667821" released="2015-07-21" stability="stable" version="6.8">
+      <manifest-digest sha256new="7P4YF32EIX6E2H2XVP2ATO3FWWDHCSOBKXVVGAV43GHIACR5ASDA"/>
+      <recipe>
+        <archive href="http://notepad-plus-plus.org/repository/6.x/6.8/npp.6.8.bin.zip" size="4073715" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
+    <implementation id="sha1new=7b4b69df73faaf309fe89750ed491f9143a42593" released="2015-08-04" stability="stable" version="6.8.1">
+      <manifest-digest sha256new="PQUAREHW72KNNJYEUW2MZNN5YO5CKZMVHA2QDSB3SBZYSI4UCWHA"/>
+      <recipe>
+        <archive href="http://notepad-plus-plus.org/repository/6.x/6.8.1/npp.6.8.1.bin.zip" size="4326875" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
+    <implementation id="sha1new=e64a7c7425ceab07fcd7e5005ac76576bdec39a4" released="2015-09-04" stability="stable" version="6.8.3">
+      <manifest-digest sha256new="363CIQ4I52AEQ62F5OW37J6FV53M46PAFYN4N7BBFPILMVIBXOIQ"/>
+      <recipe>
+        <archive href="http://notepad-plus-plus.org/repository/6.x/6.8.3/npp.6.8.3.bin.zip" size="4027251" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
+    <implementation id="sha1new=3582eb1120e7eb80c68ee481973c9ac6f54ad0f7" released="2015-10-19" stability="stable" version="6.8.5">
+      <manifest-digest sha256new="25FWADHETS5FRJC25GQ25SFJ22MF3SS44YVKX2ESRUZST64S5PQA"/>
+      <recipe>
+        <archive href="http://notepad-plus-plus.org/repository/6.x/6.8.5/npp.6.8.5.bin.zip" size="2860087" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
+    <implementation id="sha1new=0814eb04f73318acf65267441465a7e30a010693" released="2015-10-29" stability="stable" version="6.8.6">
+      <manifest-digest sha256new="NLDBM6ATKFBQ7I7O3QBO3EUXGBMVSBBUJZXTOTA5VK75NGZSW6VQ"/>
+      <recipe>
+        <archive href="http://notepad-plus-plus.org/repository/6.x/6.8.6/npp.6.8.6.bin.zip" size="2861171" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
   </group>
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
     <file-type id="Notepad++_textfile">
