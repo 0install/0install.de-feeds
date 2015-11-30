@@ -15,9 +15,9 @@
       <manifest-digest sha1new="f186f09e2d6385e6b26e4dd07c4c90e02634fd9b" sha256="86192d92dda3f420ab96bb9c51f2ce544bd34a2f18e2d40d937a9daa93020e12" sha256new="QYMS3EW5UP2CBK4WXOOFD4WOKRF5GSRPDDRNIDMTPKO2VEYCBYJA"/>
       <archive href="jdk-8u25-windows-i586.7z" size="105751202" type="application/x-7z-compressed"/>
     </implementation>
-    <implementation arch="Windows-x86_64" id="sha1new=6cb427fa7d85cafa551cf4d092bea4011727bf2e" released="2015-10-20" stability="stable" version="8.0.66">
-      <manifest-digest sha1new="6cb427fa7d85cafa551cf4d092bea4011727bf2e" sha256="be823dc21aa83e9bee575617caf2ce01358c2f1912b47cc947cbc0311d0a49f0" sha256new="X2BD3QQ2VA7JX3SXKYL4V4WOAE2YYLYZCK2HZSKHZPADCHIKJHYA"/>
-      <archive href="jdk-8u66-windows-x64.tar.lzma" size="147313744" type="application/x-lzma-compressed-tar"/>
+    <implementation arch="Windows-x86_64" id="sha1new=cf45c076c4f67297559fe281d0835483001572fa" released="2015-10-20" stability="stable" version="8.0.66">
+      <manifest-digest sha1new="cf45c076c4f67297559fe281d0835483001572fa" sha256="65dd9d2845ace6cd90e6edea02ce6b121095c1b683404551b390c839082a11e5" sha256new="MXOZ2KCFVTTM3EHG5XVAFTTLCIIJLQNWQNAEKUNTSDEDSCBKCHSQ"/>
+      <archive href="jdk-8u66-windows-x64.tar.lzma" size="147319344" type="application/x-lzma-compressed-tar"/>
     </implementation>
     <implementation arch="Windows-i486" id="sha1new=f42b5b698b6a5076687fd2143eef9a73c768cb1e" released="2015-10-20" stability="stable" version="8.0.66">
       <manifest-digest sha1new="f42b5b698b6a5076687fd2143eef9a73c768cb1e" sha256="f0290a2d2afb3d0579b0bae23766852aefd5246644ff302917e26315e2eb75a0" sha256new="6AUQULJK7M6QK6NQXLRDOZUFFLX5KJDGIT7TAKIX4JRRLYXLOWQA"/>
