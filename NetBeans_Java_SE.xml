@@ -43,6 +43,10 @@
           <manifest-digest sha256new="ZRIPYIRL6C3BFZ54ZWP3SG2ZU6LZDDO5YBEHISZFX6QQPITETEEQ"/>
           <archive extract="netbeans" href="http://download.netbeans.org/netbeans/8.0.2/final/zip/netbeans-8.0.2-201411181905-javase.zip" size="183444026" type="application/zip"/>
         </implementation>
+        <implementation arch="Windows-i486" id="v8.1_windows32" released="2015-10-22" stability="stable" version="8.1">
+          <manifest-digest sha256new="7TXLW5GBIELJAVXF3VKCRVWCG5FQWOD5J7YGM4WEEJQQXHAQBFYA"/>
+          <archive extract="netbeans" href="http://download.netbeans.org/netbeans/8.1/final/zip/netbeans-8.1-201510222201-javase.zip" size="194268309" type="application/zip"/>
+        </implementation>
       </group>
       <implementation arch="Windows-x86_64" id="v8.0.1_windows64" released="2014-08-25" stability="stable" version="8.0.1">
         <manifest-digest sha256new="NXNIEQR7773BLLUXLIHSE6KP53BASK5IXSDVNCIH5G3QG5GOW7PA"/>
@@ -55,6 +59,10 @@
       <implementation arch="Windows-x86_64" id="v8.0.2_windows64" released="2014-11-28" stability="stable" version="8.0.2">
         <manifest-digest sha256new="ZRIPYIRL6C3BFZ54ZWP3SG2ZU6LZDDO5YBEHISZFX6QQPITETEEQ"/>
         <archive extract="netbeans" href="http://download.netbeans.org/netbeans/8.0.2/final/zip/netbeans-8.0.2-201411181905-javase.zip" size="183444026" type="application/zip"/>
+      </implementation>
+      <implementation arch="Windows-x86_64" id="v8.1_windows64" released="2015-10-22" stability="stable" version="8.1">
+        <manifest-digest sha256new="7TXLW5GBIELJAVXF3VKCRVWCG5FQWOD5J7YGM4WEEJQQXHAQBFYA"/>
+        <archive extract="netbeans" href="http://download.netbeans.org/netbeans/8.1/final/zip/netbeans-8.1-201510222201-javase.zip" size="194268309" type="application/zip"/>
       </implementation>
     </group>
     <implementation arch="Linux-*" id="v7.4_linux" main="bin/netbeans" released="2013-10-11" stability="stable" version="7.4">
@@ -104,6 +112,18 @@
     <implementation arch="Darwin-*" id="v8.0.2_darwin" main="bin/netbeans" released="2014-11-28" stability="stable" version="8.0.2">
       <manifest-digest sha256new="ZRIPYIRL6C3BFZ54ZWP3SG2ZU6LZDDO5YBEHISZFX6QQPITETEEQ"/>
       <archive extract="netbeans" href="http://download.netbeans.org/netbeans/8.0.2/final/zip/netbeans-8.0.2-201411181905-javase.zip" size="183444026" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-*" id="v8.1_linux" main="bin/netbeans" released="2015-10-22" stability="stable" version="8.1">
+      <manifest-digest sha256new="7TXLW5GBIELJAVXF3VKCRVWCG5FQWOD5J7YGM4WEEJQQXHAQBFYA"/>
+      <archive extract="netbeans" href="http://download.netbeans.org/netbeans/8.1/final/zip/netbeans-8.1-201510222201-javase.zip" size="194268309" type="application/zip"/>
+    </implementation>
+    <implementation arch="Solaris-*" id="v8.1_solaris" main="bin/netbeans" released="2015-10-22" stability="stable" version="8.1">
+      <manifest-digest sha256new="7TXLW5GBIELJAVXF3VKCRVWCG5FQWOD5J7YGM4WEEJQQXHAQBFYA"/>
+      <archive extract="netbeans" href="http://download.netbeans.org/netbeans/8.1/final/zip/netbeans-8.1-201510222201-javase.zip" size="194268309" type="application/zip"/>
+    </implementation>
+    <implementation arch="Darwin-*" id="v8.1_darwin" main="bin/netbeans" released="2015-10-22" stability="stable" version="8.1">
+      <manifest-digest sha256new="7TXLW5GBIELJAVXF3VKCRVWCG5FQWOD5J7YGM4WEEJQQXHAQBFYA"/>
+      <archive extract="netbeans" href="http://download.netbeans.org/netbeans/8.1/final/zip/netbeans-8.1-201510222201-javase.zip" size="194268309" type="application/zip"/>
     </implementation>
   </group>
 </interface>
