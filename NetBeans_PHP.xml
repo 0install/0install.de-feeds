@@ -47,6 +47,10 @@
         <manifest-digest sha256new="OAWAA3B6LU2SSIIF6UWEDRS654KUSUOF3MA7BIITKKYGAUEI3WPQ"/>
         <archive extract="netbeans" href="http://download.netbeans.org/netbeans/8.0.2/final/zip/netbeans-8.0.2-201411181905-php.zip" size="111220461" type="application/zip"/>
       </implementation>
+      <implementation arch="Windows-i486" id="v8.1_windows32" license="CDDL, GPL v2 with Classpath Exception" released="2015-10-22" stability="stable" version="8.1">
+        <manifest-digest sha256new="3KYFMY2UN44M4JBUMXS25VO4PHFF4IMWDXDFDDCKHFUPSHD65DIA"/>
+        <archive extract="netbeans" href="http://download.netbeans.org/netbeans/8.1/final/zip/netbeans-8.1-201510222201-php.zip" size="121101848" type="application/zip"/>
+      </implementation>
     </group>
     <implementation arch="Windows-x86_64" id="v8.0.1_windows64" license="CDDL, GPL v2 with Classpath Exception" released="2014-08-25" stability="stable" version="8.0.1">
       <manifest-digest sha256new="G33CXJQFMP2AMVJX4LCBM5JWUSBVHV3JYQIXUFLSYFZX22P2E22A"/>
@@ -59,6 +63,10 @@
     <implementation arch="Windows-x86_64" id="v8.0.2_windows64" license="CDDL, GPL v2 with Classpath Exception" released="2014-11-28" stability="stable" version="8.0.2">
       <manifest-digest sha256new="OAWAA3B6LU2SSIIF6UWEDRS654KUSUOF3MA7BIITKKYGAUEI3WPQ"/>
       <archive extract="netbeans" href="http://download.netbeans.org/netbeans/8.0.2/final/zip/netbeans-8.0.2-201411181905-php.zip" size="111220461" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="v8.1_windows64" license="CDDL, GPL v2 with Classpath Exception" released="2015-10-22" stability="stable" version="8.1">
+      <manifest-digest sha256new="3KYFMY2UN44M4JBUMXS25VO4PHFF4IMWDXDFDDCKHFUPSHD65DIA"/>
+      <archive extract="netbeans" href="http://download.netbeans.org/netbeans/8.1/final/zip/netbeans-8.1-201510222201-php.zip" size="121101848" type="application/zip"/>
     </implementation>
   </group>
   <group>
@@ -112,6 +120,18 @@
     <implementation arch="Darwin-*" id="v8.0.2_darwin" license="CDDL, GPL v2 with Classpath Exception" main="bin/netbeans" released="2014-11-28" stability="stable" version="8.0.2">
       <manifest-digest sha256new="OAWAA3B6LU2SSIIF6UWEDRS654KUSUOF3MA7BIITKKYGAUEI3WPQ"/>
       <archive extract="netbeans" href="http://download.netbeans.org/netbeans/8.0.2/final/zip/netbeans-8.0.2-201411181905-php.zip" size="111220461" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-*" id="v8.1_linux" license="CDDL, GPL v2 with Classpath Exception" main="bin/netbeans" released="2015-10-22" stability="stable" version="8.1">
+      <manifest-digest sha256new="3KYFMY2UN44M4JBUMXS25VO4PHFF4IMWDXDFDDCKHFUPSHD65DIA"/>
+      <archive extract="netbeans" href="http://download.netbeans.org/netbeans/8.1/final/zip/netbeans-8.1-201510222201-php.zip" size="121101848" type="application/zip"/>
+    </implementation>
+    <implementation arch="Solaris-*" id="v8.1_solaris" license="CDDL, GPL v2 with Classpath Exception" main="bin/netbeans" released="2015-10-22" stability="stable" version="8.1">
+      <manifest-digest sha256new="3KYFMY2UN44M4JBUMXS25VO4PHFF4IMWDXDFDDCKHFUPSHD65DIA"/>
+      <archive extract="netbeans" href="http://download.netbeans.org/netbeans/8.1/final/zip/netbeans-8.1-201510222201-php.zip" size="121101848" type="application/zip"/>
+    </implementation>
+    <implementation arch="Darwin-*" id="v8.1_darwin" license="CDDL, GPL v2 with Classpath Exception" main="bin/netbeans" released="2015-10-22" stability="stable" version="8.1">
+      <manifest-digest sha256new="3KYFMY2UN44M4JBUMXS25VO4PHFF4IMWDXDFDDCKHFUPSHD65DIA"/>
+      <archive extract="netbeans" href="http://download.netbeans.org/netbeans/8.1/final/zip/netbeans-8.1-201510222201-php.zip" size="121101848" type="application/zip"/>
     </implementation>
   </group>
 </interface>
