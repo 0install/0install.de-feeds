@@ -96,5 +96,13 @@
       <manifest-digest sha256new="NZPAECSS7CHZLWMGVJ4TB26ADROIXHQDIEAVT6NI5DYEANMVVWUQ"/>
       <archive extract="aria2-1.18.8-win-32bit-build1" href="http://downloads.sourceforge.net/aria2/stable/aria2-1.18.8/aria2-1.18.8-win-32bit-build1.zip" size="1754582" type="application/zip"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=c1dcc23c012365a250d96ca3246babd3beedaa59" if-0install-version="2.6.8.." main="aria2c.exe" released="2015-06-05" stability="stable" version="1.19.0">
+      <manifest-digest sha256new="AM52S7D6VZXAXT6YHYDJSNSVXL3MP5HZPRE2XVPLVQJ32MSEPXFA"/>
+      <archive extract="aria2-1.19.0-win-64bit-build1" href="http://downloads.sourceforge.net/aria2/stable/aria2-1.19.0/aria2-1.19.0-win-64bit-build1.zip" size="1977637" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=6a36ea02f47c518df5e23dc5bebfb4c20c90ad79" if-0install-version="2.6.8.." main="aria2c.exe" released="2015-06-05" stability="stable" version="1.19.0">
+      <manifest-digest sha256new="TZFIFRCY6M3I5A343LU5AU4RFCO5JVI66NTIYDLYEYPQCEN7AOKQ"/>
+      <archive extract="aria2-1.19.0-win-32bit-build1" href="http://downloads.sourceforge.net/aria2/stable/aria2-1.19.0/aria2-1.19.0-win-32bit-build1.zip" size="1913651" type="application/zip"/>
+    </implementation>
   </group>
 </interface>
