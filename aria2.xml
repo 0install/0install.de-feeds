@@ -104,5 +104,13 @@
       <manifest-digest sha256new="TZFIFRCY6M3I5A343LU5AU4RFCO5JVI66NTIYDLYEYPQCEN7AOKQ"/>
       <archive extract="aria2-1.19.0-win-32bit-build1" href="http://downloads.sourceforge.net/aria2/stable/aria2-1.19.0/aria2-1.19.0-win-32bit-build1.zip" size="1913651" type="application/zip"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=baf3d136ef5d237239e13fd64f95f8a8cd8bf412" if-0install-version="2.6.8.." main="aria2c.exe" released="2015-12-06" stability="stable" version="1.19.3">
+      <manifest-digest sha256new="UKBESUOZSHMXVPO6W26IIK2K6LCVUHNPIC5GIOX5BCQTHXNCFJ2A"/>
+      <archive extract="aria2-1.19.3-win-64bit-build1" href="https://github.com/tatsuhiro-t/aria2/releases/download/release-1.19.3/aria2-1.19.3-win-64bit-build1.zip" size="1975502" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=d3e212b8b138a026d2c4f5ec4238a2ffb6da45a6" if-0install-version="2.6.8.." main="aria2c.exe" released="2015-12-06" stability="stable" version="1.19.3">
+      <manifest-digest sha256new="T6SEZPNA76IMTVMTEIMBFT5N3NDSLSHIPN5ZSDX2CZRXZC7GW5KQ"/>
+      <archive extract="aria2-1.19.3-win-32bit-build1" href="https://github.com/tatsuhiro-t/aria2/releases/download/release-1.19.3/aria2-1.19.3-win-32bit-build1.zip" size="1914890" type="application/zip"/>
+    </implementation>
   </group>
 </interface>
