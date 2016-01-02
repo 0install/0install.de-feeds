@@ -14,5 +14,9 @@
       <manifest-digest sha256new="IJDLZMGWDTO53HCYX4L2LWESGMY3U65WCQD54NNROR7LVOZEAYOQ"/>
       <archive extract="Gtk" href="http://sourceforge.net/projects/pidgin/files/GTK%2B%20for%20Windows/2.16.6.2/gtk-runtime-2.16.6.2.zip" size="12158413" type="application/zip"/>
     </implementation>
+    <implementation arch="Windows-i486" id="sha1new=cdec7f0fc832c265dfddd50ee1c913093c29382e" released="2016-01-02" stability="stable" version="2.16.6.3">
+      <manifest-digest sha256new="PER46UXB3PS3V545GUJYL4K4W257LNYOTOCYEMT2IZVOMRIZI6UQ"/>
+      <archive extract="Gtk" href="http://sourceforge.net/projects/pidgin/files/GTK%2B%20for%20Windows/2.16.6.3/gtk-runtime-2.16.6.3.zip" size="12363051" type="application/zip"/>
+    </implementation>
   </group>
 </interface>
