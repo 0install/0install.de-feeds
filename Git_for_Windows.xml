@@ -1,31 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?>
-<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/Git_for_Windows.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<?xml version="1.0" ?>
+<interface uri="http://0install.de/feeds/Git_for_Windows.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
   <name>Git for Windows</name>
   <summary xml:lang="en">decentralized version control system</summary>
   <summary xml:lang="de">dezentrales Versionsverwaltungssystem</summary>
   <description xml:lang="en">Git is a powerful version control system aiming to be the fastest decentralized source code management tool on this planet.</description>
   <description xml:lang="de">Git ist ein mächtiges Versionsverwaltungssystem mit dem Ziel das schnellste denzentrale Quellcodeverwaltungstool auf diesem Planeten zu sein.</description>
-  <icon href="https://git-for-windows.github.io/img/gwindows_logo.png" type="image/png" />
+  <icon href="https://git-for-windows.github.io/img/gwindows_logo.png" type="image/png"/>
   <category>Development</category>
   <homepage>https://git-for-windows.github.io/</homepage>
-  <needs-terminal />
-  <feed-for interface="http://repo.roscidus.com/git/core" />
+  <needs-terminal/>
+  <feed-for interface="http://repo.roscidus.com/git/core"/>
   <group license="GPL v2 (GNU General Public License)">
     <requires interface="http://0install.de/feeds/PuTTY.xml">
-      <environment name="GIT_SSH" insert="plink.exe" mode="replace" />
+      <environment insert="plink.exe" mode="replace" name="GIT_SSH"/>
     </requires>
-    <environment name="PATH" insert="cmd" />
-    <environment name="PATH" insert="usr/bin" />
-    <command name="run" path="cmd/git.exe" />
-    <command name="run-gui" path="cmd/git-gui.exe" />
-    <command name="gitk" path="cmd/gitk.exe" />
-    <command name="start-ssh-agent" path="cmd/start-ssh-agent.cmd" />
-    <command name="git-bash" path="git-bash.exe" />
-    <command name="git-cmd" path="git-cmd.exe" />
-    <command name="bash" path="usr/bin/bash.exe" />
-    <command name="sh" path="usr/bin/sh.exe" />
-    <command name="curl" path="usr/bin/curl.exe" />
-    <!--<command name="arch" path="usr/bin/arch.exe" />
+    <environment insert="cmd" name="PATH"/>
+    <environment insert="usr/bin" name="PATH"/>
+    <command name="run" path="cmd/git.exe"/>
+    <command name="run-gui" path="cmd/git-gui.exe"/>
+    <command name="gitk" path="cmd/gitk.exe"/>
+    <command name="start-ssh-agent" path="cmd/start-ssh-agent.cmd"/>
+    <command name="git-bash" path="git-bash.exe"/>
+    <command name="git-cmd" path="git-cmd.exe"/>
+    <command name="bash" path="usr/bin/bash.exe"/>
+    <command name="sh" path="usr/bin/sh.exe"/>
+    <command name="curl" path="usr/bin/curl.exe"/><!--<command name="arch" path="usr/bin/arch.exe" />
     <command name="awk" path="usr/bin/awk.exe" />
     <command name="basename" path="usr/bin/basename.exe" />
     <command name="bunzip2" path="usr/bin/bunzip2.exe" />
@@ -345,61 +344,67 @@
     <command name="znew" path="usr/bin/sh.exe">
       <arg>/usr/bin/znew</arg>
     </command>-->
-    <implementation arch="Windows-x86_64" version="2.6.4" stability="stable" released="2015-12-14" id="sha1new=fad855013cc87d2769e8a695e1db51f6a49fd04b">
-      <manifest-digest sha1new="fad855013cc87d2769e8a695e1db51f6a49fd04b" sha256="4af7317002b16edd7ae727df4188acb1053d02d816410a6990576f076b4412b7" sha256new="JL3TC4ACWFXN26XHE7PUDCFMWECT2AWYCZAQU2MQK5XQO22ECK3Q" />
-      <archive href="https://github.com/git-for-windows/git/releases/download/v2.6.4.windows.1/Git-2.6.4-64-bit.tar.bz2" size="69829094" type="application/x-bzip-compressed-tar" />
+    <implementation arch="Windows-x86_64" id="sha1new=fad855013cc87d2769e8a695e1db51f6a49fd04b" released="2015-12-14" stability="stable" version="2.6.4">
+      <manifest-digest sha1new="fad855013cc87d2769e8a695e1db51f6a49fd04b" sha256="4af7317002b16edd7ae727df4188acb1053d02d816410a6990576f076b4412b7" sha256new="JL3TC4ACWFXN26XHE7PUDCFMWECT2AWYCZAQU2MQK5XQO22ECK3Q"/>
+      <archive href="https://github.com/git-for-windows/git/releases/download/v2.6.4.windows.1/Git-2.6.4-64-bit.tar.bz2" size="69829094" type="application/x-bzip-compressed-tar"/>
     </implementation>
-    <implementation arch="Windows-x86_64" version="2.6.4" stability="stable" released="2015-12-14" id="sha1new=11d2aab0199e53cc0506997e2041eb9691cf99c4">
-      <manifest-digest sha1new="11d2aab0199e53cc0506997e2041eb9691cf99c4" sha256="76bc8116e138d8f9470570a955ab81c60cd625312a3ae32f106fd1362f0d3541" sha256new="O26ICFXBHDMPSRYFOCUVLK4BYYGNMJJRFI5OGLYQN7ITMLYNGVAQ" />
-      <archive href="https://github.com/git-for-windows/git/releases/download/v2.6.4.windows.1/Git-2.6.4-32-bit.tar.bz2" size="67606777" type="application/x-bzip-compressed-tar" />
+    <implementation arch="Windows-x86_64" id="sha1new=11d2aab0199e53cc0506997e2041eb9691cf99c4" released="2015-12-14" stability="stable" version="2.6.4">
+      <manifest-digest sha1new="11d2aab0199e53cc0506997e2041eb9691cf99c4" sha256="76bc8116e138d8f9470570a955ab81c60cd625312a3ae32f106fd1362f0d3541" sha256new="O26ICFXBHDMPSRYFOCUVLK4BYYGNMJJRFI5OGLYQN7ITMLYNGVAQ"/>
+      <archive href="https://github.com/git-for-windows/git/releases/download/v2.6.4.windows.1/Git-2.6.4-32-bit.tar.bz2" size="67606777" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=49082e6e1b59ff5b6a342beb0539916403b3bab3" released="2016-01-05" stability="stable" version="2.7.0">
+      <archive href="https://github.com/git-for-windows/git/releases/download/v2.7.0.windows.1/Git-2.7.0-64-bit.tar.bz2" size="72427297" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=3407eb687b976b2b07b435bd6af6855be5ed9e20" released="2016-01-05" stability="stable" version="2.7.0">
+      <archive href="https://github.com/git-for-windows/git/releases/download/v2.7.0.windows.1/Git-2.7.0-32-bit.tar.bz2" size="70958649" type="application/x-bzip-compressed-tar"/>
     </implementation>
   </group>
-  <entry-point command="run" binary-name="git">
-    <needs-terminal />
+  <entry-point binary-name="git" command="run">
+    <needs-terminal/>
     <name xml:lang="en">Git</name>
     <summary xml:lang="en">command-line interface for Git</summary>
   </entry-point>
-  <entry-point command="run-gui" binary-name="git-gui">
+  <entry-point binary-name="git-gui" command="run-gui">
     <name xml:lang="en">Git GUI</name>
     <summary xml:lang="en">graphical interface for creating Git commits</summary>
   </entry-point>
-  <entry-point command="gitk" binary-name="gitk">
+  <entry-point binary-name="gitk" command="gitk">
     <name xml:lang="en">Gitk GUI</name>
     <summary xml:lang="en">graphical interface for editing Git commits</summary>
   </entry-point>
   <entry-point command="git-bash">
-    <needs-terminal />
+    <needs-terminal/>
     <name xml:lang="en">Git Bash</name>
     <summary xml:lang="en">MSYS-based bash prompt with all Git commands in PATH</summary>
   </entry-point>
   <entry-point command="git-cmd">
-    <needs-terminal />
+    <needs-terminal/>
     <name xml:lang="en">Git CMD</name>
     <summary xml:lang="en">Windows CMD-based command prompt with all Git commands in PATH</summary>
   </entry-point>
   <entry-point command="curl">
-    <needs-terminal />
+    <needs-terminal/>
     <name xml:lang="en">cURL</name>
     <summary xml:lang="en">A comand-line client for HTTP, FTP, etc.</summary>
   </entry-point>
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
     <file-type id="ShellScript">
       <description xml:lang="en">Shell Script</description>
-      <verb name="open" command="git-bash" args="--no-cd &quot;%L&quot; %*" />
-      <extension value=".sh" />
+      <verb args="--no-cd &quot;%L&quot; %*" command="git-bash" name="open"/>
+      <extension value=".sh"/>
     </file-type>
     <context-menu id="git-cmd" target="directories">
-      <verb name="git_cmd" command="git-cmd" args="--cd=&quot;%1&quot;">
+      <verb args="--cd=&quot;%1&quot;" command="git-cmd" name="git_cmd">
         <description xml:lang="en">Git Command Prompt Here</description>
       </verb>
     </context-menu>
     <context-menu id="git-bash" target="directories">
-      <verb name="git_bash" command="git-bash" args="--cd=&quot;%1&quot;">
+      <verb args="--cd=&quot;%1&quot;" command="git-bash" name="git_bash">
         <description xml:lang="en">Git Ba&amp;sh Here</description>
       </verb>
     </context-menu>
     <context-menu id="git-gui" target="directories">
-      <verb name="git_gui" command="run-gui" args="--working-dir &quot;%1&quot;">
+      <verb args="--working-dir &quot;%1&quot;" command="run-gui" name="git_gui">
         <description xml:lang="en">Git &amp;GUI Here</description>
       </verb>
     </context-menu>
