@@ -111,6 +111,10 @@ Professional läuft mit Microsoft .NET 2.0 und Mono 2.6 or neuer.</description>
       <manifest-digest sha256new="OQNBDP2H4FHJKYCHVJOVONJJ6QISPDZZ4LXNUWDHJDGKHPYFBOBA"/>
       <archive href="http://downloads.sourceforge.net/keepass/KeePass-2.30.zip" size="2918128" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=c7135bfc0deb558ff8953ebea33010d5fb94b3a4" released="2016-01-09" stability="stable" version="2.31">
+      <manifest-digest sha256new="5CG3EJ4XQTJL3GW7PVUSRFBHTFBCT4QND7EU7CJL7QEIPC446AVA"/>
+      <archive href="http://downloads.sourceforge.net/keepass/KeePass-2.31.zip" size="2904448" type="application/zip"/>
+    </implementation>
   </group>
   <entry-point binary-name="KeePass" command="run"/>
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
