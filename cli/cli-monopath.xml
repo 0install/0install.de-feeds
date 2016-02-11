@@ -15,7 +15,7 @@
         </runner>
       </command>
       <manifest-digest sha1new="b416113cb680d304332f4ca54e27be5e0024a222" sha256="aa9a1b225d07a14d5092ecc2922a2affbd87330aec218702f0c65cefa39b1316" sha256new="VKNBWIS5A6QU2UES5TBJEKRK766YOMYK5QQYOAXQYZOO7I43CMLA" />
-      <archive href="http://0install.de/files/monopath-emulator.zip" size="10953" type="application/zip" />
+      <archive href="monopath-emulator.zip" size="10953" type="application/zip" />
     </implementation>
     <implementation version="3.0" id="netfx-3.0">
       <command name="run" path="monopath-emulator.clr2.exe">
@@ -29,7 +29,7 @@
         </runner>
       </command>
       <manifest-digest sha1new="b416113cb680d304332f4ca54e27be5e0024a222" />
-      <archive href="http://0install.de/files/monopath-emulator.zip" size="10953" type="application/zip" />
+      <archive href="monopath-emulator.zip" size="10953" type="application/zip" />
     </implementation>
     <implementation version="3.5" id="netfx-3.5">
       <command name="run" path="monopath-emulator.clr2.exe">
@@ -43,7 +43,7 @@
         </runner>
       </command>
       <manifest-digest sha1new="deb184a5a51f3a7ce3fe633ba188231c29c6aa0d" sha256="3b9225d3133751687c67313bf38208ef63c79f42db2da06661a3ef0dfe177d99" sha256new="HOJCLUYTG5IWQ7DHGE57HAQI55R4PH2C3MW2AZTBUPXQ37QXPWMQ" />
-      <archive href="http://0install.de/files/hosted/monopath-emulator.zip" size="11586" type="application/zip" />
+      <archive href="hosted/monopath-emulator.zip" size="11586" type="application/zip" />
     </implementation>
     <implementation version="4.0" id="netfx-4.0">
       <command name="run" path="monopath-emulator.clr4.exe">
@@ -57,7 +57,7 @@
         </runner>
       </command>
       <manifest-digest sha1new="b416113cb680d304332f4ca54e27be5e0024a222" />
-      <archive href="http://0install.de/files/monopath-emulator.zip" size="10953" type="application/zip" />
+      <archive href="monopath-emulator.zip" size="10953" type="application/zip" />
     </implementation>
     <implementation version="4.5" id="netfx-4.5">
       <command name="run" path="monopath-emulator.clr4.exe">
@@ -71,7 +71,7 @@
         </runner>
       </command>
       <manifest-digest sha1new="b416113cb680d304332f4ca54e27be5e0024a222" />
-      <archive href="http://0install.de/files/monopath-emulator.zip" size="10953" type="application/zip" />
+      <archive href="monopath-emulator.zip" size="10953" type="application/zip" />
     </implementation>
   </group>
   <group arch="POSIX-*">

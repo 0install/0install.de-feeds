@@ -20,6 +20,6 @@ Workaround for java -classpath ... -jar ... which does not work.</description>
       </runner>
     </command>
     <manifest-digest sha1new="f5af192ee7f0e52b207ec20bb740585402b850ea" sha256="2096f2abc618dd030bee289da081635be4d38652fa2a131cb34bd02a97f0318b" sha256new="ECLPFK6GDDOQGC7OFCO2BALDLPSNHBSS7IVBGHFTJPICVF7QGGFQ" />
-    <file href="http://0install.de/files/jar-launcher-1.0-SNAPSHOT.jar" size="3220" dest="jar-launcher-1.0-SNAPSHOT.jar" />
+    <file href="jar-launcher-1.0-SNAPSHOT.jar" size="3220" dest="jar-launcher-1.0-SNAPSHOT.jar" />
   </implementation>
 </interface>
