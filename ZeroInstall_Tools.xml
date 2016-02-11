@@ -27,107 +27,107 @@ und der New Feed Wizard (leitet Sie durch den kompletten Feed-Erstellungsprozess
     </command>
     <implementation id="sha1new=b5352b1be9ca2f3f28efa87627ea628561f8f925" released="2014-04-20" stability="stable" version="2.6.0">
       <manifest-digest sha1new="b5352b1be9ca2f3f28efa87627ea628561f8f925" sha256="d4fdbd95bbeb989991fa1c30887236587bea16f70ad97f93d6559b8e93330a19" sha256new="2T633FN35OMJTEP2DQYIQ4RWLB56UFXXBLMX7E6WKWNY5EZTBIMQ"/>
-      <archive href="http://0install.de/files/zero-install-tools-2.6.0.tar.gz" size="2201226" type="application/x-compressed-tar"/>
+      <archive href="ZeroInstall_Tools-2.6.0.tar.gz" size="2201226" type="application/x-compressed-tar"/>
     </implementation>
     <implementation id="sha1new=d33e983b26f994eba03e2ffb287fd2a580378450" released="2014-04-23" stability="stable" version="2.6.1">
       <manifest-digest sha1new="d33e983b26f994eba03e2ffb287fd2a580378450" sha256="1c17703d1a06d4de9386e386e857e5957d5ba65810b3db7468ac2276e5d2f58c" sha256new="DQLXAPI2A3KN5E4G4ODOQV7FSV6VXJSYCCZ5W5DIVQRHNZOS6WGA"/>
-      <archive href="http://0install.de/files/zero-install-tools-2.6.1.tar.gz" size="2203479" type="application/x-compressed-tar"/>
+      <archive href="ZeroInstall_Tools-2.6.1.tar.gz" size="2203479" type="application/x-compressed-tar"/>
     </implementation>
     <implementation id="sha1new=8091455c0a10e168a31d4a580458a08b4bc02fec" released="2014-05-15" stability="stable" version="2.6.2">
       <manifest-digest sha1new="8091455c0a10e168a31d4a580458a08b4bc02fec" sha256="bf0f3883c4ed5a30e7690dcc341922655863367a505e37e59ec53f472e9974c9" sha256new="X4HTRA6E5VNDBZ3JBXGDIGJCMVMGGNT2KBPDPZM6YU7UOLUZOTEQ"/>
-      <archive href="http://0install.de/files/zero-install-tools-2.6.2.tar.gz" size="2211140" type="application/x-compressed-tar"/>
+      <archive href="ZeroInstall_Tools-2.6.2.tar.gz" size="2211140" type="application/x-compressed-tar"/>
     </implementation>
     <implementation id="sha1new=d30e994832fc994f48c71f9f86b16bf5f7d2c701" released="2014-06-19" stability="stable" version="2.6.3">
       <manifest-digest sha1new="d30e994832fc994f48c71f9f86b16bf5f7d2c701" sha256="12e24a441b8e82f4853a712714edea8bc3020475692507c56870547a1ad09630" sha256new="CLREURA3R2BPJBJ2OETRJ3PKRPBQEBDVNESQPRLIOBKHUGWQSYYA"/>
-      <archive href="http://0install.de/files/zero-install-tools-2.6.3.tar.gz" size="2213596" type="application/x-compressed-tar"/>
+      <archive href="ZeroInstall_Tools-2.6.3.tar.gz" size="2213596" type="application/x-compressed-tar"/>
     </implementation>
     <implementation id="sha1new=5c6a1358cf17487be55b0e6eff01b0609eecde4b" released="2014-07-27" stability="stable" version="2.6.4">
       <manifest-digest sha1new="5c6a1358cf17487be55b0e6eff01b0609eecde4b" sha256="4bd2953aef6ad9f41e32739f37de81472b8c8b3d7faa4991195ff5abe7f28957" sha256new="JPJJKOXPNLM7IHRSOOPTPXUBI4VYZCZ5P6VETEIZL722XZ7SRFLQ"/>
-      <archive href="http://0install.de/files/zero-install-tools-2.6.4.tar.gz" size="2215200" type="application/x-compressed-tar"/>
+      <archive href="ZeroInstall_Tools-2.6.4.tar.gz" size="2215200" type="application/x-compressed-tar"/>
     </implementation>
     <implementation id="sha1new=fd1c59eec930047ec88c0769f19488ebd72ca1e0" released="2014-08-02" stability="stable" version="2.6.5">
       <manifest-digest sha1new="fd1c59eec930047ec88c0769f19488ebd72ca1e0" sha256="828069e051994abafc354e20af4e62584e4d0b511282ceefb6f261c308699b43" sha256new="QKAGTYCRTFFLV7BVJYQK6TTCLBHE2C2RCKBM535W6JQ4GCDJTNBQ"/>
-      <archive href="http://0install.de/files/zero-install-tools-2.6.5.tar.gz" size="2215805" type="application/x-compressed-tar"/>
+      <archive href="ZeroInstall_Tools-2.6.5.tar.gz" size="2215805" type="application/x-compressed-tar"/>
     </implementation>
     <implementation id="sha1new=98f2318a792a7fcc14162aedf6f99f8f056b93d4" released="2014-09-05" stability="stable" version="2.6.6">
       <manifest-digest sha1new="98f2318a792a7fcc14162aedf6f99f8f056b93d4" sha256="b847c80cb856604fbabbb085dbf75d8b6d1bf9667b35ab9f9395c8b5c1c34857" sha256new="XBD4QDFYKZQE7OV3WCC5X525RNWRX6LGPM22XH4TSXELLQODJBLQ"/>
-      <archive href="http://0install.de/files/zero-install-tools-2.6.6.tar.gz" size="2216002" type="application/x-compressed-tar"/>
+      <archive href="ZeroInstall_Tools-2.6.6.tar.gz" size="2216002" type="application/x-compressed-tar"/>
     </implementation>
     <implementation id="sha1new=0c94262c12a8278f355b43cc5476355c2b4f2c3c" released="2014-10-12" stability="stable" version="2.6.8">
       <manifest-digest sha256new="UL3XXMQ27YRGU3UB7T5ZG2XOYGBFCXQXJZX4UUA7KEIA3QIADZ5Q"/>
-      <archive href="http://0install.de/files/zero-install-tools-2.6.8.tar.gz" size="2218833"/>
+      <archive href="ZeroInstall_Tools-2.6.8.tar.gz" size="2218833"/>
     </implementation>
     <implementation id="sha1new=ee1aaff46c6851c1e046b0b23d4fc40bf7b531a1" released="2014-11-30" stability="stable" version="2.6.9">
       <manifest-digest sha256new="H32SZZ6ECBRPKNMRNHPN5SJBMJDOQAVFA4XJ5UNWHCHUASXP55JA"/>
-      <archive href="http://0install.de/files/zero-install-tools-2.6.9.tar.gz" size="2221296"/>
+      <archive href="ZeroInstall_Tools-2.6.9.tar.gz" size="2221296"/>
     </implementation>
     <implementation id="sha1new=0226d0293b6ff4b4f4f891c2923739ff38b58c82" released="2015-01-09" stability="stable" version="2.7.0">
       <manifest-digest sha256new="PUFNS3T6LA33AAZIOTYQMZ776K7ARY6U7KARX52L5U6GH2YAV43Q"/>
-      <archive href="http://0install.de/files/zero-install-tools-2.7.0.tar.gz" size="2234225"/>
+      <archive href="ZeroInstall_Tools-2.7.0.tar.gz" size="2234225"/>
     </implementation>
     <implementation id="sha1new=b04bbac592ee72359cc37e01245d5bbbb789a40a" released="2015-02-10" stability="stable" version="2.7.1">
       <manifest-digest sha256new="5CV3BSNS3FINULEA77ZKOYCZITGJ74QTLRHW4CYBXWQPR2L4I3UQ"/>
-      <archive href="http://0install.de/files/zero-install-tools-2.7.1.tar.gz" size="2236949"/>
+      <archive href="ZeroInstall_Tools-2.7.1.tar.gz" size="2236949"/>
     </implementation>
     <implementation id="sha1new=b7444b796e919f5f4653b8471f7c41e8bf156c92" released="2015-03-05" stability="stable" version="2.7.2">
       <manifest-digest sha256new="VAA2MIHQDMR7KQM27UIEO2HR72MNJ3P6ZYKGI4ZONAMBPFJ4XQUA"/>
-      <archive href="http://0install.de/files/zero-install-tools-2.7.2.tar.gz" size="2238513"/>
+      <archive href="ZeroInstall_Tools-2.7.2.tar.gz" size="2238513"/>
     </implementation>
     <implementation id="sha1new=b125969b7725a0e988bc6f4128be18bf4a7b4535" released="2015-03-10" stability="stable" version="2.7.3">
       <manifest-digest sha256new="25RIW2J6NJROXMSEQXHKORVAUAW5C5MEIOS3GV7OMWBCJ3HVZ33Q"/>
-      <archive href="http://0install.de/files/zero-install-tools-2.7.3.tar.gz" size="2239753"/>
+      <archive href="ZeroInstall_Tools-2.7.3.tar.gz" size="2239753"/>
     </implementation>
     <implementation id="sha1new=02e772b8c627aa682e49ed7f4852281232cbee4c" released="2015-05-08" stability="stable" version="2.8.0">
       <manifest-digest sha256new="EXSEHWP4J7GJUDP262LGESF46JSCNL6NDNSTQ5CKWEPWOZ7I4AZA"/>
-      <archive href="http://0install.de/files/zero-install-tools-2.8.0.tar.gz" size="2180128"/>
+      <archive href="ZeroInstall_Tools-2.8.0.tar.gz" size="2180128"/>
     </implementation>
     <implementation id="sha1new=b1d431c0d6d7c74aa75c2f562d1676ad011e72e5" released="2015-05-18" stability="stable" version="2.8.1">
       <manifest-digest sha256new="4T6QGWOQIEBCFOGDSG6757ZNVDRM3C2FYYZYK45YEB2UBO2GD6EQ"/>
-      <archive href="http://0install.de/files/zero-install-tools-2.8.1.tar.gz" size="2188173"/>
+      <archive href="ZeroInstall_Tools-2.8.1.tar.gz" size="2188173"/>
     </implementation>
     <implementation id="sha1new=97bea1703dfa047416f430c8d597f5b4d17bd0cf" released="2015-05-31" stability="stable" version="2.8.2">
       <manifest-digest sha256new="ENPIURDFHIXCKLRF6XX4MUEODTVRD2TIOJV26AMKOD64YGOATDKA"/>
-      <archive href="http://0install.de/files/zero-install-tools-2.8.2.tar.gz" size="2189283"/>
+      <archive href="ZeroInstall_Tools-2.8.2.tar.gz" size="2189283"/>
     </implementation>
     <implementation id="sha1new=cef633ff912b520cfcf24b3d9c150faada8a8aa9" released="2015-06-24" stability="stable" version="2.8.3">
       <manifest-digest sha256new="F2T5D2CP5TXVVAH32FF2OL5R7CTNMLEZ2APJZBUONJOYN6TPMCKQ"/>
-      <archive href="http://0install.de/files/zero-install-tools-2.8.3.tar.gz" size="1781145"/>
+      <archive href="ZeroInstall_Tools-2.8.3.tar.gz" size="1781145"/>
     </implementation>
     <implementation id="sha1new=9f94310285b208da50c80f55fdb2af47dba212c8" released="2015-07-06" stability="stable" version="2.8.4">
       <manifest-digest sha256new="NE6FIRR3R66FRN3OLEGL4LCTMPMO42H3243ERL2QIK5MAU4RVNLA"/>
-      <archive href="http://0install.de/files/zero-install-tools-2.8.4.tar.gz" size="1784533"/>
+      <archive href="ZeroInstall_Tools-2.8.4.tar.gz" size="1784533"/>
     </implementation>
     <implementation id="sha1new=0ec4ea452f93da96ae5e264f56401e8892b7160a" released="2015-08-08" stability="stable" version="2.9.0">
       <manifest-digest sha256new="6VVMF6MZQXXFSDZ6AQFA537K354J3XUDGTURX2XFQYX6XJB2XXSQ"/>
-      <archive href="http://0install.de/files/zero-install-tools-2.9.0.tar.gz" size="2361106"/>
+      <archive href="ZeroInstall_Tools-2.9.0.tar.gz" size="2361106"/>
     </implementation>
     <implementation id="sha1new=ef8d6a1859c4f2587e99970472917a62becc12bc" released="2015-08-11" stability="stable" version="2.9.1">
       <manifest-digest sha256new="6MK3WTPISPHUJLDZBE3RYFBQE3XQAPMSXBMT6LTWECM4TGAKLNSA"/>
-      <archive href="http://0install.de/files/zero-install-tools-2.9.1.tar.gz" size="2361185"/>
+      <archive href="ZeroInstall_Tools-2.9.1.tar.gz" size="2361185"/>
     </implementation>
     <implementation id="sha1new=5883c6f0e97893ab777435b56e197a64ede3fa3e" released="2015-08-11" stability="stable" version="2.9.2">
       <manifest-digest sha256new="KSZCS4UFKU7TUXT4N5A4OBPQIIPZF3OADFGXIOMTYQNJNHYAX6XQ"/>
-      <archive href="http://0install.de/files/zero-install-tools-2.9.2.tar.gz" size="2361236"/>
+      <archive href="ZeroInstall_Tools-2.9.2.tar.gz" size="2361236"/>
     </implementation>
     <implementation id="sha1new=53fa581c5c95f60d5c3d70663dd3f071be22ba38" released="2015-08-22" stability="stable" version="2.9.3">
       <manifest-digest sha256new="4HB7WPATCYGCUBIDWDP2SH7AWO6PKZIDSPZLC5GG4RFCBK5JZDJA"/>
-      <archive href="http://0install.de/files/zero-install-tools-2.9.3.tar.gz" size="2378052"/>
+      <archive href="ZeroInstall_Tools-2.9.3.tar.gz" size="2378052"/>
     </implementation>
     <implementation id="sha1new=21c9561186cf9bd4ce9d3b1a8711592e922d4b02" released="2015-10-09" stability="stable" version="2.9.4">
       <manifest-digest sha256new="RXMD4EV3JVCP76ZQKKQ6SY4WBXM3HDFUMZ5TZ3L6JQO2SOO4ZT2A"/>
-      <archive href="http://0install.de/files/zero-install-tools-2.9.4.tar.gz" size="2388832"/>
+      <archive href="ZeroInstall_Tools-2.9.4.tar.gz" size="2388832"/>
     </implementation>
     <implementation id="sha1new=f7d512b1e8bd6c986ea03f80e843bb01eeda0801" released="2015-10-25" stability="stable" version="2.9.6">
       <manifest-digest sha256new="RNNU46EWFZGH6CNNFI4WSGXIRUCCW7FI5OPJB5HP44IM4GCG6MKQ"/>
-      <archive href="http://0install.de/files/zero-install-tools-2.9.6.tar.gz" size="2392372"/>
+      <archive href="ZeroInstall_Tools-2.9.6.tar.gz" size="2392372"/>
     </implementation>
     <implementation id="sha1new=21a2b394d82e41b3cf860f8153a181ebb75219a1" released="2015-12-23" stability="stable" version="2.9.7">
       <manifest-digest sha256new="DRW27YIVAJAHH6RBZUYH5AB5HJHLD7PPIOEZR7VZDMHZC4OU5DXQ"/>
-      <archive href="http://0install.de/files/zero-install-tools-2.9.7.tar.gz" size="2393661"/>
+      <archive href="ZeroInstall_Tools-2.9.7.tar.gz" size="2393661"/>
     </implementation>
     <implementation id="sha1new=92596e6af0e0a3e198f092bbe170fcf424756b93" released="2016-02-11" stability="stable" version="2.10.0">
       <manifest-digest sha256new="QUKYKU2JITBAYMXX6BKFTUMWQEK3HJCANJPADE2CPEPNY43N372A"/>
-      <archive href="http://0install.de/files/zero-install-tools-2.10.0.tar.gz" size="2139344"/>
+      <archive href="ZeroInstall_Tools-2.10.0.tar.gz" size="2139344"/>
     </implementation>
   </group>
   <entry-point binary-name="0publish-win" command="run">
