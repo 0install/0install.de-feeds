@@ -22,6 +22,22 @@ Konzeptuell können Sie sich vorstellen, dass die Software nur auf einem Server 
     <command name="central" path="ZeroInstall.exe">
       <runner command="run-gui" interface="http://0install.de/feeds/cli/cli.xml"/>
     </command>
+    <command name="update" path="0install-win.exe">
+      <arg>maintenance</arg>
+      <arg>deploy</arg>
+      <arg>--batch</arg>
+    </command>
+  </group>
+  <group license="LGPL v3 (GNU Lesser General Public License)">
+    <command name="run" path="0install.exe">
+      <runner command="run" interface="http://0install.de/feeds/cli/cli.xml"/>
+    </command>
+    <command name="run-gui" path="0install-win.exe">
+      <runner command="run-gui" interface="http://0install.de/feeds/cli/cli.xml"/>
+    </command>
+    <command name="central" path="ZeroInstall.exe">
+      <runner command="run-gui" interface="http://0install.de/feeds/cli/cli.xml"/>
+    </command>
     <command name="update">
       <environment insert="." mode="replace" name="ZEROINSTALL_UPDATER_SOURCE"/>
       <runner interface="http://0install.de/feeds/ZeroInstall_Updater.xml">
