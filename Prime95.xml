@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/Prime95.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Prime95</name>
+  <summary xml:lang="en">Free Mersenne Prime Search Software</summary>
+  <icon href="http://0install.de/feed-icons/Prime95.ico" type="image/vnd.microsoft.icon" />
+  <icon href="http://0install.de/feed-icons/Prime95.png" type="image/png" />
+  <homepage>http://www.mersenne.org/download/</homepage>
+  <group license="GIMPS free software license">
+    <implementation arch="Windows-x86_64" version="28.7" released="2015-08-10" stability="stable" main="prime95.exe" id="sha1new=d9666e49611faf43dd23c264e387dee6ba5973a8">
+      <manifest-digest sha1new="d9666e49611faf43dd23c264e387dee6ba5973a8" sha256="a0027dd2e4090bc707aff9ed4221cd43fd470969e2c5e69feba010726e87168c" sha256new="UABH3UXEBEF4OB5P7HWUEIONIP6UOCLJ4LC6NH7LUAIHE3UHC2GA" />
+      <archive href="http://www.mersenne.org/ftp_root/gimps/p95v287.win64.zip" size="5380762" type="application/zip" />
+    </implementation>
+    <implementation arch="Windows-i486" version="28.7" released="2015-08-10" stability="stable" main="prime95.exe" id="sha1new=f88d5fb5456ee2f98e9556bc8ff03d2dbde7ab14">
+      <manifest-digest sha1new="f88d5fb5456ee2f98e9556bc8ff03d2dbde7ab14" sha256="778603a42da23aa3a27a670205515a5c6e607a919a26c3e4195c071b66a26384" sha256new="O6DAHJBNUI5KHIT2M4BAKUK2LRXGA6URTITMHZAZLQDRWZVCMOCA" />
+      <archive href="http://www.mersenne.org/ftp_root/gimps/p95v287.win32.zip" size="4331995" type="application/zip" />
+    </implementation>
+  </group>
+  <entry-point command="run" binary-name="prime95" />
+</interface>
