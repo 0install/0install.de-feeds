@@ -41,6 +41,24 @@
     <implementation arch="Windows-x86_64" id="sha1new=3407eb687b976b2b07b435bd6af6855be5ed9e20" released="2016-01-05" stability="stable" version="2.7.0">
       <archive href="https://github.com/git-for-windows/git/releases/download/v2.7.0.windows.1/Git-2.7.0-32-bit.tar.bz2" size="70958649" type="application/x-bzip-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=ccf4f3a9fcfeefe6dc90cacc21837d62e8f82c4e" released="2016-02-23" stability="stable" version="2.7.2">
+      <archive href="https://github.com/git-for-windows/git/releases/download/v2.7.2.windows.1/Git-2.7.2-64-bit.tar.bz2" size="86428324" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=e4d83963fad3175e461d355aecadaad1cf8377f1" released="2016-02-23" stability="stable" version="2.7.2">
+      <archive href="https://github.com/git-for-windows/git/releases/download/v2.7.2.windows.1/Git-2.7.2-32-bit.tar.bz2" size="71638043" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=10623b8ede37beab85c264d1abfb91aa796f447f" released="2016-03-15" stability="stable" version="2.7.3">
+      <archive href="https://github.com/git-for-windows/git/releases/download/v2.7.3.windows.1/Git-2.7.3-64-bit.tar.bz2" size="89429546" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=1a1c9ad3dd07cff83205d60ba2f5ca1944d39a8d" released="2016-03-15" stability="stable" version="2.7.3">
+      <archive href="https://github.com/git-for-windows/git/releases/download/v2.7.3.windows.1/Git-2.7.3-32-bit.tar.bz2" size="74797279" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=9fb73b3c8be92cd13821f4444253f2f6a0f5bf8b" released="2016-03-17" stability="stable" version="2.7.4">
+      <archive href="https://github.com/git-for-windows/git/releases/download/v2.7.4.windows.1/Git-2.7.4-64-bit.tar.bz2" size="89433985" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=d173d36d3289e71e970fbf069e6800314890f28b" released="2016-03-17" stability="stable" version="2.7.4">
+      <archive href="https://github.com/git-for-windows/git/releases/download/v2.7.4.windows.1/Git-2.7.4-32-bit.tar.bz2" size="74793435" type="application/x-bzip-compressed-tar"/>
+    </implementation>
   </group>
   <entry-point binary-name="git" command="run">
     <needs-terminal/>
