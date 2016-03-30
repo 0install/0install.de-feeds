@@ -14,6 +14,7 @@
     <file-type id="DatabaseDesignTool">
       <description xml:lang="en">Database Design Tool graph</description>
       <icon href="http://0install.de/feed-icons/DDT_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb args="&quot;%1&quot;" name="open"/>
       <extension value=".ddt" />
     </file-type>
   </capabilities>
