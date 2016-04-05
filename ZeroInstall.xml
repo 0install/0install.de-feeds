@@ -27,13 +27,17 @@ Konzeptuell können Sie sich vorstellen, dass die Software nur auf einem Server 
       <arg>deploy</arg>
       <arg>--batch</arg>
     </command>
-    <implementation id="sha1new=01b77dca81d3b0bab7cdde9c0c92604f129f33d1" released="2016-03-06" version="2.11.0" stability="stable">
+    <implementation id="sha1new=01b77dca81d3b0bab7cdde9c0c92604f129f33d1" released="2016-03-06" stability="stable" version="2.11.0">
       <manifest-digest sha1new="01b77dca81d3b0bab7cdde9c0c92604f129f33d1" sha256="132e2a031979f7036bb8a604cf9d7d6d7780b7cd81c5b173fa464152d8eef125" sha256new="CMXCUAYZPH3QG25YUYCM7HL5NV3YBN6NQHC3C472IZAVFWHO6ESQ"/>
       <archive href="ZeroInstall-2.11.0.tar.gz" size="3295058"/>
     </implementation>
-    <implementation id="sha1new=119d63aeafffe88bf2d66c50c538f8acba1c9107" released="2016-03-27" version="2.11.1" stability="stable">
+    <implementation id="sha1new=119d63aeafffe88bf2d66c50c538f8acba1c9107" released="2016-03-27" stability="stable" version="2.11.1">
       <manifest-digest sha1new="119d63aeafffe88bf2d66c50c538f8acba1c9107" sha256="616da23d922dc2c5ce52bc296fae5583ae7a5ec07182bea7654d4309b236940a" sha256new="MFW2EPMSFXBMLTSSXQUW7LSVQOXHUXWAOGBL5J3FJVBQTMRWSQFA"/>
       <archive href="ZeroInstall-2.11.1.tar.gz" size="3295024"/>
+    </implementation>
+    <implementation id="sha1new=be0c72fd002532931d5e5b030a7997035dcdee09" released="2016-04-05" stability="stable" version="2.11.2">
+      <manifest-digest sha1new="be0c72fd002532931d5e5b030a7997035dcdee09" sha256="3420993e460a0dde364fe90b318dfc574169702e2d5e8c232fad20e7f545f173" sha256new="GQQJSPSGBIG54NSP5EFTDDP4K5AWS4BOFVPIYIZPVUQOP5KF6FZQ"/>
+      <archive href="ZeroInstall-2.11.2.tar.gz" size="3295253"/>
     </implementation>
   </group>
   <group license="LGPL v3 (GNU Lesser General Public License)">
