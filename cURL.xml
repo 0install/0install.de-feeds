@@ -14,5 +14,9 @@
       <manifest-digest sha1new="2286e6f16a5f41856ffbc4f263704034ea434e1a" sha256="694d74b1b77beadc67c81d05e5df28732b3c01c9e9014ef49a63fd66c7c554d7" sha256new="NFGXJMNXPPVNYZ6IDUC6LXZIOMVTYAOJ5EAU55E2MP6WNR6FKTLQ" />
       <archive href="http://www.paehl.com/open_source/?download=curl_748_0_ssl.zip" size="1149603" type="application/zip" />
     </implementation>
+    <implementation arch="Windows-i486" version="7.48.0" stability="stable" id="sha1=375dc19c631575aa51727739b7b07cf0695b57dd">
+      <manifest-digest shaw="375dc19c631575aa51727739b7b07cf0695b57dd" sha256="e6a1588935334356fbe96586e3272efd87d82dee8ee2e9b3e683ab1b8a46918e" />
+      <archive href="http://www.paehl.com/open_source/?download=curl_748_0_ssl.zip" size="1149603" type="application/zip" />
+    </implementation>
   </group>
 </interface>
