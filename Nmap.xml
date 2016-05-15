@@ -18,14 +18,15 @@
     <command name="ndiff" path="ndiff.py">
       <runner interface="http://repo.roscidus.com/python/python"/>
     </command>
-    <command name="install-winpcap" path="winpcap-nmap-4.12"/>
     <implementation id="sha1new=21fc9e72217ba4c2cb5dc9bbedca157493a58137" stability="stable" version="6.40">
       <manifest-digest sha1new="21fc9e72217ba4c2cb5dc9bbedca157493a58137" sha256="7420931ab833ec411be9308072c8cbd982f53d1a55e88a67ac6795a4735a25a3" sha256new="OQQJGGVYGPWECG7JGCAHFSGL3GBPKPI2KXUIUZ5MM6K2I422EWRQ"/>
       <archive extract="nmap-6.40" href="http://nmap.org/dist/nmap-6.40-win32.zip" size="19863449" type="application/zip"/>
+      <command name="install-winpcap" path="winpcap-nmap-4.12"/>
     </implementation>
     <implementation id="sha1new=7eb8207633ff66085220788ab9e39f7c63e0fb62" released="2014-08-22" stability="stable" version="6.47">
       <manifest-digest sha256new="MH2JFSDIS75VIK562GFRKJOZ4SPCLUFPF7UD27MXXNL35Q6F5EUA"/>
       <archive extract="nmap-6.47" href="http://nmap.org/dist/nmap-6.47-win32.zip" size="20002559" type="application/zip"/>
+      <command name="install-winpcap" path="winpcap-nmap-4.13"/>
     </implementation>
   </group>
   <entry-point binary-name="nmap" command="run">
