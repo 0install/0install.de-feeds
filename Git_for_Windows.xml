@@ -59,6 +59,24 @@
     <implementation arch="Windows-x86_64" id="sha1new=d173d36d3289e71e970fbf069e6800314890f28b" released="2016-03-17" stability="stable" version="2.7.4">
       <archive href="https://github.com/git-for-windows/git/releases/download/v2.7.4.windows.1/Git-2.7.4-32-bit.tar.bz2" size="74793435" type="application/x-bzip-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=489d0baf2568149069118303d4e53c59ade9e9d2" released="2016-03-28" stability="stable" version="2.8.0">
+      <archive href="https://github.com/git-for-windows/git/releases/download/v2.8.0.windows.1/Git-2.8.0-64-bit.tar.bz2" size="89958170" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=349d3d87aa97aa46f52190d220ca397d0803929f" released="2016-03-28" stability="stable" version="2.8.0">
+      <archive href="https://github.com/git-for-windows/git/releases/download/v2.8.0.windows.1/Git-2.8.0-32-bit.tar.bz2" size="74788926" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=5e5015662c8d24ecca9a638c0b53dd8ff112d8a8" released="2016-04-04" stability="stable" version="2.8.1">
+      <archive href="https://github.com/git-for-windows/git/releases/download/v2.8.1.windows.1/Git-2.8.1-64-bit.tar.bz2" size="89859133" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=38e0aa9dc1d8ca61ac36b665d449487f0d1518c4" released="2016-04-04" stability="stable" version="2.8.1">
+      <archive href="https://github.com/git-for-windows/git/releases/download/v2.8.1.windows.1/Git-2.8.1-32-bit.tar.bz2" size="74820467" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=0910df4abc7e52b1ee4403d01eae01d1a7623ec2" released="2016-05-03" stability="stable" version="2.8.2">
+      <archive href="https://github.com/git-for-windows/git/releases/download/v2.8.2.windows.1/Git-2.8.2-64-bit.tar.bz2" size="91694797" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=d9265e551ec62bdb3ca1cc4b81337f7e58361b6f" released="2016-05-03" stability="stable" version="2.8.2">
+      <archive href="https://github.com/git-for-windows/git/releases/download/v2.8.2.windows.1/Git-2.8.2-32-bit.tar.bz2" size="76728625" type="application/x-bzip-compressed-tar"/>
+    </implementation>
   </group>
   <entry-point binary-name="git" command="run">
     <needs-terminal/>
