@@ -137,6 +137,14 @@
       <manifest-digest sha1new="9e92a00414037d38801265f40a697a1de50ae40f" sha256="2af496ebc2bf131120dba47c67c0f34e3d79cee3f4eee3b051f67093f1c0c723" sha256new="FL2JN26CX4JRCIG3UR6GPQHTJY6XTTXD6TXOHMCR6ZYJH4OAY4RQ"/>
       <archive extract="vlc-2.2.3" href="http://get.videolan.org/vlc/2.2.3/win32/vlc-2.2.3-win32.7z" size="28236760" type="application/x-7z-compressed"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=b20905445c153b796fec93ce477f94eec3dc5812" main="vlc.exe" released="2016-06-05" stability="stable" version="2.2.4">
+      <manifest-digest sha1new="b20905445c153b796fec93ce477f94eec3dc5812" sha256="42fdb51c0fb403d081fe43f733c9d99870df26452287910e49ebd261c7b76de5" sha256new="IL63KHAPWQB5BAP6IP3THSOZTBYN6JSFEKDZCDSJ5PJGDR5XNXSQ"/>
+      <archive extract="vlc-2.2.4" href="http://get.videolan.org/vlc/2.2.4/win64/vlc-2.2.4-win64.7z" size="29383741" type="application/x-7z-compressed"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=f55975fcc0a63e09a182386fb46c98ee2b12252b" main="vlc.exe" released="2016-06-05" stability="stable" version="2.2.4">
+      <manifest-digest sha1new="f55975fcc0a63e09a182386fb46c98ee2b12252b" sha256="d77299b3ff7c097f3e7ea0a4c642af392187f737e72563819d3358f20b864193" sha256new="25ZJTM77PQEX6PT6UCSMMQVPHEQYP5ZX44SWHAM5GNMPEC4GIGJQ"/>
+      <archive extract="vlc-2.2.4" href="http://get.videolan.org/vlc/2.2.4/win32/vlc-2.2.4-win32.7z" size="28277486" type="application/x-7z-compressed"/>
+    </implementation>
   </group>
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
     <default-program id="VLC" service="Media">
