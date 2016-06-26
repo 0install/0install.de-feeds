@@ -119,5 +119,9 @@
       <manifest-digest sha256new="PF2ZF45NWM6M5OQ6NWVPHYZLANGTDB44OGYI34VUQ3F6XQUBYVUQ"/>
       <archive href="http://downloads.sourceforge.net/zdfmediathk/MediathekView_10.zip" size="31918217" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=f9e8208f3e0d190a27eddc56483b4f42a647ec83" released="2016-06-26" stability="stable" version="11">
+      <manifest-digest sha256new="5VHOJQW7X3MMPWZRXDQNHOCM2BRHFLRO7QD7DFDXERZ4XCM4HRZA"/>
+      <archive href="http://downloads.sourceforge.net/zdfmediathk/MediathekView_11.zip" size="37860047" type="application/zip"/>
+    </implementation>
   </group>
 </interface>
