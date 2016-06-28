@@ -277,6 +277,13 @@
         <remove path="doLocalConf.xml"/>
       </recipe>
     </implementation>
+    <implementation id="sha1new=9f71586bed2d2c4b71aebe5252f09a542b822d1e" released="2016-03-28" stability="stable" version="6.9.1">
+      <manifest-digest sha256new="MDKWQG773HRDEMCIWMEGVRJUYA6KI2BPM4HMZJ665MTFDBR5CAHA"/>
+      <recipe>
+        <archive href="http://notepad-plus-plus.org/repository/6.x/6.9.1/npp.6.9.1.bin.zip" size="2934897" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
   </group>
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
     <file-type id="Notepad++_textfile">
