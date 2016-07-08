@@ -149,6 +149,21 @@ und der New Feed Wizard (leitet Sie durch den kompletten Feed-Erstellungsprozess
       <manifest-digest sha1new="116cce3c651c8673101772ce11137d3d22eea239" sha256="5a1454eb91937481d2f2cdc50306f05e5a64d6550e12e0b456a87e6a2182a379" sha256new="LIKFJ24RSN2IDUXSZXCQGBXQLZNGJVSVBYJOBNCWVB7GUIMCUN4Q"/>
       <archive href="ZeroInstall_Tools-2.11.5.tar.gz" size="2400181"/>
     </implementation>
+    <group>
+      <command name="0publish" path="0publish.exe">
+        <runner command="run" interface="http://0install.de/feeds/cli/cli.xml" version="4.0.."/>
+      </command>
+      <command name="0capture" path="0capture.exe">
+        <runner command="run" interface="http://0install.de/feeds/cli/cli.xml" version="4.0.."/>
+      </command>
+      <command name="run" path="0publish-win.exe">
+        <runner command="run-gui" interface="http://0install.de/feeds/cli/cli.xml" version="4.0.."/>
+      </command>
+      <implementation id="sha1new=3c2d9912a2491b4cc6efe98b0341cd4836d44515" released="2016-07-08" stability="stable" version="2.11.6">
+        <manifest-digest sha1new="3c2d9912a2491b4cc6efe98b0341cd4836d44515" sha256="abf26f9359e33d013990c4b34ad45f96c175aaece205c2297863242bfaf101a4" sha256new="VPZG7E2Z4M6QCOMQYSZUVVC7S3AXLKXM4IC4EKLYMMSCX6XRAGSA"/>
+        <archive href="ZeroInstall_Tools-2.11.6.tar.gz" size="2421116"/>
+      </implementation>
+    </group>
   </group>
   <entry-point binary-name="0publish-win" command="run">
     <name xml:lang="en">Zero Install Publishing Tools</name>
