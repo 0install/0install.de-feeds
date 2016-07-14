@@ -128,6 +128,18 @@ Classic läuft auf allen Windows-Systemen ohne weitere Abhängigkeiten.</descrip
       <manifest-digest sha256new="RMMFFNP5DCFHYPZWJLREBNAJUU44KTD5XLICVTECY7RRZSZWWJZQ"/>
       <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.28.zip" size="1572612" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=461c6c1af98af8d91b55917602b9f411f94133b6" released="2015-04-03" stability="stable" version="1.29">
+      <manifest-digest sha256new="5ICDEHWCKKLY3LHZUGDAKNE462ZEH33RXFFCRQB5W4H3VNJFCISQ"/>
+      <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.29.zip" size="1578574" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=34a0fc6f511faebe0dbc2020fcc0359ff288ae9e" released="2016-01-02" stability="stable" version="1.30">
+      <manifest-digest sha256new="GFU7BJF3KEIFXEZQZHLOSMYYDPZDWBMASOI3ZCDLT5G3CPACQCRA"/>
+      <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.30.zip" size="1545773" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=e3b3d4208a0950b96d771117d41320e8d6e7c58b" released="2016-03-02" stability="stable" version="1.31">
+      <manifest-digest sha256new="PY75TCOBW24MP2KQTDLSV3SCZB4L3KOC5AZAWS2WIXXBSEGZL4XQ"/>
+      <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.31.zip" size="1548225" type="application/zip"/>
+    </implementation>
   </group>
   <entry-point binary-name="KeePass" command="run"/>
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
