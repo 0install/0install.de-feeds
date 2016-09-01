@@ -7,7 +7,8 @@
   <category>Development</category>
   <needs-terminal/>
   <group langs="en" license="The Apache Software License, Version 2.0">
-    <environment mode="append" name="MAVEN_OPTS" value=""/>
+    <environment mode="append" name="MAVEN_DEBUG_OPTS" separator=" " value=""/>
+    <environment mode="append" name="MAVEN_OPTS" separator=" " value=""/>
     <environment insert="" mode="replace" name="M2_HOME"/>
     <environment insert="boot/*" mode="replace" name="CLASSWORLDS_JAR"/>
     <environment mode="replace" name="CLASSWORLDS_LAUNCHER" value="org.codehaus.plexus.classworlds.launcher.Launcher"/>
@@ -16,6 +17,7 @@
     </requires>
     <command name="run">
       <runner command="java" interface="http://repo.roscidus.com/java/openjdk-jdk">
+        <arg>$MAVEN_OPTS</arg>
         <arg>-Dclassworlds.conf=$M2_HOME/bin/m2.conf</arg>
         <arg>-Dmaven.home=$M2_HOME</arg>
         <arg>-Dmaven.multiModuleProjectDirectory=$MAVEN_PROJECTBASEDIR</arg>
@@ -26,6 +28,8 @@
     </command>
     <command name="mvnDebug">
       <runner command="java" interface="http://repo.roscidus.com/java/openjdk-jdk">
+        <arg>$MAVEN_OPTS</arg>
+        <arg>$MAVEN_DEBUG_OPTS</arg>
         <arg>-Xdebug</arg>
         <arg>-Xnoagent</arg>
         <arg>-Djava.compiler=NONE</arg>
