@@ -1,21 +1,23 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8"?>
 <SoftwareIdentity
-  xmlns="http://standards.iso.org/iso/19770/-2/2015/schema.xsd"
-  xmlns:discovery="http://packagemanagement.org/discovery"
-  tagVersion="1" versionScheme="multipartnumeric"
-  name="0install" uniqueId="0install" version="2.11.9"
-  media="(windows) and (PackageManagement) and (min-PackageManagement.api:2) NOT (windows-nano)">
+    xmlns="http://standards.iso.org/iso/19770/-2/2015/schema.xsd"
+    xmlns:discovery="http://packagemanagement.org/discovery"
 
-  <Meta
-    providerName="0install"
-    providerVersion='2.11.9'
-    summary="OneGet provider for Zero Install" />
+    name="0install"
+    versionScheme="multipartnumeric"
+    media="(windows)"
+    tagVersion="1"
+    version='2.11.10' 
+    uniqueId='0install.2.11.10'>
 
-  <Link
-    href='https://0install.de/files/zero-install.exe'
-    type="application/octet-stream"
-    rel="installationmedia"
-    discovery:targetFilename="zero-install.exe"
-    discovery:type="assembly"
-    media="(OS:windows)" />
+   <Link
+        href="https://0install.de/feeds/ZeroInstall.package.swidtag" 
+        type="application/swid-tag+xml"
+        rel="package"
+
+        discovery:name="0install"
+        discovery:version="2.11.10"
+        discovery:latest="true"
+        media="(OS:windows)"
+    />
 </SoftwareIdentity>
