@@ -179,6 +179,10 @@ und der New Feed Wizard (leitet Sie durch den kompletten Feed-Erstellungsprozess
         <manifest-digest sha1new="1f2f8251141f84211caeb07f73133d0289d62ea7" sha256="5d45cf735dbab297dde7c252fc2af9dbbd90a4973c1aec34c965d203ead7fc94" sha256new="LVC46425XKZJPXPHYJJPYKXZ3O6ZBJEXHQNOYNGJMXJAH2WX7SKA"/>
         <archive href="ZeroInstall_Tools-2.11.10.tar.gz" size="2428667"/>
       </implementation>
+      <implementation id="sha1new=2b23e3a20c1172065485251c0b5eba1f51f68c3d" released="2016-10-20" stability="stable" version="2.12.0">
+        <manifest-digest sha1new="2b23e3a20c1172065485251c0b5eba1f51f68c3d" sha256="5477a88a38c4c22c40727916c1e9174544599ba3f9a6c3137e3c78915e38fc31" sha256new="KR32RCRYYTBCYQDSPELMD2IXIVCFTG5D7GTMGE36HR4JCXRY7QYQ"/>
+        <archive href="ZeroInstall_Tools-2.12.0.tar.gz" size="2425336"/>
+      </implementation>
     </group>
   </group>
   <entry-point binary-name="0publish-win" command="run">
