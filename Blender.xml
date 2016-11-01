@@ -171,6 +171,70 @@
       <manifest-digest sha256new="4F4SI757S3KWTCXSHZ5QEJLWEAZXGQASHTDSFDIEPINOOWL2XOTQ"/>
       <archive extract="blender-2.76-linux-glibc211-i686" href="http://download.blender.org/release/Blender2.76/blender-2.76-linux-glibc211-i686.tar.bz2" size="98286348" type="application/x-bzip-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=a86a5ca72b90b50a71d233080164cc065c753fa1" main="blender.exe" released="2016-03-18" stability="stable" version="2.77">
+      <manifest-digest sha256new="6HV3MPX45UGKJ4JF5ZMQTZ4NGWO4KKBDYXVA6OADMKGPEHZQ52XQ"/>
+      <archive extract="blender-2.77-windows64" href="http://download.blender.org/release/Blender2.77/blender-2.77-windows64.zip" size="107936602" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=68013b2ba6615a2393d00a66a9d4f3bd40ea4274" main="blender.exe" released="2016-03-18" stability="stable" version="2.77">
+      <manifest-digest sha256new="CEL2W5RBNRIYWOSKLBQQ6K3IYI7B5LXOCXIXNZ2GKDNCMXZVGAMQ"/>
+      <archive extract="blender-2.77-windows32" href="http://download.blender.org/release/Blender2.77/blender-2.77-windows32.zip" size="89619154" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=c0965523891c76367e571283670a4f6fca09d3d6" main="blender" released="2016-03-18" stability="stable" version="2.77">
+      <manifest-digest sha256new="LMHWF4SBTHFVLMUO4NZORN3WBZOOGJBPJBDXD37SQZO467UUNXLQ"/>
+      <archive extract="blender-2.77-linux-glibc211-x86_64" href="http://download.blender.org/release/Blender2.77/blender-2.77-linux-glibc211-x86_64.tar.bz2" size="117313161" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i686" id="sha1new=ca5326b725719e88fb38c293557ab9a93e78b231" main="blender" released="2016-03-18" stability="stable" version="2.77">
+      <manifest-digest sha256new="5NZP4Y6M2RTMDWN7E76OSM3TTYFF3PUVXHDSF5A5GNFSBUM6EAZQ"/>
+      <archive extract="blender-2.77-linux-glibc211-i686" href="http://download.blender.org/release/Blender2.77/blender-2.77-linux-glibc211-i686.tar.bz2" size="114773523" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=6643386e90ef8656c3989d77b5ec19170ca7d7dd" main="blender.exe" released="2016-04-06" stability="stable" version="2.77-1">
+      <manifest-digest sha1new="6643386e90ef8656c3989d77b5ec19170ca7d7dd" sha256="c20bc98e9f754fcab1994d7e1e64c9390d4f602fef48c9e106a414eb5c7ce4c6" sha256new="YIF4TDU7OVH4VMMZJV7B4ZGJHEGU6YBP55EMTYIGUQKOWXD44TDA"/>
+      <archive extract="blender-2.77a-windows64" href="http://download.blender.org/release/Blender2.77/blender-2.77a-windows64.zip" size="107840769" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=e6b1ccb91e427a0ffa6e2df89cdc17b387429670" main="blender.exe" released="2016-04-06" stability="stable" version="2.77-1">
+      <manifest-digest sha1new="e6b1ccb91e427a0ffa6e2df89cdc17b387429670" sha256="43e03e97f86714f44b4f49acfcd5e1cee7d75c3b756a5a90d7e2634ec4089842" sha256new="IPQD5F7YM4KPIS2PJGWPZVPBZ3T5OXB3OVVFVEGX4JRU5RAITBBA"/>
+      <archive extract="blender-2.77a-windows32" href="http://download.blender.org/release/Blender2.77/blender-2.77a-windows32.zip" size="89559257" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=05bd48d5c975ccc2c83b2fe30e2b12186dc89db4" main="blender" released="2016-04-06" stability="stable" version="2.77-1">
+      <manifest-digest sha1new="05bd48d5c975ccc2c83b2fe30e2b12186dc89db4" sha256="17e7384d77a68c10c33ac2c702012f19df7f1d89ea4f54363181ea460c09995f" sha256new="C7TTQTLXU2GBBQZ2YLDQEAJPDHPX6HMJ5JHVINRRQHVEMDAJTFPQ"/>
+      <archive extract="blender-2.77a-linux-glibc211-x86_64" href="http://download.blender.org/release/Blender2.77/blender-2.77a-linux-glibc211-x86_64.tar.bz2" size="117388777" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i686" id="sha1new=391f71c854cb928ed43bbbcf6919dc99ca11622b" main="blender" released="2016-04-06" stability="stable" version="2.77-1">
+      <manifest-digest sha1new="391f71c854cb928ed43bbbcf6919dc99ca11622b" sha256="2e06f16d0db0690ba9713841b0015e4b1a841c1221bd8ccb9d28d3c950efe914" sha256new="FYDPC3INWBUQXKLRHBA3AAK6JMNIIHASEG6YZS45FDJ4SUHP5EKA"/>
+      <archive extract="blender-2.77a-linux-glibc211-i686" href="http://download.blender.org/release/Blender2.77/blender-2.77a-linux-glibc211-i686.tar.bz2" size="114886054" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=a3796eaa4ca9307e1f730603d863dbcf14295299" main="blender.exe" released="2016-09-27" stability="stable" version="2.78">
+      <manifest-digest sha256new="ADUGOYR2KYXP6SJCE3QLXMFBLOUPWYPK6EEI7WGJPMPY2PIKXQ6Q"/>
+      <archive extract="blender-2.78-windows64" href="http://download.blender.org/release/Blender2.78/blender-2.78-windows64.zip" size="116254258" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=4fe7501f4682199eb8068e8afb4cbd8aa317eb00" main="blender.exe" released="2016-09-27" stability="stable" version="2.78">
+      <manifest-digest sha256new="M5TTZM5L4PGIRPNIQPBOA4QWDPIAWTFRRQNZNDO23TDB4TCXUUAQ"/>
+      <archive extract="blender-2.78-windows32" href="http://download.blender.org/release/Blender2.78/blender-2.78-windows32.zip" size="95809203" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=9ecd8462da6b6cbe3232d18ae067585caee79dfb" main="blender" released="2016-09-27" stability="stable" version="2.78">
+      <manifest-digest sha256new="DLSLDFMHU6OFNDISAABMHGIP35XEQBGDBCHINKXQYBL5DSUILIWA"/>
+      <archive extract="blender-2.78-linux-glibc211-x86_64" href="http://download.blender.org/release/Blender2.78/blender-2.78-linux-glibc211-x86_64.tar.bz2" size="124081713" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i686" id="sha1new=7dec31b6ed9493da240dbb382eaf6781af91f1b6" main="blender" released="2016-09-27" stability="stable" version="2.78">
+      <manifest-digest sha256new="OAOTG73VB23M7M2VWDYAKKCD5GZD4KADA6WV57VYHWUFEQRLCXKQ"/>
+      <archive extract="blender-2.78-linux-glibc211-i686" href="http://download.blender.org/release/Blender2.78/blender-2.78-linux-glibc211-i686.tar.bz2" size="121659191" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=b003887f7b05468ee86106fcd32c109d7cedb1aa" main="blender.exe" released="2016-10-25" stability="stable" version="2.78-1">
+      <manifest-digest sha1new="b003887f7b05468ee86106fcd32c109d7cedb1aa" sha256="069d69b14e58ad220cea319dbd5682353927ce1a221154f00443b6cff91c895c" sha256new="A2OWTMKOLCWSEDHKGGO32VUCGU4SPTQ2EIIVJ4AEIO3M76I4RFOA"/>
+      <archive extract="blender-2.78a-windows64" href="http://download.blender.org/release/Blender2.78/blender-2.78a-windows64.zip" size="114431666" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=943bf4447582a7cb134f9698120ffda21c30910c" main="blender.exe" released="2016-10-25" stability="stable" version="2.78-1">
+      <manifest-digest sha1new="943bf4447582a7cb134f9698120ffda21c30910c" sha256="3976146e21303e7466ee1b141d64508cc7880a72437dee24d63db932a2df7287" sha256new="HF3BI3RBGA7HIZXODMKB2ZCQRTDYQCTSIN664JGWHW4TFIW7OKDQ"/>
+      <archive extract="blender-2.78a-windows32" href="http://download.blender.org/release/Blender2.78/blender-2.78a-windows32.zip" size="94213402" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=206bfda33e4b856ef104fd1338959a561daa6449" main="blender" released="2016-10-25" stability="stable" version="2.78-1">
+      <manifest-digest sha1new="206bfda33e4b856ef104fd1338959a561daa6449" sha256="60540e948d6238afafc97b5f9ce6120eaece43e8389b1a988020ba04cbfd499c" sha256new="MBKA5FENMI4K7L6JPNPZZZQSB2XM4Q7IHCNRVGEAEC5AJS75JGOA"/>
+      <archive extract="blender-2.78a-linux-glibc211-x86_64" href="http://download.blender.org/release/Blender2.78/blender-2.78a-linux-glibc211-x86_64.tar.bz2" size="122524220" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i686" id="sha1new=1e83586a27b41999611b97ecac29698412df2ade" main="blender" released="2016-10-25" stability="stable" version="2.78-1">
+      <manifest-digest sha1new="1e83586a27b41999611b97ecac29698412df2ade" sha256="e5542c995828517ad0323767b52389a1215855bc2ec449a8cba31c49bd59a2c5" sha256new="4VKCZGKYFBIXVUBSG5T3KI4JUEQVQVN4F3CETKGLUMOETPKZULCQ"/>
+      <archive extract="blender-2.78a-linux-glibc211-i686" href="http://download.blender.org/release/Blender2.78/blender-2.78a-linux-glibc211-i686.tar.bz2" size="120179335" type="application/x-bzip-compressed-tar"/>
+    </implementation>
   </group>
   <entry-point binary-name="blender" command="run"/>
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
