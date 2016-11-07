@@ -6,9 +6,7 @@
   <homepage>http://maven.apache.org/</homepage>
   <category>Development</category>
   <needs-terminal/>
-  <group langs="en" license="The Apache Software License, Version 2.0">
-    <environment mode="append" name="MAVEN_DEBUG_OPTS" separator=" " value=""/>
-    <environment mode="append" name="MAVEN_OPTS" separator=" " value=""/>
+  <group license="The Apache Software License, Version 2.0">
     <environment insert="" mode="replace" name="M2_HOME"/>
     <environment insert="boot/*" mode="replace" name="CLASSWORLDS_JAR"/>
     <environment mode="replace" name="CLASSWORLDS_LAUNCHER" value="org.codehaus.plexus.classworlds.launcher.Launcher"/>
@@ -17,26 +15,12 @@
     </requires>
     <command name="run">
       <runner command="java" interface="http://repo.roscidus.com/java/openjdk-jdk">
-        <arg>$MAVEN_OPTS</arg>
+        <for-each item-from="MAVEN_OPTS" separator=" ">
+          <arg>${item}</arg>
+        </for-each>
         <arg>-Dclassworlds.conf=$M2_HOME/bin/m2.conf</arg>
         <arg>-Dmaven.home=$M2_HOME</arg>
         <arg>-Dmaven.multiModuleProjectDirectory=$MAVEN_PROJECTBASEDIR</arg>
-        <arg>-classpath</arg>
-        <arg>$CLASSWORLDS_JAR</arg>
-        <arg>$CLASSWORLDS_LAUNCHER</arg>
-      </runner>
-    </command>
-    <command name="mvnDebug">
-      <runner command="java" interface="http://repo.roscidus.com/java/openjdk-jdk">
-        <arg>$MAVEN_OPTS</arg>
-        <arg>$MAVEN_DEBUG_OPTS</arg>
-        <arg>-Xdebug</arg>
-        <arg>-Xnoagent</arg>
-        <arg>-Djava.compiler=NONE</arg>
-        <arg>-Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000</arg>
-        <arg>-Dclassworlds.conf=$M2_HOME/bin/m2.conf</arg>
-        <arg>-Dmaven.multiModuleProjectDirectory=$MAVEN_PROJECTBASEDIR</arg>
-        <arg>-Dmaven.home=$M2_HOME</arg>
         <arg>-classpath</arg>
         <arg>$CLASSWORLDS_JAR</arg>
         <arg>$CLASSWORLDS_LAUNCHER</arg>
@@ -65,6 +49,10 @@
     <implementation id="sha1new=0bb00e9d3b8862dd67c0685483846ac35ac844d1" released="2015-04-28" stability="stable" version="3.3.3">
       <manifest-digest sha256new="QKZ7NDEV2PXGZ4IELOP2MJO7I2XGUN5U3KZPJD3MX4L7X67LW6MQ"/>
       <archive extract="apache-maven-3.3.3" href="http://archive.apache.org/dist/maven/maven-3/3.3.3/binaries/apache-maven-3.3.3-bin.tar.gz" size="8042383" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation id="sha1new=c7a8a6d0b6e7184b7998f62ae90822779374338a" released="2015-11-18" stability="stable" version="3.3.9">
+      <manifest-digest sha256new="264ZHQWJZB43WFEQAERDHHIQ3ZATBRWFS6HLAZ7XT3EC55QOT6YQ"/>
+      <archive extract="apache-maven-3.3.9" href="http://archive.apache.org/dist/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.tar.gz" size="8491533" type="application/x-compressed-tar"/>
     </implementation>
   </group>
   <entry-point binary-name="mvn" command="run"/>
