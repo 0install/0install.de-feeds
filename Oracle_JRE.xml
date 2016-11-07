@@ -70,6 +70,14 @@
       <manifest-digest sha1new="83c63b0ff4fd60b4c30d14f9a71494eee7d69aef" sha256="f81318e6edef1faeb5bd0fc6baaeb50618607161ebe349cced266f7dcfacc2a4" sha256new="7AJRRZXN54P25NN5B7DLVLVVAYMGA4LB5PRUTTHNEZXX3T5MYKSA"/>
       <archive extract="jre1.8.0_102" href="jre-8u102-windows-i586.tar.gz" size="62307130" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=7c756d1c9d9e4715cb439858a6fc9db5d10516b5" released="2016-11-07" stability="stable" version="8.0.112">
+      <manifest-digest sha1new="7c756d1c9d9e4715cb439858a6fc9db5d10516b5" sha256="d9f67aadabba1617fcbbe9846b82e074c94de5fbb8aa4f9a69888e8ce84e2192" sha256new="3H3HVLNLXILBP7F35GCGXAXAOTEU3ZP3XCVE7GTJRCHIZ2COEGJA"/>
+      <archive extract="jre1.8.0_112" href="jre-8u112-windows-x64.tar.gz" size="65667764" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=dd2b83363471067122fe26d8fa5490b8c39f6988" released="2016-11-07" stability="stable" version="8.0.112">
+      <manifest-digest sha1new="dd2b83363471067122fe26d8fa5490b8c39f6988" sha256="22fec3d2c717573a5dac6ccc4e49b7efc2eaa38a58ab9c88600518d675573b5a" sha256new="EL7MHUWHC5LTUXNMNTGE4SNX57BOVI4KLCVZZCDAAUMNM5KXHNNA"/>
+      <archive extract="jre1.8.0_112" href="jre-8u112-windows-i586.tar.gz" size="62005188" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
   <entry-point binary-name="java" command="run">
     <needs-terminal/>
