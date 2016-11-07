@@ -85,6 +85,62 @@
       <manifest-digest sha1new="35b22182953611520949db50af570d07a9170340" sha256="e65aaa478ea26ef04d0cc5b8ea8274132fdf8e46b81850adc169406e247b1813" sha256new="4ZNKUR4OUJXPATIMYW4OVATUCMX57DSGXAMFBLOBNFAG4JD3DAJQ"/>
       <archive href="https://github.com/git-for-windows/git/releases/download/v2.8.3.windows.1/Git-2.8.3-32-bit.tar.bz2" size="77279792" type="application/x-bzip-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=40ddd42d835f279cb901bc7c5f464154e91d0aa7" released="2016-06-07" stability="stable" version="2.8.4">
+      <manifest-digest sha1new="40ddd42d835f279cb901bc7c5f464154e91d0aa7" sha256="9b44f7182df46e4bee53502dd9fc148b1558abb986a1ba818b3a97028182d067" sha256new="TNCPOGBN6RXEX3STKAW5T7AURMKVRK5ZQ2Q3VAMLHKLQFAMC2BTQ"/>
+      <archive href="https://github.com/git-for-windows/git/releases/download/v2.8.4.windows.1/Git-2.8.4-64-bit.tar.bz2" size="92176911" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=e9ed6061e3c050fc0928fe8606ad9241d0ad4dd9" released="2016-06-07" stability="stable" version="2.8.4">
+      <manifest-digest sha1new="e9ed6061e3c050fc0928fe8606ad9241d0ad4dd9" sha256="ccc7bbc411ea384fb6b4ee40ecb8cd55ebe092166bafc746ba05b95550b62131" sha256new="ZTD3XRAR5I4E7NVU5ZAOZOGNKXV6BEQWNOX4ORV2AW4VKUFWEEYQ"/>
+      <archive href="https://github.com/git-for-windows/git/releases/download/v2.8.4.windows.1/Git-2.8.4-32-bit.tar.bz2" size="77289169" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=25b7270d2652898e25732d7321e00004aa73b0f6" released="2016-06-14" stability="stable" version="2.9.0">
+      <manifest-digest sha1new="25b7270d2652898e25732d7321e00004aa73b0f6" sha256="a8c09592d9fe66921fd0a5d1cc15c4d7ff641a3e8e02908b3632b65f2fad557b" sha256new="VDAJLEWZ7ZTJEH6QUXI4YFOE277WIGR6RYBJBCZWGK3F6L5NKV5Q"/>
+      <archive href="https://github.com/git-for-windows/git/releases/download/v2.9.0.windows.1/Git-2.9.0-64-bit.tar.bz2" size="103575467" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=ad367878132aa2a8d7fc91523ff044e47e89cb45" released="2016-06-14" stability="stable" version="2.9.0">
+      <manifest-digest sha1new="ad367878132aa2a8d7fc91523ff044e47e89cb45" sha256="6b8819f56def533d0f371bfa1ef9dd9fd9c7dfcaa21f787e98ade3de22bbc9ee" sha256new="NOEBT5LN55JT2DZXDP5B56O5T7M4PX6KUIPXQ7UYVXR54IV3ZHXA"/>
+      <archive href="https://github.com/git-for-windows/git/releases/download/v2.9.0.windows.1/Git-2.9.0-32-bit.tar.bz2" size="77922563" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=184109ee415aaf00f4aec6e56ad91c8a32893fcf" released="2016-06-16" stability="stable" version="2.9.2">
+      <manifest-digest sha1new="184109ee415aaf00f4aec6e56ad91c8a32893fcf" sha256="64fcfa892624e499a86f950f4cf734af5868d5846482770628b2a7f3b3f4107d" sha256new="MT6PVCJGETSJTKDPSUHUZ5ZUV5MGRVMEMSBHOBRIWKT7HM7UCB6Q"/>
+      <archive href="https://github.com/git-for-windows/git/releases/download/v2.9.2.windows.1/Git-2.9.2-64-bit.tar.bz2" size="104438741" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=dec7261b4f28ff94188df2307f2f7715e49160b9" released="2016-06-16" stability="stable" version="2.9.2">
+      <manifest-digest sha1new="dec7261b4f28ff94188df2307f2f7715e49160b9" sha256="37f2b29ea729c7312ef5349b2d4e01976ade12c38411cbd87a821e307a33ebcc" sha256new="G7ZLFHVHFHDTCLXVGSNS2TQBS5VN4EWDQQI4XWD2QIPDA6RT5PGA"/>
+      <archive href="https://github.com/git-for-windows/git/releases/download/v2.9.2.windows.1/Git-2.9.2-32-bit.tar.bz2" size="79109732" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=b88a522f7c09879ce8627c7535b96b57d5f1dad0" released="2016-08-16" stability="stable" version="2.9.3">
+      <manifest-digest sha1new="b88a522f7c09879ce8627c7535b96b57d5f1dad0" sha256="fca3c65b32c2bca061ee85e90e98e9ce5172fc053f8b069540848194c99eb7df" sha256new="7SR4MWZSYK6KAYPOQXUQ5GHJZZIXF7AFH6FQNFKAQSAZJSM6W7PQ"/>
+      <archive href="https://github.com/git-for-windows/git/releases/download/v2.9.3.windows.1/Git-2.9.3-64-bit.tar.bz2" size="105719064" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=6b7bb61cdb62635edea7d90130ad3f7274fa4d9e" released="2016-08-16" stability="stable" version="2.9.3">
+      <manifest-digest sha1new="6b7bb61cdb62635edea7d90130ad3f7274fa4d9e" sha256="3a4b88e67f4df5666382de8a35c5d6fe0e12655659514bc3ab854f3ff8794c05" sha256new="HJFYRZT7JX2WMY4C32FDLROW7YHBEZKWLFIUXQ5LQVHT76DZJQCQ"/>
+      <archive href="https://github.com/git-for-windows/git/releases/download/v2.9.3.windows.1/Git-2.9.3-32-bit.tar.bz2" size="80250498" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=4ff9c83210f93c42f476bc8b233de3360577c032" released="2016-09-03" stability="stable" version="2.10.0">
+      <manifest-digest sha1new="4ff9c83210f93c42f476bc8b233de3360577c032" sha256="7936dec0e4ef48671b11fe9abf08b676c2a06147f07318d4257a0d210e4a31c4" sha256new="PE3N5QHE55EGOGYR72NL6CFWO3BKAYKH6BZRRVBFPIGSCDSKGHCA"/>
+      <archive href="https://github.com/git-for-windows/git/releases/download/v2.10.0.windows.1/Git-2.10.0-64-bit.tar.bz2" size="102751233" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=da173309333e8aa85a67d7abd474ac8a0a9add9b" released="2016-09-03" stability="stable" version="2.10.0">
+      <manifest-digest sha1new="da173309333e8aa85a67d7abd474ac8a0a9add9b" sha256="b6e7767873d417e4db858ca62a55ac6896547067a67bc8906ce4d2a2b2367cdb" sha256new="W3TXM6DT2QL6JW4FRSTCUVNMNCLFI4DHUZ54REDM4TJKFMRWPTNQ"/>
+      <archive href="https://github.com/git-for-windows/git/releases/download/v2.10.0.windows.1/Git-2.10.0-32-bit.tar.bz2" size="77262126" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=ab764beacd95d31809c38cd51c21ae184b82dffc" released="2016-10-04" stability="stable" version="2.10.1">
+      <manifest-digest sha1new="ab764beacd95d31809c38cd51c21ae184b82dffc" sha256="79d7542e5dd3df19cca428560811bb1fa6864593d18de9657a44866bf583259d" sha256new="PHLVILS52PPRTTFEFBLAQEN3D6TIMRMT2GG6SZL2ISDGX5MDEWOQ"/>
+      <archive href="https://github.com/git-for-windows/git/releases/download/v2.10.1.windows.1/Git-2.10.1-64-bit.tar.bz2" size="102593736" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=7d4181174673a54c936d32a7bb1877cd2fb4c958" released="2016-10-04" stability="stable" version="2.10.1">
+      <manifest-digest sha1new="7d4181174673a54c936d32a7bb1877cd2fb4c958" sha256="d2247491daa95493c98f3d9a81f1481093d1099d1048a6542e4b8ef023f59043" sha256new="2ISHJEO2VFKJHSMPHWNID4KICCJ5CCM5CBEKMVBOJOHPAI7VSBBQ"/>
+      <archive href="https://github.com/git-for-windows/git/releases/download/v2.10.1.windows.1/Git-2.10.1-32-bit.tar.bz2" size="77317833" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=1dad6d7f6a86fde108667e4497d2cbf5b385d295" released="2016-11-02" stability="stable" version="2.10.2">
+      <manifest-digest sha1new="1dad6d7f6a86fde108667e4497d2cbf5b385d295" sha256="e26b464e4ca346a096c79e6dc8cfe7be664717b090d756fc785ab5764915980d" sha256new="4JVUMTSMUNDKBFWHTZW4RT7HXZTEOF5QSDLVN7DYLK2XMSIVTAGQ"/>
+      <archive href="https://github.com/git-for-windows/git/releases/download/v2.10.2.windows.1/Git-2.10.2-64-bit.tar.bz2" size="104850913" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=a512e3a07c47c11e77ae0f1e0cd7e40b27952235" released="2016-11-02" stability="stable" version="2.10.2">
+      <manifest-digest sha1new="a512e3a07c47c11e77ae0f1e0cd7e40b27952235" sha256="86ff5e2bba291b68dc5236bf114bc943dfd9242ca69450d20c818ac81c2c7443" sha256new="Q37V4K52FENWRXCSG27RCS6JIPP5SJBMU2KFBUQMQGFMQHBMORBQ"/>
+      <archive href="https://github.com/git-for-windows/git/releases/download/v2.10.2.windows.1/Git-2.10.2-32-bit.tar.bz2" size="79487719" type="application/x-bzip-compressed-tar"/>
+    </implementation>
   </group>
   <entry-point binary-name="git" command="run">
     <needs-terminal/>
