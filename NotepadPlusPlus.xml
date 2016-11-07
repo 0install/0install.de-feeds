@@ -291,6 +291,34 @@
         <remove path="doLocalConf.xml"/>
       </recipe>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=bc98f6ba3491e377c504f1d0622c4b483440da8b" released="2016-10-16" stability="stable" version="7.1">
+      <manifest-digest sha256new="BT642UAZ7K6ZXLVDABVBK54FXGV7GWQXUJ7YSY7M4A3SI4JGWMLA"/>
+      <recipe>
+        <archive href="http://notepad-plus-plus.org/repository/7.x/7.1/npp.7.1.bin.x64.zip" size="2999021" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=fd437cf7db6715a2d3a304c1c63b9ea2d84a69c8" released="2016-10-16" stability="stable" version="7.1">
+      <manifest-digest sha256new="XZA2X3KR77X4PXZHYPZ7BPDOO2NQ4LWUPLFUPKMQOSPHUPYLYM6Q"/>
+      <recipe>
+        <archive href="http://notepad-plus-plus.org/repository/7.x/7.1/npp.7.1.bin.zip" size="3060306" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=adf2434fd2304f52d1cbb84b9bea1faecdd303a0" released="2016-11-02" stability="stable" version="7.2">
+      <manifest-digest sha256new="ZGQGTXDYX55AVNGHHZRZOKSBAA7L4WP2G6SIGID6TQERTEYKXJWA"/>
+      <recipe>
+        <archive href="http://notepad-plus-plus.org/repository/7.x/7.2/npp.7.2.bin.x64.zip" size="2999155" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=930762b0267571bb31b347afc39e938bf1996ec6" released="2016-11-02" stability="stable" version="7.2">
+      <manifest-digest sha256new="AMSRLGTPREWQFERTOI6UIVFVZEXOYH3KLJ3LRJH3EJEROEZ5PMZA"/>
+      <recipe>
+        <archive href="http://notepad-plus-plus.org/repository/7.x/7.2/npp.7.2.bin.zip" size="3062550" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
   </group>
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
     <file-type id="Notepad++_textfile">
