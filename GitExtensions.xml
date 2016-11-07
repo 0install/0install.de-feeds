@@ -13,6 +13,9 @@
     </requires>
     <requires importance="recommended" interface="http://0install.de/feeds/PuTTY.xml" os="Windows">
       <environment insert="." mode="replace" name="GITEXT_PUTTY"/>
+      <environment insert="plink.exe" mode="replace" name="GITEXT_PLINK"/>
+      <environment insert="puttygen.exe" mode="replace" name="GITEXT_PUTTYGEN"/>
+      <environment insert="pageant.exe" mode="replace" name="GITEXT_PAGEANT"/>
     </requires>
     <requires importance="recommended" interface="http://0install.de/feeds/NotepadPlusPlus.xml" os="Windows">
       <environment mode="replace" name="EDITOR" value="notepad++ -multiInst -nosession"/>
@@ -43,6 +46,14 @@
     <implementation id="sha1new=ac3785c5a2f82bf65864abc20938aecbd612746a" released="2015-05-15" stability="stable" version="2.48.05">
       <manifest-digest sha256new="J4S7KNE3BIH36HYVF6LLEO5BPZTWGCHAV6ZVCXVOWVMCY5NXIORQ"/>
       <archive extract="GitExtensions" href="http://downloads.sourceforge.net/gitextensions/GitExtensions-2.48.05-Mono.zip" size="7518013" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=31f42f68518ae4785b924a68a3ec1b6a3da9e4e2" released="2016-10-12" stability="stable" version="2.49-pre1">
+      <manifest-digest sha256new="BKJHC6H75BQ2PZSDAPXNU5YO6UQGI6MAML6A7QS4P6B6TDYVQXGQ"/>
+      <archive extract="GitExtensions" href="https://github.com/gitextensions/gitextensions/releases/download/v2.49RC1/GitExtensions-2.49RC1-Mono.zip" size="12213980" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=a5bada093ad3476f1202c0638d94d0beab54d0f9" released="2016-10-21" stability="stable" version="2.49-pre2">
+      <manifest-digest sha256new="VCCNYKOVDJR2WTUKPEZFSBT476KP34JQZYGS6J6EUVP2X22IGMAQ"/>
+      <archive extract="GitExtensions" href="https://github.com/gitextensions/gitextensions/releases/download/v2.49RC2/GitExtensions-2.49RC2-Mono.zip" size="12250768" type="application/zip"/>
     </implementation>
   </group>
   <entry-point binary-name="GitExtensions" command="run">
