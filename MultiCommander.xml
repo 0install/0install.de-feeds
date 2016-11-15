@@ -1,0 +1,230 @@
+<?xml version="1.0" ?>
+<interface uri="http://0install.de/feeds/MultiCommander.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <name>Multi Commander</name>
+  <summary xml:lang="en">multi-tabbed file manager</summary>
+  <description xml:lang="en">Multi Commander is a multi-tabbed file manager and is an alternative to the standard Windows Explorer. It uses the very popular and efficient dual-panel layout.</description>
+  <icon href="http://0install.de/feed-icons/MultiCommander.png" type="image/png"/>
+  <icon href="http://0install.de/feed-icons/MultiCommander.ico" type="image/vnd.microsoft.icon"/>
+  <category>Utility</category>
+  <homepage>http://multicommander.com/</homepage>
+  <group main="MultiCommander.exe">
+    <implementation arch="Windows-x86_64" id="sha1new=b2538f98b6d2283021bc59f7746386529a397e7b" released="2015-11-24" version="5.8.1">
+      <manifest-digest sha256new="IYNO4ZFELC6DNGQIT54XGRHQDRI3HKSPQI3RTSSECMU5YGNHVV4A"/>
+      <recipe>
+        <archive href="http://multicommander.com/files/updates/old/MultiCommander_x64_Portable_(5.8.1.2042).zip" size="8737747" type="application/zip"/>
+        <file dest="Config/MultiCommander.xml" href="http://0install.de/files/app-configs/MultiCommander.xml" size="2498"/>
+        <remove path="SessionConfig"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=d4b831545ccfe7ce7007f912456d257970159e18" released="2015-11-24" version="5.8.1">
+      <manifest-digest sha256new="RZRIZTW2PJZSDJKECSLXEJEYLIWEPRHNUBNHAHOPKDZ4427S7ZBA"/>
+      <recipe>
+        <archive href="http://multicommander.com/files/updates/old/MultiCommander_win32_Portable_(5.8.1.2042).zip" size="7705204" type="application/zip"/>
+        <file dest="Config/MultiCommander.xml" href="http://0install.de/files/app-configs/MultiCommander.xml" size="2498"/>
+        <remove path="SessionConfig"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=ea030887aa6d2ae4eda73188751379e745f9ad92" released="2016-01-13" version="5.9.0">
+      <manifest-digest sha256new="OCYNL322ARCSLHKS45YLBHJUAMSD72EPMNSDWNPQDNP55JDGZBIA"/>
+      <recipe>
+        <archive href="http://multicommander.com/files/updates/old/MultiCommander_x64_Portable_(5.9.0.2062).zip" size="8777417" type="application/zip"/>
+        <file dest="Config/MultiCommander.xml" href="http://0install.de/files/app-configs/MultiCommander.xml" size="2498"/>
+        <remove path="SessionConfig"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=48ef66e96d179d009229c7b20388f48f3c8c393c" released="2016-01-13" version="5.9.0">
+      <manifest-digest sha256new="SI6NMRCKCHZFV7ZLFSQIU64IWXUYTVO7J4XAKR4VZZPACKSOLDOA"/>
+      <recipe>
+        <archive href="http://multicommander.com/files/updates/old/MultiCommander_win32_Portable_(5.9.0.2062).zip" size="7742201" type="application/zip"/>
+        <file dest="Config/MultiCommander.xml" href="http://0install.de/files/app-configs/MultiCommander.xml" size="2498"/>
+        <remove path="SessionConfig"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=dfb35ec24582b7d99347ad583a5bdd3728db2905" released="2016-04-02" version="6.0.0">
+      <manifest-digest sha256new="5EQ32FB4LXEKQFLHNS3CJPQEIG5TAVHYJOGHSG2T7Q57ES3YVXAA"/>
+      <recipe>
+        <archive href="http://multicommander.com/files/updates/old/MultiCommander_x64_Portable_(6.0.0.2118).zip" size="8943345" type="application/zip"/>
+        <file dest="Config/MultiCommander.xml" href="http://0install.de/files/app-configs/MultiCommander.xml" size="2498"/>
+        <remove path="SessionConfig"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=d6919d84d1380b92c84a17ec21b1304e8c97688b" released="2016-04-02" version="6.0.0">
+      <manifest-digest sha256new="SRGBDVLF27JGAB3ZJY5WKNBGVNLU5TZIVDVHJQIJLQ5DN4SFUKJQ"/>
+      <recipe>
+        <archive href="http://multicommander.com/files/updates/old/MultiCommander_win32_Portable_(6.0.0.2118).zip" size="7905206" type="application/zip"/>
+        <file dest="Config/MultiCommander.xml" href="http://0install.de/files/app-configs/MultiCommander.xml" size="2498"/>
+        <remove path="SessionConfig"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=d8ab76010fc8001e51b2e77bc52da77a97d5048a" released="2016-04-10" version="6.1.0">
+      <manifest-digest sha256new="S77P23NUBZYF7WD5WGMF24QNBU3GCQFYES4HWYMSGTXCCMVERJFQ"/>
+      <recipe>
+        <archive href="http://multicommander.com/files/updates/old/MultiCommander_x64_Portable_(6.1.0.2125).zip" size="8945793" type="application/zip"/>
+        <file dest="Config/MultiCommander.xml" href="http://0install.de/files/app-configs/MultiCommander.xml" size="2498"/>
+        <remove path="SessionConfig"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=7c8b101e6f0590ab345b077b04516c7acb5f83ff" released="2016-04-10" version="6.1.0">
+      <manifest-digest sha256new="CG3H2V4GWSTIZQ3T7MLWHEHNQYYMFNIXVRAWEDL4UPMU2LPSWPAA"/>
+      <recipe>
+        <archive href="http://multicommander.com/files/updates/old/MultiCommander_win32_Portable_(6.1.0.2125).zip" size="7909052" type="application/zip"/>
+        <file dest="Config/MultiCommander.xml" href="http://0install.de/files/app-configs/MultiCommander.xml" size="2498"/>
+        <remove path="SessionConfig"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=d66fc9358a2ce7f18846f60d7b9cc4b9f4afe513" released="2016-05-08" version="6.2.0">
+      <manifest-digest sha256new="LSGTJ3SRXKUJWLSRYWW2EALO4H63SY4LUP5USGS2JT4T7SGSBSMA"/>
+      <recipe>
+        <archive href="http://multicommander.com/files/updates/old/MultiCommander_x64_Portable_(6.2.0.2147).zip" size="8967887" type="application/zip"/>
+        <file dest="Config/MultiCommander.xml" href="http://0install.de/files/app-configs/MultiCommander.xml" size="2498"/>
+        <remove path="SessionConfig"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=2127ee0797864ecb93c034c53d38c090cef92e6d" released="2016-05-08" version="6.2.0">
+      <manifest-digest sha256new="D4TJ2JN42C63DZSMW47LZ6W44MF5KEJPCRDJ6QF3CYRD7PQOC5DA"/>
+      <recipe>
+        <archive href="http://multicommander.com/files/updates/old/MultiCommander_win32_Portable_(6.2.0.2147).zip" size="7925144" type="application/zip"/>
+        <file dest="Config/MultiCommander.xml" href="http://0install.de/files/app-configs/MultiCommander.xml" size="2498"/>
+        <remove path="SessionConfig"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=31512c346215b1326e41f7062b366b9ecb20b05b" released="2016-07-29" version="6.4.0">
+      <manifest-digest sha256new="URLKXON5TXHVVAQUZQ4JPNYUJ5LBPSEBG2YUSNCSNOQKGD3E2AYQ"/>
+      <recipe>
+        <archive href="http://multicommander.com/files/updates/old/MultiCommander_x64_Portable_(6.4.0.2222).zip" size="8969310" type="application/zip"/>
+        <file dest="Config/MultiCommander.xml" href="http://0install.de/files/app-configs/MultiCommander.xml" size="2498"/>
+        <remove path="SessionConfig"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=4f31a4736138c9f46abe18cd90f1e40ac7ba9099" released="2016-07-29" version="6.4.0">
+      <manifest-digest sha256new="WKFWJ7LNZP7644LRBMYOULEHM3OCHQI77JZE2J5JFGYNKFZX5W5A"/>
+      <recipe>
+        <archive href="http://multicommander.com/files/updates/old/MultiCommander_win32_Portable_(6.4.0.2222).zip" size="7927363" type="application/zip"/>
+        <file dest="Config/MultiCommander.xml" href="http://0install.de/files/app-configs/MultiCommander.xml" size="2498"/>
+        <remove path="SessionConfig"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=a43f0ed059215cb9e6ab4b9ab1f5c0d4911d2e1b" released="2016-07-31" version="6.4.1">
+      <manifest-digest sha256new="YF3TJPLVB4F4GEMQWJWMKTNT2CI7GVARUQ3YXOQAWKWCRFOAC2GQ"/>
+      <recipe>
+        <archive href="http://multicommander.com/files/updates/old/MultiCommander_x64_Portable_(6.4.1.2225).zip" size="8973521" type="application/zip"/>
+        <file dest="Config/MultiCommander.xml" href="http://0install.de/files/app-configs/MultiCommander.xml" size="2498"/>
+        <remove path="SessionConfig"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=d47f097a9f5387f35e8ea0431d59cb6944c1954d" released="2016-07-31" version="6.4.1">
+      <manifest-digest sha256new="OUO7XP664P5HF2ASU735J76LXZQGO4UFKDLI4NGZJ4JHDONWI2CA"/>
+      <recipe>
+        <archive href="http://multicommander.com/files/updates/old/MultiCommander_win32_Portable_(6.4.1.2225).zip" size="7929669" type="application/zip"/>
+        <file dest="Config/MultiCommander.xml" href="http://0install.de/files/app-configs/MultiCommander.xml" size="2498"/>
+        <remove path="SessionConfig"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=0a355f2f953da82ce024f0e3977af9f48bfb0e18" released="2016-08-03" version="6.4.2">
+      <manifest-digest sha256new="24LAFYQUARISOGFKL6IK7RRGVM7DATAZGYGYDC6U5HU3LBIQ6DTA"/>
+      <recipe>
+        <archive href="http://multicommander.com/files/updates/old/MultiCommander_x64_Portable_(6.4.2.2229).zip" size="8974982" type="application/zip"/>
+        <file dest="Config/MultiCommander.xml" href="http://0install.de/files/app-configs/MultiCommander.xml" size="2498"/>
+        <remove path="SessionConfig"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=dd6324eab7b04aaea93d6ae8bd82daa7c2214a98" released="2016-08-03" version="6.4.2">
+      <manifest-digest sha256new="2XGL4QFF4J2UDBFGO375LJRAXIV4I3KEDKWTZ3VUDQPCJT3AECKA"/>
+      <recipe>
+        <archive href="http://multicommander.com/files/updates/old/MultiCommander_win32_Portable_(6.4.2.2229).zip" size="7930270" type="application/zip"/>
+        <file dest="Config/MultiCommander.xml" href="http://0install.de/files/app-configs/MultiCommander.xml" size="2498"/>
+        <remove path="SessionConfig"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=17630c7851bf7c6db811a42c11d1c62361af803f" released="2016-08-04" version="6.4.3">
+      <manifest-digest sha256new="RLE6QSW4AQSWJCTU67QTXFCYTHHEXGMG42YFFYHVGRBO5BGCVRXA"/>
+      <recipe>
+        <archive href="http://multicommander.com/files/updates/old/MultiCommander_x64_Portable_(6.4.3.2232).zip" size="8975776" type="application/zip"/>
+        <file dest="Config/MultiCommander.xml" href="http://0install.de/files/app-configs/MultiCommander.xml" size="2498"/>
+        <remove path="SessionConfig"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=6bc385f8e7b44e85ef076630bfcca05fff4deae7" released="2016-08-04" version="6.4.3">
+      <manifest-digest sha256new="U5KQE4VCSF7AJMKWNCL37CAF6BHH7YM2WUS6SEQDFMMTJSTKRBOA"/>
+      <recipe>
+        <archive href="http://multicommander.com/files/updates/old/MultiCommander_win32_Portable_(6.4.3.2232).zip" size="7931312" type="application/zip"/>
+        <file dest="Config/MultiCommander.xml" href="http://0install.de/files/app-configs/MultiCommander.xml" size="2498"/>
+        <remove path="SessionConfig"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=1eecef29a2092c5bf315b5db3c309f6cc05d9590" released="2016-08-09" version="6.4.5">
+      <manifest-digest sha256new="KHR5PXT5J5KNAO4UQDIUK6YARP7EOSU4LAD7IYPBIUJZTRVBERYQ"/>
+      <recipe>
+        <archive href="http://multicommander.com/files/updates/old/MultiCommander_x64_Portable_(6.4.5.2242).zip" size="8980808" type="application/zip"/>
+        <file dest="Config/MultiCommander.xml" href="http://0install.de/files/app-configs/MultiCommander.xml" size="2498"/>
+        <remove path="SessionConfig"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=cb89ed1032542d5a838c68f5ced534e2303fa459" released="2016-08-09" version="6.4.5">
+      <manifest-digest sha256new="DIZIBCGROYEANSG6GP5RF4AMWVE3XAO2T67DEM477BVMTRTYLYRA"/>
+      <recipe>
+        <archive href="http://multicommander.com/files/updates/old/MultiCommander_win32_Portable_(6.4.5.2242).zip" size="7933704" type="application/zip"/>
+        <file dest="Config/MultiCommander.xml" href="http://0install.de/files/app-configs/MultiCommander.xml" size="2498"/>
+        <remove path="SessionConfig"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=5ffa2f0b5d66a836d39ba19d369e91331d0dd73c" released="2016-08-16" version="6.4.6">
+      <manifest-digest sha256new="E7AU7NH2S4XOBE2I43NFB4OBW4GBQRZMPM5GEDH3RDET4SXFBIYQ"/>
+      <recipe>
+        <archive href="http://multicommander.com/files/updates/old/MultiCommander_x64_Portable_(6.4.6.2246).zip" size="8982829" type="application/zip"/>
+        <file dest="Config/MultiCommander.xml" href="http://0install.de/files/app-configs/MultiCommander.xml" size="2498"/>
+        <remove path="SessionConfig"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=c297eef65f27e33128b16e2e4bfccecb1a89ebe1" released="2016-08-16" version="6.4.6">
+      <manifest-digest sha256new="CU5OPAW42A67F4AA2QSJJJI3A3ACS4FM43LHEIFGLYL276BS7ZPQ"/>
+      <recipe>
+        <archive href="http://multicommander.com/files/updates/old/MultiCommander_win32_Portable_(6.4.6.2246).zip" size="7934890" type="application/zip"/>
+        <file dest="Config/MultiCommander.xml" href="http://0install.de/files/app-configs/MultiCommander.xml" size="2498"/>
+        <remove path="SessionConfig"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=1cd7d06742c904b4ca7e139ec179b2bc24b6d871" released="2016-08-31" version="6.4.7">
+      <manifest-digest sha256new="NUPSMXG2YQRYFQAL6Q6VGOVKEDY54XEBE2IVKIWCEPAWVWBSZ6EA"/>
+      <recipe>
+        <archive href="http://multicommander.com/files/updates/old/MultiCommander_x64_Portable_(6.4.7.2255).zip" size="8987688" type="application/zip"/>
+        <file dest="Config/MultiCommander.xml" href="http://0install.de/files/app-configs/MultiCommander.xml" size="2498"/>
+        <remove path="SessionConfig"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=ccdae801ced3d3dab96f415fff1f280f829fc615" released="2016-08-31" version="6.4.7">
+      <manifest-digest sha256new="OHMPQZOPQFBP5IYGSULDFDALPPHEBLU4WD6WSHXOCQPQM5DLX67A"/>
+      <recipe>
+        <archive href="http://multicommander.com/files/updates/old/MultiCommander_win32_Portable_(6.4.7.2255).zip" size="7938224" type="application/zip"/>
+        <file dest="Config/MultiCommander.xml" href="http://0install.de/files/app-configs/MultiCommander.xml" size="2498"/>
+        <remove path="SessionConfig"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=291a4259203766a3785f100072b1b1f5f8ee84fc" released="2016-09-13" version="6.4.8">
+      <manifest-digest sha256new="5KMTDXPOG6JSBGR6LARFUXLEFDRY2OA5CVZ6KDNHU2GX37UJJCAA"/>
+      <recipe>
+        <archive href="http://multicommander.com/files/updates/MultiCommander_x64_Portable_(6.4.8.2265).zip" size="9061438" type="application/zip"/>
+        <file dest="Config/MultiCommander.xml" href="http://0install.de/files/app-configs/MultiCommander.xml" size="2498"/>
+        <remove path="SessionConfig"/>
+      </recipe>
+      <recipe>
+        <archive href="http://multicommander.com/files/updates/old/MultiCommander_x64_Portable_(6.4.8.2265).zip" size="9061438" type="application/zip"/>
+        <file dest="Config/MultiCommander.xml" href="http://0install.de/files/app-configs/MultiCommander.xml" size="2498"/>
+        <remove path="SessionConfig"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=f1b02ca06a11bb8b92f7833dba93cff38eddf54e" released="2016-09-13" version="6.4.8">
+      <manifest-digest sha256new="HLTECWUOVYF4ZBXCVDNPTZIMVZUHENVQNMT6KM56DAAOE32TLQ2A"/>
+      <recipe>
+        <archive href="http://multicommander.com/files/updates/MultiCommander_win32_Portable_(6.4.8.2265).zip" size="7992563" type="application/zip"/>
+        <file dest="Config/MultiCommander.xml" href="http://0install.de/files/app-configs/MultiCommander.xml" size="2498"/>
+        <remove path="SessionConfig"/>
+      </recipe>
+      <recipe>
+        <archive href="http://multicommander.com/files/updates/old/MultiCommander_win32_Portable_(6.4.8.2265).zip" size="7992563" type="application/zip"/>
+        <file dest="Config/MultiCommander.xml" href="http://0install.de/files/app-configs/MultiCommander.xml" size="2498"/>
+        <remove path="SessionConfig"/>
+      </recipe>
+    </implementation>
+  </group>
+</interface>
