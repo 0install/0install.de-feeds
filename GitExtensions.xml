@@ -55,6 +55,10 @@
       <manifest-digest sha256new="VCCNYKOVDJR2WTUKPEZFSBT476KP34JQZYGS6J6EUVP2X22IGMAQ"/>
       <archive extract="GitExtensions" href="https://github.com/gitextensions/gitextensions/releases/download/v2.49RC2/GitExtensions-2.49RC2-Mono.zip" size="12250768" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=576730a4e49dac220e319df80058634aebeee540" released="2016-11-08" stability="stable" version="2.49">
+      <manifest-digest sha256new="MSOI7OK4D56CUZZ6QFTTB62WETJLWSLPOM3TZ4KELFODGIP7UUCA"/>
+      <archive extract="GitExtensions" href="https://github.com/gitextensions/gitextensions/releases/download/v2.49/GitExtensions-2.49-Mono.zip" size="12258622" type="application/zip"/>
+    </implementation>
   </group>
   <entry-point binary-name="GitExtensions" command="run">
     <name xml:lang="en">GitExtensions</name>
