@@ -192,10 +192,6 @@ und der New Feed Wizard (leitet Sie durch den kompletten Feed-Erstellungsprozess
     <needs-terminal/>
     <name xml:lang="en">Feed Editor command-line</name>
   </entry-point>
-  <entry-point command="0capture">
-    <needs-terminal/>
-    <name xml:lang="en">Desktop Integration Capture command-line interface</name>
-  </entry-point>
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
     <file-type explicit-only="true" id="ZeroInstallFeed">
       <description xml:lang="en">Zero Install Feed</description>
