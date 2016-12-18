@@ -199,4 +199,19 @@ und der New Feed Wizard (leitet Sie durch den kompletten Feed-Erstellungsprozess
       <extension value=".xml"/>
     </file-type>
   </capabilities>
+  <group>
+    <requires interface="http://repo.roscidus.com/security/gnupg">
+      <environment insert="." name="PATH"/>
+    </requires>
+    <command name="0publish" path="0publish.exe">
+      <runner command="run" interface="http://0install.de/feeds/cli/cli.xml" version="4.0.."/>
+    </command>
+    <command name="run" path="0publish-win.exe">
+      <runner command="run-gui" interface="http://0install.de/feeds/cli/cli.xml" version="4.0.."/>
+    </command>
+    <implementation id="sha1new=711bc38798f214f41ff4b970de7cecac153c28d6" license="LGPL v3 (GNU Lesser General Public License)" released="2016-12-19" stability="stable" version="2.12.1">
+      <manifest-digest sha1new="711bc38798f214f41ff4b970de7cecac153c28d6" sha256="f4d8c7a59f368032fda73c4bba4e9cbd55f668f3029366bcfb8c5b5e007c9812" sha256new="6TMMPJM7G2ADF7NHHRF3UTU4XVK7M2HTAKJWNPH3RRNV4AD4TAJA"/>
+      <archive href="ZeroInstall_Tools-2.12.1.tar.gz" size="2361501"/>
+    </implementation>
+  </group>
 </interface>
