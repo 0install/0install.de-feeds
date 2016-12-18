@@ -71,6 +71,10 @@ Konzeptuell können Sie sich vorstellen, dass die Software nur auf einem Server 
       <manifest-digest sha1new="e7a88354631090b4efd5bae30e5bbb0fee3fe5d5" sha256="08f7972a7a4a9f259a0908d569eaf3fa9586eaed108734de8fa0e1e145f2e39d" sha256new="BD3ZOKT2JKPSLGQJBDKWT2XT7KKYN2XNCCDTJXUPUDQ6CRPS4OOQ"/>
       <archive href="ZeroInstall-2.12.0.tar.gz" size="3239447"/>
     </implementation>
+    <implementation id="sha1new=e8e84686b1afd50e11e8ffcb1e831817311e5c28" released="2016-12-19" stability="stable" version="2.12.1">
+      <manifest-digest sha1new="e8e84686b1afd50e11e8ffcb1e831817311e5c28" sha256="f706a036e15b06fe81a04809a9c14268e8d15264af0f2c1743fc8a33b6db53d4" sha256new="64DKANXBLMDP5ANAJAE2TQKCNDUNCUTEV4HSYF2D7SFDHNW3KPKA"/>
+      <archive href="ZeroInstall-2.12.1.tar.gz" size="3239745"/>
+    </implementation>
   </group>
   <group license="LGPL v3 (GNU Lesser General Public License)">
     <command name="run" path="0install.exe">
