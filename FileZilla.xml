@@ -237,7 +237,7 @@
       <manifest-digest sha256new="MAVSLHF23IXCYM6HBXLSYJ4GQ4YQDTPQCCUM4T7Y6GAWETWBJBYQ"/>
       <recipe>
         <archive extract="FileZilla-3.10.1" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.10.1_win32.zip" size="9495204" type="application/zip"/>
-        <archive href="http://0install.de/files/app-configs/FileZilla.zip" size="332" type="application/zip"/>
+        <archive href="FileZilla-config.zip" size="332" type="application/zip"/>
       </recipe>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=667033f1cd7f6736b36d04bf22657341776353e6" main="bin/filezilla" released="2015-01-31" stability="stable" version="3.10.1">
@@ -260,7 +260,7 @@
       <manifest-digest sha256new="LYUI36XAYPFKY3RWBFLJUMJA43JB35IPRLXTFVTWV2VIIN4UTAEA"/>
       <recipe>
         <archive extract="FileZilla-3.10.1.1" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.10.1.1_win32.zip" size="9498456" type="application/zip"/>
-        <archive href="http://0install.de/files/app-configs/FileZilla.zip" size="332" type="application/zip"/>
+        <archive href="FileZilla-config.zip" size="332" type="application/zip"/>
       </recipe>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=ea94abb703cc28ed9b7fd1a8532111d629bee734" main="bin/filezilla" released="2015-02-01" stability="stable" version="3.10.1.1">
@@ -283,7 +283,7 @@
       <manifest-digest sha256new="FHCFMK76DLYCMSJ3NBCSNSM3DL3HFHN2D3IVHACCWONYSZEA6KZQ"/>
       <recipe>
         <archive extract="FileZilla-3.10.2" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.10.2_win32.zip" size="9172497" type="application/zip"/>
-        <archive href="http://0install.de/files/app-configs/FileZilla.zip" size="332" type="application/zip"/>
+        <archive href="FileZilla-config.zip" size="332" type="application/zip"/>
       </recipe>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=3361f9004ae356a35f12e55bce474dca5d240981" main="bin/filezilla" released="2015-03-02" stability="stable" version="3.10.2">
@@ -306,7 +306,7 @@
       <manifest-digest sha256new="B5NOWI6N2N7IEGL2ZGVRLROZPLL4LA7WT6M462U5COLCXVXLY34A"/>
       <recipe>
         <archive extract="FileZilla-3.10.3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.10.3_win32.zip" size="9166834" type="application/zip"/>
-        <archive href="http://0install.de/files/app-configs/FileZilla.zip" size="332" type="application/zip"/>
+        <archive href="FileZilla-config.zip" size="332" type="application/zip"/>
       </recipe>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=acf487873d3ceac0de1ea44692ff5136c21b6131" main="bin/filezilla" released="2015-03-29" stability="stable" version="3.10.3">
@@ -329,7 +329,7 @@
       <manifest-digest sha256new="PJJBKARYUHQ66FB3ETXSRIB4ITBNYLQYJ6VYETCB6ZE7RHJTAB3Q"/>
       <recipe>
         <archive extract="FileZilla-3.11.0" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.11.0_win32.zip" size="9170388" type="application/zip"/>
-        <archive href="http://0install.de/files/app-configs/FileZilla.zip" size="332" type="application/zip"/>
+        <archive href="FileZilla-config.zip" size="332" type="application/zip"/>
       </recipe>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=4ac1b96b0a14305c0f13664987d220b120e3aa71" main="bin/filezilla" released="2015-05-19" stability="stable" version="3.11.0">
@@ -352,7 +352,7 @@
       <manifest-digest sha256new="4D24WKQH4SLYAVRRR2HK26SYTFOA5NWZCGK43O5UFWA6OWT4CVFQ"/>
       <recipe>
         <archive extract="FileZilla-3.12.0.2" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.12.0.2_win32.zip" size="9167312" type="application/zip"/>
-        <archive href="http://0install.de/files/app-configs/FileZilla.zip" size="332" type="application/zip"/>
+        <archive href="FileZilla-config.zip" size="332" type="application/zip"/>
       </recipe>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=af56ba409d8e0b855eeab171448f9c482feb867b" main="bin/filezilla" released="2015-07-09" stability="stable" version="3.12.0.2">
@@ -375,7 +375,7 @@
       <manifest-digest sha256new="AIW6S47TYJJI4I2I5RQEMIKUYBZFD227WF5VVLXH2DUVWC57PMAQ"/>
       <recipe>
         <archive extract="FileZilla-3.13.1" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.13.1_win32.zip" size="9232239" type="application/zip"/>
-        <archive href="http://0install.de/files/app-configs/FileZilla.zip" size="332" type="application/zip"/>
+        <archive href="FileZilla-config.zip" size="332" type="application/zip"/>
       </recipe>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=96eec056ca9bb6a4ef5510f6c20c61b35789bb28" main="bin/filezilla" released="2015-07-24" stability="stable" version="3.13.1">
@@ -398,7 +398,7 @@
       <manifest-digest sha256new="HTTYYQL4ATYZZBVKFQCVPVPISLTGS2VTS366UJ7X5JGRLHPK2URQ"/>
       <recipe>
         <archive extract="FileZilla-3.14.0" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.14.0_win32.zip" size="9239703" type="application/zip"/>
-        <archive href="http://0install.de/files/app-configs/FileZilla.zip" size="332" type="application/zip"/>
+        <archive href="FileZilla-config.zip" size="332" type="application/zip"/>
       </recipe>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=0c1425150782f4663ce0fd7c12206a12807e183f" main="bin/filezilla" released="2015-09-16" stability="stable" version="3.14.0">
@@ -421,7 +421,7 @@
       <manifest-digest sha256new="SXLPWDYNEYFZ7LRLACPSLJBYAL7YG37DHP4G67JQZYJIGVHVJNYQ"/>
       <recipe>
         <archive extract="FileZilla-3.14.1" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.14.1_win32.zip" size="9243405" type="application/zip"/>
-        <archive href="http://0install.de/files/app-configs/FileZilla.zip" size="332" type="application/zip"/>
+        <archive href="FileZilla-config.zip" size="332" type="application/zip"/>
       </recipe>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=a506fca32d5b2b3622db9f73e6a5291fbc270246" main="bin/filezilla" released="2015-10-16" stability="stable" version="3.14.1">
@@ -444,14 +444,14 @@
       <manifest-digest sha256new="N7ZOZR62GFZNMH4FYMKZ3QE3VSMOURCFJJK4CZG7VTBBETDVGE3Q"/>
       <recipe>
         <archive extract="FileZilla-3.16.0" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.16.0_win32.zip" size="9302387" type="application/zip"/>
-        <archive href="http://0install.de/files/app-configs/FileZilla.zip" size="332" type="application/zip"/>
+        <archive href="FileZilla-config.zip" size="332" type="application/zip"/>
       </recipe>
     </implementation>
     <implementation arch="Windows-*" id="sha1new=93284f4a5962518ed26100e5048cb37bae595813" main="filezilla.exe" released="2016-01-30" stability="stable" version="3.15.0">
       <manifest-digest sha256new="BKZRVRJKKOHLWTFZN46DNZRQ6QMXRLOBE6DI233EHMQHSYRCFCOA"/>
       <recipe>
         <archive extract="FileZilla-3.15.0" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.15.0_win32.zip" size="9293427" type="application/zip"/>
-        <archive href="http://0install.de/files/app-configs/FileZilla.zip" size="332" type="application/zip"/>
+        <archive href="FileZilla-config.zip" size="332" type="application/zip"/>
       </recipe>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=77261358cb50758ae93d2f2c59baf5a62cd5cef9" main="bin/filezilla" released="2016-01-30" stability="stable" version="3.15.0">
@@ -474,7 +474,7 @@
       <manifest-digest sha256new="2KF66KVNECGFU3A7S2CQDIJQC4PDZALXXCU2S5RDY7TQYAHAVYBA"/>
       <recipe>
         <archive extract="FileZilla-3.15.0.1" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.15.0.1_win32.zip" size="9297650" type="application/zip"/>
-        <archive href="http://0install.de/files/app-configs/FileZilla.zip" size="332" type="application/zip"/>
+        <archive href="FileZilla-config.zip" size="332" type="application/zip"/>
       </recipe>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=01664d5093b8a7c2a21fe8e58823b25b5be4bc55" main="bin/filezilla" released="2016-02-02" stability="stable" version="3.15.0.1">
@@ -497,7 +497,7 @@
       <manifest-digest sha256new="4TCVVM4GGWYQOEESB4HE7HMK5PV6TOC3DDXSODMINJFOC3R5CHQA"/>
       <recipe>
         <archive extract="FileZilla-3.15.0.2" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.15.0.2_win32.zip" size="9315724" type="application/zip"/>
-        <archive href="http://0install.de/files/app-configs/FileZilla.zip" size="332" type="application/zip"/>
+        <archive href="FileZilla-config.zip" size="332" type="application/zip"/>
       </recipe>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=1a2243166acf3e5e6cea18bbb5f0328c810f5e81" main="bin/filezilla" released="2016-02-10" stability="stable" version="3.15.0.2">
@@ -536,7 +536,7 @@
       <manifest-digest sha256new="JAOLMDGDBR2E2HHSMYQSUGAQZC7WZP45RF6K4DCBPY6WESPHXHZQ"/>
       <recipe>
         <archive extract="FileZilla-3.16.1" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.16.1_win32.zip" size="9281362" type="application/zip"/>
-        <archive href="http://0install.de/files/app-configs/FileZilla.zip" size="332" type="application/zip"/>
+        <archive href="FileZilla-config.zip" size="332" type="application/zip"/>
       </recipe>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=c77a2dafa48a3a71e840e6369c76169765401d4b" main="bin/filezilla" released="2016-03-16" stability="stable" version="3.16.1">
@@ -559,7 +559,7 @@
       <manifest-digest sha256new="W7RJTKFZTKN3EVOBNSMP4F4C7WNW2XU7LME5H6MFVBXV76OTP5RQ"/>
       <recipe>
         <archive extract="FileZilla-3.20.1" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.20.1_win32.zip" size="9456049" type="application/zip"/>
-        <archive href="http://0install.de/files/app-configs/FileZilla.zip" size="332" type="application/zip"/>
+        <archive href="FileZilla-config.zip" size="332" type="application/zip"/>
       </recipe>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=f244cc73b53048886b516878cb479f2d34161071" main="bin/filezilla" released="2016-08-03" stability="stable" version="3.20.1">
@@ -582,7 +582,7 @@
       <manifest-digest sha256new="B3K22YO5QCYGY2TLDPPECIP4JTFHAU5ZT3VLI55HYHEIJM732S3A"/>
       <recipe>
         <archive extract="FileZilla-3.22.2.1" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.22.2.1_win32.zip" size="9493001" type="application/zip"/>
-        <archive href="http://0install.de/files/app-configs/FileZilla.zip" size="332" type="application/zip"/>
+        <archive href="FileZilla-config.zip" size="332" type="application/zip"/>
       </recipe>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=79db628bbbff2c28679225d334cc54a7a8e906db" main="bin/filezilla" released="2016-11-01" stability="stable" version="3.22.2.1">
@@ -605,7 +605,7 @@
       <manifest-digest sha256new="SYACIVFAB5NGG7NYUXP75PVYLW4AMR44MU3XBNCTGVWIEV4VP6HQ"/>
       <recipe>
         <archive extract="FileZilla-3.22.2.2" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.22.2.2_win32.zip" size="9492780" type="application/zip"/>
-        <archive href="http://0install.de/files/app-configs/FileZilla.zip" size="332" type="application/zip"/>
+        <archive href="FileZilla-config.zip" size="332" type="application/zip"/>
       </recipe>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=15b98f08ba8a756f99087d318df04421ae0c8990" main="bin/filezilla" released="2016-11-01" stability="stable" version="3.22.2.2">
@@ -628,7 +628,7 @@
       <manifest-digest sha256new="PMON6SY7LQ2BDCM4I2TODILWJZ6FSVMITPGXIOADNMZAG2TR4FQQ"/>
       <recipe>
         <archive extract="FileZilla-3.20.0" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.20.0_win32.zip" size="9453653" type="application/zip"/>
-        <archive href="http://0install.de/files/app-configs/FileZilla.zip" size="332" type="application/zip"/>
+        <archive href="FileZilla-config.zip" size="332" type="application/zip"/>
       </recipe>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=c284a1541492f74406e640156a07bed1470d036d" main="bin/filezilla" released="2016-07-27" stability="stable" version="3.20.0">
@@ -651,7 +651,7 @@
       <manifest-digest sha256new="DCLSV5E3HFB6FIPVXIJDTXIOMF34YVDYWUIGHBEXYZUWQ73C6PGQ"/>
       <recipe>
         <archive extract="FileZilla-3.17.0.1" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.17.0.1_win32.zip" size="9308139" type="application/zip"/>
-        <archive href="http://0install.de/files/app-configs/FileZilla.zip" size="332" type="application/zip"/>
+        <archive href="FileZilla-config.zip" size="332" type="application/zip"/>
       </recipe>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=39d2ec80730344078e1e27db1f293560a9123884" main="bin/filezilla" released="2016-05-09" stability="stable" version="3.17.0.1">
@@ -674,7 +674,7 @@
       <manifest-digest sha256new="FL5L26YICSKIIP7CNCEMTGUMDF5N3MMQCQ72YEBMBNKWEP456FCA"/>
       <recipe>
         <archive extract="FileZilla-3.17.0" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.17.0_win32.zip" size="9303882" type="application/zip"/>
-        <archive href="http://0install.de/files/app-configs/FileZilla.zip" size="332" type="application/zip"/>
+        <archive href="FileZilla-config.zip" size="332" type="application/zip"/>
       </recipe>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=6b6f8f83ca494817893317000c3a68153fce7dfb" main="bin/filezilla" released="2016-04-22" stability="stable" version="3.17.0">
@@ -697,7 +697,7 @@
       <manifest-digest sha256new="CBP5FB6LONIPMIKPNH63JYQ7YS6SDWCXJDTJHNPBGLLX53WCUFOA"/>
       <recipe>
         <archive extract="FileZilla-3.18.0" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.18.0_win32.zip" size="9333197" type="application/zip"/>
-        <archive href="http://0install.de/files/app-configs/FileZilla.zip" size="332" type="application/zip"/>
+        <archive href="FileZilla-config.zip" size="332" type="application/zip"/>
       </recipe>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=a3821ba4ada61f3873929020335ace2b5f2b1a50" main="bin/filezilla" released="2016-05-27" stability="stable" version="3.18.0">
@@ -720,7 +720,7 @@
       <manifest-digest sha256new="X2LDRE7TGBAZFLLV7DJMBWC2LEE5634HKZO44GR5GPYG2S6UPY3Q"/>
       <recipe>
         <archive extract="FileZilla-3.22.2" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.22.2_win32.zip" size="9489512" type="application/zip"/>
-        <archive href="http://0install.de/files/app-configs/FileZilla.zip" size="332" type="application/zip"/>
+        <archive href="FileZilla-config.zip" size="332" type="application/zip"/>
       </recipe>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=a97eb4a7ff708cee2c2e4a9002fcc0e5cd695d9d" main="bin/filezilla" released="2016-11-01" stability="stable" version="3.22.2">
@@ -743,7 +743,7 @@
       <manifest-digest sha256new="QXH3AP6KVFDWEYE5LI5IRVIN4OWENDQSO7SXJASBMMJB2LVOLBNA"/>
       <recipe>
         <archive extract="FileZilla-3.19.0" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.19.0_win32.zip" size="9368289" type="application/zip"/>
-        <archive href="http://0install.de/files/app-configs/FileZilla.zip" size="332" type="application/zip"/>
+        <archive href="FileZilla-config.zip" size="332" type="application/zip"/>
       </recipe>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=e8539f7fd184e2552328dc72b3735b92096aa4ec" main="bin/filezilla" released="2016-06-27" stability="stable" version="3.19.0">
@@ -766,7 +766,7 @@
       <manifest-digest sha256new="EZYLRWC4JME2H7EJNQTUOVOVXFZPHX5Y4SJZQJJB677O6SGTFOLQ"/>
       <recipe>
         <archive extract="FileZilla-3.22.0" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.22.0_win32.zip" size="9475474" type="application/zip"/>
-        <archive href="http://0install.de/files/app-configs/FileZilla.zip" size="332" type="application/zip"/>
+        <archive href="FileZilla-config.zip" size="332" type="application/zip"/>
       </recipe>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=4ffc71f26ba927d3ecf1ab166b832e15b9a7fdcb" main="bin/filezilla" released="2016-10-01" stability="stable" version="3.22.0">
@@ -789,7 +789,7 @@
       <manifest-digest sha256new="SQ5F7UAEE36EBPTOMYOD5IGAYUR5NABJE3YHH5BTN35MOEAVCFCQ"/>
       <recipe>
         <archive extract="FileZilla-3.21.0" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.21.0_win32.zip" size="9470296" type="application/zip"/>
-        <archive href="http://0install.de/files/app-configs/FileZilla.zip" size="332" type="application/zip"/>
+        <archive href="FileZilla-config.zip" size="332" type="application/zip"/>
       </recipe>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=3a0db54e7d9beb8366571b1e7e02bddde7d87f98" main="bin/filezilla" released="2016-08-23" stability="stable" version="3.21.0">
@@ -812,7 +812,7 @@
       <manifest-digest sha256new="7NQHU7QSIWBEQVKZ7EUQ2AW4KRX5DGLVQ7IXN2GNO5SBGEW3IMDA"/>
       <recipe>
         <archive extract="FileZilla-3.22.1" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.22.1_win32.zip" size="9477813" type="application/zip"/>
-        <archive href="http://0install.de/files/app-configs/FileZilla.zip" size="332" type="application/zip"/>
+        <archive href="FileZilla-config.zip" size="332" type="application/zip"/>
       </recipe>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=3fce963e1c1ad5efeb68ce24d22837166b3983c7" main="bin/filezilla" released="2016-10-03" stability="stable" version="3.22.1">
