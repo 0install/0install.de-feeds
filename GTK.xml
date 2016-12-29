@@ -4,8 +4,7 @@
   <summary xml:lang="en">runtime components of GTK+</summary>
   <description xml:lang="en">This package contains the runtime components for GTK+.</description>
   <homepage>http://www.gtk.org/</homepage>
-  <feed arch="Windows-*" if-0install-version="..!2.6.8" src="http://0install.de/feeds/GTK-shim.xml"/>
-  <group if-0install-version="2.6.8.." license="GPL v2 (GNU General Public License)">
+  <group license="GPL v2 (GNU General Public License)">
     <implementation arch="Windows-i486" id="sha1new=699b232b35649fd9474e84113cddaae3fcf52418" released="2013-02-13" stability="stable" version="2.16.6.1">
       <manifest-digest sha256new="QNDXOYCW6PLKOIL2ETJK63ODY7JIDC4PDXQLKFZPONTNGRCOIRXA"/>
       <archive extract="Gtk" href="http://sourceforge.net/projects/pidgin/files/GTK%2B%20for%20Windows/2.16.6.1/gtk-runtime-2.16.6.1.zip" size="12110421" type="application/zip"/>

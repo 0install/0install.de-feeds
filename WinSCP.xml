@@ -9,8 +9,7 @@
   <icon href="http://0install.de/feed-icons/WinSCP.png" type="image/png"/>
   <category>Network</category>
   <category>Utility</category>
-  <feed arch="Windows-*" if-0install-version="..!2.6.8" src="http://0install.de/feeds/WinSCP-shim.xml"/>
-  <group arch="Windows-*" if-0install-version="2.6.9.." license="GPL v2 (GNU General Public License)" main="winscp.exe">
+  <group arch="Windows-*" license="GPL v2 (GNU General Public License)" main="winscp.exe">
     <implementation id="sha1new=0904880b0f52213a5e1a83546f23c0ab940d47ef" released="2012-09-24" stability="stable" version="5.1">
       <manifest-digest sha256new="FH44ERKHYPZIJXQ4SCPT4QJ7DLRLMPRSBEA2QPFLKAYMN64MTPSA"/>
       <archive href="http://downloads.sourceforge.net/winscp/winscp510.zip" size="3834608" type="application/zip"/>

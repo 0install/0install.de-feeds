@@ -9,8 +9,7 @@
   <icon href="http://0install.de/feed-icons/DCPlusPlus.png" type="image/png"/>
   <icon href="http://0install.de/feed-icons/DCPlusPlus.ico" type="image/vnd.microsoft.icon"/>
   <category>Network</category>
-  <feed arch="Windows-*" if-0install-version="..!2.6.8" src="http://0install.de/feeds/DCPlusPlus-shim.xml"/>
-  <group arch="Windows-*" if-0install-version="2.6.8.." license="GPL v2 (GNU General Public License)" main="DCPlusPlus.exe">
+  <group arch="Windows-*" license="GPL v2 (GNU General Public License)" main="DCPlusPlus.exe">
     <implementation id="sha1new=fc4bdc96da18bd3104e306200b6798d47a82569a" released="2013-11-11" stability="stable" version="0.831">
       <manifest-digest sha256new="YTY2ZKJEEIRKHK3BMACADOANPGCX6DV7TOGZLHJSCSC5VSEXNXKQ"/>
       <archive href="http://downloads.sourceforge.net/dcplusplus/DCPlusPlus-0.831.zip" size="73514794" type="application/zip"/>
