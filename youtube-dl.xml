@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<interface uri="http://0install.de/feeds/youtube-dl.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <name>youtube-dl</name>
+  <summary xml:lang="en">command-line program to download videos from YouTube</summary>
+  <summary xml:lang="de">Befehlszeilenprogramm zum Runterladen von Videos von YouTube</summary>
+  <description xml:lang="en">youtube-dl is a command-line program to download videos from YouTube.com and a few more sites.</description>
+  <description xml:lang="en">youtube-dl is a command-line program to download videos from YouTube.com and a few more sites.</description>
+  <category>Utility</category>
+  <homepage>http://rg3.github.io/youtube-dl/</homepage>
+  <needs-terminal/>
+  <group license="Public Domain">
+    <requires importance="recommended" interface="http://0install.de/feeds/FFmpeg.xml">
+      <environment insert="bin" name="PATH"/>
+    </requires>
+    <command name="run" path="youtube-dl">
+      <runner interface="http://repo.roscidus.com/python/python"/>
+    </command>
+    <implementation id="sha1new=81fb51a07b4fd4c5fd7735035eb337694105dbba" released="2016-12-18" stability="stable" version="2016.12.18">
+      <manifest-digest sha256new="UQPQZCH27UTQDIENSCR4LSCCKJQODELASLSIGUHMPHNK4UN3WN6A"/>
+      <file dest="youtube-dl" href="https://github.com/rg3/youtube-dl/releases/download/2016.12.18/youtube-dl" size="1413239"/>
+    </implementation>
+    <implementation id="sha1new=3cafb7feccce98fae3ecd17f6439077756eb68e3" released="2016-12-20" stability="stable" version="2016.12.20">
+      <manifest-digest sha256new="AKXE7UUEJYIB6SDNHSHTCJVEDX67VNYMNQIWGDGEXLPIXFAQ3XMA"/>
+      <file dest="youtube-dl" href="https://github.com/rg3/youtube-dl/releases/download/2016.12.20/youtube-dl" size="1419366"/>
+    </implementation>
+    <implementation id="sha1new=0249946880691e3a284f49d87ff06c9457e2f1e1" released="2016-12-22" stability="stable" version="2016.12.22">
+      <manifest-digest sha256new="46GAHD5T32KIYMJ6OFX5BA2B7IMUDLUBXOTVQUGMZGOCHLBSEI7A"/>
+      <file dest="youtube-dl" href="https://github.com/rg3/youtube-dl/releases/download/2016.12.22/youtube-dl" size="1420006"/>
+    </implementation>
+  </group>
+</interface>
