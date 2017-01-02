@@ -127,5 +127,9 @@
       <manifest-digest sha256new="HAIQOI6J6WEJ2JMCMQR3A2DLLYE4A62R6OVVYOOJA5DDYEYJJDBQ"/>
       <archive href="http://downloads.sourceforge.net/zdfmediathk/MediathekView_12.zip" size="39389109" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=a8f3f1e4eff53d4a9ee10b98e5103a4ae2572f00" released="2016-12-31" stability="stable" version="13.0.0">
+      <manifest-digest sha256new="WPTKI4UZHFPTKGBHTGZK3Y6YXLDH5JXD7R6LHCZJ7Z55BCU6BD3A"/>
+      <archive extract="MediathekView-13.0.0" href="https://github.com/mediathekview/MediathekView/releases/download/13.0.0/MediathekView-13.0.0.zip" size="12975655" type="application/zip"/>
+    </implementation>
   </group>
 </interface>
