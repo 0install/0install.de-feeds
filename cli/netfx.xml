@@ -8,9 +8,11 @@
     <command name="run-gui" path="" />
   </package-implementation>
 
+  <!-- Empty (fake) implementation for older Zero Install versions unable to detect natively installed .NET Framework versions. -->
   <implementation if-0install-version="..!1.15" arch="Windows-*" version="2.0" id="netfx-2.0-shim">
     <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709" sha256="e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" sha256new="4OYMIQUY7QOBJGX36TEJS35ZEQT24QPEMSNZGTFESWMRW6CSXBKQ" />
     <recipe />
+
     <command name="run" path="" />
 
     <!-- There is a seperate GUI version of the Mono executable on Windows. For .NET we treat "run" and "run-gui" exactly the same. -->

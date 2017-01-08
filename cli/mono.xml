@@ -21,7 +21,7 @@
     <command name="run-gui" path="bin/monow.exe" />
     <implementation version="2.10.9" id="sha1new=5786d36753bb1f76e4d4f25b2980749ce3671aab">
       <manifest-digest sha1new="5786d36753bb1f76e4d4f25b2980749ce3671aab" sha256="c5766eb07b242dc548e4af84671f07ad5e114f73b07317a0e96237ee553f761d" sha256new="YV3G5MD3EQW4KSHEV6CGOHYHVVPBCT3TWBZRPIHJMI364VJ7OYOQ" />
-      <archive href="http://0install.de/files/hosted/mono-2.10.9-win32.tar.lzma" size="83591462" type="application/x-lzma-compressed-tar" />
+      <archive href="mono-2.10.9-win32.tar.lzma" size="83591462" type="application/x-lzma-compressed-tar" />
     </implementation>
   </group>
 </interface>
