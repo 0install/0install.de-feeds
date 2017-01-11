@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/WinTail.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>WinTail</name>
+  <summary xml:lang="en">Tail for Windows, capable of simulating the Linux tail command, with GUI</summary>
+  <description xml:lang="en">WinTail is a freeware Tail for Windows tool, capable of simulating the Linux/UNIX tail command, including extra features offered by the Windows GUI concept.
+Includes features such as SMTP and sound notifications of specific keywords found within the files being monitored by a sort of grep functionalty.</description>
+  <icon href="http://0install.de/feed-icons/WinTail.ico" type="image/vnd.microsoft.icon" />
+  <icon href="http://0install.de/feed-icons/WinTail.png" type="image/png" />
+  <category>Development</category>
+  <category>Utility</category>
+  <group license="Public Domain">
+    <implementation version="2.2.4.2" released="2016-11-10" id="sha1new=56caffb33aa39546450660d2f2ffc5220b876606">
+      <command name="run" path="WinTail-2.2.4.2-portable.exe">
+        <runner interface="http://0install.de/feeds/cli/cli.xml" command="run-gui" />
+      </command>
+      <manifest-digest sha1new="56caffb33aa39546450660d2f2ffc5220b876606" sha256="7d8a349a0865032e14363f06583b985bb0bd8e40a7281de8c90a4777e60b3c65" sha256new="PWFDJGQIMUBS4FBWH4DFQO4YLOYL3DSAU4UB32GJBJDXPZQLHRSQ" />
+      <archive href="http://downloads.sourceforge.net/wintail/WinTail-2.2.4.2-portable.zip" size="1017478" type="application/zip" />
+    </implementation>
+  </group>
+  <entry-point command="run" binary-name="WinTail" />
+  <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <context-menu id="WinTail">
+      <verb name="tail" args="&quot;%1&quot;">
+        <description xml:lang="en">Tail</description>
+        <description xml:lang="de">Verfolgen</description>
+      </verb>
+    </context-menu>
+  </capabilities>
+</interface>
