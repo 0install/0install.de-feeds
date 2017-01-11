@@ -27,5 +27,12 @@
       <manifest-digest sha256new="46GAHD5T32KIYMJ6OFX5BA2B7IMUDLUBXOTVQUGMZGOCHLBSEI7A"/>
       <file dest="youtube-dl" href="https://github.com/rg3/youtube-dl/releases/download/2016.12.22/youtube-dl" size="1420006"/>
     </implementation>
+    <implementation id="sha1new=bc1ca441a5cb8843c6988b8f34247fc7c3686c1f" released="2017-01-10" stability="stable" version="2017.01.10">
+      <manifest-digest sha256new="TV75NGQWWEZTLY7BP24R3NXRDU7233TTE6VV674VH47HBUM6I2JQ"/>
+      <file dest="youtube-dl" href="https://github.com/rg3/youtube-dl/releases/download/2017.01.10/youtube-dl" size="1427827"/><!--<recipe>
+        <archive href="https://github.com/rg3/youtube-dl/releases/download/{version}/youtube-dl" type="application/zip" start-offset="22" />
+        <rename source="__main__.py" dest="youtube-dl" />
+      </recipe>-->
+    </implementation>
   </group>
 </interface>
