@@ -16,7 +16,7 @@
     <command name="run">
       <runner command="java" interface="http://repo.roscidus.com/java/openjdk-jdk">
         <for-each item-from="MAVEN_OPTS" separator=" ">
-          <arg>${item}</arg>
+          <arg>$item</arg>
         </for-each>
         <arg>-Dclassworlds.conf=$M2_HOME/bin/m2.conf</arg>
         <arg>-Dmaven.home=$M2_HOME</arg>
