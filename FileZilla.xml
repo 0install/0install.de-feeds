@@ -24,7 +24,7 @@
       <manifest-digest sha256new="ZBAPIUIFK7LBQXH65G5SFVKIBSFPQUEZEO6P2CLVQINNCG4TJMEA"/>
       <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.8.1_i586-linux-gnu.tar.bz2" size="5549393"/>
     </implementation>
-    <implementation arch="MacOSX-i686" id="sha1new=dc63f9484081a8f51ee8a2d729133cecc129ec19" main="FileZilla.app/Contents/MacOS/filezilla" released="2014-06-01" stability="stable" version="3.8.1">
+    <implementation arch="MacOSX-i686" id="sha1new=dc63f9484081a8f51ee8a2d729133cecc129ec19" main="Contents/MacOS/filezilla" released="2014-06-01" stability="stable" version="3.8.1">
       <manifest-digest sha256new="QJ6ANPNEZLNBBCF2TNNKEG6X7OP57IS26YNAFEM3S2CGOVMWDYRA"/>
       <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.8.1_macosx-x86.app.tar.bz2" size="5984953"/>
     </implementation>
@@ -44,7 +44,7 @@
       <manifest-digest sha256new="GVLCNGV73GLRNS75XI7NT5UGCP6JNKHGPH36FXKRJQ7VLDWBM7MQ"/>
       <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.9.0.1_i586-linux-gnu.tar.bz2" size="6345372"/>
     </implementation>
-    <implementation arch="MacOSX-i686" id="sha1new=018532d1467f9ece0203684b2519c0e014788f02" main="FileZilla.app/Contents/MacOS/filezilla" released="2014-07-23" stability="stable" version="3.9.0.1">
+    <implementation arch="MacOSX-i686" id="sha1new=018532d1467f9ece0203684b2519c0e014788f02" main="Contents/MacOS/filezilla" released="2014-07-23" stability="stable" version="3.9.0.1">
       <manifest-digest sha256new="PL2GIVND2OG3LHF22UCZHZATDJ4HO7VDCLR6USVR33I4S3BZCSZQ"/>
       <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.9.0.1_macosx-x86.app.tar.bz2" size="7210548"/>
     </implementation>
@@ -64,7 +64,7 @@
       <manifest-digest sha256new="UGLSX3TYE3Y7GTITBRW2NLO63MLUTSDHFR6B4FYQXCY5GWFLMKLA"/>
       <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.9.0.2_i586-linux-gnu.tar.bz2" size="5969174"/>
     </implementation>
-    <implementation arch="MacOSX-i686" id="sha1new=f64b1cc188c1c355bdd056b6cfe042709aa35a33" main="FileZilla.app/Contents/MacOS/filezilla" released="2014-07-31" stability="stable" version="3.9.0.2">
+    <implementation arch="MacOSX-i686" id="sha1new=f64b1cc188c1c355bdd056b6cfe042709aa35a33" main="Contents/MacOS/filezilla" released="2014-07-31" stability="stable" version="3.9.0.2">
       <manifest-digest sha256new="7QGORS4ISUL2UQ2DCEVINITSCUOJD3NCJKFF4BLRKY42SRDLQX3A"/>
       <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.9.0.2_macosx-x86.app.tar.bz2" size="6663261"/>
     </implementation>
@@ -84,7 +84,7 @@
       <manifest-digest sha256new="FD7PWXCFQYLOMXB7MB3AW3T76ALI2IQYHIXIN2HQXOCGNUREZIOA"/>
       <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.9.0.3_i586-linux-gnu.tar.bz2" size="6010371"/>
     </implementation>
-    <implementation arch="MacOSX-i686" id="sha1new=9bbad7b78f67298a51c7544af07301f7099c1b6c" main="FileZilla.app/Contents/MacOS/filezilla" released="2014-09-04" stability="stable" version="3.9.0.3">
+    <implementation arch="MacOSX-i686" id="sha1new=9bbad7b78f67298a51c7544af07301f7099c1b6c" main="Contents/MacOS/filezilla" released="2014-09-04" stability="stable" version="3.9.0.3">
       <manifest-digest sha256new="2SLM47FXJGW4Z7STLWQWBL7DFA2VU4CBBCUPMMXQ2Y5Q6KMOXXCQ"/>
       <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.9.0.3_macosx-x86.app.tar.bz2" size="6588467"/>
     </implementation>
@@ -104,7 +104,7 @@
       <manifest-digest sha256new="YMUWSXSKSZ2TZN6BBGSLSCXPNLSHZXNIUDV6GWPRJ73ZTF6ZLS7Q"/>
       <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.9.0.4_i586-linux-gnu.tar.bz2" size="6340889"/>
     </implementation>
-    <implementation arch="MacOSX-i686" id="sha1new=f839f6fef744908f7a6b6e98669866c6c8691b0c" main="FileZilla.app/Contents/MacOS/filezilla" released="2014-09-06" stability="stable" version="3.9.0.4">
+    <implementation arch="MacOSX-i686" id="sha1new=f839f6fef744908f7a6b6e98669866c6c8691b0c" main="Contents/MacOS/filezilla" released="2014-09-06" stability="stable" version="3.9.0.4">
       <manifest-digest sha256new="IUSQKATMAEB3WSM7PQTZ6GSRLE3U73HVIRYWR6LFHPMCP7HJGGFA"/>
       <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.9.0.4_macosx-x86.app.tar.bz2" size="6688257"/>
     </implementation>
@@ -124,7 +124,7 @@
       <manifest-digest sha256new="2D7KPIHWP4B77HNM7WUHCLV6O67GKWPP5SEFILSPJEO2OWQAATOQ"/>
       <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.9.0.5_i586-linux-gnu.tar.bz2" size="6341433"/>
     </implementation>
-    <implementation arch="MacOSX-i686" id="sha1new=c00fc1ee22d511fd860e73d321a1ebda5a5a8f44" main="FileZilla.app/Contents/MacOS/filezilla" released="2014-09-23" stability="stable" version="3.9.0.5">
+    <implementation arch="MacOSX-i686" id="sha1new=c00fc1ee22d511fd860e73d321a1ebda5a5a8f44" main="Contents/MacOS/filezilla" released="2014-09-23" stability="stable" version="3.9.0.5">
       <manifest-digest sha256new="IAVAWO656CKWUDA66UHWORBYK42ZZAIGRMPHE2VPEYLYSRGMV6AA"/>
       <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.9.0.5_macosx-x86.app.tar.bz2" size="6686501"/>
     </implementation>
@@ -144,7 +144,7 @@
       <manifest-digest sha256new="UNQLITWEXPHPR6YFJMXAGZTB5X5XYWKRRY2V5SMYTOSQ5IB4FHFA"/>
       <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.9.0_i586-linux-gnu.tar.bz2" size="6344504"/>
     </implementation>
-    <implementation arch="MacOSX-i686" id="sha1new=e54299004ac3ed8eb18acb51166ed0b89a62128e" main="FileZilla.app/Contents/MacOS/filezilla" released="2014-07-21" stability="stable" version="3.9.0">
+    <implementation arch="MacOSX-i686" id="sha1new=e54299004ac3ed8eb18acb51166ed0b89a62128e" main="Contents/MacOS/filezilla" released="2014-07-21" stability="stable" version="3.9.0">
       <manifest-digest sha256new="IBCB5RZSUZUB65TZTFA5X2PX25BKN5K3H6WBOWT5KHLFC7J2ZO2A"/>
       <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.9.0_macosx-x86.app.tar.bz2" size="7208332"/>
     </implementation>
@@ -164,7 +164,7 @@
       <manifest-digest sha256new="EQXPGICWLERVWH2Y5TO7C5RACJ2AIEF66EWH5UBWFRJSJD4ZP67A"/>
       <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.9.0.6_i586-linux-gnu.tar.bz2" size="6357271"/>
     </implementation>
-    <implementation arch="MacOSX-i686" id="sha1new=c04bafd6acc09c7037de9d4ca97c32e6f21a2594" main="FileZilla.app/Contents/MacOS/filezilla" released="2014-10-20" stability="stable" version="3.9.0.6">
+    <implementation arch="MacOSX-i686" id="sha1new=c04bafd6acc09c7037de9d4ca97c32e6f21a2594" main="Contents/MacOS/filezilla" released="2014-10-20" stability="stable" version="3.9.0.6">
       <manifest-digest sha256new="ORN7PT3Y36QUUR25E5XQWOCCIMO3NFGHX4ZH3UIFORN3YAKXVZIA"/>
       <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.9.0.6_macosx-x86.app.tar.bz2" size="6831818"/>
     </implementation>
@@ -184,7 +184,7 @@
       <manifest-digest sha256new="2LXMWZQPGGF7QG2R23JCQZYBNWOW4ACH63VWDRGFTQZZ5ZFI5VTQ"/>
       <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.10.0_i586-linux-gnu.tar.bz2" size="6615826"/>
     </implementation>
-    <implementation arch="MacOSX-i686" id="sha1new=078c6bf0681c3ef3be84e0576a1afdb304bfe0ed" main="FileZilla.app/Contents/MacOS/filezilla" released="2015-01-07" stability="stable" version="3.10.0">
+    <implementation arch="MacOSX-i686" id="sha1new=078c6bf0681c3ef3be84e0576a1afdb304bfe0ed" main="Contents/MacOS/filezilla" released="2015-01-07" stability="stable" version="3.10.0">
       <manifest-digest sha256new="TESEZIJ3ZLDPTFAIP4ONZFSXKTFROF4ISCEBCFKMR7WWG4HS67PQ"/>
       <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.10.0_macosx-x86.app.tar.bz2" size="7020689"/>
     </implementation>
@@ -204,7 +204,7 @@
       <manifest-digest sha256new="RVRCIUFYVSQYRGFHS3VJN6FVBOL4NCFB6KMC5CH3QWAZFSGKCA3Q"/>
       <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.10.0.1_i586-linux-gnu.tar.bz2" size="6613343"/>
     </implementation>
-    <implementation arch="MacOSX-i686" id="sha1new=f7294442d85349342ad22bd42f31ab97641bc70d" main="FileZilla.app/Contents/MacOS/filezilla" released="2015-01-12" stability="stable" version="3.10.0.1">
+    <implementation arch="MacOSX-i686" id="sha1new=f7294442d85349342ad22bd42f31ab97641bc70d" main="Contents/MacOS/filezilla" released="2015-01-12" stability="stable" version="3.10.0.1">
       <manifest-digest sha256new="2B4P6VSQNOWOQAPQFAL6I3RPOULT6HQM3LK23KNLVIZ6OXXOXKGQ"/>
       <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.10.0.1_macosx-x86.app.tar.bz2" size="7015435"/>
     </implementation>
@@ -224,7 +224,7 @@
       <manifest-digest sha256new="PCL6CA7WZYBWKXE2UPRMEGIVYRVWMY5BMLYOPMWW5A3RILDQQV7Q"/>
       <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.10.0.2_i586-linux-gnu.tar.bz2" size="6612529"/>
     </implementation>
-    <implementation arch="MacOSX-i686" id="sha1new=6241f98677486d00fbce04876235e2af2041d988" main="FileZilla.app/Contents/MacOS/filezilla" released="2015-01-16" stability="stable" version="3.10.0.2">
+    <implementation arch="MacOSX-i686" id="sha1new=6241f98677486d00fbce04876235e2af2041d988" main="Contents/MacOS/filezilla" released="2015-01-16" stability="stable" version="3.10.0.2">
       <manifest-digest sha256new="MBE7A5UMSN3JJQHR5GL3KETTLDVHW32V547BFUS2CFVB6KDQFLVQ"/>
       <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.10.0.2_macosx-x86.app.tar.bz2" size="7013846"/>
     </implementation>
@@ -247,7 +247,7 @@
       <manifest-digest sha256new="XJCUJV7EE2PPF4NIATKKI4ZED2WYNUX6KYKMX22L7JGECKK6DIYQ"/>
       <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.10.1_i586-linux-gnu.tar.bz2" size="6597051"/>
     </implementation>
-    <implementation arch="MacOSX-i686" id="sha1new=31393bdac82b1dd6bdd7998fc5f53cce55c3f8c7" main="FileZilla.app/Contents/MacOS/filezilla" released="2015-01-31" stability="stable" version="3.10.1">
+    <implementation arch="MacOSX-i686" id="sha1new=31393bdac82b1dd6bdd7998fc5f53cce55c3f8c7" main="Contents/MacOS/filezilla" released="2015-01-31" stability="stable" version="3.10.1">
       <manifest-digest sha256new="PNCTIV7DHWWUWIAYNBQQV5M3GKZSULD5XKD6SH2YWHJ7CJPM6MGA"/>
       <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.10.1_macosx-x86.app.tar.bz2" size="7008241"/>
     </implementation>
@@ -270,7 +270,7 @@
       <manifest-digest sha256new="WZRVIRBE63ZDMM6VUYKR3GYOEG2YCWXAPPJ3XWDMXESGXEYUFFBA"/>
       <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.10.1.1_i586-linux-gnu.tar.bz2" size="6596507"/>
     </implementation>
-    <implementation arch="MacOSX-i686" id="sha1new=a4869149afdab9c51d7925f8c914a7f3f012c594" main="FileZilla.app/Contents/MacOS/filezilla" released="2015-02-01" stability="stable" version="3.10.1.1">
+    <implementation arch="MacOSX-i686" id="sha1new=a4869149afdab9c51d7925f8c914a7f3f012c594" main="Contents/MacOS/filezilla" released="2015-02-01" stability="stable" version="3.10.1.1">
       <manifest-digest sha256new="7EPO7LBNRKAMREFXF377SWE3NJVJFGW57PQQ5POFUF624UERWGVQ"/>
       <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.10.1.1_macosx-x86.app.tar.bz2" size="7008677"/>
     </implementation>
@@ -293,7 +293,7 @@
       <manifest-digest sha256new="5V3LAX3BBZCQXWEBDMHCK6TB5BUMDHDSK6XLM44OIUYX3W2MIOSQ"/>
       <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.10.2_i586-linux-gnu.tar.bz2" size="6616358"/>
     </implementation>
-    <implementation arch="MacOSX-i686" id="sha1new=3dc9a84e6371cd76faa5e0f21785a3d9b2f21a07" main="FileZilla.app/Contents/MacOS/filezilla" released="2015-03-02" stability="stable" version="3.10.2">
+    <implementation arch="MacOSX-i686" id="sha1new=3dc9a84e6371cd76faa5e0f21785a3d9b2f21a07" main="Contents/MacOS/filezilla" released="2015-03-02" stability="stable" version="3.10.2">
       <manifest-digest sha256new="64P26K2XN2T7UDPHLQ2BWAKFVZFM5UFNKPHLEEADJVVNFFC2G4SQ"/>
       <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.10.2_macosx-x86.app.tar.bz2" size="7252289"/>
     </implementation>
@@ -316,7 +316,7 @@
       <manifest-digest sha256new="YZQ3UXW4FZ5FQVRUW2R3SNEFBHO62IWBXTVJ56C2MRDRHK5CLIFA"/>
       <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.10.3_i586-linux-gnu.tar.bz2" size="6627508"/>
     </implementation>
-    <implementation arch="MacOSX-i686" id="sha1new=80b551f9f7b7791f663f3dffe6e31e5e9f3c33e6" main="FileZilla.app/Contents/MacOS/filezilla" released="2015-03-29" stability="stable" version="3.10.3">
+    <implementation arch="MacOSX-i686" id="sha1new=80b551f9f7b7791f663f3dffe6e31e5e9f3c33e6" main="Contents/MacOS/filezilla" released="2015-03-29" stability="stable" version="3.10.3">
       <manifest-digest sha256new="3MXF2QVTLR46VZEKZC4URHAIOA7WP3DBMDM5DCHJV4HMP24INUPA"/>
       <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.10.3_macosx-x86.app.tar.bz2" size="7280931"/>
     </implementation>
@@ -339,7 +339,7 @@
       <manifest-digest sha256new="4QUDCNKNLMN2XPXW5GLWYVQXCEJHXCWAYCBRS4RC5JUAOOQ52DCA"/>
       <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.11.0_i586-linux-gnu.tar.bz2" size="7272084"/>
     </implementation>
-    <implementation arch="MacOSX-i686" id="sha1new=d8423d91df99f8be2648d630db4c03dfd3392a41" main="FileZilla.app/Contents/MacOS/filezilla" released="2015-05-19" stability="stable" version="3.11.0">
+    <implementation arch="MacOSX-i686" id="sha1new=d8423d91df99f8be2648d630db4c03dfd3392a41" main="Contents/MacOS/filezilla" released="2015-05-19" stability="stable" version="3.11.0">
       <manifest-digest sha256new="ABPOONHHR47VNJFDZCIB6O7GVVO47HGTTDIBLE2UARKPI45G44MQ"/>
       <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.11.0_macosx-x86.app.tar.bz2" size="7269101"/>
     </implementation>
@@ -362,7 +362,7 @@
       <manifest-digest sha256new="QAHWEGKKTCS3CLMCGAAZV6GX6XTRIZJHFDC4SM567GKIWR5SMC4A"/>
       <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.12.0.2_i586-linux-gnu.tar.bz2" size="7282661"/>
     </implementation>
-    <implementation arch="MacOSX-i686" id="sha1new=e7b8946fd4feba0d6cf84078cc18bbc392f553ac" main="FileZilla.app/Contents/MacOS/filezilla" released="2015-07-09" stability="stable" version="3.12.0.2">
+    <implementation arch="MacOSX-i686" id="sha1new=e7b8946fd4feba0d6cf84078cc18bbc392f553ac" main="Contents/MacOS/filezilla" released="2015-07-09" stability="stable" version="3.12.0.2">
       <manifest-digest sha256new="PKPVYOAMXMCLANN7KBSHRWHWL3X3UCQO3R7GRYYWZXB5YQWXWXDQ"/>
       <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.12.0.2_macosx-x86.app.tar.bz2" size="7309458"/>
     </implementation>
@@ -385,7 +385,7 @@
       <manifest-digest sha256new="7GMOX6WDXCBYMNCKEYHDGVYEYXHZ26RDJ6VPRRRUESE6T3IFLWMA"/>
       <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.13.1_i586-linux-gnu.tar.bz2" size="7300575"/>
     </implementation>
-    <implementation arch="MacOSX-i686" id="sha1new=edb0a334aad0f85ea8d9c088640cb0a20126e7dd" main="FileZilla.app/Contents/MacOS/filezilla" released="2015-07-24" stability="stable" version="3.13.1">
+    <implementation arch="MacOSX-i686" id="sha1new=edb0a334aad0f85ea8d9c088640cb0a20126e7dd" main="Contents/MacOS/filezilla" released="2015-07-24" stability="stable" version="3.13.1">
       <manifest-digest sha256new="ZY3V2QEL5MLDV5XZP3BMUFRR2AP2P2WMN2ZQ6B46HK2LU4EUYDSA"/>
       <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.13.1_macosx-x86.app.tar.bz2" size="7347386"/>
     </implementation>
@@ -408,7 +408,7 @@
       <manifest-digest sha256new="7B2A535UX3GIWFH3WK7K4ZRGCG6ZVKC2N6GKBI3NUSPUDWVIY7UQ"/>
       <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.14.0_i586-linux-gnu.tar.bz2" size="7306068"/>
     </implementation>
-    <implementation arch="MacOSX-i686" id="sha1new=f47755e6355cf0b4db660111838ce9fc893e72e9" main="FileZilla.app/Contents/MacOS/filezilla" released="2015-09-16" stability="stable" version="3.14.0">
+    <implementation arch="MacOSX-i686" id="sha1new=f47755e6355cf0b4db660111838ce9fc893e72e9" main="Contents/MacOS/filezilla" released="2015-09-16" stability="stable" version="3.14.0">
       <manifest-digest sha256new="OWKLSBSMETURXEM3PXXSMU3472MIXGLXYM5IC3W5FLVUM5MHEAGA"/>
       <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.14.0_macosx-x86.app.tar.bz2" size="7366099"/>
     </implementation>
@@ -431,7 +431,7 @@
       <manifest-digest sha256new="EVER457JZPXG7ETKKBV7KSMD2MTMSNKM6OBQADTALKVJWWM3QCMA"/>
       <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.14.1_i586-linux-gnu.tar.bz2" size="7310245"/>
     </implementation>
-    <implementation arch="MacOSX-i686" id="sha1new=3b0129aaa4528cacebc5059f77d16faccd32f52e" main="FileZilla.app/Contents/MacOS/filezilla" released="2015-10-16" stability="stable" version="3.14.1">
+    <implementation arch="MacOSX-i686" id="sha1new=3b0129aaa4528cacebc5059f77d16faccd32f52e" main="Contents/MacOS/filezilla" released="2015-10-16" stability="stable" version="3.14.1">
       <manifest-digest sha256new="XXYQ5XQWHLJF7QCPNEBFEAYOS4SWROBUAIOMNU4V7OIB7R3DGDVQ"/>
       <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.14.1_macosx-x86.app.tar.bz2" size="7350482"/>
     </implementation>
@@ -461,7 +461,7 @@
       <manifest-digest sha256new="5ATCIXWNDNZS625SMTSUOVLSCL4NTREC2HCAPBWVABU6SGV4YSCQ"/>
       <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.15.0_i586-linux-gnu.tar.bz2" size="7362517"/>
     </implementation>
-    <implementation arch="MacOSX-i686" id="sha1new=6a967cdf79d5b8c0ae9b1ba68d526e99ea0afe89" main="FileZilla.app/Contents/MacOS/filezilla" released="2016-01-30" stability="stable" version="3.15.0">
+    <implementation arch="MacOSX-i686" id="sha1new=6a967cdf79d5b8c0ae9b1ba68d526e99ea0afe89" main="Contents/MacOS/filezilla" released="2016-01-30" stability="stable" version="3.15.0">
       <manifest-digest sha256new="O7KLONZLBOY3OY7V5SSEVRD2O65TYC3SQH3FQEWKO3EGFVBXJB4A"/>
       <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.15.0_macosx-x86.app.tar.bz2" size="7542736"/>
     </implementation>
@@ -484,7 +484,7 @@
       <manifest-digest sha256new="IN5USKRL3YTCPOVBMUV7ETLJSMAZGGMDS7BZYGORFPSA6SJJEODA"/>
       <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.15.0.1_i586-linux-gnu.tar.bz2" size="7358155"/>
     </implementation>
-    <implementation arch="MacOSX-i686" id="sha1new=0086c7c727d929caa58d6c3958fc326d546c0592" main="FileZilla.app/Contents/MacOS/filezilla" released="2016-02-02" stability="stable" version="3.15.0.1">
+    <implementation arch="MacOSX-i686" id="sha1new=0086c7c727d929caa58d6c3958fc326d546c0592" main="Contents/MacOS/filezilla" released="2016-02-02" stability="stable" version="3.15.0.1">
       <manifest-digest sha256new="HXZ4GXUXQ62K5PUK6SAI2ZR5NTWX5DYJF57URCY5T2CX4IJFE3BQ"/>
       <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.15.0.1_macosx-x86.app.tar.bz2" size="7544438"/>
     </implementation>
@@ -507,7 +507,7 @@
       <manifest-digest sha256new="GHQBHBENAYTVYLUKUCKBRRBZUPWHSJIL2ZRST6OBJ7QXVGWLEFZA"/>
       <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.15.0.2_i586-linux-gnu.tar.bz2" size="7357442"/>
     </implementation>
-    <implementation arch="MacOSX-i686" id="sha1new=2d2a5ff1e6c1b2fc95cfd9757ac02565c8719bed" main="FileZilla.app/Contents/MacOS/filezilla" released="2016-02-10" stability="stable" version="3.15.0.2">
+    <implementation arch="MacOSX-i686" id="sha1new=2d2a5ff1e6c1b2fc95cfd9757ac02565c8719bed" main="Contents/MacOS/filezilla" released="2016-02-10" stability="stable" version="3.15.0.2">
       <manifest-digest sha256new="ZVR74NZBQ6EYGA6BXL6YMS5TE7XIQBRW23EBAZQ5CIQUJHAGQG2A"/>
       <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.15.0.2_macosx-x86.app.tar.bz2" size="7522169"/>
     </implementation>
@@ -523,7 +523,7 @@
       <manifest-digest sha256new="45ZNFXXVGTK5MR5B6YTGMYHQXUGH2EFYRLUOCZHSGLSL7FEGDXVQ"/>
       <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.16.0_i586-linux-gnu.tar.bz2" size="7352272"/>
     </implementation>
-    <implementation arch="MacOSX-i686" id="sha1new=d5b25c26fd0131c6bcf70cf45d50e9a57d6cf217" main="FileZilla.app/Contents/MacOS/filezilla" released="2016-03-04" stability="stable" version="3.16.0">
+    <implementation arch="MacOSX-i686" id="sha1new=d5b25c26fd0131c6bcf70cf45d50e9a57d6cf217" main="Contents/MacOS/filezilla" released="2016-03-04" stability="stable" version="3.16.0">
       <manifest-digest sha256new="XDFP6DNNZWHV5JYMJ3CMXEMJ3YCY3N37OAKAES6PU4QMGRIXYHOQ"/>
       <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.16.0_macosx-x86.app.tar.bz2" size="7531583"/>
     </implementation>
@@ -546,7 +546,7 @@
       <manifest-digest sha256new="WCSHZZ5EQO2YBGW7LR2IEULIQG5EROZF2CAWD6PXHICLJ2EEOXBQ"/>
       <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.16.1_i586-linux-gnu.tar.bz2" size="7318075"/>
     </implementation>
-    <implementation arch="MacOSX-i686" id="sha1new=ce94510d8e06c46c571ae4eafc431f98db8bff89" main="FileZilla.app/Contents/MacOS/filezilla" released="2016-03-16" stability="stable" version="3.16.1">
+    <implementation arch="MacOSX-i686" id="sha1new=ce94510d8e06c46c571ae4eafc431f98db8bff89" main="Contents/MacOS/filezilla" released="2016-03-16" stability="stable" version="3.16.1">
       <manifest-digest sha256new="KEZN54AQIHNUDUWMVWOECZ66JPQ2GOZ7LMSCQSWEI3HAVOG3DXWA"/>
       <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.16.1_macosx-x86.app.tar.bz2" size="7567040"/>
     </implementation>
@@ -569,7 +569,7 @@
       <manifest-digest sha256new="NY5SY5THLEPANIDYIJGXN46JJ3EA355ZAPQBRZ3I6D36DTPPIVIA"/>
       <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.20.1_i586-linux-gnu.tar.bz2" size="7519438"/>
     </implementation>
-    <implementation arch="MacOSX-i686" id="sha1new=30ad8e82b0d3d2b60dad5612f1ecbc23567a1106" main="FileZilla.app/Contents/MacOS/filezilla" released="2016-08-03" stability="stable" version="3.20.1">
+    <implementation arch="MacOSX-i686" id="sha1new=30ad8e82b0d3d2b60dad5612f1ecbc23567a1106" main="Contents/MacOS/filezilla" released="2016-08-03" stability="stable" version="3.20.1">
       <manifest-digest sha256new="TT2ZXCWVQXWHWLPODTZP2UTTLZ4MDRGWRJBPTSVCGZUVDXQZ6SOA"/>
       <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.20.1_macosx-x86.app.tar.bz2" size="7514293"/>
     </implementation>
@@ -592,7 +592,7 @@
       <manifest-digest sha256new="GC44XTGWXE5VQPOVTBOYTLIZJBI5HXZXV6EDXXWR77LT4SLHKVTA"/>
       <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.22.2.1_i586-linux-gnu.tar.bz2" size="7522494"/>
     </implementation>
-    <implementation arch="MacOSX-i686" id="sha1new=e3715e86a8ede1a9b7597672c102385a21f4cd76" main="FileZilla.app/Contents/MacOS/filezilla" released="2016-11-01" stability="stable" version="3.22.2.1">
+    <implementation arch="MacOSX-i686" id="sha1new=e3715e86a8ede1a9b7597672c102385a21f4cd76" main="Contents/MacOS/filezilla" released="2016-11-01" stability="stable" version="3.22.2.1">
       <manifest-digest sha256new="YDIVB25XRQAOPGZONCOO7YC7RHWQQLO36GMD2GT67YWVQ2VAONKA"/>
       <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.22.2.1_macosx-x86.app.tar.bz2" size="8661401"/>
     </implementation>
@@ -615,7 +615,7 @@
       <manifest-digest sha256new="QMG3WLBXLN4PESJM4PLQGQXZ3EJAAYONCSLHWJF5BOVTIHCKLMHQ"/>
       <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.22.2.2_i586-linux-gnu.tar.bz2" size="7522933"/>
     </implementation>
-    <implementation arch="MacOSX-i686" id="sha1new=96d5af9250b4110df9ee324ae4fccb21610569cd" main="FileZilla.app/Contents/MacOS/filezilla" released="2016-11-01" stability="stable" version="3.22.2.2">
+    <implementation arch="MacOSX-i686" id="sha1new=96d5af9250b4110df9ee324ae4fccb21610569cd" main="Contents/MacOS/filezilla" released="2016-11-01" stability="stable" version="3.22.2.2">
       <manifest-digest sha256new="FIS2KJYZGEN5CZXW2IE6STBNOYCQWGPUH4QMK6656WSD3AFV3XOA"/>
       <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.22.2.2_macosx-x86.app.tar.bz2" size="8661807"/>
     </implementation>
@@ -638,7 +638,7 @@
       <manifest-digest sha256new="NIBLHHMCZQVVCQPHDO65HW64LEHZKNIBSTIODT6VZ3KUWGK6JBVA"/>
       <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.20.0_i586-linux-gnu.tar.bz2" size="7527575"/>
     </implementation>
-    <implementation arch="MacOSX-i686" id="sha1new=c6eccf5df46135c99309decb46c0fd84b6fb5f1d" main="FileZilla.app/Contents/MacOS/filezilla" released="2016-07-27" stability="stable" version="3.20.0">
+    <implementation arch="MacOSX-i686" id="sha1new=c6eccf5df46135c99309decb46c0fd84b6fb5f1d" main="Contents/MacOS/filezilla" released="2016-07-27" stability="stable" version="3.20.0">
       <manifest-digest sha256new="H2B75XTYVM5TAXYAOEWS6EOZHDPTBTXLKFSHCLTRILL6G4FLK3WQ"/>
       <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.20.0_macosx-x86.app.tar.bz2" size="7717953"/>
     </implementation>
@@ -661,7 +661,7 @@
       <manifest-digest sha256new="GI5AZ6FUBXQXPHHIXYANVXOG2CKBIJGZBOE4EZ4ADLE26UIGBLVQ"/>
       <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.17.0.1_i586-linux-gnu.tar.bz2" size="7288659"/>
     </implementation>
-    <implementation arch="MacOSX-i686" id="sha1new=b03f08d3b29f60036e232c389d4b8f234c3be2c3" main="FileZilla.app/Contents/MacOS/filezilla" released="2016-05-09" stability="stable" version="3.17.0.1">
+    <implementation arch="MacOSX-i686" id="sha1new=b03f08d3b29f60036e232c389d4b8f234c3be2c3" main="Contents/MacOS/filezilla" released="2016-05-09" stability="stable" version="3.17.0.1">
       <manifest-digest sha256new="DYEYL4CJXEX5U4Y6BSDUTMQHJ7OCD46SKEHES26PJ3O75AJDGCDA"/>
       <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.17.0.1_macosx-x86.app.tar.bz2" size="7551762"/>
     </implementation>
@@ -684,7 +684,7 @@
       <manifest-digest sha256new="DCMFJHNFDG3ABKPBAVWP7APMNZOS3WNU6UR3T4UVG3XNK665HPIQ"/>
       <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.17.0_i586-linux-gnu.tar.bz2" size="7304932"/>
     </implementation>
-    <implementation arch="MacOSX-i686" id="sha1new=c46891a7797531f7d2745c9ba08b9cd2b9f527ec" main="FileZilla.app/Contents/MacOS/filezilla" released="2016-04-22" stability="stable" version="3.17.0">
+    <implementation arch="MacOSX-i686" id="sha1new=c46891a7797531f7d2745c9ba08b9cd2b9f527ec" main="Contents/MacOS/filezilla" released="2016-04-22" stability="stable" version="3.17.0">
       <manifest-digest sha256new="NM6UL3IWKZMQDG5KBUIYIM4K5MGNJKKK24IW7UDTBIVWRSPI3FYA"/>
       <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.17.0_macosx-x86.app.tar.bz2" size="7564128"/>
     </implementation>
@@ -707,7 +707,7 @@
       <manifest-digest sha256new="Z5QGCMGBDDLE3BK2CITB2XVTGBXLTQ3IZIB4BWRTYLUOGZBFB4IA"/>
       <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.18.0_i586-linux-gnu.tar.bz2" size="7332559"/>
     </implementation>
-    <implementation arch="MacOSX-i686" id="sha1new=d49b881bd3fb478c4e91947658fe7278237b954e" main="FileZilla.app/Contents/MacOS/filezilla" released="2016-05-27" stability="stable" version="3.18.0">
+    <implementation arch="MacOSX-i686" id="sha1new=d49b881bd3fb478c4e91947658fe7278237b954e" main="Contents/MacOS/filezilla" released="2016-05-27" stability="stable" version="3.18.0">
       <manifest-digest sha256new="ANFHPUHPON7WRCPF65L4SHGZE32P6TNW44VFEHZP63EBVDR2EMLQ"/>
       <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.18.0_macosx-x86.app.tar.bz2" size="7629939"/>
     </implementation>
@@ -730,7 +730,7 @@
       <manifest-digest sha256new="76RAELMGQBDVHBWDE6EGDW32OYDHF3WTKXNARC62OPDELGISX44Q"/>
       <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.22.2_i586-linux-gnu.tar.bz2" size="7522900"/>
     </implementation>
-    <implementation arch="MacOSX-i686" id="sha1new=7e38a13a7a2c6d0ab9c7b92af29428471b02af9a" main="FileZilla.app/Contents/MacOS/filezilla" released="2016-11-01" stability="stable" version="3.22.2">
+    <implementation arch="MacOSX-i686" id="sha1new=7e38a13a7a2c6d0ab9c7b92af29428471b02af9a" main="Contents/MacOS/filezilla" released="2016-11-01" stability="stable" version="3.22.2">
       <manifest-digest sha256new="AA57CP46CQQX2LLQA7ORWWI5RKJJ23JDK2FB6CW7TBD2WMDSKP3Q"/>
       <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.22.2_macosx-x86.app.tar.bz2" size="8657761"/>
     </implementation>
@@ -753,7 +753,7 @@
       <manifest-digest sha256new="GL55UP3ZC3OXK4SQKWDMEUWV5M3FZU4ULCBZRR3UY6RMLTFF2NUQ"/>
       <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.19.0_i586-linux-gnu.tar.bz2" size="7374166"/>
     </implementation>
-    <implementation arch="MacOSX-i686" id="sha1new=63ebce7a194bcc5cec79fc203c4e71197fbcc468" main="FileZilla.app/Contents/MacOS/filezilla" released="2016-06-27" stability="stable" version="3.19.0">
+    <implementation arch="MacOSX-i686" id="sha1new=63ebce7a194bcc5cec79fc203c4e71197fbcc468" main="Contents/MacOS/filezilla" released="2016-06-27" stability="stable" version="3.19.0">
       <manifest-digest sha256new="O5AC7VDNS3KQSZKZZ5RZZMHAM22WMB5AEPRKSMWPUWBLQXO2OGKQ"/>
       <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.19.0_macosx-x86.app.tar.bz2" size="7669206"/>
     </implementation>
@@ -776,7 +776,7 @@
       <manifest-digest sha256new="7BBKFRNCF3NRYUAWX4KCJGIFMRE5MISV5BI67WY2SPJRDNCTADIQ"/>
       <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.22.0_i586-linux-gnu.tar.bz2" size="7544696"/>
     </implementation>
-    <implementation arch="MacOSX-i686" id="sha1new=d60cc4e192d4659c0cc28b05220d85ea5d3d13ab" main="FileZilla.app/Contents/MacOS/filezilla" released="2016-10-01" stability="stable" version="3.22.0">
+    <implementation arch="MacOSX-i686" id="sha1new=d60cc4e192d4659c0cc28b05220d85ea5d3d13ab" main="Contents/MacOS/filezilla" released="2016-10-01" stability="stable" version="3.22.0">
       <manifest-digest sha256new="4GH7FDFWU2L2RSEE6H645WLG2EKXSNW4CNNLM5C67Z2TBE6CMUYQ"/>
       <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.22.0_macosx-x86.app.tar.bz2" size="7706599"/>
     </implementation>
@@ -799,7 +799,7 @@
       <manifest-digest sha256new="ESYRADPWAMZMHYUXYS54U573CHTHC3JSECTWXLVGRM2NLBUXJV3Q"/>
       <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.21.0_i586-linux-gnu.tar.bz2" size="7533875"/>
     </implementation>
-    <implementation arch="MacOSX-i686" id="sha1new=65ba5595ec5634327f79105ebb90a7ee03296c73" main="FileZilla.app/Contents/MacOS/filezilla" released="2016-08-23" stability="stable" version="3.21.0">
+    <implementation arch="MacOSX-i686" id="sha1new=65ba5595ec5634327f79105ebb90a7ee03296c73" main="Contents/MacOS/filezilla" released="2016-08-23" stability="stable" version="3.21.0">
       <manifest-digest sha256new="WGBOLBCNALMKKIN3GQNOMSEDQTSPUNCBP5XHAHDNDPFBY4KJWFLQ"/>
       <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.21.0_macosx-x86.app.tar.bz2" size="7719178"/>
     </implementation>
@@ -822,7 +822,7 @@
       <manifest-digest sha256new="B7V4K5YO7ZOJMVNQIPOY2VDI4VAU2D7E4AGD4A4GLYMCTRSVDBXA"/>
       <archive extract="FileZilla3" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.22.1_i586-linux-gnu.tar.bz2" size="7542042"/>
     </implementation>
-    <implementation arch="MacOSX-i686" id="sha1new=ff940541ec7b405f8a7e323d225865cfda28e598" main="FileZilla.app/Contents/MacOS/filezilla" released="2016-10-03" stability="stable" version="3.22.1">
+    <implementation arch="MacOSX-i686" id="sha1new=ff940541ec7b405f8a7e323d225865cfda28e598" main="Contents/MacOS/filezilla" released="2016-10-03" stability="stable" version="3.22.1">
       <manifest-digest sha256new="WZ2TALYLOHD4CIWXCPY6ENUJ6SQLI3ZORAKYKTWFZLMQEFX6XJXQ"/>
       <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/filezilla/FileZilla_3.22.1_macosx-x86.app.tar.bz2" size="8490545"/>
     </implementation>

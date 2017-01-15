@@ -53,7 +53,7 @@
       <manifest-digest sha256new="ZYG5OHSY4P76ZHH3JWTMRJSPNID6LSNHJJB23PUIJA4ZYNRL2YDQ"/>
       <archive extract="eclipse" href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/mars/R/eclipse-jee-mars-R-linux-gtk.tar.gz&amp;r=1" size="280398256" type="application/x-compressed-tar"/>
     </implementation>
-    <implementation arch="MacOSX-x86_64" id="sha1new=0a805a41d8884abd3456d0c4fce0072342a62b54" main="Eclipse.app/Contents/MacOS/eclipse" released="2015-06-24" stability="stable" version="4.5">
+    <implementation arch="MacOSX-x86_64" id="sha1new=0a805a41d8884abd3456d0c4fce0072342a62b54" main="Contents/MacOS/eclipse" released="2015-06-24" stability="stable" version="4.5">
       <manifest-digest sha256new="DJEPXMISD564UG6FCIOWYOK5A5P23FPCVT4N5634PQRUXUGKKMWQ"/>
       <archive extract="Eclipse.app" href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/mars/R/eclipse-jee-mars-R-macosx-cocoa-x86_64.tar.gz&amp;r=1" size="280793400" type="application/x-compressed-tar"/>
     </implementation>

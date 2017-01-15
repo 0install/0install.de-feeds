@@ -28,7 +28,7 @@
       <manifest-digest sha256new="JJQW47BCJ6HELT6M5SMTTA2W3ZKIFZALWYGXNRMSOTJG6S3EYZ2A"/>
       <archive extract="eclipse" href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/mars/R/eclipse-php-mars-R-linux-gtk.tar.gz&amp;r=1" size="151137019" type="application/x-compressed-tar"/>
     </implementation>
-    <implementation arch="MacOSX-x86_64" id="sha1new=707ff59fb078ae8138ce220e1c7033bf4e24a7be" main="Eclipse.app/Contents/MacOS/eclipse" released="2015-06-24" stability="stable" version="4.5">
+    <implementation arch="MacOSX-x86_64" id="sha1new=707ff59fb078ae8138ce220e1c7033bf4e24a7be" main="Contents/MacOS/eclipse" released="2015-06-24" stability="stable" version="4.5">
       <manifest-digest sha256new="FSFLJ3Y4FVPUTAZSNELQSG4IWTSPGHTGDIEX3GGWPMR2YIKXQCEQ"/>
       <archive extract="Eclipse.app" href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/mars/R/eclipse-php-mars-R-macosx-cocoa-x86_64.tar.gz&amp;r=1" size="151385633" type="application/x-compressed-tar"/>
     </implementation>
