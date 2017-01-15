@@ -9,7 +9,7 @@
   <category>Development</category>
   <group>
     <command name="run" path="dotPeek.exe">
-      <runner interface="http://0install.de/feeds/cli/netfx.xml" version="2.0.." command="run-gui" />
+      <runner interface="http://repo.roscidus.com/cli/netfx" version="2.0.." command="run-gui" />
     </command>
     <group version="1.1.1.33" stability="stable">
       <implementation arch="Windows-x86_64" id="sha1new=6ad7a1fcce4cb19c2054db24769904a9b5cbab5f">

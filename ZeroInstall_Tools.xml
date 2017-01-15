@@ -17,13 +17,13 @@ und der New Feed Wizard (leitet Sie durch den kompletten Feed-Erstellungsprozess
       <environment insert="." name="PATH"/>
     </requires>
     <command name="run" path="0publish-win.exe">
-      <runner command="run-gui" interface="http://0install.de/feeds/cli/cli.xml"/>
+      <runner command="run-gui" interface="http://repo.roscidus.com/cli/cli"/>
     </command>
     <command name="0publish" path="0publish.exe">
-      <runner command="run" interface="http://0install.de/feeds/cli/cli.xml"/>
+      <runner command="run" interface="http://repo.roscidus.com/cli/cli"/>
     </command>
     <command name="0capture" path="0capture.exe">
-      <runner command="run" interface="http://0install.de/feeds/cli/cli.xml"/>
+      <runner command="run" interface="http://repo.roscidus.com/cli/cli"/>
     </command>
     <implementation id="sha1new=b5352b1be9ca2f3f28efa87627ea628561f8f925" released="2014-04-20" stability="stable" version="2.6.0">
       <manifest-digest sha1new="b5352b1be9ca2f3f28efa87627ea628561f8f925" sha256="d4fdbd95bbeb989991fa1c30887236587bea16f70ad97f93d6559b8e93330a19" sha256new="2T633FN35OMJTEP2DQYIQ4RWLB56UFXXBLMX7E6WKWNY5EZTBIMQ"/>
@@ -151,13 +151,13 @@ und der New Feed Wizard (leitet Sie durch den kompletten Feed-Erstellungsprozess
     </implementation>
     <group>
       <command name="0publish" path="0publish.exe">
-        <runner command="run" interface="http://0install.de/feeds/cli/cli.xml" version="4.0.."/>
+        <runner command="run" interface="http://repo.roscidus.com/cli/cli" version="4.0.."/>
       </command>
       <command name="0capture" path="0capture.exe">
-        <runner command="run" interface="http://0install.de/feeds/cli/cli.xml" version="4.0.."/>
+        <runner command="run" interface="http://repo.roscidus.com/cli/cli" version="4.0.."/>
       </command>
       <command name="run" path="0publish-win.exe">
-        <runner command="run-gui" interface="http://0install.de/feeds/cli/cli.xml" version="4.0.."/>
+        <runner command="run-gui" interface="http://repo.roscidus.com/cli/cli" version="4.0.."/>
       </command>
       <implementation id="sha1new=3c2d9912a2491b4cc6efe98b0341cd4836d44515" released="2016-07-08" stability="stable" version="2.11.6">
         <manifest-digest sha1new="3c2d9912a2491b4cc6efe98b0341cd4836d44515" sha256="abf26f9359e33d013990c4b34ad45f96c175aaece205c2297863242bfaf101a4" sha256new="VPZG7E2Z4M6QCOMQYSZUVVC7S3AXLKXM4IC4EKLYMMSCX6XRAGSA"/>
@@ -204,10 +204,10 @@ und der New Feed Wizard (leitet Sie durch den kompletten Feed-Erstellungsprozess
       <environment insert="." name="PATH"/>
     </requires>
     <command name="0publish" path="0publish.exe">
-      <runner command="run" interface="http://0install.de/feeds/cli/cli.xml" version="4.0.."/>
+      <runner command="run" interface="http://repo.roscidus.com/cli/cli" version="4.0.."/>
     </command>
     <command name="run" path="0publish-win.exe">
-      <runner command="run-gui" interface="http://0install.de/feeds/cli/cli.xml" version="4.0.."/>
+      <runner command="run-gui" interface="http://repo.roscidus.com/cli/cli" version="4.0.."/>
     </command>
     <implementation id="sha1new=711bc38798f214f41ff4b970de7cecac153c28d6" license="LGPL v3 (GNU Lesser General Public License)" released="2016-12-19" stability="stable" version="2.12.1">
       <manifest-digest sha1new="711bc38798f214f41ff4b970de7cecac153c28d6" sha256="f4d8c7a59f368032fda73c4bba4e9cbd55f668f3029366bcfb8c5b5e007c9812" sha256new="6TMMPJM7G2ADF7NHHRF3UTU4XVK7M2HTAKJWNPH3RRNV4AD4TAJA"/>
