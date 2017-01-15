@@ -98,6 +98,18 @@
       <manifest-digest sha256new="4S3LSXNUUASYBPUFALDF5LL7SUGHLN4NZTFSRIKKUJJVH4L7AUWQ"/>
       <archive extract="gradle-3.1" href="https://services.gradle.org/distributions/gradle-3.1-bin.zip" size="68963781" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=af35ba60009dddd265395687760dbf2fd6456479" released="2016-11-14" stability="stable" version="3.2">
+      <manifest-digest sha256new="KQ3VTCX2DRCCJA3PNQ3MEW3NAXTSUY3FBMGC7NJU25B4UO5HWEPQ"/>
+      <archive extract="gradle-3.2" href="https://services.gradle.org/distributions/gradle-3.2-bin.zip" size="69147475" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=cc0020347de7bd0147a6e1e23e6076c810929545" released="2016-11-22" stability="stable" version="3.2.1">
+      <manifest-digest sha256new="ZLVNAFGWINTR4YO3OTE42IAERJYYJHUSSFHAEC2KRALOWE7QD3VA"/>
+      <archive extract="gradle-3.2.1" href="https://services.gradle.org/distributions/gradle-3.2.1-bin.zip" size="69149629" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=6951992d2bb91a6b89005d9f0ba946f0f6a21cde" released="2017-01-03" stability="stable" version="3.3">
+      <manifest-digest sha256new="FVMNEG7RRHVNT4SCM7IA5YCR64IQSHBAO4U2BGKTGS66WHBVSLZA"/>
+      <archive extract="gradle-3.3" href="https://services.gradle.org/distributions/gradle-3.3-bin.zip" size="70120398" type="application/zip"/>
+    </implementation>
   </group>
   <entry-point binary-name="gradle" command="run"/>
 </interface>
