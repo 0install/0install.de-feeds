@@ -6,6 +6,7 @@
   <category>Network</category>
   <category>Utility</category>
   <needs-terminal />
+  <feed-for interface="http://repo.roscidus.com/utils/curl" />
   <group main="curl.exe">
     <implementation arch="Windows-i486" version="7.42.1" stability="stable" id="sha1new=a2058fe58c8796b688f356eb5ee0e3b128d4183e">
       <manifest-digest sha1new="a2058fe58c8796b688f356eb5ee0e3b128d4183e" sha256="9659a87dfa00877278037f6bab9af1fa8d9e537c61c41b9559db7889566fb227" sha256new="SZM2Q7P2ACDXE6ADP5V2XGXR7KGZ4U34MHCBXFKZ3N4ISVTPWITQ" />
