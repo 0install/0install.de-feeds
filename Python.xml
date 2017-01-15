@@ -1,94 +1,145 @@
-<?xml version="1.0" encoding="utf-8"?>
-<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/Python.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<?xml version="1.0" ?>
+<interface uri="http://0install.de/feeds/Python.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
   <name>Python</name>
-  <summary xml:lang="en">portable Python for Windows</summary>
-  <description xml:lang="en">portable Python for Windows with PyWin32, Py2Exe and PyGTK bindings.</description>
-  <icon href="http://0install.de/feed-icons/Python.png" type="image/png" />
-  <icon href="http://0install.de/feed-icons/Python.ico" type="image/vnd.microsoft.icon" />
-  <category>Development</category>
-  <feed-for interface="http://repo.roscidus.com/python/python" />
+  <summary xml:lang="en">interactive high-level object-oriented language</summary>
+  <description xml:lang="en">
+Python is an interpreted, interactive, object-oriented programming language. It
+combines remarkable power with very clear syntax, and isn't difficult to learn.
+It has modules, classes, exceptions, very high level data types, and dynamic
+typing. There are interfaces to many system calls and libraries, as well as to
+various windowing systems (Tk, Mac, MFC, GTK+, Qt, wxWindows). New built-in
+modules are easily written in C or C++. Python is also usable as an extension
+ language for applications that need a programmable interface.</description>
+  <icon href="http://0install.de/feed-icons/Python.png" type="image/png"/>
+  <icon href="http://0install.de/feed-icons/Python.ico" type="image/vnd.microsoft.icon"/>
+  <homepage>http://www.python.org/</homepage>
+  <needs-terminal/>
+  <feed-for interface="http://repo.roscidus.com/python/python"/>
   <group license="Python License">
-    <environment name="PATH" insert="." />
-    <environment name="PYTHONHOME" insert="." mode="replace" />
-    <command name="run" path="python.exe" />
-    <command name="run-gui" path="pythonw.exe" />
-    <implementation arch="Windows-*" version="2.7.3" stability="stable" id="sha1new=ba49095fc6d4a65a1837cafab6e145006eaf3d7f">
-      <manifest-digest sha1new="ba49095fc6d4a65a1837cafab6e145006eaf3d7f" sha256="778015e019d05e2bb1608cc8289012a6d094881333a525fac0669bd3faba93ee" sha256new="O6ABLYAZ2BPCXMLARTECREASU3IJJCATGOSSL6WAM2N5H6V2SPXA" />
-      <archive href="python-2.7.3-win32-portable.tar.lzma" size="9265517" type="application/x-lzma-compressed-tar" />
+    <environment insert="." name="PATH"/>
+    <environment insert="." mode="replace" name="PYTHONHOME"/>
+    <command name="run" path="python.exe"/>
+    <command name="run-gui" path="pythonw.exe"/>
+    <implementation arch="Windows-*" id="sha1new=ba49095fc6d4a65a1837cafab6e145006eaf3d7f" stability="stable" version="2.7.3">
+      <manifest-digest sha1new="ba49095fc6d4a65a1837cafab6e145006eaf3d7f" sha256="778015e019d05e2bb1608cc8289012a6d094881333a525fac0669bd3faba93ee" sha256new="O6ABLYAZ2BPCXMLARTECREASU3IJJCATGOSSL6WAM2N5H6V2SPXA"/>
+      <archive href="python-2.7.3-win32-portable.tar.lzma" size="9265517" type="application/x-lzma-compressed-tar"/>
     </implementation>
-    <implementation arch="Windows-*" version="2.7.6.1" stability="stable" id="sha1new=6d319d86607e74a8d3a77813cbb762d24dedcfee">
-      <manifest-digest sha1new="6d319d86607e74a8d3a77813cbb762d24dedcfee" sha256="82873a4469e435e0af8e4a008275621962cff7d55e83f0f63dcf4ea501fc37d4" sha256new="QKDTURDJ4Q26BL4OJIAIE5LCDFRM756VL2B7B5R5Z5HKKAP4G7KA" />
-      <archive href="python-2.7.6.1-win32-portable.7z" size="35308007" type="application/x-7z-compressed" />
+    <implementation arch="Windows-*" id="sha1new=6d319d86607e74a8d3a77813cbb762d24dedcfee" stability="stable" version="2.7.6.1">
+      <manifest-digest sha1new="6d319d86607e74a8d3a77813cbb762d24dedcfee" sha256="82873a4469e435e0af8e4a008275621962cff7d55e83f0f63dcf4ea501fc37d4" sha256new="QKDTURDJ4Q26BL4OJIAIE5LCDFRM756VL2B7B5R5Z5HKKAP4G7KA"/>
+      <archive href="python-2.7.6.1-win32-portable.7z" size="35308007" type="application/x-7z-compressed"/>
     </implementation>
-    <implementation arch="Windows-*" version="3.2.5.1" stability="stable" id="sha1new=31548215cd2c050bacd717d600414c506732ecbc">
-      <manifest-digest sha1new="31548215cd2c050bacd717d600414c506732ecbc" sha256="18797ec4d535eb0fe4103cae60db69f0bffb530a04ff49cb17b516174c55d079" sha256new="DB4X5RGVGXVQ7ZAQHSXGBW3J6C77WUYKAT7UTSYXWULBOTCV2B4Q" />
-      <archive href="python-3.2.5.1-win32-portable.7z" size="11475532" type="application/x-7z-compressed" />
+    <implementation arch="Windows-*" id="sha1new=31548215cd2c050bacd717d600414c506732ecbc" stability="stable" version="3.2.5.1">
+      <manifest-digest sha1new="31548215cd2c050bacd717d600414c506732ecbc" sha256="18797ec4d535eb0fe4103cae60db69f0bffb530a04ff49cb17b516174c55d079" sha256new="DB4X5RGVGXVQ7ZAQHSXGBW3J6C77WUYKAT7UTSYXWULBOTCV2B4Q"/>
+      <archive href="python-3.2.5.1-win32-portable.7z" size="11475532" type="application/x-7z-compressed"/>
     </implementation>
-    <group>
-      <command name="easy_install" path="python.exe">
-        <arg>-m</arg>
-        <arg>easy_install</arg>
-      </command>
-      <command name="pip" path="python.exe">
-        <arg>-m</arg>
-        <arg>pip</arg>
-      </command>
-      <group>
-        <requires interface="http://0install.de/feeds/MSVC90.xml">
-          <environment name="PATH" insert="." mode="append" />
-        </requires>
-        <implementation arch="Windows-i486" version="2.7.13" released="2016-12-17" stability="stable" id="sha1new=ac5eab58fd420174ed704525bcf39f44a411b3c2">
-          <manifest-digest sha1new="ac5eab58fd420174ed704525bcf39f44a411b3c2" sha256="445692a3512fc134820565fbfb8990540942e17108c55eb171c3423a1c0a5af8" sha256new="IRLJFI2RF7ATJAQFMX57XCMQKQEUFYLRBDCV5MLRYNBDUHAKLL4A" />
-          <archive href="python-2.7.13-win32.7z" size="15143991" type="application/x-7z-compressed" />
-        </implementation>
-        <implementation arch="Windows-x86_64" version="2.7.13" released="2016-12-17" stability="stable" id="sha1new=b22aa76f4f999279a19a097dc082d13fd462f3e8">
-          <manifest-digest sha1new="b22aa76f4f999279a19a097dc082d13fd462f3e8" sha256="f2fb6073d638f2297dbef40ee417436ae4356fdb0ce715edfe37ce8530ca1ca5" sha256new="6L5WA46WHDZCS7N66QHOIF2DNLSDK363BTTRL3P6G7HIKMGKDSSQ" />
-          <archive href="python-2.7.13-win64.7z" size="15342195" type="application/x-7z-compressed" />
-        </implementation>
-      </group>
-      <implementation arch="Windows-i486" version="3.6.0" released="2016-12-23" stability="stable" id="sha1new=b4a5a9029912b117df6a29d94e2b3d3ffb588390">
-        <manifest-digest sha1new="b4a5a9029912b117df6a29d94e2b3d3ffb588390" sha256="e7508222389b562ce49a00d5ca47bed809e0c812bc11c13d9b947cea0041bf0d" sha256new="45IIEIRYTNLCZZE2ADK4UR563AE6BSASXQI4CPM3SR6OUACBX4GQ" />
-        <archive href="python-3.6.0-win32.7z" size="16558737" type="application/x-7z-compressed" />
-      </implementation>
-      <implementation arch="Windows-x86_64" version="3.6.0" released="2016-12-23" stability="stable" id="sha1new=b8349e45d855d07cfea31b36d4b562126a08ace2">
-        <manifest-digest sha1new="b8349e45d855d07cfea31b36d4b562126a08ace2" sha256="f6158b18d0c679decc8f57ea903dda22a94f96ccc74260b13d9f0aa0f766f84c" sha256new="6YKYWGGQYZ455TEPK7VJAPO2EKUU7FWMY5BGBMJ5T4FKB53G7BGA" />
-        <archive href="python-3.6.0-win64.7z" size="17872444" type="application/x-7z-compressed" />
-      </implementation>
-    </group>
   </group>
-  <entry-point command="run" binary-name="python">
-    <needs-terminal />
+  <group license="Python License">
+    <requires importance="recommended" interface="http://repo.roscidus.com/python/python-win32"/>
+    <requires importance="recommended" interface="http://repo.roscidus.com/python/python-gobject"/>
+    <environment insert="." name="PATH"/>
+    <environment insert="DLLs" name="PATH"/>
+    <environment insert="Windows/system32" name="PATH"/>
+    <environment insert="." mode="replace" name="PYTHONHOME"/>
+    <command name="run" path="python.exe"/>
+    <command name="run-gui" path="pythonw.exe"/>
+    <command name="easy_install" path="python.exe">
+      <arg>-m</arg>
+      <arg>easy_install</arg>
+    </command>
+    <command name="pip" path="python.exe">
+      <arg>-m</arg>
+      <arg>pip</arg>
+    </command>
+    <implementation arch="Windows-x86_64" id="sha1new=7f03fec8f900d103361e9a8b2a1080aa413ef431" released="2016-12-17" stability="testing" version="2.7.13">
+      <manifest-digest sha1new="7f03fec8f900d103361e9a8b2a1080aa413ef431" sha256="8f9edf2bad1d0d67bcf8976e5f95ac5bb9cbd2d5d07f67648e47bcd36f86f918" sha256new="R6PN6K5NDUGWPPHYS5XF7FNMLO44XUWV2B7WOZEOI66NG34G7EMA"/>
+      <archive extract="SourceDir" href="https://www.python.org/ftp/python/2.7.13/python-2.7.13.amd64.msi" size="20082688" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=74a5e144479a90556c6e2339dd5c473559f18489" released="2016-12-17" stability="testing" version="2.7.13">
+      <manifest-digest sha1new="74a5e144479a90556c6e2339dd5c473559f18489" sha256="8494fa677e852ef49a6025863e88cb71029b2584450c0fa5b133cc1c6ca036b1" sha256new="QSKPUZ36QUXPJGTAEWDD5CGLOEBJWJMEIUGA7JNRGPGBY3FAG2YQ"/>
+      <archive extract="SourceDir" href="https://www.python.org/ftp/python/2.7.13/python-2.7.13.msi" size="19161088" type="application/x-msi"/>
+    </implementation>
+  </group>
+  <group license="Python License">
+    <requires importance="recommended" interface="http://repo.roscidus.com/python/python-win32"/>
+    <environment insert="." name="PATH"/>
+    <environment insert="DLLs" name="PATH"/>
+    <environment insert="Win/System" name="PATH"/>
+    <environment insert="." mode="replace" name="PYTHONHOME"/>
+    <command name="run" path="python.exe"/>
+    <command name="run-gui" path="pythonw.exe"/>
+    <command name="easy_install" path="python.exe">
+      <arg>-m</arg>
+      <arg>easy_install</arg>
+    </command>
+    <command name="pip" path="python.exe">
+      <arg>-m</arg>
+      <arg>pip</arg>
+    </command>
+    <implementation arch="Windows-x86_64" id="sha1new=34605be722a1fafa19bdc5798a4f7585b640e2d0" released="2015-02-24" stability="testing" version="3.4.3">
+      <manifest-digest sha1new="34605be722a1fafa19bdc5798a4f7585b640e2d0" sha256="20a1b040a122b43a0f9080e57efb5a8e7451b909b7399428500ad71407dd304e" sha256new="ECQ3AQFBEK2DUD4QQDSX5622RZ2FDOIJW44ZIKCQBLLRIB65GBHA"/>
+      <archive extract="SourceDir" href="https://www.python.org/ftp/python/3.4.3/python-3.4.3.amd64.msi" size="25550848" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=173ef9fd3010d8e2e2ee19c56e03d93e794b6011" released="2015-02-24" stability="testing" version="3.4.3">
+      <manifest-digest sha1new="173ef9fd3010d8e2e2ee19c56e03d93e794b6011" sha256="13b8550d444d6659ec6685c17a674a671de52c4609a1ecc6731ef8c726664bf1" sha256new="CO4FKDKEJVTFT3DGQXAXUZ2KM4O6KLCGBGQ6ZRTTD34MOJTGJPYQ"/>
+      <archive extract="SourceDir" href="https://www.python.org/ftp/python/3.4.3/python-3.4.3.msi" size="24846336" type="application/x-msi"/>
+    </implementation>
+  </group>
+  <group license="Python License">
+    <requires importance="recommended" interface="http://repo.roscidus.com/python/python-win32"/>
+    <environment insert="." name="PATH"/>
+    <environment insert="." mode="replace" name="PYTHONHOME"/>
+    <command name="run" path="python.exe"/>
+    <command name="run-gui" path="pythonw.exe"/>
+    <command name="easy_install" path="python.exe">
+      <arg>-m</arg>
+      <arg>easy_install</arg>
+    </command>
+    <command name="pip" path="python.exe">
+      <arg>-m</arg>
+      <arg>pip</arg>
+    </command>
+    <implementation arch="Windows-x86_64" id="sha1new=514728bfbf5bc6d48bcd7f65ac7398ede1f1262b" released="2016-12-23" stability="testing" version="3.6.0">
+      <manifest-digest sha1new="514728bfbf5bc6d48bcd7f65ac7398ede1f1262b" sha256="9cf1559215b4881c342a43fe21ceb86343693ae8f9125ffaaa1d98240585fe72" sha256new="TTYVLEQVWSEBYNBKIP7CDTVYMNBWSOXI7EJF76VKDWMCIBMF7ZZA"/>
+      <archive href="python-3.6.0-win64.tar.bz2" size="27563402" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=10b5373e267dce5ce1ff957298830b12e35894f3" released="2016-12-23" stability="testing" version="3.6.0">
+      <manifest-digest sha1new="10b5373e267dce5ce1ff957298830b12e35894f3" sha256="868dfce0f862867167b068f0420375cdba15d3b570059561a1c801c46bb7ff57" sha256new="Q2G7ZYHYMKDHCZ5QNDYEEA3VZW5BLU5VOACZKYNBZAA4I25X75LQ"/>
+      <archive href="python-3.6.0-win32.tar.bz2" size="26689438" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+  </group>
+  <entry-point binary-name="python" command="run">
+    <needs-terminal/>
     <name xml:lang="en">Python command-line interpreter</name>
     <name xml:lang="de">Python Befehlszeileninterpreter</name>
   </entry-point>
-  <entry-point command="run-gui" binary-name="pythonw">
+  <entry-point binary-name="pythonw" command="run-gui">
     <name xml:lang="en">Python GUI interpreter</name>
     <name xml:lang="de">Python Grafischer Interpreter</name>
   </entry-point>
-  <entry-point command="easy_install" binary-name="easy_install">
-    <needs-terminal />
+  <entry-point binary-name="easy_install" command="easy_install">
+    <needs-terminal/>
     <name xml:lang="en">Easy Install</name>
   </entry-point>
-  <entry-point command="pip" binary-name="pip">
-    <needs-terminal />
+  <entry-point binary-name="pip" command="pip">
+    <needs-terminal/>
     <name xml:lang="en">PIP</name>
   </entry-point>
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
     <file-type id="Python.File">
       <description xml:lang="en">Python File</description>
-      <verb name="open" args="&quot;%1&quot; %*" />
-      <extension value=".py" mime-type="text/plain" />
+      <verb args="&quot;%1&quot; %*" name="open"/>
+      <extension mime-type="text/plain" value=".py"/>
     </file-type>
     <file-type id="Python.NoConFile">
       <description xml:lang="en">Python File (no console)</description>
-      <verb name="open" command="run-gui" args="&quot;%1&quot; %*" />
-      <extension value=".pyw" mime-type="text/plain" />
+      <verb args="&quot;%1&quot; %*" command="run-gui" name="open"/>
+      <extension mime-type="text/plain" value=".pyw"/>
     </file-type>
     <file-type id="Python.CompiledFile">
       <description xml:lang="en">Compiled Python File</description>
-      <verb name="open" args="&quot;%1&quot; %*" />
-      <extension value=".pyc" />
-      <extension value=".pyo" />
+      <verb args="&quot;%1&quot; %*" name="open"/>
+      <extension value=".pyc"/>
+      <extension value=".pyo"/>
     </file-type>
   </capabilities>
 </interface>
