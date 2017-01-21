@@ -16,24 +16,6 @@ modules are easily written in C or C++. Python is also usable as an extension
   <needs-terminal/>
   <feed-for interface="http://repo.roscidus.com/python/python"/>
   <group license="Python License">
-    <environment insert="." name="PATH"/>
-    <environment insert="." mode="replace" name="PYTHONHOME"/>
-    <command name="run" path="python.exe"/>
-    <command name="run-gui" path="pythonw.exe"/>
-    <implementation arch="Windows-*" id="sha1new=ba49095fc6d4a65a1837cafab6e145006eaf3d7f" stability="stable" version="2.7.3">
-      <manifest-digest sha1new="ba49095fc6d4a65a1837cafab6e145006eaf3d7f" sha256="778015e019d05e2bb1608cc8289012a6d094881333a525fac0669bd3faba93ee" sha256new="O6ABLYAZ2BPCXMLARTECREASU3IJJCATGOSSL6WAM2N5H6V2SPXA"/>
-      <archive href="python-2.7.3-win32-portable.tar.lzma" size="9265517" type="application/x-lzma-compressed-tar"/>
-    </implementation>
-    <implementation arch="Windows-*" id="sha1new=6d319d86607e74a8d3a77813cbb762d24dedcfee" stability="stable" version="2.7.6.1">
-      <manifest-digest sha1new="6d319d86607e74a8d3a77813cbb762d24dedcfee" sha256="82873a4469e435e0af8e4a008275621962cff7d55e83f0f63dcf4ea501fc37d4" sha256new="QKDTURDJ4Q26BL4OJIAIE5LCDFRM756VL2B7B5R5Z5HKKAP4G7KA"/>
-      <archive href="python-2.7.6.1-win32-portable.7z" size="35308007" type="application/x-7z-compressed"/>
-    </implementation>
-    <implementation arch="Windows-*" id="sha1new=31548215cd2c050bacd717d600414c506732ecbc" stability="stable" version="3.2.5.1">
-      <manifest-digest sha1new="31548215cd2c050bacd717d600414c506732ecbc" sha256="18797ec4d535eb0fe4103cae60db69f0bffb530a04ff49cb17b516174c55d079" sha256new="DB4X5RGVGXVQ7ZAQHSXGBW3J6C77WUYKAT7UTSYXWULBOTCV2B4Q"/>
-      <archive href="python-3.2.5.1-win32-portable.7z" size="11475532" type="application/x-7z-compressed"/>
-    </implementation>
-  </group>
-  <group license="Python License">
     <requires importance="recommended" interface="http://repo.roscidus.com/python/python-win32"/>
     <requires importance="recommended" interface="http://repo.roscidus.com/python/python-gobject"/>
     <environment insert="." name="PATH"/>
@@ -50,11 +32,11 @@ modules are easily written in C or C++. Python is also usable as an extension
       <arg>-m</arg>
       <arg>pip</arg>
     </command>
-    <implementation arch="Windows-x86_64" id="sha1new=7f03fec8f900d103361e9a8b2a1080aa413ef431" released="2016-12-17" stability="testing" version="2.7.13">
+    <implementation arch="Windows-x86_64" id="sha1new=7f03fec8f900d103361e9a8b2a1080aa413ef431" released="2016-12-17" stability="stable" version="2.7.13">
       <manifest-digest sha1new="7f03fec8f900d103361e9a8b2a1080aa413ef431" sha256="8f9edf2bad1d0d67bcf8976e5f95ac5bb9cbd2d5d07f67648e47bcd36f86f918" sha256new="R6PN6K5NDUGWPPHYS5XF7FNMLO44XUWV2B7WOZEOI66NG34G7EMA"/>
       <archive extract="SourceDir" href="https://www.python.org/ftp/python/2.7.13/python-2.7.13.amd64.msi" size="20082688" type="application/x-msi"/>
     </implementation>
-    <implementation arch="Windows-i486" id="sha1new=74a5e144479a90556c6e2339dd5c473559f18489" released="2016-12-17" stability="testing" version="2.7.13">
+    <implementation arch="Windows-i486" id="sha1new=74a5e144479a90556c6e2339dd5c473559f18489" released="2016-12-17" stability="stable" version="2.7.13">
       <manifest-digest sha1new="74a5e144479a90556c6e2339dd5c473559f18489" sha256="8494fa677e852ef49a6025863e88cb71029b2584450c0fa5b133cc1c6ca036b1" sha256new="QSKPUZ36QUXPJGTAEWDD5CGLOEBJWJMEIUGA7JNRGPGBY3FAG2YQ"/>
       <archive extract="SourceDir" href="https://www.python.org/ftp/python/2.7.13/python-2.7.13.msi" size="19161088" type="application/x-msi"/>
     </implementation>
@@ -75,11 +57,11 @@ modules are easily written in C or C++. Python is also usable as an extension
       <arg>-m</arg>
       <arg>pip</arg>
     </command>
-    <implementation arch="Windows-x86_64" id="sha1new=34605be722a1fafa19bdc5798a4f7585b640e2d0" released="2015-02-24" stability="testing" version="3.4.3">
+    <implementation arch="Windows-x86_64" id="sha1new=34605be722a1fafa19bdc5798a4f7585b640e2d0" released="2015-02-24" stability="stable" version="3.4.3">
       <manifest-digest sha1new="34605be722a1fafa19bdc5798a4f7585b640e2d0" sha256="20a1b040a122b43a0f9080e57efb5a8e7451b909b7399428500ad71407dd304e" sha256new="ECQ3AQFBEK2DUD4QQDSX5622RZ2FDOIJW44ZIKCQBLLRIB65GBHA"/>
       <archive extract="SourceDir" href="https://www.python.org/ftp/python/3.4.3/python-3.4.3.amd64.msi" size="25550848" type="application/x-msi"/>
     </implementation>
-    <implementation arch="Windows-i486" id="sha1new=173ef9fd3010d8e2e2ee19c56e03d93e794b6011" released="2015-02-24" stability="testing" version="3.4.3">
+    <implementation arch="Windows-i486" id="sha1new=173ef9fd3010d8e2e2ee19c56e03d93e794b6011" released="2015-02-24" stability="stable" version="3.4.3">
       <manifest-digest sha1new="173ef9fd3010d8e2e2ee19c56e03d93e794b6011" sha256="13b8550d444d6659ec6685c17a674a671de52c4609a1ecc6731ef8c726664bf1" sha256new="CO4FKDKEJVTFT3DGQXAXUZ2KM4O6KLCGBGQ6ZRTTD34MOJTGJPYQ"/>
       <archive extract="SourceDir" href="https://www.python.org/ftp/python/3.4.3/python-3.4.3.msi" size="24846336" type="application/x-msi"/>
     </implementation>
@@ -98,11 +80,11 @@ modules are easily written in C or C++. Python is also usable as an extension
       <arg>-m</arg>
       <arg>pip</arg>
     </command>
-    <implementation arch="Windows-x86_64" id="sha1new=514728bfbf5bc6d48bcd7f65ac7398ede1f1262b" released="2016-12-23" stability="testing" version="3.6.0">
+    <implementation arch="Windows-x86_64" id="sha1new=514728bfbf5bc6d48bcd7f65ac7398ede1f1262b" released="2016-12-23" stability="stable" version="3.6.0">
       <manifest-digest sha1new="514728bfbf5bc6d48bcd7f65ac7398ede1f1262b" sha256="9cf1559215b4881c342a43fe21ceb86343693ae8f9125ffaaa1d98240585fe72" sha256new="TTYVLEQVWSEBYNBKIP7CDTVYMNBWSOXI7EJF76VKDWMCIBMF7ZZA"/>
       <archive href="python-3.6.0-win64.tar.bz2" size="27563402" type="application/x-bzip-compressed-tar"/>
     </implementation>
-    <implementation arch="Windows-i486" id="sha1new=10b5373e267dce5ce1ff957298830b12e35894f3" released="2016-12-23" stability="testing" version="3.6.0">
+    <implementation arch="Windows-i486" id="sha1new=10b5373e267dce5ce1ff957298830b12e35894f3" released="2016-12-23" stability="stable" version="3.6.0">
       <manifest-digest sha1new="10b5373e267dce5ce1ff957298830b12e35894f3" sha256="868dfce0f862867167b068f0420375cdba15d3b570059561a1c801c46bb7ff57" sha256new="Q2G7ZYHYMKDHCZ5QNDYEEA3VZW5BLU5VOACZKYNBZAA4I25X75LQ"/>
       <archive href="python-3.6.0-win32.tar.bz2" size="26689438" type="application/x-bzip-compressed-tar"/>
     </implementation>
