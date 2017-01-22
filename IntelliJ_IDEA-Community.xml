@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface uri="http://0install.de/feeds/IntelliJ_IDEA-Community.xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>JetBrains IntelliJ IDEA Community</name>
+  <summary xml:lang="en">Capabale and Ergonomic IDE for JVM</summary>
+  <icon href="http://0install.de/feed-icons/IntelliJ_IDEA.ico" type="image/vnd.microsoft.icon" />
+  <icon href="http://0install.de/feed-icons/IntelliJ_IDEA.png" type="image/png" />
+  <homepage>http://www.jetbrains.com/idea/</homepage>
+  <category>Development</category>
+  <group>
+    <requires interface="http://repo.roscidus.com/java/openjdk-jdk">
+      <environment name="CLASS_PATH" insert="lib/tools.jar" />
+    </requires>
+    <environment name="IDE_HOME" insert="." />
+    <environment name="PATH" insert="bin" />
+    <environment name="CLASS_PATH" insert="lib/bootstrap.jar" />
+    <environment name="CLASS_PATH" insert="lib/extensions.jar" />
+    <environment name="CLASS_PATH" insert="lib/util.jar" />
+    <environment name="CLASS_PATH" insert="lib/jdom.jar" />
+    <environment name="CLASS_PATH" insert="lib/log4j.jar" />
+    <environment name="CLASS_PATH" insert="lib/trove4j.jar" />
+    <environment name="CLASS_PATH" insert="lib/jna.jar" />
+    <command name="run">
+      <runner interface="http://repo.roscidus.com/java/openjdk-jdk" command="java-gui">
+        <arg>-server</arg>
+        <arg>-Xms128m</arg>
+        <arg>-Xmx512m</arg>
+        <arg>-XX:ReservedCodeCacheSize=240m</arg>
+        <arg>-XX:+UseConcMarkSweepGC</arg>
+        <arg>-XX:SoftRefLRUPolicyMSPerMB=50</arg>
+        <arg>-ea</arg>
+        <arg>-Dsun.io.useCanonCaches=false</arg>
+        <arg>-Djava.net.preferIPv4Stack=true</arg>
+        <arg>-XX:+HeapDumpOnOutOfMemoryError</arg>
+        <arg>-XX:-OmitStackTraceInFastThrow</arg>
+        <arg>-Xbootclasspath/a:$IDE_HOME/lib/boot.jar</arg>
+        <arg>-Didea.paths.selector=$IDEA_PATHS_SELECTOR</arg>
+        <arg>-cp</arg>
+        <arg>$CLASS_PATH</arg>
+        <arg>com.intellij.idea.Main</arg>
+      </runner>
+    </command>
+    <implementation version="2016.3.2" stability="stable" id="sha1new=3e49f285296181a3ad3792a4de1af6d0a6844aaa">
+      <environment name="IDEA_PATHS_SELECTOR" value="IdeaIC2016.3" />
+      <manifest-digest sha1new="3e49f285296181a3ad3792a4de1af6d0a6844aaa" sha256="be72f6b099da147c2625ed07449fd93344e4fd56012cba19fad1db96f68ad070" sha256new="XZZPNMEZ3IKHYJRF5UDUJH6ZGNCOJ7KWAEWLUGP22HNZN5UK2BYA" />
+      <archive href="https://download.jetbrains.com/idea/ideaIC-2016.3.2-no-jdk.tar.gz" size="338110499" type="application/x-compressed-tar" extract="idea-IC-163.10154.41" />
+    </implementation>
+  </group>
+  <entry-point command="run" binary-name="idea" />
+  <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <file-type id="Idea.IntelliJIdeaProjectFile">
+      <description xml:lang="en">IntelliJ IDEA Project File</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".ipr" />
+    </file-type>
+    <file-type id="Idea.JavaFile">
+      <description xml:lang="en">Java source file</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".java" perceived-type="text" />
+    </file-type>
+    <file-type id="Idea.GroovyFile">
+      <description xml:lang="en">Groocy source file</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".groovy" perceived-type="text" />
+    </file-type>
+    <file-type id="Idea.KotlinFile">
+      <description xml:lang="en">Kotlin source file</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".kt" perceived-type="text" />
+    </file-type>
+  </capabilities>
+</interface>

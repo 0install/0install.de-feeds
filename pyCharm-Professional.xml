@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface uri="http://0install.de/feeds/pyCharm-Professional.xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>JetBrains PyCharm Professional</name>
+  <summary xml:lang="en">Python IDE for Professional Developers</summary>
+  <icon href="http://0install.de/feed-icons/pyCharm.ico" type="image/vnd.microsoft.icon" />
+  <icon href="http://0install.de/feed-icons/pyCharm.png" type="image/png" />
+  <homepage>http://www.jetbrains.com/pycharm/</homepage>
+  <category>Development</category>
+  <group>
+    <environment name="IDE_HOME" insert="." />
+    <environment name="PATH" insert="bin" />
+    <environment name="CLASS_PATH" insert="lib/bootstrap.jar" />
+    <environment name="CLASS_PATH" insert="lib/extensions.jar" />
+    <environment name="CLASS_PATH" insert="lib/util.jar" />
+    <environment name="CLASS_PATH" insert="lib/jdom.jar" />
+    <environment name="CLASS_PATH" insert="lib/log4j.jar" />
+    <environment name="CLASS_PATH" insert="lib/trove4j.jar" />
+    <environment name="CLASS_PATH" insert="lib/jna.jar" />
+    <environment name="CLASS_PATH" insert="jre/lib/tools.jar" />
+    <environment name="IDEA_PLATFORM_PREFIX" value="Python" />
+    <command name="run">
+      <runner interface="http://repo.roscidus.com/java/openjdk-jre" command="run-gui">
+        <arg>-server</arg>
+        <arg>-Xms128m</arg>
+        <arg>-Xmx512m</arg>
+        <arg>-XX:ReservedCodeCacheSize=240m</arg>
+        <arg>-XX:+UseConcMarkSweepGC</arg>
+        <arg>-XX:SoftRefLRUPolicyMSPerMB=50</arg>
+        <arg>-ea</arg>
+        <arg>-Dsun.io.useCanonCaches=false</arg>
+        <arg>-Djava.net.preferIPv4Stack=true</arg>
+        <arg>-XX:+HeapDumpOnOutOfMemoryError</arg>
+        <arg>-XX:-OmitStackTraceInFastThrow</arg>
+        <arg>-Xbootclasspath/a:$IDE_HOME/lib/boot.jar</arg>
+        <arg>-Didea.paths.selector=$IDEA_PATHS_SELECTOR</arg>
+        <arg>-Didea.platform.prefix=$IDEA_PLATFORM_PREFIX</arg>
+        <arg>-cp</arg>
+        <arg>$CLASS_PATH</arg>
+        <arg>com.intellij.idea.Main</arg>
+      </runner>
+    </command>
+    <implementation version="2016.3.2" stability="stable" id="sha1new=d41ba8055ec9593f80279c5d50add962335c9872">
+      <environment name="IDEA_PATHS_SELECTOR" value="PyCharm2016.3" />
+      <manifest-digest sha1new="d41ba8055ec9593f80279c5d50add962335c9872" sha256="a98f246aeef701150108e119587db61a5441c1fce58f71e0c1dc471095f1dd79" sha256new="VGHSI2XO64ARKAII4EMVQ7NWDJKEDQP44WHXDYGB3RDRBFPR3V4Q" />
+      <archive href="https://download.jetbrains.com/python/pycharm-professional-2016.3.2.tar.gz" size="283150795" type="application/x-compressed-tar" extract="pycharm-2016.3.2" />
+    </implementation>
+  </group>
+  <entry-point command="run" binary-name="pycharm" />
+  <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <file-type id="PyCharm.IntelliJIdeaProjectFile">
+      <description xml:lang="en">IntelliJ IDEA Project File</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".ipr" />
+    </file-type>
+    <file-type id="PyCharm.PythonFile">
+      <description xml:lang="en">Python source file</description>
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".py" perceived-type="text" />
+    </file-type>
+  </capabilities>
+</interface>
