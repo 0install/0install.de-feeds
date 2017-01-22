@@ -83,7 +83,7 @@
     <needs-terminal/>
     <name xml:lang="en">Java command-line runner</name>
   </entry-point>
-  <entry-point command="run-gui">
+  <entry-point binary-name="javaw" command="run-gui">
     <name xml:lang="en">Java GUI runner</name>
   </entry-point>
   <entry-point command="javaws">
