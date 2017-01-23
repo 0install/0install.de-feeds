@@ -9,41 +9,8 @@
   <icon href="http://0install.de/feed-icons/IronPython.png" type="image/png" />
   <icon href="http://0install.de/feed-icons/IronPython.ico" type="image/vnd.microsoft.icon" />
   <category>Development</category>
-  <group license="The Apache License v2">
-    <group arch="Windows-x86_64">
-      <command name="run" path="ipy64.exe">
-        <runner interface="http://repo.roscidus.com/cli/netfx" command="run" />
-      </command>
-      <command name="ipyw" path="ipyw64.exe">
-        <runner interface="http://repo.roscidus.com/cli/netfx" command="run-gui" />
-      </command>
-      <implementation version="2.6.2" released="2010-10-21" stability="stable" id="v262_x64">
-        <manifest-digest sha1new="733f19e64d46ae61841845d880907f8317dac33d" sha256="6cb1b019512da2d93c6917a801d8376628e281f5c0cd522153c575f141daeba7" sha256new="NSY3AGKRFWRNSPDJC6UADWBXMYUOFAPVYDGVEIKTYV27CQO25OTQ" />
-        <archive href="IronPython-2.6.2-Bin-Net20.zip" size="2997345" type="application/zip" extract="IronPython-2.6.2" />
-      </implementation>
-      <implementation version="2.7.3" released="2012-07-06" stability="stable" id="v273_x64">
-        <manifest-digest sha1new="317103526b3c028055325ada3d95833e18b109e5" sha256="e9d6a623ac5af6955c32552a4e8e6a1c22ddcd9327195aafed79238268e9a17a" sha256new="5HLKMI5MLL3JKXBSKUVE5DTKDQRN3TMTE4MVVL7NPERYE2HJUF5A" />
-        <archive href="IronPython-2.7.3.zip" size="11293317" type="application/zip" extract="IronPython-2.7.3" />
-      </implementation>
-    </group>
-    <group>
-      <command name="run" path="ipy.exe">
-        <runner interface="http://repo.roscidus.com/cli/cli" command="run" />
-      </command>
-      <command name="ipyw" path="ipyw.exe">
-        <runner interface="http://repo.roscidus.com/cli/cli" command="run-gui" />
-      </command>
-      <implementation version="2.6.2" released="2010-10-21" stability="stable" id="v262_x86">
-        <manifest-digest sha1new="733f19e64d46ae61841845d880907f8317dac33d" sha256="6cb1b019512da2d93c6917a801d8376628e281f5c0cd522153c575f141daeba7" sha256new="NSY3AGKRFWRNSPDJC6UADWBXMYUOFAPVYDGVEIKTYV27CQO25OTQ" />
-        <archive href="IronPython-2.6.2-Bin-Net20.zip" size="2997345" type="application/zip" extract="IronPython-2.6.2" />
-      </implementation>
-      <implementation version="2.7.3" released="2012-07-06" stability="stable" id="v273_x86">
-        <manifest-digest sha1new="317103526b3c028055325ada3d95833e18b109e5" sha256="e9d6a623ac5af6955c32552a4e8e6a1c22ddcd9327195aafed79238268e9a17a" sha256new="5HLKMI5MLL3JKXBSKUVE5DTKDQRN3TMTE4MVVL7NPERYE2HJUF5A" />
-        <archive href="IronPython-2.7.3.zip" size="11293317" type="application/zip" extract="IronPython-2.7.3" />
-      </implementation>
-    </group>
-  </group>
-  <package-implementation main="/usr/bin/ipy" package="ironpython" distributions="Debian" />
+  <feed src="http://repo.roscidus.com/cli/ironpython" />
+  <replaced-by interface="http://repo.roscidus.com/cli/ironpython" />
   <entry-point command="run" binary-name="ipy">
     <needs-terminal />
     <name xml:lang="en">IronPython command-line interpreter</name>
