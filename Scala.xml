@@ -108,6 +108,14 @@
         <manifest-digest sha1new="7a95d3c2611bfae22a2e5eaf6280f8c3dc916671" sha256="3da4a4d22cedfeef113b3c32a5773bd75ac707972d65cf164f90e1d6d353b9c9" sha256new="HWSKJURM5X7O6EJ3HQZKK5Z325NMOB4XFVS46FSPSDQ5NU2TXHEQ"/>
         <archive extract="scala-2.10.4" href="http://www.scala-lang.org/files/archive/scala-2.10.4.tgz" size="29937534" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha1new=9e642b6254e26ac9496398c6591c8d286656140a" released="2015-02-27" stability="stable" version="2.10.5">
+        <manifest-digest sha256new="MY3FLQFSZCPQ3QBV2EDV5VHKLGUULEG6H7O25O7WGTVFKDDFFG4A"/>
+        <archive extract="scala-2.10.5" href="http://www.scala-lang.org/files/archive/scala-2.10.5.tgz" size="29924685" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=2e8e78210554f53d16dd65c1d8d1eef2ad769838" released="2015-09-18" stability="stable" version="2.10.6">
+        <manifest-digest sha256new="HKNGCLFS5AMQ5GPG4ALDVSNJB3ZZTJZHGFWHWUJ5DOE36LCTCVRA"/>
+        <archive extract="scala-2.10.6" href="http://www.scala-lang.org/files/archive/scala-2.10.6.tgz" size="29928531" type="application/x-compressed-tar"/>
+      </implementation>
       <implementation id="sha1new=9d4d0ddb99ae9a889eaa46fb97ee7c303aff5801" stability="stable" version="2.11.0">
         <manifest-digest sha1new="9d4d0ddb99ae9a889eaa46fb97ee7c303aff5801" sha256="5b2203aedf763f46a6a5ace88d5e47e7919a45cc481968493f2e33a265d51268" sha256new="LMRAHLW7OY7UNJVFVTUI2XSH46IZUROMJAMWQSJ7FYZ2EZOVCJUA"/>
         <archive extract="scala-2.11.0" href="http://www.scala-lang.org/files/archive/scala-2.11.0.tgz" size="26007395" type="application/x-compressed-tar"/>
@@ -123,6 +131,30 @@
       <implementation id="sha1new=18c1f7cbb7777b06fcb9148277d19dafb9725ec4" released="2014-10-31" stability="stable" version="2.11.4">
         <manifest-digest sha256new="SOCEBTR65KMH7WXZVFBRBV7PHRYIM5YQ4SP7ZFSDV3CPLIZKU4LA"/>
         <archive extract="scala-2.11.4" href="http://www.scala-lang.org/files/archive/scala-2.11.4.tgz" size="26509669" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=836e354ac81254b2afafb487ea2e778e9b4bd87f" released="2015-01-07" stability="stable" version="2.11.5">
+        <manifest-digest sha256new="ETSF7JWBMWFWLVN5NR3AO6WCUNFCMFOGI3ZMCUIXTLX3NEJANMFQ"/>
+        <archive extract="scala-2.11.5" href="http://www.scala-lang.org/files/archive/scala-2.11.5.tgz" size="27135482" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=94e96df1d8ae5965b03a04b8ea86a070bfe2adce" released="2015-02-26" stability="stable" version="2.11.6">
+        <manifest-digest sha256new="PG62RMW7RLM6YGMTG6F4ZMR6XKWJHTPAN2ZUYD4UAVN275EDYNNA"/>
+        <archive extract="scala-2.11.6" href="http://www.scala-lang.org/files/archive/scala-2.11.6.tgz" size="27130723" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=e03322b2b864ee95b26d1e833128e1aab2809ae5" released="2015-06-22" stability="stable" version="2.11.7">
+        <manifest-digest sha256new="ZRCCU42VYDC7OULDJN4USAPTER7TN6OHYWALTI3EYE6JBLJE6ZFQ"/>
+        <archive extract="scala-2.11.7" href="http://www.scala-lang.org/files/archive/scala-2.11.7.tgz" size="28460530" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=ae0f1d58059a0ed1202ae52f43cd24fd2846d86a" released="2016-03-04" stability="stable" version="2.11.8">
+        <manifest-digest sha256new="LVU3DHX3KN74MIZQ745CH7Q6E44UEP2TTWSXUCA4ZO6EJ24KO6KQ"/>
+        <archive extract="scala-2.11.8" href="http://www.scala-lang.org/files/archive/scala-2.11.8.tgz" size="28678231" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=615fc91531fb81fa7dc1010e2f30f38a55767a7d" released="2016-11-08" stability="stable" version="2.12.0">
+        <manifest-digest sha256new="L3UTYJOQBM6T5VI3S3FO6OGDQ3HHE2JURDFN4ZASSB2BOWWCNDHQ"/>
+        <archive extract="scala-2.12.0" href="http://www.scala-lang.org/files/archive/scala-2.12.0.tgz" size="20177534" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=286a414a96e8869b85b94f2e5d837ffd179635be" released="2016-12-05" stability="stable" version="2.12.1">
+        <manifest-digest sha256new="6XEF26ODSEAWG3LR7Y7TZ4JFVKF5QB55XVCMXLYNIOSHJEF62PRQ"/>
+        <archive extract="scala-2.12.1" href="http://www.scala-lang.org/files/archive/scala-2.12.1.tgz" size="19700349" type="application/x-compressed-tar"/>
       </implementation>
     </group>
   </group>
