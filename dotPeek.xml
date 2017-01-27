@@ -3,24 +3,30 @@
   <name>JetBrains dotPeek</name>
   <summary xml:lang="en">free .NET Decompiler and Assembly Browser</summary>
   <description xml:lang="en">dotPeek is a free-of-charge .NET decompiler from JetBrains, the makers of ReSharper and more developer productivity tools.</description>
-  <homepage>http://www.jetbrains.com/decompiler/</homepage>
   <icon href="http://0install.de/feed-icons/dotPeek.ico" type="image/vnd.microsoft.icon" />
   <icon href="http://0install.de/feed-icons/dotPeek.png" type="image/png" />
   <category>Development</category>
+  <homepage>http://www.jetbrains.com/decompiler/</homepage>
   <group>
     <command name="run" path="dotPeek.exe">
       <runner interface="http://repo.roscidus.com/cli/netfx" version="2.0.." command="run-gui" />
     </command>
-    <group version="1.1.1.33" stability="stable">
-      <implementation arch="Windows-x86_64" id="sha1new=6ad7a1fcce4cb19c2054db24769904a9b5cbab5f">
-        <manifest-digest sha1new="6ad7a1fcce4cb19c2054db24769904a9b5cbab5f" sha256="e26e89c242a44fc46e3e90c881a14051d2688635b3e64ec5816b4410fc7f6935" sha256new="4JXITQSCURH4I3R6SDEIDIKAKHJGRBRVWPTE5RMBNNCBB7D7NE2Q" />
-        <file href="http://download.jetbrains.com/dotpeek/dotPeekPack64.1.1.1.33.exe" size="24607232" dest="dotPeek.exe" />
-      </implementation>
-      <implementation arch="Windows-i486" id="sha1new=bacdf56befaf2942f3332e1c3f8d80610e30d774">
-        <manifest-digest sha1new="bacdf56befaf2942f3332e1c3f8d80610e30d774" sha256="d3f068fb3185d5a360aaf78b57ceea7262224547cbefc5a2d4a775658e72a470" sha256new="2PYGR6ZRQXK2GYFK66FVPTXKOJRCERKHZPX4LIWUU52WLDTSURYA" />
-        <file href="http://download.jetbrains.com/dotpeek/dotPeekPack32.1.1.1.33.exe" size="24417792" dest="dotPeek.exe" />
-      </implementation>
-    </group>
+    <implementation arch="Windows-x86_64" version="1.1.1.33" stability="stable" id="sha1new=6ad7a1fcce4cb19c2054db24769904a9b5cbab5f">
+      <manifest-digest sha1new="6ad7a1fcce4cb19c2054db24769904a9b5cbab5f" sha256="e26e89c242a44fc46e3e90c881a14051d2688635b3e64ec5816b4410fc7f6935" sha256new="4JXITQSCURH4I3R6SDEIDIKAKHJGRBRVWPTE5RMBNNCBB7D7NE2Q" />
+      <file href="https://download.jetbrains.com/dotpeek/dotPeekPack64.1.1.1.33.exe" size="24607232" dest="dotPeek.exe" />
+    </implementation>
+    <implementation arch="Windows-i486" version="1.1.1.33" stability="stable" id="sha1new=bacdf56befaf2942f3332e1c3f8d80610e30d774">
+      <manifest-digest sha1new="bacdf56befaf2942f3332e1c3f8d80610e30d774" sha256="d3f068fb3185d5a360aaf78b57ceea7262224547cbefc5a2d4a775658e72a470" sha256new="2PYGR6ZRQXK2GYFK66FVPTXKOJRCERKHZPX4LIWUU52WLDTSURYA" />
+      <file href="https://download.jetbrains.com/dotpeek/dotPeekPack32.1.1.1.33.exe" size="24417792" dest="dotPeek.exe" />
+    </implementation>
+    <implementation arch="Windows-x86_64" version="2016.3.1" released="2016-12-23" stability="stable" id="sha1new=7ecfbc4b430e81713db6de534dea82bde33a7abe">
+      <manifest-digest sha1new="7ecfbc4b430e81713db6de534dea82bde33a7abe" sha256="670c3a303173c493f726b9b50039d660538dfbb164fcc184d5d0b49cd2dc5eb3" sha256new="M4GDUMBROPCJH5ZGXG2QAOOWMBJY365RMT6MDBGV2C2JZUW4L2ZQ" />
+      <file href="https://download.jetbrains.com/resharper/dotPeek64.2016.3.1.exe" size="57116712" dest="dotPeek.exe" />
+    </implementation>
+    <implementation arch="Windows-i486" version="2016.3.1" released="2016-12-23" stability="stable" id="sha1new=c4d42b198fdc7e37ff4d5919c35a1ad40a2a6945">
+      <manifest-digest sha1new="c4d42b198fdc7e37ff4d5919c35a1ad40a2a6945" sha256="2557ec98a6cd7b6e9ecad3d4782f6a0eff209b533f84e65199017777a27dd3fc" sha256new="EVL6ZGFGZV5W5HWK2PKHQL3KB37SBG2TH6COMUMZAF3XPIT52P6A" />
+      <file href="https://download.jetbrains.com/resharper/dotPeek32.2016.3.1.exe" size="57018920" dest="dotPeek.exe" />
+    </implementation>
   </group>
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
     <file-type id="dotPeek.assembly" explicit-only="true">
