@@ -140,6 +140,10 @@ Classic läuft auf allen Windows-Systemen ohne weitere Abhängigkeiten.</descrip
       <manifest-digest sha256new="PY75TCOBW24MP2KQTDLSV3SCZB4L3KOC5AZAWS2WIXXBSEGZL4XQ"/>
       <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.31.zip" size="1548225" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=95926d976d4da57a6306c867277d7b22c9d619be" released="2017-01-02" stability="stable" version="1.32">
+      <manifest-digest sha256new="VQ5ZRGCP7ZTHMPGMQIS76522EETPNF5D2DLK6RMBON2K7R5MMJ7A"/>
+      <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.32.zip" size="1546646" type="application/zip"/>
+    </implementation>
   </group>
   <entry-point binary-name="KeePass" command="run"/>
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
