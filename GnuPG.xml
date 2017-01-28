@@ -12,16 +12,8 @@ because it uses IDEA (which is patented worldwide).</description>
   <homepage>http://www.gnupg.org/</homepage>
   <category>Utility</category>
   <needs-terminal />
-  <feed-for interface="http://repo.roscidus.com/security/gnupg" />
-  <group arch="Windows-*" license="GPL v3 (GNU General Public License)">
-    <command name="run" path="gpg.exe" />
-    <command name="gpgv" path="gpgv.exe" />
-    <command name="gpgsplit" path="gpgsplit.exe" />
-    <implementation version="1.4.11" stability="stable" id="sha1new=13f58c4e0c8cefb86b993e13f1b3111a082467b2">
-      <manifest-digest sha1new="13f58c4e0c8cefb86b993e13f1b3111a082467b2" sha256="8432d5b002edba0d26a75c3bb2e5183801eca4cd766a0958d9117f68ed5953ff" sha256new="QQZNLMAC5W5A2JVHLQ53FZIYHAA6ZJGNOZVASWGZCF7WR3KZKP7Q" />
-      <archive href="gnupg-w32-1.4.11.zip" size="2114852" type="application/zip" />
-    </implementation>
-  </group>
+  <feed src="http://repo.roscidus.com/security/gnupg" />
+  <replaced-by interface="http://repo.roscidus.com/security/gnupg" />
   <entry-point command="run" binary-name="gpg" />
   <entry-point command="gpgv">
     <name xml:lang="en">OpenPGP signature checking tool</name>

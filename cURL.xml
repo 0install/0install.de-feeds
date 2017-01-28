@@ -6,14 +6,6 @@
   <category>Network</category>
   <category>Utility</category>
   <needs-terminal />
+  <replaced-by interface="http://repo.roscidus.com/utils/curl" />
   <feed-for interface="http://repo.roscidus.com/utils/curl" />
-  <group main="curl.exe">
-    <implementation arch="Windows-i486" version="7.42.1" stability="stable" id="sha1new=a2058fe58c8796b688f356eb5ee0e3b128d4183e">
-      <manifest-digest sha1new="a2058fe58c8796b688f356eb5ee0e3b128d4183e" sha256="9659a87dfa00877278037f6bab9af1fa8d9e537c61c41b9559db7889566fb227" sha256new="SZM2Q7P2ACDXE6ADP5V2XGXR7KGZ4U34MHCBXFKZ3N4ISVTPWITQ" />
-    </implementation>
-    <implementation arch="Windows-i486" version="7.48.0" stability="stable" id="sha1new=2286e6f16a5f41856ffbc4f263704034ea434e1a">
-      <manifest-digest sha1new="2286e6f16a5f41856ffbc4f263704034ea434e1a" sha256="694d74b1b77beadc67c81d05e5df28732b3c01c9e9014ef49a63fd66c7c554d7" sha256new="NFGXJMNXPPVNYZ6IDUC6LXZIOMVTYAOJ5EAU55E2MP6WNR6FKTLQ" />
-      <archive href="http://www.paehl.com/open_source/?download=curl_748_0_ssl.zip" size="1149603" type="application/zip" />
-    </implementation>
-  </group>
 </interface>

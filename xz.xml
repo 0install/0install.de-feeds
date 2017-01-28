@@ -6,40 +6,8 @@
   <homepage>http://tukaani.org/xz/</homepage>
   <category>Utility</category>
   <needs-terminal />
-  <group>
-    <command name="run" path="xz.exe" />
-    <command name="unxz" path="xz">
-      <arg>--decompress</arg>
-    </command>
-    <command name="xzcat" path="xz">
-      <arg>--decompress</arg>
-      <arg>--stdout</arg>
-    </command>
-    <command name="lzma" path="xz">
-      <arg>--format=lzma</arg>
-    </command>
-    <command name="unlzma" path="xz">
-      <arg>--format=lzma</arg>
-      <arg>--decompress</arg>
-    </command>
-    <command name="lzcat" path="xz">
-      <arg>--format=lzma</arg>
-      <arg>--decompress</arg>
-      <arg>--stdout</arg>
-    </command>
-    <group arch="Windows-i486">
-      <implementation version="5.0.5" stability="stable" id="sha1new=c67f495e6cd79b7e4190f48f4c3d9b36a9c61736">
-        <manifest-digest sha1new="c67f495e6cd79b7e4190f48f4c3d9b36a9c61736" sha256="702c17e6d75610a3bffc395842efd88bad11de3f99114341e689ebbcf5473572" sha256new="OAWBPZWXKYIKHP74HFMEF36YROWRDXR7TEIUGQPGRHV3Z5KHGVZA" />
-        <archive href="http://tukaani.org/xz/xz-5.0.5-windows.zip" size="937840" type="application/zip" extract="bin_i486" />
-      </implementation>
-    </group>
-    <group arch="Windows-x86_64">
-      <implementation version="5.0.5" stability="stable" id="sha1new=afc44af648ce5c373207f196045279289712f291">
-        <manifest-digest sha1new="afc44af648ce5c373207f196045279289712f291" sha256="35884c8d344875e9e69744f01576816334c6e783a142c59316cb2ff2be2601c3" sha256new="GWEEZDJUJB26TZUXITYBK5UBMM2MNZ4DUFBMLEYWZMX7FPRGAHBQ" />
-        <archive href="http://tukaani.org/xz/xz-5.0.5-windows.zip" size="937840" type="application/zip" extract="bin_x86-64" />
-      </implementation>
-    </group>
-  </group>
+  <feed src="http://repo.roscidus.com/utils/xz" />
+  <replaced-by interface="http://repo.roscidus.com/utils/xz" />
   <entry-point command="run" binary-name="xz">
     <name xml:lang="en">compress .xz file</name>
     <name xml:lang="de">.xz Datei komprimieren</name>
