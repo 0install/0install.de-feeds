@@ -135,5 +135,13 @@
       <manifest-digest sha256new="4E6MONMM7XR3USKOP3RQ6WMNCV4XVTQ7ALKBVJTI6CNXP4YRUGYQ"/>
       <archive extract="aria2-1.31.0-win-32bit-build1" href="https://github.com/tatsuhiro-t/aria2/releases/download/release-1.31.0/aria2-1.31.0-win-32bit-build1.zip" size="2043116" type="application/zip"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=875485b8c03b19d945f623ebdc618a4afc9d3a98" if-0install-version="2.6.8.." main="aria2c.exe" released="2016-12-15" stability="stable" version="1.30.0">
+      <manifest-digest sha256new="U7SUBYW4VUQALKGLHFW57U64RKAJMAA4V22OAAXGYEHJQF67AWVA"/>
+      <archive extract="aria2-1.30.0-win-64bit-build1" href="https://github.com/tatsuhiro-t/aria2/releases/download/release-1.30.0/aria2-1.30.0-win-64bit-build1.zip" size="2080769" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=3f23a630e932bc18e16404cab7798be09cd30b80" if-0install-version="2.6.8.." main="aria2c.exe" released="2016-12-15" stability="stable" version="1.30.0">
+      <manifest-digest sha256new="CPSLHUQ5OWI2RLUYR47SDWUWR7XX5LAVHP7Y353HKGQOLDQ2O3IA"/>
+      <archive extract="aria2-1.30.0-win-32bit-build1" href="https://github.com/tatsuhiro-t/aria2/releases/download/release-1.30.0/aria2-1.30.0-win-32bit-build1.zip" size="2037778" type="application/zip"/>
+    </implementation>
   </group>
 </interface>
