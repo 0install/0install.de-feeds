@@ -34,5 +34,12 @@
         <rename source="__main__.py" dest="youtube-dl" />
       </recipe>-->
     </implementation>
+    <implementation id="sha1new=807c6dddcf3f871493ac8fe2c0ead6d92e119b22" released="2017-02-04" stability="stable" version="2017.02.04.1">
+      <manifest-digest sha256new="WABPBZXXKO434HJ2RROAMZYIUH4Q4OM54AOQIM7QTJCQPAWMBIEQ"/>
+      <file dest="youtube-dl" href="https://github.com/rg3/youtube-dl/releases/download/2017.02.04.1/youtube-dl" size="1450796"/><!--<recipe>
+        <archive href="https://github.com/rg3/youtube-dl/releases/download/{version}/youtube-dl" type="application/zip" start-offset="22" />
+        <rename source="__main__.py" dest="youtube-dl" />
+      </recipe>-->
+    </implementation>
   </group>
 </interface>
