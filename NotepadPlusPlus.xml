@@ -319,6 +319,76 @@
         <remove path="doLocalConf.xml"/>
       </recipe>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=c7df1420a653fbceaa121923ba1871d32d067290" released="2016-11-20" stability="stable" version="7.2.1">
+      <manifest-digest sha256new="XPUO5MXHWYSBWGOWMOOYQOC3BJDRKWZ3UT7ZXMTCDOCHVZN7KNVA"/>
+      <recipe>
+        <archive href="http://notepad-plus-plus.org/repository/7.x/7.2.1/npp.7.2.1.bin.x64.zip" size="3000015" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=557f82144ace9e0530f70ff366dbe45082330503" released="2016-11-20" stability="stable" version="7.2.1">
+      <manifest-digest sha256new="WCOLDCJNXHMDDJDA4OBLCKSNDZ4I7DJIUQAYCTLB2T2FYTGVOMLQ"/>
+      <recipe>
+        <archive href="http://notepad-plus-plus.org/repository/7.x/7.2.1/npp.7.2.1.bin.zip" size="3068126" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=bc8611404fba7314334105a9870e91595ef29596" released="2016-11-27" stability="stable" version="7.2.2">
+      <manifest-digest sha256new="E6MYQYZEPP5EIZM7ANIEUCE4AHZ7U2D5JKZX5QA5WYTQAL6KISHQ"/>
+      <recipe>
+        <archive href="http://notepad-plus-plus.org/repository/7.x/7.2.2/npp.7.2.2.bin.x64.zip" size="3000937" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=993aa4e629e4835df6a5bad3ee6d9e958f2d0f8c" released="2016-11-27" stability="stable" version="7.2.2">
+      <manifest-digest sha256new="IHLKB63SXBUA6I7SLUJIRROBEYC5X3EF3QEF65GUY3QCW6IZEGXA"/>
+      <recipe>
+        <archive href="http://notepad-plus-plus.org/repository/7.x/7.2.2/npp.7.2.2.bin.zip" size="3063299" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=03a40670965dbd5c856005e82a416b33ad0ea92c" released="2017-01-01" stability="stable" version="7.3">
+      <manifest-digest sha256new="URX74WOTZEU2QRWFSCEXURM6N32PMJ5SJPN5GICGQMMXVW7EVF2A"/>
+      <recipe>
+        <archive href="http://notepad-plus-plus.org/repository/7.x/7.3/npp.7.3.bin.x64.zip" size="3011938" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=f21fd33f15def66ab554c2e0a236b4937c2be8ca" released="2017-01-01" stability="stable" version="7.3">
+      <manifest-digest sha256new="JPSFGAO6DDK7VT272FAVZVO2DIFTHP33MWKICJC2HTE4GO6WROAQ"/>
+      <recipe>
+        <archive href="http://notepad-plus-plus.org/repository/7.x/7.3/npp.7.3.bin.zip" size="3072888" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=e0af309ec1efa318d5b1c575ffa4845966272399" released="2017-01-17" stability="stable" version="7.3.1">
+      <manifest-digest sha256new="JDGOARU7PC3AU7JPI2LLWWMMUHQTGSCO4O5G4LLJVNJDR6MGBYCA"/>
+      <recipe>
+        <archive href="http://notepad-plus-plus.org/repository/7.x/7.3.1/npp.7.3.1.bin.x64.zip" size="3026784" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=61636e8d3bd56527d44fee1d9e83a0916ffe019e" released="2017-01-17" stability="stable" version="7.3.1">
+      <manifest-digest sha256new="7IVLZ3RKT64BAYWBJRRBMREL6NGNUSYEQ3TAEXZMLKB2FXJVO5EQ"/>
+      <recipe>
+        <archive href="http://notepad-plus-plus.org/repository/7.x/7.3.1/npp.7.3.1.bin.zip" size="3086736" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=93a03c43fad694cddd23d1d7a9dd675c6160fda8" released="2017-02-13" stability="stable" version="7.3.2">
+      <manifest-digest sha256new="XVNTTWCZ3OVWFHMSXXY27CBEMGKKMHATO7SIH2347RHTDR6DD2OA"/>
+      <recipe>
+        <archive href="http://notepad-plus-plus.org/repository/7.x/7.3.2/npp.7.3.2.bin.x64.zip" size="3058597" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=c0e0027ea177c037b8968a0292091cafb6e271e9" released="2017-02-13" stability="stable" version="7.3.2">
+      <manifest-digest sha256new="BODNFXOL45DJLHVOGXDT3CMM7TMF6NPWZA6FO3IJME4FTORD2CGA"/>
+      <recipe>
+        <archive href="http://notepad-plus-plus.org/repository/7.x/7.3.2/npp.7.3.2.bin.zip" size="3115643" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
   </group>
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
     <file-type id="Notepad++_textfile">
