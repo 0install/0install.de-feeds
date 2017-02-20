@@ -29,17 +29,15 @@
     </implementation>
     <implementation id="sha1new=bc1ca441a5cb8843c6988b8f34247fc7c3686c1f" released="2017-01-10" stability="stable" version="2017.01.10">
       <manifest-digest sha256new="TV75NGQWWEZTLY7BP24R3NXRDU7233TTE6VV674VH47HBUM6I2JQ"/>
-      <file dest="youtube-dl" href="https://github.com/rg3/youtube-dl/releases/download/2017.01.10/youtube-dl" size="1427827"/><!--<recipe>
-        <archive href="https://github.com/rg3/youtube-dl/releases/download/{version}/youtube-dl" type="application/zip" start-offset="22" />
-        <rename source="__main__.py" dest="youtube-dl" />
-      </recipe>-->
+      <file dest="youtube-dl" href="https://github.com/rg3/youtube-dl/releases/download/2017.01.10/youtube-dl" size="1427827"/>
     </implementation>
     <implementation id="sha1new=807c6dddcf3f871493ac8fe2c0ead6d92e119b22" released="2017-02-04" stability="stable" version="2017.02.04.1">
       <manifest-digest sha256new="WABPBZXXKO434HJ2RROAMZYIUH4Q4OM54AOQIM7QTJCQPAWMBIEQ"/>
-      <file dest="youtube-dl" href="https://github.com/rg3/youtube-dl/releases/download/2017.02.04.1/youtube-dl" size="1450796"/><!--<recipe>
-        <archive href="https://github.com/rg3/youtube-dl/releases/download/{version}/youtube-dl" type="application/zip" start-offset="22" />
-        <rename source="__main__.py" dest="youtube-dl" />
-      </recipe>-->
+      <file dest="youtube-dl" href="https://github.com/rg3/youtube-dl/releases/download/2017.02.04.1/youtube-dl" size="1450796"/>
+    </implementation>
+    <implementation id="sha1new=0e406ccbea142e0a4c4ba7440be2847747e6f75c" released="2017-02-17" stability="stable" version="2017.02.17">
+      <manifest-digest sha256new="GWPR3YEGINYRA2ABKBZNFWQGAQQVJCEJRJJ7DS276DDKKXFBUA4Q"/>
+      <file dest="youtube-dl" href="https://github.com/rg3/youtube-dl/releases/download/2017.02.17/youtube-dl" size="1464456"/>
     </implementation>
   </group>
 </interface>
