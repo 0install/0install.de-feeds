@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/KDiff3.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>KDiff3</name>
+  <summary xml:lang="en">graphical diff and merge program</summary>
+  <description xml:lang="en">KDiff3 is a diff and merge program that compares or merges two or three text input files or directories.</description>
+  <icon href="http://0install.de/feed-icons/KDiff3.ico" type="image/vnd.microsoft.icon" />
+  <icon href="http://0install.de/feed-icons/KDiff3.png" type="image/png" />
+  <category>Development</category>
+  <category>Utility</category>
+  <homepage>http://kdiff3.sourceforge.net/</homepage>
+  <group license="GPL v2 (GNU General Public License)">
+    <implementation arch="Windows-x86_64" version="0.9.98" main="kdiff3.exe" id="sha1new=305bacd11a46be418f7145f88ba10cc485930e96">
+      <manifest-digest sha1new="305bacd11a46be418f7145f88ba10cc485930e96" sha256="86d3464c33b07057b07edb97039142d5a5662fe85bb00c4cf0d6ea8b7db70a40" sha256new="Q3JUMTBTWBYFPMD63OLQHEKC2WSWML7ILOYAYTHQ23VIW7NXBJAA" />
+      <archive href="KDiff3-64bit-0.9.98.zip" size="10123262" type="application/zip" />
+    </implementation>
+    <implementation arch="Windows-i486" version="0.9.98" main="kdiff3.exe" id="sha1new=03058d171adfbc403557ae62af5b3cda0623b9aa">
+      <manifest-digest sha1new="03058d171adfbc403557ae62af5b3cda0623b9aa" sha256="99489fa5455863c0c8c08fd431f8981df2a086bf3c7e2e315b5d1d4a55f060e2" sha256new="TFEJ7JKFLBR4BSGAR7KDD6EYDXZKBBV7HR7C4MK3LUOUUVPQMDRA" />
+      <archive href="KDiff3-32bit-0.9.98.zip" size="10035272" type="application/zip" />
+    </implementation>
+  </group>
+  <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <context-menu id="KDiff3" target="all" />
+  </capabilities>
+</interface>
