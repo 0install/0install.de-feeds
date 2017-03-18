@@ -61,8 +61,24 @@
     </implementation>
     <implementation arch="Windows-*" id="sha1new=288f9ab080b070ceb65b3ba499af61fe4d5c6bda" released="2016-11-08" stability="stable" version="2.49">
       <manifest-digest sha1new="288f9ab080b070ceb65b3ba499af61fe4d5c6bda" sha256="7252d7f77cc50c06e573d2525c1b8e4716c2871a299d79e83f47c9b267f41d59" sha256new="OJJNP534YUGANZLT2JJFYG4OI4LMFBY2FGOXT2B7I7E3EZ7UDVMQ"/>
-      <archive extract="SourceDir/GitExtensions" href="https://github.com/gitextensions/gitextensions/releases/download/v2.49/GitExtensions-2.49-Setup.msi" size="14550354" type="application/x-msi" />
+      <archive extract="SourceDir/GitExtensions" href="https://github.com/gitextensions/gitextensions/releases/download/v2.49/GitExtensions-2.49-Setup.msi" size="14550354" type="application/x-msi"/>
     </implementation>
+    <group>
+      <command name="translate" path="TranslateApp.exe">
+        <runner command="run-gui" interface="http://0install.de/feeds/cli/cli.xml"/>
+      </command>
+      <command name="run" path="GitExtensions.exe">
+        <runner command="run-gui" interface="http://0install.de/feeds/cli/cli.xml"/>
+      </command>
+      <implementation arch="POSIX-*" id="sha1new=613e4ddb9bc88df37426d440ba4b1be23b957f6e" released="2017-03-11" stability="stable" version="2.49.1">
+        <manifest-digest sha1new="613e4ddb9bc88df37426d440ba4b1be23b957f6e" sha256="37c4d0e2b35716b44c9a1975dc8b93bdf067f2e0732184917c258198d005d121" sha256new="G7CNBYVTK4LLITE2DF25ZC4TXXYGP4XAOMQYJEL4EWAZRUAF2EQQ"/>
+        <archive extract="GitExtensions" href="https://github.com/gitextensions/gitextensions/releases/download/v2.49.01/GitExtensions-2.49.01-Mono.zip" size="12299968" type="application/zip"/>
+      </implementation>
+      <implementation arch="Windows-*" id="sha1new=9415ac842a0f87a9c0596e44c628dfbf7f8bdd45" released="2017-03-11" stability="stable" version="2.49.1">
+        <manifest-digest sha1new="9415ac842a0f87a9c0596e44c628dfbf7f8bdd45" sha256="c4a4d830b2ffe01c396d3cb3489c04bb591f6cd42f3207a7eb1fa2c46f33dffd" sha256new="YSSNQMFS77QBYOLNHSZURHAEXNMR63GUF4ZAPJ7LD6RMI3ZT376Q"/>
+        <archive extract="SourceDir/GitExtensions" href="https://github.com/gitextensions/gitextensions/releases/download/v2.49.01/GitExtensions-2.49.01-Setup.msi" size="14591455" type="application/x-msi"/>
+      </implementation>
+    </group>
   </group>
   <entry-point binary-name="GitExtensions" command="run">
     <name xml:lang="en">GitExtensions</name>
