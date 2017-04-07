@@ -389,6 +389,20 @@
         <remove path="doLocalConf.xml"/>
       </recipe>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=752d22f0d724f2870e10a8fe1b3162ed15c00a14" released="2017-03-08" stability="stable" version="7.3.3">
+      <manifest-digest sha256new="MEJ7YWHAGMAHMVCC23XZUOBCAANOCKEOXBM7VNTDWSHRLW2VOHBQ"/>
+      <recipe>
+        <archive href="http://notepad-plus-plus.org/repository/7.x/7.3.3/npp.7.3.3.bin.x64.zip" size="3073434" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=48b731a09cf70a4a383d3aeedd32b76cee87d68e" released="2017-03-08" stability="stable" version="7.3.3">
+      <manifest-digest sha256new="63R525QYVHZAX5P3F3XKJYHXVF4A7W2JSUKCPJD7MNGBJPGQNILQ"/>
+      <recipe>
+        <archive href="http://notepad-plus-plus.org/repository/7.x/7.3.3/npp.7.3.3.bin.zip" size="3129830" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
   </group>
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
     <file-type id="Notepad++_textfile">
