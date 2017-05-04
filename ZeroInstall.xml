@@ -213,6 +213,21 @@ Konzeptuell können Sie sich vorstellen, dass die Software nur auf einem Server 
       <manifest-digest sha1new="e8e84686b1afd50e11e8ffcb1e831817311e5c28" sha256="f706a036e15b06fe81a04809a9c14268e8d15264af0f2c1743fc8a33b6db53d4" sha256new="64DKANXBLMDP5ANAJAE2TQKCNDUNCUTEV4HSYF2D7SFDHNW3KPKA"/>
       <archive href="ZeroInstall-2.12.1.tar.gz" size="3239745"/>
     </implementation>
+    <group>
+      <command name="central" path="ZeroInstall.exe">
+        <runner command="run-gui" interface="http://0install.de/feeds/cli/cli.xml"/>
+      </command>
+      <command name="run-gui" path="0install-win.exe">
+        <runner command="run-gui" interface="http://0install.de/feeds/cli/cli.xml"/>
+      </command>
+      <command name="run" path="0install.exe">
+        <runner command="run" interface="http://0install.de/feeds/cli/cli.xml"/>
+      </command>
+      <implementation id="sha1new=b4d1a3b4f2ce233b9d148df65a59f3495da37345" released="2017-05-04" stability="stable" version="2.13.0">
+        <manifest-digest sha1new="b4d1a3b4f2ce233b9d148df65a59f3495da37345" sha256="d562f780b171746b3965fad2b0e4792e747ef0a63500a830fa6e3a4d513f42bd" sha256new="2VRPPAFROF2GWOLF7LJLBZDZFZ2H54FGGUAKQMH2NY5E2UJ7IK6Q"/>
+        <archive href="ZeroInstall-2.13.0.tar.gz" size="3292289"/>
+      </implementation>
+    </group>
   </group>
   <entry-point binary-name="0install" command="run">
     <needs-terminal/>
