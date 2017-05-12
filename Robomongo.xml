@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/Robomongo.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Robomongo</name>
+  <summary xml:lang="en">Native and cross-platform MongoDB manager</summary>
+  <icon href="http://0install.de/feed-icons/Robomongo.png" type="image/png" />
+  <icon href="http://0install.de/feed-icons/Robomongo.ico" type="image/vnd.microsoft.icon" />
+  <category>Development</category>
+  <category>Utility</category>
+  <homepage>https://robomongo.org/</homepage>
+  <group license="GPL v3 (GNU General Public License)">
+    <implementation arch="Windows-x86_64" version="1.0.0" released="2017-04-26" stability="stable" id="sha1new=f29f36e893bcdf351129f9a7c954c34fe2adad74">
+      <command name="run" path="Robomongo.exe" />
+      <manifest-digest sha1new="f29f36e893bcdf351129f9a7c954c34fe2adad74" sha256="22035c9ade325719b98fde9fe6fddecc234abf60d2dae0d7ba02aec5eecdfd37" sha256new="EIBVZGW6GJLRTOMP32P6N7O6ZQRUVP3A2LNOBV52AKXML3WN7U3Q" />
+      <archive href="https://download.robomongo.org/1.0.0/windows/robomongo-1.0.0-windows-x86_64-89f24ea.zip" size="14777845" type="application/zip" extract="robomongo-1.0.0-windows-x86_64-89f24ea" />
+    </implementation>
+    <implementation arch="Linux-x86_64" version="1.0.0" released="2017-04-26" stability="stable" id="sha1new=4c628d10910cd08f73945fbfb836b341b2ae36f3">
+      <command name="run" path="bin/robomongo" />
+      <manifest-digest sha1new="4c628d10910cd08f73945fbfb836b341b2ae36f3" sha256="2ba0dc1031aeedf00ba89b0cf4f18e4b8a692faabe2a064b551a174139a331c8" sha256new="FOQNYEBRV3W7AC5ITMGPJ4MOJOFGSL5KXYVAMS2VDILUCONDGHEA" />
+      <archive href="https://download.robomongo.org/1.0.0/linux/robomongo-1.0.0-linux-x86_64-89f24ea.tar.gz" size="31210289" type="application/x-compressed-tar" extract="robomongo-1.0.0-linux-x86_64-89f24ea" />
+    </implementation>
+  </group>
+  <entry-point command="run" binary-name="robomongo" />
+</interface>
