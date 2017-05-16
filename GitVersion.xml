@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/GitVersion.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>GitVersion</name>
+  <summary xml:lang="en">Versioning when using git, solved</summary>
+  <description xml:lang="en">Versioning when using git, solved. GitVersion looks at your git history and works out the semantic version of the commit being built.</description>
+  <category>Development</category>
+  <homepage>https://github.com/GitTools/GitVersion</homepage>
+  <needs-terminal />
+  <group>
+    <command name="run" path="GitVersion.exe">
+      <runner interface="http://repo.roscidus.com/cli/cli" command="run" />
+    </command>
+    <implementation version="3.6.5" released="2016-11-27" stability="stable" id="sha1new=67060fce11f53cadd40382815e556638244ebef6">
+      <manifest-digest sha1new="67060fce11f53cadd40382815e556638244ebef6" sha256="7be668cd9c4e60937da42f2676817b24d4fcc1c3380dcfb2f4020142de3b9922" sha256new="PPTGRTM4JZQJG7NEF4THNAL3ETKPZQODHAG47MXUAIAUFXR3TERA" />
+      <archive href="https://github.com/GitTools/GitVersion/releases/download/v3.6.5/GitVersion_3.6.5.zip" size="6155943" type="application/zip" />
+    </implementation>
+    <implementation version="4.0.0-pre11" released="2017-02-26" stability="testing" id="sha1new=a5f330348ada0eb479dd230af82caaa2278b5fba">
+      <manifest-digest sha1new="a5f330348ada0eb479dd230af82caaa2278b5fba" sha256="c999684ed702b6667db7c1b0881189181bbc193d20d6940e3a2bfbcef325fa46" sha256new="ZGMWQTWXAK3GM7NXYGYIQEMJDAN3YGJ5EDLJIDR2FP5454ZF7JDA" />
+      <archive href="https://github.com/GitTools/GitVersion/releases/download/v4.0.0-beta.11/GitVersion_4.0.0-beta0011.zip" size="6170595" type="application/zip" />
+    </implementation>
+  </group>
+  <entry-point command="run" binary-name="GitVersion" />
+</interface>
