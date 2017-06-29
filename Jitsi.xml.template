@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Jitsi</name>
+  <summary xml:lang="en">VoIP and instant messaging</summary>
+  <summary xml:lang="de">IP-Telefonie und Instant-Messenger</summary>
+  <description xml:lang="en">Jitsi is a free and open source multiplatform voice (VoIP), videoconferencing and instant messaging application.</description>
+  <description xml:lang="de">Jitsi ist eine multiprotokollfähige IP-Telefonie- und Instant-Messenger-Anwendung, mit der auch Videotelefonie möglich ist.</description>
+  <homepage>http://jitsi.org/</homepage>
+  <icon href="http://0install.de/feed-icons/Jitsi.ico" type="image/vnd.microsoft.icon" />
+  <icon href="http://0install.de/feed-icons/Jitsi.png" type="image/png" />
+  <feed-for interface="http://0install.de/feeds/Jitsi.xml" />
+  <implementation arch="Windows-x86_64" version="{version}" released="{released}" stability="stable" main="Jitsi.exe">
+    <manifest-digest />
+    <archive href="https://download.jitsi.org/jitsi/msi/jitsi-{version}-x64.msi" type="application/x-msi" extract="SourceDir/PFiles/Jitsi" />
+  </implementation>
+  <implementation arch="Windows-i486" version="{version}" released="{released}" stability="stable" main="Jitsi.exe">
+    <manifest-digest />
+    <archive href="https://download.jitsi.org/jitsi/msi/jitsi-{version}-x86.msi" type="application/x-msi" extract="SourceDir/PFiles/Jitsi" />
+  </implementation>
+</interface>

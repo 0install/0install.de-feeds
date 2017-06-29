@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>CDBurnerXP</name>
+  <summary xml:lang="en">Free CD burner</summary>
+  <description xml:lang="en">CDBurnerXP is a free application to burn CDs and DVDs, including Blu-Ray and HD-DVDs. It also includes the feature to burn and create ISOs, as well as a multilanguage interface. Everyone, even companies, can use it for free.</description>
+  <homepage>http://cdburnerxp.se/</homepage>
+  <icon href="http://0install.de/feeds/images/CDBurnerXP.png" type="image/png" />
+  <icon href="http://0install.de/feeds/images/CDBurnerXP.ico" type="image/vnd.microsoft.icon" />
+  <feed-for interface="http://0install.de/feeds/CDBurnerXP.xml" />
+  <group main="cdbxpp.exe">
+    <command name="cdbxpcmd" path="cdbxpcmd.exe" />
+    <implementation arch="Windows-x86_64" version="{version}" released="{released}" stability="stable">
+      <manifest-digest />
+      <recipe>
+        <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-{version}.zip" type="application/zip" />
+        <archive href="http://us.un4seen.com/files/z/2/bass_aac24.zip" type="application/zip" extract="x64" />
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" version="{version}" released="{released}" stability="stable">
+      <manifest-digest />
+      <recipe>
+        <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-{version}.zip" type="application/zip" />
+        <archive href="http://us.un4seen.com/files/z/2/bass_aac24.zip" type="application/zip" />
+      </recipe>
+    </implementation>
+  </group>
+</interface>

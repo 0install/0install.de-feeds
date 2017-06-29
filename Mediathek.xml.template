@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>MediathekView</name>
+  <summary xml:lang="de">Mediatheksammlung der öffentlich-rechtlichen Sender.</summary>
+  <description xml:lang="de">Das Programm durchsucht die Mediathek verschiedener Sender (ARD, ZDF, Arte, 3Sat, MDR, NDR, ORF, SF), lädt Beiträge mit einem Programm eigener Wahl und kann Themen als Abos anlegen und neue Beiträge automatisch downloaden. Es gibt auch eine Möglichkeit, Podcast zu verwalten und zu Downloaden.</description>
+  <homepage>http://zdfmediathk.sourceforge.net/</homepage>
+  <icon href="http://0install.de/feeds/images/Mediathek.png" type="image/png" />
+  <category>AudioVideo</category>
+  <feed-for interface="http://0install.de/feeds/Mediathek.xml" />
+  <group license="GPL v3 (GNU General Public License)">
+    <command name="run" path="MediathekView.jar">
+      <runner interface="http://repo.roscidus.com/java/openjdk-jre" command="run-gui">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <implementation version="{version}" released="{released}" stability="stable">
+      <manifest-digest />
+      <archive href="https://github.com/mediathekview/MediathekView/releases/download/{version}/MediathekView-{version}.zip" type="application/zip" />
+    </implementation>
+  </group>
+</interface>

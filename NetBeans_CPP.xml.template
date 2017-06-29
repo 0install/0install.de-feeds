@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>NetBeans C/C++</name>
+  <summary xml:lang="en">A multi-language software development environment - subset for C/C++</summary>
+  <summary xml:lang="de">Eine multi-Sprachen Softwareentwicklungsumgebung - Teilmenge für C/C++</summary>
+  <description xml:lang="en">NetBeans is a multi-language integrated development environment.</description>
+  <description xml:lang="de">NetBeans ist eine multi-Sprachen integrierte Entwicklungsumgebung (IDE).</description>
+  <homepage>http://www.netbeans.org/</homepage>
+  <icon href="http://0install.de/feeds/images/NetBeans.png" type="image/png" />
+  <icon href="http://0install.de/feeds/images/NetBeans.ico" type="image/vnd.microsoft.icon" />
+  <category>Development</category>
+  <feed-for interface="http://0install.de/feeds/NetBeans_CPP.xml" />
+  <group license="CDDL, GPL v2 with Classpath Exception">
+    <requires interface="http://repo.roscidus.com/java/openjdk-jdk">
+      <environment name="netbeans_jdkhome" insert="." mode="replace" />
+    </requires>
+    <implementation arch="Windows-x86_64" version="{version}" released="{released}" stability="stable" id="v{version}_windows64">
+      <command name="run" path="bin/netbeans64.exe">
+        <arg>--jdkhome</arg>
+        <arg>$netbeans_jdkhome</arg>
+      </command>
+      <manifest-digest />
+      <archive href="http://download.netbeans.org/netbeans/{version}/final/zip/netbeans-{version}-{build}-cpp.zip" type="application/zip" extract="netbeans" />
+    </implementation>
+    <implementation arch="Windows-i486" version="{version}" released="{released}" stability="stable" id="v{version}_windows32">
+      <command name="run" path="bin/netbeans.exe">
+        <arg>--jdkhome</arg>
+        <arg>$netbeans_jdkhome</arg>
+      </command>
+      <manifest-digest />
+      <archive href="http://download.netbeans.org/netbeans/{version}/final/zip/netbeans-{version}-{build}-cpp.zip" type="application/zip" extract="netbeans" />
+    </implementation>
+    <implementation arch="Linux-*" version="{version}" released="{released}" stability="stable" main="bin/netbeans" id="v{version}_linux">
+      <manifest-digest />
+      <archive href="http://download.netbeans.org/netbeans/{version}/final/zip/netbeans-{version}-{build}-cpp.zip" type="application/zip" extract="netbeans" />
+    </implementation>
+    <implementation arch="Solaris-*" version="{version}" released="{released}" stability="stable" main="bin/netbeans" id="v{version}_solaris">
+      <manifest-digest />
+      <archive href="http://download.netbeans.org/netbeans/{version}/final/zip/netbeans-{version}-{build}-cpp.zip" type="application/zip" extract="netbeans" />
+    </implementation>
+    <implementation arch="Darwin-*" version="{version}" released="{released}" stability="stable" main="bin/netbeans" id="v{version}_darwin">
+      <manifest-digest />
+      <archive href="http://download.netbeans.org/netbeans/{version}/final/zip/netbeans-{version}-{build}-cpp.zip" type="application/zip" extract="netbeans" />
+    </implementation>
+  </group>
+</interface>

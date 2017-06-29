@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Eclipse for PHP Developers</name>
+  <summary xml:lang="en">A multi-language software development environment - subset for PHP</summary>
+  <summary xml:lang="de">Eine multi-Sprachen Softwareentwicklungsumgebung - Teilmenge für PHP</summary>
+  <description xml:lang="en">Eclipse is a multi-language software development environment comprising an integrated development environment and an extensible plug-in system.</description>
+  <description xml:lang="de">Eclipse ist eine multi-Sprachen Softwareentwicklungsumgebung, bestehend aus einer integrierten Entwicklungsumgebung (IDE) und einem erweiterbaren Plugin-System.</description>
+  <homepage>http://www.eclipse.org/</homepage>
+  <icon href="http://0install.de/feed-icons/Eclipse.png" type="image/png" />
+  <category>Development</category>
+  <feed-for interface="http://0install.de/feeds/Eclipse_PHP.xml" />
+  <group license="EPL (Eclipse Public License)">
+    <requires interface="http://repo.roscidus.com/java/openjdk-jre">
+      <environment name="PATH" insert="bin" />
+    </requires>
+    <implementation version="{version}" stability="stable" released="{released}" arch="Windows-x86_64" main="eclipse.exe">
+      <manifest-digest />
+      <archive href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/{build}/R/eclipse-php-{build}-R-win32-x86_64.zip&amp;r=1" type="application/zip" extract="eclipse" />
+    </implementation>
+    <implementation version="{version}" stability="stable" released="{released}" arch="Windows-i486" main="eclipse.exe">
+      <manifest-digest />
+      <archive href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/{build}/R/eclipse-php-{build}-R-win32.zip&amp;r=1" type="application/zip" extract="eclipse" />
+    </implementation>
+    <implementation version="{version}" stability="stable" released="{released}" arch="Linux-x86_64" main="eclipse">
+      <manifest-digest />
+      <archive href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/{build}/R/eclipse-php-{build}-R-linux-gtk-x86_64.tar.gz&amp;r=1" type="application/x-compressed-tar" extract="eclipse" />
+    </implementation>
+    <implementation version="{version}" stability="stable" released="{released}" arch="Linux-i586" main="eclipse">
+      <manifest-digest />
+      <archive href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/{build}/R/eclipse-php-{build}-R-linux-gtk.tar.gz&amp;r=1" type="application/x-compressed-tar" extract="eclipse" />
+    </implementation>
+    <implementation version="{version}" stability="stable" released="{released}" arch="MacOSX-x86_64" main="Contents/MacOS/eclipse">
+      <manifest-digest />
+      <archive href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/{build}/R/eclipse-php-{build}-R-macosx-cocoa-x86_64.tar.gz&amp;r=1" type="application/x-compressed-tar" extract="Eclipse.app" />
+    </implementation>
+  </group>
+</interface>

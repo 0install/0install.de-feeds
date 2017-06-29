@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Multi Commander</name>
+  <summary xml:lang="en">multi-tabbed file manager</summary>
+  <description xml:lang="en">Multi Commander is a multi-tabbed file manager and is an alternative to the standard Windows Explorer. It uses the very popular and efficient dual-panel layout.</description>
+  <icon href="http://0install.de/feed-icons/MultiCommander.png" type="image/png" />
+  <icon href="http://0install.de/feed-icons/MultiCommander.ico" type="image/vnd.microsoft.icon" />
+  <category>Utility</category>
+  <homepage>http://multicommander.com/</homepage>
+  <feed-for interface="http://0install.de/feeds/MultiCommander.xml" />
+  <group main="MultiCommander.exe">
+    <implementation arch="Windows-x86_64" version="{version}" released="{released}">
+      <manifest-digest />
+      <recipe>
+        <archive href="http://multicommander.com/files/updates/MultiCommander_x64_Portable_({version}.{build}).zip" type="application/zip" />
+        <file href="http://0install.de/files/hosted/MultiCommander-config.xml" dest="Config/MultiCommander.xml" />
+        <remove path="SessionConfig" />
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" version="{version}" released="{released}">
+      <manifest-digest />
+      <recipe>
+        <archive href="http://multicommander.com/files/updates/MultiCommander_win32_Portable_({version}.{build}).zip" type="application/zip" />
+        <file href="http://0install.de/files/hosted/MultiCommander-config.xml" dest="Config/MultiCommander.xml" />
+        <remove path="SessionConfig" />
+      </recipe>
+    </implementation>
+  </group>
+</interface>

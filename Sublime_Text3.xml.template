@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Sublime Text</name>
+  <summary xml:lang="en">a sophisticated text editor for code, markup and prose</summary>
+  <homepage>http://www.sublimetext.com/</homepage>
+  <icon href="http://0install.de/feed-icons/Sublime_Text.ico" type="image/vnd.microsoft.icon" />
+  <icon href="http://0install.de/feed-icons/Sublime_Text.png" type="image/png" />
+  <feed-for interface="http://0install.de/feeds/Sublime_Text.xml" />
+  <implementation arch="Windows-x86_64" version="{version}" released="{released}" stability="testing" main="sublime_text.exe">
+    <manifest-digest />
+    <recipe>
+      <archive href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%20{build}%20x64.zip" type="application/zip" />
+      <remove path="Data" />
+    </recipe>
+  </implementation>
+  <implementation arch="Windows-i486" version="{version}" released="{released}" stability="testing" main="sublime_text.exe">
+    <manifest-digest />
+    <recipe>
+      <archive href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%20{build}.zip" type="application/zip" />
+      <remove path="Data" />
+    </recipe>
+  </implementation>
+  <implementation arch="Linux-x86_64" version="{version}" released="{released}" stability="testing" main="sublime_text">
+    <manifest-digest />
+    <archive href="http://c758482.r82.cf2.rackcdn.com/sublime_text_3_build_{build}_x64.tar.bz2" type="application/x-bzip-compressed-tar" extract="sublime_text_3" />
+  </implementation>
+  <implementation arch="Linux-i486" version="{version}" released="{released}" stability="testing" main="sublime_text">
+    <manifest-digest />
+    <archive href="http://c758482.r82.cf2.rackcdn.com/sublime_text_3_build_{build}_x32.tar.bz2" type="application/x-bzip-compressed-tar" extract="sublime_text_3" />
+  </implementation>
+</interface>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Nmap</name>
+  <summary xml:lang="en">utility for network discovery and security auditing</summary>
+  <description xml:lang="en">Nmap ("Network Mapper") is a free and open source utility for network discovery and security auditing. Many systems and network administrators also find it useful for tasks such as network inventory, managing service upgrade schedules, and monitoring host or service uptime. Nmap uses raw IP packets in novel ways to determine what hosts are available on the network, what services (application name and version) those hosts are offering, what operating systems (and OS versions) they are running, what type of packet filters/firewalls are in use, and dozens of other characteristics. It was designed to rapidly scan large networks, but works fine against single hosts.</description>
+  <icon href="http://0install.de/feed-icons/Nmap.ico" type="image/vnd.microsoft.icon" />
+  <icon href="http://0install.de/feed-icons/Nmap.png" type="image/png" />
+  <category>Network</category>
+  <category>Utility</category>
+  <needs-terminal />
+  <feed-for interface="http://0install.de/feeds/Nmap.xml" />
+  <group arch="Windows-*">
+    <requires interface="http://0install.de/feeds/MSVC100.xml">
+      <environment name="PATH" insert="." mode="append" />
+    </requires>
+    <command name="run" path="nmap.exe" />
+    <command name="ncat" path="ncat.exe" />
+    <command name="nping" path="nping.exe" />
+    <command name="ndiff" path="ndiff.py">
+      <runner interface="http://repo.roscidus.com/python/python" />
+    </command>
+    <implementation version="{version}" released="{released}" stability="stable">
+      <manifest-digest />
+      <archive href="http://nmap.org/dist/nmap-{version}-win32.zip" type="application/zip" extract="nmap-{version}" />
+      <command name="install-winpcap" path="winpcap-nmap-4.13" />
+    </implementation>
+  </group>
+</interface>

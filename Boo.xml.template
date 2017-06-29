@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Boo</name>
+  <summary xml:lang="en">object-oriented, statically typed, general-purpose programming language</summary>
+  <summary xml:lang="de">objektorientierte, statisch typisierte Mehrzweckprogrammiersprache</summary>
+  <description xml:lang="en">Boo is an object-oriented, statically typed, general-purpose programming language based on the Common Language Infrastructure and using a Python-inspired syntax.</description>
+  <description xml:lang="de">Boo ist eine objektorientierte, statisch typisierte Mehrzweckprogrammiersprache, die auf der Common Language Infrastructure aufbaut und eine Python-inspirierte Syntax verwendet.</description>
+  <homepage>http://boo.codehaus.org/</homepage>
+  <icon href="http://0install.de/feeds/images/Boo.png" type="image/png" />
+  <icon href="http://0install.de/feeds/images/Boo.ico" type="image/vnd.microsoft.icon" />
+  <category>Development</category>
+  <needs-terminal />
+  <feed-for interface="http://0install.de/feeds/Boo.xml" />
+  <group license="MIT/BSD style">
+    <command name="run" path="bin/boo.exe">
+      <runner interface="http://0install.de/feeds/cli/cli.xml" command="run" />
+    </command>
+    <command name="booc" path="bin/booc.exe">
+      <runner interface="http://0install.de/feeds/cli/cli.xml" command="run" />
+    </command>
+    <command name="booi" path="bin/booi.exe">
+      <runner interface="http://0install.de/feeds/cli/cli.xml" command="run" />
+    </command>
+    <command name="booish" path="bin/booish.exe">
+      <runner interface="http://0install.de/feeds/cli/cli.xml" command="run" />
+    </command>
+    <implementation version="{version}" released="{released}" stability="stable">
+      <manifest-digest />
+      <archive href="http://dist.codehaus.org/boo/distributions/boo-{version}-bin.zip" type="application/zip" />
+    </implementation>
+  </group>
+</interface>

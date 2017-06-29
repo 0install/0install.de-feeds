@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>DOSBox</name>
+  <summary xml:lang="en">DOS Emulator</summary>
+  <icon href="http://0install.de/feed-icons/DOSBox.ico" type="image/vnd.microsoft.icon" />
+  <icon href="http://0install.de/feed-icons/DOSBox.png" type="image/png" />
+  <category>Utility</category>
+  <category>Game</category>
+  <feed-for interface="http://0install.de/feeds/DOSBox.xml" />
+  <group arch="Windows-*" main="DOSBox.exe">
+    <command name="resetconf" path="DOSBox.exe">
+      <arg>-resetconf</arg>
+    </command>
+    <command name="opencaptures" path="DOSBox.exe">
+      <arg>-opencaptures</arg>
+      <arg>explorer.exe</arg>
+    </command>
+    <command name="resetmapper" path="DOSBox.exe">
+      <arg>-resetmapper</arg>
+    </command>
+    <command name="editconf" path="DOSBox.exe">
+      <arg>-editconf</arg>
+      <arg>notepad.exe</arg>
+    </command>
+    <implementation version="{version}" released="{released}" stability="stable">
+      <manifest-digest />
+      <archive href="DOSBox-{version}.zip" type="application/zip" />
+    </implementation>
+  </group>
+</interface>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <name>Gow</name>
+  <summary xml:lang="en">the lightweight alternative to Cygwin</summary>
+  <homepage>https://github.com/bmatzelle/gow</homepage>
+  <icon href="http://0install.de/feed-icons/Gnu.ico" type="image/vnd.microsoft.icon" />
+  <icon href="http://0install.de/feed-icons/Gnu.png" type="image/png" />
+  <category>Utility</category>
+  <needs-terminal />
+  <feed-for interface="http://0install.de/feeds/Gow.xml" />
+  <group arch="Windows-*">
+    <requires interface="http://0install.de/feeds/PuTTY.xml" importance="recommended">
+      <executable-in-path command="plink" name="ssh" />
+      <executable-in-path command="pscp" name="scp" />
+      <executable-in-path command="psftp" name="sftp" />
+    </requires>
+    <environment name="PATH" insert="bin" />
+    <executable-in-path command="gow" name="gow"/>
+    <executable-in-path command="clear" name="clear"/>
+    <executable-in-path command="whereis" name="whereis"/>
+    <command name="run" path="bin/bash.exe" />
+    <command name="gow" path="bin/gow.bat" />
+    <command name="clear" path="bin/clear.bat" />
+    <command name="whereis" path="bin/whereis.bat" />
+    <command name="awk" path="bin/awk.exe" />
+    <command name="basename" path="bin/basename.exe" />
+    <command name="bc" path="bin/bc.exe" />
+    <command name="bison" path="bin/bison.exe" />
+    <command name="bunzip2" path="bin/bunzip2.exe" />
+    <command name="bzip2" path="bin/bzip2.exe" />
+    <command name="bzip2recover" path="bin/bzip2recover.exe" />
+    <command name="cat" path="bin/cat.exe" />
+    <command name="chgrp" path="bin/chgrp.exe" />
+    <command name="chmod" path="bin/chmod.exe" />
+    <command name="chown" path="bin/chown.exe" />
+    <command name="chroot" path="bin/chroot.exe" />
+    <command name="cksum" path="bin/cksum.exe" />
+    <command name="cp" path="bin/cp.exe" />
+    <command name="csplit" path="bin/csplit.exe" />
+    <command name="curl" path="bin/curl.exe" />
+    <command name="cut" path="bin/cut.exe" />
+    <command name="dc" path="bin/dc.exe" />
+    <command name="dd" path="bin/dd.exe" />
+    <command name="df" path="bin/df.exe" />
+    <command name="diff" path="bin/diff.exe" />
+    <command name="diff3" path="bin/diff3.exe" />
+    <command name="dirname" path="bin/dirname.exe" />
+    <command name="dos2unix" path="bin/dos2unix.exe" />
+    <command name="du" path="bin/du.exe" />
+    <command name="egrep" path="bin/egrep.exe" />
+    <command name="env" path="bin/env.exe" />
+    <command name="expand" path="bin/expand.exe" />
+    <command name="expr" path="bin/expr.exe" />
+    <command name="factor" path="bin/factor.exe" />
+    <command name="fgrep" path="bin/fgrep.exe" />
+    <command name="flex" path="bin/flex.exe" />
+    <command name="fmt" path="bin/fmt.exe" />
+    <command name="fold" path="bin/fold.exe" />
+    <command name="gawk" path="bin/gawk.exe" />
+    <command name="gfind" path="bin/gfind.exe" />
+    <command name="grep" path="bin/grep.exe" />
+    <command name="gsar" path="bin/gsar.exe" />
+    <command name="gzip" path="bin/gzip.exe" />
+    <command name="head" path="bin/head.exe" />
+    <command name="hostid" path="bin/.exe" />
+    <command name="hostname" path="bin/hostid.exe" />
+    <command name="id" path="bin/id.exe" />
+    <command name="indent" path="bin/indent.exe" />
+    <command name="install" path="bin/install.exe" />
+    <command name="join" path="bin/join.exe" />
+    <command name="jwhois" path="bin/jwhois.exe" />
+    <command name="less" path="bin/less.exe" />
+    <command name="lesskey" path="bin/lesskey.exe" />
+    <command name="ln" path="bin/ln.exe" />
+    <command name="ls" path="bin/ls.exe" />
+    <command name="m4" path="bin/m4.exe" />
+    <command name="make" path="bin/.exe" />
+    <command name="md5sum" path="bin/md5sum.exe" />
+    <command name="mkdir" path="bin/md5sum.exe" />
+    <command name="mkfifo" path="bin/mkfifo.exe" />
+    <command name="mknod" path="bin/mknod.exe" />
+    <command name="mv" path="bin/mv.exe" />
+    <command name="ncftp" path="bin/.exe" />
+    <command name="nl" path="bin/nl.exe" />
+    <command name="od" path="bin/od.exe" />
+    <command name="paste" path="bin/paste.exe" />
+    <command name="patch" path="bin/patch.exe" />
+    <command name="pathchk" path="bin/pathchk.exe" />
+    <command name="pr" path="bin/pr.exe" />
+    <command name="printenv" path="bin/printenv.exe" />
+    <command name="printf" path="bin/printf.exe" />
+    <command name="pwd" path="bin/pwd.exe" />
+    <command name="rm" path="bin/rm.exe" />
+    <command name="rmdir" path="bin/rmdir.exe" />
+    <command name="sdiff" path="bin/sdiff.exe" />
+    <command name="sed" path="bin/sed.exe" />
+    <command name="seq" path="bin/seq.exe" />
+    <command name="sha1sum" path="bin/sha1sum.exe" />
+    <command name="shar" path="bin/shar.exe" />
+    <command name="sleep" path="bin/sleep.exe" />
+    <command name="split" path="bin/split.exe" />
+    <command name="su" path="bin/su.exe" />
+    <command name="sum" path="bin/sum.exe" />
+    <command name="sync" path="bin/.exe" />
+    <command name="tac" path="bin/tac.exe" />
+    <command name="tail" path="bin/tail.exe" />
+    <command name="tar" path="bin/tar.exe" />
+    <command name="tee" path="bin/tee.exe" />
+    <command name="test" path="bin/test.exe" />
+    <command name="touch" path="bin/touch.exe" />
+    <command name="tr" path="bin/tr.exe" />
+    <command name="uname" path="bin/uname.exe" />
+    <command name="unexpand" path="bin/unexpand.exe" />
+    <command name="uniq" path="bin/uniq.exe" />
+    <command name="unix2dos" path="bin/unix2dos.exe" />
+    <command name="unlink" path="bin/unlink.exe" />
+    <command name="unrar" path="bin/unrar.exe" />
+    <command name="unshar" path="bin/unshar.exe" />
+    <command name="uudecode" path="bin/uudecode.exe" />
+    <command name="uuencode" path="bin/uuencode.exe" />
+    <command name="vim" path="bin/vim.exe" />
+    <command name="wc" path="bin/wc.exe" />
+    <command name="wget" path="bin/wget.exe" />
+    <command name="which" path="bin/which.exe" />
+    <command name="whoami" path="bin/whoami.exe" />
+    <command name="xargs" path="bin/xargs.exe" />
+    <command name="yes" path="bin/yes.exe" />
+    <command name="zip" path="bin/zip.exe" />
+    <command name="sort" path="bin/gsort.exe" />
+    <command name="nano" path="bin/nano.exe" />
+    <implementation version="{version}" released="{released}" stability="stable">
+      <manifest-digest />
+      <archive href="gow-{version}.zip" type="application/zip" />
+    </implementation>
+  </group>
+</interface>

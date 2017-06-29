@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>HDGraph</name>
+  <summary xml:lang="en">pie charts of disk space usage</summary>
+  <summary xml:lang="de">Tortendiagramm des Festplattspeicherverbrauchs</summary>
+  <description xml:lang="en">Free tool for Windows able to draw multi-level pie charts of disk space. HDGraph graphically displays the hard disk space usage. It shows all your directories and subdirectories on a single graph, allowing to see the largest ones at a glance.</description>
+  <description xml:lang="de">Kostenloses Tool für Windows das mehr-stufige Tortendiagramme des Festplattenspeichers darstellen kann. HDGraph visualisiert den Speicherverbrauch. Es zeigt alle Verzeichnisse und Unterverzeichnisse in einem einzelnen Diagramm an und erlaubt Ihnen, die größten auf einen Blick ausfindig zu machen.</description>
+  <homepage>http://www.hdgraph.com/</homepage>
+  <icon href="http://0install.de/feeds/images/HDGraph.png" type="image/png" />
+  <icon href="http://0install.de/feeds/images/HDGraph.ico" type="image/vnd.microsoft.icon" />
+  <category>System</category>
+  <category>Utility</category>
+  <feed-for interface="http://0install.de/feeds/HDGraph.xml" />
+  <group arch="Windows-*" license="GPL v2 (GNU General Public License)">
+    <command name="run" path="HDGraph.exe">
+      <runner interface="http://repo.roscidus.com/cli/netfx" command="run-gui" />
+    </command>
+    <implementation version="{version}" released="{released}">
+      <manifest-digest />
+      <archive href="http://downloads.sourceforge.net/hdgraph/HDGraph {version}.zip" type="application/zip" />
+    </implementation>
+  </group>
+</interface>

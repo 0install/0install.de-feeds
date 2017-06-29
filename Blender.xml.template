@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Blender</name>
+  <summary xml:lang="de">vielfältige 3D Animationserstellungs-Suite</summary>
+  <summary xml:lang="en">versatile 3D animation creation suite</summary>
+  <description xml:lang="de">Blender ist eine voll integrierte 3D Animations-Suite für den Einsatz bei Animation, Standbildern, wissenschaftliche und ingenieurstechnische Visualisierung und Erstellung von Spieleinhalten. Sie enthält Tools zum Modellieren, Texturieren, UV mappen, Rigging und Constraints, Weight Painting, Partikelsysteme, Simulationen (Flüssigkeiten, Physik und Dynamik weicher Körper sowie einen externen crowd (Menschenmengen) Simulator), Rendering, Node-basiertes Zusammenstellen und nicht-lineare Videobearbeitung, sowie eine integrierte Spielengine für Echtzeit interaktives 3D und Spielerstellung und -wiedergabe mit Plattform-übergreifender Kompatibilität.</description>
+  <description xml:lang="en">Blender is a fully integrated 3D animation suite for use in animation, still graphics, scientific and engineering visualization, and game content creation. It includes tools for modeling, texturing (node based materials or UV mapped), uv mapping, rigging and constraints, weight painting, particle systems, simulation (fluids, physics, and soft body dynamics and an external crowd simulator), rendering, node based compositing, and non linear video editing, as well as an integrated game engine for real-time interactive 3D, and game creation and playback with cross-platform compatibility.</description>
+  <homepage>http://www.blender.org/</homepage>
+  <icon href="http://0install.de/feeds/images/Blender.png" type="image/png" />
+  <icon href="http://0install.de/feeds/images/Blender.ico" type="image/vnd.microsoft.icon" />
+  <category>Video</category>
+  <feed-for interface="http://0install.de/feeds/Blender.xml" />
+  <group license="GPL v2 (GNU General Public License)">
+    <implementation arch="Windows-x86_64" version="{version}" released="{released}" stability="stable" main="blender.exe">
+      <manifest-digest />
+      <archive href="http://download.blender.org/release/Blender{versionshort}/blender-{versionreal}-windows64.zip" type="application/zip" extract="blender-{versionreal}-windows64" />
+    </implementation>
+    <implementation arch="Windows-i486" version="{version}" released="{released}" stability="stable" main="blender.exe">
+      <manifest-digest />
+      <archive href="http://download.blender.org/release/Blender{versionshort}/blender-{versionreal}-windows32.zip" type="application/zip" extract="blender-{versionreal}-windows32" />
+    </implementation>
+    <implementation arch="Linux-x86_64" version="{version}" released="{released}" stability="stable" main="blender">
+      <manifest-digest />
+      <archive href="http://download.blender.org/release/Blender{versionshort}/blender-{versionreal}-linux-glibc211-x86_64.tar.bz2" type="application/x-bzip-compressed-tar" extract="blender-{versionreal}-linux-glibc211-x86_64" />
+    </implementation>
+    <implementation arch="Linux-i686" version="{version}" released="{released}" stability="stable" main="blender">
+      <manifest-digest />
+      <archive href="http://download.blender.org/release/Blender{versionshort}/blender-{versionreal}-linux-glibc211-i686.tar.bz2" type="application/x-bzip-compressed-tar" extract="blender-{versionreal}-linux-glibc211-i686" />
+    </implementation>
+    <!--<implementation arch="MacOSX-x86_64" version="{version}" released="{released}" stability="stable" main="blender.app/Contents/MacOS/blender">
+      <manifest-digest />
+      <archive href="http://download.blender.org/release/Blender{versionshort}/blender-{versionreal}-OSX_10.6-x86_64.zip" type="application/zip" extract="Blender" />
+    </implementation>
+    <implementation arch="MacOSX-i386" version="{version}" released="{released}" stability="stable" main="blender.app/Contents/MacOS/blender">
+      <manifest-digest />
+      <archive href="http://download.blender.org/release/Blender{versionshort}/blender-{versionreal}-OSX_10.6-fix-i386.zip" type="application/zip" extract="Blender" />
+    </implementation>-->
+  </group>
+</interface>

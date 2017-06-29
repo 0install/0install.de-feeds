@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Robomongo</name>
+  <summary xml:lang="en">Native and cross-platform MongoDB manager</summary>
+  <icon href="http://0install.de/feed-icons/Robomongo.png" type="image/png"/>
+  <icon href="http://0install.de/feed-icons/Robomongo.ico" type="image/vnd.microsoft.icon"/>
+  <category>Development</category>
+  <category>Utility</category>
+  <homepage>https://robomongo.org/</homepage>
+  <feed-for interface="http://0install.de/feeds/Robomongo.xml"/>
+  <group license="GPL v3 (GNU General Public License)">
+    <implementation arch="Windows-x86_64" version="{version}" released="{released}" stability="stable">
+      <command name="run" path="Robomongo.exe"/>
+      <archive extract="robomongo-{version}-windows-x86_64-{hash}" href="https://download.robomongo.org/{version}/windows/robomongo-{version}-windows-x86_64-{hash}.zip" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" version="{version}" released="{released}" stability="stable" >
+      <command name="run" path="bin/robomongo"/>
+      <archive extract="robomongo-{version}-linux-x86_64-{hash}" href="https://download.robomongo.org/{version}/linux/robomongo-{version}-linux-x86_64-{hash}.tar.gz" type="application/x-compressed-tar"/>
+    </implementation>
+  </group>
+</interface>

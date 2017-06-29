@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>PDF Split and Merge</name>
+  <summary xml:lang="en">split and merge PDF documents</summary>
+  <homepage>http://www.pdfsam.org/</homepage>
+  <icon href="http://0install.de/feeds/images/PDFsam.png" type="image/png" />
+  <icon href="http://0install.de/feeds/images/PDFsam.ico" type="image/vnd.microsoft.icon" />
+  <category>Office</category>
+  <category>Utility</category>
+  <feed-for interface="http://0install.de/feeds/PDFsam.xml" />
+  <group license="GPL v2 (GNU General Public License)">
+    <command name="run">
+      <arg>-Xmx256m</arg>
+      <arg>-classpath</arg>
+      <arg>$PDFSAMJAR</arg>
+      <arg>org.pdfsam.guiclient.GuiClient</arg>
+      <runner interface="http://repo.roscidus.com/java/openjdk-jre" command="run-gui" />
+    </command>
+    <command name="console">
+      <arg>-Xmx256m</arg>
+      <arg>-Dlog4j.configuration=console-log4j.xml</arg>
+      <arg>-classpath</arg>
+      <arg>$CONSOLEJAR</arg>
+      <arg>org.pdfsam.console.ConsoleClient</arg>
+      <runner interface="http://repo.roscidus.com/java/openjdk-jre" command="run" />
+    </command>
+    <implementation version="{version}" released="{released}" stability="stable">
+      <environment name="PDFSAMJAR" insert="pdfsam-{version}.jar" mode="replace" />
+      <environment name="CONSOLEJAR" insert="lib/pdfsam-console-{consoleversion}.jar" mode="replace" />
+      <manifest-digest />
+      <archive href="http://sourceforge.net/projects/pdfsam/files/pdfsam/{version}/pdfsam-{version}-out.zip" type="application/zip" />
+    </implementation>
+  </group>
+</interface>

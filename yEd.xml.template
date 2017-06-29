@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>yEd Graph Editor</name>
+  <summary xml:lang="en">quickly and effectively generate high-quality diagrams</summary>
+  <homepage>http://www.yworks.com/</homepage>
+  <icon href="http://0install.de/feeds/images/yEd.png" type="image/png" />
+  <icon href="http://0install.de/feeds/images/yEd.ico" type="image/vnd.microsoft.icon" />
+  <category>Graphics</category>
+  <feed-for interface="http://0install.de/feeds/yEd.xml" />
+  <group>
+    <command name="run" path="yed.jar">
+      <runner interface="http://repo.roscidus.com/java/openjdk-jre" command="run-gui">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <implementation version="{version}" released="{released}" stability="stable">
+      <manifest-digest />
+      <archive href="http://www.yworks.com/products/yed/demo/yEd-{version}.zip" type="application/zip" extract="yed-{version}" />
+    </implementation>
+  </group>
+</interface>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>GitVersion</name>
+  <summary xml:lang="en">Versioning when using git, solved</summary>
+  <description xml:lang="en">Versioning when using git, solved. GitVersion looks at your git history and works out the semantic version of the commit being built.</description>
+  <category>Development</category>
+  <homepage>https://github.com/GitTools/GitVersion</homepage>
+  <needs-terminal/>
+  <feed-for interface="http://0install.de/feeds/GitVersion.xml"/>
+  <group>
+    <command name="run" path="GitVersion.exe">
+      <runner interface="http://repo.roscidus.com/cli/cli" command="run" />
+    </command>
+    <implementation version="{version}" released="{released}" stability="stable">
+      <archive href="https://github.com/GitTools/GitVersion/releases/download/v{version}/GitVersion_{version}.zip" type="application/zip"/>
+    </implementation>
+  </group>
+</interface>

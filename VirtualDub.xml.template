@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>VirtualDub</name>
+  <summary xml:lang="en">video capture/processing utility for Windows platforms</summary>
+  <summary xml:lang="de">video Erfassungs- und Bearbeitungstool für Windows</summary>
+  <description xml:lang="en">VirtualDub is a video capture/processing utility for Windows platforms.
+It lacks the editing power of a general-purpose editor such as Adobe Premiere, but is streamlined for fast linear operations over video.
+It has batch-processing capabilities for processing large numbers of files and can be extended with third-party video filters.
+VirtualDub is mainly geared toward processing AVI files, although it can read (not write) MPEG-1 and also handle sets of BMP images.</description>
+  <description xml:lang="de">VirtualDub ist ein Video Erfassungs- und Bearbeitungstool für Windows.
+Es bietet nicht Feature-Vielfalt eines Allzweck-Editors wie Adobe Premiere. Es ist stattdessen für schnelle linearen Operationen auf Videos optimiert.
+Stapelverarbeitung erlaubt die Verarbeitung einer große Anzahl von Dateien. Das Tool kann mit Drittanbieter Video-Filtern erweitert werden.
+VirtualDub ist vor allem auf die Verarbeitung AVI-Dateien ausgerichtet, kann aber auch MPEG-1 lesen (nicht schreiben) und auch Sätze von BMP-Bildern verarbeiten.</description>
+  <homepage>http://www.virtualdub.org/</homepage>
+  <icon href="http://0install.de/feeds/images/VirtualDub.png" type="image/png" />
+  <icon href="http://0install.de/feeds/images/VirtualDub.ico" type="image/vnd.microsoft.icon" />
+  <category>AudioVideo</category>
+  <category>Utility</category>
+  <feed-for interface="http://0install.de/feeds/VirtualDub.xml" />
+  <group license="GPL v2 (GNU General Public License)">
+    <implementation arch="Windows-x86_64" version="{version}" released="{released}" stability="stable" main="Veedub64.exe">
+      <manifest-digest />
+      <archive href="http://downloads.sourceforge.net/virtualdub/VirtualDub-{version}-AMD64.zip" type="application/zip" />
+    </implementation>
+    <implementation arch="Windows-i486" version="{version}" released="{released}" stability="stable" main="VirtualDub.exe">
+      <manifest-digest />
+      <archive href="http://downloads.sourceforge.net/virtualdub/VirtualDub-{version}.zip" type="application/zip" />
+    </implementation>
+  </group>
+</interface>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Dolphin</name>
+  <summary xml:lang="en">a Gamecube and Wii emulator</summary>
+  <description xml:lang="en">Dolphin is a Gamecube, Wii and Triforce (the arcade machine based on the Gamecube) emulator which supports many extra features and abilities not present on the original consoles. Gamecube and Wii compatibility is good - one can expect "mainstream" titles to run; lesser known titles can be hit or miss. Triforce compatibility is currently limited to a couple of games - others require more of the Triforce-specific peripheral devices to be emulated.</description>
+  <icon href="http://0install.de/feed-icons/Dolphin.ico" type="image/vnd.microsoft.icon" />
+  <icon href="http://0install.de/feed-icons/Dolphin.png" type="image/png" />
+  <category>Game</category>
+  <category>Utility</category>
+  <homepage>http://dolphin-emu.org/</homepage>
+  <feed-for interface="http://0install.de/feeds/Dolphin.xml" />
+  <group main="Dolphin.exe">
+    <implementation arch="Windows-x86_64" version="{version}" released="{released}" stability="stable">
+      <manifest-digest />
+      <archive href="dolphin-x64-{version}.7z" type="application/x-7z-compressed" />
+    </implementation>
+    <implementation arch="Windows-i486" version="{version}" released="{released}" stability="stable">
+      <manifest-digest />
+      <archive href="dolphin-x86-{version}.7z" type="application/x-7z-compressed" />
+    </implementation>
+  </group>
+</interface>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>GPT fdisk</name>
+  <summary xml:lang="en">text-mode tool designed to correct some common problems with computer partition tables</summary>
+  <homepage>http://www.rodsbooks.com/gdisk/</homepage>
+  <category>System</category>
+  <category>Utility</category>
+  <needs-terminal />
+  <feed-for interface="http://0install.de/feeds/GDisk.xml" />
+  <group license="GPL v2 (GNU General Public License)">
+    <implementation arch="Windows-x86_64" version="{version}" released="{released}" stability="stable" main="gdisk64.exe">
+      <manifest-digest />
+      <archive href="http://sourceforge.net/projects/gptfdisk/files/gptfdisk/{version}/gdisk-binaries/gdisk-windows-{version}.zip" type="application/zip" />
+    </implementation>
+    <implementation arch="Windows-i486" version="{version}" released="{released}" stability="stable" main="gdisk32.exe">
+      <manifest-digest />
+      <archive href="http://sourceforge.net/projects/gptfdisk/files/gptfdisk/{version}/gdisk-binaries/gdisk-windows-{version}.zip" type="application/zip" />
+    </implementation>
+  </group>
+</interface>
