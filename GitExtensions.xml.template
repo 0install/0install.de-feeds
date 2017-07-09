@@ -11,6 +11,7 @@
   <group>
     <requires interface="http://repo.roscidus.com/git/core">
       <environment name="GITEXT_GIT" insert="." mode="replace" />
+      <environment name="PATH" insert="bin" mode="prepend" />
     </requires>
     <requires os="Windows" interface="http://0install.de/feeds/PuTTY.xml" importance="recommended">
       <environment name="GITEXT_PUTTY" insert="." mode="replace" />
