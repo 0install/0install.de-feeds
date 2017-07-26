@@ -56,6 +56,14 @@
       <manifest-digest sha1new="f04e47043be064a892b7e55a0fb555f1f6e7fd54" sha256="31f53dc755b896e6ca6a263a637f2ec09d932c61b35188ff5c2f184fa3550256" sha256new="GH2T3R2VXCLONSTKEY5GG7ZOYCOZGLDBWNIYR724F4ME7I2VAJLA"/>
       <archive href="jdk-8u112-windows-i586.tar.lzma" size="126366803" type="application/x-lzma-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=236a5d9e13c55c1aa6a628a199baf5f1a92efc8d" released="2017-07-26" stability="stable" version="8.0.141">
+      <manifest-digest sha1new="236a5d9e13c55c1aa6a628a199baf5f1a92efc8d" sha256="4d11f10fd297030e17fb6e7f17712091c00b4b520dab2c0a58a3831d410b34a6" sha256new="JUI7CD6SS4BQ4F73NZ7RO4JASHAAWS2SBWVSYCSYUOBR2QILGSTA"/>
+      <archive href="jdk-8u141-windows-x64.tar.lzma" size="128747360" type="application/x-lzma-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=92e31bf52de9931c16548e556e9054e3f7568306" released="2017-07-26" stability="stable" version="8.0.141">
+      <manifest-digest sha1new="92e31bf52de9931c16548e556e9054e3f7568306" sha256="a498353d1271eab01e2427e15eb1cb07226f7e2fe950831e2c089afdc5d49f6d" sha256new="USMDKPISOHVLAHREE7QV5MOLA4RG67RP5FIIGHRMBCNP3ROUT5WQ"/>
+      <archive href="jdk-8u141-windows-i586.tar.lzma" size="127209400" type="application/x-lzma-compressed-tar"/>
+    </implementation>
   </group>
   <entry-point binary-name="javac" command="run">
     <name xml:lang="en">Java compiler</name>
