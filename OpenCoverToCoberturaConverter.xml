@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/OpenCoverToCoberturaConverter.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>OpenCoverToCoberturaConverter</name>
+  <summary xml:lang="en">Converts OpenCover reports to Cobertura reports</summary>
+  <homepage>https://github.com/danielpalme/OpenCoverToCoberturaConverter</homepage>
+  <needs-terminal />
+  <group license="Apache License">
+    <command name="run" path="OpenCoverToCoberturaConverter.exe">
+      <runner interface="http://repo.roscidus.com/cli/cli" command="run" />
+    </command>
+    <implementation version="0.2.4" id="sha1new=fb143a33fb248933c07925cf60ecf1c71cf01831">
+      <manifest-digest sha1new="fb143a33fb248933c07925cf60ecf1c71cf01831" sha256="63c4312a1fa7f7bee0b505c9b19fcca4f773443ea183bf615c786008a5fcdad0" sha256new="MPCDCKQ7U7335YFVAXE3DH6MUT3XGRB6UGB36YK4PBQARJP43LIA" />
+      <archive href="https://www.nuget.org/api/v2/package/OpenCoverToCoberturaConverter/0.2.6" size="16000" type="application/zip" extract="tools" />
+    </implementation>
+  </group>
+  <entry-point command="run" binary-name="OpenCoverToCoberturaConverter" />
+</interface>
