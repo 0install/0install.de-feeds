@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/pgAdmin3.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>pgAdmin III</name>
+  <summary xml:lang="en">PostgreSQL Tools</summary>
+  <icon href="http://0install.de/feed-icons/pgAdmin.ico" type="image/vnd.microsoft.icon" />
+  <icon href="http://0install.de/feed-icons/pgAdmin.png" type="image/png" />
+  <category>Utility</category>
+  <homepage>https://www.pgadmin.org/</homepage>
+  <implementation arch="Windows-*" version="1.22.2" id="sha1new=3a4dc1daa1a13b9f3868e389eb8b37ec345ca734">
+    <command name="run" path="pgadmin3.exe" />
+    <command name="pg_dump" path="pg_dump.exe" />
+    <command name="pg_dumpall" path="pg_dumpall.exe" />
+    <command name="pg_restore" path="pg_restore.exe" />
+    <command name="psql" path="psql.exe" />
+    <manifest-digest sha1new="3a4dc1daa1a13b9f3868e389eb8b37ec345ca734" sha256="60333dd586278886c15f0d3b8e95648483461809180a5266b0a0348dedb0998e" sha256new="MAZT3VMGE6EINQK7BU5Y5FLEQSBUMGAJDAFFEZVQUA2I33NQTGHA" />
+    <archive href="pgadmin3-1.22.2.msi" size="13955072" type="application/x-msi" extract="SourceDir/PFiles/pgAdmin III/1.22" />
+  </implementation>
+  <entry-point command="run" binary-name="pgadmin3" />
+  <entry-point command="pg_dump" binary-name="pg_dump">
+    <needs-terminal />
+    <name xml:lang="en">PostgreSQL</name>
+    <summary xml:lang="en">pg_dump/pg_restore/pg_dumpall - backup and restore PostgreSQL databases</summary>
+  </entry-point>
+  <entry-point command="pg_dumpall" binary-name="pg_dumpall">
+    <needs-terminal />
+    <name xml:lang="en">PostgreSQL</name>
+    <summary xml:lang="en">pg_dump/pg_restore/pg_dumpall - backup and restore PostgreSQL databases</summary>
+  </entry-point>
+  <entry-point command="pg_restore" binary-name="pg_restore">
+    <needs-terminal />
+    <name xml:lang="en">PostgreSQL</name>
+    <summary xml:lang="en">pg_dump/pg_restore/pg_dumpall - backup and restore PostgreSQL databases</summary>
+  </entry-point>
+  <entry-point command="psql" binary-name="psql">
+    <needs-terminal />
+    <name xml:lang="en">PostgreSQL</name>
+    <summary xml:lang="en">psql - the PostgreSQL interactive terminal</summary>
+  </entry-point>
+  <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <file-type id="pgAdmin.1">
+      <description xml:lang="en"></description>
+      <verb name="open" args="-q -f &quot;%1&quot;">
+        <description xml:lang="en">Open</description>
+      </verb>
+      <extension value=".sql" mime-type="text/plain" perceived-type="text" />
+    </file-type>
+  </capabilities>
+</interface>
