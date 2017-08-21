@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/VS_Code.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Visual Studio Code</name>
+  <summary xml:lang="en">lightweight but powerful source code editor</summary>
+  <description xml:lang="en">Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Python, PHP, Go) and runtimes (such as .NET and Unity).</description>
+  <icon href="http://0install.de/feed-icons/VS_Code.ico" type="image/vnd.microsoft.icon" />
+  <icon href="http://0install.de/feed-icons/VS_Code.png" type="image/png" />
+  <category>Development</category>
+  <homepage>https://code.visualstudio.com/</homepage>
+  <group license="MIT License">
+    <implementation arch="Windows-x86_64" version="1.15.1" released="2017-08-16" stability="stable" main="Code.exe" id="sha1new=287fa6f55ce6f407228eaf58ebc166b334da9b74">
+      <manifest-digest sha1new="287fa6f55ce6f407228eaf58ebc166b334da9b74" sha256="26385bc39cddb7993eb352ab9653b70c04b7d1edb69db70777a8e6cb2feae258" sha256new="EY4FXQ443W3ZSPVTKKVZMU5XBQCLPUPNW2O3OB3XVDTMWL7K4JMA" />
+      <archive href="https://az764295.vo.msecnd.net/stable/41abd21afdf7424c89319ee7cb0445cc6f376959/VSCode-win32-x64-1.15.1.zip" size="67633234" type="application/zip" />
+    </implementation>
+    <implementation arch="Windows-i486" version="1.15.1" released="2017-08-16" stability="stable" main="Code.exe" id="sha1new=9b94b1b5ef97ce51cacc67ca8a8fed6a236f5594">
+      <manifest-digest sha1new="9b94b1b5ef97ce51cacc67ca8a8fed6a236f5594" sha256="e190cd135e37b316530cebca296c4a2d7cdab9448478ebc1d916ae4223b7e951" sha256new="4GIM2E26G6ZRMUYM5PFCS3CKFV6NVOKEQR4OXQOZC2XEEI5X5FIQ" />
+      <archive href="https://az764295.vo.msecnd.net/stable/41abd21afdf7424c89319ee7cb0445cc6f376959/VSCode-win32-ia32-1.15.1.zip" size="58760319" type="application/zip" />
+    </implementation>
+    <implementation arch="MacOSX-*" version="1.15.1" released="2017-08-16" stability="stable" main="Contents/MacOS/Electron" id="sha1new=45de7063099bef3ed93dc8c82022544f62f16d5c">
+      <manifest-digest sha1new="45de7063099bef3ed93dc8c82022544f62f16d5c" sha256="26d99b396bc16e14b6c6eacba1e8a73f64a3cf703ce4c8ff442b8f78507ace8f" sha256new="E3MZWOLLYFXBJNWG5LF2D2FHH5SKHT3QHTSMR72EFOHXQUD2Z2HQ" />
+      <archive href="https://az764295.vo.msecnd.net/stable/41abd21afdf7424c89319ee7cb0445cc6f376959/VSCode-darwin-stable.zip" size="63591616" type="application/zip" extract="Visual Studio Code.app" />
+    </implementation>
+    <implementation arch="Linux-x86_64" version="1.15.1" released="2017-08-16" stability="stable" main="Contents/MacOS/Electron" id="sha1new=066bcc912a6f6d91db5d41b292624bf255ccd900">
+      <manifest-digest sha1new="066bcc912a6f6d91db5d41b292624bf255ccd900" sha256="e3011c1833e8aaa93857e842abadedeb844135625f4fe1625b328c6f86710a9e" sha256new="4MARYGBT5CVKSOCX5BBKXLPN5OCECNLCL5H6CYS3GKGG7BTRBKPA" />
+      <archive href="https://az764295.vo.msecnd.net/stable/41abd21afdf7424c89319ee7cb0445cc6f376959/code-stable-code_1.15.1-1502903936_amd64.tar.gz" size="61223800" type="application/x-compressed-tar" extract="VSCode-linux-x64" />
+    </implementation>
+    <implementation arch="Linux-i386" version="1.15.1" released="2017-08-16" stability="stable" main="Contents/MacOS/Electron" id="sha1new=f71aa8e7f3f0b1df5ce54a5823a42d81e75fcfaa">
+      <manifest-digest sha1new="f71aa8e7f3f0b1df5ce54a5823a42d81e75fcfaa" sha256="72c10a1d571f5c09d207b320626c3ce81e9cada0b55651bdb563a89e1b83172c" sha256new="OLAQUHKXD5OATUQHWMQGE3B45APJZLNAWVLFDPNVMOUJ4G4DC4WA" />
+      <archive href="https://az764295.vo.msecnd.net/stable/41abd21afdf7424c89319ee7cb0445cc6f376959/code-stable-code_1.15.1-1502903950_i386.tar.gz" size="62483946" type="application/x-compressed-tar" extract="VSCode-linux-ia32" />
+    </implementation>
+  </group>
+  <entry-point command="run" binary-name="code" />
+  <capabilities os="Windows" xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <file-type id="VSCode.ascx">
+      <description xml:lang="en">ASCX Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".ascx" mime-type="application/xml" />
+    </file-type>
+    <file-type id="VSCode.asp">
+      <description xml:lang="en">ASP Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".asp" />
+    </file-type>
+    <file-type id="VSCode.aspx">
+      <description xml:lang="en">ASPX Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".aspx" mime-type="application/xml" perceived-type="text" />
+    </file-type>
+    <file-type id="VSCode.bash">
+      <description xml:lang="en">Bash Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".bash" />
+    </file-type>
+    <file-type id="VSCode.bashrc">
+      <description xml:lang="en">Bash RC Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".bashrc" />
+    </file-type>
+    <file-type id="VSCode.bash_login">
+      <description xml:lang="en">Bash Login Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".bash_login" />
+    </file-type>
+    <file-type id="VSCode.bash_logout">
+      <description xml:lang="en">Bash Logout Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".bash_logout" />
+    </file-type>
+    <file-type id="VSCode.bash_profile">
+      <description xml:lang="en">Bash Profile Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".bash_profile" />
+    </file-type>
+    <file-type id="VSCode.bowerrc">
+      <description xml:lang="en">Bower RC Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".bowerrc" />
+    </file-type>
+    <file-type id="VSCode.c">
+      <description xml:lang="en">C Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".c" mime-type="text/plain" perceived-type="text" />
+    </file-type>
+    <file-type id="VSCode.cc">
+      <description xml:lang="en">C++ Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".cc" mime-type="text/plain" perceived-type="text" />
+    </file-type>
+    <file-type id="VSCode.clj">
+      <description xml:lang="en">Clojure Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".clj" />
+    </file-type>
+    <file-type id="VSCode.cljs">
+      <description xml:lang="en">ClojureScript Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".cljs" />
+    </file-type>
+    <file-type id="VSCode.cljx">
+      <description xml:lang="en">CLJX Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".cljx" />
+    </file-type>
+    <file-type id="VSCode.clojure">
+      <description xml:lang="en">Clojure Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".clojure" />
+    </file-type>
+    <file-type id="VSCode.code-workspace">
+      <description xml:lang="en">Code Workspace Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".code-workspace" />
+    </file-type>
+    <file-type id="VSCode.coffee">
+      <description xml:lang="en">CoffeeScript Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".coffee" />
+    </file-type>
+    <file-type id="VSCode.config">
+      <description xml:lang="en">Configuration Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".config" mime-type="application/xml" />
+    </file-type>
+    <file-type id="VSCode.cpp">
+      <description xml:lang="en">C++ Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".cpp" mime-type="text/plain" perceived-type="text" />
+    </file-type>
+    <file-type id="VSCode.cs">
+      <description xml:lang="en">C# Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".cs" mime-type="text/plain" perceived-type="text" />
+    </file-type>
+    <file-type id="VSCode.cshtml">
+      <description xml:lang="en">CSHTML Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".cshtml" />
+    </file-type>
+    <file-type id="VSCode.csproj">
+      <description xml:lang="en">C# Project Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".csproj" mime-type="text/plain" />
+    </file-type>
+    <file-type id="VSCode.css">
+      <description xml:lang="en">CSS Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".css" mime-type="text/css" perceived-type="text" />
+    </file-type>
+    <file-type id="VSCode.csx">
+      <description xml:lang="en">C# Script Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".csx" />
+    </file-type>
+    <file-type id="VSCode.ctp">
+      <description xml:lang="en">CakePHP Template Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".ctp" />
+    </file-type>
+    <file-type id="VSCode.cxx">
+      <description xml:lang="en">C++ Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".cxx" mime-type="text/plain" perceived-type="text" />
+    </file-type>
+    <file-type id="VSCode.dockerfile">
+      <description xml:lang="en">Dockerfile Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".dockerfile" />
+    </file-type>
+    <file-type id="VSCode.dot">
+      <description xml:lang="en">Dot Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".dot" mime-type="application/msword" />
+    </file-type>
+    <file-type id="VSCode.dtd">
+      <description xml:lang="en">Document Type Definition Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".dtd" mime-type="application/xml-dtd" />
+    </file-type>
+    <file-type id="VSCode.editorconfig">
+      <description xml:lang="en">Editor Config Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".editorconfig" />
+    </file-type>
+    <file-type id="VSCode.edn">
+      <description xml:lang="en">Extensible Data Notation Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".edn" />
+    </file-type>
+    <file-type id="VSCode.eyaml">
+      <description xml:lang="en">Hiera Eyaml Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".eyaml" />
+    </file-type>
+    <file-type id="VSCode.eyml">
+      <description xml:lang="en">Hiera Eyaml Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".eyml" />
+    </file-type>
+    <file-type id="VSCode.fs">
+      <description xml:lang="en">F# Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".fs" />
+    </file-type>
+    <file-type id="VSCode.fsi">
+      <description xml:lang="en">F# Signature Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".fsi" />
+    </file-type>
+    <file-type id="VSCode.fsscript">
+      <description xml:lang="en">F# Script Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".fsscript" />
+    </file-type>
+    <file-type id="VSCode.fsx">
+      <description xml:lang="en">F# Script Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".fsx" />
+    </file-type>
+    <file-type id="VSCode.gemspec">
+      <description xml:lang="en">Gemspec Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".gemspec" />
+    </file-type>
+    <file-type id="VSCode.gitattributes">
+      <description xml:lang="en">Git Attributes Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".gitattributes" mime-type="text/plain" perceived-type="text" />
+    </file-type>
+    <file-type id="VSCode.gitconfig">
+      <description xml:lang="en">Git Config Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".gitconfig" />
+    </file-type>
+    <file-type id="VSCode.gitignore">
+      <description xml:lang="en">Git Ignore Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".gitignore" mime-type="text/plain" perceived-type="text" />
+    </file-type>
+    <file-type id="VSCode.go">
+      <description xml:lang="en">Go Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".go" />
+    </file-type>
+    <file-type id="VSCode.h">
+      <description xml:lang="en">C Header Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".h" mime-type="text/plain" perceived-type="text" />
+    </file-type>
+    <file-type id="VSCode.handlebars">
+      <description xml:lang="en">Handlebars Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".handlebars" />
+    </file-type>
+    <file-type id="VSCode.hbs">
+      <description xml:lang="en">Handlebars Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".hbs" />
+    </file-type>
+    <file-type id="VSCode.hh">
+      <description xml:lang="en">C++ Header Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".hh" mime-type="text/plain" perceived-type="text" />
+    </file-type>
+    <file-type id="VSCode.hpp">
+      <description xml:lang="en">C++ Header Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".hpp" mime-type="text/plain" perceived-type="text" />
+    </file-type>
+    <file-type id="VSCode.htm">
+      <description xml:lang="en">HTML Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".htm" mime-type="text/html" perceived-type="text" />
+    </file-type>
+    <file-type id="VSCode.html">
+      <description xml:lang="en">HTML Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".html" mime-type="text/html" perceived-type="text" />
+    </file-type>
+    <file-type id="VSCode.hxx">
+      <description xml:lang="en">C++ Header Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".hxx" mime-type="text/plain" perceived-type="text" />
+    </file-type>
+    <file-type id="VSCode.ini">
+      <description xml:lang="en">INI Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".ini" perceived-type="text" />
+    </file-type>
+    <file-type id="VSCode.jade">
+      <description xml:lang="en">Jade Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".jade" />
+    </file-type>
+    <file-type id="VSCode.jav">
+      <description xml:lang="en">Java Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".jav" />
+    </file-type>
+    <file-type id="VSCode.java">
+      <description xml:lang="en">Java Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".java" perceived-type="text" />
+    </file-type>
+    <file-type id="VSCode.js">
+      <description xml:lang="en">JavaScript Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".js" mime-type="text/plain" perceived-type="text" />
+    </file-type>
+    <file-type id="VSCode.jscsrc">
+      <description xml:lang="en">JSCS RC Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".jscsrc" />
+    </file-type>
+    <file-type id="VSCode.jshintrc">
+      <description xml:lang="en">JSHint RC Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".jshintrc" />
+    </file-type>
+    <file-type id="VSCode.jshtm">
+      <description xml:lang="en">JavaScript HTML Template Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".jshtm" />
+    </file-type>
+    <file-type id="VSCode.json">
+      <description xml:lang="en">JSON Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".json" />
+    </file-type>
+    <file-type id="VSCode.jsp">
+      <description xml:lang="en">Java Server Pages Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".jsp" />
+    </file-type>
+    <file-type id="VSCode.less">
+      <description xml:lang="en">LESS Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".less" />
+    </file-type>
+    <file-type id="VSCode.lua">
+      <description xml:lang="en">Lua Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".lua" />
+    </file-type>
+    <file-type id="VSCode.m">
+      <description xml:lang="en">Objective C Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".m" />
+    </file-type>
+    <file-type id="VSCode.makefile">
+      <description xml:lang="en">Makefile Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".makefile" />
+    </file-type>
+    <file-type id="VSCode.markdown">
+      <description xml:lang="en">Markdown Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".markdown" />
+    </file-type>
+    <file-type id="VSCode.md">
+      <description xml:lang="en">Markdown Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".md" />
+    </file-type>
+    <file-type id="VSCode.mdoc">
+      <description xml:lang="en">MDoc Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".mdoc" />
+    </file-type>
+    <file-type id="VSCode.mdown">
+      <description xml:lang="en">Markdown Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".mdown" />
+    </file-type>
+    <file-type id="VSCode.mdtext">
+      <description xml:lang="en">Markdown Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".mdtext" />
+    </file-type>
+    <file-type id="VSCode.mdtxt">
+      <description xml:lang="en">Markdown Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".mdtxt" />
+    </file-type>
+    <file-type id="VSCode.mdwn">
+      <description xml:lang="en">Markdown Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".mdwn" />
+    </file-type>
+    <file-type id="VSCode.mkd">
+      <description xml:lang="en">Markdown Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".mkd" />
+    </file-type>
+    <file-type id="VSCode.mkdn">
+      <description xml:lang="en">Markdown Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".mkdn" />
+    </file-type>
+    <file-type id="VSCode.ml">
+      <description xml:lang="en">OCaml Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".ml" />
+    </file-type>
+    <file-type id="VSCode.mli">
+      <description xml:lang="en">OCaml Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".mli" />
+    </file-type>
+    <file-type id="VSCode.npmignore">
+      <description xml:lang="en">NPM Ignore Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".npmignore" />
+    </file-type>
+    <file-type id="VSCode.php">
+      <description xml:lang="en">PHP Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".php" />
+    </file-type>
+    <file-type id="VSCode.phtml">
+      <description xml:lang="en">PHP HTML Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".phtml" />
+    </file-type>
+    <file-type id="VSCode.pl">
+      <description xml:lang="en">Perl Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".pl" perceived-type="text" />
+    </file-type>
+    <file-type id="VSCode.pl6">
+      <description xml:lang="en">Perl 6 Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".pl6" />
+    </file-type>
+    <file-type id="VSCode.pm">
+      <description xml:lang="en">Perl Module Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".pm" />
+    </file-type>
+    <file-type id="VSCode.pm6">
+      <description xml:lang="en">Perl 6 Module Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".pm6" />
+    </file-type>
+    <file-type id="VSCode.pod">
+      <description xml:lang="en">Perl POD Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".pod" />
+    </file-type>
+    <file-type id="VSCode.pp">
+      <description xml:lang="en">Perl Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".pp" />
+    </file-type>
+    <file-type id="VSCode.profile">
+      <description xml:lang="en">Profile Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".profile" />
+    </file-type>
+    <file-type id="VSCode.properties">
+      <description xml:lang="en">Properties Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".properties" />
+    </file-type>
+    <file-type id="VSCode.ps1">
+      <description xml:lang="en">PowerShell Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".ps1" />
+    </file-type>
+    <file-type id="VSCode.psd1">
+      <description xml:lang="en">PowerShell Module Manifest Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".psd1" />
+    </file-type>
+    <file-type id="VSCode.psgi">
+      <description xml:lang="en">Perl CGI Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".psgi" />
+    </file-type>
+    <file-type id="VSCode.psm1">
+      <description xml:lang="en">PowerShell Module Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".psm1" />
+    </file-type>
+    <file-type id="VSCode.py">
+      <description xml:lang="en">Python Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".py" mime-type="text/plain" perceived-type="text" />
+    </file-type>
+    <file-type id="VSCode.r">
+      <description xml:lang="en">R Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".r" />
+    </file-type>
+    <file-type id="VSCode.rb">
+      <description xml:lang="en">Ruby Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".rb" />
+    </file-type>
+    <file-type id="VSCode.rhistory">
+      <description xml:lang="en">R History Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".rhistory" />
+    </file-type>
+    <file-type id="VSCode.rprofile">
+      <description xml:lang="en">R Profile Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".rprofile" />
+    </file-type>
+    <file-type id="VSCode.rs">
+      <description xml:lang="en">Rust Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".rs" />
+    </file-type>
+    <file-type id="VSCode.rt">
+      <description xml:lang="en">Rich Text Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".rt" />
+    </file-type>
+    <file-type id="VSCode.scss">
+      <description xml:lang="en">Sass Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".scss" />
+    </file-type>
+    <file-type id="VSCode.sh">
+      <description xml:lang="en">SH Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".sh" />
+    </file-type>
+    <file-type id="VSCode.shtml">
+      <description xml:lang="en">SHTML Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".shtml" mime-type="text/html" perceived-type="text" />
+    </file-type>
+    <file-type id="VSCode.sql">
+      <description xml:lang="en">SQL Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".sql" mime-type="text/plain" perceived-type="text" />
+    </file-type>
+    <file-type id="VSCode.svg">
+      <description xml:lang="en">SVG Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".svg" mime-type="image/svg+xml" />
+    </file-type>
+    <file-type id="VSCode.svgz">
+      <description xml:lang="en">SVGZ Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".svgz" />
+    </file-type>
+    <file-type id="VSCode.t">
+      <description xml:lang="en">Perl Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".t" />
+    </file-type>
+    <file-type id="VSCode.tex">
+      <description xml:lang="en">LaTeX Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".tex" />
+    </file-type>
+    <file-type id="VSCode.ts">
+      <description xml:lang="en">TypeScript Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".ts" mime-type="text/plain" perceived-type="text" />
+    </file-type>
+    <file-type id="VSCode.txt">
+      <description xml:lang="en">Text Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".txt" mime-type="text/plain" perceived-type="text" />
+    </file-type>
+    <file-type id="VSCode.vb">
+      <description xml:lang="en">Visual Basic Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".vb" mime-type="text/plain" perceived-type="text" />
+    </file-type>
+    <file-type id="VSCode.wxi">
+      <description xml:lang="en">WiX Include Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".wxi" />
+    </file-type>
+    <file-type id="VSCode.wxl">
+      <description xml:lang="en">WiX Localization Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".wxl" />
+    </file-type>
+    <file-type id="VSCode.wxs">
+      <description xml:lang="en">WiX Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".wxs" />
+    </file-type>
+    <file-type id="VSCode.xaml">
+      <description xml:lang="en">XAML Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".xaml" mime-type="application/xaml+xml" />
+    </file-type>
+    <file-type id="VSCode.xml">
+      <description xml:lang="en">XML Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".xml" mime-type="text/xml" perceived-type="text" />
+    </file-type>
+    <file-type id="VSCode.yaml">
+      <description xml:lang="en">Yaml Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".yaml" />
+    </file-type>
+    <file-type id="VSCode.yml">
+      <description xml:lang="en">Yaml Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".yml" />
+    </file-type>
+    <file-type id="VSCode.zsh">
+      <description xml:lang="en">ZSH Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+      <extension value=".zsh" />
+    </file-type>
+    <file-type id="VSCodeSourceFile">
+      <description xml:lang="en">Visual Studio Code Source File</description>
+      <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <verb name="open" args="&quot;%1&quot;" />
+    </file-type>
+    <context-menu id="files-VSCode">
+      <verb name="VSCode" args="&quot;%1&quot;">
+        <description xml:lang="en">Open with C&amp;ode</description>
+      </verb>
+    </context-menu>
+    <context-menu id="directories-VSCode" target="directories">
+      <verb name="VSCode" args="&quot;%V&quot;">
+        <description xml:lang="en">Open with C&amp;ode</description>
+      </verb>
+    </context-menu>
+  </capabilities>
+</interface>
