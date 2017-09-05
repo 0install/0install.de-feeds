@@ -30,7 +30,7 @@
     </implementation>
   </group>
   <entry-point command="run" binary-name="code" />
-  <capabilities os="Windows" xmlns="http://0install.de/schema/desktop-integration/capabilities">
+  <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
     <file-type id="VSCode.ascx">
       <description xml:lang="en">ASCX Source File</description>
       <icon href="http://0install.de/feed-icons/VS_Code_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
