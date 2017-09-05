@@ -13,7 +13,7 @@
   <feed-for interface="http://0install.de/feeds/HDGraph.xml" />
   <group arch="Windows-*" license="GPL v2 (GNU General Public License)">
     <command name="run" path="HDGraph.exe">
-      <runner interface="http://repo.roscidus.com/cli/netfx" command="run-gui" />
+      <runner interface="http://repo.roscidus.com/dotnet/framework" command="run-gui" />
     </command>
     <implementation version="{version}" released="{released}">
       <manifest-digest />

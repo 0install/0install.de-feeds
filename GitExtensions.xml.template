@@ -24,10 +24,10 @@
       <executable-in-path name="notepad++" />
     </requires>
     <command name="run" path="GitExtensions.exe">
-      <runner interface="http://repo.roscidus.com/cli/cli" command="run-gui" />
+      <runner interface="http://repo.roscidus.com/dotnet/clr" command="run-gui" />
     </command>
     <command name="translate" path="TranslateApp.exe">
-      <runner interface="http://repo.roscidus.com/cli/cli" command="run-gui" />
+      <runner interface="http://repo.roscidus.com/dotnet/clr" command="run-gui" />
     </command>
     <implementation arch="POSIX-*" version="{version}" released="{released}" stability="stable">
       <manifest-digest />

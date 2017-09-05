@@ -9,7 +9,7 @@
   <needs-terminal />
   <group arch="Windows-*">
     <command name="run" path="OpenCover.Console.exe">
-      <runner interface="http://repo.roscidus.com/cli/netfx" command="run" />
+      <runner interface="http://repo.roscidus.com/dotnet/framework" command="run" />
     </command>
     <implementation version="4.6.519" id="sha1new=1d2e24dd8df702067703197262144b0b0b424a1b">
       <manifest-digest sha1new="1d2e24dd8df702067703197262144b0b0b424a1b" sha256="330a1a6a154ad3cdfff8bffdea8745bc1abab0b25cbd9870b851bb747ef9147b" sha256new="GMFBU2QVJLJ4377YX766VB2FXQNLVMFSLS6ZQ4FYKG5XI7XZCR5Q" />

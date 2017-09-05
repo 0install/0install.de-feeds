@@ -9,7 +9,7 @@
   <needs-terminal/>
   <group>
     <command name="run" path="OpenCover.Console.exe">
-      <runner command="run" interface="http://repo.roscidus.com/cli/cli"/>
+      <runner command="run" interface="http://repo.roscidus.com/dotnet/clr"/>
     </command>
     <implementation version="{version}">
       <archive href="https://github.com/OpenCover/opencover/releases/download/{version}/opencover.{version}.zip" type="application/zip"/>

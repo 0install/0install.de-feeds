@@ -9,8 +9,8 @@
   <icon href="http://0install.de/feed-icons/IronPython.png" type="image/png" />
   <icon href="http://0install.de/feed-icons/IronPython.ico" type="image/vnd.microsoft.icon" />
   <category>Development</category>
-  <feed src="http://repo.roscidus.com/cli/ironpython" />
-  <replaced-by interface="http://repo.roscidus.com/cli/ironpython" />
+  <feed src="http://repo.roscidus.com/dotnet/ironpython" />
+  <replaced-by interface="http://repo.roscidus.com/dotnet/ironpython" />
   <entry-point command="run" binary-name="ipy">
     <needs-terminal />
     <name xml:lang="en">IronPython command-line interpreter</name>

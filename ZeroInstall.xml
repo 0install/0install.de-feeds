@@ -14,13 +14,13 @@ Konzeptuell können Sie sich vorstellen, dass die Software nur auf einem Server 
   <icon href="http://0install.de/feed-icons/ZeroInstall.ico" type="image/vnd.microsoft.icon"/>
   <group license="LGPL v3 (GNU Lesser General Public License)">
     <command name="run" path="0install.exe">
-      <runner command="run" interface="http://repo.roscidus.com/cli/cli"/>
+      <runner command="run" interface="http://repo.roscidus.com/dotnet/clr"/>
     </command>
     <command name="run-gui" path="0install-win.exe">
-      <runner command="run-gui" interface="http://repo.roscidus.com/cli/cli"/>
+      <runner command="run-gui" interface="http://repo.roscidus.com/dotnet/clr"/>
     </command>
     <command name="central" path="ZeroInstall.exe">
-      <runner command="run-gui" interface="http://repo.roscidus.com/cli/cli"/>
+      <runner command="run-gui" interface="http://repo.roscidus.com/dotnet/clr"/>
     </command>
     <command name="update" path="0install-win.exe">
       <arg>maintenance</arg>

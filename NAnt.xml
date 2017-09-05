@@ -10,6 +10,6 @@
   <category>Utility</category>
   <homepage>http://nant.sourceforge.net/</homepage>
   <needs-terminal />
-  <feed src="http://repo.roscidus.com/cli/nant" />
-  <replaced-by interface="http://repo.roscidus.com/cli/nant" />
+  <feed src="http://repo.roscidus.com/dotnet/nant" />
+  <replaced-by interface="http://repo.roscidus.com/dotnet/nant" />
 </interface>

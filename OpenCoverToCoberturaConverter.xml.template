@@ -7,7 +7,7 @@
   <needs-terminal/>
   <group license="Apache License">
     <command name="run" path="OpenCoverToCoberturaConverter.exe">
-      <runner command="run" interface="http://repo.roscidus.com/cli/cli"/>
+      <runner command="run" interface="http://repo.roscidus.com/dotnet/clr"/>
     </command>
     <implementation version="{version}">
       <archive extract="tools" href="https://www.nuget.org/api/v2/package/OpenCoverToCoberturaConverter/{version}" type="application/zip"/>
