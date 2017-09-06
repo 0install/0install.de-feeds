@@ -1100,5 +1100,476 @@
       <manifest-digest sha256new="EQ4UCYJQC4Y6NGAWNX47A5AVFBRLXUCDHPLSVJEDWCHOGMHXX7DQ"/>
       <archive extract="filezilla-3.26.2" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.26.2/FileZilla_3.26.2_src.tar.bz2" size="4720306" type="application/x-bzip-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=701c1306fb805ddf0494147dabfa84f6e6dd1670" main="filezilla.exe" released="2015-06-02" stability="stable" version="3.11.0.2">
+      <manifest-digest sha256new="ZUAGSCDX2AZUYUHMO24PPHRJT6VRUWBIBOJH5TPYPPLT3BA7SBYA"/>
+      <recipe>
+        <archive extract="FileZilla-3.11.0.2" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.11.0.2/FileZilla_3.11.0.2_win64.zip" size="9356159" type="application/zip"/>
+        <archive href="http://0install.de/files/hosted/FileZilla-config.zip" size="332" type="application/zip"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=1668b6a98e4117f27e87aafbcfd5a4d64b8a5151" main="filezilla.exe" released="2015-06-02" stability="stable" version="3.11.0.2">
+      <manifest-digest sha256new="MRRF6PTVXRPBQSPSWJ7EPPINVFTCIZK5GYH4UWTKBKRVZETII5OQ"/>
+      <recipe>
+        <archive extract="FileZilla-3.11.0.2" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.11.0.2/FileZilla_3.11.0.2_win32.zip" size="9155755" type="application/zip"/>
+        <archive href="http://0install.de/files/hosted/FileZilla-config.zip" size="332" type="application/zip"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=b7888bf2222be51324f9deb06156c335e000170d" main="bin/filezilla" released="2015-06-02" stability="stable" version="3.11.0.2">
+      <manifest-digest sha256new="IBD5BVJ5PA27F3BDFW3BN2MQK6YH74FILWS2DYCCY3NVLSGPVX4A"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.11.0.2/FileZilla_3.11.0.2_x86_64-linux-gnu.tar.bz2" size="7182751" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i586" id="sha1new=502c1dda6f81696ca6be66e9f6a117c43278bd30" main="bin/filezilla" released="2015-06-02" stability="stable" version="3.11.0.2">
+      <manifest-digest sha256new="JPCQYQD4J6UP2DACTG6IBFTVNA4Y7HFFV3H6LXKDNSHZHJSUBJGA"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.11.0.2/FileZilla_3.11.0.2_i586-linux-gnu.tar.bz2" size="7269221" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="MacOSX-i686" id="sha1new=0891c615e01fbb2dffeaa698738680b5bbcf59e4" main="Contents/MacOS/filezilla" released="2015-06-02" stability="stable" version="3.11.0.2">
+      <manifest-digest sha256new="WNJWS62EZJE6E2LQ7RPD5R7NB4URVXGQRQYGKRROZSFEN4N4EWOA"/>
+      <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.11.0.2/FileZilla_3.11.0.2_macosx-x86.app.tar.bz2" size="7391926" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="*-src" id="sha1new=8da2313c62ba9bdcfcc8eb387b7842afad0eef7e" released="2015-06-02" stability="stable" version="3.11.0.2">
+      <manifest-digest sha256new="VQLCAMUBBM675Q5YXDK2KDXBECPFAJPJQPEGZ2G4ETMLEBVNXF7Q"/>
+      <archive extract="filezilla-3.11.0.2" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.11.0.2/FileZilla_3.11.0.2_src.tar.bz2" size="4421399" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=e05bd9d94e476dc6ac7c6f7299010ddd8b4eabff" main="filezilla.exe" released="2013-05-10" stability="stable" version="3.7.0.1">
+      <manifest-digest sha256new="5EJYOMODWOISGR4AAFEXIBK5UZNTGZ6ZCS4VXLMKEI5SAOJRD3NQ"/>
+      <recipe>
+        <archive extract="FileZilla-3.7.0.1" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.7.0.1/FileZilla_3.7.0.1_win32.zip" size="7233036" type="application/zip"/>
+        <archive href="http://0install.de/files/hosted/FileZilla-config.zip" size="332" type="application/zip"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=56f74ce43e92f4fcb0f5721324a5cbd3591a6766" main="bin/filezilla" released="2013-05-10" stability="stable" version="3.7.0.1">
+      <manifest-digest sha256new="X5ICKGIMR2P5XXVWSEIR6DHKUSDPPYAAXUH2APE3O6J25RTAYPRQ"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.7.0.1/FileZilla_3.7.0.1_x86_64-linux-gnu.tar.bz2" size="5652773" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i586" id="sha1new=d72d8e16e757e099ba4da310c816b31965e7dc04" main="bin/filezilla" released="2013-05-10" stability="stable" version="3.7.0.1">
+      <manifest-digest sha256new="5Z54GCXAXSOOXFF5JD5EZDTKX5LPUNDQUQFWHZ37Z4LR4WUR44FA"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.7.0.1/FileZilla_3.7.0.1_i586-linux-gnu.tar.bz2" size="5522590" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="*-src" id="sha1new=80cdf35e8917d328bc0a8ae64781eb8db211bb5c" released="2013-05-10" stability="stable" version="3.7.0.1">
+      <manifest-digest sha256new="USQ5PJCHDZEZQN4AXYWV7H2AI2UANXKBZ3V5X3ISLUQIEDXR5WEA"/>
+      <archive extract="filezilla-3.7.0.1" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.7.0.1/FileZilla_3.7.0.1_src.tar.bz2" size="3652864" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=24c910127299795b5bb06ee68f0edf9ad0226dca" main="filezilla.exe" released="2013-08-07" stability="stable" version="3.7.3">
+      <manifest-digest sha256new="ILQAVB4UOE7HZ4ACDAN76T64BM54EMFHVZQA5JMDM5OMQPAHJQ4A"/>
+      <recipe>
+        <archive extract="FileZilla-3.7.3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.7.3/FileZilla_3.7.3_win32.zip" size="7241860" type="application/zip"/>
+        <archive href="http://0install.de/files/hosted/FileZilla-config.zip" size="332" type="application/zip"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=64b44f96c44d37dfeabca375e60ba729f5579ceb" main="bin/filezilla" released="2013-08-07" stability="stable" version="3.7.3">
+      <manifest-digest sha256new="76HLKKLORUJA3567VYW7VLDXFYYKHJ2GBFWMQLBMJHV2T6LZYGRQ"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.7.3/FileZilla_3.7.3_x86_64-linux-gnu.tar.bz2" size="5470055" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i586" id="sha1new=3f4c6b72b27cac9fc9a59105236b2d8107d729e4" main="bin/filezilla" released="2013-08-07" stability="stable" version="3.7.3">
+      <manifest-digest sha256new="GUHJMUTJXZ6KR7LBDNY3EUGZV7JMEIPVMAYBR6HLSEDOYYJUSTRA"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.7.3/FileZilla_3.7.3_i586-linux-gnu.tar.bz2" size="5402320" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="*-src" id="sha1new=b74a70b4aac4966fd6bcc5601bf71700134126d8" released="2013-08-07" stability="stable" version="3.7.3">
+      <manifest-digest sha256new="XD7QEVOX5QIFARZODSBWYFGUTR4AHAOHOTJY4TDOTHSP7ENHZRGA"/>
+      <archive extract="filezilla-3.7.3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.7.3/FileZilla_3.7.3_src.tar.bz2" size="3682494" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=dd139afe06fd7ff32eb8ab2f14fcf269ce5ea191" main="filezilla.exe" released="2013-08-06" stability="stable" version="3.7.2">
+      <manifest-digest sha256new="6NA7HJ5SW6YZKHBUCPVHMWPLTMNUZJPXPU3T6HJGKIVQWZNTFNHA"/>
+      <recipe>
+        <archive extract="FileZilla-3.7.2" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.7.2/FileZilla_3.7.2_win32.zip" size="7241803" type="application/zip"/>
+        <archive href="http://0install.de/files/hosted/FileZilla-config.zip" size="332" type="application/zip"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=3e5e288be6573dbb6ec905541031d825f93a359c" main="bin/filezilla" released="2013-08-06" stability="stable" version="3.7.2">
+      <manifest-digest sha256new="BVF335TZANLNZ5BFISKYVAQU25R6MCPRWYZAB2P3BNIRO75TLCVA"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.7.2/FileZilla_3.7.2_x86_64-linux-gnu.tar.bz2" size="5469049" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i586" id="sha1new=a5593338420295525e9aeac1a94f968b40954283" main="bin/filezilla" released="2013-08-06" stability="stable" version="3.7.2">
+      <manifest-digest sha256new="BPVMHT5D25U345WFWLVWTHS6XI5AVQ6CMCGWJNM3UCNNVBI5WLUA"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.7.2/FileZilla_3.7.2_i586-linux-gnu.tar.bz2" size="5402703" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="*-src" id="sha1new=8c4a75d3b7fe26803aece58c5c83d5a2a2f0313c" released="2013-08-06" stability="stable" version="3.7.2">
+      <manifest-digest sha256new="6SVHJLUU76K4ZRYGEQ5B3GPJM2WZ2P2JBX4U3NMNDPFKT4ZDPNOQ"/>
+      <archive extract="filezilla-3.7.2" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.7.2/FileZilla_3.7.2_src.tar.bz2" size="3682007" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=ad7d8849d07ef75a83d9cacf81de69dfd7ca16c2" main="filezilla.exe" released="2015-08-15" stability="stable" version="3.13.0">
+      <manifest-digest sha256new="TFNVOE63LL4CWBXJBZFTCNDAE2E7OAA7F2ECG6AJLNVM3HRRCOSA"/>
+      <recipe>
+        <archive extract="FileZilla-3.13.0" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.13.0/FileZilla_3.13.0_win64.zip" size="9419540" type="application/zip"/>
+        <archive href="http://0install.de/files/hosted/FileZilla-config.zip" size="332" type="application/zip"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=93b5743bce22a82fb5dc7c36520c89fbd1a747cc" main="filezilla.exe" released="2015-08-15" stability="stable" version="3.13.0">
+      <manifest-digest sha256new="SFB2YX2FBL6MIZMI6B4MMTWWUBL3AD4X2QRKBIDPRV7ATZONIX3A"/>
+      <recipe>
+        <archive extract="FileZilla-3.13.0" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.13.0/FileZilla_3.13.0_win32.zip" size="9219175" type="application/zip"/>
+        <archive href="http://0install.de/files/hosted/FileZilla-config.zip" size="332" type="application/zip"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=2205684dac6050261ee6d54051c2785bdd7fd92b" main="bin/filezilla" released="2015-08-15" stability="stable" version="3.13.0">
+      <manifest-digest sha256new="5LOQNRUUDARQKO6PX2RUZ47IIZZ2M2ENQOE43LHFNCIQIAVFL7NQ"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.13.0/FileZilla_3.13.0_x86_64-linux-gnu.tar.bz2" size="7252851" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i586" id="sha1new=ccfea7af32e0c22daf6caaad7d78f69a67cf6fa7" main="bin/filezilla" released="2015-08-15" stability="stable" version="3.13.0">
+      <manifest-digest sha256new="LPTAFUUEYOH63FAHJPY56FDAPIR7UWUPNDKAZX23IHVAPZYMJRNQ"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.13.0/FileZilla_3.13.0_i586-linux-gnu.tar.bz2" size="7286106" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="MacOSX-i686" id="sha1new=0a89c46ae693b1ef3e660cd8a0fdcdf349fe9b71" main="Contents/MacOS/filezilla" released="2015-08-15" stability="stable" version="3.13.0">
+      <manifest-digest sha256new="SUQPCKY7QHQQWEMPO3I7LVITQRCUCLO7EIDO4Z2KUMYCTCPTEC3Q"/>
+      <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.13.0/FileZilla_3.13.0_macosx-x86.app.tar.bz2" size="7335913" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="*-src" id="sha1new=083485c7c26af6397be78444228be082ac5442a4" released="2015-08-15" stability="stable" version="3.13.0">
+      <manifest-digest sha256new="27TDIZ2PYJZ5C43N5LBYT4XANOMHI5C47SXHAM6OVGAC3GU2LK3Q"/>
+      <archive extract="filezilla-3.13.0" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.13.0/FileZilla_3.13.0_src.tar.bz2" size="4542742" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=79549fb1661802c7380a70a8bbacca4eff61880e" main="filezilla.exe" released="2014-03-28" stability="stable" version="3.8.0">
+      <manifest-digest sha256new="Y4HCH6PHIVQJBPDGKTBPFHN3ZWHM5WO6JXPNTWMCSUS5GDFUVGYA"/>
+      <recipe>
+        <archive extract="FileZilla-3.8.0" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.8.0/FileZilla_3.8.0_win32.zip" size="7386124" type="application/zip"/>
+        <archive href="http://0install.de/files/hosted/FileZilla-config.zip" size="332" type="application/zip"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=29b270e31a0d37fc7768f28fd6c94cf5c007e692" main="bin/filezilla" released="2014-03-28" stability="stable" version="3.8.0">
+      <manifest-digest sha256new="QVMWI4BKTLA5ICVOTKVIPGL4GHDXVHRQZJ6A2EYLJHNEU3WM6LWQ"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.8.0/FileZilla_3.8.0_x86_64-linux-gnu.tar.bz2" size="5609406" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i586" id="sha1new=6c28ca1c7dc8e30577473c9b05857e2bc4ade68f" main="bin/filezilla" released="2014-03-28" stability="stable" version="3.8.0">
+      <manifest-digest sha256new="ER5IBURALVMBWJDKWZMINJBUQV5XKTTVVETLPXPXTYCC64HJDGKQ"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.8.0/FileZilla_3.8.0_i586-linux-gnu.tar.bz2" size="5601599" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="*-src" id="sha1new=7a95710756d0a862a485281e73fa28d1a38c7eba" released="2014-03-28" stability="stable" version="3.8.0">
+      <manifest-digest sha256new="UKJ4M3HFDQUG7JY66STPPXGNYORHXP3VHDBN26ORLVAXBT2JRU3A"/>
+      <archive extract="filezilla-3.8.0" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.8.0/FileZilla_3.8.0_src.tar.bz2" size="3749995" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=f6f442325fca79c7ba4e3d8d9f53ce767e567d16" main="filezilla.exe" released="2015-07-08" stability="stable" version="3.12.0">
+      <manifest-digest sha256new="JA66AFJWRO65MWRXLIQEXMAXC3MQ3PZXPIMLOG4WHWYBME3OWTCQ"/>
+      <recipe>
+        <archive extract="FileZilla-3.12.0" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.12.0/FileZilla_3.12.0_win64.zip" size="9362233" type="application/zip"/>
+        <archive href="http://0install.de/files/hosted/FileZilla-config.zip" size="332" type="application/zip"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=62d6bb096f61a1b46e75a99541414e0043b6258e" main="filezilla.exe" released="2015-07-08" stability="stable" version="3.12.0">
+      <manifest-digest sha256new="2N36FISBGLARBTYIEDZZK76NSLCWWQSZ5N324R5TAFWIX2ECFUVA"/>
+      <recipe>
+        <archive extract="FileZilla-3.12.0" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.12.0/FileZilla_3.12.0_win32.zip" size="9163890" type="application/zip"/>
+        <archive href="http://0install.de/files/hosted/FileZilla-config.zip" size="332" type="application/zip"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=2d908b12eba46bc678522e6ecb5b2eaf7da7013f" main="bin/filezilla" released="2015-07-08" stability="stable" version="3.12.0">
+      <manifest-digest sha256new="OF7GCR2YN55MACIPM4UVZ7X3DVS6Z453IYPICTM4JSSORFVCX5DQ"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.12.0/FileZilla_3.12.0_x86_64-linux-gnu.tar.bz2" size="7204851" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i586" id="sha1new=20e86dbee46ae1af640964b68d78599ce2c73343" main="bin/filezilla" released="2015-07-08" stability="stable" version="3.12.0">
+      <manifest-digest sha256new="QFGNZIPBY2C7VZR2K6EAKLTE6FRRFESTLAYAPRCXULSHBT7IAVIA"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.12.0/FileZilla_3.12.0_i586-linux-gnu.tar.bz2" size="7283941" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="MacOSX-i686" id="sha1new=d0bfc41a1ea32496a9b302803156c1496f4689ac" main="Contents/MacOS/filezilla" released="2015-07-08" stability="stable" version="3.12.0">
+      <manifest-digest sha256new="52KWRG4L7HVQB36JJDRIHQD5SEYV6VEAAFNAOQHYQCQHBCHUX2SQ"/>
+      <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.12.0/FileZilla_3.12.0_macosx-x86.app.tar.bz2" size="7309274" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="*-src" id="sha1new=426342be8c0eddfe4cd7fec46c2eeee21d1cd77e" released="2015-07-08" stability="stable" version="3.12.0">
+      <manifest-digest sha256new="66MK7MUS36XM5PZ4DL54W3T3COVIHL33SW4DD7DGYVH2Z36ZRZFQ"/>
+      <archive extract="filezilla-3.12.0" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.12.0/FileZilla_3.12.0_src.tar.bz2" size="4438133" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=762028e8d4a534fdd1872cba9c9348c75035ab68" main="filezilla.exe" released="2013-05-26" stability="stable" version="3.7.0.2">
+      <manifest-digest sha256new="G7H6USDIQF7KGTWOFO3RR2JUEO2WCUYNG34FYFTCMNQMBPDMYSFQ"/>
+      <recipe>
+        <archive extract="FileZilla-3.7.0.2" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.7.0.2/FileZilla_3.7.0.2_win32.zip" size="7238608" type="application/zip"/>
+        <archive href="http://0install.de/files/hosted/FileZilla-config.zip" size="332" type="application/zip"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=8dc060e96ac292713d0753cd249e1999a71f11e0" main="bin/filezilla" released="2013-05-26" stability="stable" version="3.7.0.2">
+      <manifest-digest sha256new="QO6GOPOUZSYFXIK6SFDJZTI24OLGR7EYYAYARQKX4XYTHIHNBRTQ"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.7.0.2/FileZilla_3.7.0.2_x86_64-linux-gnu.tar.bz2" size="5631777" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i586" id="sha1new=b342c6302deb1c8c9f9dc929b6b37ff90ce347e1" main="bin/filezilla" released="2013-05-26" stability="stable" version="3.7.0.2">
+      <manifest-digest sha256new="SMMHFI34EWZBPLW7J5C37WIT2LG7AXTVTYJVFIQSMGKXDX3CVJWQ"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.7.0.2/FileZilla_3.7.0.2_i586-linux-gnu.tar.bz2" size="5501525" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="*-src" id="sha1new=3f4e0eaa8c9e1d39af388044ff3be6a5f88e4e78" released="2013-05-26" stability="stable" version="3.7.0.2">
+      <manifest-digest sha256new="TKCG3VDM7DJ2XJCS3FBLAFYVWBQ5VX7DZM5JJ54RAOWYOJKVIXBQ"/>
+      <archive extract="filezilla-3.7.0.2" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.7.0.2/FileZilla_3.7.0.2_src.tar.bz2" size="3651320" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=2154ef0c5bc9bb1f471feb90558e1842588fc31b" main="filezilla.exe" released="2013-06-18" stability="stable" version="3.7.1">
+      <manifest-digest sha256new="L6MNB4OUDCUS3NOXOUY7N72ZJ4IEZR2WFWX6FNQQ74QLFEKHM66A"/>
+      <recipe>
+        <archive extract="FileZilla-3.7.1" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.7.1/FileZilla_3.7.1_win32.zip" size="7240206" type="application/zip"/>
+        <archive href="http://0install.de/files/hosted/FileZilla-config.zip" size="332" type="application/zip"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=bed9dab751cfd8dcba4c1082d35b3ab9725415aa" main="bin/filezilla" released="2013-06-18" stability="stable" version="3.7.1">
+      <manifest-digest sha256new="QZSBSYJV67Z323KN25SNEIUD4S35PEPRMLW5VR2TQTDYF7UOSP6A"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.7.1/FileZilla_3.7.1_x86_64-linux-gnu.tar.bz2" size="5651290" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i586" id="sha1new=d020c1c6096915e677504cac6bbc74a130b7b2b1" main="bin/filezilla" released="2013-06-18" stability="stable" version="3.7.1">
+      <manifest-digest sha256new="DCX5MO7OAEZXCVHID4XTGT2BGAZKUROQV6FPIREY7D3EMOHJR44Q"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.7.1/FileZilla_3.7.1_i586-linux-gnu.tar.bz2" size="5512693" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="*-src" id="sha1new=10e1f24c37c9a58e6b25471e92b16d4c4cd63acf" released="2013-06-18" stability="stable" version="3.7.1">
+      <manifest-digest sha256new="O3M342JOTF5LNLSATGTJVKZVJZB7QYGH2QAFWB6GF5T43YJFU6JA"/>
+      <archive extract="filezilla-3.7.1" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.7.1/FileZilla_3.7.1_src.tar.bz2" size="3657033" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=5f72bb2461f09889612e51c18364fd49cf210678" main="filezilla.exe" released="2015-07-09" stability="stable" version="3.12.0.1">
+      <manifest-digest sha256new="JMKARF76JSAVMHXNOHCXXXTTEZLZR5TML2RSHZPU5SQH3SYGONQQ"/>
+      <recipe>
+        <archive extract="FileZilla-3.12.0.1" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.12.0.1/FileZilla_3.12.0.1_win64.zip" size="9365473" type="application/zip"/>
+        <archive href="http://0install.de/files/hosted/FileZilla-config.zip" size="332" type="application/zip"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=a10a8a4c06662905424046a40ca8584463999b99" main="filezilla.exe" released="2015-07-09" stability="stable" version="3.12.0.1">
+      <manifest-digest sha256new="QFQXU33PROBUESCQHXABVOMZAOOZWSNYSR4D36GMD7XXDPXMVKLA"/>
+      <recipe>
+        <archive extract="FileZilla-3.12.0.1" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.12.0.1/FileZilla_3.12.0.1_win32.zip" size="9167193" type="application/zip"/>
+        <archive href="http://0install.de/files/hosted/FileZilla-config.zip" size="332" type="application/zip"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=fd590d5b98ff7aa48261736c7a050f0695cbf182" main="bin/filezilla" released="2015-07-09" stability="stable" version="3.12.0.1">
+      <manifest-digest sha256new="W777QAPSYQPNL4BSJNHRAW3RW4WUXXRYKU3KHFGTKIIUIUPVEWWA"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.12.0.1/FileZilla_3.12.0.1_x86_64-linux-gnu.tar.bz2" size="7207539" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i586" id="sha1new=5a0c9a2f4faba0c4a982f7b50aba0e4333a1413c" main="bin/filezilla" released="2015-07-09" stability="stable" version="3.12.0.1">
+      <manifest-digest sha256new="IYBBSLUH37UWV2L6VNIYXEWFK2VMQ2FACUW45KXS7XDDNHJ4RXHQ"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.12.0.1/FileZilla_3.12.0.1_i586-linux-gnu.tar.bz2" size="7283519" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="MacOSX-i686" id="sha1new=463267050171eaf04bacbcc731042ceb90e111f7" main="Contents/MacOS/filezilla" released="2015-07-09" stability="stable" version="3.12.0.1">
+      <manifest-digest sha256new="O6WJDYXCH6ZIMXOXB5VQBEZQVGV77CB3IOKSQTMX2BG3WT6KORAQ"/>
+      <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.12.0.1/FileZilla_3.12.0.1_macosx-x86.app.tar.bz2" size="7309284" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="*-src" id="sha1new=86df6827280a683343d00c0ff0ff3b7a01341d71" released="2015-07-09" stability="stable" version="3.12.0.1">
+      <manifest-digest sha256new="T2J3AVFDVNDER5FUVG7WRTBQR3FLZDR6MGR47S2WUTIQL7B3LVHA"/>
+      <archive extract="filezilla-3.12.0.1" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.12.0.1/FileZilla_3.12.0.1_src.tar.bz2" size="4440569" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=366bbddd37b0d33fe02ca11029f7d986d02577e7" main="filezilla.exe" released="2013-06-27" stability="stable" version="3.7.1.1">
+      <manifest-digest sha256new="R5J7HQZWLCK62S7BXHRNWK3KYJJ3IU4F55HLIYZIKNPLCZ3FG5AQ"/>
+      <recipe>
+        <archive extract="FileZilla-3.7.1.1" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.7.1.1/FileZilla_3.7.1.1_win32.zip" size="7244002" type="application/zip"/>
+        <archive href="http://0install.de/files/hosted/FileZilla-config.zip" size="332" type="application/zip"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=db90ae971b0a2bb24236a3d4eef25d420d51476f" main="bin/filezilla" released="2013-06-27" stability="stable" version="3.7.1.1">
+      <manifest-digest sha256new="JGBHXQPLDWIMZ43OWM2OWYC7DXKQJPU3PUDQYGHHXJEPH3O7SLLQ"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.7.1.1/FileZilla_3.7.1.1_x86_64-linux-gnu.tar.bz2" size="5645983" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i586" id="sha1new=1f3944759d25d2c51b99d7fe4e60f53ea3f176da" main="bin/filezilla" released="2013-06-27" stability="stable" version="3.7.1.1">
+      <manifest-digest sha256new="NBIAKHQ532OWB34LCDIMQ2CAUR6XPUZ55WIVE7CTTBEPCQ5DRYAA"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.7.1.1/FileZilla_3.7.1.1_i586-linux-gnu.tar.bz2" size="5506002" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="*-src" id="sha1new=ec5ce7fc3564d6274d8f1d3171af5affcdfaa994" released="2013-06-27" stability="stable" version="3.7.1.1">
+      <manifest-digest sha256new="YRGCCJSKHI2URTRPKLPU6Z6ISSFZA5NYQEMONT74CLPR77OI3CZA"/>
+      <archive extract="filezilla-3.7.1.1" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.7.1.1/FileZilla_3.7.1.1_src.tar.bz2" size="3657474" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=0bc9664d65d78e2f69f0889ee0365abf86701176" main="filezilla.exe" released="2014-02-09" stability="stable" version="3.7.4">
+      <manifest-digest sha256new="ZUEHMSXH7YE5Q4RPXXDCCOTMGAVAD4VII7ZPW5VJLH4GFZL2KI4Q"/>
+      <recipe>
+        <archive extract="FileZilla-3.7.4" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.7.4/FileZilla_3.7.4_win32.zip" size="7316073" type="application/zip"/>
+        <archive href="http://0install.de/files/hosted/FileZilla-config.zip" size="332" type="application/zip"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=0b886494152db8dd87391427fd87557fcbc6464d" main="bin/filezilla" released="2014-02-09" stability="stable" version="3.7.4">
+      <manifest-digest sha256new="YJCGVJOVMWVYFUA2NDM4PDXNH6ZA7FLD72EYTJMDFKKVN5HBWTIQ"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.7.4/FileZilla_3.7.4_x86_64-linux-gnu.tar.bz2" size="5518604" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i586" id="sha1new=e05e56bd3b5a895409ccfb205d84d0ccdf56c3f4" main="bin/filezilla" released="2014-02-09" stability="stable" version="3.7.4">
+      <manifest-digest sha256new="2TZSU7RBVVACYKR7QWXYBLFQFDKJRQWEZWOYWFNW4OWKPKONL4KA"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.7.4/FileZilla_3.7.4_i586-linux-gnu.tar.bz2" size="5471775" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="*-src" id="sha1new=4d91a31d5112202fe88ea785d6a733d81c26ed47" released="2014-02-09" stability="stable" version="3.7.4">
+      <manifest-digest sha256new="JIBZQJVBYQLC3FGQ62WIXHINUKKYVVINETPLF2NUZNLM5XYXCKCA"/>
+      <archive extract="filezilla-3.7.4" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.7.4/FileZilla_3.7.4_src.tar.bz2" size="3707985" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=02e761a1d28c00a21894d259d4e17f67a9cf7b94" main="filezilla.exe" released="2017-08-14" stability="stable" version="3.27.1">
+      <manifest-digest sha256new="Q55LBZMB7INUAZBVPQKEV6AFKRKLJNDBX7PACGUJGL7GTW6RHLQQ"/>
+      <recipe>
+        <archive extract="FileZilla-3.27.1" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.27.1/FileZilla_3.27.1_win64.zip" size="11633590" type="application/zip"/>
+        <archive href="http://0install.de/files/hosted/FileZilla-config.zip" size="332" type="application/zip"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=74ab13384934131132856fc215331cd5d503c364" main="filezilla.exe" released="2017-08-14" stability="stable" version="3.27.1">
+      <manifest-digest sha256new="OKPQ7ABAEYTNQTNMMRRIWH3A7K6PMENYB7KTMPPSDRLGMUMQGRDQ"/>
+      <recipe>
+        <archive extract="FileZilla-3.27.1" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.27.1/FileZilla_3.27.1_win32.zip" size="11432186" type="application/zip"/>
+        <archive href="http://0install.de/files/hosted/FileZilla-config.zip" size="332" type="application/zip"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=5cd2aeed74c4a9a6218af20547dbeb559fb3db4d" main="bin/filezilla" released="2017-08-14" stability="stable" version="3.27.1">
+      <manifest-digest sha256new="MKEL56CPS45YI3GVMZSCM6UZ3BFFRZW4SDYBIDTTXG6A5XRFCZOQ"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.27.1/FileZilla_3.27.1_x86_64-linux-gnu.tar.bz2" size="9017971" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i586" id="sha1new=5bd240012bc1fd7be4f21e5863b67ed10040bc3b" main="bin/filezilla" released="2017-08-14" stability="stable" version="3.27.1">
+      <manifest-digest sha256new="NIM6MTXOWM46G5PEH4GCLD6POL6LGPWEACALZOM5FRVN4L4SZKZQ"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.27.1/FileZilla_3.27.1_i586-linux-gnu.tar.bz2" size="9220202" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="MacOSX-i686" id="sha1new=10a7a61942f53815e813cef22c5c20f39405f7eb" main="Contents/MacOS/filezilla" released="2017-08-14" stability="stable" version="3.27.1">
+      <manifest-digest sha256new="M4J7RTMACMOMPZTIJIXSUDYXA2WQBJM34AGSRBOYGRDCKKTBOCQQ"/>
+      <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.27.1/FileZilla_3.27.1_macosx-x86.app.tar.bz2" size="10349741" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="*-src" id="sha1new=18770d710b75e93563a854868a73b525b46f3b73" released="2017-08-14" stability="stable" version="3.27.1">
+      <manifest-digest sha256new="YCNRQXWKVPE32RFXFNRZWOJKORGRDVIFO4RNJWKFOVREJS55HXCA"/>
+      <archive extract="filezilla-3.27.1" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.27.1/FileZilla_3.27.1_src.tar.bz2" size="4815446" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=6903442d1c3023ee1ab2dab50d65ecf71299db42" main="filezilla.exe" released="2016-12-05" stability="stable" version="3.23.0">
+      <manifest-digest sha256new="QEGABAF4MJRZL6Q6IF2RRTLVIUMNHSIS3LL65MWVXGK5CD4PCY3A"/>
+      <recipe>
+        <archive extract="FileZilla-3.23.0" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.23.0/FileZilla_3.23.0_win64.zip" size="9874558" type="application/zip"/>
+        <archive href="http://0install.de/files/hosted/FileZilla-config.zip" size="332" type="application/zip"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=ecf746e8e7047abe95e01484483019a37b1fcff0" main="filezilla.exe" released="2016-12-05" stability="stable" version="3.23.0">
+      <manifest-digest sha256new="IXY5UFE54YH65DMUJ5VAZMSJVVYK74DELP2T2ZSD7DTHUHZX542A"/>
+      <recipe>
+        <archive extract="FileZilla-3.23.0" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.23.0/FileZilla_3.23.0_win32.zip" size="9700356" type="application/zip"/>
+        <archive href="http://0install.de/files/hosted/FileZilla-config.zip" size="332" type="application/zip"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=b50c12a5fc6ccdd4659bd412cf65e0b40b940494" main="bin/filezilla" released="2016-12-05" stability="stable" version="3.23.0">
+      <manifest-digest sha256new="JGQORUUY5HL7MKVPPZE2YQ7YZDJGC3JRVQDKOBARU36FTA6EI4TQ"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.23.0/FileZilla_3.23.0_x86_64-linux-gnu.tar.bz2" size="7608571" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i586" id="sha1new=4440f9681681e341a32650048b4b9315f28885c1" main="bin/filezilla" released="2016-12-05" stability="stable" version="3.23.0">
+      <manifest-digest sha256new="OUF5YGHD5YANLBTIQQYDXOJNODLK7OYJEOELHK7MDKRQFWPYUITA"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.23.0/FileZilla_3.23.0_i586-linux-gnu.tar.bz2" size="7707613" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="MacOSX-i686" id="sha1new=0b083e4d7bbd823337f9b0caa4f664b2452636f0" main="Contents/MacOS/filezilla" released="2016-12-05" stability="stable" version="3.23.0">
+      <manifest-digest sha256new="TPQ6NPJEWD7BNZAAFNRSQRLLD7SV6QFSJKPV4XMQGZVPZRBQFXGA"/>
+      <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.23.0/FileZilla_3.23.0_macosx-x86.app.tar.bz2" size="8972113" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="*-src" id="sha1new=954c86f4ce59d2c1cf8a9cc942e80a2bb47413a4" released="2016-12-05" stability="stable" version="3.23.0">
+      <manifest-digest sha256new="4QU64WD4A3QJKRFLT2PCWN6HPO7IXPAILRJBT5FG4GQFCCPL5WQQ"/>
+      <archive extract="filezilla-3.23.0" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.23.0/FileZilla_3.23.0_src.tar.bz2" size="4657876" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=95e7965dffe2c6a44e186d8ad5435d51e8d0d377" main="filezilla.exe" released="2017-07-19" stability="stable" version="3.27.0.1">
+      <manifest-digest sha256new="EKAXMIIBXC6XYOEVB645VFYAUIVAAMUMVZSSM5Z3HKOH4EYTTD6Q"/>
+      <recipe>
+        <archive extract="FileZilla-3.27.0.1" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.27.0.1/FileZilla_3.27.0.1_win64.zip" size="11572057" type="application/zip"/>
+        <archive href="http://0install.de/files/hosted/FileZilla-config.zip" size="332" type="application/zip"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=40ea479466effbeb58eb8c541dbf4ce0eb04526b" main="filezilla.exe" released="2017-07-19" stability="stable" version="3.27.0.1">
+      <manifest-digest sha256new="JPBCXVYV3MTA5LCHJBHDSOGPTL4ZJI3Z7DFR7BZAVY5QXS3XG5DQ"/>
+      <recipe>
+        <archive extract="FileZilla-3.27.0.1" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.27.0.1/FileZilla_3.27.0.1_win32.zip" size="11369417" type="application/zip"/>
+        <archive href="http://0install.de/files/hosted/FileZilla-config.zip" size="332" type="application/zip"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=fdbb7bdf919fa0904f5151bf5fbe481749431ea7" main="bin/filezilla" released="2017-07-19" stability="stable" version="3.27.0.1">
+      <manifest-digest sha256new="753VNQTKHXHSQL3BLUMFQIXEMONWU7HFP4NTKANFLPAM6VJPYWYA"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.27.0.1/FileZilla_3.27.0.1_x86_64-linux-gnu.tar.bz2" size="9019364" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i586" id="sha1new=bc1ec9e694d0c1ac7f5f8a57d9d4d882ff84a832" main="bin/filezilla" released="2017-07-19" stability="stable" version="3.27.0.1">
+      <manifest-digest sha256new="XUF3MKS262TXULIKBKPUVTAOKZ4UC5XCQ373FCKX75SKO33XNQ2Q"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.27.0.1/FileZilla_3.27.0.1_i586-linux-gnu.tar.bz2" size="9129053" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="MacOSX-i686" id="sha1new=18884c64846f057b0810379d17a51de3dfaab14c" main="Contents/MacOS/filezilla" released="2017-07-19" stability="stable" version="3.27.0.1">
+      <manifest-digest sha256new="YJXE7B26EM7WKYDNTOZ6Z4HOMRFPBBQVQA5OZFOEPTMCTJYYZTKQ"/>
+      <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.27.0.1/FileZilla_3.27.0.1_macosx-x86.app.tar.bz2" size="10316136" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="*-src" id="sha1new=3d6defde55f53869ee3b6d157c70b186662a1a2b" released="2017-07-19" stability="stable" version="3.27.0.1">
+      <manifest-digest sha256new="NJVBBOXBRLEQNZ3SNYXCTSBFDWEY66YM67JU5SACLLJZTVANEMPQ"/>
+      <archive extract="filezilla-3.27.0.1" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.27.0.1/FileZilla_3.27.0.1_src.tar.bz2" size="4764035" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=ca398b3ce001effa0c86f2d2d50493195fd2d0d5" main="filezilla.exe" released="2017-07-19" stability="stable" version="3.27.0">
+      <manifest-digest sha256new="MNKU52HPS75NJOVFJMBPHE7M3I6R2CURI4FG2DRY7ZHBTMDWNZYA"/>
+      <recipe>
+        <archive extract="FileZilla-3.27.0" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.27.0/FileZilla_3.27.0_win64.zip" size="10098177" type="application/zip"/>
+        <archive href="http://0install.de/files/hosted/FileZilla-config.zip" size="332" type="application/zip"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=82e0ab4c347385ece77812ade237c12ece7b5dab" main="filezilla.exe" released="2017-07-19" stability="stable" version="3.27.0">
+      <manifest-digest sha256new="LY7PN7OMPFJYEXLAP2DEHH32XOCLUFR5AFEHD7AYSJA46AEVZNLA"/>
+      <recipe>
+        <archive extract="FileZilla-3.27.0" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.27.0/FileZilla_3.27.0_win32.zip" size="10030261" type="application/zip"/>
+        <archive href="http://0install.de/files/hosted/FileZilla-config.zip" size="332" type="application/zip"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=ab3de75e83c88aba682f9e4e9dfe58b9bf704a1e" main="bin/filezilla" released="2017-07-19" stability="stable" version="3.27.0">
+      <manifest-digest sha256new="GESFUGRDMUB7KJFC3RUSJQKXQMKXT6I4KO6YDZLHTPQYD6C6GP4A"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.27.0/FileZilla_3.27.0_x86_64-linux-gnu.tar.bz2" size="9019803" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i586" id="sha1new=5b03254e582b70dc56ad0cc591199a927454822e" main="bin/filezilla" released="2017-07-19" stability="stable" version="3.27.0">
+      <manifest-digest sha256new="GU5FXZSKNSBEYQZE5ZYIV2IXO34RZCHTQP235R53EFAPOOIIJ75Q"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.27.0/FileZilla_3.27.0_i586-linux-gnu.tar.bz2" size="9130729" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="MacOSX-i686" id="sha1new=53a2cda30e198e3a3a7e1e56c88d8f95ca564d47" main="Contents/MacOS/filezilla" released="2017-07-19" stability="stable" version="3.27.0">
+      <manifest-digest sha256new="5IBL7BT6NLZCEJMPUJCNX7AIPOIXGXD35UPF6NGN6LEO3UXEMLBA"/>
+      <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.27.0/FileZilla_3.27.0_macosx-x86.app.tar.bz2" size="10316178" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="*-src" id="sha1new=c134cbb98f96b759a85dba7ad5df574a48dcc6e2" released="2017-07-19" stability="stable" version="3.27.0">
+      <manifest-digest sha256new="KJPY72KF5ND2FGXPU477UXH6CCADT4JRCBTIIER6JMMX72R7TXBQ"/>
+      <archive extract="filezilla-3.27.0" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.27.0/FileZilla_3.27.0_src.tar.bz2" size="4764395" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=21104be84ef96903831af205b23dad48374d60df" main="filezilla.exe" released="2015-05-22" stability="stable" version="3.11.0.1">
+      <manifest-digest sha256new="Z6ANDKWN6WL4A72OX452ARCU3PRWCL3K5EMQNZEUFOITMLXGME5Q"/>
+      <recipe>
+        <archive extract="FileZilla-3.11.0.1" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.11.0.1/FileZilla_3.11.0.1_win64.zip" size="9374099" type="application/zip"/>
+        <archive href="http://0install.de/files/hosted/FileZilla-config.zip" size="332" type="application/zip"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=31a039e188a46515dd31b3818b2f97ace9feb00c" main="filezilla.exe" released="2015-05-22" stability="stable" version="3.11.0.1">
+      <manifest-digest sha256new="HYTGPHATUQJGASKVSN5RPLHYK2ZAEO2B4KWQFOPKUPDAQCOCB2RQ"/>
+      <recipe>
+        <archive extract="FileZilla-3.11.0.1" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.11.0.1/FileZilla_3.11.0.1_win32.zip" size="9173806" type="application/zip"/>
+        <archive href="http://0install.de/files/hosted/FileZilla-config.zip" size="332" type="application/zip"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=eb2ec16b63fccab065f9e646a24a509f999f053d" main="bin/filezilla" released="2015-05-22" stability="stable" version="3.11.0.1">
+      <manifest-digest sha256new="L4PH3EQZY3TOLJFNV7BKKQFY3JW4AXYFZRVKLCEET726QR3VMNCQ"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.11.0.1/FileZilla_3.11.0.1_x86_64-linux-gnu.tar.bz2" size="7202398" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i586" id="sha1new=a70ac47439cc0e4896de5f9adfd6dd211a1ebbd0" main="bin/filezilla" released="2015-05-22" stability="stable" version="3.11.0.1">
+      <manifest-digest sha256new="OBDIZ2DEZTJCNARQWLHALE34AXX3HTXOED3PDH7N5WHYKCW3S6GA"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.11.0.1/FileZilla_3.11.0.1_i586-linux-gnu.tar.bz2" size="7265128" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="MacOSX-i686" id="sha1new=c2df87a3937e6128d943805c8d2f4b92c20d3064" main="Contents/MacOS/filezilla" released="2015-05-22" stability="stable" version="3.11.0.1">
+      <manifest-digest sha256new="G4WRLXTIIJGFWUWN5PQLMMXT5QA3BVCM7GNT2WCKHODIZRVESM2Q"/>
+      <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.11.0.1/FileZilla_3.11.0.1_macosx-x86.app.tar.bz2" size="7281552" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="*-src" id="sha1new=ef488327759f1e992545d7e90c75c2a47af3a771" released="2015-05-22" stability="stable" version="3.11.0.1">
+      <manifest-digest sha256new="25JV7RLV3XT3ABL7L3AP2SSVQHSY5KEVUTPRQYG65OYBCTETMEEA"/>
+      <archive extract="filezilla-3.11.0.1" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.11.0.1/FileZilla_3.11.0.1_src.tar.bz2" size="4434678" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=ceb3e4f3377f45fb7111c33713ac1c9124ec3f77" main="filezilla.exe" released="2014-02-11" stability="stable" version="3.7.4.1">
+      <manifest-digest sha256new="POJ6YACOMKJLSHAVYN7GYQUTM2UUCHMYQ47PJBM2TNWQ4665L6HA"/>
+      <recipe>
+        <archive extract="FileZilla-3.7.4.1" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.7.4.1/FileZilla_3.7.4.1_win32.zip" size="7319616" type="application/zip"/>
+        <archive href="http://0install.de/files/hosted/FileZilla-config.zip" size="332" type="application/zip"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=09c4947e918d736055ea3de12e93a09f687c5747" main="bin/filezilla" released="2014-02-11" stability="stable" version="3.7.4.1">
+      <manifest-digest sha256new="JPSWRLHB4K6WPQL6FLDIR27EVN3B2JWFK3FKF6DSMGYHDWNDSQVQ"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.7.4.1/FileZilla_3.7.4.1_x86_64-linux-gnu.tar.bz2" size="5530542" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i586" id="sha1new=2be243fc43096593b9d1b0435e3e681904cf90c3" main="bin/filezilla" released="2014-02-11" stability="stable" version="3.7.4.1">
+      <manifest-digest sha256new="VFJRMQFKK54AAEDFG6MHBU6GEGQD4AAZR2CMMUL4H7OLDLFRFMKQ"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.7.4.1/FileZilla_3.7.4.1_i586-linux-gnu.tar.bz2" size="5480529" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="*-src" id="sha1new=079d52bdb25b3e39e9991c7d30374cd418b3c87b" released="2014-02-11" stability="stable" version="3.7.4.1">
+      <manifest-digest sha256new="342N2ERDX7FZP4RXVVMOYO5PLUGOX6KLEDNXSP3GSXTJUI234UYA"/>
+      <archive extract="filezilla-3.7.4.1" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.7.4.1/FileZilla_3.7.4.1_src.tar.bz2" size="3709078" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=6025890c0ddd5e599f86f7129f9f10896605cf78" main="filezilla.exe" released="2016-12-05" stability="stable" version="3.23.0.1">
+      <manifest-digest sha256new="DF47ENY6X7WABI5GCGPTVCUMYZO2NLNXVNQ543YKZNVABXTLCQ6Q"/>
+      <recipe>
+        <archive extract="FileZilla-3.23.0.1" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.23.0.1/FileZilla_3.23.0.1_win64.zip" size="9879906" type="application/zip"/>
+        <archive href="http://0install.de/files/hosted/FileZilla-config.zip" size="332" type="application/zip"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=05188fb15f29d60636cd79f866a5f46382827cea" main="filezilla.exe" released="2016-12-05" stability="stable" version="3.23.0.1">
+      <manifest-digest sha256new="73NQSBKDHE2XYIGBYTQCUMVLVQFOYVFFQOQKOVYVJKI3X7W25BSA"/>
+      <recipe>
+        <archive extract="FileZilla-3.23.0.1" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.23.0.1/FileZilla_3.23.0.1_win32.zip" size="9705077" type="application/zip"/>
+        <archive href="http://0install.de/files/hosted/FileZilla-config.zip" size="332" type="application/zip"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=5dc31c5425df3d6e16e63126503be5a044262587" main="bin/filezilla" released="2016-12-05" stability="stable" version="3.23.0.1">
+      <manifest-digest sha256new="V7ABNZKI2GYTJHSEYPHMX5IS2V3KGAQLRPPUVKJAXU43TWL7BFHA"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.23.0.1/FileZilla_3.23.0.1_x86_64-linux-gnu.tar.bz2" size="7608421" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i586" id="sha1new=e9985f0dd635493bb1881520a41b9a96ce139a91" main="bin/filezilla" released="2016-12-05" stability="stable" version="3.23.0.1">
+      <manifest-digest sha256new="7FN2YA5ODT4E7OE7MJV2LGKGJXHOLDWBXMKV7RKN3PP3WSULLF6Q"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.23.0.1/FileZilla_3.23.0.1_i586-linux-gnu.tar.bz2" size="7709647" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="MacOSX-i686" id="sha1new=25ea0095b9fae61c39c41857e7ceec525563f242" main="Contents/MacOS/filezilla" released="2016-12-05" stability="stable" version="3.23.0.1">
+      <manifest-digest sha256new="YKDJJJX77CLDFET5WXLNDOA26JQ7UYGYLS2KFVMFUJZGPGJXF32Q"/>
+      <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.23.0.1/FileZilla_3.23.0.1_macosx-x86.app.tar.bz2" size="8975930" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="*-src" id="sha1new=6bc0e1989124962f098e88965c8c54edbda22e26" released="2016-12-05" stability="stable" version="3.23.0.1">
+      <manifest-digest sha256new="R4S3CELMSIMAPVHM3MOKVZR4LFVER2BREEVIATKS7NLSPCE2T3BQ"/>
+      <archive extract="filezilla-3.23.0.1" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.23.0.1/FileZilla_3.23.0.1_src.tar.bz2" size="4662488" type="application/x-bzip-compressed-tar"/>
+    </implementation>
   </group>
 </interface>
