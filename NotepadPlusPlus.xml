@@ -445,6 +445,34 @@
         <remove path="doLocalConf.xml"/>
       </recipe>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=41396d09024c9172eb7d300c1e7f871c81df43fc" released="2017-08-16" stability="stable" version="7.5">
+      <manifest-digest sha1new="41396d09024c9172eb7d300c1e7f871c81df43fc" sha256="b125b087007e360db313c48edcc597d3f6bd0912003844475f2a23ba501a124f" sha256new="WES3BBYAPY3A3MYTYSHNZRMX2P3L2CISAA4EIR27FIR3UUA2CJHQ"/>
+      <recipe>
+        <archive href="http://notepad-plus-plus.org/repository/7.x/7.5/npp.7.5.bin.x64.zip" size="3194830" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=057dbb23f2731be894ae36cb38684d4cc4e5f593" released="2017-08-16" stability="stable" version="7.5">
+      <manifest-digest sha1new="057dbb23f2731be894ae36cb38684d4cc4e5f593" sha256="f2392c3210bd1bd8533ba17834be6587f69740dfcde3770e7dda469d617a0c1a" sha256new="6I4SYMQQXUN5QUZ3UF4DJPTFQ73JOQG7ZXRXODT53JDJ2YL2BQNA"/>
+      <recipe>
+        <archive href="http://notepad-plus-plus.org/repository/7.x/7.5/npp.7.5.bin.zip" size="2891712" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=28e62598a2caf4a33a3bc391647c77f8873ede14" released="2017-08-30" stability="stable" version="7.5.1">
+      <manifest-digest sha1new="28e62598a2caf4a33a3bc391647c77f8873ede14" sha256="5b4c8639b0fc3377123265be4210154412b6230c5d38b056f3332c6e89fca115" sha256new="LNGIMONQ7QZXOERSMW7EEEAVIQJLMIYMLU4LAVXTGMWG5CP4UEKQ"/>
+      <recipe>
+        <archive href="http://notepad-plus-plus.org/repository/7.x/7.5.1/npp.7.5.1.bin.x64.zip" size="3197009" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=9cfc11588380e77eb4412ee441b79423cc72c2b2" released="2017-08-30" stability="stable" version="7.5.1">
+      <manifest-digest sha1new="9cfc11588380e77eb4412ee441b79423cc72c2b2" sha256="a3fcd8d118506625b62af12a564d1a342ea9243857288421e832195419aeb1ca" sha256new="UP6NRUIYKBTCLNRK6EVFMTI2GQXKSJBYK4UIIIPIGIMVIGNOWHFA"/>
+      <recipe>
+        <archive href="http://notepad-plus-plus.org/repository/7.x/7.5.1/npp.7.5.1.bin.zip" size="2894424" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
   </group>
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
     <file-type id="Notepad++_textfile">
