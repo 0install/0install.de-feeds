@@ -10,7 +10,7 @@
   <group>
     <requires interface="http://repo.roscidus.com/git/core">
       <environment insert="." mode="replace" name="GITEXT_GIT"/>
-      <environment insert="bin" mode="prepend" name="PATH"/>
+      <environment insert="bin" name="PATH"/>
     </requires>
     <requires importance="recommended" interface="http://0install.de/feeds/PuTTY.xml" os="Windows">
       <environment insert="." mode="replace" name="GITEXT_PUTTY"/>
@@ -119,6 +119,14 @@
     <implementation arch="Windows-*" id="sha1new=30ff90ae4f747d3641102b863a0bd3e497abd946" released="2017-07-07" stability="stable" version="2.50.1">
       <manifest-digest sha1new="30ff90ae4f747d3641102b863a0bd3e497abd946" sha256="c110d780e57d3eb10b0eff37cb2d99929f5995acc0e088a4ba08599e0f725652" sha256new="YEINPAHFPU7LCCYO7434WLMZSKPVTFNMYDQIRJF2BBMZ4D3SKZJA"/>
       <archive extract="SourceDir/GitExtensions" href="https://github.com/gitextensions/gitextensions/releases/download/v2.50.01/GitExtensions-2.50.01-Setup.msi" size="15634739" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="POSIX-*" id="sha1new=bed4cd049dbe1717f00a0fa55b64df8311fc773b" released="2017-09-06" stability="stable" version="2.50.2">
+      <manifest-digest sha1new="bed4cd049dbe1717f00a0fa55b64df8311fc773b" sha256="5b8336fd9503a9706ee617a5cc0619d76d4db6b53b4d81a32e2b029d0bccf578" sha256new="LOBTN7MVAOUXA3XGC6S4YBQZ25WU3NVVHNGYDIZOFMBJ2C6M6V4A"/>
+      <archive extract="GitExtensions" href="https://github.com/gitextensions/gitextensions/releases/download/v2.50.02/GitExtensions-2.50.02-Mono.zip" size="12230225" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-*" id="sha1new=7144f9522db00c87d84c892fcdb78b621fb083e1" released="2017-09-06" stability="stable" version="2.50.2">
+      <manifest-digest sha1new="7144f9522db00c87d84c892fcdb78b621fb083e1" sha256="3f402e4dd25480f87faba195269c227bd49049ad5663c852eb74ba3a30c04869" sha256new="H5AC4TOSKSAPQ75LUGKSNHBCPPKJASNNKZR4QUXLOS5DUMGAJBUQ"/>
+      <archive extract="SourceDir/GitExtensions" href="https://github.com/gitextensions/gitextensions/releases/download/v2.50.02/GitExtensions-2.50.02-Setup.msi" size="15638835" type="application/x-msi"/>
     </implementation>
   </group>
   <entry-point binary-name="GitExtensions" command="run">
