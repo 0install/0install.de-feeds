@@ -18,7 +18,7 @@
     </command>
     <implementation version="{version}" released="{released}" stability="stable">
       <manifest-digest />
-      <file href="https://github.com/rg3/youtube-dl/releases/download/{version}/youtube-dl" dest="youtube-dl" />
+      <file href="https://github.com/rg3/youtube-dl/releases/download/{version-original}/youtube-dl" dest="youtube-dl" />
     </implementation>
   </group>
 </interface>
