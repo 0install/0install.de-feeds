@@ -203,5 +203,9 @@
       <manifest-digest sha1new="4e3c8ae5c1b040801ab0289cfed93a4135ef94c4" sha256="21f8b9a5309dc297ce6b5f067fcfe4cabb620a039d764befa6870a9168036414" sha256new="EH4LTJJQTXBJPTTLL4DH7T7EZK5WECQDTV3EX35GQ4FJC2ADMQKA"/>
       <file dest="youtube-dl" href="https://github.com/rg3/youtube-dl/releases/download/2017.09.02/youtube-dl" size="1569069"/>
     </implementation>
+    <implementation id="sha1new=655e4c48c08b4741b3054286305039996099c22a" released="2017-09-23" stability="stable" version="2017.9.24">
+      <manifest-digest sha1new="655e4c48c08b4741b3054286305039996099c22a" sha256="1f26b755529a844fc66c9b919136a364409a68b58dcc19a4eace6b9a7a937fd6" sha256new="D4TLOVKSTKCE7RTMTOIZCNVDMRAJU2FVRXGBTJHKZZVZU6UTP7LA"/>
+      <file dest="youtube-dl" href="https://github.com/rg3/youtube-dl/releases/download/2017.09.24/youtube-dl" size="1582485"/>
+    </implementation>
   </group>
 </interface>
