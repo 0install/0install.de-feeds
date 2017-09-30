@@ -1,21 +1,10 @@
 <?xml version="1.0" ?>
 <interface uri="http://0install.de/feeds/GTK.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
   <name>GTK+ Runtime</name>
-  <summary xml:lang="en">runtime components of GTK+</summary>
-  <description xml:lang="en">This package contains the runtime components for GTK+.</description>
+  <summary>runtime components of GTK+</summary>
+  <description>This package contains the runtime components for GTK+.</description>
   <homepage>http://www.gtk.org/</homepage>
-  <group license="GPL v2 (GNU General Public License)">
-    <implementation arch="Windows-i486" id="sha1new=699b232b35649fd9474e84113cddaae3fcf52418" released="2013-02-13" stability="stable" version="2.16.6.1">
-      <manifest-digest sha256new="QNDXOYCW6PLKOIL2ETJK63ODY7JIDC4PDXQLKFZPONTNGRCOIRXA"/>
-      <archive extract="Gtk" href="http://sourceforge.net/projects/pidgin/files/GTK%2B%20for%20Windows/2.16.6.1/gtk-runtime-2.16.6.1.zip" size="12110421" type="application/zip"/>
-    </implementation>
-    <implementation arch="Windows-i486" id="sha1new=6ea66727f5841276c7761e12bdf7e0ebcd18c208" released="2014-01-22" stability="stable" version="2.16.6.2">
-      <manifest-digest sha256new="IJDLZMGWDTO53HCYX4L2LWESGMY3U65WCQD54NNROR7LVOZEAYOQ"/>
-      <archive extract="Gtk" href="http://sourceforge.net/projects/pidgin/files/GTK%2B%20for%20Windows/2.16.6.2/gtk-runtime-2.16.6.2.zip" size="12158413" type="application/zip"/>
-    </implementation>
-    <implementation arch="Windows-i486" id="sha1new=cdec7f0fc832c265dfddd50ee1c913093c29382e" released="2016-01-02" stability="stable" version="2.16.6.3">
-      <manifest-digest sha256new="PER46UXB3PS3V545GUJYL4K4W257LNYOTOCYEMT2IZVOMRIZI6UQ"/>
-      <archive extract="Gtk" href="http://sourceforge.net/projects/pidgin/files/GTK%2B%20for%20Windows/2.16.6.3/gtk-runtime-2.16.6.3.zip" size="12363051" type="application/zip"/>
-    </implementation>
-  </group>
+
+  <feed src="http://repo.roscidus.com/lib/gtk" />
+  <replaced-by interface="http://repo.roscidus.com/lib/gtk" />
 </interface>
