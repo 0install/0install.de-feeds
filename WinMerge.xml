@@ -11,9 +11,7 @@
   <category>Development</category>
   <category>Utility</category>
   <group license="GPL v2 (GNU General Public License)">
-    <requires interface="http://0install.de/feeds/MSVC90.xml">
-      <environment insert="." mode="append" name="PATH"/>
-    </requires>
+    <requires interface="http://0install.de/feeds/MSVC90.xml" />
     <implementation arch="Windows-i486" id="sha1new=e26983ef702f773dd8d0177e6372b0f61972aabf" main="WinMergeU.exe" released="2013-02-03" stability="stable" version="2.14.0">
       <manifest-digest sha256new="DKZW2SYSUDTQZJKMUHQXDZDC6QGSDTPS2S3NNWBLW67PL4PGLKFQ"/>
       <archive extract="WinMerge-2.14.0-exe" href="http://downloads.sourceforge.net/winmerge/stable/2.14.0/WinMerge-2.14.0-exe.zip" size="2764125" type="application/zip"/>

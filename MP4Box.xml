@@ -7,9 +7,7 @@
   <category>AudioVideo</category>
   <needs-terminal />
   <group license="LGPL (GNU Lesser General Public License)" main="MP4Box.exe">
-    <requires interface="http://0install.de/feeds/MSVC100.xml">
-      <environment name="PATH" insert="." mode="append" />
-    </requires>
+    <requires interface="http://0install.de/feeds/MSVC100.xml" />
     <group version="0.4.6-2735" released="2011-03-02" stability="stable">
       <implementation arch="Windows-*" id="sha1new=c9da505148416a933484075c47a7e3dfb036206e">
         <manifest-digest sha1new="c9da505148416a933484075c47a7e3dfb036206e" sha256="04efa1a144d9342fd81bb70df5c31ebd9790beb43d9dc2e6d934872ebad7789b" sha256new="ATX2DIKE3E2C7WA3W4G7LQY6XWLZBPVUHWO4FZWZGSDS5OWXPCNQ" />
