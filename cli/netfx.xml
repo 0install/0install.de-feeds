@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd" uri="http://0install.de/feeds/cli/netfx.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
-  <name>.NET Framework</name>
+  <name>.NET Framework (legacy feed)</name>
   <summary>the .NET Framework from Microsoft</summary>
 
   <feed src="http://repo.roscidus.com/dotnet/framework" />
-  <replaced-by interface="http://repo.roscidus.com/dotnet/framework" />
 </interface>

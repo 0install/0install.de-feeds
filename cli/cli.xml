@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd" uri="http://0install.de/feeds/cli/cli.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
-  <name>Common Language Runtime</name>
+  <name>Common Language Runtime (legacy feed)</name>
   <summary>an implementation of the Common Language Runtime (.NET Framework on Windows, Mono on POSIX) using .NET profiles as version numbers</summary>
 
   <feed src="http://repo.roscidus.com/dotnet/clr" />
-  <replaced-by interface="http://repo.roscidus.com/dotnet/clr" />
 </interface>
