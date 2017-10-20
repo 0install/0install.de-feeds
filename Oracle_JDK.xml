@@ -72,6 +72,10 @@
       <manifest-digest sha1new="c9e56df365e66dbe665f6fd28b6897cd22cb7961" sha256="826ef31b304bbf2c1c558b5e74a871154f242c7df1195564554327cef40f2542" sha256new="QJXPGGZQJO7SYHCVRNPHJKDRCVHSILD56EMVKZCVIMT455APEVBA"/>
       <archive href="jdk-8u152-windows-i586.tar.lzma" size="130034772" type="application/x-lzma-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=5afeff7cf51b76f898b868aea2e3de308c25fadf" released="2017-10-20" stability="stable" version="9.0.1">
+      <manifest-digest sha1new="5afeff7cf51b76f898b868aea2e3de308c25fadf" sha256="a2ce43e8a689b39aa1860356be0b7f2cef91b6b2ccc5434a54c8132ee6c9ee8f" sha256new="ULHEH2FGRGZZVIMGANLL4C37FTXZDNVSZTCUGSSUZAJS5ZWJ52HQ"/>
+      <archive href="jdk-9.0.1_windows-x64_bin.tar.lzma" size="233007328" type="application/x-lzma-compressed-tar"/>
+    </implementation>
   </group>
   <entry-point binary-name="javac" command="run">
     <name xml:lang="en">Java compiler</name>
