@@ -9,6 +9,6 @@ def convert(match):
         'released': datetime.strftime(datetime.strptime(match[1], '%d-%b-%Y'), '%Y-%m-%d')
     }
 
-data = request.urlopen(request.Request('http://downloadarchive.documentfoundation.org/libreoffice/old/')).read()
-matches = re.findall(r'/">([0-9\.]+)/</a></td><td align="right">(..-...-....)', data.decode())
+data = request.urlopen('http://downloadarchive.documentfoundation.org/libreoffice/old/').read().decode('utf-8')
+matches = re.findall(r'/">([0-9\.]+)/</a></td><td align="right">(..-...-....)', data)
 releases = [convert(match) for match in matches if match[0].startswith("5")]

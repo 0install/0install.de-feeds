@@ -9,5 +9,5 @@ def parse(data):
         if title.startswith('Notepad++ ') and title.endswith(' released'):
             yield {'version': title[10:-9], 'released': datetime.strftime(pubDate, '%Y-%m-%d')}
 
-data = request.urlopen('https://notepad-plus-plus.org/feed.rss').read()
+data = request.urlopen('https://notepad-plus-plus.org/feed.rss').read().decode('utf-8')
 releases = list(parse(data))

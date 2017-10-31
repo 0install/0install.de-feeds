@@ -12,5 +12,5 @@ def convert(release):
     released = release['published_at'][0:10]
     return {'version': version, 'version-tag': version_tag, 'version-build': version_build, 'released': released}
 
-data = request.urlopen('https://api.github.com/repos/gitextensions/gitextensions/releases').read()
+data = request.urlopen('https://api.github.com/repos/gitextensions/gitextensions/releases').read().decode('utf-8')
 releases = [convert(release) for release in json.loads(data) if len(release['assets']) > 0]
