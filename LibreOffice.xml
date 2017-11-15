@@ -593,6 +593,46 @@
       <manifest-digest sha1new="95918b0e00bdc3e37ba42edbd8c54272cb09d3c8" sha256="a8569b7feced33b93f34f19f96448acff3923804cbd4ac99852d48088c9aca82" sha256new="VBLJW77M5UZ3SPZU6GPZMREKZ7ZZEOAEZPKKZGMFFVEARDE2ZKBA"/>
       <archive extract="SourceDir" href="http://downloadarchive.documentfoundation.org/libreoffice/old/5.4.2.1/win/x86/LibreOffice_5.4.2.1_Win_x86.msi" size="223768576" type="application/x-msi"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=f34b822b95ccd23bcb7337824a75bbf00a05db5a" released="2017-10-07" stability="stable" version="5.3.7.1">
+      <manifest-digest sha256new="Q4VWUU5US6WKDXIIJCBKICA6L4HWFMJUQCOU654IBUGGBSBMOKMA"/>
+      <archive extract="SourceDir" href="http://downloadarchive.documentfoundation.org/libreoffice/old/5.3.7.1/win/x86_64/LibreOffice_5.3.7.1_Win_x64.msi" size="244203520" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=dee0921d583eb48502688c20e2b9728355cee958" released="2017-10-07" stability="stable" version="5.3.7.1">
+      <manifest-digest sha256new="PBXH4COACP4MDAI4FHTDSXGLUDG2K65SQDVA52BU5MNOYYOCKGDA"/>
+      <archive extract="SourceDir" href="http://downloadarchive.documentfoundation.org/libreoffice/old/5.3.7.1/win/x86/LibreOffice_5.3.7.1_Win_x86.msi" size="221184000" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=3c5eb3d8ca4bec13c1550267d6f266a5be9517cd" released="2017-10-26" stability="stable" version="5.3.7.2">
+      <manifest-digest sha256new="X3PW3R3SZZLBE4XRBX5YERODNSLFFK42HRLZBDIVUHPT3UMWDMZQ"/>
+      <archive extract="SourceDir" href="http://downloadarchive.documentfoundation.org/libreoffice/old/5.3.7.2/win/x86_64/LibreOffice_5.3.7.2_Win_x64.msi" size="244154368" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=2c9ffa4df51ff5b47757b4c10ce49f7e272df209" released="2017-10-26" stability="stable" version="5.3.7.2">
+      <manifest-digest sha256new="R7FNN547YASJPXZ74CPZDWIZPONURSIUC2VZBA5FKATXD3NALGPQ"/>
+      <archive extract="SourceDir" href="http://downloadarchive.documentfoundation.org/libreoffice/old/5.3.7.2/win/x86/LibreOffice_5.3.7.2_Win_x86.msi" size="221110272" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=3b22401b896d2b69751f83a8183c2914740a688f" released="2017-10-14" stability="stable" version="5.4.2.2">
+      <manifest-digest sha256new="7B3N7UIXGVCOPEMAGJDTORKARDE7X7WVNWQFLTS4TBZMCLCNETMA"/>
+      <archive extract="SourceDir" href="http://downloadarchive.documentfoundation.org/libreoffice/old/5.4.2.2/win/x86_64/LibreOffice_5.4.2.2_Win_x64.msi" size="244957184" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=9dc97f90cb916147a74392ed0b88203359e40999" released="2017-10-14" stability="stable" version="5.4.2.2">
+      <manifest-digest sha256new="XD4RBZCOHQJLH5UYOCZZY3I7V2NF4BZYXY5LJUFG7V4KOQEFHNKA"/>
+      <archive extract="SourceDir" href="http://downloadarchive.documentfoundation.org/libreoffice/old/5.4.2.2/win/x86/LibreOffice_5.4.2.2_Win_x86.msi" size="223789056" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=5baadd10f6be264e4ab99749a8cde500ba26a4de" released="2017-10-19" stability="stable" version="5.4.3.1">
+      <manifest-digest sha256new="BDVK4XPOCQI7U3MAKWITPAZLBL7Q3Z3QOEOSVJUH23QC2HGMS2XA"/>
+      <archive extract="SourceDir" href="http://downloadarchive.documentfoundation.org/libreoffice/old/5.4.3.1/win/x86_64/LibreOffice_5.4.3.1_Win_x64.msi" size="244994048" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=119fea6c7968646a79ed07caf8aa857574942f4a" released="2017-10-19" stability="stable" version="5.4.3.1">
+      <manifest-digest sha256new="FR6HVZUOJRPQVTF5IXTVRX6LEJ4XRP6UY4UH3ORLWH4BDR6FQ5SQ"/>
+      <archive extract="SourceDir" href="http://downloadarchive.documentfoundation.org/libreoffice/old/5.4.3.1/win/x86/LibreOffice_5.4.3.1_Win_x86.msi" size="223801344" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=7d2cf75b740422617539ddf00459e9676cbae371" released="2017-11-05" stability="stable" version="5.4.3.2">
+      <manifest-digest sha256new="TMU5GHSKA2Y46PKXORIMHXT7XOZQVBFYNCWKCXL2CS6KHEPZBZNA"/>
+      <archive extract="SourceDir" href="http://downloadarchive.documentfoundation.org/libreoffice/old/5.4.3.2/win/x86_64/LibreOffice_5.4.3.2_Win_x64.msi" size="245379072" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=6e75f35921977fc290fb4340fdeecda308f766f4" released="2017-11-05" stability="stable" version="5.4.3.2">
+      <manifest-digest sha256new="FSPPY6FME4USC7PIATZ5S34VWX65FOJEXW435WCLWRDJ36NXOKNQ"/>
+      <archive extract="SourceDir" href="http://downloadarchive.documentfoundation.org/libreoffice/old/5.4.3.2/win/x86/LibreOffice_5.4.3.2_Win_x86.msi" size="225288192" type="application/x-msi"/>
+    </implementation>
   </group>
   <entry-point binary-name="soffice" command="run"/>
   <entry-point binary-name="swriter" command="writer">
