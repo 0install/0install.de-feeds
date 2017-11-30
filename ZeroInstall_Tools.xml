@@ -215,10 +215,10 @@ und der New Feed Wizard (leitet Sie durch den kompletten Feed-Erstellungsprozess
     </implementation>
     <group>
       <command name="0publish" path="0publish.exe">
-        <runner command="run" interface="http://0install.de/feeds/cli/cli.xml" version="4.0.."/>
+        <runner command="run" interface="http://repo.roscidus.com/dotnet/clr" version="4.0.."/>
       </command>
       <command name="run" path="0publish-win.exe">
-        <runner command="run-gui" interface="http://0install.de/feeds/cli/cli.xml" version="4.0.."/>
+        <runner command="run-gui" interface="http://repo.roscidus.com/dotnet/clr" version="4.0.."/>
       </command>
       <implementation id="sha1new=2a2865b9ecdd912f271898c0e510219460f4b6ae" license="LGPL v3 (GNU Lesser General Public License)" released="2017-05-04" stability="stable" version="2.13.0">
         <manifest-digest sha1new="2a2865b9ecdd912f271898c0e510219460f4b6ae" sha256="54219f7902dc919aab4ea00eb0fbe65b5cd5b4dfb32c6e621a91b93b09aafa95" sha256new="KQQZ66IC3SIZVK2OUAHLB67GLNONLNG7WMWG4YQ2SG4TWCNK7KKQ"/>

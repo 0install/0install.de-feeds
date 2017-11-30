@@ -215,13 +215,13 @@ Konzeptuell können Sie sich vorstellen, dass die Software nur auf einem Server 
     </implementation>
     <group>
       <command name="central" path="ZeroInstall.exe">
-        <runner command="run-gui" interface="http://0install.de/feeds/cli/cli.xml"/>
+        <runner command="run-gui" interface="http://repo.roscidus.com/dotnet/clr"/>
       </command>
       <command name="run-gui" path="0install-win.exe">
-        <runner command="run-gui" interface="http://0install.de/feeds/cli/cli.xml"/>
+        <runner command="run-gui" interface="http://repo.roscidus.com/dotnet/clr"/>
       </command>
       <command name="run" path="0install.exe">
-        <runner command="run" interface="http://0install.de/feeds/cli/cli.xml"/>
+        <runner command="run" interface="http://repo.roscidus.com/dotnet/clr"/>
       </command>
       <implementation id="sha1new=b4d1a3b4f2ce233b9d148df65a59f3495da37345" released="2017-05-04" stability="stable" version="2.13.0">
         <manifest-digest sha1new="b4d1a3b4f2ce233b9d148df65a59f3495da37345" sha256="d562f780b171746b3965fad2b0e4792e747ef0a63500a830fa6e3a4d513f42bd" sha256new="2VRPPAFROF2GWOLF7LJLBZDZFZ2H54FGGUAKQMH2NY5E2UJ7IK6Q"/>
