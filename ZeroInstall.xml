@@ -256,6 +256,10 @@ Konzeptuell können Sie sich vorstellen, dass die Software nur auf einem Server 
         <archive href="ZeroInstall-2.14.2.tar.gz" size="3192312"/>
       </implementation>
     </group>
+    <implementation id="sha1new=a4962a525c0c01c3218c37ed6d4bc4e6ae752fe4" released="2017-12-04" stability="stable" version="2.14.3">
+      <manifest-digest sha1new="a4962a525c0c01c3218c37ed6d4bc4e6ae752fe4" sha256="8a2249e7b81b786490c3e87b2b3b82a2217172d2d6fcc4e07338001c41cd4f6d" sha256new="RIRETZ5YDN4GJEGD5B5SWO4CUIQXC4WS236MJYDTHAABYQONJ5WQ"/>
+      <archive href="ZeroInstall-2.14.3.tar.gz" size="3195758"/>
+    </implementation>
   </group>
   <entry-point binary-name="0install" command="run">
     <needs-terminal/>
