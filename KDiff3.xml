@@ -19,6 +19,8 @@
     </implementation>
   </group>
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
-    <context-menu id="KDiff3" target="all" />
+    <context-menu id="KDiff3" target="all">
+      <verb name="open" args="&quot;%1&quot;" />
+    </context-menu>
   </capabilities>
 </interface>
