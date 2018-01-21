@@ -2,15 +2,17 @@ from urllib import request
 import json
 
 def convert(release):
-    version_tag = release['tag_name'].strip('v')
-    if 'RC' in version_tag:
-        version_build = version_tag
-        version = version_tag.replace('RC', '-pre')
+    original_version = release['tag_name'].strip('v')
+    if 'RC' in original_version:
+        build_version = original_version
+        version = original_version.replace('.RC', '-rc').replace('RC', '-rc')
+        stability = 'testing'
     else:
-        version_build = version_tag if version_tag.count('.') > 1 else version_tag + '.00'
-        version = version_tag.replace('.0', '.')
+        build_version = original_version if original_version.count('.') > 1 else original_version + '.00'
+        version = original_version.replace('.0', '.')
+        stability = 'stable'
     released = release['published_at'][0:10]
-    return {'version': version, 'version-tag': version_tag, 'version-build': version_build, 'released': released}
+    return {'version': version, 'original-version': original_version, 'build-version': build_version, 'stability': 'stability', 'released': released}
 
 data = request.urlopen('https://api.github.com/repos/gitextensions/gitextensions/releases').read().decode('utf-8')
 releases = [convert(release) for release in json.loads(data) if len(release['assets']) > 0]

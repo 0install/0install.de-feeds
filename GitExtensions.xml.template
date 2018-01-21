@@ -31,11 +31,11 @@
     </command>
     <implementation arch="POSIX-*" version="{version}" released="{released}" stability="stable">
       <manifest-digest />
-      <archive href="https://github.com/gitextensions/gitextensions/releases/download/v{version-tag}/GitExtensions-{version-build}-Mono.zip" type="application/zip" extract="GitExtensions" />
+      <archive href="https://github.com/gitextensions/gitextensions/releases/download/v{original-version}/GitExtensions-{build-version}-Mono.zip" type="application/zip" extract="GitExtensions" />
     </implementation>
     <implementation arch="Windows-*" version="{version}" released="{released}" stability="stable">
       <manifest-digest />
-      <archive href="https://github.com/gitextensions/gitextensions/releases/download/v{version-tag}/GitExtensions-{version-build}-Setup.msi" type="application/x-msi" extract="SourceDir/GitExtensions" />
+      <archive href="https://github.com/gitextensions/gitextensions/releases/download/v{original-version}/GitExtensions-{build-version}-Setup.msi" type="application/x-msi" extract="SourceDir/GitExtensions" />
     </implementation>
   </group>
 </interface>

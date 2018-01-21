@@ -48,11 +48,11 @@
       <manifest-digest sha256new="J4S7KNE3BIH36HYVF6LLEO5BPZTWGCHAV6ZVCXVOWVMCY5NXIORQ"/>
       <archive extract="GitExtensions" href="http://downloads.sourceforge.net/gitextensions/GitExtensions-2.48.05-Mono.zip" size="7518013" type="application/zip"/>
     </implementation>
-    <implementation id="sha1new=31f42f68518ae4785b924a68a3ec1b6a3da9e4e2" released="2016-10-12" stability="testing" version="2.49-pre1">
+    <implementation id="sha1new=31f42f68518ae4785b924a68a3ec1b6a3da9e4e2" released="2016-10-12" stability="testing" version="2.49-rc1">
       <manifest-digest sha256new="BKJHC6H75BQ2PZSDAPXNU5YO6UQGI6MAML6A7QS4P6B6TDYVQXGQ"/>
       <archive extract="GitExtensions" href="https://github.com/gitextensions/gitextensions/releases/download/v2.49RC1/GitExtensions-2.49RC1-Mono.zip" size="12213980" type="application/zip"/>
     </implementation>
-    <implementation id="sha1new=a5bada093ad3476f1202c0638d94d0beab54d0f9" released="2016-10-21" stability="testing" version="2.49-pre2">
+    <implementation id="sha1new=a5bada093ad3476f1202c0638d94d0beab54d0f9" released="2016-10-21" stability="testing" version="2.49-rc2">
       <manifest-digest sha256new="VCCNYKOVDJR2WTUKPEZFSBT476KP34JQZYGS6J6EUVP2X22IGMAQ"/>
       <archive extract="GitExtensions" href="https://github.com/gitextensions/gitextensions/releases/download/v2.49RC2/GitExtensions-2.49RC2-Mono.zip" size="12250768" type="application/zip"/>
     </implementation>
@@ -88,19 +88,19 @@
       <manifest-digest sha1new="6a3d3af21ef4bae8b71736798bda2a131947a79c" sha256="e96521164bfc80c9a31ae4017c0594071284cc2d9faa831f3bb2c8ad1717248c" sha256new="5FSSCFSL7SAMTIY24QAXYBMUA4JIJTBNT6VIGHZ3WLEK2FYXESGA"/>
       <archive extract="SourceDir/GitExtensions" href="https://github.com/gitextensions/gitextensions/releases/download/v2.49.03/GitExtensions-2.49.03-Setup.msi" size="14591455" type="application/x-msi"/>
     </implementation>
-    <implementation arch="POSIX-*" id="sha1new=532655c52ee20f8bf07c3939399728b8b837d554" released="2017-06-10" stability="testing" version="2.50-pre1">
+    <implementation arch="POSIX-*" id="sha1new=532655c52ee20f8bf07c3939399728b8b837d554" released="2017-06-10" stability="testing" version="2.50-rc1">
       <manifest-digest sha1new="532655c52ee20f8bf07c3939399728b8b837d554" sha256="43d50b2ae33375e29694da7762e8b738aca76e3baab24ac6d339debf59eb5f67" sha256new="IPKQWKXDGN26FFUU3J3WF2FXHCWKO3R3VKZEVRWTHHPL6WPLL5TQ"/>
       <archive extract="GitExtensions" href="https://github.com/gitextensions/gitextensions/releases/download/v2.50RC1/GitExtensions-2.50RC1-Mono.zip" size="12228090" type="application/zip"/>
     </implementation>
-    <implementation arch="Windows-*" id="sha1new=c2cec9153822c66cc1bc02206fb8233527c4efc2" released="2017-06-10" stability="testing" version="2.50-pre1">
+    <implementation arch="Windows-*" id="sha1new=c2cec9153822c66cc1bc02206fb8233527c4efc2" released="2017-06-10" stability="testing" version="2.50-rc1">
       <manifest-digest sha1new="c2cec9153822c66cc1bc02206fb8233527c4efc2" sha256="79c4a5e70fddcf8c57a8ca3fa5df088ce6bf31436721ecda52892fd15e249be1" sha256new="PHCKLZYP3XHYYV5IZI72LXYIRTTL6MKDM4Q6ZWSSREX5CXRETPQQ"/>
       <archive extract="SourceDir/GitExtensions" href="https://github.com/gitextensions/gitextensions/releases/download/v2.50RC1/GitExtensions-2.50RC1-Setup.msi" size="15634740" type="application/x-msi"/>
     </implementation>
-    <implementation arch="POSIX-*" id="sha1new=9f4254f7cfb83915a185c22a22c676ad3295dc0d" released="2017-06-15" stability="testing" version="2.50-pre2">
+    <implementation arch="POSIX-*" id="sha1new=9f4254f7cfb83915a185c22a22c676ad3295dc0d" released="2017-06-15" stability="testing" version="2.50-rc2">
       <manifest-digest sha1new="9f4254f7cfb83915a185c22a22c676ad3295dc0d" sha256="8803e02e3a57dc90b658bcf24c5e49954c1e460305ea8f5ab878e6a87c45df0a" sha256new="RAB6ALR2K7OJBNSYXTZEYXSJSVGB4RQDAXVI6WVYPDTKQ7CF34FA"/>
       <archive extract="GitExtensions" href="https://github.com/gitextensions/gitextensions/releases/download/v2.50RC2/GitExtensions-2.50RC2-Mono.zip" size="12228141" type="application/zip"/>
     </implementation>
-    <implementation arch="Windows-*" id="sha1new=1d4b3d23a5182dd60c9676e590b68fee01862a47" released="2017-06-15" stability="testing" version="2.50-pre2">
+    <implementation arch="Windows-*" id="sha1new=1d4b3d23a5182dd60c9676e590b68fee01862a47" released="2017-06-15" stability="testing" version="2.50-rc2">
       <manifest-digest sha1new="1d4b3d23a5182dd60c9676e590b68fee01862a47" sha256="ab75fb82e5c11bf48b1e49d7379ff539dbc8f61c7ec6c1c89f59797eb19707b5" sha256new="VN27XAXFYEN7JCY6JHLTPH7VHHN4R5Q4P3DMDSE7LF4X5MMXA62Q"/>
       <archive extract="SourceDir/GitExtensions" href="https://github.com/gitextensions/gitextensions/releases/download/v2.50RC2/GitExtensions-2.50RC2-Setup.msi" size="15634740" type="application/x-msi"/>
     </implementation>
@@ -127,6 +127,22 @@
     <implementation arch="Windows-*" id="sha1new=7144f9522db00c87d84c892fcdb78b621fb083e1" released="2017-09-06" stability="stable" version="2.50.2">
       <manifest-digest sha1new="7144f9522db00c87d84c892fcdb78b621fb083e1" sha256="3f402e4dd25480f87faba195269c227bd49049ad5663c852eb74ba3a30c04869" sha256new="H5AC4TOSKSAPQ75LUGKSNHBCPPKJASNNKZR4QUXLOS5DUMGAJBUQ"/>
       <archive extract="SourceDir/GitExtensions" href="https://github.com/gitextensions/gitextensions/releases/download/v2.50.02/GitExtensions-2.50.02-Setup.msi" size="15638835" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="POSIX-*" id="sha1new=c21536df501973822e13f4776b298d008b21a7c5" released="2018-01-02" stability="testing" version="2.51-rc1">
+      <manifest-digest sha256new="ROPP43RMQMSMZNLP4Z7VWARQO663GGNIDJHAK3TNCOXT7TCXI5GA"/>
+      <archive extract="GitExtensions" href="https://github.com/gitextensions/gitextensions/releases/download/v2.51.RC1/GitExtensions-2.51.RC1-Mono.zip" size="12215918" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-*" id="sha1new=b94aa87d42185ab023a9b9a31741a474b4a71588" released="2018-01-02" stability="testing" version="2.51-rc1">
+      <manifest-digest sha256new="O4TYAIOF6UEZ6WAVKMVM7D2O55IVP4SBGG7DXFYGSEUYPGNYVNDQ"/>
+      <archive extract="SourceDir/GitExtensions" href="https://github.com/gitextensions/gitextensions/releases/download/v2.51.RC1/GitExtensions-2.51.RC1-Setup.msi" size="15762803" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="POSIX-*" id="sha1new=7b4021c0eb6eaac1130b853ee7ca0990d0e0a09a" released="2018-01-14" stability="testing" version="2.51-rc2">
+      <manifest-digest sha256new="2VAZLU3YACPEK5ZJ3Q5MOABDD6B2HSZ7W6VPP6ODTRF52EBFFNEQ"/>
+      <archive extract="GitExtensions" href="https://github.com/gitextensions/gitextensions/releases/download/v2.51.RC2/GitExtensions-2.51.RC2-Mono.zip" size="12376212" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-*" id="sha1new=6b5485cb15ec21f1bad3ea43f3c31f3f9b428afe" released="2018-01-14" stability="testing" version="2.51-rc2">
+      <manifest-digest sha256new="KB4RLMTAQ6J27JW7GJKB6UIITLXZXQ5LSW6KI6274OO4FXMHSSCA"/>
+      <archive extract="SourceDir/GitExtensions" href="https://github.com/gitextensions/gitextensions/releases/download/v2.51.RC2/GitExtensions-2.51.RC2-Setup.msi" size="15922940" type="application/x-msi"/>
     </implementation>
   </group>
   <entry-point binary-name="GitExtensions" command="run">
