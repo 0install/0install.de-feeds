@@ -2681,5 +2681,31 @@
       <manifest-digest sha256new="G7I4N2GTWYTRXWC4Z23OHQYVWO7YBTJ7RMNIFETKAMI2P32XBT7A"/>
       <archive extract="filezilla-3.29.0" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.29.0/FileZilla_3.29.0_src.tar.bz2" size="4832040" type="application/x-bzip-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=041aeae63a878baea81385c3b38b1f0de2610d03" main="filezilla.exe" released="2018-01-08" stability="stable" version="3.30.0">
+      <manifest-digest sha256new="JR7QPIHOXK4KWK7WSICJKJFYHPZRETFART2F4NKH2RGEKALEWBZA"/>
+      <recipe>
+        <archive extract="FileZilla-3.30.0" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.30.0/FileZilla_3.30.0_win64.zip" size="11702624" type="application/zip"/>
+        <archive href="http://0install.de/files/hosted/FileZilla-config.zip" size="332" type="application/zip"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=86d863c75ce1960198e4425abaf1f61b11ead8a6" main="filezilla.exe" released="2018-01-08" stability="stable" version="3.30.0">
+      <manifest-digest sha256new="UTSHHPTHXAQJDSH3PMVPWEUIBZJFMLGD6LZS2FPAN5KTQYYV536A"/>
+      <recipe>
+        <archive extract="FileZilla-3.30.0" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.30.0/FileZilla_3.30.0_win32.zip" size="11502964" type="application/zip"/>
+        <archive href="http://0install.de/files/hosted/FileZilla-config.zip" size="332" type="application/zip"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=9995bd6d5e53a6768299405bd75d8d50862fa810" main="bin/filezilla" released="2018-01-08" stability="stable" version="3.30.0">
+      <manifest-digest sha256new="PE46PGMD3U7SFU3YYM2L7BTXQA5SNMZLDAZKPMD6Y4LCUDKIRYAQ"/>
+      <archive extract="FileZilla3" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.30.0/FileZilla_3.30.0_x86_64-linux-gnu.tar.bz2" size="9646869" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="MacOSX-i686" id="sha1new=205cf877f7bf1b0a6c8cb72b004e6f0f3f901d8b" main="Contents/MacOS/filezilla" released="2018-01-08" stability="stable" version="3.30.0">
+      <manifest-digest sha256new="3GA6YA5CW62SF5QWDBZ6X3RNGDPIE5ZVAPFZOOWLBJI324FR2WDA"/>
+      <archive extract="FileZilla.app" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.30.0/FileZilla_3.30.0_macosx-x86.app.tar.bz2" size="10567614" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="*-src" id="sha1new=051f071ad21216e1ff9e7a1a7054127e3a79a350" released="2018-01-08" stability="stable" version="3.30.0">
+      <manifest-digest sha256new="ZCL5OLNITDWPCRIHOLQ3BQEXUEEYVRUIDLLNGYBJO4HXVLQS6ODQ"/>
+      <archive extract="filezilla-3.30.0" href="http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.30.0/FileZilla_3.30.0_src.tar.bz2" size="4855577" type="application/x-bzip-compressed-tar"/>
+    </implementation>
   </group>
 </interface>
