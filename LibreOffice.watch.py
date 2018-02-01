@@ -11,4 +11,4 @@ def convert(match):
 
 data = request.urlopen('http://downloadarchive.documentfoundation.org/libreoffice/old/').read().decode('utf-8')
 matches = re.findall(r'/">([0-9\.]+)/</a></td><td align="right">(..-...-....)', data)
-releases = [convert(match) for match in matches if match[0].startswith("5")]
+releases = [convert(match) for match in matches if match[0].startswith("6")]
