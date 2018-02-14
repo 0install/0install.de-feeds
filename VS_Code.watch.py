@@ -13,4 +13,4 @@ def handle(version):
     }
 
 data = request.urlopen('https://api.github.com/repos/Microsoft/vscode/tags').read().decode('utf-8')
-releases = [handle(tag['name']) for tag in json.loads(data) if not '/' in tag['name']]
+releases = [handle(tag['name'].strip('v')) for tag in json.loads(data) if not '/' in tag['name']]
