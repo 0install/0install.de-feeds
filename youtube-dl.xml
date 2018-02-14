@@ -287,5 +287,25 @@
       <manifest-digest sha256new="6UAWBWFVFM3IO36AGL7BGPWA4UPQNX4NZ3VBXKVTEU2UFAEEQ4BA"/>
       <file dest="youtube-dl" href="https://github.com/rg3/youtube-dl/releases/download/2018.01.07/youtube-dl" size="1614357"/>
     </implementation>
+    <implementation id="sha1new=5005aaed4ce0692eaafa7637a51bb3e1d42ce506" released="2018-01-27" stability="stable" version="2018.1.27">
+      <manifest-digest sha256new="SYNL4FM7XFBWOKIIUUYOCAFJAEA35UKNC3YXZKJ6TKTIPHXA2N5A"/>
+      <file dest="youtube-dl" href="https://github.com/rg3/youtube-dl/releases/download/2018.01.27/youtube-dl" size="1622946"/>
+    </implementation>
+    <implementation id="sha1new=10f048311751e31b78a4a35176e80c2f0794a217" released="2018-02-03" stability="stable" version="2018.2.3">
+      <manifest-digest sha256new="ARKGI6MY4KJCCGBGMERTYVZIBN7F3EN4ZLLH5SZVAM47CTJ6OZWQ"/>
+      <file dest="youtube-dl" href="https://github.com/rg3/youtube-dl/releases/download/2018.02.03/youtube-dl" size="1622980"/>
+    </implementation>
+    <implementation id="sha1new=7b6a0c708d5e213baf4657240de28d4827d1d3db" released="2018-02-04" stability="stable" version="2018.2.4">
+      <manifest-digest sha256new="T6DAFEN25FLEEMDMRTJ5YVPWGKHLZKNU37MLVM6VRKDTTMU5UNLA"/>
+      <file dest="youtube-dl" href="https://github.com/rg3/youtube-dl/releases/download/2018.02.04/youtube-dl" size="1623215"/>
+    </implementation>
+    <implementation id="sha1new=78142cecfdcd61e7aae39424f09d85cb3e509fe7" released="2018-02-08" stability="stable" version="2018.2.8">
+      <manifest-digest sha256new="PBRTWSGYEO3IRRZNMOTOQFJTYJNMCUGS76GUBATAUZVG7EYV7E3A"/>
+      <file dest="youtube-dl" href="https://github.com/rg3/youtube-dl/releases/download/2018.02.08/youtube-dl" size="1624171"/>
+    </implementation>
+    <implementation id="sha1new=a81f8ce638b89e1e1536b3e17208f40ce56c64e7" released="2018-02-11" stability="stable" version="2018.2.11">
+      <manifest-digest sha256new="CRGGZAFU3YS5H2LIM5F7DN4ZWPE5TAW4M37ZGKQ76SP6FLW4DLYQ"/>
+      <file dest="youtube-dl" href="https://github.com/rg3/youtube-dl/releases/download/2018.02.11/youtube-dl" size="1625851"/>
+    </implementation>
   </group>
 </interface>
