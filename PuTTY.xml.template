@@ -11,7 +11,7 @@
   <category>Network</category>
   <category>Utility</category>
   <feed-for interface="http://0install.de/feeds/PuTTY.xml" />
-  <group if-0install-version="2.6.8.." arch="Windows-*" license="MIT/X Consortium License">
+  <group license="MIT/X Consortium License">
     <command name="run" path="PUTTY.EXE" />
     <command name="putty" path="PUTTY.EXE" />
     <command name="puttygen" path="PUTTYGEN.EXE" />
@@ -19,9 +19,13 @@
     <command name="plink" path="PLINK.EXE" />
     <command name="pscp" path="PSCP.EXE" />
     <command name="psftp" path="PSFTP.EXE" />
-    <implementation version="{version}" released="{released}" stability="stable">
+    <implementation version="{version}" released="{released}" arch="Windows-x86_64" stability="stable">
       <manifest-digest />
-      <archive href="http://the.earth.li/~sgtatham/putty/{version}/x86/putty.zip" type="application/zip" />
+      <archive href="https://the.earth.li/~sgtatham/putty/{version}/w64/putty.zip" type="application/zip" />
+    </implementation>
+    <implementation version="{version}" released="{released}" arch="Windows-i486" stability="stable">
+      <manifest-digest />
+      <archive href="https://the.earth.li/~sgtatham/putty/{version}/w32/putty.zip" type="application/zip" />
     </implementation>
   </group>
 </interface>
