@@ -131,5 +131,29 @@
       <manifest-digest sha256new="WPTKI4UZHFPTKGBHTGZK3Y6YXLDH5JXD7R6LHCZJ7Z55BCU6BD3A"/>
       <archive extract="MediathekView-13.0.0" href="https://github.com/mediathekview/MediathekView/releases/download/13.0.0/MediathekView-13.0.0.zip" size="12975655" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=a178e26f7be5ca93194d057dfcec6b82089cffdd" released="2017-01-06" stability="stable" version="13.0.1">
+      <manifest-digest sha256new="7KFX7D3JDLDXLMT2TSJX62OWFYHI4KXFQHETVXPLYIVZJ5LMNLCA"/>
+      <archive extract="MediathekView-13.0.1" href="https://github.com/mediathekview/MediathekView/releases/download/13.0.1/MediathekView-13.0.1.zip" size="27674431" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=048ae7ca74f30dd901e4cf708246d460cf957cb2" released="2017-03-06" stability="stable" version="13.0.2">
+      <manifest-digest sha256new="I2O2UQRQN2SPQI2KQ7VLB4W2ATZ6BBGEDJT5S2V3WBSBY24NQWHA"/>
+      <archive extract="MediathekView-13.0.2" href="https://github.com/mediathekview/MediathekView/releases/download/13.0.2/MediathekView-13.0.2.zip" size="27674465" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=4ada9ff80bc6ce72caa5a19037b0f2cf30d995d8" released="2017-10-10" stability="stable" version="13.0.3">
+      <manifest-digest sha256new="4ROXTA3H3A7NDNC6GYPN5GWZHC7CQKQTA4COCWK2ATZWT6FFLAYA"/>
+      <archive extract="MediathekView-13.0.3" href="https://github.com/mediathekview/MediathekView/releases/download/13.0.3/MediathekView-13.0.3.zip" size="27535082" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=30ea1dfd68436061b31df78fd9932670ae38d91c" released="2017-11-17" stability="stable" version="13.0.4">
+      <manifest-digest sha256new="NYOWUDNDIWAY3CWZBO4NY5NWHCKG2CZQS247COBCKX4NQXT6F6FA"/>
+      <archive extract="MediathekView-13.0.4" href="https://github.com/mediathekview/MediathekView/releases/download/13.0.4/MediathekView-13.0.4.zip" size="27535092" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=81362d91c4de174e5becec212bca382468a3e6cf" released="2017-12-28" stability="stable" version="13.0.5">
+      <manifest-digest sha256new="EY5LD7HOTSVFDGDB2WVY6GAC2VXKBCQQOU3H3FXHTNGOEMHBB4RA"/>
+      <archive extract="MediathekView-13.0.5" href="https://github.com/mediathekview/MediathekView/releases/download/13.0.5/MediathekView-13.0.5.zip" size="27668953" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=a3c6b4717490e1725a0baa99040f38e4f4d4cdeb" released="2018-01-04" stability="stable" version="13.0.6">
+      <manifest-digest sha256new="XOC6MEYHWDFVHRXPLPT4PSBS6EAUVY5QWLUJ4LZPUGKMQWKNCNUQ"/>
+      <archive extract="MediathekView-13.0.6" href="https://github.com/mediathekview/MediathekView/releases/download/13.0.6/MediathekView-13.0.6.zip" size="27668996" type="application/zip"/>
+    </implementation>
   </group>
 </interface>

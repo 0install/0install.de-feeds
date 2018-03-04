@@ -15,7 +15,7 @@
     </command>
     <implementation version="{version}" released="{released}" stability="stable">
       <manifest-digest />
-      <archive href="https://github.com/mediathekview/MediathekView/releases/download/{version}/MediathekView-{version}.zip" type="application/zip" />
+      <archive href="https://github.com/mediathekview/MediathekView/releases/download/{version}/MediathekView-{version}.zip" extract="MediathekView-{version}" type="application/zip" />
     </implementation>
   </group>
 </interface>
