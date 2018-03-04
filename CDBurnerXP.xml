@@ -8,47 +8,589 @@
   <icon href="http://0install.de/feed-icons/CDBurnerXP.ico" type="image/vnd.microsoft.icon"/>
   <group main="cdbxpp.exe">
     <command name="cdbxpcmd" path="cdbxpcmd.exe"/>
-    <implementation arch="Windows-x86_64" id="sha1new=e3c9cc53a3e23a4642f94569cfd1c36085af2df4" released="2014-04-22" stability="stable" version="4.5.3.4746">
-      <manifest-digest sha256new="NHSCSIDWTTSTXPG6S2DU4ANHNXRLNVR2IA4CW6HYL24GXYK5TS5A"/>
-      <recipe>
-        <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.3.4746.zip" size="6071388" type="application/zip"/>
-        <archive extract="x64" href="http://us.un4seen.com/files/z/2/bass_aac24.zip" size="313095" type="application/zip"/>
-      </recipe>
+    <implementation arch="Windows-x86_64" id="sha1new=aa02f881d61417238e7f0832f7ebcfde71f25369" released="2010-10-02" stability="stable" version="4.3.0.2054">
+      <manifest-digest sha256new="UCOBA3NZ5DMSHUDARCGJHB374C5UCPWTYMHS6REICTWNFFZHMSNA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.3.0.2054.zip" size="5657048" type="application/zip"/>
     </implementation>
-    <implementation arch="Windows-i486" id="sha1new=6e97463a121817977c358de865a565d4802ffaa0" released="2014-04-22" stability="stable" version="4.5.3.4746">
-      <manifest-digest sha256new="YZVVQPGLHCSD2W7A6IMRGXOX2RYPENK23NDY4A4U4UYHT4SHTFBQ"/>
-      <recipe>
-        <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.3.4746.zip" size="5872898" type="application/zip"/>
-        <archive href="http://us.un4seen.com/files/z/2/bass_aac24.zip" size="313095" type="application/zip"/>
-      </recipe>
+    <implementation arch="Windows-i486" id="sha1new=28244f2f0d2bf0c036566c3eb72da3e2290e8d13" released="2010-10-02" stability="stable" version="4.3.0.2054">
+      <manifest-digest sha256new="SFZ3T2E4VUFTPJDM42FZVHNNXWHGEJC4YSKLHUMVVSJKYUJACDKQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.3.0.2054.zip" size="5441349" type="application/zip"/>
     </implementation>
-    <implementation arch="Windows-x86_64" id="sha1new=53df7a712b42ec93442b7cec3de8e6a7d43e9410" released="2014-12-21" stability="stable" version="4.5.4.5306">
-      <manifest-digest sha256new="PRZW5DQGVEDEQP5OF66DGH37FGOU3DMCHYRXEBFEUQCH5AMPYUEA"/>
-      <recipe>
-        <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.4.5306.zip" size="6693928" type="application/zip"/>
-        <archive extract="x64" href="http://us.un4seen.com/files/z/2/bass_aac24.zip" size="313095" type="application/zip"/>
-      </recipe>
+    <implementation arch="Windows-x86_64" id="sha1new=94defd5c4b8173b347111d44f4990190a320f4f1" released="2010-10-02" stability="stable" version="4.3.0.2064">
+      <manifest-digest sha256new="4PDICZ4Y5BVKY6PGZJIYFCNVSACMWAMDQAWEN4KNUYFCLKW6GHBQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.3.0.2064.zip" size="5667092" type="application/zip"/>
     </implementation>
-    <implementation arch="Windows-i486" id="sha1new=3ef88404a8f83a89f83f678d34660bff44299151" released="2014-12-21" stability="stable" version="4.5.4.5306">
-      <manifest-digest sha256new="YXH72QX446ETIUVMSVWRR2KZTOW7RM2UJTZRATL6AGHPEUPD2VWQ"/>
-      <recipe>
-        <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.4.5306.zip" size="6429473" type="application/zip"/>
-        <archive href="http://us.un4seen.com/files/z/2/bass_aac24.zip" size="313095" type="application/zip"/>
-      </recipe>
+    <implementation arch="Windows-i486" id="sha1new=284549b74a9e9cb09c8457fb0516375deda1f2a9" released="2010-10-02" stability="stable" version="4.3.0.2064">
+      <manifest-digest sha256new="UBX53VM4Z2UVAF2INFBY3VPCDMTOD5QXKTTWRQTAIS7ZL4KZZ7KA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.3.0.2064.zip" size="5451430" type="application/zip"/>
     </implementation>
-    <implementation arch="Windows-x86_64" id="sha1new=4d9e7c5da64ebff381c4a528461e1faa78375588" released="2015-04-24" stability="stable" version="4.5.5.5571">
-      <manifest-digest sha256new="D7NE6YPG4EA32EARAYZ6CQGZNYNLB3FBTNQHYRJEX6EJIIUBRVIQ"/>
-      <recipe>
-        <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.5.5571.zip" size="6690856" type="application/zip"/>
-        <archive extract="x64" href="http://us.un4seen.com/files/z/2/bass_aac24.zip" size="313095" type="application/zip"/>
-      </recipe>
+    <implementation arch="Windows-x86_64" id="sha1new=a4285e0dad2ac72568a6e50e8e57ecbd08fd5fda" released="2010-10-02" stability="stable" version="4.3.1.2101">
+      <manifest-digest sha256new="XZRADVEVYDLZOEGHV47X47XUV2QFTMHODO2JUMVJVBHJPCKA2ZSA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.3.1.2101.zip" size="5673821" type="application/zip"/>
     </implementation>
-    <implementation arch="Windows-i486" id="sha1new=adc20019f5e9ac1cb7266e85e1db60b1e6ba29dd" released="2015-04-24" stability="stable" version="4.5.5.5571">
-      <manifest-digest sha256new="4WOC64GKI4FEEPMW7MXDFD77S3HB6W3IBWXGOEMQIHKI2CBWEVRQ"/>
-      <recipe>
-        <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.5.5571.zip" size="6426294" type="application/zip"/>
-        <archive href="http://us.un4seen.com/files/z/2/bass_aac24.zip" size="313095" type="application/zip"/>
-      </recipe>
+    <implementation arch="Windows-i486" id="sha1new=8268c6403136d36e98a9886c91e94bbf22e77d76" released="2010-10-02" stability="stable" version="4.3.1.2101">
+      <manifest-digest sha256new="SML2U56FQDPJBFUBSXSKU6B7EG5LOO3J725XBTXYBSLU2OWGAF3Q"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.3.1.2101.zip" size="5458089" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=972bc9ce25f3140d0c312b494c8bd37d26fd39a3" released="2010-10-02" stability="stable" version="4.3.2.2137">
+      <manifest-digest sha256new="KRQBMDZKXITHMSICGZC6FYOHWPRDCCKGPKK7LRXQ7EAGV23XTPSA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.3.2.2137.zip" size="5711199" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=a9016207db3192c24e14bdf0b7c14883a5b2442f" released="2010-10-02" stability="stable" version="4.3.2.2137">
+      <manifest-digest sha256new="CEZFMQGO2Y76MQNNGCLNE2227K4MTNRC7OG2N4OH6GPZGG5WD6JQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.3.2.2137.zip" size="5493628" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=3a6eda94105284335c08e9129f2762f99d78001e" released="2010-10-02" stability="stable" version="4.3.2.2140">
+      <manifest-digest sha256new="A2B5K63SFM7KXVLNRFRJP33EHPJNDO437DLY553T7CFHI4KPP3EQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.3.2.2140.zip" size="5711076" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=ce57aa8317fcae6474f274d221ea634728e40d5c" released="2010-10-02" stability="stable" version="4.3.2.2140">
+      <manifest-digest sha256new="7Q5A6GBNQLO5RAXOLIR4G7BGVUCXFHYKM7W5BDPX2IETJZNDCDXA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.3.2.2140.zip" size="5493766" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=9f486afd575456e88065c7671052ba2a66917219" released="2010-10-02" stability="stable" version="4.3.2.2212">
+      <manifest-digest sha256new="DQVSQRPS6YCFHZ5W65IV5NISMUDS7HNAKTOX7FVDEY2NW5JKR42Q"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.3.2.2212.zip" size="5749257" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=7d3c8f028866b762290c0b2a6dd701952d04b711" released="2010-10-02" stability="stable" version="4.3.2.2212">
+      <manifest-digest sha256new="HPM2DFVZWVYYQDBXWV4D4HFMKAACFEPEA6PSHADSLLLAGCDGDROQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.3.2.2212.zip" size="5531670" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=aef3664228ed8d0b8fa1ee4ce838bbc242283f69" released="2010-10-02" stability="stable" version="4.3.5.2256">
+      <manifest-digest sha256new="HRVBBYN35AZSFN74PZNDN2N5DFEAPLUWHXO463U3VTOMWBSF55VQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.3.5.2256.zip" size="5772543" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=d419f08288c13bda7ffde6b9ada4d845f48194ca" released="2010-10-02" stability="stable" version="4.3.5.2256">
+      <manifest-digest sha256new="K4HAONPML5BOR74ZUMBTJBKYBRA3VPQCZTXDEIEZ4GD6XDL66P4A"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.3.5.2256.zip" size="5456508" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=9a094cd34766b73846536c2b6614c57792813788" released="2010-10-02" stability="stable" version="4.3.6.2284">
+      <manifest-digest sha256new="6VSIQJG2VMFAOQRTQBC5MXZJ3HOQUEYH4YB5XTJJIJB4SHH7WFMQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.3.6.2284.zip" size="5771147" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=abecf756b178762293be22b9da15dcd201687fe5" released="2010-10-02" stability="stable" version="4.3.6.2284">
+      <manifest-digest sha256new="UZ5TLGWOF57TG6GETAVVXE5OZ6Y6DCX2K73HWJPWO3BLZCFI6KGQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.3.6.2284.zip" size="5450768" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=61385c34ac34251eae99016ab4a2ea5566fb970b" released="2010-10-02" stability="stable" version="4.3.7.2307">
+      <manifest-digest sha256new="ZP2POEDTWWSNS4MYLQTYJXCXJ7KWOHVC6GDOGDGKR2XVWFUJNZHQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.3.7.2307.zip" size="6010056" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=edc3a090d700bd55069f728da2864e1a5733a057" released="2010-10-02" stability="stable" version="4.3.7.2307">
+      <manifest-digest sha256new="XQ4ZYZ2MIH4KRCIYAAXPP6DHO3A2Z4B3XD2FJMVQS7OGZSOIC7PA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.3.7.2307.zip" size="5689431" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=ec1d400b8243a6ba6fbfce9064dedf71dd89a7db" released="2010-10-02" stability="stable" version="4.3.7.2316">
+      <manifest-digest sha256new="QWHUUULB7S2LW4SLM3CUCAF4NQFOTV5IS4YAQH7R3VD64O45PXBA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.3.7.2316.zip" size="5786985" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=c29560d78d6aeda4968c3b83ea5069a79fa47e77" released="2010-10-02" stability="stable" version="4.3.7.2316">
+      <manifest-digest sha256new="IL7AAYBEK23ZIEVQDCTVTJ6ONHDQDPAN5V5ZNGJORP7PNEK3YDVQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.3.7.2316.zip" size="5466534" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=accf44b6d6413baa41b6b1f9a82cb287806eff5f" released="2010-10-02" stability="stable" version="4.3.7.2356">
+      <manifest-digest sha256new="ZSXOTWQTXU36W3LZX4CUWFJ2LFX73EBR2JZYN6XMGJQY2V43FVLQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.3.7.2356.zip" size="5806750" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=c1fb39865481b4447511df319c50f092a89b6d49" released="2010-10-02" stability="stable" version="4.3.7.2356">
+      <manifest-digest sha256new="5KKLCNUM3YUHITS6CCAU3NDPI7CC25P3IHOCQVPMFOLOAWZFWISA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.3.7.2356.zip" size="5486149" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=b0e28c2d662b68ca4e489bd849f0fd05a9e12d95" released="2010-10-02" stability="stable" version="4.3.7.2420">
+      <manifest-digest sha256new="RUVO6J4XFHOLW74X4PE6NKUN22FHHBJE4AMAGEE4IDEKQBQORYLA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.3.7.2420.zip" size="5853684" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=68ffbea59faca0a3fa830489c07e1d480e2c1565" released="2010-10-02" stability="stable" version="4.3.7.2420">
+      <manifest-digest sha256new="Y4RUAJEL7GGGLCEM3B32HFR3PAW2FELKM4RMHMP3IL34LAPLVMFA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.3.7.2420.zip" size="5533488" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=43e1c0fa3d7dece43393c023ee348bbd26b87d77" released="2010-10-03" stability="stable" version="4.3.7.2423">
+      <manifest-digest sha256new="5IPCTE4GZIBELM4XIIEBLSMFLM3COUFJBGXZ33E4FKUK5RBRDLSA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.3.7.2423.zip" size="5853707" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=0c348e13ad912f74996597965c193eba32e3e839" released="2010-10-03" stability="stable" version="4.3.7.2423">
+      <manifest-digest sha256new="RPG3KF63P5TIU3VOGYMTX5PI5PDWBQF2GF2ZBAGZRORAATA6A7EA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.3.7.2423.zip" size="5533518" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=9e527fa36016503d7c46b876063e11a18020c502" released="2010-11-24" stability="stable" version="4.3.8.2474">
+      <manifest-digest sha256new="UCQJVLSZJJBMZJBZ3W3OFWXDUXMWVHGBXS4CEI4JDF6ISKM3ZZ5Q"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.3.8.2474.zip" size="5717134" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=ad9363e23a6ff66eb4434b12a7bf27b277d75481" released="2010-11-24" stability="stable" version="4.3.8.2474">
+      <manifest-digest sha256new="YEHVPYJI44P62UCZ5K45MVK5KAPXIH4AXHYMVMTOLBWZ7FZTRRJQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.3.8.2474.zip" size="5371556" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=e4d3eb20ebff8b0afe97f6c7db426d17eb5ae2f0" released="2011-02-23" stability="stable" version="4.3.8.2513">
+      <manifest-digest sha256new="BP3ZULN63CXJM7GKHCYRBOLEWPMZTCHGXPQO6GKIRGDU7TZPR4GA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.3.8.2513.zip" size="5850155" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=100aafb4077db03c9ab2647b6f585c5dbbaf4c11" released="2011-02-23" stability="stable" version="4.3.8.2513">
+      <manifest-digest sha256new="WI465JX2AUSHI2H5GI3M5VCDXAJASYQLMVRV3G43DLGLJDF4LBUA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.3.8.2513.zip" size="5528551" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=83b6609921a67e25cb34a4ea19affab7e21de0ad" released="2011-02-28" stability="stable" version="4.3.8.2521">
+      <manifest-digest sha256new="VB2W4A5QETQ3OOIFTWNELRF32KID2RYNGRLLEN6GOQXC6RSGWD2Q"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.3.8.2521.zip" size="5850076" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=c1bf7c686875272db7c4182e6928ba933a193825" released="2011-02-28" stability="stable" version="4.3.8.2521">
+      <manifest-digest sha256new="4BCNSK3FDXZD2RCI4XOGRLMJOUQH2V4CXYVZDQ2LD2XQOIQBKQWA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.3.8.2521.zip" size="5528443" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=26d8938fcfb9b8db741f97261f359ec2c8d62b94" released="2011-03-04" stability="stable" version="4.3.8.2523">
+      <manifest-digest sha256new="4E6JEZUUZXDQOMJTVMMNT5B27MPIVNKJH5CLTDL7AFCXESN4KPYA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.3.8.2523.zip" size="5850231" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=e7748f0add83d698932c1da8e4525382fefc010b" released="2011-03-04" stability="stable" version="4.3.8.2523">
+      <manifest-digest sha256new="V72ULGJWE3PGXQOPQGXEY5IIN6RG6BEPU26RRH6GG23AI2EBKQOA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.3.8.2523.zip" size="5528563" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=5b5e80d292fc60d340476d25a36b3818602d1a53" released="2011-05-14" stability="stable" version="4.3.8.2560">
+      <manifest-digest sha256new="GJFDFD4LAPCH3J3WTM2NTCLMBL5WKZLYYMXTQA7USJY3WJYDU3WA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.3.8.2560.zip" size="6025097" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=585c0b66381f8e88da5a2085e11326a050516d75" released="2011-05-14" stability="stable" version="4.3.8.2560">
+      <manifest-digest sha256new="ZIO2BAPA3R26IDELHT4VOJNG2URWS2LPX3NWHJJLO73RSZZPWFGQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.3.8.2560.zip" size="5700899" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=f07e8e90044d6a230f2a9418e2089476d9e90975" released="2011-05-22" stability="stable" version="4.3.8.2568">
+      <manifest-digest sha256new="L2FEUP3LMTQ7J3VD4EYIPCV7AJA2W5YO7FX5K5QL6PYWRW2MNG5A"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.3.8.2568.zip" size="5972176" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=8a7f3c48e88ffe69a33525a9eb9712340a616124" released="2011-05-22" stability="stable" version="4.3.8.2568">
+      <manifest-digest sha256new="HRI3ILQBUHSQ5YV3LHEA4TU2WJXDX53G3W6BOFG5W7BVSVYM4NJA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.3.8.2568.zip" size="5651351" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=d5eb631031c9df75cfcf3580f294a9eafce7ed14" released="2011-08-11" stability="stable" version="4.3.8.2631">
+      <manifest-digest sha256new="CEYOE2AAAX2SGBFO34PT4W2CO3DEAWRYGUNTN7GFLTIR7GIGINUQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.3.8.2631.zip" size="6002524" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=c44c432a6e3c32d16334a78e914b51a6a9097ec5" released="2011-08-11" stability="stable" version="4.3.8.2631">
+      <manifest-digest sha256new="RQXS3JPDUJNV3QMT7J524FKASWSV7E5UGTNV52ZDMYMJYXNYV5YA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.3.8.2631.zip" size="5680875" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=63eeab258439745ca9a3339d18b2bbc8168aefb6" released="2011-10-31" stability="stable" version="4.3.9.2761">
+      <manifest-digest sha256new="3BWUBNN2EDJAWO4ZTBNSV6IKVRTDB5CM37BVX36BTPACBV4CPQYQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.3.9.2761.zip" size="6133169" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=45829c90e23f63cf7180eef205819777c4e2f16f" released="2011-10-31" stability="stable" version="4.3.9.2761">
+      <manifest-digest sha256new="SEU37COCNWGLRHMQW7KYCOC64M7UHIVON6E6JPANRYQS2AM3UZAA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.3.9.2761.zip" size="5892767" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=55ec68518a517de4f86c25c01fd3c6105d6fc8d7" released="2011-10-31" stability="stable" version="4.3.9.2762">
+      <manifest-digest sha256new="FSVCDI5E4HXO3CBFA2QWZE5GOTJKXICAOAPH5MP6POYT5RVI4UVA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.3.9.2762.zip" size="6164865" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=a0d30aa4629669f894a1bac21f78dd19120f5e9c" released="2011-10-31" stability="stable" version="4.3.9.2762">
+      <manifest-digest sha256new="CY3DQKIDYE34NRXIT2LVXPWUGCKWR2Z5AP2G553HGY6WDX35QUDQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.3.9.2762.zip" size="5843487" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=4a9223a7030a4fdc4c5629fe7a849959f3b96543" released="2011-11-07" stability="stable" version="4.3.9.2783">
+      <manifest-digest sha256new="RVPH7OZX3IOFLMS7UJAWQYMUSVZTFS76NUE7S6JQFILSCDSMDNDA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.3.9.2783.zip" size="6166182" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=0105959851fc3efe689fd51809057ddf7e674b59" released="2011-11-07" stability="stable" version="4.3.9.2783">
+      <manifest-digest sha256new="W6WWWMV33MOC4Q3N2CK4V6NVBG7WTGFWTY5FNFE4F46YXVDTOWMQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.3.9.2783.zip" size="5844819" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=7861af964bd8515c9675b257111c74add54cd4ae" released="2011-11-20" stability="stable" version="4.3.9.2809">
+      <manifest-digest sha256new="MYMVYYLZL6XPBKE4HHXUPGDALWZKP7TLORNOH2VBI26X3VVRKL3Q"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.3.9.2809.zip" size="6196081" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=442fd2d81cbfed2bc8ec73be7c479b12575f2207" released="2011-11-20" stability="stable" version="4.3.9.2809">
+      <manifest-digest sha256new="E3NEFWXZPFK4XARVTFQDRVDZITNDOLWAESMBOXG5NQREJ27U76SA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.3.9.2809.zip" size="5874882" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=38ea0b8245b14d6decb91858593db59cf16e3773" released="2011-12-02" stability="stable" version="4.4.0.2838">
+      <manifest-digest sha256new="EC2GWRP5DDN5MVXNNCNCGKQFLWXNPEXKDPKXIBMJTVGZ7OU5FYRQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.4.0.2838.zip" size="6220003" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=e021270c6590e1d4d903ae41397287385e6f5629" released="2011-12-02" stability="stable" version="4.4.0.2838">
+      <manifest-digest sha256new="DLAL6JCTLWWFCDBGMU4657JMJGVPPZ7EC74F6RWVQQUGY2N6GCXA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.4.0.2838.zip" size="5985404" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=4639bc22091f2b7f13012243b27a718af0df2d8c" released="2012-01-07" stability="stable" version="4.4.0.2905">
+      <manifest-digest sha256new="UOSF52U33D6QHPWWKKTXHH4DLNKPCGM25IH2SMQJPXQEMRLLYKZQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.4.0.2905.zip" size="6220195" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=522d4aad5bf9ed7a115e74a1cc53a821fb35a280" released="2012-01-07" stability="stable" version="4.4.0.2905">
+      <manifest-digest sha256new="EXVJYEFY5OZHNVN2EOZQU42UEQOKEJEQ7NPWSD4HCVQCTBLSBJTQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.4.0.2905.zip" size="5985224" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=640e42fe807dc170b7ee30fa7a1aa977ca1ebf14" released="2012-02-28" stability="stable" version="4.4.0.2968">
+      <manifest-digest sha256new="DFYLHIA3GSLOENNRFXMDAGJZKI7AANL27QSYEA6Y3CXBKLRQFAEQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.4.0.2968.zip" size="6133036" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=98d131c6d40165dadb632a3035cfd18799662e2a" released="2012-02-28" stability="stable" version="4.4.0.2968">
+      <manifest-digest sha256new="6S2WMBQ2PYAFHX5UXI2CZGH5TTGLKXF6F6NJ2N4GFVTIREJSNX4Q"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.4.0.2968.zip" size="5892574" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=349241d3ff753506f3be94e0b452f07c679b922b" released="2012-03-01" stability="stable" version="4.4.0.2971">
+      <manifest-digest sha256new="HQANZKRS2ALHHQVCO6HPJ5NO3D3O2I7HWGFXQCEJ4VT2FNRBE4VA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.4.0.2971.zip" size="6206314" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=81665dd36c570dc863d45192ee23d8b153097a20" released="2012-03-01" stability="stable" version="4.4.0.2971">
+      <manifest-digest sha256new="Q6RH3YXU2NN3ICFKXAOJK2IIT2EFF3IJ7IUV6RQO4PWJUXMBUKLQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.4.0.2971.zip" size="5884854" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=e6fae8a89894ea6f537ac471d46d75871554c37c" released="2012-04-01" stability="stable" version="4.4.0.3018">
+      <manifest-digest sha256new="NGEHAB7VJO3ENPTF7AQXRUHQBPR4VJIG5GE3X27ZYYEDEZ3PGZRQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.4.0.3018.zip" size="6216165" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=fff88dcdd56bdbce178900fcc6fcdeca1072c813" released="2012-04-01" stability="stable" version="4.4.0.3018">
+      <manifest-digest sha256new="LD4ZC34ZRK5OKLSZREBB37ZCNRXCIAOELSYMHRWPEQ6MWLVNICRQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.4.0.3018.zip" size="5895005" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=f77e97c224780d35be3341f982936a5a7a76ce33" released="2012-05-01" stability="stable" version="4.4.1.3099">
+      <manifest-digest sha256new="X5VKCBYECY5GMQBB2N5KJTLDDZL6NLEU5JMT6CJZZVM3D2DI3CBQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.4.1.3099.zip" size="6335656" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=e05a8bc793e826a61aeeea65cfa1e437b286cb39" released="2012-05-01" stability="stable" version="4.4.1.3099">
+      <manifest-digest sha256new="2PJ32T4OI4NFTMNQKWCZS5D2Y2NXBC66J7JXYYZ6GND6G6ESG32A"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.4.1.3099.zip" size="6014348" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=7e125174562e0ed1a43044af4e4f931c36ddb99f" released="2012-06-09" stability="stable" version="4.4.1.3181">
+      <manifest-digest sha256new="ZMWIUDSRP3U2762BBVMNWLPZJEVMXZINPNOVQRC3YHMAIERPVYAQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.4.1.3181.zip" size="6347358" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=37af337c6f6225361415866511ca991f9c0e9711" released="2012-06-09" stability="stable" version="4.4.1.3181">
+      <manifest-digest sha256new="JMKINVQ45WTO7AETC7BZI5MJDCBIC4TVLBYUF7JIJGXH3MNSBESA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.4.1.3181.zip" size="6025872" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=43a3c6a63cdc70a387d81cb7dddadcea727e359a" released="2012-06-09" stability="stable" version="4.4.1.3184">
+      <manifest-digest sha256new="H7BVIWJAMYJVMP3IZR7IPO6EAWA6B7PAE3RCLFCNDNKCTMU7S5DQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.4.1.3184.zip" size="6347356" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=05686d36822e965c34022543083f2ce5e0ee76c0" released="2012-06-09" stability="stable" version="4.4.1.3184">
+      <manifest-digest sha256new="JPGDKIONWSWVURHTOD4DLUQEPBRNS7ZKBXW47KHFMV2N227G43CQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.4.1.3184.zip" size="6025931" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=16da79b004be7dd795bb4ba4020a621297ff0ad7" released="2012-06-26" stability="stable" version="4.4.1.3243">
+      <manifest-digest sha256new="UQMFTQJEVSD6D2Y2UMX6VZBF2CNDUBQ5G5LVCGAVGQSADXFVYXDA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.4.1.3243.zip" size="6366850" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=1ea79deceb94fa5e6798bdc33833ed6f5f9db5bb" released="2012-06-26" stability="stable" version="4.4.1.3243">
+      <manifest-digest sha256new="OV7SXO4GV2JN2UOWGZ6UUYMLPMGK7PLLFYYHREYSJYMRSNQXIS3Q"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.4.1.3243.zip" size="6043041" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=801e9b2eb122eb3248e8c75f0b1570fc2787d8df" released="2012-08-01" stability="stable" version="4.4.1.3341">
+      <manifest-digest sha256new="TYMXT4XPZQB2JUDI2RCF2LB6SONZOWNFLLJZNNHQ33UTGCBANLKQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.4.1.3341.zip" size="6410215" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=6576a45b46fec639380c2e30637e524db8378f58" released="2012-08-01" stability="stable" version="4.4.1.3341">
+      <manifest-digest sha256new="PIQPXFZNHGRDC5HASTWYKYNA2Z2HERYLJHZTFSG6MNSZHUJIARVA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.4.1.3341.zip" size="6086404" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=76854e426f8a16b7af9cd4da155b7daa63efa927" released="2012-09-22" stability="stable" version="4.4.2.3442">
+      <manifest-digest sha256new="DO2JWATYMTKBBTC5B4RTMMFIHQKMGQPBQ27B7XKMG3O3DJJK4NIA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.4.2.3442.zip" size="6494229" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=8fb1fc5490e438193a1aa1b6b09905e134c423b9" released="2012-09-22" stability="stable" version="4.4.2.3442">
+      <manifest-digest sha256new="YXUFVXAYR6QSHOSZ3SWYNNJDCCJ3U7FKH44JLWW6MKZF5LQOH5HA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.4.2.3442.zip" size="6160788" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=45503e45af9866ff442748208ed751b026acfb4c" released="2012-12-09" stability="stable" version="4.5.0.3661">
+      <manifest-digest sha256new="PCB77JLWFAGO6KYNSPWGVNPZQ4LHXISXWFNIMV7MDPUTMXSIKNUA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.0.3661.zip" size="5939785" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=63b9f85dea01acfd044344bfa6abbdcf5442a3fc" released="2012-12-09" stability="stable" version="4.5.0.3661">
+      <manifest-digest sha256new="TODEN6L5HKNKET72PH54LYMFIR5FCBWA3CUHYAFFRCDE3H5Y3ZIA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.0.3661.zip" size="5728711" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=74a3a983de43648a0c513840cd2a1f954f4d4ff8" released="2012-12-16" stability="stable" version="4.5.0.3685">
+      <manifest-digest sha256new="RGXGWBVW2TAAUAOATOXBYDJPTBRJFRR3N5AWGEJ6FPUC4XVNZAGA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.0.3685.zip" size="5940756" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=6a55859d79d563a27d3fc29f171624c864b96d28" released="2012-12-16" stability="stable" version="4.5.0.3685">
+      <manifest-digest sha256new="W3ZYHGRPWEBRZXXDAQUOBXHIW4JEZBFF3AASGLC4C4JSXAS4OJOA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.0.3685.zip" size="5729023" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=dbb40a7a1916537c5ea0a2b53b5e06a4e29e7436" released="2012-12-28" stability="stable" version="4.5.0.3717">
+      <manifest-digest sha256new="DOEO324RALGX3THZA6YRMO6YPHSKKLH3WQSQPY4CDCLYYB5EWHJQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.0.3717.zip" size="5941179" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=2b56fe71a71849049e1678dd577d28f3f5363b73" released="2012-12-28" stability="stable" version="4.5.0.3717">
+      <manifest-digest sha256new="A7TMYY34YJIYSOSHMJ635AVVHNHQYRW6XYXEKC47D5AJT35LXPZQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.0.3717.zip" size="5729783" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=818ab2e934d556a125721938dbe3f350d9b00a16" released="2013-02-23" stability="stable" version="4.5.1.3868">
+      <manifest-digest sha256new="W4FMAPLJLTR4LAVKVADZ4QF4625TIVJZVV3WP2Z4HXNXP6YAXGNA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.1.3868.zip" size="5985877" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=93709872b266e07b0bf068ac775562967cab2c07" released="2013-02-23" stability="stable" version="4.5.1.3868">
+      <manifest-digest sha256new="RV3PHS3UY447TMXXWTSFGIZ35LZWPJMMWNGMHXH4SCJDJVAER27A"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.1.3868.zip" size="5817487" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=e91913490739558d39dd1d0bffe1f85ff522ee22" released="2013-04-23" stability="stable" version="4.5.1.4003">
+      <manifest-digest sha256new="X4CHO64NAHCVXXJHL75K3GYRCMOPHTRUVM34LNJH5AFGEFZJ7PGA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.1.4003.zip" size="5989866" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=dfb8c1c3d5f7ff6991e65af3d05d91d5f432e6b2" released="2013-04-23" stability="stable" version="4.5.1.4003">
+      <manifest-digest sha256new="IZVAIYZRW5FECZPOYZLVIOBABM2NXI7CPBEMXX2AOLUIK5RS2IAA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.1.4003.zip" size="5821334" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=452057cdfdcfd050eaff142db38590f69ba7ee85" released="2013-07-14" stability="stable" version="4.5.2.4214">
+      <manifest-digest sha256new="UMO3SHCOXOI6CRYWFBJQKPC5ZIYITFHMXLR5OR6RW2K6PUEOI65Q"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.2.4214.zip" size="6015203" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=02dd0e799c0ad6c45eeef0ac447548dc026d8127" released="2013-07-14" stability="stable" version="4.5.2.4214">
+      <manifest-digest sha256new="TESJF7LRSAUQGF5WDHZGHOGJUVJ46RKJ52YOJSYBHJJZCEORO57A"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.2.4214.zip" size="5724414" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=10b5be1226d399647ece73d2600fbf3a8c457804" released="2013-09-01" stability="stable" version="4.5.2.4255">
+      <manifest-digest sha256new="Q4PPNH5FBEWRTAT22FJQX2MJ7WRRSUENWMZ2KHOBRYYR4OIZJA5Q"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.2.4255.zip" size="6154807" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=b173be7900a318a234fed6db8b0b0688b90c1342" released="2013-09-01" stability="stable" version="4.5.2.4255">
+      <manifest-digest sha256new="624BOA2HQGDVHBTKYNN6UIJL5ROHEI2U4RJVSUUHDLKR5FH6HMKQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.2.4255.zip" size="6017047" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=fd26415e3060af40ff15e3a352bcfb6dffb0863d" released="2013-09-14" stability="stable" version="4.5.2.4291">
+      <manifest-digest sha256new="ACTD7JGO36E7XTTWKEPP2RMMRNYRFRDRMSJMAKXW4CZWF2FUKMTQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.2.4291.zip" size="6012456" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=8e2a437cda63e73a39424f1f25c4b33ba9407eb0" released="2013-09-14" stability="stable" version="4.5.2.4291">
+      <manifest-digest sha256new="BTXYFZQB7ELRQKPCAGBW3HME54QHEI3JUN4H4TFURNM63TUTHJ3Q"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.2.4291.zip" size="5814240" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=661de3fa8157154bc94d369edfb6fad442a74dad" released="2013-12-15" stability="stable" version="4.5.2.4478">
+      <manifest-digest sha256new="THUOLW5UJU7CFHKYRLMZLRKQ6GSI3G7AABNC7PUKNNIKLTF45M3A"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.2.4478.zip" size="6013140" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=89dc310af554c71880e4c4c3f424903bc8ae0f9e" released="2013-12-15" stability="stable" version="4.5.2.4478">
+      <manifest-digest sha256new="WTRYSBKKLBWA33D4G7VMW3YOWOEBEF4AKWXWIVFKBLZOFO6IR3PA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.2.4478.zip" size="5814623" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=2fac62d6b63dd3c70811a52a8059b2efe1fd48fa" released="2014-03-09" stability="stable" version="4.5.3.4643">
+      <manifest-digest sha256new="QAOWD23UKQ24TF4ZFEAEENHBNPGAYDEONJWPOH6DSFMC7CCPFJTQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.3.4643.zip" size="6024674" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=6f4646c1aa3597ab010fc4f380c89aad05f8051c" released="2014-03-09" stability="stable" version="4.5.3.4643">
+      <manifest-digest sha256new="DUKWGFFCFPZYOW73PET3F4UKD6A67FCCV7XAYTKUEILBWD6CYI3A"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.3.4643.zip" size="5826104" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=68a3baa91dbb569139cb3b1de19ccc84b5b1f39a" released="2014-04-22" stability="stable" version="4.5.3.4746">
+      <manifest-digest sha256new="MB2OBY63G3HH3N54UCACQSL6LUL7LWQH3LOW2KLV5ERTYIKUYPDQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.3.4746.zip" size="6071388" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=ede4ad1c0265549a24b8662925d70382c35b1084" released="2014-04-22" stability="stable" version="4.5.3.4746">
+      <manifest-digest sha256new="3BYV3R4VEG7CQPFQ47I7US5R2C4DQCRO4KEXZTQGX667FP7OOBYA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.3.4746.zip" size="5872898" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=c61853d23c4e660f85de9cae6e92d9e63b25187b" released="2014-05-30" stability="stable" version="4.5.4.4852">
+      <manifest-digest sha256new="HE4GEK57TGWFDJOY67ZBCNG3IVWPCI3AB6EUCYSDIVWZS3GT7BPA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.4.4852.zip" size="6671869" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=20d5aa1ad080b9d0f25eee0af5855392f4d62374" released="2014-05-30" stability="stable" version="4.5.4.4852">
+      <manifest-digest sha256new="K2BQZMNZZRHMWH6IYMJJ52P756CBAPMMNWYY2G4FW54ZVVTPJUNA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.4.4852.zip" size="6410244" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=91d5e0416410adc14f1b6cf9ace5d9a59e297964" released="2014-07-19" stability="stable" version="4.5.4.4954">
+      <manifest-digest sha256new="KGWAMY5OIKCCOTIEGZU4CBWWIRRBHR3NXMRNAIBW4GXVKYO2QA7A"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.4.4954.zip" size="6675612" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=c2287df05efc1cbb3060debefa82eff8e3b81921" released="2014-07-19" stability="stable" version="4.5.4.4954">
+      <manifest-digest sha256new="DP5FFSKI7QZP67DKQA56WZ54HWDFJ67F3NWSBNYVO4KJH7MEVGRA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.4.4954.zip" size="6413800" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=25b877ec438ebece51288059f7b7e40efaa429d0" released="2014-08-08" stability="stable" version="4.5.4.5000">
+      <manifest-digest sha256new="L2UVHLCSMCVJ57PKVWNEDWZF6V3JW4CP5OZ53HHB7OKCE3WYUIXA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.4.5000.zip" size="6681941" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=e2440b105b81fa046bcfc9e5caff76429b684cf0" released="2014-08-08" stability="stable" version="4.5.4.5000">
+      <manifest-digest sha256new="EROF7OCG7CPNUECPIRXTF2CJH7D3C4ZX5WGGQ44NNEBVZA5RETXA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.4.5000.zip" size="6417801" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=5d98fada4984631ead5dd2e9e9a57ebce31f508d" released="2014-09-15" stability="stable" version="4.5.4.5067">
+      <manifest-digest sha256new="UX5SIZNOYKVK5J36Z7MIDMTVZESOLFALFYRC25VCG4GZXY635UMQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.4.5067.zip" size="6683545" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=1542600f5deca4554a25643b0f65b42d3c239ab1" released="2014-09-15" stability="stable" version="4.5.4.5067">
+      <manifest-digest sha256new="UP646JCUO3VW5FZ5GXPOO47GLAGZAZXQT2VMCNZZ4WBLRIIYIAUQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.4.5067.zip" size="6419349" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=93f67cd1da2843f32d11cd7ea7bf4b574d800238" released="2014-10-05" stability="stable" version="4.5.4.5118">
+      <manifest-digest sha256new="IH6N3L5BUG67FI7B3XO2JCQOFQUGJEFW2JCMAR2AQZ5R7FEHZQUA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.4.5118.zip" size="6685449" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=96c6843771756d2d980df2aa90b4bf7954094c46" released="2014-10-05" stability="stable" version="4.5.4.5118">
+      <manifest-digest sha256new="55YSB6XBNY6D7WLM2BAFUE3XO2KGOCKVM53FSFXO64LHSCN27OQA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.4.5118.zip" size="6421159" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=d99c21e7b8451a05e62d146625a4f993df0a8d29" released="2014-10-19" stability="stable" version="4.5.4.5143">
+      <manifest-digest sha256new="TLTYE5ATLPJFMVKDAYDNAMQPMOADUDQEYECDU5LE4QLG3W4XXFXA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.4.5143.zip" size="6685822" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=385e5d034ad2b8dd57c13b5dd4a8118b69159b4f" released="2014-10-19" stability="stable" version="4.5.4.5143">
+      <manifest-digest sha256new="76SSGCEILCJ3V6SLZPDVAKUSW5IM5C4RPIN2ILDRHYXBX5ANUNQA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.4.5143.zip" size="6421266" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=91b83a96aeb65de033dba561360cac87ec71810f" released="2014-12-21" stability="stable" version="4.5.4.5306">
+      <manifest-digest sha256new="5JFRXB7KHPZDG5YKLJQTMJLHUDQFLV57E367W37SNOI5L3N4JGRA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.4.5306.zip" size="6693928" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=bfb42dcb27ef5ffa75927eaf86cbbfa459927115" released="2014-12-21" stability="stable" version="4.5.4.5306">
+      <manifest-digest sha256new="N323PFJENHCGMIXHBRA2PBGNEELD5VDAHPYSLTFBJHVWBGJ2TNYA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.4.5306.zip" size="6429473" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=620c37eded61cb1e99ac127a12b35416ecc7c93e" released="2015-04-24" stability="stable" version="4.5.5.5571">
+      <manifest-digest sha256new="QEQZ64QLAOTILBPWXDOP63U6K76XKR2MP2FSUFJEFYFAYRTDMMTA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.5.5571.zip" size="6690856" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=d7cf3a668f70d18c3603735fbbd78251bdc1aaf7" released="2015-04-24" stability="stable" version="4.5.5.5571">
+      <manifest-digest sha256new="2XAIW6BYKKA7NYPNSQPCAMY2EGCLARVAL3A67KDGSFHFMOZ4KXFA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.5.5571.zip" size="6426294" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=d375d9fb8210abc518b961b8abe2e37326a9550e" released="2015-05-31" stability="stable" version="4.5.5.5642">
+      <manifest-digest sha256new="QHIQWM3XK4MKXDJ4C3MYLDQ5H3BTRZCMY5KPZDE77XO4SKN6OP4Q"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.5.5642.zip" size="6697931" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=27765499c28947a698505f256d69c0c07a1d3c29" released="2015-05-31" stability="stable" version="4.5.5.5642">
+      <manifest-digest sha256new="AR5T553JIWSYR5S4SHJ5OVLFZQQSFLFLBCUNCRZJ4C7LWVQCLJ3A"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.5.5642.zip" size="6433833" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=059300a04bc0379e8285584e6bead05c2f0e709d" released="2015-06-09" stability="stable" version="4.5.5.5666">
+      <manifest-digest sha256new="TVJHX2HRARMSRDM3GAKBZES6VGZJQTLJUFYSHYYOCVYYQIO45KVA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.5.5666.zip" size="6698658" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=75dbe0a6df1e886be5df7f25fcd35b6188aa46c7" released="2015-06-09" stability="stable" version="4.5.5.5666">
+      <manifest-digest sha256new="HIMHQENTH4KABIKWZKMEKGHZWHI5DGVQ43A2F7DNQUBYMQU5QB7A"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.5.5666.zip" size="6434537" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=cbb6b4e5151dfdcd22df042c6fc6087e1c355e37" released="2015-07-23" stability="stable" version="4.5.5.5767">
+      <manifest-digest sha256new="JSD23L5DGWAOZMCSLG5WHQKQO5IB4VQXBGMHCSKFADUJ56MLGSVA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.5.5767.zip" size="6701681" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=e7be0cb989e250ac1eac3316ddce43c11326d5e8" released="2015-07-23" stability="stable" version="4.5.5.5767">
+      <manifest-digest sha256new="ZU2NKX4FFI3S5UODU6BA3JRQFMTS7HY4LUOPISOSZ5NIC63Y7WPA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.5.5767.zip" size="6437256" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=feb9cc70e370e96310e1cac9e1e143789816ca35" released="2015-07-31" stability="stable" version="4.5.5.5790">
+      <manifest-digest sha256new="YCMHP5VROEJC3MIXIXY2TWT26O2IEPYOKHWW4GFR4SDUGWD6ORXQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.5.5790.zip" size="6703820" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=440c11af9b50f6724a2a77e633d75e143d574a5c" released="2015-07-31" stability="stable" version="4.5.5.5790">
+      <manifest-digest sha256new="5GHWPZ2Z35UVFD5PRZ7BM2KUDRVJA52KQSIIOSFVS3NXQXZUZMWA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.5.5790.zip" size="6439597" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=4ee9b662afe26bb96390ec4c969d5a903c228a30" released="2015-08-22" stability="stable" version="4.5.6.5844">
+      <manifest-digest sha256new="Z4C7XU5YPTVZZOMFCHC2E4WPZR2BSXPJKX7XRSZ4NKXEFUWH6DBA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.6.5844.zip" size="6704664" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=c93e10920e12c0fa7225a43f748647ce116a812c" released="2015-08-22" stability="stable" version="4.5.6.5844">
+      <manifest-digest sha256new="QAGYYMBAYZZSI6E7XGYXAIUNCBJCELCCM6BUX4LTPEAZHUYNWDTQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.6.5844.zip" size="6440052" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=3ac3033061cd5eab5352fa5e995c9b036477cfda" released="2015-11-09" stability="stable" version="4.5.6.5931">
+      <manifest-digest sha256new="3ABBPBZIMZGOHYDPEQ7E6W6HUEMVHLCLXV77CDX5XFQ2TU4HVDVQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.6.5931.zip" size="6630690" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=ede24fd0748c2f048d6d101f85f6b624a4675e90" released="2015-11-09" stability="stable" version="4.5.6.5931">
+      <manifest-digest sha256new="K2B2RTHGGR44PAMIP6I4VFC4274MRMANKJ2PKO5M7DPNCA5VZEQQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.6.5931.zip" size="6375293" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=4139ff3bccbe4e5a71b00a8208beea611c5b0417" released="2016-03-13" stability="stable" version="4.5.6.6053">
+      <manifest-digest sha256new="7JNDTAD72SXQLT6LEY55W3KAMBNI7YJEQZNF6DJXQ377N4NV3CFA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.6.6053.zip" size="6630731" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=90f8ad9a2667c30f2f4c68560f38d061d02ea049" released="2016-03-13" stability="stable" version="4.5.6.6053">
+      <manifest-digest sha256new="GUDUHMNVBHDJVMAAKA4PSG5L57YO4ZJJRR6RKOSPCSIWXPBSOT5A"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.6.6053.zip" size="6375687" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=a51463a4aa236d8c78ea8f3f4b5e2ad8983b38da" released="2016-03-15" stability="stable" version="4.5.6.6059">
+      <manifest-digest sha256new="UMTHPLIFYZ46YIIP7PXTKNJETFZ5CFCGHMBAOXOP6JPPBXCHNKDA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.6.6059.zip" size="6630433" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=1b451402a4103ecd7088313e0c7005f38d454a20" released="2016-03-15" stability="stable" version="4.5.6.6059">
+      <manifest-digest sha256new="LWPYQGDIYUEBJH7RDO5IYA5YTCPML2HQP4G5BGAN67BFT566ZYFQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.6.6059.zip" size="6375362" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=10b04356898c5be6066fab16e6ea2906a6a4005c" released="2016-05-15" stability="stable" version="4.5.7.6139">
+      <manifest-digest sha256new="QLTG5PPJMIK6TO4PSZRIHLB5B2QCQGT52HQSF5GXZIGNUOWI23DA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.7.6139.zip" size="6631336" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=d375fbdb70d300b22669a15bc27770b93a9dc0bf" released="2016-05-15" stability="stable" version="4.5.7.6139">
+      <manifest-digest sha256new="2QAVUFPDU7JYBZRPOWLC4JQOUFKONRV6TTOAG22IDBW37OQQNZOQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.7.6139.zip" size="6375723" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=df96bb50ab5da4ed618381a9bbce67d81825ee43" released="2016-06-18" stability="stable" version="4.5.7.6229">
+      <manifest-digest sha256new="C3BPGJCMSBFLE7JBLNRMLQJOEDDXYQUN7X4WDCW3W4YMGYBNFJSA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.7.6229.zip" size="6633761" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=74e4c25aa65483811ae70591c2ac0d52b52b22f8" released="2016-06-18" stability="stable" version="4.5.7.6229">
+      <manifest-digest sha256new="G4KVUY3OODFKNXC6IFZN27SDXOOXXTJGPK4AGYIAHNGSZQGZIZIA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.7.6229.zip" size="6378127" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=dd32f8860a1d1d199d44a90cf2539902f91ff5ea" released="2016-07-31" stability="stable" version="4.5.7.6282">
+      <manifest-digest sha256new="FCAVJJNNQJ37YHA3MPOCWBO3LULK3FGVRYQJ477RF53LGC3USZKQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.7.6282.zip" size="6633994" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=bee526a327ce4198bdc9c6678400543864f8a309" released="2016-07-31" stability="stable" version="4.5.7.6282">
+      <manifest-digest sha256new="5DUBIEEBH7OY26YC5JE3P4WU2USUGU5Y3PKF4PN2QPIMRV25OI6Q"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.7.6282.zip" size="6378390" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=d02ae09ef61097ef6978f10802211bc09e03d934" released="2016-09-02" stability="stable" version="4.5.7.6321">
+      <manifest-digest sha256new="UDPFJMZBZPZUDM5BL6W4P4UVLMHPECIYYTSYIODRGGRUDT37QPIQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.7.6321.zip" size="6634283" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=d40a994f9d302e3e2188177c000180ef9ba2a7a0" released="2016-09-02" stability="stable" version="4.5.7.6321">
+      <manifest-digest sha256new="S7XEDMSXT5QNRRBN4D772HD55DPAYLE7GPTEMSY53GYC7KYBPQUQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.7.6321.zip" size="6378692" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=394f04b0e78b7aaf34cc6d4925c599a60a468dbf" released="2016-10-21" stability="stable" version="4.5.7.6389">
+      <manifest-digest sha256new="JTFCCQC2YXQTYCN7AT2JJOPPY566E6O7TNKEMNGYT6TBMSS5COOQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.7.6389.zip" size="6634255" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=d1ff591defeae21e8aad14ae106d72b930054353" released="2016-10-21" stability="stable" version="4.5.7.6389">
+      <manifest-digest sha256new="WU667Q2F4WDLVB5GTVTYQOZROGBMUL63TULKK5OQKP4MRGDGSQ7A"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.7.6389.zip" size="6378746" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=2c30126d209c343589eae57ec195da254c8e5b54" released="2016-11-26" stability="stable" version="4.5.7.6452">
+      <manifest-digest sha256new="3SBW7ZPM3XEAJCEBHIE77MHXCNIR7YTA6K732XOC6AHJSWZX76VA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.7.6452.zip" size="6636032" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=b99ae66ad7fdec9da5a55c2aa8fdc463c97a4b2e" released="2016-11-26" stability="stable" version="4.5.7.6452">
+      <manifest-digest sha256new="IWCOKL6LU6KX43RBJOMPQCSPJVWW6TEMLUFDMK5EFWKCBX2GSLBA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.7.6452.zip" size="6380618" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=be943d39457a315ce680a3e026090e79e978b30c" released="2017-01-07" stability="stable" version="4.5.7.6499">
+      <manifest-digest sha256new="WKAWRWQV4WGPT2KBSHR64OPZ4637XVBLY6CLBNFZOXKR5Y7DT6CA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.7.6499.zip" size="6635167" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=3fc748c05ce1b39cfe124d874257a22af84a0a88" released="2017-01-07" stability="stable" version="4.5.7.6499">
+      <manifest-digest sha256new="KDT5B33OAEXQ2PQU6XM2ZARJPSWXDWNQZ4LD7EWQVOVNZUKCHTWA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.7.6499.zip" size="6380024" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=f99cfded5efbba7629083dcc1ec1ac1e2b0bccb9" released="2017-02-04" stability="stable" version="4.5.7.6521">
+      <manifest-digest sha256new="LKQBV6NLEEKEEP6AG3W5CIV52LBZO2CH4F46MCTXRA74SYTR2ZZA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.7.6521.zip" size="6635289" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=0239142fec302cca5b41734dcf04a47eb3be4043" released="2017-02-04" stability="stable" version="4.5.7.6521">
+      <manifest-digest sha256new="7AXK74NRNE5S2UD6PE26VERAWOHBMP2KNN57CVGZXRIEE5BVCKSQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.7.6521.zip" size="6380267" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=c9347ef1eac2a2997c05b5e99e1d4c6fa216c166" released="2017-05-07" stability="stable" version="4.5.7.6623">
+      <manifest-digest sha256new="YI5TLR3PVF64URR26QWBRPE5CCQALPPRZXIUB4I3KTFMILL3R4UQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.7.6623.zip" size="6649051" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=c4844fb18eaaccd457c36771b5b6b3274166af14" released="2017-05-07" stability="stable" version="4.5.7.6623">
+      <manifest-digest sha256new="N4ZRVZIL5CT5T2KE4MCCLKSSVC45EHMN4OXVOCA6VBEPPPVGQHIQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.7.6623.zip" size="6394091" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=f3d1d5081ef2429c935a1b42ebb456d34f26e755" released="2017-11-01" stability="stable" version="4.5.8.6788">
+      <manifest-digest sha256new="PCWI2JHTWQOHBEFR3D5KADT33TRPCTFANU3IQUNE3QI3CIVG2L2Q"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.8.6788.zip" size="6649886" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=2a296306ca011384ad7519f0ef9c48fcb7cbf02e" released="2017-11-01" stability="stable" version="4.5.8.6788">
+      <manifest-digest sha256new="JE6RSEBY6OYU32DWR4253N3OFE4SJFLJSG7TUKAXBCHOEIMMBBHA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.8.6788.zip" size="6393288" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=a33bdb6d56c62b62c79f81f095df0093cbb85de0" released="2017-11-04" stability="stable" version="4.5.8.6795">
+      <manifest-digest sha256new="QHRYFCQ5BO526WLNSLSFK3TL6NCHMY2ADNXMJANTVVN2K6VC3QVQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.8.6795.zip" size="6649937" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=8353f7042179ba45cb22a037a7dd7504b062a850" released="2017-11-04" stability="stable" version="4.5.8.6795">
+      <manifest-digest sha256new="HAJ3CVJ5LTQRCK7RMSMG3DJFOOIX5HRGEIBM436PYBUMKWJWPKCQ"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.8.6795.zip" size="6393392" type="application/zip"/>
     </implementation>
   </group>
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
