@@ -280,6 +280,22 @@
       <manifest-digest sha256new="YZGVK6N2QMYCHASPNARXAJJFG6M5C5RH6VDTB4MAJ5AOGWM6O6KA"/>
       <archive extract="VSCode-linux-ia32" href="https://az764295.vo.msecnd.net/stable/f88bbf9137d24d36d968ea6b2911786bfe103002/code-stable-code_1.20.1-1518535974_i386.tar.gz" size="66820122" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=425194eeb37f9889e2692a491fb5cc205033cf27" main="Code.exe" released="2018-03-12" stability="stable" version="1.21.0">
+      <manifest-digest sha256new="IHXQ7KGQ5S4PLWW43GTTENTHGHLCMCIU6QZIGEDCE2PABRX3STJQ"/>
+      <archive href="https://az764295.vo.msecnd.net/stable/9a199d77c82fcb82f39c68bb33c614af01c111ba/VSCode-win32-x64-1.21.0.zip" size="71733623" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=e50a58387dfb6aab58037e38aff49e44e0ebe2e3" main="Code.exe" released="2018-03-12" stability="stable" version="1.21.0">
+      <manifest-digest sha256new="W5WYRLPSMOKS26I66PGIRABFOFWXTBUTQ75HJMXQS2C6PAZGVKTA"/>
+      <archive href="https://az764295.vo.msecnd.net/stable/9a199d77c82fcb82f39c68bb33c614af01c111ba/VSCode-win32-ia32-1.21.0.zip" size="62483678" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=2b6629faf7b1be9534275d301aeab8e22403ab92" main="bin/code" released="2018-03-12" stability="stable" version="1.21.0">
+      <manifest-digest sha256new="WEY5F3GSPGKQUVDQTBUZQMTFIIFR5O3YBDBLYOQYMSYOB4Z5AO2A"/>
+      <archive extract="VSCode-linux-x64" href="https://az764295.vo.msecnd.net/stable/9a199d77c82fcb82f39c68bb33c614af01c111ba/code-stable-code_1.21.0-1520420608_amd64.tar.gz" size="67060331" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i386" id="sha1new=edbacbd5d6acb7a96fab5ffdc29cfc36deba90a2" main="bin/code" released="2018-03-12" stability="stable" version="1.21.0">
+      <manifest-digest sha256new="JGMAACNVWAOCWC6LU7DU4HQKNGHJND7IHVDLG75ITNTGKPR5FRNQ"/>
+      <archive extract="VSCode-linux-ia32" href="https://az764295.vo.msecnd.net/stable/9a199d77c82fcb82f39c68bb33c614af01c111ba/code-stable-code_1.21.0-1520420595_i386.tar.gz" size="68081572" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
   <entry-point binary-name="code" command="run"/>
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
