@@ -160,6 +160,30 @@
       <manifest-digest sha256new="6RXEG3B7RAPM4HSHOSAFR7RTY6XSU5TZIJQFHJVAX5ITIJYTU7HA"/>
       <archive extract="vlc-2.2.6" href="http://get.videolan.org/vlc/2.2.6/win32/vlc-2.2.6-win32.7z" size="28672759" type="application/x-7z-compressed"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=9c009b1738a9b7f5583371a536e84d29d2a34aba" if-0install-version="2.6.6.." main="vlc.exe" released="2017-11-30" stability="stable" version="2.2.8">
+      <manifest-digest sha256new="UR5NIGQVG72J22FO7FQFERB7T25PR3ZUHVIH6WW6TJ54ZEP4KOHQ"/>
+      <archive extract="vlc-2.2.8" href="http://get.videolan.org/vlc/2.2.8/win64/vlc-2.2.8-win64.7z" size="29550606" type="application/x-7z-compressed"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=822b24c29bcad1763769349b487f640137035260" if-0install-version="2.6.6.." main="vlc.exe" released="2017-11-30" stability="stable" version="2.2.8">
+      <manifest-digest sha256new="QMDUOLQ5KQHRZFEJZ6CR52NYEXZMMYFTVZGSBXZHTB2QU54VSBXA"/>
+      <archive extract="vlc-2.2.8" href="http://get.videolan.org/vlc/2.2.8/win32/vlc-2.2.8-win32.7z" size="28454821" type="application/x-7z-compressed"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=b11dd2b0275ce174df3dd19db133de3ff1ff1969" if-0install-version="2.6.6.." main="vlc.exe" released="2018-02-10" stability="stable" version="3.0.0">
+      <manifest-digest sha256new="PCXVC4ZGJ5QB4TX3WGVO6KOAPLH5AINKGLQZGHVO7RIER6RW5U7Q"/>
+      <archive extract="vlc-3.0.0" href="http://get.videolan.org/vlc/3.0.0/win64/vlc-3.0.0-win64.7z" size="34683981" type="application/x-7z-compressed"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=fbe4b73f8eced348290a0be1cbe39113b63603b0" if-0install-version="2.6.6.." main="vlc.exe" released="2018-02-10" stability="stable" version="3.0.0">
+      <manifest-digest sha256new="OFAK67OPKCY52Y64SLT5NK7ILX77CINE6ENYEW2U22HPTXF2QLPA"/>
+      <archive extract="vlc-3.0.0" href="http://get.videolan.org/vlc/3.0.0/win32/vlc-3.0.0-win32.7z" size="33116238" type="application/x-7z-compressed"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=f250c7368f650ca841fc3d5a87b207866b3d7c7b" if-0install-version="2.6.6.." main="vlc.exe" released="2018-02-27" stability="stable" version="3.0.1">
+      <manifest-digest sha256new="HI3USLNWFQUBQEUEU2YS73AWRXHZJMZSZJVM5PMGEOJTV4YCMJEQ"/>
+      <archive extract="vlc-3.0.1" href="http://get.videolan.org/vlc/3.0.1/win64/vlc-3.0.1-win64.7z" size="34699042" type="application/x-7z-compressed"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=e889fee52f40264b5b6967e5a5fe92df7434261a" if-0install-version="2.6.6.." main="vlc.exe" released="2018-02-27" stability="stable" version="3.0.1">
+      <manifest-digest sha256new="S7RA4435XRKTPQ7ZHQ5CYEH2TK5M3OUU3ADUMY3SH5F45EY3QW6A"/>
+      <archive extract="vlc-3.0.1" href="http://get.videolan.org/vlc/3.0.1/win32/vlc-3.0.1-win32.7z" size="33119993" type="application/x-7z-compressed"/>
+    </implementation>
   </group>
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
     <default-program id="VLC" service="Media">
