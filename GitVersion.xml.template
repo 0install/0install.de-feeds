@@ -11,8 +11,8 @@
     <command name="run" path="GitVersion.exe">
       <runner interface="http://repo.roscidus.com/dotnet/clr" command="run" />
     </command>
-    <implementation version="{version}" released="{released}" stability="stable">
-      <archive href="https://github.com/GitTools/GitVersion/releases/download/v{version}/GitVersion_{version}.zip" type="application/zip"/>
+    <implementation version="{version}" released="{released}" stability="{stability}">
+      <archive href="https://github.com/GitTools/GitVersion/releases/download/v{sem-ver}/GitVersion_{nuget-ver}.zip" type="application/zip"/>
     </implementation>
   </group>
 </interface>
