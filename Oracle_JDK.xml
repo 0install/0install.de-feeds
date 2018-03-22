@@ -72,9 +72,25 @@
       <manifest-digest sha1new="c9e56df365e66dbe665f6fd28b6897cd22cb7961" sha256="826ef31b304bbf2c1c558b5e74a871154f242c7df1195564554327cef40f2542" sha256new="QJXPGGZQJO7SYHCVRNPHJKDRCVHSILD56EMVKZCVIMT455APEVBA"/>
       <archive href="jdk-8u152-windows-i586.tar.lzma" size="130034772" type="application/x-lzma-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=371cc2738d3325235f5a97df46608fb0e9eafc54" released="2018-03-21" stability="stable" version="8.0.161">
+      <manifest-digest sha256new="G7WNSEHDKXFH7RQCSDUOHNAB422KZT53CCJBW2NAHW65MRBLBPRA"/>
+      <archive href="jdk-8u161-windows-x64.tar.lzma" size="131849832" type="application/x-lzma-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=70d0a3d1fda0a5fe7d361678ee9686bdda6e7650" released="2018-03-21" stability="stable" version="8.0.161">
+      <manifest-digest sha256new="JQQ2PT7G7PRYVAGSMKMDFYUGAK6OCTEYGJRBFMSYNWHFUVOMBRKQ"/>
+      <archive href="jdk-8u161-windows-i586.tar.lzma" size="130020047" type="application/x-lzma-compressed-tar"/>
+    </implementation>
     <implementation arch="Windows-x86_64" id="sha1new=19bc761cb5fec0aafd0e0effc6327b491153d954" released="2017-10-20" stability="stable" version="9.0.1">
       <manifest-digest sha1new="19bc761cb5fec0aafd0e0effc6327b491153d954" sha256="a52d51d11284e54d89ff5dc9b09b5030ffeef4aa39aebf02086e507bac988e5b" sha256new="UUWVDUISQTSU3CP7LXE3BG2QGD7655FKHGXL6AQINZIHXLEYRZNQ"/>
       <archive href="jdk-9.0.1_windows-x64_bin.tar.lzma" size="233007328" type="application/x-lzma-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=850925e5d0072bce4fdb94f55db1ef702cfb349a" released="2018-03-21" stability="stable" version="9.0.4">
+      <manifest-digest sha256new="ZSQPK7W6DNTGRUMF2EVQ2WLR7AENYT3AWHT6LFG2NZAZFLAYXG3Q"/>
+      <archive href="jdk-9.0.4_windows-x64_bin.tar.lzma" size="233065643" type="application/x-lzma-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=fd3fff56fb463e492984c258132b3465a4477b4c" released="2018-03-21" stability="stable" version="10">
+      <manifest-digest sha256new="W5S5CTRLRCOCQLJHI3LTNTRZDEZ7P55BHH5S2AKHDD5NKESVPK5A"/>
+      <archive href="jdk-10_windows-x64_bin.tar.lzma" size="240836748" type="application/x-lzma-compressed-tar"/>
     </implementation>
   </group>
   <entry-point binary-name="javac" command="run">

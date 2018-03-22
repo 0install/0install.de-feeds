@@ -94,9 +94,25 @@
       <manifest-digest sha1new="c47ee79be084d70c099d86afa3ba0b997311a294" sha256="ea68e324b16892d1214f9b39d0aa79309108727248e8356723270c0e1f263a03" sha256new="5JUOGJFRNCJNCIKPTM45BKTZGCIQQ4TSJDUDKZZDE4GA4HZGHIBQ"/>
       <archive extract="jre1.8.0_152" href="jre-8u152-windows-i586.tar.gz" size="67674270" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=0aedab4599bb264b004e45a3d03798db6db28229" released="2018-03-21" stability="stable" version="8.0.161">
+      <manifest-digest sha256new="HNWOFAC5RHIUBICLEVOVRVDGWSSZNFVROKOLYMBHR4VOFQGBCJ2A"/>
+      <archive extract="jre1.8.0_161" href="jre-8u161-windows-x64.tar.gz" size="71909312" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=d509072fb736c66397bfe2ee8588de67ce29daca" released="2018-03-21" stability="stable" version="8.0.161">
+      <manifest-digest sha256new="FOU5VSDDDLO6NIZTWJXFZX3QDD6M54KK33D4JKN2SUFGVYT7RCFA"/>
+      <archive extract="jre1.8.0_161" href="jre-8u161-windows-i586.tar.gz" size="67699456" type="application/x-compressed-tar"/>
+    </implementation>
     <implementation arch="Windows-x86_64" id="sha1new=805687f32553b21991120d50b950adf1c66a3354" released="2017-10-20" stability="stable" version="9.0.1">
       <manifest-digest sha1new="805687f32553b21991120d50b950adf1c66a3354" sha256="cd8364293007bba5cd105ff0955c13d3c2627674134bad9f2db2136d4eab6702" sha256new="ZWBWIKJQA652LTIQL7YJKXAT2PBGE5TUCNF23HZNWIJW2TVLM4BA"/>
       <archive extract="jre-9.0.1" href="jre-9.0.1_windows-x64_bin.tar.gz" size="76072429" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=fbb5c56933f8de1718e7b5fbd6d04a777acf2a6f" released="2018-03-21" stability="stable" version="9.0.4">
+      <manifest-digest sha256new="TOL4XT7QF2IBQHHGMV34V7C5F7JQT4LWE7OWEE3KDNTSJQZ4SUTA"/>
+      <archive extract="jre-9.0.4" href="jre-9.0.4_windows-x64_bin.tar.gz" size="76086793" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=46ade9b8e67fbeca33291c4d63ae5cae9a87251c" released="2018-03-21" stability="stable" version="10">
+      <manifest-digest sha256new="VMANZSWAMHZVASHOW42QQKP5NOI6ZJE2OPBKZIV32B47XRGSEFCA"/>
+      <archive extract="jre-10" href="jre-10_windows-x64_bin.tar.gz" size="79023057" type="application/x-compressed-tar"/>
     </implementation>
   </group>
   <entry-point binary-name="java" command="run">
