@@ -98,6 +98,14 @@
       <manifest-digest sha256new="3DGGAHSKYQOYVZKZC6XXNVDVJSBFHCEW6L7CMAMPHWPQSJXGWWBQ"/>
       <archive extract="MPC-HC.1.7.11.x86" href="https://binaries.mpc-hc.org/MPC%20HomeCinema%20-%20Win32/MPC-HC_v1.7.11_x86/MPC-HC.1.7.11.x86.zip" size="18635220" type="application/zip"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=68fe080bf58ccf2d7caeb2031f865800d741667a" main="mpc-hc64.exe" released="2017-07-16" stability="stable" version="1.7.13">
+      <manifest-digest sha256new="2JWPXATA5UFZ63JUG7NES3A6IYKPFWRV3H23GRHQUONHQMSHWHLQ"/>
+      <archive extract="MPC-HC.1.7.13.x64" href="https://binaries.mpc-hc.org/MPC%20HomeCinema%20-%20x64/MPC-HC_v1.7.13_x64/MPC-HC.1.7.13.x64.zip" size="20145939" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=6a5bd5efd54716adf8372bb2574aad9bea57f482" main="mpc-hc.exe" released="2017-07-16" stability="stable" version="1.7.13">
+      <manifest-digest sha256new="B5LVDHLYJLRWG4VHHYPNOPUBP42V7UQUZQDDZ77KNP72DWLRBT7A"/>
+      <archive extract="MPC-HC.1.7.13.x86" href="https://binaries.mpc-hc.org/MPC%20HomeCinema%20-%20Win32/MPC-HC_v1.7.13_x86/MPC-HC.1.7.13.x86.zip" size="18737949" type="application/zip"/>
+    </implementation>
   </group>
   <entry-point binary-name="mpc-hc" command="run"/>
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
