@@ -16,4 +16,5 @@
       <file dest="pngcrush.exe" href="http://downloads.sourceforge.net/pmt/pngcrush_1_7_85_w32.exe" size="567611"/>
     </implementation>
   </group>
+  <entry-point binary-name="pngcrush" command="run" />
 </interface>

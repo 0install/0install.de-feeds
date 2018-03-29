@@ -15,4 +15,5 @@
       </implementation>
     </group>
   </group>
+  <entry-point binary-name="MP4Box" command="run" />
 </interface>

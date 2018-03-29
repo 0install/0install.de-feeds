@@ -16,4 +16,5 @@
       <archive href="http://sourceforge.net/projects/gptfdisk/files/gptfdisk/0.8.10/fixparts-binaries/fixparts-windows-0.8.10.zip" size="515827" type="application/zip"/>
     </implementation>
   </group>
+  <entry-point binary-name="fixparts" command="run" />
 </interface>

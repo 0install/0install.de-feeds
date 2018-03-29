@@ -144,4 +144,5 @@
       <archive extract="aria2-1.30.0-win-32bit-build1" href="https://github.com/tatsuhiro-t/aria2/releases/download/release-1.30.0/aria2-1.30.0-win-32bit-build1.zip" size="2037778" type="application/zip"/>
     </implementation>
   </group>
+  <entry-point binary-name="aria2" command="run"/>
 </interface>

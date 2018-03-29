@@ -336,4 +336,5 @@
       <file dest="youtube-dl" href="https://github.com/rg3/youtube-dl/releases/download/2018.03.20/youtube-dl" size="1643405"/>
     </implementation>
   </group>
+  <entry-point binary-name="youtube-dl" command="run" />
 </interface>

@@ -7,6 +7,7 @@
     When new releases are detected 0template is used to create/update a Zero Install feed.
   </description>
   <homepage>https://github.com/0install/0watch</homepage>
+  <needs-terminal/>
 
   <release:management xmlns:release="http://zero-install.sourceforge.net/2007/namespaces/0release"><!-- Update the copy of the version number in the code -->
     <release:action phase="commit-release">sed -i &quot;s/^version = '.*'$/version = '$RELEASE_VERSION'/&quot; 0watch.py</release:action>
@@ -31,4 +32,6 @@
       <archive extract="0watch-0.1" href="0watch-0.1.tar.bz2" size="10998"/>
     </implementation>
   </group>
+
+  <entry-point binary-name="0watch" command="run"/>
 </interface>
