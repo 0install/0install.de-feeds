@@ -335,6 +335,18 @@
       <manifest-digest sha256new="XAJYAXB24FNKHM3GE5DVIRSMXFZIUIQPRKFMBASDKWDROYTIORUA"/>
       <file dest="youtube-dl" href="https://github.com/rg3/youtube-dl/releases/download/2018.03.20/youtube-dl" size="1643405"/>
     </implementation>
+    <implementation id="sha1new=8efd88efae88143eeab84d8c79bbb72f5834d3c1" released="2018-03-26" stability="stable" version="2018.3.26.1">
+      <manifest-digest sha256new="BFFLTUNDBHM7L4Y5VT2USWV5HFYFUN3JUQBLFWLRAFLU2YZRSP6Q"/>
+      <file dest="youtube-dl" href="https://github.com/rg3/youtube-dl/releases/download/2018.03.26.1/youtube-dl" size="1644849"/>
+    </implementation>
+    <implementation id="sha1new=ef8db7fbdaf3cbfdbf43eeb6a46bab9431a41341" released="2018-04-02" stability="stable" version="2018.4.3">
+      <manifest-digest sha256new="6GD4DEMYHXBTJOCY6ACGLQDI56WZLTBXHLWV3ZUUWIL5SYYI6URQ"/>
+      <file dest="youtube-dl" href="https://github.com/rg3/youtube-dl/releases/download/2018.04.03/youtube-dl" size="1647080"/>
+    </implementation>
+    <implementation id="sha1new=b7140838505d9177f4d57479d7259c73fa90a256" released="2018-04-08" stability="stable" version="2018.4.9">
+      <manifest-digest sha256new="ZM64QESMRVDMV2QDWW722QL7P3S4ULVND3PFGYWCOOUBXWAUY3RQ"/>
+      <file dest="youtube-dl" href="https://github.com/rg3/youtube-dl/releases/download/2018.04.09/youtube-dl" size="1648788"/>
+    </implementation>
   </group>
-  <entry-point binary-name="youtube-dl" command="run" />
+  <entry-point binary-name="youtube-dl" command="run"/>
 </interface>
