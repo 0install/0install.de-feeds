@@ -127,6 +127,10 @@
       <manifest-digest sha256new="FJDRF2EWT27KCXCAZUJP4BX4YNLPP7MLH54HVY44IODMSV52NHEA"/>
       <archive extract="SourceDir/NAPS2" href="https://github.com/cyanfish/naps2/releases/download/v5.7.1/naps2-5.7.1-setup.msi" size="2154496" type="application/x-msi"/>
     </implementation>
+    <implementation id="sha1new=e5b4511118f958f4510699d542c73c957bfc9070" released="2018-03-23" version="5.8.0">
+      <manifest-digest sha256new="7O3WYUADKMFXM52CHQCCJNBEQS2TEIEFGMD2PA23MMMVC7TFHYEQ"/>
+      <archive extract="SourceDir/NAPS2" href="https://github.com/cyanfish/naps2/releases/download/v5.8.0/naps2-5.8.0-setup.msi" size="2166784" type="application/x-msi"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="NAPS2" command="run"/>
