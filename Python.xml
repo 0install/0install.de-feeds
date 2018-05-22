@@ -96,6 +96,14 @@ modules are easily written in C or C++. Python is also usable as an extension
       <manifest-digest sha1new="10b5373e267dce5ce1ff957298830b12e35894f3" sha256="868dfce0f862867167b068f0420375cdba15d3b570059561a1c801c46bb7ff57" sha256new="Q2G7ZYHYMKDHCZ5QNDYEEA3VZW5BLU5VOACZKYNBZAA4I25X75LQ"/>
       <archive href="python-3.6.0-win32.tar.bz2" size="26689438" type="application/x-bzip-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=ffbcaaa3faf55013593292e924a377899d83d974" released="2018-03-28" stability="stable" version="3.6.5">
+      <manifest-digest sha256new="BBZ6KKKQVCYZADAOQUCMLGMIO7S5C6YEHU2N5324U6Z6E5SLHJRQ"/>
+      <archive href="python-3.6.5-win64.tar.bz2" size="25260357" type="application/x-bzip-compressed-tar" />
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=362ae3d7a67570b6dc21c661087d717a0da37dcc" released="2018-03-28" stability="stable" version="3.6.5">
+      <manifest-digest sha256new="PD6EWG4PMJNZZMIXKXIEEJUSZLF3S4JCXUGSPUVHLRPUL4OWHZIQ"/>
+      <archive href="python-3.6.5-win32.tar.bz2" size="24162022" type="application/x-bzip-compressed-tar" />
+    </implementation>
   </group>
   <entry-point binary-name="python" command="run">
     <needs-terminal/>
