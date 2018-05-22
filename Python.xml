@@ -40,6 +40,14 @@ modules are easily written in C or C++. Python is also usable as an extension
       <manifest-digest sha1new="74a5e144479a90556c6e2339dd5c473559f18489" sha256="8494fa677e852ef49a6025863e88cb71029b2584450c0fa5b133cc1c6ca036b1" sha256new="QSKPUZ36QUXPJGTAEWDD5CGLOEBJWJMEIUGA7JNRGPGBY3FAG2YQ"/>
       <archive extract="SourceDir" href="https://www.python.org/ftp/python/2.7.13/python-2.7.13.msi" size="19161088" type="application/x-msi"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=d17c4b7d451af09d0b3da9057626b6fca9cc894d" released="2018-04-30" stability="stable" version="2.7.15">
+      <manifest-digest sha256new="HBTOKP5QXXPXN2KSRSNA6DCZBXFCWCLW2GPKUV3XDLGXCZNCFREA"/>
+      <archive extract="SourceDir" href="https://www.python.org/ftp/python/2.7.15/python-2.7.15.amd64.msi" size="20246528" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=c2ef419e0278caa25d1c9e6a449a7aff36a7216c" released="2018-04-30" stability="stable" version="2.7.15">
+      <manifest-digest sha256new="P3LD6BDLOWLCKSEHYQJABS454FN6GKJC455VK6HYMVT5IBOMJDXA"/>
+      <archive extract="SourceDir" href="https://www.python.org/ftp/python/2.7.15/python-2.7.15.msi" size="19304448" type="application/x-msi"/>
+    </implementation>
   </group>
   <group license="Python License">
     <requires importance="recommended" interface="http://repo.roscidus.com/python/python-win32"/>
