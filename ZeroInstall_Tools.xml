@@ -257,5 +257,9 @@ und der New Feed Wizard (leitet Sie durch den kompletten Feed-Erstellungsprozess
       <manifest-digest sha1new="6f89ab79d25e04c4cd53b3de36e76fa6c7fb218b" sha256="8e10fa200f6e17bb74377b4d52ae85e1d0ca6f9b3e78b2c450a670cef84fdbca" sha256new="RYIPUIAPNYL3W5BXPNGVFLUF4HIMU343HZ4LFRCQUZYM56CP3PFA"/>
       <archive href="ZeroInstall_Tools-2.14.5.tar.gz" size="2435686"/>
     </implementation>
+    <implementation id="sha1new=9928acaae8a4f704b364cb3934c4394aa1350fa4" license="LGPL v3 (GNU Lesser General Public License)" released="2018-06-08" stability="stable" version="2.15.1">
+      <manifest-digest sha256new="2BWMIXPFX63U6UMA5PZNOKHPEUPIPL6SDMUWTXUCD55P7VCODQOA"/>
+      <archive href="ZeroInstall_Tools-2.15.1.tar.gz" size="2373150"/>
+    </implementation>
   </group>
 </interface>
