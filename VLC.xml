@@ -1370,6 +1370,30 @@
       </verb>
       <extension value=".wv"/>
     </file-type>
+    <file-type id="VLC.wtv">
+      <description xml:lang="en">VLC media file (.wtv)</description>
+      <verb args="--started-from-file &quot;%1&quot;" name="open">
+        <description xml:lang="en">Play</description>
+        <description xml:lang="de">Abspielen</description>
+      </verb>
+      <verb args="--started-from-file --playlist-enqueue &quot;%1&quot;" name="AddToPlaylistVLC">
+        <description xml:lang="en">Add to VLC's Playlist</description>
+        <description xml:lang="de">Zu VLC's Playlist hinzufügen</description>
+      </verb>
+      <extension value=".wtv"/>
+    </file-type>
+    <file-type id="VLC.dvr-ms">
+      <description xml:lang="en">VLC media file (.dvr-ms)</description>
+      <verb args="--started-from-file &quot;%1&quot;" name="open">
+        <description xml:lang="en">Play</description>
+        <description xml:lang="de">Abspielen</description>
+      </verb>
+      <verb args="--started-from-file --playlist-enqueue &quot;%1&quot;" name="AddToPlaylistVLC">
+        <description xml:lang="en">Add to VLC's Playlist</description>
+        <description xml:lang="de">Zu VLC's Playlist hinzufügen</description>
+      </verb>
+      <extension value=".dvr-ms"/>
+    </file-type>
     <file-type id="VLC.xa">
       <description xml:lang="en">VLC media file (.xa)</description>
       <verb args="--started-from-file &quot;%1&quot;" name="open">
