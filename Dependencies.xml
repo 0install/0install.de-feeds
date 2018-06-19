@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<interface uri="http://0install.de/feeds/Dependencies.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <name>Dependencies</name>
+  <summary>open-source modern Dependency Walker</summary>
+  <description>Dependencies is a rewrite of the legacy software Dependency Walker which was shipped along Windows SDK. It can help developers troubleshooting their DLL load dependencies issues.</description>
+  <homepage>https://github.com/lucasg/Dependencies</homepage>
+  <icon href="http://0install.de/feed-icons/Dependencies.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="http://0install.de/feed-icons/Dependencies.png" type="image/png"/>
+  <category>Development</category>
+  <group license="MIT License">
+    <command name="run" path="Dependencies.exe">
+      <runner interface="http://repo.roscidus.com/dotnet/clr" command="run-gui"/>
+    </command>
+    <implementation version="1.0" released="2017-07-09" stability="stable" id="sha1new=6913dd81fd2da6a5efb4abff72eb0cb1a70dab6a">
+      <manifest-digest sha256new="2GPZUXMXE6OELZSTMGK4ZMWLYLTN4WXORFAMXFNBPQVL2IODNGVA"/>
+      <archive href="https://github.com/lucasg/Dependencies/releases/download/v1.0/Dependencies.zip" size="453908" type="application/zip"/>
+    </implementation>
+    <implementation version="1.5" released="2017-10-14" stability="stable" id="sha1new=cec4b0f1c624cc4bdae9bb2a738875d213437dd8">
+      <manifest-digest sha256new="UGTHHFPCW54ROQJ7AJ7HV5YJMYHJKEYOZIPTMKAWC4JRSG22J3IQ"/>
+      <archive href="https://github.com/lucasg/Dependencies/releases/download/v1.5/Dependencies.zip" size="511314" type="application/zip"/>
+    </implementation>
+    <implementation version="1.6" released="2018-01-14" stability="stable" id="sha1new=69ddeb2e1833e3a49d20a0f6abf3a5f2aa7b54f3">
+      <manifest-digest sha256new="3LJXDPJ4TX5PV4VXXF3HZLM5UYXKRMZ5JGSV6ZZ4F5JW3TUJOYOQ"/>
+      <archive href="https://github.com/lucasg/Dependencies/releases/download/v1.6/Dependencies.zip" size="1079375" type="application/zip"/>
+    </implementation>
+  </group>
+  <group license="MIT License">
+    <command name="run" path="DependenciesGui.exe">
+      <runner interface="http://repo.roscidus.com/dotnet/clr" command="run-gui"/>
+    </command>
+    <command name="run-cli" path="Dependencies.exe">
+      <runner interface="http://repo.roscidus.com/dotnet/clr" command="run"/>
+    </command>
+    <implementation version="1.7" released="2018-04-29" stability="stable" id="sha1new=95b57ec3f909aa3c09d688e096aac6593840b7a0">
+      <manifest-digest sha256new="FO4YZGPYZFJZP6C2ZKOZTEIRCHSPSWBSRFVZPLYQ5Z3JR5KAEUXA"/>
+      <archive href="https://github.com/lucasg/Dependencies/releases/download/v1.7/Dependencies.zip" size="2332678" type="application/zip"/>
+    </implementation>
+  </group>
+  <entry-point binary-name="DependenciesGui" command="run"/>
+  <entry-point binary-name="dependencies" command="run-cli">
+    <name xml:lang="en">Dependencies command-line tool</name>
+    <needs-terminal/>
+  </entry-point>
+</interface>

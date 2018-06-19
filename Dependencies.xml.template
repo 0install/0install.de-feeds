@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Dependencies</name>
+  <summary>open-source modern Dependency Walker</summary>
+  <description>Dependencies is a rewrite of the legacy software Dependency Walker which was shipped along Windows SDK. It can help developers troubleshooting their DLL load dependencies issues.</description>
+  <homepage>https://github.com/lucasg/Dependencies</homepage>
+  <icon href="http://0install.de/feed-icons/Dependencies.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="http://0install.de/feed-icons/Dependencies.png" type="image/png"/>
+  <feed-for interface="http://0install.de/feeds/Dependencies.xml"/>
+  <group license="MIT License">
+    <command name="run" path="DependenciesGui.exe">
+      <runner interface="http://repo.roscidus.com/dotnet/clr" command="run-gui"/>
+    </command>
+    <command name="run-cli" path="Dependencies.exe">
+      <runner interface="http://repo.roscidus.com/dotnet/clr" command="run"/>
+    </command>
+    <implementation version="{version}" released="{released}" stability="stable">
+      <manifest-digest/>
+      <archive href="https://github.com/lucasg/Dependencies/releases/download/v{version}/Dependencies.zip" type="application/zip"/>
+    </implementation>
+  </group>
+</interface>
