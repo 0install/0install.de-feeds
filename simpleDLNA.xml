@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/simpleDLNA.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>SimpleDLNA</name>
+  <summary xml:lang="en">simple, zero-config DLNA media server</summary>
+  <description xml:lang="en">A simple, zero-config DLNA media server, that you can just fire up and be done with it.</description>
+  <icon href="http://0install.de/feed-icons/simpleDLNA.ico" type="image/vnd.microsoft.icon" />
+  <icon href="http://0install.de/feed-icons/simpleDLNA.png" type="image/png" />
+  <homepage>http://nmaier.github.io/simpleDLNA/</homepage>
+  <implementation version="1.0" id="sha1new=356877a6fc30df34113a5e5ddcab4e742f218fd6">
+    <command name="run" path="SimpleDLNA.exe">
+      <runner interface="http://repo.roscidus.com/dotnet/clr" command="run-gui" />
+    </command>
+    <command name="sdlna" path="sdlna.exe">
+      <runner interface="http://repo.roscidus.com/dotnet/clr" command="run" />
+    </command>
+    <manifest-digest sha256new="66DH2TGNR44AEPOZGB7WTCV4ELICD5MUPHM2EA6FHOVGL3J3PM6A" />
+    <archive href="https://github.com/nmaier/simpleDLNA/releases/download/v1.0/simpledlna-1.0.7z" size="1342690" type="application/x-7z-compressed" />
+  </implementation>
+  <entry-point command="run" binary-name="SimpleDLNA">
+    <name xml:lang="en">SimpleDLNA</name>
+  </entry-point>
+  <entry-point command="sdlna" binary-name="sdlna">
+    <needs-terminal />
+    <name xml:lang="en">SimpleDLNA command-line</name>
+  </entry-point>
+</interface>
