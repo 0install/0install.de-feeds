@@ -31,7 +31,7 @@
     </command>
     <implementation arch="POSIX-*" version="{version}" released="{released}" stability="{stability}">
       <manifest-digest />
-      <archive href="https://github.com/gitextensions/gitextensions/releases/download/v{original-version}/GitExtensions-{original-version}-portable.zip" type="application/zip" extract="GitExtensions" />
+      <archive href="https://github.com/gitextensions/gitextensions/releases/download/v{original-version}/GitExtensions-{original-version}-Mono.zip" type="application/zip" extract="GitExtensions" />
     </implementation>
     <implementation arch="Windows-*" version="{version}" released="{released}" stability="{stability}">
       <manifest-digest />
