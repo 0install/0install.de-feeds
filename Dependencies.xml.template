@@ -14,9 +14,13 @@
     <command name="run-cli" path="Dependencies.exe">
       <runner interface="http://repo.roscidus.com/dotnet/clr" command="run"/>
     </command>
-    <implementation version="{version}" released="{released}" stability="stable">
+    <implementation arch="Windows-x86_64" version="{version}" released="{released}" stability="stable">
       <manifest-digest/>
-      <archive href="https://github.com/lucasg/Dependencies/releases/download/v{version}/Dependencies.zip" type="application/zip"/>
+      <archive href="https://github.com/lucasg/Dependencies/releases/download/v{version}/Dependencies_x64_Release.zip" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" version="{version}" released="{released}" stability="stable">
+      <manifest-digest/>
+      <archive href="https://github.com/lucasg/Dependencies/releases/download/v{version}/Dependencies_x86_Release.zip" type="application/zip"/>
     </implementation>
   </group>
 </interface>
