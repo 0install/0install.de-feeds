@@ -176,6 +176,14 @@
       <manifest-digest sha256new="Z32D47DLCWHQEKMSWBDNKO5BVLWYMBOUIHIIINI6F3ABI6Y2K22A"/>
       <archive extract="SourceDir/GitExtensions" href="https://github.com/gitextensions/gitextensions/releases/download/v2.51.03/GitExtensions-2.51.03.msi" size="16209658" type="application/x-msi"/>
     </implementation>
+    <implementation arch="POSIX-*" id="sha1new=c56869d90fedcd054584ea948979dfe7eaebf1f5" released="2018-07-08" stability="stable" version="2.51.4">
+      <manifest-digest sha256new="YM24G4AZ24SL423PGLPZJYTNM6C7QDSO6ZJVJ5T27W2W57CVDPHA"/>
+      <archive extract="GitExtensions" href="https://github.com/gitextensions/gitextensions/releases/download/v2.51.04/GitExtensions-2.51.04-Mono.zip" size="12651081" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-*" id="sha1new=7e2156567b1bd9515dda132abe36aa1d3c2a84ab" released="2018-07-08" stability="stable" version="2.51.4">
+      <manifest-digest sha256new="4SJLKTQRKJ45CPQAV5JMQC4HFQPXX4GYALKWKIBAOIEUWNVQLDYQ"/>
+      <archive extract="SourceDir/GitExtensions" href="https://github.com/gitextensions/gitextensions/releases/download/v2.51.04/GitExtensions-2.51.04.msi" size="16209658" type="application/x-msi"/>
+    </implementation>
   </group>
   <entry-point binary-name="GitExtensions" command="run">
     <name xml:lang="en">GitExtensions</name>
