@@ -16,6 +16,14 @@ Inkscape supports many advanced SVG features (markers, clones, alpha blending, e
       <manifest-digest sha1new="7b7be2acc757cba08b242c6e7222c9cb7aa605eb" sha256="8c57c17901d15017c09f94f2d1e319fb66aee9419056f115bd86f065bab5a84e" sha256new="RRL4C6IB2FIBPQE7STZNDYYZ7NTK52KBSBLPCFN5Q3YGLOVVVBHA" />
       <archive href="inkscape-0.48.4-1-win32.tar.bz2" size="56036178" type="application/x-bzip-compressed-tar" extract="inkscape" />
     </implementation>
+    <implementation arch="Windows-x86_64" version="0.92.3" id="sha1new=c7574e3dcd38911b9bc14beb98018b3e35444508">
+      <manifest-digest sha256new="QH5EO4ENJJXUVKRH6BB4OMQGCUUGQ6YR7L2225LYG5G6F3HFJQZA" />
+      <archive href="https://inkscape.org/en/gallery/item/12188/inkscape-0.92.3-x64.7z" size="64533141" type="application/x-7z-compressed" extract="inkscape" />
+    </implementation>
+    <implementation arch="Windows-i486" version="0.92.3" id="sha1new=fd981e96911f92d42656460a3f8edac0bb46ab58">
+      <manifest-digest sha256new="6HFGS2NTHR5KH6E5IMF7C24NAL7K7T35T6NTEHCJ7INU7JJCF53Q" />
+      <archive href="https://inkscape.org/en/gallery/item/12191/inkscape-0.92.3-x86.7z" size="63695350" type="application/x-7z-compressed" extract="inkscape" />
+    </implementation>
   </group>
   <entry-point command="run" binary-name="inkscape" />
   <entry-point command="inkview" binary-name="inkview">
