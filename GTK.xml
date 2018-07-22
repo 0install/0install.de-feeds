@@ -1,10 +1,9 @@
 <?xml version="1.0" ?>
 <interface uri="http://0install.de/feeds/GTK.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
-  <name>GTK+ Runtime</name>
+  <name>GTK+ Runtime (legacy feed)</name>
   <summary>runtime components of GTK+</summary>
   <description>This package contains the runtime components for GTK+.</description>
   <homepage>http://www.gtk.org/</homepage>
 
   <feed src="http://repo.roscidus.com/lib/gtk" />
-  <replaced-by interface="http://repo.roscidus.com/lib/gtk" />
 </interface>

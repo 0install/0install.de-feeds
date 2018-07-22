@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <interface uri="http://0install.de/feeds/Git_for_Windows.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
-  <name>Git for Windows</name>
+  <name>Git for Windows (legacy feed)</name>
   <summary xml:lang="en">decentralized version control system</summary>
   <summary xml:lang="de">dezentrales Versionsverwaltungssystem</summary>
   <description xml:lang="en">Git is a powerful version control system aiming to be the fastest decentralized source code management tool on this planet.</description>
@@ -10,7 +10,6 @@
   <homepage>https://git-for-windows.github.io/</homepage>
   <needs-terminal/>
   <feed src="http://repo.roscidus.com/git/windows" />
-  <replaced-by interface="http://repo.roscidus.com/git/windows" />
   <entry-point binary-name="git" command="run">
     <needs-terminal/>
     <name xml:lang="en">Git</name>

@@ -1,11 +1,10 @@
 <?xml version="1.0" ?>
 <interface uri="http://0install.de/feeds/Apache_Ant.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
-  <name>Apache Ant</name>
+  <name>Apache Ant (legacy feed)</name>
   <summary xml:lang="en">A software project management and comprehension tool</summary>
   <summary xml:lang="de">Ein Softwareprojeketmanagementwerkzeug</summary>
   <homepage>http://ant.apache.org/</homepage>
   <category>Development</category>
   <needs-terminal/>
   <feed src="http://repo.roscidus.com/java/ant" />
-  <replaced-by interface="http://repo.roscidus.com/java/ant" />
 </interface>

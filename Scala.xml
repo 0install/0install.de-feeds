@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <interface uri="http://0install.de/feeds/Scala.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
-  <name>Scala</name>
+  <name>Scala (legacy feed)</name>
   <summary xml:lang="en">functional and object-oriented programming language</summary>
   <summary xml:lang="de">funktionale und objektorientierte Programmiersprache</summary>
   <description xml:lang="en">Scala is a functional and object-oriented programming language based on the Java Virtual Machine.</description>
@@ -11,7 +11,6 @@
   <category>Development</category>
   <needs-terminal/>
   <feed src="http://repo.roscidus.com/java/scala" />
-  <replaced-by interface="http://repo.roscidus.com/java/scala" />
   <entry-point binary-name="scala" command="run">
     <name xml:lang="en">Scala interpreter</name>
   </entry-point>
