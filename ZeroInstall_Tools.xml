@@ -26,23 +26,23 @@ und der New Feed Wizard (leitet Sie durch den kompletten Feed-Erstellungsprozess
 
     <implementation id="sha1new=4107dd240bb7b63832f14163755f1118fc8f76c3" released="2017-11-13" stability="stable" version="2.14.0">
       <manifest-digest sha1new="4107dd240bb7b63832f14163755f1118fc8f76c3" sha256="d9e3c0a7f1b944de1fda38f6e1e1377140fb2b51ccecd8b6ab04fbde7fd1c702" sha256new="3HR4BJ7RXFCN4H62HD3ODYJXOFAPWK2RZTWNRNVLAT55476RY4BA"/>
-      <archive href="https://github.com/0install/0publish-win/releases/download/2.14.0/ZeroInstall_Tools-2.14.0.tar.gz" size="2429286"/>
+      <archive href="ZeroInstall_Tools-2.14.0.tar.gz" size="2429286"/>
     </implementation>
     <implementation id="sha1new=b8582d6c52030c5791f872df54a3df90067c4ace" released="2017-11-24" stability="stable" version="2.14.2">
       <manifest-digest sha1new="b8582d6c52030c5791f872df54a3df90067c4ace" sha256="989b7cb446a0ee91007990372a5e13dba3894e7c1d941fce9d33b4dfde189228" sha256new="TCNXZNCGUDXJCADZSA3SUXQT3ORYSTT4DWKB7TU5GO2N7XQYSIUA"/>
-      <archive href="https://github.com/0install/0publish-win/releases/download/2.14.2/ZeroInstall_Tools-2.14.2.tar.gz" size="2432150"/>
+      <archive href="ZeroInstall_Tools-2.14.2.tar.gz" size="2432150"/>
     </implementation>
     <implementation id="sha1new=995a1f70d657b6b84dcd205d8091fca8a94b2225" released="2017-12-04" stability="stable" version="2.14.3">
       <manifest-digest sha1new="995a1f70d657b6b84dcd205d8091fca8a94b2225" sha256="c708d6d6165e444630cf7f21c2baad713929d2276700d86e5498e93f6015592e" sha256new="Y4ENNVQWLZCEMMGPP4Q4FOVNOE4STURHM4ANQ3SUTDUT6YAVLEXA"/>
-      <archive href="https://github.com/0install/0publish-win/releases/download/2.14.3/ZeroInstall_Tools-2.14.3.tar.gz" size="2435119"/>
+      <archive href="ZeroInstall_Tools-2.14.3.tar.gz" size="2435119"/>
     </implementation>
     <implementation id="sha1new=6f89ab79d25e04c4cd53b3de36e76fa6c7fb218b" released="2018-01-07" stability="stable" version="2.14.5">
       <manifest-digest sha1new="6f89ab79d25e04c4cd53b3de36e76fa6c7fb218b" sha256="8e10fa200f6e17bb74377b4d52ae85e1d0ca6f9b3e78b2c450a670cef84fdbca" sha256new="RYIPUIAPNYL3W5BXPNGVFLUF4HIMU343HZ4LFRCQUZYM56CP3PFA"/>
-      <archive href="https://github.com/0install/0publish-win/releases/download/2.14.5/ZeroInstall_Tools-2.14.5.tar.gz" size="2435686"/>
+      <archive href="ZeroInstall_Tools-2.14.5.tar.gz" size="2435686"/>
     </implementation>
     <implementation id="sha1new=b379dc49bdb0eb90bf4a45d347dd7d4a09bd98e3" released="2018-07-09" stability="stable" version="2.15.1">
       <manifest-digest sha256new="SMPWQEM5WXSH63FR2XNFUWPAFRRMB75D2MRVH5AJL2XQBA3SBHGQ"/>
-      <archive href="https://github.com/0install/0publish-win/releases/download/2.15.1/ZeroInstall_Tools-2.15.1.tar.gz" size="2373166"/>
+      <archive href="ZeroInstall_Tools-2.15.1.tar.gz" size="2373166"/>
     </implementation>
   </group>
 
