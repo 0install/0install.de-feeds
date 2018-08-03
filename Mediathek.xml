@@ -155,5 +155,9 @@
       <manifest-digest sha256new="XOC6MEYHWDFVHRXPLPT4PSBS6EAUVY5QWLUJ4LZPUGKMQWKNCNUQ"/>
       <archive extract="MediathekView-13.0.6" href="https://github.com/mediathekview/MediathekView/releases/download/13.0.6/MediathekView-13.0.6.zip" size="27668996" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=cd340ab627d47a3c81fdd49d03cfb3b265b55f24" released="2018-07-25" stability="stable" version="13.1.0">
+      <manifest-digest sha256new="KSQCCNQAXEZ2KS5KXJMPLZZROSAO3F7YJCKONE2KOD2JIJB5SZCQ"/>
+      <archive extract="MediathekView-13.1.0" href="https://github.com/mediathekview/MediathekView/releases/download/13.1.0/MediathekView-13.1.0.zip" size="30278866" type="application/zip"/>
+    </implementation>
   </group>
 </interface>
