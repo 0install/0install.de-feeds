@@ -9,7 +9,7 @@
   <feed-for interface="http://0install.de/feeds/Mediathek.xml" />
   <group license="GPL v3 (GNU General Public License)">
     <command name="run" path="MediathekView.jar">
-      <runner interface="http://repo.roscidus.com/java/openjdk-jre" command="run-gui">
+      <runner interface="http://repo.roscidus.com/java/openjdk-jre" command="run-gui" version="8..!9">
         <arg>-jar</arg>
       </runner>
     </command>

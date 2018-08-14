@@ -8,7 +8,7 @@
   <category>AudioVideo</category>
   <group license="GPL v3 (GNU General Public License)">
     <command name="run" path="Mediathek.jar">
-      <runner command="run-gui" interface="http://repo.roscidus.com/java/openjdk-jre">
+      <runner command="run-gui" interface="http://repo.roscidus.com/java/openjdk-jre" version="8..!9">
         <arg>-jar</arg>
       </runner>
     </command>
@@ -47,7 +47,7 @@
   </group>
   <group license="GPL v3 (GNU General Public License)">
     <command name="run" path="MediathekView.jar">
-      <runner command="run-gui" interface="http://repo.roscidus.com/java/openjdk-jre">
+      <runner command="run-gui" interface="http://repo.roscidus.com/java/openjdk-jre" version="8..!9">
         <arg>-jar</arg>
       </runner>
     </command>
@@ -163,9 +163,13 @@
       <manifest-digest sha256new="NMSLUDMC36JR2QAASD36TJX7NNF4MD3RXSY3YWRVEPA6IADWHXMA"/>
       <archive extract="MediathekView-13.1.1" href="https://github.com/mediathekview/MediathekView/releases/download/13.1.1/MediathekView-13.1.1.zip" size="29826826" type="application/zip"/>
     </implementation>
-    <implementation id="sha1new=b43e8dd3a351807bf00cc06956c620ab5cf57ba8" released="2018-08-10" stability="stable" version="13.1.2">
-      <manifest-digest sha256new="SGYCN6N6LG2RYXDMSK6EBODSFNIGFMXV6DTLIM7MGG5UFXPHG3RA"/>
-      <archive extract="MediathekView-13.1.2" href="https://github.com/mediathekview/MediathekView/releases/download/13.1.2/MediathekView-13.1.2.zip" size="28340591" type="application/zip"/>
+    <implementation id="sha1new=e746bfc7619669e9784bc7f5cbff121b1ba11de1" released="2018-08-10" stability="stable" version="13.1.2">
+      <manifest-digest sha256new="DPSISRQIY22UKD6DVWT4KYVRLGEQLWUPKKV2ZCJOAZNXY3UDYYGA"/>
+      <archive extract="MediathekView-13.1.2" href="https://github.com/mediathekview/MediathekView/releases/download/13.1.2/MediathekView-latest.zip" size="28340635" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=16f429e280c509a33990c403451d62571f505777" released="2018-08-14" stability="stable" version="13.1.3">
+      <manifest-digest sha256new="XAIHJOANNJUNDHSXSQSYWJ3AQ7H5554TDZHBKXV2QBDZNRB4HW6Q"/>
+      <archive extract="MediathekView-13.1.3" href="https://github.com/mediathekview/MediathekView/releases/download/13.1.3/MediathekView-13.1.3.zip" size="28342705" type="application/zip"/>
     </implementation>
   </group>
 </interface>
