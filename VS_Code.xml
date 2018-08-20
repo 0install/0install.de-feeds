@@ -472,6 +472,22 @@
       <manifest-digest sha256new="G3DKQWKMIH6ZGUSVJGHP4DVWVM24LYAN54SCJQTGRJITUS5YQTXA"/>
       <archive extract="VSCode-linux-ia32" href="https://az764295.vo.msecnd.net/stable/4e9361845dc28659923a300945f84731393e210d/code-stable-1534177733.tar.gz" size="72861878" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=6a5746f93877efb8b227505dd2fed7b88034911c" main="Code.exe" released="2018-08-20" stability="stable" version="1.26.1">
+      <manifest-digest sha256new="5EFQN7MRYLBSQ4SCM4ST46HHUHTXDTZ66MUUNOYBW7WXVBBQ5WIQ"/>
+      <archive href="https://az764295.vo.msecnd.net/stable/493869ee8e8a846b0855873886fc79d480d342de/VSCode-win32-x64-1.26.1.zip" size="75157027" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=49ed060f138ba93a99ff51743da8948af914f287" main="Code.exe" released="2018-08-20" stability="stable" version="1.26.1">
+      <manifest-digest sha256new="UIVVWQVPQJKH3TL25FBHEAWTM45GBZVMYFTUNEEBP7ULQGJPTQFQ"/>
+      <archive href="https://az764295.vo.msecnd.net/stable/493869ee8e8a846b0855873886fc79d480d342de/VSCode-win32-ia32-1.26.1.zip" size="66763399" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=8059a3c1bb486a5f67fd1507a5256a7b526e0fdc" main="bin/code" released="2018-08-20" stability="stable" version="1.26.1">
+      <manifest-digest sha256new="2GHCXJSXPD55A5X7FMFOKTGOJKEC6WZK6JE3FRINRHDJWNIVSIWA"/>
+      <archive extract="VSCode-linux-x64" href="https://az764295.vo.msecnd.net/stable/493869ee8e8a846b0855873886fc79d480d342de/code-stable-1534444642.tar.gz" size="69775652" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i386" id="sha1new=fb753e11d440b888bbbcd96eb54deaa7c9828dc4" main="bin/code" released="2018-08-20" stability="stable" version="1.26.1">
+      <manifest-digest sha256new="7VXYRL5CTUOA76RAREAJRB3XEFED7B3ENJ3T3ZSKZBK74RNHBREA"/>
+      <archive extract="VSCode-linux-ia32" href="https://az764295.vo.msecnd.net/stable/493869ee8e8a846b0855873886fc79d480d342de/code-stable-1534444635.tar.gz" size="72863476" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
   <entry-point binary-name="code" command="run"/>
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
