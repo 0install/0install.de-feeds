@@ -9,14 +9,11 @@
   <category>Utility</category>
   <homepage>http://dolphin-emu.org/</homepage>
   <feed-for interface="http://0install.de/feeds/Dolphin.xml" />
+
   <group main="Dolphin.exe">
-    <implementation arch="Windows-x86_64" version="{version}" released="{released}" stability="stable">
-      <manifest-digest />
-      <archive href="dolphin-x64-{version}.7z" type="application/x-7z-compressed" />
-    </implementation>
-    <implementation arch="Windows-i486" version="{version}" released="{released}" stability="stable">
-      <manifest-digest />
-      <archive href="dolphin-x86-{version}.7z" type="application/x-7z-compressed" />
+    <implementation arch="Windows-x86_64" released="{released}" stability="testing" version="{version}">
+      <manifest-digest/>
+      <archive extract="Dolphin-x64" href="https://dl.dolphin-emu.org/builds/dolphin-master-{version}-x64.7z" type="application/x-7z-compressed"/>
     </implementation>
   </group>
 </interface>
