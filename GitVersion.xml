@@ -126,6 +126,10 @@
       <manifest-digest sha256new="AWV4SAZR36RMJHPZ75BCLFENMMZWHVEPZ2UTPD7ZCPPOQJKH4MXQ"/>
       <archive href="https://github.com/GitTools/GitVersion/releases/download/v4.0.0-beta.13/GitVersion_4.0.0-beta0013.zip" size="6172795" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=b136b60860de70c7e3453de9bd9662e49872bd51" released="2018-08-21" stability="testing" version="4.0.0-pre14">
+      <manifest-digest sha256new="AH7H5V5QJ2YWVYEADXZHG45FLXDKXYGFYSCL3TRTVYDX2LI7L3MA"/>
+      <archive href="https://github.com/GitTools/GitVersion/releases/download/v4.0.0-beta.14/GitVersion_4.0.0-beta0014.zip" size="5996644" type="application/zip"/>
+    </implementation>
   </group>
   <entry-point binary-name="GitVersion" command="run"/>
 </interface>
