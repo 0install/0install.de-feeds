@@ -44,6 +44,11 @@
       <manifest-digest sha1new="3e49f285296181a3ad3792a4de1af6d0a6844aaa" sha256="be72f6b099da147c2625ed07449fd93344e4fd56012cba19fad1db96f68ad070" sha256new="XZZPNMEZ3IKHYJRF5UDUJH6ZGNCOJ7KWAEWLUGP22HNZN5UK2BYA" />
       <archive href="https://download.jetbrains.com/idea/ideaIC-2016.3.2-no-jdk.tar.gz" size="338110499" type="application/x-compressed-tar" extract="idea-IC-163.10154.41" />
     </implementation>
+    <implementation version="2018.2.2" stability="stable" id="sha1new=d848298f5fa35d1893dd7d66fdcd4ed63addc6bd">
+      <environment name="IDEA_PATHS_SELECTOR" value="IdeaIC2016.3" />
+      <manifest-digest sha256new="R5GWBXUAM5TU3RIYQRTXJLQCIYOX2ISSH5GFXNH2C6TAVGTISUPA" />
+      <archive href="https://download.jetbrains.com/idea/ideaIC-2018.2.2-no-jdk.tar.gz" size="447211553" type="application/x-compressed-tar" extract="idea-IC-182.4129.33" />
+    </implementation>
   </group>
   <entry-point command="run" binary-name="idea" />
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
