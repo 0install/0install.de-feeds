@@ -1,164 +1,181 @@
 <?xml version="1.0" ?>
 <interface uri="http://0install.de/feeds/Oracle_JRE.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
   <name>Oracle JRE</name>
-  <summary xml:lang="en">official Oracle Java Runtime Environment</summary>
+  <summary>official Oracle Java Runtime Environment</summary>
+
   <feed-for interface="http://repo.roscidus.com/java/openjdk-jre"/>
-  <group license="Oracle Binary Code License Agreement for the Java SE Platform Products and JavaFX">
-    <command name="run" path="bin/java.exe"/>
-    <command name="run-gui" path="bin/javaw.exe"/>
-    <command name="javaws" path="bin/javaws.exe"/>
-    <command name="java-rmi" path="bin/java-rmi.exe"/>
-    <command name="javacpl" path="bin/javacpl.exe"/>
-    <command name="policytool" path="bin/policytool.exe"/>
-    <command name="servertool" path="bin/servertool.exe"/>
-    <command name="keytool" path="bin/keytool.exe"/>
-    <command name="pak200" path="bin/pak200.exe"/>
-    <command name="unpak200" path="bin/unpak200.exe"/>
-    <implementation arch="Windows-x86_64" id="sha1new=11faf0265fab2c3cf105e3a892f7d69527eba723" stability="stable" version="7.0.45">
-      <manifest-digest sha1new="11faf0265fab2c3cf105e3a892f7d69527eba723" sha256="73400bb6fd15f37bc89dffb7227ce21bf0cb9e74e17b61485849cf0703937656" sha256new="ONAAXNX5CXZXXSE5763SE7HCDPYMXHTU4F5WCSCYJHHQOA4TOZLA"/>
-      <archive extract="jre1.7.0_45" href="jre-7u45-windows-x64.tar.gz" size="43386880" type="application/x-compressed-tar"/>
-    </implementation>
-    <implementation arch="Windows-i486" id="sha1new=cd226027e47a099a400a6d0d0c6d4139476976bb" stability="stable" version="7.0.45">
-      <manifest-digest sha1new="cd226027e47a099a400a6d0d0c6d4139476976bb" sha256="e6ffa1bf681c2c25f8591c2f261e614ed3efad7573d791185bc92f1105b72164" sha256new="4372DP3IDQWCL6CZDQXSMHTBJ3J67LLVOPLZCGC3ZEXRCBNXEFSA"/>
-      <archive extract="jre1.7.0_45" href="jre-7u45-windows-i586.tar.gz" size="41492480" type="application/x-compressed-tar"/>
-    </implementation>
-    <implementation arch="Windows-x86_64" id="sha1new=eca63b237ec347e1e3df7a087c65ab2754bc6024" released="2014-10-14" stability="stable" version="8.0.25">
-      <manifest-digest sha256new="R2M5ZNLYCQAOVTKXRNYKA4ORT3N34ISXHOLE3MHLGVCUQRTZCN3A"/>
-      <archive extract="jre1.8.0_25" href="jre-8u25-windows-x64.tar.gz" size="57346098" type="application/x-compressed-tar"/>
-    </implementation>
-    <implementation arch="Windows-i486" id="sha1new=fbba5220489fae808f91e16aba1e0e15c211e01c" released="2014-10-14" stability="stable" version="8.0.25">
-      <manifest-digest sha256new="ZZV7BN6QE5U2525QDPWDLBBINWCRXFOENAXSDFDZJ4A32C7YI2GA"/>
-      <archive extract="jre1.8.0_25" href="jre-8u25-windows-i586.tar.gz" size="54191472" type="application/x-compressed-tar"/>
-    </implementation>
-    <implementation arch="Windows-x86_64" id="sha1new=ee4891638465fcb5078c181565fb55ef950c2813" released="2015-08-04" stability="stable" version="8.0.60">
-      <manifest-digest sha256new="MALES7DMZ5L7DRGDMUHXOHAPASUJXGU432X52AIUEQDITYKZBHSQ"/>
-      <archive extract="jre1.8.0_60" href="jre-8u60-windows-x64.tar.gz" size="65630026" type="application/x-compressed-tar"/>
-    </implementation>
-    <implementation arch="Windows-i486" id="sha1new=21080bba5423ca877488d3943385dc08e53bd4b6" released="2015-08-04" stability="stable" version="8.0.60">
-      <manifest-digest sha256new="P6I662LNMVVFXGVEV7ORDQ2M6ATTPPUYSLW3HDDBX45NYGBI3RZA"/>
-      <archive extract="jre1.8.0_60" href="jre-8u60-windows-i586.tar.gz" size="62125424" type="application/x-compressed-tar"/>
-    </implementation>
-    <implementation arch="Windows-x86_64" id="sha1new=ea0ad4df6a61144bc8881171913d569945c0c593" released="2015-10-20" stability="stable" version="8.0.66">
-      <manifest-digest sha1new="ea0ad4df6a61144bc8881171913d569945c0c593" sha256="8d4debdc447b765ee372345e637e1755fdde16d0ba11ec16c3b04825a4ad2086" sha256new="RVG6XXCEPN3F5Y3SGRPGG7QXKX654FWQXII6YFWDWBECLJFNECDA"/>
-      <archive extract="jre1.8.0_66" href="jre-8u66-windows-x64.tar.gz" size="65653404" type="application/x-compressed-tar"/>
-    </implementation>
-    <implementation arch="Windows-i486" id="sha1new=25647b409f26952e1dbaaea3e14b661d1e483121" released="2015-10-20" stability="stable" version="8.0.66">
-      <manifest-digest sha1new="25647b409f26952e1dbaaea3e14b661d1e483121" sha256="1751fffd429fdab7c6d862c1242df45c7e64c3f799f33da4f8ab13c378bcd64b" sha256new="C5I777KCT7NLPRWYMLASILPULR7GJQ7XTHZT3JHYVMJ4G6F42ZFQ"/>
-      <archive extract="jre1.8.0_66" href="jre-8u66-windows-i586.tar.gz" size="62157696" type="application/x-compressed-tar"/>
-    </implementation>
-    <implementation arch="Windows-x86_64" id="sha1new=b42af3c3812c196aad69d6bd85c3340626d2fbdb" released="2016-03-23" stability="stable" version="8.0.77">
-      <manifest-digest sha1new="b42af3c3812c196aad69d6bd85c3340626d2fbdb" sha256="80e8cb161488530bc3d486d35d637670c730d2a70c84dcd37344b0fdbfa91e70" sha256new="QDUMWFQURBJQXQ6UQ3JV2Y3WODDTBUVHBSCNZU3TISYP3P5JDZYA"/>
-      <archive extract="jre1.8.0_77" href="jre-8u77-windows-x64.tar.gz" size="65729737" type="application/x-compressed-tar"/>
-    </implementation>
-    <implementation arch="Windows-i486" id="sha1new=ca278f52aea9d6e98d50985a1887cbee1bc8cb55" released="2016-03-23" stability="stable" version="8.0.77">
-      <manifest-digest sha1new="ca278f52aea9d6e98d50985a1887cbee1bc8cb55" sha256="f1113a6ad2afeabea582a5bf332d9aa074ec36ec919c278a12bd67ea4c5e30f1" sha256new="6EITU2WSV7VL5JMCUW7TGLM2UB2OYNXMSGOCPCQSXVT6UTC6GDYQ"/>
-      <archive extract="jre1.8.0_77" href="jre-8u77-windows-i586.tar.gz" size="62235035" type="application/x-compressed-tar"/>
-    </implementation>
-    <implementation arch="Windows-x86_64" id="sha1new=6f56ae456af38712d601cc5ca8ee9b12783ad6a7" released="2016-07-04" stability="stable" version="8.0.92">
-      <manifest-digest sha1new="6f56ae456af38712d601cc5ca8ee9b12783ad6a7" sha256="500c881a1f23b37f6680fb7d26aa01930ae97cb8f14df8b2bf08984e6f185719" sha256new="KAGIQGQ7EOZX6ZUA7N6SNKQBSMFOS7FY6FG7RMV7BCME43YYK4MQ"/>
-      <archive extract="jre1.8.0_92" href="jre-8u92-windows-x64.tar.gz" size="65786086" type="application/x-compressed-tar"/>
-    </implementation>
-    <implementation arch="Windows-i486" id="sha1new=8335e61d332a3df7ecd2f22b56225eb1440cf4fe" released="2016-07-04" stability="stable" version="8.0.92">
-      <manifest-digest sha1new="8335e61d332a3df7ecd2f22b56225eb1440cf4fe" sha256="520e67f78abfc72506958d56d260b714134fe7fe8ae9e386ad85c646da522a57" sha256new="KIHGP54KX7DSKBUVRVLNEYFXCQJU7Z76RLU6HBVNQXDENWSSFJLQ"/>
-      <archive extract="jre1.8.0_92" href="jre-8u92-windows-i586.tar.gz" size="62278976" type="application/x-compressed-tar"/>
-    </implementation>
-    <implementation arch="Windows-x86_64" id="sha1new=7efce4bc66895d4a1923e78e08b7d7c629e7ed8a" released="2016-07-21" stability="stable" version="8.0.102">
-      <manifest-digest sha1new="7efce4bc66895d4a1923e78e08b7d7c629e7ed8a" sha256="5f9a9cde2be7f8ab2134a1064abb5e608dff2a6fbbc022e244be9c0d3defa97e" sha256new="L6NJZXRL474KWIJUUEDEVO26MCG76KTPXPACFYSEX2OA2PPPVF7A"/>
-      <archive extract="jre1.8.0_102" href="jre-8u102-windows-x64.tar.gz" size="65820147" type="application/x-compressed-tar"/>
-    </implementation>
-    <implementation arch="Windows-i486" id="sha1new=83c63b0ff4fd60b4c30d14f9a71494eee7d69aef" released="2016-07-21" stability="stable" version="8.0.102">
-      <manifest-digest sha1new="83c63b0ff4fd60b4c30d14f9a71494eee7d69aef" sha256="f81318e6edef1faeb5bd0fc6baaeb50618607161ebe349cced266f7dcfacc2a4" sha256new="7AJRRZXN54P25NN5B7DLVLVVAYMGA4LB5PRUTTHNEZXX3T5MYKSA"/>
-      <archive extract="jre1.8.0_102" href="jre-8u102-windows-i586.tar.gz" size="62307130" type="application/x-compressed-tar"/>
-    </implementation>
-    <implementation arch="Windows-x86_64" id="sha1new=7c756d1c9d9e4715cb439858a6fc9db5d10516b5" released="2016-11-07" stability="stable" version="8.0.112">
-      <manifest-digest sha1new="7c756d1c9d9e4715cb439858a6fc9db5d10516b5" sha256="d9f67aadabba1617fcbbe9846b82e074c94de5fbb8aa4f9a69888e8ce84e2192" sha256new="3H3HVLNLXILBP7F35GCGXAXAOTEU3ZP3XCVE7GTJRCHIZ2COEGJA"/>
-      <archive extract="jre1.8.0_112" href="jre-8u112-windows-x64.tar.gz" size="65667764" type="application/x-compressed-tar"/>
-    </implementation>
-    <implementation arch="Windows-i486" id="sha1new=dd2b83363471067122fe26d8fa5490b8c39f6988" released="2016-11-07" stability="stable" version="8.0.112">
-      <manifest-digest sha1new="dd2b83363471067122fe26d8fa5490b8c39f6988" sha256="22fec3d2c717573a5dac6ccc4e49b7efc2eaa38a58ab9c88600518d675573b5a" sha256new="EL7MHUWHC5LTUXNMNTGE4SNX57BOVI4KLCVZZCDAAUMNM5KXHNNA"/>
-      <archive extract="jre1.8.0_112" href="jre-8u112-windows-i586.tar.gz" size="62005188" type="application/x-compressed-tar"/>
-    </implementation>
-    <implementation arch="Windows-x86_64" id="sha1new=d9cacd36f9b1abef3d6ee6ca39a1b57fd05c7163" released="2017-07-26" stability="stable" version="8.0.141">
-      <manifest-digest sha1new="d9cacd36f9b1abef3d6ee6ca39a1b57fd05c7163" sha256="93d80f7cf469c4ea5b474ee48c87d9fc3702671853842e8cae471dc1fb892452" sha256new="SPMA67HUNHCOUW2HJ3SIZB6Z7Q3QEZYYKOCC5DFOI4O4D64JERJA"/>
-      <archive extract="jre1.8.0_141" href="jre-8u141-windows-x64.tar.gz" size="67097998" type="application/x-compressed-tar"/>
-    </implementation>
-    <implementation arch="Windows-i486" id="sha1new=a77f1a23b81800fc31cff41f57f1c3918117c063" released="2017-07-26" stability="stable" version="8.0.141">
-      <manifest-digest sha1new="a77f1a23b81800fc31cff41f57f1c3918117c063" sha256="2e312a56d7856e3dc8c2f1940820a5364c90d5bc513b5dfec1ee15377d767da3" sha256new="FYYSUVWXQVXD3SGC6GKAQIFFGZGJBVN4KE5V37WB5YKTO7LWPWRQ"/>
-      <archive extract="jre1.8.0_141" href="jre-8u141-windows-i586.tar.gz" size="63124994" type="application/x-compressed-tar"/>
-    </implementation>
-    <implementation arch="Windows-x86_64" id="sha1new=b04d58d18b454c6fc6842d9c8d374681626c3a32" released="2017-10-20" stability="stable" version="8.0.152">
-      <manifest-digest sha1new="b04d58d18b454c6fc6842d9c8d374681626c3a32" sha256="e61f56657837d660b20c33d54defc0f6c27ddfb774433ff73971faa5fdccbc2f" sha256new="4YPVMZLYG7LGBMQMGPKU336A63BH3X5XORBT75ZZOH5KL7OMXQXQ"/>
-      <archive extract="jre1.8.0_152" href="jre-8u152-windows-x64.tar.gz" size="71870523" type="application/x-compressed-tar"/>
-    </implementation>
-    <implementation arch="Windows-i486" id="sha1new=c47ee79be084d70c099d86afa3ba0b997311a294" released="2017-10-20" stability="stable" version="8.0.152">
-      <manifest-digest sha1new="c47ee79be084d70c099d86afa3ba0b997311a294" sha256="ea68e324b16892d1214f9b39d0aa79309108727248e8356723270c0e1f263a03" sha256new="5JUOGJFRNCJNCIKPTM45BKTZGCIQQ4TSJDUDKZZDE4GA4HZGHIBQ"/>
-      <archive extract="jre1.8.0_152" href="jre-8u152-windows-i586.tar.gz" size="67674270" type="application/x-compressed-tar"/>
-    </implementation>
-    <implementation arch="Windows-x86_64" id="sha1new=0aedab4599bb264b004e45a3d03798db6db28229" released="2018-03-21" stability="stable" version="8.0.161">
-      <manifest-digest sha256new="HNWOFAC5RHIUBICLEVOVRVDGWSSZNFVROKOLYMBHR4VOFQGBCJ2A"/>
-      <archive extract="jre1.8.0_161" href="jre-8u161-windows-x64.tar.gz" size="71909312" type="application/x-compressed-tar"/>
-    </implementation>
-    <implementation arch="Windows-i486" id="sha1new=d509072fb736c66397bfe2ee8588de67ce29daca" released="2018-03-21" stability="stable" version="8.0.161">
-      <manifest-digest sha256new="FOU5VSDDDLO6NIZTWJXFZX3QDD6M54KK33D4JKN2SUFGVYT7RCFA"/>
-      <archive extract="jre1.8.0_161" href="jre-8u161-windows-i586.tar.gz" size="67699456" type="application/x-compressed-tar"/>
-    </implementation>
-    <implementation arch="Windows-x86_64" id="sha1new=805687f32553b21991120d50b950adf1c66a3354" released="2017-10-20" stability="stable" version="9.0.1">
-      <manifest-digest sha1new="805687f32553b21991120d50b950adf1c66a3354" sha256="cd8364293007bba5cd105ff0955c13d3c2627674134bad9f2db2136d4eab6702" sha256new="ZWBWIKJQA652LTIQL7YJKXAT2PBGE5TUCNF23HZNWIJW2TVLM4BA"/>
-      <archive extract="jre-9.0.1" href="jre-9.0.1_windows-x64_bin.tar.gz" size="76072429" type="application/x-compressed-tar"/>
-    </implementation>
-    <implementation arch="Windows-x86_64" id="sha1new=fbb5c56933f8de1718e7b5fbd6d04a777acf2a6f" released="2018-03-21" stability="stable" version="9.0.4">
-      <manifest-digest sha256new="TOL4XT7QF2IBQHHGMV34V7C5F7JQT4LWE7OWEE3KDNTSJQZ4SUTA"/>
-      <archive extract="jre-9.0.4" href="jre-9.0.4_windows-x64_bin.tar.gz" size="76086793" type="application/x-compressed-tar"/>
-    </implementation>
-    <implementation arch="Windows-x86_64" id="sha1new=46ade9b8e67fbeca33291c4d63ae5cae9a87251c" released="2018-03-21" stability="stable" version="10">
-      <manifest-digest sha256new="VMANZSWAMHZVASHOW42QQKP5NOI6ZJE2OPBKZIV32B47XRGSEFCA"/>
-      <archive extract="jre-10" href="jre-10_windows-x64_bin.tar.gz" size="79023057" type="application/x-compressed-tar"/>
-    </implementation>
+
+  <group license="Oracle Binary Code License Agreement for Java SE">
+    <group>
+      <command name="run" path="bin/java.exe"/>
+      <command name="run-gui" path="bin/javaw.exe"/>
+      <command name="javaws" path="bin/javaws.exe"/>
+      <command name="java-rmi" path="bin/java-rmi.exe"/>
+      <command name="javacpl" path="bin/javacpl.exe"/>
+      <command name="policytool" path="bin/policytool.exe"/>
+      <command name="servertool" path="bin/servertool.exe"/>
+      <command name="keytool" path="bin/keytool.exe"/>
+      <command name="pack200" path="bin/pack200.exe"/>
+      <command name="unpack200" path="bin/unpack200.exe"/>
+      <implementation arch="Windows-x86_64" id="sha1new=11faf0265fab2c3cf105e3a892f7d69527eba723" stability="stable" version="7.0.45">
+        <manifest-digest sha1new="11faf0265fab2c3cf105e3a892f7d69527eba723" sha256="73400bb6fd15f37bc89dffb7227ce21bf0cb9e74e17b61485849cf0703937656" sha256new="ONAAXNX5CXZXXSE5763SE7HCDPYMXHTU4F5WCSCYJHHQOA4TOZLA"/>
+        <archive extract="jre1.7.0_45" href="jre-7u45-windows-x64.tar.gz" size="43386880" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation arch="Windows-i486" id="sha1new=cd226027e47a099a400a6d0d0c6d4139476976bb" stability="stable" version="7.0.45">
+        <manifest-digest sha1new="cd226027e47a099a400a6d0d0c6d4139476976bb" sha256="e6ffa1bf681c2c25f8591c2f261e614ed3efad7573d791185bc92f1105b72164" sha256new="4372DP3IDQWCL6CZDQXSMHTBJ3J67LLVOPLZCGC3ZEXRCBNXEFSA"/>
+        <archive extract="jre1.7.0_45" href="jre-7u45-windows-i586.tar.gz" size="41492480" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation arch="Windows-x86_64" id="sha1new=0aedab4599bb264b004e45a3d03798db6db28229" released="2018-03-21" stability="stable" version="8.0.161">
+        <manifest-digest sha256new="HNWOFAC5RHIUBICLEVOVRVDGWSSZNFVROKOLYMBHR4VOFQGBCJ2A"/>
+        <archive extract="jre1.8.0_161" href="jre-8u161-windows-x64.tar.gz" size="71909312" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation arch="Windows-i486" id="sha1new=d509072fb736c66397bfe2ee8588de67ce29daca" released="2018-03-21" stability="stable" version="8.0.161">
+        <manifest-digest sha256new="FOU5VSDDDLO6NIZTWJXFZX3QDD6M54KK33D4JKN2SUFGVYT7RCFA"/>
+        <archive extract="jre1.8.0_161" href="jre-8u161-windows-i586.tar.gz" size="67699456" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation arch="Windows-x86_64" id="sha1new=fbb5c56933f8de1718e7b5fbd6d04a777acf2a6f" released="2018-03-21" stability="stable" version="9.0.4">
+        <manifest-digest sha256new="TOL4XT7QF2IBQHHGMV34V7C5F7JQT4LWE7OWEE3KDNTSJQZ4SUTA"/>
+        <archive extract="jre-9.0.4" href="jre-9.0.4_windows-x64_bin.tar.gz" size="76086793" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
+
+    <group arch="Linux-x86_64">
+      <command name="run" path="bin/java"/>
+      <command name="javaws" path="bin/javaws"/>
+      <command name="jcontrol" path="bin/jcontrol"/>
+      <command name="keytool" path="bin/keytool"/>
+      <command name="servertool" path="bin/servertool"/>
+      <command name="pack200" path="bin/pack200"/>
+      <command name="unpack200" path="bin/unpack200"/>
+      <command name="appletviewer" path="bin/appletviewer"/>
+      <command name="rmid" path="bin/rmid"/>
+      <command name="rmiregistry" path="bin/rmiregistry"/>
+      <command name="idlj" path="bin/idlj"/>
+      <command name="jjs" path="bin/jjs"/>
+      <command name="jrunscript" path="bin/jrunscript"/>
+
+      <implementation id="sha1new=b1b76af396e7443af9a51e888336f2b42f9df6d0" released="2018-09-21" stability="stable" version="10.0.2">
+        <manifest-digest sha256new="KVKANUFQCXNOI7MOWYYA2NHSN4TOD22T7FQH5IL3MA65PR2AO7TQ"/>
+        <!--<archive extract="jre-{version}" href="http://download.oracle.com/otn-pub/java/jdk/{version}+{build-counter}/{build-id}/jre-{version}_linux-x64_bin.tar.gz" type="application/x-compressed-tar"/>-->
+        <archive extract="jre-10.0.2" href="jre-10.0.2_linux-x64_bin.tar.gz" size="87982541" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
+
+    <group arch="Windows-x86_64">
+      <command name="run" path="bin/java.exe"/>
+      <command name="run-gui" path="bin/javaw.exe"/>
+      <command name="javaws" path="bin/javaws.exe"/>
+      <command name="javacpl" path="bin/javacpl.exe"/>
+      <command name="keytool" path="bin/keytool.exe"/>
+      <command name="servertool" path="bin/servertool.exe"/>
+      <command name="pack200" path="bin/pack200.exe"/>
+      <command name="unpack200" path="bin/unpack200.exe"/>
+      <command name="appletviewer" path="bin/appletviewer.exe"/>
+      <command name="rmid" path="bin/rmid.exe"/>
+      <command name="rmiregistry" path="bin/rmiregistry.exe"/>
+      <command name="idlj" path="bin/idlj.exe"/>
+      <command name="jjs" path="bin/jjs.exe"/>
+      <command name="jrunscript" path="bin/jrunscript.exe"/>
+      <command name="kinit" path="bin/kinit.exe"/>
+      <command name="klist" path="bin/klist.exe"/>
+      <command name="ktab" path="bin/ktab.exe"/>
+      <command name="jabswitch" path="bin/jabswitch.exe"/>
+      <command name="jaccessinspector" path="bin/jaccessinspector.exe"/>
+      <command name="jaccesswalker" path="bin/jaccesswalker.exe"/>
+
+      <implementation id="sha1new=46ade9b8e67fbeca33291c4d63ae5cae9a87251c" released="2018-03-21" stability="stable" version="10">
+        <manifest-digest sha256new="VMANZSWAMHZVASHOW42QQKP5NOI6ZJE2OPBKZIV32B47XRGSEFCA"/>
+        <archive extract="jre-10" href="jre-10_windows-x64_bin.tar.gz" size="79023057" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=1e6389f005611b98923d2262d2a1689f259c33aa" released="2018-09-21" stability="stable" version="10.0.2">
+        <manifest-digest sha256new="INJ36DTMI5TBPDQRCGIOJXDNPLMJEYHZY3GIDGRGX2XBO72MCAKA"/>
+        <!--<archive extract="jre-{version}" href="http://download.oracle.com/otn-pub/java/jdk/{version}+{build-counter}/{build-id}/jre-{version}_windows-x64_bin.tar.gz" type="application/x-compressed-tar"/>-->
+        <archive extract="jre-10.0.2" href="jre-10.0.2_windows-x64_bin.tar.gz" size="79042057" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
   </group>
+
   <entry-point binary-name="java" command="run">
     <needs-terminal/>
-    <name xml:lang="en">Java command-line runner</name>
+    <name>Java command-line runner</name>
   </entry-point>
   <entry-point binary-name="javaw" command="run-gui">
-    <name xml:lang="en">Java GUI runner</name>
+    <name>Java GUI runner</name>
   </entry-point>
   <entry-point command="javaws">
-    <name xml:lang="en">Java Web Start</name>
-  </entry-point>
-  <entry-point command="java-rmi">
-    <needs-terminal/>
-    <name xml:lang="en">Java Remote Method Invocation</name>
+    <name>Java Web Start</name>
   </entry-point>
   <entry-point command="javacpl">
-    <name xml:lang="en">Java Control Panel</name>
-  </entry-point>
-  <entry-point binary-name="policytool" command="policytool">
-    <name xml:lang="en">Policy Tool</name>
-  </entry-point>
-  <entry-point binary-name="servertool" command="servertool">
-    <needs-terminal/>
-    <name xml:lang="en">Java IDL Server Tool</name>
+    <name>Java Control Panel</name>
   </entry-point>
   <entry-point binary-name="keytool" command="keytool">
     <needs-terminal/>
-    <name xml:lang="en">Key and Certificate Management Tool</name>
+    <name>Key and Certificate Management Tool</name>
   </entry-point>
-  <entry-point binary-name="pak200" command="pak200">
+  <entry-point binary-name="servertool" command="servertool">
     <needs-terminal/>
+    <name>Java IDL Server Tool</name>
   </entry-point>
-  <entry-point binary-name="unpak200" command="unpak200">
+  <entry-point binary-name="pack200" command="pack200">
     <needs-terminal/>
+    <name>JAR Packing tool</name>
   </entry-point>
-  <capabilities os="Windows" xmlns="http://0install.de/schema/desktop-integration/capabilities">
+  <entry-point binary-name="unpack200" command="unpack200">
+    <needs-terminal/>
+    <name>JAR Unpacking tool</name>
+  </entry-point>
+  <entry-point binary-name="appletviewer" command="appletviewer">
+    <name>Run applet outside of browser</name>
+  </entry-point>
+  <entry-point binary-name="rmid" command="rmid">
+    <needs-terminal/>
+    <name>Remote activation system daemon</name>
+  </entry-point>
+  <entry-point binary-name="rmiregistry" command="rmiregistry">
+    <needs-terminal/>
+    <name>Remote object registry</name>
+  </entry-point>
+  <entry-point binary-name="idlj" command="idlj">
+    <needs-terminal/>
+    <name>IDL-to-Java Compiler</name>
+  </entry-point>
+  <entry-point binary-name="jjs" command="jjs">
+    <needs-terminal/>
+    <name>Nashorn engine</name>
+  </entry-point>
+  <entry-point binary-name="jrunscript" command="jrunscript">
+    <needs-terminal/>
+    <name>Java command line script shell</name>
+  </entry-point>
+  <entry-point binary-name="kinit" command="kinit">
+    <needs-terminal/>
+    <name>Obtain and cache Kerberos ticket-granting ticket</name>
+  </entry-point>
+  <entry-point binary-name="klist" command="klist">
+    <needs-terminal/>
+    <name>Kerberos display entries in credentials cache and keytab</name>
+  </entry-point>
+  <entry-point binary-name="ktab" command="ktab">
+    <needs-terminal/>
+    <name>Kerberos key table manager</name>
+  </entry-point>
+  <entry-point binary-name="jabswitch" command="jabswitch">
+    <needs-terminal/>
+    <name>Java Access Bridge Switch</name>
+  </entry-point>
+  <entry-point binary-name="jaccessinspector" command="jaccessinspector"/>
+  <entry-point binary-name="jaccesswalker" command="jaccesswalker"/>
+
+  <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
     <file-type id="jarfile">
-      <description xml:lang="en">Executable Jar File</description>
+      <description>Executable Jar File</description>
       <verb args="-jar &quot;%1&quot; %*" command="run-gui" name="open"/>
       <extension value=".jar"/>
     </file-type>
     <file-type id="JNLPFile">
-      <description xml:lang="en">JNLP File</description>
+      <description>JNLP File</description>
       <verb args="&quot;%1&quot;" command="javaws" name="Open">
-        <description xml:lang="en">&amp;Launch</description>
+        <description>&amp;Launch</description>
       </verb>
       <extension mime-type="application/x-java-jnlp-file" value=".jnlp"/>
     </file-type>
