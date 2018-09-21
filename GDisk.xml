@@ -1,20 +1,13 @@
 <?xml version="1.0" ?>
 <interface uri="http://0install.de/feeds/GDisk.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
-  <name>GPT fdisk</name>
-  <summary xml:lang="en">text-mode tool designed to correct some common problems with computer partition tables</summary>
+  <name>GPT fdisk (legacy feed)</name>
+  <summary>text-mode tool designed to correct some common problems with computer partition tables</summary>
   <homepage>http://www.rodsbooks.com/gdisk/</homepage>
   <category>System</category>
   <category>Utility</category>
   <needs-terminal/>
-  <group license="GPL v2 (GNU General Public License)">
-    <implementation arch="Windows-x86_64" id="sha1new=2b436cfe8e1040a1b65c022039691a7c3ebcbdbb" main="gdisk64.exe" released="2014-03-02" stability="stable" version="0.8.10">
-      <manifest-digest sha256new="P3ECKFFH3OER2EGKLPCK5RD4V6MSLYTDXQFHT7DLFOMATXORM2KA"/>
-      <archive href="http://sourceforge.net/projects/gptfdisk/files/gptfdisk/0.8.10/gdisk-binaries/gdisk-windows-0.8.10.zip" size="628225" type="application/zip"/>
-    </implementation>
-    <implementation arch="Windows-i486" id="sha1new=2b436cfe8e1040a1b65c022039691a7c3ebcbdbb" main="gdisk32.exe" released="2014-03-02" stability="stable" version="0.8.10">
-      <manifest-digest sha256new="P3ECKFFH3OER2EGKLPCK5RD4V6MSLYTDXQFHT7DLFOMATXORM2KA"/>
-      <archive href="http://sourceforge.net/projects/gptfdisk/files/gptfdisk/0.8.10/gdisk-binaries/gdisk-windows-0.8.10.zip" size="628225" type="application/zip"/>
-    </implementation>
-  </group>
+
+  <feed src="http://repo.roscidus.com/utils/gdisk"/>
+
   <entry-point binary-name="gdisk" command="run" />
 </interface>
