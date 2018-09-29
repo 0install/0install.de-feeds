@@ -6,7 +6,7 @@
   <description xml:lang="en">ScummVM is a cross-platform interpreter for several point-and-click adventure engines. This includes all SCUMM-based adventures by LucasArts, Simon the Sorcerer 1 and 2 by AdventureSoft, Beneath a Steel Sky and Broken Sword 1 and 2 by Revolution, and many more.</description>
   <description xml:lang="de">ScummVM ist ein Plattform-übergreifender Interpreter für mehrere Point-and-Click Adventure Engines. Dies beinhaltet alle SCUMM-basierten Adventures von LucasArts, Simon the Sorcerer 1 und 2 von AdventureSoft, Beneath a Steel Sky und Broken Sword 1 und 2 von Revolution und viele mehr.</description>
   <homepage>http://www.scummvm.org/</homepage>
-  <icon href="http://0install.de/feeds/images/ScummVM.png" type="image/png" />
+  <icon href="http://0install.de/feed-icons/ScummVM.png" type="image/png" />
   <feed-for interface="http://0install.de/feeds/ScummVM.xml" />
   <group license="GPL v2 (GNU General Public License)">
     <implementation arch="Windows-i486" version="{version}" released="{released}" stability="stable" main="scummvm.exe">

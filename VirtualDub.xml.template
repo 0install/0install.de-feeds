@@ -12,8 +12,8 @@ Es bietet nicht Feature-Vielfalt eines Allzweck-Editors wie Adobe Premiere. Es i
 Stapelverarbeitung erlaubt die Verarbeitung einer große Anzahl von Dateien. Das Tool kann mit Drittanbieter Video-Filtern erweitert werden.
 VirtualDub ist vor allem auf die Verarbeitung AVI-Dateien ausgerichtet, kann aber auch MPEG-1 lesen (nicht schreiben) und auch Sätze von BMP-Bildern verarbeiten.</description>
   <homepage>http://www.virtualdub.org/</homepage>
-  <icon href="http://0install.de/feeds/images/VirtualDub.png" type="image/png" />
-  <icon href="http://0install.de/feeds/images/VirtualDub.ico" type="image/vnd.microsoft.icon" />
+  <icon href="http://0install.de/feed-icons/VirtualDub.png" type="image/png" />
+  <icon href="http://0install.de/feed-icons/VirtualDub.ico" type="image/vnd.microsoft.icon" />
   <category>AudioVideo</category>
   <category>Utility</category>
   <feed-for interface="http://0install.de/feeds/VirtualDub.xml" />

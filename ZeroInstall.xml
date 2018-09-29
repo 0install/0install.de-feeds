@@ -10,8 +10,8 @@ Conceptually, you can imagine that the software is 'installed' only on a remote 
 
 Konzeptuell können Sie sich vorstellen, dass die Software nur auf einem Server &quot;installiert&quot; ist und Sie sie auf Ihrem eigenen Rechner lediglich ausführen (mittels eines Netzwerkdateisystems). Durch Caching ist dies schnell und funktioniert auch off-line. Der Cache ist mit kryptographischen Prüfsummen gesichert, so dass er auch zwischen Usern die einander nicht vertrauen geteilt werden kann. Zero Install löst Abhängigkeiten (wie z.B. Bibliotheken) auf einer pro-Anwendung Basis auf, so dass es zu keinen Konflikten kommen kann. Die Installation einer Anwendung erfordert niemals das Entfernen einer anderen.</description>
   <homepage>http://0install.de/</homepage>
-  <icon href="http://0install.de/feed-icons/ZeroInstall.png" type="image/png"/>
-  <icon href="http://0install.de/feed-icons/ZeroInstall.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/0install-win/master/icon.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/0install-win/master/icon.ico" type="image/vnd.microsoft.icon"/>
 
   <group license="LGPL v3 (GNU Lesser General Public License)">
     <command name="run" path="0install.exe">

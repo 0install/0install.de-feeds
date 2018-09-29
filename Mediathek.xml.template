@@ -4,7 +4,7 @@
   <summary xml:lang="de">Mediatheksammlung der öffentlich-rechtlichen Sender.</summary>
   <description xml:lang="de">Das Programm durchsucht die Mediathek verschiedener Sender (ARD, ZDF, Arte, 3Sat, MDR, NDR, ORF, SF), lädt Beiträge mit einem Programm eigener Wahl und kann Themen als Abos anlegen und neue Beiträge automatisch downloaden. Es gibt auch eine Möglichkeit, Podcast zu verwalten und zu Downloaden.</description>
   <homepage>http://zdfmediathk.sourceforge.net/</homepage>
-  <icon href="http://0install.de/feeds/images/Mediathek.png" type="image/png" />
+  <icon href="http://0install.de/feed-icons/Mediathek.png" type="image/png" />
   <category>AudioVideo</category>
   <feed-for interface="http://0install.de/feeds/Mediathek.xml" />
   <group license="GPL v3 (GNU General Public License)">

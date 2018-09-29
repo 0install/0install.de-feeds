@@ -6,8 +6,8 @@
   <description xml:lang="en">Boo is an object-oriented, statically typed, general-purpose programming language based on the Common Language Infrastructure and using a Python-inspired syntax.</description>
   <description xml:lang="de">Boo ist eine objektorientierte, statisch typisierte Mehrzweckprogrammiersprache, die auf der Common Language Infrastructure aufbaut und eine Python-inspirierte Syntax verwendet.</description>
   <homepage>http://boo.codehaus.org/</homepage>
-  <icon href="http://0install.de/feeds/images/Boo.png" type="image/png" />
-  <icon href="http://0install.de/feeds/images/Boo.ico" type="image/vnd.microsoft.icon" />
+  <icon href="http://0install.de/feed-icons/Boo.png" type="image/png" />
+  <icon href="http://0install.de/feed-icons/Boo.ico" type="image/vnd.microsoft.icon" />
   <category>Development</category>
   <needs-terminal />
   <feed-for interface="http://0install.de/feeds/Boo.xml" />

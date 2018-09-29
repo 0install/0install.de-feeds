@@ -6,7 +6,7 @@
   <description xml:lang="en">WinSCP is a SFTP and FTP client for Windows. Its main function is the secure file transfer between a local and a remote computer. It uses Secure Shell (SSH) and also supports, in addition to Secure FTP, the legacy SCP protocol.</description>
   <description xml:lang="de">WinSCP ist ein SFTP und FTP Klient für Windows. Seine Hauptfunktion ist der sichere Dateitransfer zwischen einem lokalen und einem entfernten Rechner. Es verwendet Secure Shell (SSH) und unterstützt auch, zusätzlich zu Secure FTP, das veraltete SCP Protokoll.</description>
   <homepage>http://winscp.net/</homepage>
-  <icon href="http://0install.de/feeds/images/WinSCP.png" type="image/png" />
+  <icon href="http://0install.de/feed-icons/WinSCP.png" type="image/png" />
   <category>Network</category>
   <category>Utility</category>
   <feed-for interface="http://0install.de/feeds/WinSCP.xml" />
