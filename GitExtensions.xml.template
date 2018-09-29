@@ -19,7 +19,7 @@
       <environment name="GITEXT_PUTTYGEN" insert="puttygen.exe" mode="replace" />
       <environment name="GITEXT_PAGEANT" insert="pageant.exe" mode="replace" />
     </requires>
-    <requires os="Windows" interface="http://0install.de/feeds/NotepadPlusPlus.xml" importance="recommended">
+    <requires os="Windows" interface="http://repo.roscidus.com/editors/notepad-plus-plus" importance="recommended">
       <environment name="EDITOR" value="notepad++ -multiInst -nosession" mode="replace" />
       <executable-in-path name="notepad++" />
     </requires>
