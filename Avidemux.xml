@@ -6,8 +6,8 @@
   <description xml:lang="de">Avidemux ist ein freier Video-Editor, ausgelegt auf einfache Schneide-, Filter- und Encodier-Aufgaben. Es unterstützt viele Dateitypen, inklusive AVI, DVD-kompatible MPEG-Dateien, MP4 und ASF mit einer Reihe von Codecs. Aufgaben können mittels Projekten, Auftrags-Schlangen und mächtigen Skripting-Fähigkeiten automatisiert werden.</description>
   <description xml:lang="en">Avidemux is a free video editor designed for simple cutting, filtering and encoding tasks. It supports many file types, including AVI, DVD compatible MPEG files, MP4 and ASF, using a variety of codecs. Tasks can be automated using projects, job queue and powerful scripting capabilities.</description>
   <homepage>http://avidemux.sourceforge.net/</homepage>
-  <icon href="http://0install.de/feed-icons/Avidemux.png" type="image/png"/>
-  <icon href="http://0install.de/feed-icons/Avidemux.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Avidemux.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Avidemux.ico" type="image/vnd.microsoft.icon"/>
   <category>AudioVideo</category>
   <category>Utility</category>
   <group license="GPL v2 (GNU General Public License)">

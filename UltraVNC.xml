@@ -6,8 +6,8 @@
   <description xml:lang="en">UltraVNC is a powerful, easy to use and free software that can display the screen of another computer (via internet or network) on your own screen. The program allows you to use your mouse and keyboard to control the other PC remotely.</description>
   <description xml:lang="de">UltraVNC ist eine mächtige und einfach zu bedienende freie Software, welche den Inhalt des Bildschirms eines anderen Computers (über das Internet oder ein Netzwerk) auf Ihrem eigenen Bildschirm anzeigen kann. Das Programm erlaubt Ihnen Ihre Maus und Tastatur zu verwenden um den anderen PC aus der Ferne zu steuern. </description>
   <homepage>http://www.uvnc.com/</homepage>
-  <icon href="http://0install.de/feed-icons/UltraVNC.png" type="image/png" />
-  <icon href="http://0install.de/feed-icons/UltraVNC.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/UltraVNC.png" type="image/png" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/UltraVNC.ico" type="image/vnd.microsoft.icon" />
   <category>Network</category>
   <category>Utility</category>
   <group license="GPL v2 (GNU General Public License)">
@@ -37,13 +37,13 @@
   </group>
   <entry-point command="run" binary-name="vncviewer">
     <name xml:lang="en">UltraVNC Viewer</name>
-    <icon href="http://0install.de/feed-icons/UltraVNC/Viewer.png" type="image/png" />
-    <icon href="http://0install.de/feed-icons/UltraVNC/Viewer.ico" type="image/vnd.microsoft.icon" />
+    <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/UltraVNC/Viewer.png" type="image/png" />
+    <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/UltraVNC/Viewer.ico" type="image/vnd.microsoft.icon" />
   </entry-point>
   <entry-point command="server" binary-name="winvnc">
     <name xml:lang="en">UltraVNC Server</name>
-    <icon href="http://0install.de/feed-icons/UltraVNC/Server.png" type="image/png" />
-    <icon href="http://0install.de/feed-icons/UltraVNC/Server.ico" type="image/vnd.microsoft.icon" />
+    <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/UltraVNC/Server.png" type="image/png" />
+    <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/UltraVNC/Server.ico" type="image/vnd.microsoft.icon" />
   </entry-point>
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
     <file-type description="VNCviewer Config File" id="UltraVNC.VncViewer.Config">

@@ -6,8 +6,8 @@
   <description xml:lang="en">NetBeans is a multi-language integrated development environment.</description>
   <description xml:lang="de">NetBeans ist eine multi-Sprachen integrierte Entwicklungsumgebung (IDE).</description>
   <homepage>http://www.netbeans.org/</homepage>
-  <icon href="http://0install.de/feed-icons/NetBeans.png" type="image/png"/>
-  <icon href="http://0install.de/feed-icons/NetBeans.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/NetBeans.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/NetBeans.ico" type="image/vnd.microsoft.icon"/>
   <category>Development</category>
   <group license="CDDL, GPL v2 with Classpath Exception">
     <requires interface="http://repo.roscidus.com/java/openjdk-jre">

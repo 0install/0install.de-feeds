@@ -4,8 +4,8 @@
   <summary xml:lang="en">Tail for Windows, capable of simulating the Linux tail command, with GUI</summary>
   <description xml:lang="en">WinTail is a freeware Tail for Windows tool, capable of simulating the Linux/UNIX tail command, including extra features offered by the Windows GUI concept.
 Includes features such as SMTP and sound notifications of specific keywords found within the files being monitored by a sort of grep functionalty.</description>
-  <icon href="http://0install.de/feed-icons/WinTail.ico" type="image/vnd.microsoft.icon" />
-  <icon href="http://0install.de/feed-icons/WinTail.png" type="image/png" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/WinTail.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/WinTail.png" type="image/png" />
   <category>Development</category>
   <category>Utility</category>
   <group license="Public Domain">

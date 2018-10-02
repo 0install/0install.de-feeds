@@ -2,8 +2,8 @@
 <interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/OpenCover.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>OpenCover</name>
   <summary xml:lang="en">A code coverage tool for .NET 2 and above (WINDOWS OS only)</summary>
-  <icon href="http://0install.de/feed-icons/OpenCover.ico" type="image/vnd.microsoft.icon" />
-  <icon href="http://0install.de/feed-icons/OpenCover.png" type="image/png" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/OpenCover.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/OpenCover.png" type="image/png" />
   <homepage>https://github.com/OpenCover/opencover</homepage>
   <category>Development</category>
   <needs-terminal />

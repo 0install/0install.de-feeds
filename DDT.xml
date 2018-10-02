@@ -3,8 +3,8 @@
   <name>Database Design Tool</name>
   <summary xml:lang="en">database schema diagramming tool </summary>
   <description xml:lang="en">This program is a database schema diagramming tool intended for use by programmers, DBA's, or other software developers who want to have a visual representation of a database design. It has some features intended to streamline integration into the existing work that surrounds database design, such as the ability to import and export SQL.</description>
-  <icon href="http://0install.de/feed-icons/DDT.png" type="image/png" />
-  <icon href="http://0install.de/feed-icons/DDT.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/DDT.png" type="image/png" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/DDT.ico" type="image/vnd.microsoft.icon" />
   <category>Development</category>
   <implementation arch="Windows-*" version="1.5" stability="stable" license="GNU GPL" main="ddt.exe" id="sha1new=8c438f43d7dd1c7499204e0b04b31c30720edf1b">
     <manifest-digest sha1new="8c438f43d7dd1c7499204e0b04b31c30720edf1b" sha256="cc67c776d74af2ed1369c4e99fd7d3a8c84e5a3ef5f0bda365d565d065824909" sha256new="ZRT4O5WXJLZO2E3JYTUZ7V6TVDEE4WR66XYL3I3F2VS5AZMCJEEQ" />
@@ -13,7 +13,7 @@
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
     <file-type id="DatabaseDesignTool">
       <description xml:lang="en">Database Design Tool graph</description>
-      <icon href="http://0install.de/feed-icons/DDT_File.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/DDT.doc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
       <verb args="&quot;%1&quot;" name="open"/>
       <extension value=".ddt" />
     </file-type>

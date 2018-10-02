@@ -3,8 +3,8 @@
   <name>Dolphin</name>
   <summary xml:lang="en">a Gamecube and Wii emulator</summary>
   <description xml:lang="en">Dolphin is a Gamecube, Wii and Triforce (the arcade machine based on the Gamecube) emulator which supports many extra features and abilities not present on the original consoles. Gamecube and Wii compatibility is good - one can expect "mainstream" titles to run; lesser known titles can be hit or miss. Triforce compatibility is currently limited to a couple of games - others require more of the Triforce-specific peripheral devices to be emulated.</description>
-  <icon href="http://0install.de/feed-icons/Dolphin.ico" type="image/vnd.microsoft.icon" />
-  <icon href="http://0install.de/feed-icons/Dolphin.png" type="image/png" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Dolphin.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Dolphin.png" type="image/png" />
   <category>Game</category>
   <category>Utility</category>
   <homepage>http://dolphin-emu.org/</homepage>

@@ -5,8 +5,8 @@
   <description xml:lang="en">NAPS2 is a document scanning application with a focus on simplicity and ease of use. Scan your documents from WIA- and TWAIN-compatible scanners, organize the pages as you like, and save them as PDF, TIFF, JPEG, PNG, and other file formats.</description>
   <homepage>https://www.naps2.com/</homepage>
   <category>Utility</category>
-  <icon href="http://0install.de/feed-icons/NAPS2.ico" type="image/vnd.microsoft.icon"/>
-  <icon href="http://0install.de/feed-icons/NAPS2.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/NAPS2.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/NAPS2.png" type="image/png"/>
 
   <group license="GPL v2 (GNU General Public License)">
     <command name="NAPS2.Console" path="NAPS2.Console.exe">

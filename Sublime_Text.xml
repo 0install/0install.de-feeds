@@ -3,8 +3,8 @@
   <name>Sublime Text</name>
   <summary xml:lang="en">a sophisticated text editor for code, markup and prose</summary>
   <homepage>http://www.sublimetext.com/</homepage>
-  <icon href="http://0install.de/feed-icons/Sublime_Text.ico" type="image/vnd.microsoft.icon"/>
-  <icon href="http://0install.de/feed-icons/Sublime_Text.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Sublime_Text.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Sublime_Text.png" type="image/png"/>
   <entry-point binary-name="sublime_text" command="run"/>
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
     <context-menu id="open-with">

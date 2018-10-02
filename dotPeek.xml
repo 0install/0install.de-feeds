@@ -3,8 +3,8 @@
   <name>JetBrains dotPeek</name>
   <summary xml:lang="en">free .NET Decompiler and Assembly Browser</summary>
   <description xml:lang="en">dotPeek is a free-of-charge .NET decompiler from JetBrains, the makers of ReSharper and more developer productivity tools.</description>
-  <icon href="http://0install.de/feed-icons/dotPeek.ico" type="image/vnd.microsoft.icon" />
-  <icon href="http://0install.de/feed-icons/dotPeek.png" type="image/png" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/dotPeek.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/dotPeek.png" type="image/png" />
   <category>Development</category>
   <homepage>http://www.jetbrains.com/decompiler/</homepage>
   <group>

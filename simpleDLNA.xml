@@ -3,8 +3,8 @@
   <name>SimpleDLNA</name>
   <summary xml:lang="en">simple, zero-config DLNA media server</summary>
   <description xml:lang="en">A simple, zero-config DLNA media server, that you can just fire up and be done with it.</description>
-  <icon href="http://0install.de/feed-icons/simpleDLNA.ico" type="image/vnd.microsoft.icon" />
-  <icon href="http://0install.de/feed-icons/simpleDLNA.png" type="image/png" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/simpleDLNA.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/simpleDLNA.png" type="image/png" />
   <homepage>http://nmaier.github.io/simpleDLNA/</homepage>
   <implementation version="1.0" id="sha1new=356877a6fc30df34113a5e5ddcab4e742f218fd6">
     <command name="run" path="SimpleDLNA.exe">

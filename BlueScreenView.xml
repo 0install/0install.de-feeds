@@ -2,8 +2,8 @@
 <interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/BlueScreenView.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>BlueScreenView</name>
   <summary xml:lang="en">scans minidump files created during 'blue screen of death' crashes</summary>
-  <icon href="http://0install.de/feed-icons/BlueScreenView.ico" type="image/vnd.microsoft.icon" />
-  <icon href="http://0install.de/feed-icons/BlueScreenView.png" type="image/png" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/BlueScreenView.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/BlueScreenView.png" type="image/png" />
   <category>Utility</category>
   <homepage>http://www.nirsoft.net/utils/blue_screen_view.html</homepage>
   <group main="BlueScreenView.exe">

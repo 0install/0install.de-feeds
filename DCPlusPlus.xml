@@ -6,8 +6,8 @@
   <description xml:lang="en">DC++ is a file sharing client using the ADC protocol. It also supports connecting to the Direct Connect network.</description>
   <description xml:lang="de">DC++ ist ein Filesharing Klient der das ADC Protokol verwendet. Es unterstützt auch Verbindungen mit dem Direct Connect Netzwerk.</description>
   <homepage>http://dcplusplus.sourceforge.net/</homepage>
-  <icon href="http://0install.de/feed-icons/DCPlusPlus.png" type="image/png"/>
-  <icon href="http://0install.de/feed-icons/DCPlusPlus.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/DCPlusPlus.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/DCPlusPlus.ico" type="image/vnd.microsoft.icon"/>
   <category>Network</category>
   <group arch="Windows-*" license="GPL v2 (GNU General Public License)" main="DCPlusPlus.exe">
     <implementation id="sha1new=fc4bdc96da18bd3104e306200b6798d47a82569a" released="2013-11-11" stability="stable" version="0.831">

@@ -5,8 +5,8 @@
   <summary xml:lang="de">Desktop-Suchprogramm</summary>
   <description xml:lang="en">DocFetcher is an Open Source desktop search application: It allows you to search the contents of files on your computer. — You can think of it as Google for your local files.</description>
   <description xml:lang="de">DocFetcher ist ein Open Source Desktop-Suchprogramm: Es ermöglicht die Volltext-Suche in Dateien auf dem Computer — eine Art Google für den Heimrechner.</description>
-  <icon href="http://0install.de/feed-icons/DocFetcher.png" type="image/png" />
-  <icon href="http://0install.de/feed-icons/DocFetcher.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/DocFetcher.png" type="image/png" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/DocFetcher.ico" type="image/vnd.microsoft.icon" />
   <category>Office</category>
   <homepage>http://docfetcher.sourceforge.net/</homepage>
   <implementation arch="Windows-*" version="1.1.14" stability="stable" id="v1.1.14-win">

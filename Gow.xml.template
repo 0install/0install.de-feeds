@@ -3,8 +3,8 @@
   <name>Gow</name>
   <summary xml:lang="en">the lightweight alternative to Cygwin</summary>
   <homepage>https://github.com/bmatzelle/gow</homepage>
-  <icon href="http://0install.de/feed-icons/Gnu.ico" type="image/vnd.microsoft.icon" />
-  <icon href="http://0install.de/feed-icons/Gnu.png" type="image/png" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Gow.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Gow.png" type="image/png" />
   <category>Utility</category>
   <needs-terminal />
   <feed-for interface="http://0install.de/feeds/Gow.xml" />

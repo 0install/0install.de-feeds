@@ -6,8 +6,8 @@
   <description xml:lang="en">A cross-platform application for exploring Conway's Game of Life and other cellular automata. Features include an unbounded universe, fast generating algorithms, multiple layers, Perl/Python scripting, and a state-of-the-art pattern collection.</description>
   <description xml:lang="de">Eine Plattform-übergreifende Anwendung um Conway's Game of Life (Spiel des Lebens) und andere zelluläre Automaten zu erforschen. Zu den Features gehören ein Universum mit unbeschränkter Größe, schnelle erzeugende Algorithmen, mehrere Ebenden, Perl/Python Scripting und eine hochmoderne Sammlung von Mustern.</description>
   <homepage>http://golly.sourceforge.net/</homepage>
-  <icon href="http://0install.de/feed-icons/Golly.png" type="image/png"/>
-  <icon href="http://0install.de/feed-icons/Golly.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Golly.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Golly.ico" type="image/vnd.microsoft.icon"/>
   <category>Education</category>
   <group license="GPL v2 (GNU General Public License)">
     <implementation arch="Windows-*" id="sha1new=243025a430a3dfc14e7dd8c6f1db35db8a37561b" main="Golly.exe" released="2013-06-15" stability="stable" version="2.5">

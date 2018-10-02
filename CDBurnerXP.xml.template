@@ -4,8 +4,8 @@
   <summary xml:lang="en">Free CD burner</summary>
   <description xml:lang="en">CDBurnerXP is a free application to burn CDs and DVDs, including Blu-Ray and HD-DVDs. It also includes the feature to burn and create ISOs, as well as a multilanguage interface. Everyone, even companies, can use it for free.</description>
   <homepage>http://cdburnerxp.se/</homepage>
-  <icon href="http://0install.de/feed-icons/CDBurnerXP.png" type="image/png" />
-  <icon href="http://0install.de/feed-icons/CDBurnerXP.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/CDBurnerXP.png" type="image/png" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/CDBurnerXP.ico" type="image/vnd.microsoft.icon" />
   <feed-for interface="http://0install.de/feeds/CDBurnerXP.xml" />
   <group main="cdbxpp.exe">
     <command name="cdbxpcmd" path="cdbxpcmd.exe" />

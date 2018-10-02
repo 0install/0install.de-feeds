@@ -6,8 +6,8 @@
   <description xml:lang="en">It is inspired by Amarok 1.4, focusing on a fast and easy-to-use interface for searching and playing your music. </description>
   <description xml:lang="de">Er ist inspiriert von Amarok 1.4, und legt Wert auf eine schnelle und einfach zu benutzende Oberfläche zum Suchen und Abspielen Ihrer Musik. </description>
   <homepage>http://www.clementine-player.org/</homepage>
-  <icon href="http://0install.de/feed-icons/Clementine.png" type="image/png" />
-  <icon href="http://0install.de/feed-icons/Clementine.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Clementine.png" type="image/png" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Clementine.ico" type="image/vnd.microsoft.icon" />
   <category>Audio</category>
   <group license="GPL v3 (GNU General Public License)">
     <group version="1.0.1" released="2012-01-22" stability="stable">

@@ -4,8 +4,8 @@
   <summary xml:lang="en">Free CD burner</summary>
   <description xml:lang="en">CDBurnerXP is a free application to burn CDs and DVDs, including Blu-Ray and HD-DVDs. It also includes the feature to burn and create ISOs, as well as a multilanguage interface. Everyone, even companies, can use it for free.</description>
   <homepage>http://cdburnerxp.se/</homepage>
-  <icon href="http://0install.de/feed-icons/CDBurnerXP.png" type="image/png"/>
-  <icon href="http://0install.de/feed-icons/CDBurnerXP.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/CDBurnerXP.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/CDBurnerXP.ico" type="image/vnd.microsoft.icon"/>
   <group main="cdbxpp.exe">
     <command name="cdbxpcmd" path="cdbxpcmd.exe"/>
     <implementation arch="Windows-x86_64" id="sha1new=aa02f881d61417238e7f0832f7ebcfde71f25369" released="2010-10-02" stability="stable" version="4.3.0.2054">
@@ -597,19 +597,19 @@
     <registration capability-reg-path="Software\Canneverbe Limited\CDBurnerXP\Capabilities" id="CDBurnerXP"/>
     <file-type id="CDBurnerXPOpen">
       <description xml:lang="en">CDBurnerXP Data Compilation</description>
-      <icon href="http://0install.de/feed-icons/CDBurnerXP_data.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/CDBurnerXP.data.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
       <verb args="/od &quot;%1&quot;" name="open"/>
       <extension value=".dxp"/>
     </file-type>
     <file-type id="CDBurnerXPAudio">
       <description xml:lang="en">CDBurnerXP Audio Compilation</description>
-      <icon href="http://0install.de/feed-icons/CDBurnerXP_audio.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/CDBurnerXP.audio.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
       <verb args="/oa &quot;%1&quot;" name="open"/>
       <extension value=".axp"/>
     </file-type>
     <file-type id="CDBurnerXPOpenIso">
       <description xml:lang="en">ISO Image</description>
-      <icon href="http://0install.de/feed-icons/CDBurnerXP_iso.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/CDBurnerXP.iso.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
       <verb args="/oi &quot;%1&quot;" name="open"/>
       <extension value=".iso"/>
     </file-type>

@@ -4,8 +4,8 @@
   <summary xml:lang="en">cross-platform free DVD authoring application</summary>
   <description xml:lang="en">DVDStyler is a cross-platform free DVD authoring application for the creation of professional-looking DVDs. It allows not only burning of video files on DVD that can be played practically on any standalone DVD player, but also creation of individually designed DVD menus.</description>
   <homepage>http://www.dvdstyler.org/</homepage>
-  <icon href="http://0install.de/feed-icons/DVDStyler.png" type="image/png" />
-  <icon href="http://0install.de/feed-icons/DVDStyler.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/DVDStyler.png" type="image/png" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/DVDStyler.ico" type="image/vnd.microsoft.icon" />
   <category>AudioVideo</category>
   <group license="GPL v2 (GNU General Public License)">
     <group arch="Windows-*" main="bin/DVDStyler.exe">

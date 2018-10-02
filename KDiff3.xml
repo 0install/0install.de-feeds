@@ -3,8 +3,8 @@
   <name>KDiff3</name>
   <summary xml:lang="en">graphical diff and merge program</summary>
   <description xml:lang="en">KDiff3 is a diff and merge program that compares or merges two or three text input files or directories.</description>
-  <icon href="http://0install.de/feed-icons/KDiff3.ico" type="image/vnd.microsoft.icon" />
-  <icon href="http://0install.de/feed-icons/KDiff3.png" type="image/png" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/KDiff3.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/KDiff3.png" type="image/png" />
   <category>Development</category>
   <category>Utility</category>
   <homepage>http://kdiff3.sourceforge.net/</homepage>

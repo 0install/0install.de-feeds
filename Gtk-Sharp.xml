@@ -8,7 +8,6 @@ the gtk+ (http://www.gtk.org/) toolkit and assorted GNOME
 (http://www.gnome.org/) libraries, enabling fully native graphical Gnome
 application development using the Mono and .Net development frameworks.</description>
   <homepage>http://www.mono-project.com/GtkSharp</homepage>
-  <icon href="http://0install.de/feed-icons/Mono.png" type="image/png" />
   <group stability="stable">
     <package-implementation package="gtk-sharp2" distributions="Debian" />
     <package-implementation package="gtk-sharp2" distributions="RPM" />

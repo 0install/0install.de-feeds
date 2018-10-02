@@ -3,8 +3,8 @@
   <name>Multi Commander</name>
   <summary xml:lang="en">multi-tabbed file manager</summary>
   <description xml:lang="en">Multi Commander is a multi-tabbed file manager and is an alternative to the standard Windows Explorer. It uses the very popular and efficient dual-panel layout.</description>
-  <icon href="http://0install.de/feed-icons/MultiCommander.png" type="image/png" />
-  <icon href="http://0install.de/feed-icons/MultiCommander.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/MultiCommander.png" type="image/png" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/MultiCommander.ico" type="image/vnd.microsoft.icon" />
   <category>Utility</category>
   <homepage>http://multicommander.com/</homepage>
   <feed-for interface="http://0install.de/feeds/MultiCommander.xml" />

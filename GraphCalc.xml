@@ -9,8 +9,8 @@ GraphCalc is an all-in-one solution to everything from everyday arithmetic to st
 GraphCalc is ready to use out of the box. Don't bother reading the documentation. Just start the program and you'll see how easy it is to use.</description>
   <description xml:lang="de">GraphCalc ist ein Mehrzweck-Rechner mit umfangreichen Funktionen zur grafischen Darstellung.</description>
   <homepage>http://www.graphcalc.com/</homepage>
-  <icon href="http://0install.de/feed-icons/GraphCalc.png" type="image/png" />
-  <icon href="http://0install.de/feed-icons/GraphCalc.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/GraphCalc.png" type="image/png" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/GraphCalc.ico" type="image/vnd.microsoft.icon" />
   <category>Education</category>
   <category>Utility</category>
   <group arch="Windows-*" license="GPL v2 (GNU General Public License)" main="GrphCalc.exe">

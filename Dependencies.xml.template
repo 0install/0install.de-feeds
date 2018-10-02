@@ -4,8 +4,8 @@
   <summary>open-source modern Dependency Walker</summary>
   <description>Dependencies is a rewrite of the legacy software Dependency Walker which was shipped along Windows SDK. It can help developers troubleshooting their DLL load dependencies issues.</description>
   <homepage>https://github.com/lucasg/Dependencies</homepage>
-  <icon href="http://0install.de/feed-icons/Dependencies.ico" type="image/vnd.microsoft.icon"/>
-  <icon href="http://0install.de/feed-icons/Dependencies.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Dependencies.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Dependencies.png" type="image/png"/>
   <feed-for interface="http://0install.de/feeds/Dependencies.xml"/>
   <group license="MIT License">
     <command name="run" path="DependenciesGui.exe">

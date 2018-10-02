@@ -6,7 +6,7 @@
   <description xml:lang="en">Lynx is a highly configurable text-based web browser for use on cursor-addressable terminals.</description>
   <description xml:lang="de">Lynx ist ein stark konfigurierbarer text-basierter Web Browser der für Cursor-adressierbare Terminals ausgelegt ist.</description>
   <homepage>http://www.fdisk.com/doslynx/lynxport.htm</homepage>
-  <icon href="http://0install.de/feed-icons/Lynx.png" type="image/png" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Lynx.png" type="image/png" />
   <category>Network</category>
   <needs-terminal />
   <group arch="Windows-*" license="GPL v2 (GNU General Public License)" doc-dir="help">

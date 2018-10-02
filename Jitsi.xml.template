@@ -6,8 +6,8 @@
   <description xml:lang="en">Jitsi is a free and open source multiplatform voice (VoIP), videoconferencing and instant messaging application.</description>
   <description xml:lang="de">Jitsi ist eine multiprotokollfähige IP-Telefonie- und Instant-Messenger-Anwendung, mit der auch Videotelefonie möglich ist.</description>
   <homepage>http://jitsi.org/</homepage>
-  <icon href="http://0install.de/feed-icons/Jitsi.ico" type="image/vnd.microsoft.icon" />
-  <icon href="http://0install.de/feed-icons/Jitsi.png" type="image/png" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Jitsi.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Jitsi.png" type="image/png" />
   <feed-for interface="http://0install.de/feeds/Jitsi.xml" />
   <implementation arch="Windows-x86_64" version="{version}" released="{released}" stability="stable" main="Jitsi.exe">
     <manifest-digest />

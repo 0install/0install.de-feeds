@@ -3,8 +3,8 @@
   <name>PDF Split and Merge</name>
   <summary xml:lang="en">split and merge PDF documents</summary>
   <homepage>http://www.pdfsam.org/</homepage>
-  <icon href="http://0install.de/feed-icons/PDFsam.png" type="image/png" />
-  <icon href="http://0install.de/feed-icons/PDFsam.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/PDFsam.png" type="image/png" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/PDFsam.ico" type="image/vnd.microsoft.icon" />
   <category>Office</category>
   <category>Utility</category>
   <group license="GPL v2 (GNU General Public License)">

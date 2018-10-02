@@ -2,8 +2,8 @@
 <interface uri="http://0install.de/feeds/IntelliJ_IDEA-Community.xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>JetBrains IntelliJ IDEA Community</name>
   <summary xml:lang="en">Capabale and Ergonomic IDE for JVM</summary>
-  <icon href="http://0install.de/feed-icons/IntelliJ_IDEA.ico" type="image/vnd.microsoft.icon" />
-  <icon href="http://0install.de/feed-icons/IntelliJ_IDEA.png" type="image/png" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/IntelliJ_IDEA.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/IntelliJ_IDEA.png" type="image/png" />
   <homepage>http://www.jetbrains.com/idea/</homepage>
   <category>Development</category>
   <group>

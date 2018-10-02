@@ -2,8 +2,8 @@
 <interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/pgAdmin3.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>pgAdmin III</name>
   <summary xml:lang="en">PostgreSQL Tools</summary>
-  <icon href="http://0install.de/feed-icons/pgAdmin.ico" type="image/vnd.microsoft.icon" />
-  <icon href="http://0install.de/feed-icons/pgAdmin.png" type="image/png" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/pgAdmin.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/pgAdmin.png" type="image/png" />
   <category>Utility</category>
   <homepage>https://www.pgadmin.org/</homepage>
   <implementation arch="Windows-*" version="1.22.2" id="sha1new=3a4dc1daa1a13b9f3868e389eb8b37ec345ca734">

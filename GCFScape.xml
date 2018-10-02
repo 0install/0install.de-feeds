@@ -4,8 +4,8 @@
   <summary xml:lang="en">Valve GCF file extractor</summary>
   <description xml:lang="en">GCFScape is an explorer like utility that enables users to browse Half-Life packages and extract their contents. GCFScape supports .bsp, .gcf, .ncf, .pak, .vpk, .wad and .xzp packages and runs independently of Steam.</description>
   <homepage>http://nemesis.thewavelength.net/index.php?p=25</homepage>
-  <icon href="http://0install.de/feed-icons/GCFScape.ico" type="image/vnd.microsoft.icon" />
-  <icon href="http://0install.de/feed-icons/GCFScape.png" type="image/png" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/GCFScape.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/GCFScape.png" type="image/png" />
   <category>Development</category>
   <category>Game</category>
   <group>

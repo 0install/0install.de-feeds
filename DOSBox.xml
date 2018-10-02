@@ -2,8 +2,8 @@
 <interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/DOSBox.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>DOSBox</name>
   <summary xml:lang="en">DOS Emulator</summary>
-  <icon href="http://0install.de/feed-icons/DOSBox.ico" type="image/vnd.microsoft.icon" />
-  <icon href="http://0install.de/feed-icons/DOSBox.png" type="image/png" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/DOSBox.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/DOSBox.png" type="image/png" />
   <category>Utility</category>
   <category>Game</category>
   <group arch="Windows-*" main="DOSBox.exe">

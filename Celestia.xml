@@ -3,8 +3,8 @@
   <name>Celestia</name>
   <summary xml:lang="en">free space simulation</summary>
   <description xml:lang="en">The free space simulation that lets you explore our universe in three dimensions.</description>
-  <icon href="http://0install.de/feed-icons/Celestia.png" type="image/png" />
-  <icon href="http://0install.de/feed-icons/Celestia.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Celestia.png" type="image/png" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Celestia.ico" type="image/vnd.microsoft.icon" />
   <category>Education</category>
   <group license="GPL v3 (GNU General Public License)">
     <group arch="Windows-*">

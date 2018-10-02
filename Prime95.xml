@@ -2,8 +2,8 @@
 <interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/Prime95.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>Prime95</name>
   <summary xml:lang="en">Free Mersenne Prime Search Software</summary>
-  <icon href="http://0install.de/feed-icons/Prime95.ico" type="image/vnd.microsoft.icon" />
-  <icon href="http://0install.de/feed-icons/Prime95.png" type="image/png" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Prime95.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Prime95.png" type="image/png" />
   <homepage>http://www.mersenne.org/download/</homepage>
   <group license="GIMPS free software license">
     <implementation arch="Windows-x86_64" version="28.7" released="2015-08-10" stability="stable" main="prime95.exe" id="sha1new=d9666e49611faf43dd23c264e387dee6ba5973a8">

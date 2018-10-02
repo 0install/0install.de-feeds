@@ -6,7 +6,7 @@
   <description xml:lang="en">Eclipse is a multi-language software development environment comprising an integrated development environment and an extensible plug-in system.</description>
   <description xml:lang="de">Eclipse ist eine multi-Sprachen Softwareentwicklungsumgebung, bestehend aus einer integrierten Entwicklungsumgebung (IDE) und einem erweiterbaren Plugin-System.</description>
   <homepage>http://www.eclipse.org/</homepage>
-  <icon href="http://0install.de/feed-icons/Eclipse.png" type="image/png" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Eclipse.png" type="image/png" />
   <category>Development</category>
   <feed-for interface="http://0install.de/feeds/Eclipse.xml" />
   <group license="EPL (Eclipse Public License)">

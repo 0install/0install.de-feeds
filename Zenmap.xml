@@ -2,8 +2,8 @@
 <interface uri="http://0install.de/feeds/Zenmap.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
   <name>Zenmap</name>
   <summary xml:lang="en">Nmap frontend and results viewer</summary>
-  <icon href="http://0install.de/feed-icons/Nmap.ico" type="image/vnd.microsoft.icon"/>
-  <icon href="http://0install.de/feed-icons/Nmap.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/security/nmap.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/security/nmap.png" type="image/png" />
   <category>Network</category>
   <category>Utility</category>
   <group arch="Windows-*" main="zenmap.exe">

@@ -5,8 +5,8 @@
   <summary xml:lang="de">universeller Tag Editor</summary>
   <description xml:lang="en">Mp3tag is a powerful and easy-to-use tool to edit metadata of audio files.</description>
   <description xml:lang="de">Mp3tag ist ein einfach zu benutzendes Programm zum komfortablen Bearbeiten von Tags in Audio-Dateien.</description>
-  <icon href="http://0install.de/feed-icons/Mp3tag.ico" type="image/vnd.microsoft.icon" />
-  <icon href="http://0install.de/feed-icons/Mp3tag.png" type="image/png" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Mp3tag.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Mp3tag.png" type="image/png" />
   <category>AudioVideo</category>
   <homepage>http://www.mp3tag.de/</homepage>
   <implementation arch="Windows-*" version="2.84.1" id="sha1new=2faab36022b34d01488dec3f9eccb771ff0c9a71">
