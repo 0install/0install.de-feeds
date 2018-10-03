@@ -6,8 +6,8 @@
   <description xml:lang="en">LibreOffice is a free and open source office suite, developed by The Document Foundation. It was forked from OpenOffice.org in 2010. The LibreOffice suite comprises programs to do word processing, spreadsheets, slideshows, diagrams, maintain databases, and compose math formulae.</description>
   <description xml:lang="de">LibreOffice ist eine freie Zusammenstellung gebräuchlicher Software für Arbeiten im Büro (Office-Paket). Dazu gehören Programme zur Textverarbeitung, Tabellenkalkulation, Präsentation und zum Erstellen von Zeichnungen. Ein Datenbankmanagementsystem und ein Formeleditor sind ebenfalls enthalten.</description>
   <homepage>http://www.libreoffice.org/</homepage>
-  <icon href="http://0install.de/feed-icons/LibreOffice.png" type="image/png"/>
-  <icon href="http://0install.de/feed-icons/LibreOffice.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice.ico" type="image/vnd.microsoft.icon"/>
   <category>Office</category>
   <group arch="Windows-*" main="program/soffice.exe">
     <command name="writer" path="program/swriter.exe"/>
@@ -797,45 +797,45 @@
   <entry-point binary-name="soffice" command="run"/>
   <entry-point binary-name="swriter" command="writer">
     <name xml:lang="en">LibreOffice Writer</name>
-    <icon href="http://0install.de/feed-icons/LibreOffice/Writer.png" type="image/png"/>
-    <icon href="http://0install.de/feed-icons/LibreOffice/Writer.ico" type="image/vnd.microsoft.icon"/>
+    <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Writer.png" type="image/png"/>
+    <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Writer.ico" type="image/vnd.microsoft.icon"/>
   </entry-point>
   <entry-point binary-name="sweb" command="writer-web">
     <name xml:lang="en">LibreOffice Writer (Web)</name>
-    <icon href="http://0install.de/feed-icons/LibreOffice/Writer.png" type="image/png"/>
-    <icon href="http://0install.de/feed-icons/LibreOffice/Writer.ico" type="image/vnd.microsoft.icon"/>
+    <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Writer.png" type="image/png"/>
+    <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Writer.ico" type="image/vnd.microsoft.icon"/>
   </entry-point>
   <entry-point binary-name="scalc" command="calc">
     <name xml:lang="en">LibreOffice Calc</name>
-    <icon href="http://0install.de/feed-icons/LibreOffice/Calc.png" type="image/png"/>
-    <icon href="http://0install.de/feed-icons/LibreOffice/Calc.ico" type="image/vnd.microsoft.icon"/>
+    <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Calc.png" type="image/png"/>
+    <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Calc.ico" type="image/vnd.microsoft.icon"/>
   </entry-point>
   <entry-point binary-name="smath" command="math">
     <name xml:lang="en">LibreOffice Math</name>
-    <icon href="http://0install.de/feed-icons/LibreOffice/Math.png" type="image/png"/>
-    <icon href="http://0install.de/feed-icons/LibreOffice/Math.ico" type="image/vnd.microsoft.icon"/>
+    <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Math.png" type="image/png"/>
+    <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Math.ico" type="image/vnd.microsoft.icon"/>
   </entry-point>
   <entry-point binary-name="simpress" command="impress">
     <name xml:lang="en">LibreOffice Impress</name>
-    <icon href="http://0install.de/feed-icons/LibreOffice/Impress.png" type="image/png"/>
-    <icon href="http://0install.de/feed-icons/LibreOffice/Impress.ico" type="image/vnd.microsoft.icon"/>
+    <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Impress.png" type="image/png"/>
+    <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Impress.ico" type="image/vnd.microsoft.icon"/>
   </entry-point>
   <entry-point binary-name="sdraw" command="draw">
     <name xml:lang="en">LibreOffice Draw</name>
-    <icon href="http://0install.de/feed-icons/LibreOffice/Draw.png" type="image/png"/>
-    <icon href="http://0install.de/feed-icons/LibreOffice/Draw.ico" type="image/vnd.microsoft.icon"/>
+    <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Draw.png" type="image/png"/>
+    <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Draw.ico" type="image/vnd.microsoft.icon"/>
   </entry-point>
   <entry-point binary-name="sbase" command="base">
     <name xml:lang="en">LibreOffice Base</name>
-    <icon href="http://0install.de/feed-icons/LibreOffice/Base.png" type="image/png"/>
-    <icon href="http://0install.de/feed-icons/LibreOffice/Base.ico" type="image/vnd.microsoft.icon"/>
+    <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Base.png" type="image/png"/>
+    <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Base.ico" type="image/vnd.microsoft.icon"/>
   </entry-point>
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
     <registration capability-reg-path="SOFTWARE\The Document Foundation\LibreOffice\4.1\Capabilities" id="LibreOffice 4.1"/>
     <file-type id="office.Extension.1">
       <description xml:lang="en">LibreOffice Extension</description>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Extension.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Extension.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Extension.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Extension.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
       <verb args="-o &quot;%1&quot;" name="open">
         <description xml:lang="en">&amp;Install</description>
         <description xml:lang="de">&amp;Installieren</description>
@@ -845,8 +845,8 @@
     <file-type id="LibreOffice.CalcDocument.1">
       <description xml:lang="en">OpenDocument Spreadsheet</description>
       <description xml:lang="de">OpenDocument Tabellendokument</description>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Calc.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Calc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Calc.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Calc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
       <verb args="-n &quot;%1&quot;" name="new">
         <description xml:lang="en">&amp;New</description>
         <description xml:lang="de">&amp;Neu</description>
@@ -860,8 +860,8 @@
     <file-type id="LibreOffice.CalcTemplate.1">
       <description xml:lang="en">OpenDocument Spreadsheet Template</description>
       <description xml:lang="de">OpenDocument Tabellendokumentvorlage</description>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Calc_Template.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Calc_Template.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Calc_Template.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Calc_Template.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
       <verb args="-n &quot;%1&quot;" name="new">
         <description xml:lang="en">&amp;New</description>
         <description xml:lang="de">&amp;Neu</description>
@@ -874,16 +874,16 @@
     <file-type id="LibreOffice.DatabaseDocument.1">
       <description xml:lang="en">OpenDocument Database</description>
       <description xml:lang="de">OpenDocument Datenbank</description>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Base.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Base.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Base.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Base.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
       <verb args="-o &quot;%1&quot;" command="base" name="open"/>
       <extension mime-type="application/vnd.sun.xml.base" value=".odb"/>
     </file-type>
     <file-type id="LibreOffice.DrawDocument.1">
       <description xml:lang="en">OpenDocument Drawing</description>
       <description xml:lang="de">OpenDocument Zeichnung</description>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Draw.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Draw.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Draw.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Draw.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
       <verb args="-n &quot;%1&quot;" name="new">
         <description xml:lang="en">&amp;New</description>
         <description xml:lang="de">&amp;Neu</description>
@@ -897,8 +897,8 @@
     <file-type id="LibreOffice.DrawTemplate.1">
       <description xml:lang="en">OpenDocument Drawing Template</description>
       <description xml:lang="de">OpenDocument Zeichnungsdokumentvorlage</description>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Draw_Template.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Draw_Template.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Draw_Template.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Draw_Template.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
       <verb args="-n &quot;%1&quot;" name="new">
         <description xml:lang="en">&amp;New</description>
         <description xml:lang="de">&amp;Neu</description>
@@ -911,8 +911,8 @@
     <file-type id="LibreOffice.ImpressDocument.1">
       <description xml:lang="en">OpenDocument Presentation</description>
       <description xml:lang="de">OpenDocument Präsentation</description>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Impress.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Impress.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Impress.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Impress.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
       <verb args="-n &quot;%1&quot;" name="new">
         <description xml:lang="en">&amp;New</description>
         <description xml:lang="de">&amp;Neu</description>
@@ -930,8 +930,8 @@
     <file-type id="LibreOffice.ImpressTemplate.1">
       <description xml:lang="en">OpenDocument Presentation Template</description>
       <description xml:lang="de">OpenDocument Präsentationsdokumentvorlage</description>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Impress_Template.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Impress_Template.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Impress_Template.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Impress_Template.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
       <verb args="-n &quot;%1&quot;" name="new">
         <description xml:lang="en">&amp;New</description>
         <description xml:lang="de">&amp;Neu</description>
@@ -944,8 +944,8 @@
     <file-type id="LibreOffice.MathDocument.1">
       <description xml:lang="en">OpenDocument Formula</description>
       <description xml:lang="de">OpenDocument Formel</description>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Math.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Math.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Math.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Math.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
       <verb args="-n &quot;%1&quot;" name="new">
         <description xml:lang="en">&amp;New</description>
         <description xml:lang="de">&amp;Neu</description>
@@ -958,8 +958,8 @@
     <file-type id="LibreOffice.WriterDocument.1">
       <description xml:lang="en">OpenDocument Text</description>
       <description xml:lang="de">OpenDocument Text</description>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Writer.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Writer.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Writer.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Writer.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
       <verb args="-n &quot;%1&quot;" name="new">
         <description xml:lang="en">&amp;New</description>
         <description xml:lang="de">&amp;Neu</description>
@@ -974,8 +974,8 @@
     <file-type id="LibreOffice.WriterGlobalDocument.1">
       <description xml:lang="en">OpenDocument Master Document</description>
       <description xml:lang="de">OpenDocument Globaldokument</description>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Writer_Global.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Writer_Global.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Writer_Global.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Writer_Global.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
       <verb args="-n &quot;%1&quot;" name="new">
         <description xml:lang="en">&amp;New</description>
         <description xml:lang="de">&amp;Neu</description>
@@ -988,8 +988,8 @@
     <file-type id="LibreOffice.WriterTemplate.1">
       <description xml:lang="en">OpenDocument Text Template</description>
       <description xml:lang="de">OpenDocument Textdokumentvorlage</description>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Writer_Template.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Writer_Template.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Writer_Template.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Writer_Template.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
       <verb args="-n &quot;%1&quot;" name="new">
         <description xml:lang="en">&amp;New</description>
         <description xml:lang="de">&amp;Neu</description>
@@ -1002,15 +1002,15 @@
     <file-type id="LibreOffice.WriterWebDocument.1">
       <description xml:lang="en">OpenDocument Text</description>
       <description xml:lang="de">OpenDocument Text</description>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Writer_Web.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Writer_Web.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Writer_Web.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Writer_Web.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
       <verb args="-o &quot;%1&quot;" command="writer-web" name="open"/>
     </file-type>
     <file-type id="LibreOffice.WriterWebTemplate.1">
       <description xml:lang="en">HTML Document Template</description>
       <description xml:lang="de">HTML-Dokumentvorlage</description>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Writer_Web.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Writer_Web.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Writer_Web.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Writer_Web.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
       <verb args="-n &quot;%1&quot;" name="new">
         <description xml:lang="en">&amp;New</description>
         <description xml:lang="de">&amp;Neu</description>
@@ -1023,8 +1023,8 @@
     <file-type id="soffice.StarCalcDocument.6">
       <description xml:lang="en">OpenOffice.org 1.1 Spreadsheet</description>
       <description xml:lang="de">OpenOffice.org 1.1 Tabelle</description>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Calc.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Calc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Calc.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Calc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
       <verb args="-n &quot;%1&quot;" name="new">
         <description xml:lang="en">&amp;New</description>
         <description xml:lang="de">&amp;Neu</description>
@@ -1050,8 +1050,8 @@
     <file-type id="soffice.StarCalcTemplate.6">
       <description xml:lang="en">OpenOffice.org 1.1 Spreadsheet Template</description>
       <description xml:lang="de">OpenOffice.org 1.1 Tabellendokumentvorlage</description>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Calc_Template.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Calc_Template.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Calc_Template.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Calc_Template.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
       <verb args="-n &quot;%1&quot;" name="new">
         <description xml:lang="en">&amp;New</description>
         <description xml:lang="de">&amp;Neu</description>
@@ -1064,8 +1064,8 @@
     <file-type id="soffice.StarDrawDocument.6">
       <description xml:lang="en">OpenOffice.org 1.1 Drawing</description>
       <description xml:lang="de">OpenOffice.org 1.1 Zeichnung</description>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Draw.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Draw.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Draw.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Draw.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
       <verb args="-n &quot;%1&quot;" name="new">
         <description xml:lang="en">&amp;New</description>
         <description xml:lang="de">&amp;Neu</description>
@@ -1078,8 +1078,8 @@
     <file-type id="soffice.StarDrawTemplate.6">
       <description xml:lang="en">OpenOffice.org 1.1 Drawing Template</description>
       <description xml:lang="de">OpenOffice.org 1.1 Zeichnungsvorlage</description>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Draw_Template.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Draw_Template.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Draw_Template.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Draw_Template.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
       <verb args="-n &quot;%1&quot;" name="new">
         <description xml:lang="en">&amp;New</description>
         <description xml:lang="de">&amp;Neu</description>
@@ -1092,8 +1092,8 @@
     <file-type id="soffice.StarImpressDocument.6">
       <description xml:lang="en">OpenOffice.org 1.1 Presentation</description>
       <description xml:lang="de">OpenOffice.org 1.1 Präsentation</description>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Impress.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Impress.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Impress.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Impress.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
       <verb args="-n &quot;%1&quot;" name="new">
         <description xml:lang="en">&amp;New</description>
         <description xml:lang="de">&amp;Neu</description>
@@ -1111,8 +1111,8 @@
     <file-type id="soffice.StarImpressTemplate.6">
       <description xml:lang="en">OpenOffice.org 1.1 Presentation Template</description>
       <description xml:lang="de">OpenOffice.org 1.1 Präsentationsvorlage</description>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Impress_Template.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Impress_Template.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Impress_Template.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Impress_Template.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
       <verb args="-n &quot;%1&quot;" name="new">
         <description xml:lang="en">&amp;New</description>
         <description xml:lang="de">&amp;Neu</description>
@@ -1125,8 +1125,8 @@
     <file-type id="soffice.StarMathDocument.6">
       <description xml:lang="en">OpenOffice.org 1.1 Formula</description>
       <description xml:lang="de">OpenOffice.org 1.1 Formel</description>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Math.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Math.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Math.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Math.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
       <verb args="-n &quot;%1&quot;" name="new">
         <description xml:lang="en">&amp;New</description>
         <description xml:lang="de">&amp;Neu</description>
@@ -1140,8 +1140,8 @@
     <file-type id="soffice.StarWriterDocument.6">
       <description xml:lang="en">OpenOffice.org 1.1 Text Document</description>
       <description xml:lang="de">OpenOffice.org 1.1 Text Dokument</description>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Writer.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Writer.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Writer.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Writer.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
       <verb args="-n &quot;%1&quot;" name="new">
         <description xml:lang="en">&amp;New</description>
         <description xml:lang="de">&amp;Neu</description>
@@ -1160,8 +1160,8 @@
     <file-type id="soffice.StarWriterGlobalDocument.6">
       <description xml:lang="en">OpenOffice.org 1.1 Master Document</description>
       <description xml:lang="de">OpenOffice.org 1.1 Globaldokument</description>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Writer_Global.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Writer_Global.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Writer_Global.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Writer_Global.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
       <verb args="-n &quot;%1&quot;" name="new">
         <description xml:lang="en">&amp;New</description>
         <description xml:lang="de">&amp;Neu</description>
@@ -1174,8 +1174,8 @@
     <file-type id="soffice.StarWriterTemplate.6">
       <description xml:lang="en">OpenOffice.org 1.1 Text Document Template</description>
       <description xml:lang="de">OpenOffice.org 1.1 Textdokumentvorlage</description>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Writer_Template.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
-      <icon href="http://0install.de/feed-icons/LibreOffice/Writer_Template.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Writer_Template.png" type="image/png" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/LibreOffice/Writer_Template.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
       <verb args="-n &quot;%1&quot;" name="new">
         <description xml:lang="en">&amp;New</description>
         <description xml:lang="de">&amp;Neu</description>
