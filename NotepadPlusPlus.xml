@@ -11,7 +11,7 @@
   <category>Development</category>
   <category>Utility</category>
 
-  <feed-for interface="http://repo.roscidus.com/editors/notepad-plus-plus"/>
+  <feed src="http://repo.roscidus.com/editors/notepad-plus-plus"/>
 
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
     <file-type id="Notepad++_textfile">
