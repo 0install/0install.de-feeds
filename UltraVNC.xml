@@ -37,13 +37,13 @@
   </group>
   <entry-point command="run" binary-name="vncviewer">
     <name xml:lang="en">UltraVNC Viewer</name>
-    <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/UltraVNC.png" type="image/png" />
-    <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/UltraVNC.ico" type="image/vnd.microsoft.icon" />
+    <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/UltraVNC.Viewer.png" type="image/png" />
+    <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/UltraVNC.Viewer.ico" type="image/vnd.microsoft.icon" />
   </entry-point>
   <entry-point command="server" binary-name="winvnc">
     <name xml:lang="en">UltraVNC Server</name>
-    <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/UltraVNC.Server.png" type="image/png" />
-    <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/UltraVNC.Server.ico" type="image/vnd.microsoft.icon" />
+    <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/UltraVNC.png" type="image/png" />
+    <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/UltraVNC.ico" type="image/vnd.microsoft.icon" />
   </entry-point>
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
     <file-type description="VNCviewer Config File" id="UltraVNC.VncViewer.Config">

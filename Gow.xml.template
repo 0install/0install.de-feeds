@@ -9,7 +9,7 @@
   <needs-terminal />
   <feed-for interface="http://0install.de/feeds/Gow.xml" />
   <group arch="Windows-*">
-    <requires interface="http://0install.de/feeds/PuTTY.xml" importance="recommended">
+    <requires interface="http://repo.roscidus.com/utils/putty" importance="recommended">
       <executable-in-path command="plink" name="ssh" />
       <executable-in-path command="pscp" name="scp" />
       <executable-in-path command="psftp" name="sftp" />
