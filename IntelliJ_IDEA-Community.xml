@@ -1,26 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?>
-<interface uri="http://0install.de/feeds/IntelliJ_IDEA-Community.xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<?xml version="1.0" ?>
+<interface uri="http://0install.de/feeds/IntelliJ_IDEA-Community.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
   <name>JetBrains IntelliJ IDEA Community</name>
   <summary xml:lang="en">Capabale and Ergonomic IDE for JVM</summary>
-  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/IntelliJ_IDEA.ico" type="image/vnd.microsoft.icon" />
-  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/IntelliJ_IDEA.png" type="image/png" />
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/IntelliJ_IDEA.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/IntelliJ_IDEA.png" type="image/png"/>
   <homepage>http://www.jetbrains.com/idea/</homepage>
   <category>Development</category>
+
   <group>
     <requires interface="http://repo.roscidus.com/java/openjdk-jdk">
-      <environment name="CLASS_PATH" insert="lib/tools.jar" />
+      <environment insert="lib/tools.jar" name="CLASS_PATH"/>
     </requires>
-    <environment name="IDE_HOME" insert="." />
-    <environment name="PATH" insert="bin" />
-    <environment name="CLASS_PATH" insert="lib/bootstrap.jar" />
-    <environment name="CLASS_PATH" insert="lib/extensions.jar" />
-    <environment name="CLASS_PATH" insert="lib/util.jar" />
-    <environment name="CLASS_PATH" insert="lib/jdom.jar" />
-    <environment name="CLASS_PATH" insert="lib/log4j.jar" />
-    <environment name="CLASS_PATH" insert="lib/trove4j.jar" />
-    <environment name="CLASS_PATH" insert="lib/jna.jar" />
+    <environment insert="." name="IDE_HOME"/>
+    <environment insert="bin" name="PATH"/>
+    <environment insert="lib/bootstrap.jar" name="CLASS_PATH"/>
+    <environment insert="lib/extensions.jar" name="CLASS_PATH"/>
+    <environment insert="lib/util.jar" name="CLASS_PATH"/>
+    <environment insert="lib/jdom.jar" name="CLASS_PATH"/>
+    <environment insert="lib/log4j.jar" name="CLASS_PATH"/>
+    <environment insert="lib/trove4j.jar" name="CLASS_PATH"/>
+    <environment insert="lib/jna.jar" name="CLASS_PATH"/>
     <command name="run">
-      <runner interface="http://repo.roscidus.com/java/openjdk-jdk" command="java-gui">
+      <runner command="java-gui" interface="http://repo.roscidus.com/java/openjdk-jdk">
         <arg>-server</arg>
         <arg>-Xms128m</arg>
         <arg>-Xmx512m</arg>
@@ -39,38 +40,88 @@
         <arg>com.intellij.idea.Main</arg>
       </runner>
     </command>
-    <implementation version="2016.3.2" stability="stable" id="sha1new=3e49f285296181a3ad3792a4de1af6d0a6844aaa">
-      <environment name="IDEA_PATHS_SELECTOR" value="IdeaIC2016.3" />
-      <manifest-digest sha1new="3e49f285296181a3ad3792a4de1af6d0a6844aaa" sha256="be72f6b099da147c2625ed07449fd93344e4fd56012cba19fad1db96f68ad070" sha256new="XZZPNMEZ3IKHYJRF5UDUJH6ZGNCOJ7KWAEWLUGP22HNZN5UK2BYA" />
-      <archive href="https://download.jetbrains.com/idea/ideaIC-2016.3.2-no-jdk.tar.gz" size="338110499" type="application/x-compressed-tar" extract="idea-IC-163.10154.41" />
-    </implementation>
-    <implementation version="2018.2.2" stability="stable" id="sha1new=d848298f5fa35d1893dd7d66fdcd4ed63addc6bd">
-      <environment name="IDEA_PATHS_SELECTOR" value="IdeaIC2016.3" />
-      <manifest-digest sha256new="R5GWBXUAM5TU3RIYQRTXJLQCIYOX2ISSH5GFXNH2C6TAVGTISUPA" />
-      <archive href="https://download.jetbrains.com/idea/ideaIC-2018.2.2-no-jdk.tar.gz" size="447211553" type="application/x-compressed-tar" extract="idea-IC-182.4129.33" />
-    </implementation>
+
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="IdeaIC2016.2"/>
+      <implementation id="sha1new=096a5357b90b5b447a8422fd6a3cb5cdee339c12" released="2016-10-17" stability="stable" version="2016.2.5">
+        <manifest-digest sha256new="3ZUD6FIPCAELKZ4UNAL6CFGTG3AETWTKDFSMTRN6VXYZWPJ4XTJA"/>
+        <archive extract="idea-IC-162.2228.15" href="https://download.jetbrains.com/idea/ideaIC-2016.2.5-no-jdk.tar.gz" size="266041694" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="IdeaIC2016.3"/>
+      <implementation id="sha1new=321523daef4f4a328b2b6c534f76a75842e443ad" released="2018-03-05" stability="stable" version="2016.3.8">
+        <manifest-digest sha256new="PKQQEVFCGWSQ543NKKR6C2VJ3RV2WYRIB6SUSRLPFB4WQINFC5WQ"/>
+        <archive extract="idea-IC-163.15529.8" href="https://download.jetbrains.com/idea/ideaIC-2016.3.8-no-jdk.tar.gz" size="338045400" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="IdeaIC2017.1"/>
+      <implementation id="sha1new=dee329ccd6af2992c914a3b1324e8f4c5b09d8a5" released="2018-03-05" stability="stable" version="2017.1.6">
+        <manifest-digest sha256new="KMN3GEUAZNXSMRUK57FO3QOTB6TIFORYNQX4PI6UIE7OB42QWHPQ"/>
+        <archive extract="idea-IC-171.4694.73" href="https://download.jetbrains.com/idea/ideaIC-2017.1.6-no-jdk.tar.gz" size="355646728" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="IdeaIC2017.2"/>
+      <implementation id="sha1new=6f478f0ada9d723c78654508ba7307c7a75db9bd" released="2018-03-02" stability="stable" version="2017.2.7">
+        <manifest-digest sha256new="ZLO7OO3B4WK3HX6TNYLNWQIYIL5HA7UCNUJRINED6KCL6XT6ZF4A"/>
+        <archive extract="idea-IC-172.4574.19" href="https://download.jetbrains.com/idea/ideaIC-2017.2.7-no-jdk.tar.gz" size="369573278" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="IdeaIC2017.3"/>
+      <implementation id="sha1new=55638154927ba5b62aabf5f0d87aa3e2865ae786" released="2018-03-13" stability="stable" version="2017.3.5">
+        <manifest-digest sha256new="7FVO5RD2ADG7W7Q6K7FZ3WUG72PSI26ELCS4KFPXLCN2LFWPBO3Q"/>
+        <archive extract="idea-IC-173.4674.33" href="https://download.jetbrains.com/idea/ideaIC-2017.3.5-no-jdk.tar.gz" size="383722530" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="IdeaIC2018.1"/>
+      <implementation id="sha1new=f6c8f40eea80b005f7a79076d36b1c684628788f" released="2018-07-12" stability="stable" version="2018.1.6">
+        <manifest-digest sha256new="IH3OP7A4K4YGZVY2Q7HCMF3EDESS7L7S5HKKQRDEZT3QILSLAJMQ"/>
+        <archive extract="idea-IC-181.5540.7" href="https://download.jetbrains.com/idea/ideaIC-2018.1.6-no-jdk.tar.gz" size="469330172" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="IdeaIC2018.2"/>
+      <implementation id="sha1new=276206d887e278130e86e3d39fc6a9d5706ed1ea" released="2018-09-04" stability="stable" version="2018.2.3">
+        <manifest-digest sha256new="NLELRCIABQZWXEGB2SYFVGM3UKZCDF4PIRV2D2F2ONXCNK7LRD5Q"/>
+        <archive extract="idea-IC-182.4323.46" href="https://download.jetbrains.com/idea/ideaIC-2018.2.3-no-jdk.tar.gz" size="448379056" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=4be82b22e3184529f538b6ddeff89747314ea882" released="2018-09-18" stability="stable" version="2018.2.4">
+        <manifest-digest sha256new="IQ7T7AGYJSVKM45UZKDGIFLFKNFWDXATZI3RDQ2ELYE5YI4URSKQ"/>
+        <archive extract="idea-IC-182.4505.22" href="https://download.jetbrains.com/idea/ideaIC-2018.2.4-no-jdk.tar.gz" size="448402215" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=20aef39173fbae9ca5122b5524facae76e08a666" released="2018-10-16" stability="stable" version="2018.2.5">
+        <manifest-digest sha256new="742D4WZE6IA3ZJOEVMSQBPIQJYCYDP6SF2652GDZEOJZC6CXIIXA"/>
+        <archive extract="idea-IC-182.4892.20" href="https://download.jetbrains.com/idea/ideaIC-2018.2.5-no-jdk.tar.gz" size="448418647" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
   </group>
-  <entry-point command="run" binary-name="idea" />
+
+  <entry-point binary-name="idea" command="run"/>
+
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
     <file-type id="Idea.IntelliJIdeaProjectFile">
       <description xml:lang="en">IntelliJ IDEA Project File</description>
-      <verb name="open" args="&quot;%1&quot;" />
-      <extension value=".ipr" />
+      <verb args="&quot;%1&quot;" name="open"/>
+      <extension value=".ipr"/>
     </file-type>
     <file-type id="Idea.JavaFile">
       <description xml:lang="en">Java source file</description>
-      <verb name="open" args="&quot;%1&quot;" />
-      <extension value=".java" perceived-type="text" />
+      <verb args="&quot;%1&quot;" name="open"/>
+      <extension perceived-type="text" value=".java"/>
     </file-type>
     <file-type id="Idea.GroovyFile">
       <description xml:lang="en">Groocy source file</description>
-      <verb name="open" args="&quot;%1&quot;" />
-      <extension value=".groovy" perceived-type="text" />
+      <verb args="&quot;%1&quot;" name="open"/>
+      <extension perceived-type="text" value=".groovy"/>
     </file-type>
     <file-type id="Idea.KotlinFile">
       <description xml:lang="en">Kotlin source file</description>
-      <verb name="open" args="&quot;%1&quot;" />
-      <extension value=".kt" perceived-type="text" />
+      <verb args="&quot;%1&quot;" name="open"/>
+      <extension perceived-type="text" value=".kt"/>
     </file-type>
   </capabilities>
 </interface>
