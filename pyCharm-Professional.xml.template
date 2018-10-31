@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <name>JetBrains PyCharm Professional</name>
+  <summary>Python IDE for Professional Developers</summary>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/pyCharm.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/pyCharm.png" type="image/png"/>
+  <homepage>http://www.jetbrains.com/pycharm/</homepage>
+  <category>Development</category>
+
+  <feed-for interface="http://0install.de/feeds/pyCharm-Professional.xml"/>
+
+  <group>
+    <environment insert="." name="IDE_HOME"/>
+    <environment insert="bin" name="PATH"/>
+    <environment insert="lib/bootstrap.jar" name="CLASS_PATH"/>
+    <environment insert="lib/extensions.jar" name="CLASS_PATH"/>
+    <environment insert="lib/util.jar" name="CLASS_PATH"/>
+    <environment insert="lib/jdom.jar" name="CLASS_PATH"/>
+    <environment insert="lib/log4j.jar" name="CLASS_PATH"/>
+    <environment insert="lib/trove4j.jar" name="CLASS_PATH"/>
+    <environment insert="lib/jna.jar" name="CLASS_PATH"/>
+    <environment insert="jre/lib/tools.jar" name="CLASS_PATH"/>
+    <command name="run">
+      <runner command="run-gui" interface="http://repo.roscidus.com/java/openjdk-jre">
+        <arg>-server</arg>
+        <arg>-Xms128m</arg>
+        <arg>-Xmx512m</arg>
+        <arg>-XX:ReservedCodeCacheSize=240m</arg>
+        <arg>-XX:+UseConcMarkSweepGC</arg>
+        <arg>-XX:SoftRefLRUPolicyMSPerMB=50</arg>
+        <arg>-ea</arg>
+        <arg>-Dsun.io.useCanonCaches=false</arg>
+        <arg>-Djava.net.preferIPv4Stack=true</arg>
+        <arg>-XX:+HeapDumpOnOutOfMemoryError</arg>
+        <arg>-XX:-OmitStackTraceInFastThrow</arg>
+        <arg>-Xbootclasspath/a:$IDE_HOME/lib/boot.jar</arg>
+        <arg>-Didea.paths.selector=$IDEA_PATHS_SELECTOR</arg>
+        <arg>-Didea.platform.prefix=Python</arg>
+        <arg>-cp</arg>
+        <arg>$CLASS_PATH</arg>
+        <arg>com.intellij.idea.Main</arg>
+      </runner>
+    </command>
+
+    <implementation released="{released}" stability="stable" version="{version}">
+      <environment name="IDEA_PATHS_SELECTOR" value="PyCharm{major-version}"/>
+      <archive extract="pycharm-{version}" href="https://download.jetbrains.com/python/pycharm-professional-{version}.tar.gz" type="application/x-compressed-tar"/>
+    </implementation>
+  </group>
+</interface>

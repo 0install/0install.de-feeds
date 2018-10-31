@@ -1,25 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?>
-<interface uri="http://0install.de/feeds/pyCharm-Professional.xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<?xml version="1.0" ?>
+<interface uri="http://0install.de/feeds/pyCharm-Professional.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
   <name>JetBrains PyCharm Professional</name>
-  <summary xml:lang="en">Python IDE for Professional Developers</summary>
-  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/pyCharm.ico" type="image/vnd.microsoft.icon" />
-  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/pyCharm.png" type="image/png" />
+  <summary>Python IDE for Professional Developers</summary>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/pyCharm.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/pyCharm.png" type="image/png"/>
   <homepage>http://www.jetbrains.com/pycharm/</homepage>
   <category>Development</category>
+
   <group>
-    <environment name="IDE_HOME" insert="." />
-    <environment name="PATH" insert="bin" />
-    <environment name="CLASS_PATH" insert="lib/bootstrap.jar" />
-    <environment name="CLASS_PATH" insert="lib/extensions.jar" />
-    <environment name="CLASS_PATH" insert="lib/util.jar" />
-    <environment name="CLASS_PATH" insert="lib/jdom.jar" />
-    <environment name="CLASS_PATH" insert="lib/log4j.jar" />
-    <environment name="CLASS_PATH" insert="lib/trove4j.jar" />
-    <environment name="CLASS_PATH" insert="lib/jna.jar" />
-    <environment name="CLASS_PATH" insert="jre/lib/tools.jar" />
-    <environment name="IDEA_PLATFORM_PREFIX" value="Python" />
+    <environment insert="." name="IDE_HOME"/>
+    <environment insert="bin" name="PATH"/>
+    <environment insert="lib/bootstrap.jar" name="CLASS_PATH"/>
+    <environment insert="lib/extensions.jar" name="CLASS_PATH"/>
+    <environment insert="lib/util.jar" name="CLASS_PATH"/>
+    <environment insert="lib/jdom.jar" name="CLASS_PATH"/>
+    <environment insert="lib/log4j.jar" name="CLASS_PATH"/>
+    <environment insert="lib/trove4j.jar" name="CLASS_PATH"/>
+    <environment insert="lib/jna.jar" name="CLASS_PATH"/>
+    <environment insert="jre/lib/tools.jar" name="CLASS_PATH"/>
     <command name="run">
-      <runner interface="http://repo.roscidus.com/java/openjdk-jre" command="run-gui">
+      <runner command="run-gui" interface="http://repo.roscidus.com/java/openjdk-jre">
         <arg>-server</arg>
         <arg>-Xms128m</arg>
         <arg>-Xmx512m</arg>
@@ -33,29 +33,207 @@
         <arg>-XX:-OmitStackTraceInFastThrow</arg>
         <arg>-Xbootclasspath/a:$IDE_HOME/lib/boot.jar</arg>
         <arg>-Didea.paths.selector=$IDEA_PATHS_SELECTOR</arg>
-        <arg>-Didea.platform.prefix=$IDEA_PLATFORM_PREFIX</arg>
+        <arg>-Didea.platform.prefix=Python</arg>
         <arg>-cp</arg>
         <arg>$CLASS_PATH</arg>
         <arg>com.intellij.idea.Main</arg>
       </runner>
     </command>
-    <implementation version="2016.3.2" stability="stable" id="sha1new=d41ba8055ec9593f80279c5d50add962335c9872">
-      <environment name="IDEA_PATHS_SELECTOR" value="PyCharm2016.3" />
-      <manifest-digest sha1new="d41ba8055ec9593f80279c5d50add962335c9872" sha256="a98f246aeef701150108e119587db61a5441c1fce58f71e0c1dc471095f1dd79" sha256new="VGHSI2XO64ARKAII4EMVQ7NWDJKEDQP44WHXDYGB3RDRBFPR3V4Q" />
-      <archive href="https://download.jetbrains.com/python/pycharm-professional-2016.3.2.tar.gz" size="283150795" type="application/x-compressed-tar" extract="pycharm-2016.3.2" />
-    </implementation>
+
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="PyCharm2016.1"/>
+      <implementation id="sha1new=7ed201cbe80ddbf69e74c6d20af5ea601c3942e4" released="2016-11-18" stability="stable" version="2016.1.5">
+        <manifest-digest sha256new="TALYIHDHFA6SKJVTPI4OOXZGN7RHILTPE5SUBVK5KQ75KZNUOAIQ"/>
+        <archive extract="pycharm-2016.1.5" href="https://download.jetbrains.com/python/pycharm-professional-2016.1.5.tar.gz" size="267210018" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="PyCharm2016.2"/>
+      <implementation id="sha1new=6e77774d151173f0e3cc19474afff1d186691dac" released="2016-09-07" stability="stable" version="2016.2.3">
+        <manifest-digest sha256new="4EEBHVX2TIA5BNHM74F6ITW3Q3OU6XCFTJEYDQ3DNN6ED23MZ4NA"/>
+        <archive extract="pycharm-2016.2.3" href="https://download.jetbrains.com/python/pycharm-professional-2016.2.3.tar.gz" size="270995663" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="PyCharm2016.3"/>
+      <implementation id="sha1new=ccfff0ac4d24364feec46663cc66d9dd2e6de7af" released="2017-03-17" stability="stable" version="2016.3.3">
+        <manifest-digest sha256new="CRSIWSZTBTHE4BWIBCC5KG3CPLEEXORT5DNSO24CON5PYAX7FWYA"/>
+        <archive extract="pycharm-2016.3.3" href="https://download.jetbrains.com/python/pycharm-professional-2016.3.3.tar.gz" size="282217430" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=d68f68091ed15618cf145418eb121b9da7b87ca2" released="2018-03-07" stability="stable" version="2016.3.4">
+        <manifest-digest sha256new="FJCB7BJCFZI33PHZ52WONVKFLNZ7QWFRK5WRA7RBKNX53IR3IFMA"/>
+        <archive extract="pycharm-2016.3.4" href="https://download.jetbrains.com/python/pycharm-professional-2016.3.4.tar.gz" size="282192203" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=d3e3900890d9f4721c2615244a79c59f92a63f16" released="2018-04-11" stability="stable" version="2016.3.5">
+        <manifest-digest sha256new="LOKZFWOL7PJYUPWG7YWUV5JKWGM2PDLS6WQSW6YIPMG7AHM73DLA"/>
+        <archive extract="pycharm-2016.3.5" href="https://download.jetbrains.com/python/pycharm-professional-2016.3.5.tar.gz" size="282195375" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=dce8f9a0ff699a07784c3ae0354d6709a66cb327" released="2018-05-30" stability="stable" version="2016.3.6">
+        <manifest-digest sha256new="5LFWITRVMNBYFR32SAYV2CJSZ5EDR2NFPHCVLXJVVXB3XBQY2ABQ"/>
+        <archive extract="pycharm-2016.3.6" href="https://download.jetbrains.com/python/pycharm-professional-2016.3.6.tar.gz" size="290850351" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="PyCharm2017.1"/>
+      <implementation id="sha1new=f7bc1442bbcf7921039b116ab94ac0898fd2b154" released="2017-04-28" stability="stable" version="2017.1.2">
+        <manifest-digest sha256new="5JGCXELUK6EEQG76BDEFIULOTUPVXYAROW3INQJUJSXSQXWGGRDQ"/>
+        <archive extract="pycharm-2017.1.2" href="https://download.jetbrains.com/python/pycharm-professional-2017.1.2.tar.gz" size="269272246" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=5c6ba114bbf89cf08ec1eac120ee41a286658b30" released="2017-05-23" stability="stable" version="2017.1.3">
+        <manifest-digest sha256new="HD3FXBL6YDRFFGF5AB5GSIFUQDNOO5DIUEG4VJAYPVEEH75BEWGQ"/>
+        <archive extract="pycharm-2017.1.3" href="https://download.jetbrains.com/python/pycharm-professional-2017.1.3.tar.gz" size="269681026" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=805a5afe46554493a491cf461d2ebe96574bf3e6" released="2017-06-15" stability="stable" version="2017.1.4">
+        <manifest-digest sha256new="LYZWL26ZDBUAKAZIP6VZOCJADSTOCLUQ3QYKBNZ3XB5SFGTMUVTQ"/>
+        <archive extract="pycharm-2017.1.4" href="https://download.jetbrains.com/python/pycharm-professional-2017.1.4.tar.gz" size="269710244" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=7afd3d4fb8a16047c253837aff656fb0d92495e7" released="2017-07-12" stability="stable" version="2017.1.5">
+        <manifest-digest sha256new="TRKAFFMYOPQXM6LDGBGSZ5M5TLDYFDEKRHSLZBPQNAWF6B4UJLDA"/>
+        <archive extract="pycharm-2017.1.5" href="https://download.jetbrains.com/python/pycharm-professional-2017.1.5.tar.gz" size="269726667" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=bda63667fff4d959d2f1bc23d8bb05f8f4ef85bd" released="2018-03-07" stability="stable" version="2017.1.6">
+        <manifest-digest sha256new="KBPT2A7AQYQAU2NHX6PFXZWA5B2A3ZDIGDXY63EFXUYJQVDQOB2Q"/>
+        <archive extract="pycharm-2017.1.6" href="https://download.jetbrains.com/python/pycharm-professional-2017.1.6.tar.gz" size="269676612" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=4a9953a240a93b1213b7acb9b84d0c5007f7ca28" released="2018-04-11" stability="stable" version="2017.1.7">
+        <manifest-digest sha256new="NHBCCUNJJ4SCULR7RB3ECY7BIEI5QWI5STVLLYJWVZXTFLWGYK3Q"/>
+        <archive extract="pycharm-2017.1.7" href="https://download.jetbrains.com/python/pycharm-professional-2017.1.7.tar.gz" size="269654226" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=4e7c2bfd2e4b5885a107a460ae26cb8bcffafd1a" released="2018-05-30" stability="stable" version="2017.1.8">
+        <manifest-digest sha256new="GVCACOPW65IRFIQFNFUAGGSNFAVN5CQDB7IRQKATE34W7LWKHWWQ"/>
+        <archive extract="pycharm-2017.1.8" href="https://download.jetbrains.com/python/pycharm-professional-2017.1.8.tar.gz" size="274610253" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="PyCharm2017.2"/>
+      <implementation id="sha1new=191141bb0fe317eeecf2954927e41ea8c7cbbfe7" released="2017-07-26" stability="stable" version="2017.2">
+        <manifest-digest sha256new="YN5MD6BXC7E7ZZ6BUGS7TW4YAN6FRT77NKMRML64ONZPAF3567FQ"/>
+        <archive extract="pycharm-2017.2" href="https://download.jetbrains.com/python/pycharm-professional-2017.2.tar.gz" size="275705281" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=c3b4f7b440116efff71886c97e74fcbd1e9e8c51" released="2017-08-09" stability="stable" version="2017.2.1">
+        <manifest-digest sha256new="7YGRPJ7PYSCAG5X2QVBB7U6JRZ75SASIFBAVPEGPU6OFEUS4NJEA"/>
+        <archive extract="pycharm-2017.2.1" href="https://download.jetbrains.com/python/pycharm-professional-2017.2.1.tar.gz" size="276530496" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=1c54bf89a40b892d0716e4871a70ffdd09537c96" released="2017-08-24" stability="stable" version="2017.2.2">
+        <manifest-digest sha256new="DFE755IHCXDJVHBSGTFME2GLKAWBP7HC4TVREVVKUUEOFK2K2NHA"/>
+        <archive extract="pycharm-2017.2.2" href="https://download.jetbrains.com/python/pycharm-professional-2017.2.2.tar.gz" size="276621357" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=6eb511050d77349dc8d223799fa075763fb98f33" released="2017-09-06" stability="stable" version="2017.2.3">
+        <manifest-digest sha256new="RAAHAW6YTAL4Z4CSVXF4VCVYB4YMDYFOUPR3VRQHV7CO36OOAETQ"/>
+        <archive extract="pycharm-2017.2.3" href="https://download.jetbrains.com/python/pycharm-professional-2017.2.3.tar.gz" size="273776254" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=2502d8f7ad2e9f81145d637f17dd1e098febdafb" released="2017-10-31" stability="stable" version="2017.2.4">
+        <manifest-digest sha256new="6KZCNDKI3ICGGEMMUDFPJ57ON7G63SFKSEP6J7FE32GQGEYAPYOQ"/>
+        <archive extract="pycharm-2017.2.4" href="https://download.jetbrains.com/python/pycharm-professional-2017.2.4.tar.gz" size="273678656" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=ff39963f42117488a4d474cf97713d52f32ef0ab" released="2018-03-07" stability="stable" version="2017.2.5">
+        <manifest-digest sha256new="6UQLXLEL4I3VMOOXEU47IX5NKCE7OV3C76YBZTBOVJ4MPTED3XPQ"/>
+        <archive extract="pycharm-2017.2.5" href="https://download.jetbrains.com/python/pycharm-professional-2017.2.5.tar.gz" size="273452420" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=dec643eb03c384f6cb2cde9b9b308577c51e0f82" released="2018-04-11" stability="stable" version="2017.2.6">
+        <manifest-digest sha256new="EIXJY7QSQ72HKWO2NQQBJ77DP3JDBHCYUCPH5PYINJL3SQZRNIBA"/>
+        <archive extract="pycharm-2017.2.6" href="https://download.jetbrains.com/python/pycharm-professional-2017.2.6.tar.gz" size="273465614" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=47344e46fc73c088cbfaffdad3a0e803567c1759" released="2018-05-30" stability="stable" version="2017.2.7">
+        <manifest-digest sha256new="6U7MYXCMON6IKY4ZOUVNGAVAQVSKXEVDNTVDJ54T2HW4RS3OVP3Q"/>
+        <archive extract="pycharm-2017.2.7" href="https://download.jetbrains.com/python/pycharm-professional-2017.2.7.tar.gz" size="278398378" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="PyCharm2017.3"/>
+      <implementation id="sha1new=d5b5512a8afa83dd1e20a2f79fba78832275b50d" released="2017-11-29" stability="stable" version="2017.3">
+        <manifest-digest sha256new="2N7272BXCSE4Y54W6XTMMIQ7G2P46NS4B3YVJCD3M3HXYQN5XSSQ"/>
+        <archive extract="pycharm-2017.3" href="https://download.jetbrains.com/python/pycharm-professional-2017.3.tar.gz" size="358504339" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=b2605650cc6cf5d7003f9aff81a8acd2a3edac58" released="2017-12-14" stability="stable" version="2017.3.1">
+        <manifest-digest sha256new="3IVYTBG43UM7WE74ZD2JVOUZDCCFVQ5KCY3MJP57F2DX4MMJPR3Q"/>
+        <archive extract="pycharm-2017.3.1" href="https://download.jetbrains.com/python/pycharm-professional-2017.3.1.tar.gz" size="355985604" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=84cd6b5a7f9e8ed28a0ece26b4475f13e70b70d9" released="2017-12-28" stability="stable" version="2017.3.2">
+        <manifest-digest sha256new="6LM3VEYV63CLWPAG43NMCIPQ4LZJ43PVA2VMWCKYWC4KW57YYXEA"/>
+        <archive extract="pycharm-2017.3.2" href="https://download.jetbrains.com/python/pycharm-professional-2017.3.2.tar.gz" size="356041358" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=7f9802e59f18458a5f7bbb92520e3b7a56989263" released="2018-01-18" stability="stable" version="2017.3.3">
+        <manifest-digest sha256new="VOEWIZNODZ4QON5GW6IOVA4LQ7GFLB2CD7PF6PMCOEWUWT6HTG3A"/>
+        <archive extract="pycharm-2017.3.3" href="https://download.jetbrains.com/python/pycharm-professional-2017.3.3.tar.gz" size="356063034" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=c5fcd8a58cb8bd1df7f4a26bc75a789bdea7eea9" released="2018-03-07" stability="stable" version="2017.3.4">
+        <manifest-digest sha256new="Y557IANG4WYHV6HM77AJBO2MMEU5XBYOMCTCDLXRSE4PDHS2PXQA"/>
+        <archive extract="pycharm-2017.3.4" href="https://download.jetbrains.com/python/pycharm-professional-2017.3.4.tar.gz" size="356283723" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=55c99d1256d59874ffddba1c0f44a3b3d56c3a67" released="2018-04-11" stability="stable" version="2017.3.5">
+        <manifest-digest sha256new="XQMFO3VEZPUXXDK4M7QBC5L3MESK4HHT6XDM6XI67IVFEPCD7DBQ"/>
+        <archive extract="pycharm-2017.3.5" href="https://download.jetbrains.com/python/pycharm-professional-2017.3.5.tar.gz" size="356274646" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=723b736a3c0e2a764e9bd4dcddd411008582c90f" released="2018-05-30" stability="stable" version="2017.3.6">
+        <manifest-digest sha256new="MV5QKV2FFL6DJT36CJPEFAZYVB2VUYEAIH7CT3RGPACY7V6ALEFA"/>
+        <archive extract="pycharm-2017.3.6" href="https://download.jetbrains.com/python/pycharm-professional-2017.3.6.tar.gz" size="365650786" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="PyCharm2018.1"/>
+      <implementation id="sha1new=b201116b02e6e3ab71902aabfa458154f755a1e1" released="2018-03-28" stability="stable" version="2018.1">
+        <manifest-digest sha256new="Q7B6F4474BSBT3E5MN7XBF22K6O53XO2DR2T26H7WMBT3PWEHJYA"/>
+        <archive extract="pycharm-2018.1" href="https://download.jetbrains.com/python/pycharm-professional-2018.1.tar.gz" size="343431274" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=760e514063cd7d65f54a4843a78fff7ad04fe971" released="2018-04-10" stability="stable" version="2018.1.1">
+        <manifest-digest sha256new="44SZZGG2SLEXPKHUT44IJUMBPZEXB3DVHBSTDPV7RI4BNWXTFZ3A"/>
+        <archive extract="pycharm-2018.1.1" href="https://download.jetbrains.com/python/pycharm-professional-2018.1.1.tar.gz" size="343686899" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=6057bbc9af280a9031fe4d6fdeedbf735575e1b1" released="2018-04-25" stability="stable" version="2018.1.2">
+        <manifest-digest sha256new="VYZ37YU67ZJIKPWLEMI4E32GPO2DRJ7EOLYCPSYOFDMCMSE3AFTQ"/>
+        <archive extract="pycharm-2018.1.2" href="https://download.jetbrains.com/python/pycharm-professional-2018.1.2.tar.gz" size="344700413" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=71f32c7a3abf4432a0533dff5b10e735d79a0f9b" released="2018-05-16" stability="stable" version="2018.1.3">
+        <manifest-digest sha256new="U4LAX3KYTWQOZI5WJT3NGMOSYQT2DLFGUXHS47KQ4WYNAFJ5QTDA"/>
+        <archive extract="pycharm-2018.1.3" href="https://download.jetbrains.com/python/pycharm-professional-2018.1.3.tar.gz" size="343701376" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=8906198470a15341260f307fe60169d7adf72f8a" released="2018-05-31" stability="stable" version="2018.1.4">
+        <manifest-digest sha256new="KAYX67HZWVTFKM2CQPXSUKQEQG3INNTDDRHWWMKIEYS275TBIIPA"/>
+        <archive extract="pycharm-2018.1.4" href="https://download.jetbrains.com/python/pycharm-professional-2018.1.4.tar.gz" size="348483306" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=bf2629e4a48aaa0945cc9268dda7d37efda3e064" released="2018-08-30" stability="stable" version="2018.1.5">
+        <manifest-digest sha256new="HSOG34G3Q75PADDJXE64RO4PCLGGHRFMQAS2RFKY5BIWLBOHBTXA"/>
+        <archive extract="pycharm-2018.1.5" href="https://download.jetbrains.com/python/pycharm-professional-2018.1.5.tar.gz" size="348462218" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="PyCharm2018.2"/>
+      <implementation id="sha1new=219487a682d8ede37aa7973bc0bb50187d6d95b1" released="2018-07-25" stability="stable" version="2018.2">
+        <manifest-digest sha256new="EKAW4CZAPZ2IEHIN2QS7DA4AFD3GUZX376EQYOIYB7JCGLM6K6FA"/>
+        <archive extract="pycharm-2018.2" href="https://download.jetbrains.com/python/pycharm-professional-2018.2.tar.gz" size="337502172" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=7bfa6768fa1569d3a2b0cd14db9a649abdf55db8" released="2018-08-08" stability="stable" version="2018.2.1">
+        <manifest-digest sha256new="6TLYJ3F4AWP5R6PS7JCMVGWFG3AJTFOEPYPAH35XZCTDYHGZPV4Q"/>
+        <archive extract="pycharm-2018.2.1" href="https://download.jetbrains.com/python/pycharm-professional-2018.2.1.tar.gz" size="343377232" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=0c6d7a7a15cbac8c36ae979cce5333ca7bbc2977" released="2018-08-22" stability="stable" version="2018.2.2">
+        <manifest-digest sha256new="NZC3OIKIW4V5MHQGBF6K37UID5MOIXPQRJONVBOAPI7L6DGNNA2Q"/>
+        <archive extract="pycharm-2018.2.2" href="https://download.jetbrains.com/python/pycharm-professional-2018.2.2.tar.gz" size="343667267" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=0d7ec4251f8a50506e2daa62e7a208d1636cb8f9" released="2018-09-06" stability="stable" version="2018.2.3">
+        <manifest-digest sha256new="A7TE2LAAYKDICUN2SJJ4LQOH7KIO2AVKFPQVIT2UI6RWMRSAFNSQ"/>
+        <archive extract="pycharm-2018.2.3" href="https://download.jetbrains.com/python/pycharm-professional-2018.2.3.tar.gz" size="343689244" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=a70c3298fdee1787bada58b5c9c5120c73d00625" released="2018-09-20" stability="stable" version="2018.2.4">
+        <manifest-digest sha256new="BDFSXYNBGG4TLHKTNIKTZ64YKKYBJFZLHCAOGJQSQQTJJUMSHQNA"/>
+        <archive extract="pycharm-2018.2.4" href="https://download.jetbrains.com/python/pycharm-professional-2018.2.4.tar.gz" size="343705704" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
   </group>
-  <entry-point command="run" binary-name="pycharm" />
+
+  <entry-point binary-name="pycharm" command="run"/>
+
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
     <file-type id="PyCharm.IntelliJIdeaProjectFile">
-      <description xml:lang="en">IntelliJ IDEA Project File</description>
-      <verb name="open" args="&quot;%1&quot;" />
-      <extension value=".ipr" />
+      <description>IntelliJ IDEA Project File</description>
+      <verb args="&quot;%1&quot;" name="open"/>
+      <extension value=".ipr"/>
     </file-type>
     <file-type id="PyCharm.PythonFile">
-      <description xml:lang="en">Python source file</description>
-      <verb name="open" args="&quot;%1&quot;" />
-      <extension value=".py" perceived-type="text" />
+      <description>Python source file</description>
+      <verb args="&quot;%1&quot;" name="open"/>
+      <extension perceived-type="text" value=".py"/>
     </file-type>
   </capabilities>
 </interface>
