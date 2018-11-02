@@ -5,7 +5,7 @@
   <summary xml:lang="de">dezentrales Versionsverwaltungssystem</summary>
   <description xml:lang="en">Git is a powerful version control system aiming to be the fastest decentralized source code management tool on this planet.</description>
   <description xml:lang="de">Git ist ein mächtiges Versionsverwaltungssystem mit dem Ziel das schnellste denzentrale Quellcodeverwaltungstool auf diesem Planeten zu sein.</description>
-  <icon href="https://git-for-windows.github.io/img/gwindows_logo.png" type="image/png"/>
+  <icon href="https://gitforwindows.org/img/gwindows_logo.png" type="image/png"/>
   <category>Development</category>
   <homepage>https://git-for-windows.github.io/</homepage>
   <needs-terminal/>
