@@ -1,0 +1,138 @@
+<?xml version="1.0" ?>
+<interface uri="http://0install.de/feeds/Rider.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <name>JetBrains Rider</name>
+  <summary>A cross-platform .NET IDE based on the IntelliJ platform and ReSharper</summary>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Rider.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Rider.png" type="image/png"/>
+  <category>Development</category>
+  <homepage>http://www.jetbrains.com/rider/</homepage>
+
+  <group>
+    <environment insert="." name="IDE_HOME"/>
+    <environment insert="bin" name="PATH"/>
+    <environment insert="lib/bootstrap.jar" name="CLASS_PATH"/>
+    <environment insert="lib/extensions.jar" name="CLASS_PATH"/>
+    <environment insert="lib/util.jar" name="CLASS_PATH"/>
+    <environment insert="lib/jdom.jar" name="CLASS_PATH"/>
+    <environment insert="lib/log4j.jar" name="CLASS_PATH"/>
+    <environment insert="lib/trove4j.jar" name="CLASS_PATH"/>
+    <environment insert="lib/jna.jar" name="CLASS_PATH"/>
+    <environment insert="jre/lib/tools.jar" name="CLASS_PATH"/>
+    <command name="run">
+      <runner command="run-gui" interface="http://repo.roscidus.com/java/openjdk-jre">
+        <arg>-server</arg>
+        <arg>-Xms128m</arg>
+        <arg>-Xmx512m</arg>
+        <arg>-XX:ReservedCodeCacheSize=240m</arg>
+        <arg>-XX:+UseConcMarkSweepGC</arg>
+        <arg>-XX:SoftRefLRUPolicyMSPerMB=50</arg>
+        <arg>-ea</arg>
+        <arg>-Dsun.io.useCanonCaches=false</arg>
+        <arg>-Djava.net.preferIPv4Stack=true</arg>
+        <arg>-XX:+HeapDumpOnOutOfMemoryError</arg>
+        <arg>-XX:-OmitStackTraceInFastThrow</arg>
+        <arg>-Xbootclasspath/a:$IDE_HOME/lib/boot.jar</arg>
+        <arg>-Didea.paths.selector=$IDEA_PATHS_SELECTOR</arg>
+        <arg>-Didea.platform.prefix=Rider</arg>
+        <arg>-cp</arg>
+        <arg>$CLASS_PATH</arg>
+        <arg>com.intellij.idea.Main</arg>
+      </runner>
+    </command>
+
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="Rider2017.1"/>
+      <implementation id="sha1new=6a79850cf0b83bad9b43e2866305c9bea8c7143d" released="2017-08-03" stability="developer" version="2017.1">
+        <manifest-digest sha256new="DQR6A3NUTZLLBHSSKDDHVY2ST6W46LIBEAE6PJBAJEXQVNYCPZVQ"/>
+        <archive href="https://download.jetbrains.com/resharper/JetBrains.Rider-2017.1.zip" size="337024050" type="application/zip"/>
+      </implementation>
+      <implementation id="sha1new=b60f135ae111d77d9d1e9f07e1b56ec7c9232e7b" released="2017-08-22" stability="developer" version="2017.1.1">
+        <manifest-digest sha256new="OJPSTZOXBALDRFCNS73CNHCWZTBA3UDMT4UTQKSGAAOSI6DVW4WQ"/>
+        <archive href="https://download.jetbrains.com/resharper/JetBrains.Rider-2017.1.1.zip" size="339239792" type="application/zip"/>
+      </implementation>
+      <implementation id="sha1new=44b77264e292a02caed201c5af0d91ef9a29c622" released="2017-09-15" stability="developer" version="2017.1.2">
+        <manifest-digest sha256new="4I3NHI3AIEUBBQPBLF74AKC7IPOOLDPMWAIYSKLAZLBSBI5FGA6A"/>
+        <archive href="https://download.jetbrains.com/resharper/JetBrains.Rider-2017.1.2.zip" size="329232123" type="application/zip"/>
+      </implementation>
+    </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="Rider2017.2"/>
+      <implementation id="sha1new=7667b7c848819171f7473c2e43c1a9da87a6c7c2" released="2017-10-12" stability="developer" version="2017.2">
+        <manifest-digest sha256new="MW2QXB2ODOHPTZUMYFYNY3MWYDXOZRE4VWZA7EZ5DNWRRHDQAIVQ"/>
+        <archive href="https://download.jetbrains.com/resharper/JetBrains.Rider-2017.2.zip" size="337739285" type="application/zip"/>
+      </implementation>
+      <implementation id="sha1new=149fb01d23cce2c316eaf0b58105abed49cb74b5" released="2017-11-13" stability="developer" version="2017.2.1">
+        <manifest-digest sha256new="BJX44ERVI4MBZ5HAF5TKH2YQHRWYGZ2V4EJTIHCVJQEFUMAMQUUA"/>
+        <archive href="https://download.jetbrains.com/resharper/JetBrains.Rider-2017.2.1.zip" size="339473559" type="application/zip"/>
+      </implementation>
+    </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="Rider2017.3"/>
+      <implementation id="sha1new=d8f338c0605d78ef0bffc87c1b867881a563e754" released="2017-12-27" stability="developer" version="2017.3">
+        <manifest-digest sha256new="2TD3A2BJDFBULWYTFBCNV3X74LILUN5W74MHH6V5EBIMHLNIHCOA"/>
+        <archive href="https://download.jetbrains.com/resharper/JetBrains.Rider-2017.3.zip" size="368854153" type="application/zip"/>
+      </implementation>
+      <implementation id="sha1new=6a4fe3782bfd7bd9642550aa0da48474c6a72c98" released="2018-02-06" stability="developer" version="2017.3.1">
+        <manifest-digest sha256new="NPZQVUSXRPBKCGYASPTMCKI23JWNS5JIAETHODPMI4ZP2NVQEUWQ"/>
+        <archive href="https://download.jetbrains.com/resharper/JetBrains.Rider-2017.3.1.zip" size="369853112" type="application/zip"/>
+      </implementation>
+    </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="Rider2018.1"/>
+      <implementation id="sha1new=26eb268c51aa1b069b0b7ffa612246e214ed01d5" released="2018-04-19" stability="developer" version="2018.1">
+        <manifest-digest sha256new="2EWTUUWOQDR6DCQQCDEAE7Y2OGAQPGU6SKBGGAAPIZV76AEL37HA"/>
+        <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2018.1.zip" size="383901150" type="application/zip"/>
+      </implementation>
+      <implementation id="sha1new=d2d200af1eba149f4caafd0190bde86fd6ecad13" released="2018-05-25" stability="developer" version="2018.1.1">
+        <manifest-digest sha256new="2BUOTQ4YM3GT5YZF4XJRC57EWSTASPUB5NDWLZ6SK27OAQVVVMYA"/>
+        <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2018.1.1.zip" size="383136832" type="application/zip"/>
+      </implementation>
+      <implementation id="sha1new=9db0f86dec563f8ffcfb7513c980b1816af5ba17" released="2018-05-31" stability="developer" version="2018.1.2">
+        <manifest-digest sha256new="JWAJTU2MX45546YAYGKH72EUKFZBW77WP75XPFMNOVA5OMB4DOCA"/>
+        <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2018.1.2.zip" size="383138008" type="application/zip"/>
+      </implementation>
+      <implementation id="sha1new=2f121d1c202a029648a817820608686b889a1f45" released="2018-07-05" stability="developer" version="2018.1.3">
+        <manifest-digest sha256new="Z3K4QL6QKO6FNEBHX2R52RSGQQID55MYLYSX47LO2YMCJM5DFNYA"/>
+        <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2018.1.3.zip" size="382945331" type="application/zip"/>
+      </implementation>
+      <implementation id="sha1new=d26c570e141db5dc82c527ca795de3f296a31c00" released="2018-08-02" stability="developer" version="2018.1.4">
+        <manifest-digest sha256new="5KFEO74U6EA52IA63L7VRT2VB5AOKHOXWJ4M7EPAJQNZCCLQGC2A"/>
+        <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2018.1.4.zip" size="383567532" type="application/zip"/>
+      </implementation>
+    </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="Rider2018.2"/>
+      <implementation id="sha1new=dcadba371398d0715385bd8d460390a84f8ae046" released="2018-08-23" stability="developer" version="2018.2">
+        <manifest-digest sha256new="H757UJMCM6IL26EPYMVDDOBX3UIF5CY2K6OZKGHBLZ2OSLM6QOIA"/>
+        <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2018.2.tar.gz" size="450048723" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=cc0ac15c9506d8a2dac0b916607ad17e16effd7c" released="2018-08-30" stability="developer" version="2018.2.1">
+        <manifest-digest sha256new="34TGTYS4LOF3SGR6K2R7SL46AWO5CCYDMMFHY4CTMLPWTCXK75WA"/>
+        <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2018.2.1.tar.gz" size="450067512" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=b3e5143dc3565cf5d5c3f54e63ff8c955e341434" released="2018-09-11" stability="developer" version="2018.2.2">
+        <manifest-digest sha256new="OPUY4HCL7WT2YETPJGIVMG6CKVHS6ADBP472J7Y42AYS6653SQNA"/>
+        <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2018.2.2.zip" size="437879266" type="application/zip"/>
+      </implementation>
+      <implementation id="sha1new=6605c1fb6c8887e9977fc2d5ce753984eb1050ec" released="2018-09-13" stability="developer" version="2018.2.3">
+        <manifest-digest sha256new="DKAAHTGCJ6WE2ZUOKIG6NDPS3SPAYJCYFMUZBN4I6QAFOV5PWNLQ"/>
+        <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2018.2.3.zip" size="437840910" type="application/zip"/>
+      </implementation>
+    </group>
+  </group>
+
+  <entry-point binary-name="rider" command="run"/>
+
+  <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <file-type id="Rider.IntelliJIdeaProjectFile">
+      <description>IntelliJ IDEA Project File</description>
+      <verb args="&quot;%1&quot;" name="open"/>
+      <extension value=".ipr"/>
+    </file-type>
+    <file-type id="Rider.SlnFile">
+      <description>Visual Studio solution</description>
+      <verb args="&quot;%1&quot;" name="open"/>
+      <extension mime-type="text/plain" value=".sln"/>
+    </file-type>
+  </capabilities>
+</interface>
