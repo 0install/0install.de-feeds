@@ -600,6 +600,14 @@
       <manifest-digest sha256new="EIJSYV4I25VVFFMDYSSSOJGIYJNMYSLZEH4Y42RZ7XDAGGMQW43A"/>
       <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.8.7035.zip" size="6393656" type="application/zip"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=1f1ca906b1dfc9116685ad24580806799ea8b20f" released="2018-10-24" stability="stable" version="4.5.8.7041">
+      <manifest-digest sha256new="ZEEEF3F7Y3UZBOT3ONIKJLRU3QNS63RBAVEX5EPPBNDQLBJYUSLA"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.8.7041.zip" size="6650224" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=409bb38a5b617eba4fefc19dde039d3b49cba26c" released="2018-10-24" stability="stable" version="4.5.8.7041">
+      <manifest-digest sha256new="IUGQOSTTQJQEPGWSIXHOMZXFOYXJMNFSRL4YXETJVG5YVV4M5Z5A"/>
+      <archive href="http://download.cdburnerxp.se/portable/CDBurnerXP-4.5.8.7041.zip" size="6393670" type="application/zip"/>
+    </implementation>
   </group>
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
     <registration capability-reg-path="Software\Canneverbe Limited\CDBurnerXP\Capabilities" id="CDBurnerXP"/>
