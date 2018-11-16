@@ -169,6 +169,10 @@
         <manifest-digest sha256new="I5YVNXJNZLFJ2UQNQJQGAJBTOLP7BRZVSUUJSPL5UCDNCBNY3ATA"/>
         <archive extract="pycharm-community-2017.3.6" href="https://download.jetbrains.com/python/pycharm-community-2017.3.6.tar.gz" size="289202257" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha1new=1c320e9d0f8b067eb3dfa03a7233512ff0a60d74" released="2018-11-15" stability="stable" version="2017.3.7">
+        <manifest-digest sha256new="IDKXMLX2UDTTWR2RBU2HLV6GKQZ2FQ6AMEC7QKXS7CWSHAJ7J7WQ"/>
+        <archive extract="pycharm-community-2017.3.7" href="https://download.jetbrains.com/python/pycharm-community-2017.3.7.tar.gz" size="295084907" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
     <group>
       <environment name="IDEA_PATHS_SELECTOR" value="PyCharmCE2018.1"/>
@@ -196,6 +200,10 @@
         <manifest-digest sha256new="LLQSNXWPFYYEW5FZVOE3WDNDK3TKBSI7YPPAEOMX7D25VKBULH5A"/>
         <archive extract="pycharm-community-2018.1.5" href="https://download.jetbrains.com/python/pycharm-community-2018.1.5.tar.gz" size="271273316" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha1new=98ed706fc3ae86ee43717d12d3806d7e3222e825" released="2018-11-15" stability="stable" version="2018.1.6">
+        <manifest-digest sha256new="T7F2WN77CE5TSNQBRCHEBWTSIIRVTIP3LPPM6GNN3EQEKYVXVY5A"/>
+        <archive extract="pycharm-community-2018.1.6" href="https://download.jetbrains.com/python/pycharm-community-2018.1.6.tar.gz" size="272445596" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
     <group>
       <environment name="IDEA_PATHS_SELECTOR" value="PyCharmCE2018.2"/>
@@ -218,6 +226,10 @@
       <implementation id="sha1new=a9576971466ac73825b4ab4936707efbbcf0be1a" released="2018-09-20" stability="stable" version="2018.2.4">
         <manifest-digest sha256new="6YOLEUPTO34SYZO5BNEQ5ST25Q64AFIOMNVGWGHILXUMZNTNUPKQ"/>
         <archive extract="pycharm-community-2018.2.4" href="https://download.jetbrains.com/python/pycharm-community-2018.2.4.tar.gz" size="260812419" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=f1787fe32aa37eefa21969aa1183726d81b73ec5" released="2018-11-14" stability="stable" version="2018.2.5">
+        <manifest-digest sha256new="4WRRIF7CQU3WVXETU3CF4W64K5KMS22JY6QHM3YE3725RC5KTXTA"/>
+        <archive extract="pycharm-community-2018.2.5" href="https://download.jetbrains.com/python/pycharm-community-2018.2.5.tar.gz" size="266710889" type="application/x-compressed-tar"/>
       </implementation>
     </group>
   </group>

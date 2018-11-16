@@ -68,6 +68,10 @@
         <manifest-digest sha256new="LKFOTKTICVPZCVMH6UC7BNZUPUHLA4JIFMS4YPZABS37K6I5Y4SA"/>
         <archive extract="idea-IU-172.4574.19" href="https://download.jetbrains.com/idea/ideaIU-2017.2.7-no-jdk.tar.gz" size="551402264" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha1new=b7c9384d657d8f3ab457a75f1d2047f80b5281cf" released="2017-11-14" stability="stable" version="2017.2.6">
+        <manifest-digest sha256new="Q4PIR7K4J5C6IVEWGDVJREZZKBY7CAD6BJJMFMSBHFZKCLTZEZXA"/>
+        <archive extract="idea-IU-172.4574.11" href="https://download.jetbrains.com/idea/ideaIU-2017.2.6-no-jdk.tar.gz" size="554983542" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
     <group>
       <environment name="IDEA_PATHS_SELECTOR" value="IntelliJIdea2017.3"/>
@@ -96,6 +100,10 @@
       <implementation id="sha1new=e6fcdeadf1c07b5de1d37c7de3da058705db7ad3" released="2018-10-16" stability="stable" version="2018.2.5">
         <manifest-digest sha256new="AONU4E2OLOX4EMBNNLLK2PSMVTNANVDJ2U2GHJNKUAZQIHN6X2FQ"/>
         <archive extract="idea-IU-182.4892.20" href="https://download.jetbrains.com/idea/ideaIU-2018.2.5-no-jdk.tar.gz" size="573762981" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=0fa2b4e3767100de4f408e1eb411dc2cd3b49ca5" released="2018-11-13" stability="stable" version="2018.2.6">
+        <manifest-digest sha256new="XY5HEGDQ5ABK34JOMJXPOHIZ6SY5UCXRTFDEIENEMP4W5PCFYBRQ"/>
+        <archive extract="idea-IU-182.5107.16" href="https://download.jetbrains.com/idea/ideaIU-2018.2.6-no-jdk.tar.gz" size="573791586" type="application/x-compressed-tar"/>
       </implementation>
     </group>
   </group>
