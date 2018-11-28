@@ -231,6 +231,17 @@
         <manifest-digest sha256new="CK3R62M4DOGDIXHU7GPAV2OOFETL3NXQC7JBVLIFTLSNB7T3DIHA"/>
         <archive extract="pycharm-2018.2.5" href="https://download.jetbrains.com/python/pycharm-professional-2018.2.5.tar.gz" size="349627555" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha1new=af484703c05bf4d83b6218399a602bd739c4fddf" released="2018-11-27" stability="stable" version="2018.2.6">
+        <manifest-digest sha256new="G6WTMXIX47PHUFTN5YOBCGEM2N7M4TYUNSD2TL326IQNOQWX3A6Q"/>
+        <archive extract="pycharm-2018.2.6" href="https://download.jetbrains.com/python/pycharm-professional-2018.2.6.tar.gz" size="349619122" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="PyCharm2018.3"/>
+      <implementation id="sha1new=640431bbaccc268587e6c8d94b1d6e428bd2ac41" released="2018-11-21" stability="stable" version="2018.3">
+        <manifest-digest sha256new="X7ZV5LNOKDG3IPSHEU6GPO65QR7BS2L2ZT6YOLH7H7IAYLYZBZ6Q"/>
+        <archive extract="pycharm-2018.3" href="https://download.jetbrains.com/python/pycharm-professional-2018.3.tar.gz" size="397608153" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 
