@@ -176,6 +176,10 @@
       <manifest-digest sha256new="3G3QR7Y5SSNDDC2YOJJPG4ZVMWQAILA4VHIZXAZUKMAKVZWXOBEA"/>
       <archive href="http://downloads.sourceforge.net/winscp/WinSCP-5.13.5-Portable.zip" size="7633557" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=d37dc07d635ac6aa27f33cf076fba1697d9ce6d1" released="2018-12-12" stability="stable" version="5.13.6">
+      <manifest-digest sha256new="2DCD5ISAGUDDVRZH7NSPRO5KUFN4EOKPXE6YFAATVVUBQSHMYGNQ"/>
+      <archive href="http://downloads.sourceforge.net/winscp/WinSCP-5.13.6-Portable.zip" size="7633559" type="application/zip"/>
+    </implementation>
   </group>
   <entry-point binary-name="WinSCP" command="run">
     <name xml:lang="en">WinSCP</name>
