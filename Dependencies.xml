@@ -43,6 +43,14 @@
       <manifest-digest sha256new="4BFY7QZCPSALN6W7KR7TT7INCHXPSSFJJJYVKOEFLZ7OMVZPLN6A"/>
       <archive href="https://github.com/lucasg/Dependencies/releases/download/v1.8/Dependencies_x86_Release.zip" size="2328816" type="application/zip"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=f838765b79a111b5b274693d76853611b33f98b5" released="2018-12-02" stability="stable" version="1.9">
+      <manifest-digest sha256new="SRYF6KM4N5UVKSYCXUM7LNC65GZOLVQ6H4KUWABVWEYSRDD76LZA"/>
+      <archive href="https://github.com/lucasg/Dependencies/releases/download/v1.9/Dependencies_x64_Release.zip" size="3155923" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=98fdf2dfb4d065fb9c3da77c8c582aa43f9b95d1" released="2018-12-02" stability="stable" version="1.9">
+      <manifest-digest sha256new="UWNX3OVDPYWZV4YBSDHIKKUQOLZ3JQXNQ2UOPBZ56CMIHJ4MXENA"/>
+      <archive href="https://github.com/lucasg/Dependencies/releases/download/v1.9/Dependencies_x86_Release.zip" size="3055986" type="application/zip"/>
+    </implementation>
   </group>
   <entry-point binary-name="DependenciesGui" command="run"/>
   <entry-point binary-name="dependencies" command="run-cli">
