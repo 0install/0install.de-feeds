@@ -849,6 +849,14 @@
       <manifest-digest sha256new="RI336GMVLT3KNFJNQI5DJ257TOISW53NJ4DZJKKXNYFSP6FPARIQ"/>
       <archive extract="SourceDir" href="http://downloadarchive.documentfoundation.org/libreoffice/old/6.1.4.1/win/x86/LibreOffice_6.1.4.1_Win_x86.msi" size="262922240" type="application/x-msi"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=1539e7063cf902f6c11dd407448866fe3ef720c4" released="2018-12-15" stability="stable" version="6.1.4.2">
+      <manifest-digest sha256new="M3OUFDUB26SSYY7L3CJ6CURL6BSHXMVAVXZF5E25LDVG4E33FS7Q"/>
+      <archive extract="SourceDir" href="http://downloadarchive.documentfoundation.org/libreoffice/old/6.1.4.2/win/x86_64/LibreOffice_6.1.4.2_Win_x64.msi" size="283185152" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=0ebcc5df46f1222db154809bc2eaa38d1659746c" released="2018-12-15" stability="stable" version="6.1.4.2">
+      <manifest-digest sha256new="X4TETSNUTOWIAIFWTPS3AV2LS3VTDRMIOPZOOXF2NY7UVEPXH77Q"/>
+      <archive extract="SourceDir" href="http://downloadarchive.documentfoundation.org/libreoffice/old/6.1.4.2/win/x86/LibreOffice_6.1.4.2_Win_x86.msi" size="262909952" type="application/x-msi"/>
+    </implementation>
   </group>
   <entry-point binary-name="soffice" command="run"/>
   <entry-point binary-name="swriter" command="writer">
