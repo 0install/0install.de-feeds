@@ -132,6 +132,10 @@
         <manifest-digest sha256new="NM4PE43Q5QQH3GMUIR4YJTFFHQU3WZJFJLWCWQDK6YMHIATI7E4Q"/>
         <archive extract="idea-IU-183.4886.37" href="https://download.jetbrains.com/idea/ideaIU-2018.3.2-no-jdk.tar.gz" size="606272664" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha1new=40609ee0fba79616596eb32fad05fee1e3395999" released="2019-01-10" stability="stable" version="2018.3.3">
+        <manifest-digest sha256new="3BJDWERHSAMUX4DBFZIEMBULZXIOML46QR64KQCWFNHBTHM2I65A"/>
+        <archive extract="idea-IU-183.5153.38" href="https://download.jetbrains.com/idea/ideaIU-2018.3.3-no-jdk.tar.gz" size="606340328" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 
