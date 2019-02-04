@@ -13,7 +13,7 @@ und der New Feed Wizard (leitet Sie durch den kompletten Feed-Erstellungsprozess
   <icon href="https://raw.githubusercontent.com/0install/0publish-win/master/icon.png" type="image/png"/>
   <icon href="https://raw.githubusercontent.com/0install/0publish-win/master/icon.ico" type="image/vnd.microsoft.icon"/>
 
-  <group>  
+  <group>
     <requires interface="http://repo.roscidus.com/security/gnupg">
       <environment insert="." name="PATH"/>
     </requires>
@@ -44,6 +44,18 @@ und der New Feed Wizard (leitet Sie durch den kompletten Feed-Erstellungsprozess
       <manifest-digest sha256new="SMPWQEM5WXSH63FR2XNFUWPAFRRMB75D2MRVH5AJL2XQBA3SBHGQ"/>
       <archive href="ZeroInstall_Tools-2.15.1.tar.gz" size="2373166"/>
     </implementation>
+    <group>
+      <command name="0publish" path="0publish.exe">
+        <runner command="run" interface="http://repo.roscidus.com/dotnet/clr" version="4.5.."/>
+      </command>
+      <command name="run" path="0publish-win.exe">
+        <runner command="run-gui" interface="http://repo.roscidus.com/dotnet/clr" version="4.5.."/>
+      </command>
+      <implementation id="sha1new=d558cbd0da32684430aed72edca109cae0329d02" license="LGPL v3 (GNU Lesser General Public License)" released="2019-02-04" stability="stable" version="2.16.2">
+        <manifest-digest sha256new="BNXNE5TXQXD5ONGWHWARFTDC75XZHK3LXH3O363TXIHXKNDEW53A"/>
+        <archive href="ZeroInstall_Tools-2.16.2.tar.gz" size="2228658"/>
+      </implementation>
+    </group>
   </group>
 
   <entry-point binary-name="0publish-win" command="run">
