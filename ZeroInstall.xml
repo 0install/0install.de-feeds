@@ -137,6 +137,10 @@ Konzeptuell können Sie sich vorstellen, dass die Software nur auf einem Server 
       <manifest-digest sha256new="HM4GGUNCBPWBNA3WC423U3L62QWYPP4KGZGVG2O5EF46GCPNACBQ"/>
       <archive href="ZeroInstall-2.16.1.tar.gz" size="3100866"/>
     </implementation>
+    <implementation id="sha1new=7de60d52ba134a79e6fc4755855d528efd05776e" released="2019-02-04" stability="stable" version="2.16.2">
+      <manifest-digest sha256new="FWDG2TMMCHW4PF5ARGXTLW2Q3M4GJU3KS775DRMDV6QMJCEAGV7Q"/>
+      <archive href="ZeroInstall-2.16.2.tar.gz" size="3101074"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="0install" command="run">
