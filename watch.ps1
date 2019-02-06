@@ -8,11 +8,11 @@ if (!(Get-Command 0install -ErrorAction SilentlyContinue)) {
     $env:PATH = "$env:TEMP\zero-install;$env:PATH"
 }
 
-if (!(Test-Path incoming)) { mkdir incoming | Out-Null }
+if (!(Test-Path _watch)) { mkdir _watch | Out-Null }
 
 foreach ($file in (ls -Recurse -Filter *.watch.py .).FullName) {
     echo "Checking $file"
-    cmd /c "0install run --batch http://0install.de/feeds/0watch.xml --output incoming $file 2>&1" # Redirect stderr to stdout
+    cmd /c "0install run --batch http://0install.de/feeds/0watch.xml --output _watch $file 2>&1" # Redirect stderr to stdout
     if ($LASTEXITCODE -ne 0) {throw "Exit Code: $LASTEXITCODE"}
 }
 
