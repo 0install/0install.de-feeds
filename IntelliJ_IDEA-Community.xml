@@ -140,6 +140,10 @@
         <manifest-digest sha256new="KVT5KQI4IREAZBWZMR4PBEFGARDZSBUQJZQZXIEJRYGAXHBX3MXQ"/>
         <archive extract="idea-IC-183.5429.30" href="https://download.jetbrains.com/idea/ideaIC-2018.3.4-no-jdk.tar.gz" size="460232784" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha1new=303b20b9408dafe74e1cf8a8ca3f68cf76ae71f5" released="2019-02-26" stability="stable" version="2018.3.5">
+        <manifest-digest sha256new="NCTHBS266ZFGCJKMSEPG6DDV4NXGNYZMOKFUR4YMHG2NBWG3NIYQ"/>
+        <archive extract="idea-IC-183.5912.21" href="https://download.jetbrains.com/idea/ideaIC-2018.3.5-no-jdk.tar.gz" size="461492560" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 

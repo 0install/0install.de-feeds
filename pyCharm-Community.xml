@@ -262,6 +262,10 @@
         <manifest-digest sha256new="JJMLGGCZKBJP3PSXFBCHWNAUS3Q7OKXVMUUDQDU4VFXSNKOO6G2Q"/>
         <archive extract="pycharm-community-2018.3.4" href="https://download.jetbrains.com/python/pycharm-community-2018.3.4.tar.gz" size="310736836" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha1new=2a47d43db0f8ecc82705c3d055aaadd14e811e15" released="2019-02-27" stability="stable" version="2018.3.5">
+        <manifest-digest sha256new="Y6P5G3QQTMHA2ID7I3AECKVUBQAKRX2QSX4CNH2TN2JJX3UVUDKQ"/>
+        <archive extract="pycharm-community-2018.3.5" href="https://download.jetbrains.com/python/pycharm-community-2018.3.5.tar.gz" size="311914955" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 
