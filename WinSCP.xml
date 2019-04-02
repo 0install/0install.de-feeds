@@ -188,6 +188,14 @@
       <manifest-digest sha256new="D3JGSB6TID2LXUTBFAC7HTM7WI3NK6WO2F3W7TDCPXCZTZE7IQWQ"/>
       <archive href="http://downloads.sourceforge.net/winscp/WinSCP-5.13.8-Portable.zip" size="7634952" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=2906ce490fba8141aac2beb05050ad0d4ed8884b" released="2019-03-19" stability="stable" version="5.13.9">
+      <manifest-digest sha256new="PAX5FZ3NE25BGHGGZAV72UV35SIFGFUAY6FBOWRARIFIE4OHX6BQ"/>
+      <archive href="http://downloads.sourceforge.net/winscp/WinSCP-5.13.9-Portable.zip" size="7634210" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=8a2b582489c921951c704ed269d6e6394bf91476" released="2019-03-27" stability="stable" version="5.15">
+      <manifest-digest sha256new="OWCQ34D5PWVAPDP2WB3GKTXYNN6GTTQWMOO6HVKXC2GG7LSA745Q"/>
+      <archive href="http://downloads.sourceforge.net/winscp/WinSCP-5.15-Portable.zip" size="7844038" type="application/zip"/>
+    </implementation>
   </group>
   <entry-point binary-name="WinSCP" command="run">
     <name xml:lang="en">WinSCP</name>
