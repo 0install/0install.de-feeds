@@ -83,6 +83,10 @@
         <manifest-digest sha256new="3HWCP5BEDD7SEET5GRTHEJGPUM2DVBLDLH27ULQAAM5TIKX62PZA"/>
         <archive extract="idea-IC-173.4674.60" href="https://download.jetbrains.com/idea/ideaIC-2017.3.6-no-jdk.tar.gz" size="383715407" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha1new=8b68ed8e547c9aec7db5eab0c18577d83404dc9d" released="2019-04-05" stability="stable" version="2017.3.7">
+        <manifest-digest sha256new="Y62NJIYC3RCY3INVTXMIY6FN6WXIKUD5I4HSMPNTOJ5S374QW2MQ"/>
+        <archive extract="idea-IC-173.4710.11" href="https://download.jetbrains.com/idea/ideaIC-2017.3.7-no-jdk.tar.gz" size="383726630" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
     <group>
       <environment name="IDEA_PATHS_SELECTOR" value="IdeaIC2018.1"/>
@@ -93,6 +97,10 @@
       <implementation id="sha1new=d2671f18be76eb0c02837b3ed4b58c0b3461e91e" released="2018-11-20" stability="stable" version="2018.1.7">
         <manifest-digest sha256new="4TNBR4QMRWCUUEBAJCHSCCEYGXUXUR5ONFDG77EEY4KNHWUNPWXA"/>
         <archive extract="idea-IC-181.5540.23" href="https://download.jetbrains.com/idea/ideaIC-2018.1.7-no-jdk.tar.gz" size="469334787" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=a449dd4ddf5065a5f39d7ae65a0c3bf67fdc1efc" released="2019-04-05" stability="stable" version="2018.1.8">
+        <manifest-digest sha256new="BOBKZLE42IJ43GG6OTQVTDDNMG5LP5XALFTYPFOP2T3YCIBHT7MQ"/>
+        <archive extract="idea-IC-181.5684.4" href="https://download.jetbrains.com/idea/ideaIC-2018.1.8-no-jdk.tar.gz" size="469336114" type="application/x-compressed-tar"/>
       </implementation>
     </group>
     <group>
@@ -116,6 +124,10 @@
       <implementation id="sha1new=91ada4c41932361552a536a8a8aad0e803f385ed" released="2018-11-27" stability="stable" version="2018.2.7">
         <manifest-digest sha256new="SNZT24UUSGO22NK2RLMSRX56PTB6BSYEYQJG6N6WUQ2DQNYOLUGQ"/>
         <archive extract="idea-IC-182.5107.41" href="https://download.jetbrains.com/idea/ideaIC-2018.2.7-no-jdk.tar.gz" size="448435869" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=6fcb0aa8a8118e20f26d7524ce75fa4508c7814a" released="2019-04-05" stability="stable" version="2018.2.8">
+        <manifest-digest sha256new="QJADWXL4H4RRHGIDNKFACOSYV5KCW3KVAB6ZAOC6MBKKNHHFKA6Q"/>
+        <archive extract="idea-IC-182.5262.2" href="https://download.jetbrains.com/idea/ideaIC-2018.2.8-no-jdk.tar.gz" size="448430471" type="application/x-compressed-tar"/>
       </implementation>
     </group>
     <group>
@@ -143,6 +155,17 @@
       <implementation id="sha1new=303b20b9408dafe74e1cf8a8ca3f68cf76ae71f5" released="2019-02-26" stability="stable" version="2018.3.5">
         <manifest-digest sha256new="NCTHBS266ZFGCJKMSEPG6DDV4NXGNYZMOKFUR4YMHG2NBWG3NIYQ"/>
         <archive extract="idea-IC-183.5912.21" href="https://download.jetbrains.com/idea/ideaIC-2018.3.5-no-jdk.tar.gz" size="461492560" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=07869b3bce0586f244b8b302e4c5c88206618409" released="2019-03-26" stability="stable" version="2018.3.6">
+        <manifest-digest sha256new="3UOWRZIXITV4YYK5J2T4ZWIY7OET4UKK24OEN5SPE7DTG7Z7NPUQ"/>
+        <archive extract="idea-IC-183.6156.11" href="https://download.jetbrains.com/idea/ideaIC-2018.3.6-no-jdk.tar.gz" size="461494681" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="IdeaIC2019.1"/>
+      <implementation id="sha1new=136b5e0a9866170044e096afed69739a233a56c4" released="2019-03-27" stability="stable" version="2019.1">
+        <manifest-digest sha256new="4L3CWACERDZXWSRPYEG7JG2KURRS52JN57JUXA4XDTD4S37UWFHA"/>
+        <archive extract="idea-IC-191.6183.87" href="https://download.jetbrains.com/idea/ideaIC-2019.1-no-jbr.tar.gz" size="496360045" type="application/x-compressed-tar"/>
       </implementation>
     </group>
   </group>

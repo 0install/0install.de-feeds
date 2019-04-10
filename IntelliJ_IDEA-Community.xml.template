@@ -45,7 +45,7 @@
 
     <implementation released="{released}" stability="stable" version="{version}"> 
       <environment name="IDEA_PATHS_SELECTOR" value="IdeaIC{major-version}"/>
-      <archive extract="idea-IC-{build}" href="https://download.jetbrains.com/idea/ideaIC-{version}-no-jdk.tar.gz" type="application/x-compressed-tar"/>
+      <archive extract="idea-IC-{build}" href="https://download.jetbrains.com/idea/ideaIC-{version}-no-jbr.tar.gz" type="application/x-compressed-tar"/>
     </implementation>
   </group>
 </interface>
