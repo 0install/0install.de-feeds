@@ -167,6 +167,10 @@
         <manifest-digest sha256new="4L3CWACERDZXWSRPYEG7JG2KURRS52JN57JUXA4XDTD4S37UWFHA"/>
         <archive extract="idea-IC-191.6183.87" href="https://download.jetbrains.com/idea/ideaIC-2019.1-no-jbr.tar.gz" size="496360045" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha1new=ae765943840da648a320a4232d1528887e940f54" released="2019-04-17" stability="stable" version="2019.1.1">
+        <manifest-digest sha256new="NISJB7XFMA4EJWWRBAAA4T2HSP3ARH65GDE6JLHBUX5CSZWTQBFA"/>
+        <archive extract="idea-IC-191.6707.61" href="https://download.jetbrains.com/idea/ideaIC-2019.1.1-no-jbr.tar.gz" size="496301676" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 
