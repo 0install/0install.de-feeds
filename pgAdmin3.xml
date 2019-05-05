@@ -16,25 +16,25 @@
     <archive href="pgadmin3-1.22.2.msi" size="13955072" type="application/x-msi" extract="SourceDir/PFiles/pgAdmin III/1.22" />
   </implementation>
   <entry-point command="run" binary-name="pgadmin3" />
+  <entry-point command="psql" binary-name="psql">
+    <needs-terminal />
+    <name xml:lang="en">PostgreSQL Client</name>
+    <summary xml:lang="en">PostgreSQL interactive terminal</summary>
+  </entry-point>
   <entry-point command="pg_dump" binary-name="pg_dump">
     <needs-terminal />
-    <name xml:lang="en">PostgreSQL</name>
-    <summary xml:lang="en">pg_dump/pg_restore/pg_dumpall - backup and restore PostgreSQL databases</summary>
+    <name xml:lang="en">PostgreSQL Dump</name>
+    <summary xml:lang="en">create backup of a PostgreSQL database</summary>
   </entry-point>
   <entry-point command="pg_dumpall" binary-name="pg_dumpall">
     <needs-terminal />
-    <name xml:lang="en">PostgreSQL</name>
-    <summary xml:lang="en">pg_dump/pg_restore/pg_dumpall - backup and restore PostgreSQL databases</summary>
+    <name xml:lang="en">PostgreSQL Dump All</name>
+    <summary xml:lang="en">create backup of all PostgreSQL databases</summary>
   </entry-point>
   <entry-point command="pg_restore" binary-name="pg_restore">
     <needs-terminal />
-    <name xml:lang="en">PostgreSQL</name>
-    <summary xml:lang="en">pg_dump/pg_restore/pg_dumpall - backup and restore PostgreSQL databases</summary>
-  </entry-point>
-  <entry-point command="psql" binary-name="psql">
-    <needs-terminal />
-    <name xml:lang="en">PostgreSQL</name>
-    <summary xml:lang="en">psql - the PostgreSQL interactive terminal</summary>
+    <name xml:lang="en">PostgreSQL Restpre</name>
+    <summary xml:lang="en">restore backup of PostgreSQL databases</summary>
   </entry-point>
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
     <file-type id="pgAdmin.1">
