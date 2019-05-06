@@ -937,6 +937,22 @@
       <manifest-digest sha256new="Q7JXXYYRH5JAOQ7CD4ZNNK27DHYARZ25EOLCIEZFXOXXGTQKPAIA"/>
       <archive extract="SourceDir" href="http://downloadarchive.documentfoundation.org/libreoffice/old/6.2.3.2/win/x86/LibreOffice_6.2.3.2_Win_x86.msi" size="274477056" type="application/x-msi"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=0c2f2dc0eb1cf354be53ba5f623964cd5721895c" released="2019-04-28" stability="stable" version="6.1.6.2">
+      <manifest-digest sha256new="AHSAE6DGSE63JNWJHJK75JOZCVIYKQYFW4SYPERTSBRDVC772ILA"/>
+      <archive extract="SourceDir" href="http://downloadarchive.documentfoundation.org/libreoffice/old/6.1.6.2/win/x86_64/LibreOffice_6.1.6.2_Win_x64.msi" size="284557312" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=e15fd1b3bd0f0368f9f995cb105e895507466f25" released="2019-04-28" stability="stable" version="6.1.6.2">
+      <manifest-digest sha256new="BMUFHLNP4BHEWX2PEBZXWZVLSIKXUPOFEF4LNDFC7SCFKO3XOTPA"/>
+      <archive extract="SourceDir" href="http://downloadarchive.documentfoundation.org/libreoffice/old/6.1.6.2/win/x86/LibreOffice_6.1.6.2_Win_x86.msi" size="264347648" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=26cb6988916950e2072968dba55678ad4ee31f02" released="2019-05-04" stability="stable" version="6.1.6.3">
+      <manifest-digest sha256new="BBEGHXLVGKA45IDH3K5K64KVOAF6VETS6H65477O43G6CHKNX5RA"/>
+      <archive extract="SourceDir" href="http://downloadarchive.documentfoundation.org/libreoffice/old/6.1.6.3/win/x86_64/LibreOffice_6.1.6.3_Win_x64.msi" size="284606464" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=9c73eb8e2bdfe60fdaa8059eaca8cf7231b8abb4" released="2019-05-04" stability="stable" version="6.1.6.3">
+      <manifest-digest sha256new="GRQSBCCJIWIJ6V5RVH3ZFKZVVJ4ZRT3VO24TYS2YDVY4DKR2FKDA"/>
+      <archive extract="SourceDir" href="http://downloadarchive.documentfoundation.org/libreoffice/old/6.1.6.3/win/x86/LibreOffice_6.1.6.3_Win_x86.msi" size="264343552" type="application/x-msi"/>
+    </implementation>
   </group>
   <entry-point binary-name="soffice" command="run"/>
   <entry-point binary-name="swriter" command="writer">
