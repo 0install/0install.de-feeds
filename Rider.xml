@@ -142,6 +142,17 @@
         <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2018.3.4.win.zip" size="696953158" type="application/zip"/>
       </implementation>
     </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="Rider2019.1"/>
+      <implementation id="sha1new=427916e54a0a50252514d98b7fb39b4400f2b24c" released="2019-05-02" stability="developer" version="2019.1.1">
+        <manifest-digest sha256new="357Q7TPIIIA3KI5RG6O7XWG6IBLJ276R7QWDW4CPADM4P32MNBNA"/>
+        <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2019.1.1.win.zip" size="636849862" type="application/zip"/>
+      </implementation>
+      <implementation id="sha1new=956ae1f0558e50b393b54290f7a09493217b76bc" released="2019-04-30" stability="developer" version="2019.1">
+        <manifest-digest sha256new="QSJUUDBZWXN5FIEURIP2DH3IAGMMFXFDKGXMSQZX547ZDFVZBJUA"/>
+        <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2019.1.win.zip" size="636859726" type="application/zip"/>
+      </implementation>
+    </group>
   </group>
 
   <entry-point binary-name="rider" command="run"/>
