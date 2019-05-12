@@ -1,0 +1,257 @@
+<?xml version="1.0" ?>
+<interface uri="http://0install.de/feeds/AutoIt.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <name>AutoIt</name>
+  <summary>freeware BASIC-like scripting language designed for automating the Windows GUI</summary>
+  <description>AutoIt is a freeware BASIC-like scripting language designed for automating the Windows GUI and general scripting. It uses a combination of simulated keystrokes, mouse movement and window/control manipulation in order to automate tasks in a way not possible or reliable with other languages.</description>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/AutoIt.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/AutoIt.png" type="image/png"/>
+  <category>Development</category>
+  <homepage>https://www.autoitscript.com/</homepage>
+
+  <group arch="Windows-*">
+    <command name="run" path="AutoIt3.exe"/>
+    <command name="info" path="Au3Info.exe"/>
+    <command name="check" path="Au3Check.exe"/>
+    <command name="help" path="AutoIt3Help.exe"/>
+    <command name="aut2exe" path="Aut2Exe/Aut2exe.exe"/>
+    <command name="scite" path="SciTe/SciTE.exe"/>
+    <implementation id="sha1new=5afbab9902cdf9eb67f266ea711939eedea14872" released="2016-06-12" stability="stable" version="3.0.100">
+      <manifest-digest sha256new="VUS6LIIZEJJPAFEQYXXHDI4CKXGGNI6HGQFYSXCLTUPBXJSVBYAQ"/>
+      <archive extract="install" href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.0.100.zip" size="925824" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=483e2d6b431a6bf104c10818dfae0355dc5e1a23" released="2016-06-12" stability="stable" version="3.0.101">
+      <manifest-digest sha256new="5SIXNZPWZKYAPTUEIGJB77YA5P6VWMRY27EYCYG3DWPYUUZW5GZA"/>
+      <archive extract="install" href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.0.101.zip" size="928824" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=0d9e2c5fd4232457b473d711a3370b0b503b3e58" released="2016-06-12" stability="stable" version="3.0.102">
+      <manifest-digest sha256new="EWSICXARYGHVL332DNXYMQJM6OIXAM7SITF5MXSMCPYAFKID3K3A"/>
+      <archive href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.0.102.zip" size="949684" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=add983143b3f6870dfcd098588bad28ecf413e99" released="2016-06-12" stability="stable" version="3.1.0">
+      <manifest-digest sha256new="AXEZF45ROC2W4OD4724JPS333Q7N3URX4BXTX23TEDWFXCFIKJAQ"/>
+      <archive href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.1.0.zip" size="1969936" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=2d1cd0005818e680803b4884f89cb7c3d360dd68" released="2016-06-12" stability="stable" version="3.1.1">
+      <manifest-digest sha256new="7E6EEHHXLKF7UXJF5VLLNKKTUU6NKXKTBYI3GNHGPXTKPASBTDJA"/>
+      <archive href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.1.1.zip" size="1989335" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=d695151b3ba307a80413d3970fa704a7d8777de7" released="2016-06-12" stability="stable" version="3.2.0.0">
+      <manifest-digest sha256new="WIVM436HOR5NYLDH4OHDCGNQQKOBBMA2BYOOWJWPGPLS7U7M5HVQ"/>
+      <archive href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.2.0.0.zip" size="3779241" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=e6f6946d2c3098f9bde93e1aa7a1ded2cda1fd28" released="2016-06-12" stability="stable" version="3.2.0.1">
+      <manifest-digest sha256new="63QPHTE7NCIUQEZYT3H42TCV7GQZSKXP7IWE6RBE7WRRCKNCJH7Q"/>
+      <archive href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.2.0.1.zip" size="3799347" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=7d5c5a72e2001d00f446f17b17e30d0977fc3624" released="2016-06-12" stability="stable" version="3.2.2.0">
+      <manifest-digest sha256new="EV2DUJBCXV4OY3QEH7O4X4UQRCUAP3BSNXXKHVM5UNKLVIQ3EZDQ"/>
+      <archive href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.2.2.0.zip" size="5024296" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=807006eb5e4fdb64e880713d4cf743587d8fb448" released="2016-06-12" stability="stable" version="3.2.4.0">
+      <manifest-digest sha256new="HYTKMCQQZ6OWCJVG4YOXDMYBSDPZXJU6LNQDFGOCRNZF4QFWH6IA"/>
+      <archive href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.2.4.0.zip" size="6001062" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=81b1a003ca7634923addd183096464b6150158d1" released="2016-06-12" stability="stable" version="3.2.4.1">
+      <manifest-digest sha256new="PRZB6BG34VWPXRLEUPDFWLBTKQB34CQ6E2H2T4AUVLEG7URCC4RA"/>
+      <archive href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.2.4.1.zip" size="6003686" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=fbaa04c55468f4e2c1a8616fef343b76a6a35ea9" released="2016-06-12" stability="stable" version="3.2.4.2">
+      <manifest-digest sha256new="FUJ6FZH4EADODZSFC73XLO57CXX3TKFT5EYT6V4BBLX47EP5PNZA"/>
+      <archive href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.2.4.2.zip" size="6005784" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=69af4f08635629f2c9b5f3fa0bd1c6c3e201eecb" released="2016-06-12" stability="stable" version="3.2.4.3">
+      <manifest-digest sha256new="B5GHYCL3XTLRFEKWEIXXYCO6AN7DDXU5ULILEXCSZ62R77XSZOYQ"/>
+      <archive href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.2.4.3.zip" size="6006456" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=9a31325f26a0678f0950a1a297c0b1ab5b4dea62" released="2016-06-12" stability="stable" version="3.2.4.4">
+      <manifest-digest sha256new="MKWWYZCG24DSMP4FFO2AXR5WRXS3DIIBYJFJSKQHF5N6ZX374XBQ"/>
+      <archive href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.2.4.4.zip" size="6006772" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=a68971a73ae103b7f726c6dbc873f22e554b64ab" released="2016-06-12" stability="stable" version="3.2.4.5">
+      <manifest-digest sha256new="PDXB2NRMRFUCR5C4FWU6L6NBE7EEHWR76Q44XRVRRS33DKSXZDGA"/>
+      <archive href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.2.4.5.zip" size="6009955" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=435d5fc7b40cb93b14bff62ee8023bc00b39e06b" released="2016-06-12" stability="stable" version="3.2.4.6">
+      <manifest-digest sha256new="C7Z67QRRNEVGRIRDR2W5ECOINQWBB6Y6BX4GK5OHVNADP3LUXAXA"/>
+      <archive href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.2.4.6.zip" size="6010208" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=943801f81c0c6a37760076865248c57ca5629810" released="2016-06-12" stability="stable" version="3.2.4.7">
+      <manifest-digest sha256new="QAMWQE2STHZHAG4MANG3Q3YPZEFVR45N7BBYCJJJNOB2RG6LRAXQ"/>
+      <archive href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.2.4.7.zip" size="6012877" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=299fce330d89b21bd2097777dbfaa18bde86eb89" released="2016-06-12" stability="stable" version="3.2.4.8">
+      <manifest-digest sha256new="QNI2ZBLP7AWW3QSPUQXYGIHJKFPQUAER64ZWT26KZ3TNLGB6AXJQ"/>
+      <archive href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.2.4.8.zip" size="6012949" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=100c15f279f683c3badf6d21620ff7f6890d2ac6" released="2016-06-12" stability="stable" version="3.2.4.9">
+      <manifest-digest sha256new="R6MZRXRJJK5CSLNXILNHZNIZUCFFGJPV5SMKFYWLU43Q5L3Z77QA"/>
+      <archive href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.2.4.9.zip" size="6014601" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=873c68d1e4d482330c618193cb536a19f0b20356" released="2016-06-12" stability="stable" version="3.2.6.0">
+      <manifest-digest sha256new="TUGFU2I4M7P7FDDSU4XZX6UWCE5YVOQC745TZH3S7LRGG4U46GWA"/>
+      <archive href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.2.6.0.zip" size="6287783" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=434601377f15cc7bf0ae90f3955a84e73bb75096" released="2016-06-12" stability="stable" version="3.2.8.0">
+      <manifest-digest sha256new="BAWFKPMN3RXCJDP6POYV5BKY7G4XN4HESXKP65D3C6LNQOAFQGEA"/>
+      <archive href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.2.8.0.zip" size="6244327" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=d29d3eb5688e55a2527314ab33ccfc2fffe56849" released="2016-06-12" stability="stable" version="3.2.8.1">
+      <manifest-digest sha256new="3DOKRUPHXMRIVDLMVDWHARPVPNXLDRFDW43OUXY2EMVLR4JVRXBA"/>
+      <archive href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.2.8.1.zip" size="6244170" type="application/zip"/>
+    </implementation>
+  </group>
+
+  <group arch="Windows-i486">
+    <command name="run" path="AutoIt3.exe"/>
+    <command name="info" path="Au3Info.exe"/>
+    <command name="check" path="Au3Check.exe"/>
+    <command name="help" path="AutoIt3Help.exe"/>
+    <command name="aut2exe" path="Aut2Exe/Aut2exe.exe"/>
+    <command name="scite" path="SciTe/SciTE.exe"/>
+    <implementation id="3.3.10.0-i486" released="2016-06-12" stability="stable" version="3.3.10.0">
+      <manifest-digest sha256new="MIF73TPPBHL55RG3UQXZHAQQFSTRQCLM57LKF5NEWFDRACL7NARA"/>
+      <archive extract="install" href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.3.10.0.zip" size="16076351" type="application/zip"/>
+    </implementation>
+    <implementation id="3.3.10.1-i486" released="2016-06-12" stability="stable" version="3.3.10.1">
+      <manifest-digest sha256new="XP7IFSKHP2SLWAAS2V65WMZW6A4PDMM47WASCK6QV2CFUP7EQL7Q"/>
+      <archive extract="install" href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.3.10.1.zip" size="16082607" type="application/zip"/>
+    </implementation>
+    <implementation id="3.3.10.2-i486" released="2016-06-12" stability="stable" version="3.3.10.2">
+      <manifest-digest sha256new="2S3EGAOATEU7TJUNHMJO5BMUVP5J4A3TPXWWNEIDVOTC3IOKDNFA"/>
+      <archive extract="install" href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.3.10.2.zip" size="16083228" type="application/zip"/>
+    </implementation>
+    <implementation id="3.3.12.0-i486" released="2016-06-12" stability="stable" version="3.3.12.0">
+      <manifest-digest sha256new="F6VX7FDUWWSLB6DRKMLHGWBRKM27RUE3KVBVOSS6USSR5LR2F44Q"/>
+      <archive extract="install" href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.3.12.0.zip" size="16400881" type="application/zip"/>
+    </implementation>
+    <implementation id="3.3.14.0-i486" released="2016-06-12" stability="stable" version="3.3.14.0">
+      <manifest-digest sha256new="DZBPRXCPT24HVMAVGJM2YNTUONGXG7DVAGQDP323NWSRALU2ZYVA"/>
+      <archive extract="install" href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.3.14.0.zip" size="16597625" type="application/zip"/>
+    </implementation>
+    <implementation id="3.3.14.1-i486" released="2016-06-12" stability="stable" version="3.3.14.1">
+      <manifest-digest sha256new="ZUHRB6A5XCDHTSHBFPKEL2S7HMMJ54GMWD7IUEYRALTVBUEDCH5A"/>
+      <archive extract="install" href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.3.14.1.zip" size="16493965" type="application/zip"/>
+    </implementation>
+    <implementation id="3.3.14.2-i486" released="2016-06-12" stability="stable" version="3.3.14.2">
+      <manifest-digest sha256new="S7OIWQ6PIW2NL7M62XUF3CQQ6KQD23PYHRTKYTYPQJ7IUENIM4DA"/>
+      <archive extract="install" href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.3.14.2.zip" size="16503326" type="application/zip"/>
+    </implementation>
+    <implementation id="3.3.14.3-i486" released="2018-02-02" stability="stable" version="3.3.14.3">
+      <manifest-digest sha256new="3NLUNW4S3FWJQXYWWAFLXI6TQSJ7LPUOGKSNA7Q7OIN2OPNTSPHA"/>
+      <archive extract="install" href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.3.14.3.zip" size="16357628" type="application/zip"/>
+    </implementation>
+    <implementation id="3.3.14.4-i486" released="2018-03-09" stability="stable" version="3.3.14.4">
+      <manifest-digest sha256new="KSACM52YFARHJ2QYRQKKT6WXYFKRZK4VCON4SZPYC3AZXZPOLEMA"/>
+      <archive extract="install" href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.3.14.4.zip" size="16405707" type="application/zip"/>
+    </implementation>
+    <implementation id="3.3.14.5-i486" released="2018-03-16" stability="stable" version="3.3.14.5">
+      <manifest-digest sha256new="EBD2CPUHV7TMVTQXLEAVHEMSCSWSYRRDAVRAHWHJOLKWH4JUM2CQ"/>
+      <archive extract="install" href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.3.14.5.zip" size="16408063" type="application/zip"/>
+    </implementation>
+    <implementation id="3.3.8.1-i486" released="2016-06-12" stability="stable" version="3.3.8.1">
+      <manifest-digest sha256new="G3SXYAYI3SEEUL554MVC2UWZS4YJ3P36XZFAKUC33UJAPII3AS6A"/>
+      <archive extract="install" href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.3.8.1.zip" size="10748577" type="application/zip"/>
+    </implementation>
+  </group>
+
+  <group arch="Windows-x86_64">
+    <command name="run" path="AutoIt3_x64.exe"/>
+    <command name="info" path="Au3Info_x64.exe"/>
+    <command name="check" path="Au3Check.exe"/>
+    <command name="help" path="AutoIt3Help.exe"/>
+    <command name="aut2exe" path="Aut2Exe/Aut2exe_x64.exe"/>
+    <command name="scite" path="SciTe/SciTE.exe"/>
+    <implementation id="3.3.10.0-x64" released="2016-06-12" stability="stable" version="3.3.10.0">
+      <manifest-digest sha256new="MIF73TPPBHL55RG3UQXZHAQQFSTRQCLM57LKF5NEWFDRACL7NARA"/>
+      <archive extract="install" href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.3.10.0.zip" size="16076351" type="application/zip"/>
+    </implementation>
+    <implementation id="3.3.10.1-x64" released="2016-06-12" stability="stable" version="3.3.10.1">
+      <manifest-digest sha256new="XP7IFSKHP2SLWAAS2V65WMZW6A4PDMM47WASCK6QV2CFUP7EQL7Q"/>
+      <archive extract="install" href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.3.10.1.zip" size="16082607" type="application/zip"/>
+    </implementation>
+    <implementation id="3.3.10.2-x64" released="2016-06-12" stability="stable" version="3.3.10.2">
+      <manifest-digest sha256new="2S3EGAOATEU7TJUNHMJO5BMUVP5J4A3TPXWWNEIDVOTC3IOKDNFA"/>
+      <archive extract="install" href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.3.10.2.zip" size="16083228" type="application/zip"/>
+    </implementation>
+    <implementation id="3.3.12.0-x64" released="2016-06-12" stability="stable" version="3.3.12.0">
+      <manifest-digest sha256new="F6VX7FDUWWSLB6DRKMLHGWBRKM27RUE3KVBVOSS6USSR5LR2F44Q"/>
+      <archive extract="install" href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.3.12.0.zip" size="16400881" type="application/zip"/>
+    </implementation>
+    <implementation id="3.3.14.0-x64" released="2016-06-12" stability="stable" version="3.3.14.0">
+      <manifest-digest sha256new="DZBPRXCPT24HVMAVGJM2YNTUONGXG7DVAGQDP323NWSRALU2ZYVA"/>
+      <archive extract="install" href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.3.14.0.zip" size="16597625" type="application/zip"/>
+    </implementation>
+    <implementation id="3.3.14.1-x64" released="2016-06-12" stability="stable" version="3.3.14.1">
+      <manifest-digest sha256new="ZUHRB6A5XCDHTSHBFPKEL2S7HMMJ54GMWD7IUEYRALTVBUEDCH5A"/>
+      <archive extract="install" href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.3.14.1.zip" size="16493965" type="application/zip"/>
+    </implementation>
+    <implementation id="3.3.14.2-x64" released="2016-06-12" stability="stable" version="3.3.14.2">
+      <manifest-digest sha256new="S7OIWQ6PIW2NL7M62XUF3CQQ6KQD23PYHRTKYTYPQJ7IUENIM4DA"/>
+      <archive extract="install" href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.3.14.2.zip" size="16503326" type="application/zip"/>
+    </implementation>
+    <implementation id="3.3.14.3-x64" released="2018-02-02" stability="stable" version="3.3.14.3">
+      <manifest-digest sha256new="3NLUNW4S3FWJQXYWWAFLXI6TQSJ7LPUOGKSNA7Q7OIN2OPNTSPHA"/>
+      <archive extract="install" href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.3.14.3.zip" size="16357628" type="application/zip"/>
+    </implementation>
+    <implementation id="3.3.14.4-x64" released="2018-03-09" stability="stable" version="3.3.14.4">
+      <manifest-digest sha256new="KSACM52YFARHJ2QYRQKKT6WXYFKRZK4VCON4SZPYC3AZXZPOLEMA"/>
+      <archive extract="install" href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.3.14.4.zip" size="16405707" type="application/zip"/>
+    </implementation>
+    <implementation id="3.3.14.5-x64" released="2018-03-16" stability="stable" version="3.3.14.5">
+      <manifest-digest sha256new="EBD2CPUHV7TMVTQXLEAVHEMSCSWSYRRDAVRAHWHJOLKWH4JUM2CQ"/>
+      <archive extract="install" href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.3.14.5.zip" size="16408063" type="application/zip"/>
+    </implementation>
+    <implementation id="3.3.8.1-x64" released="2016-06-12" stability="stable" version="3.3.8.1">
+      <manifest-digest sha256new="G3SXYAYI3SEEUL554MVC2UWZS4YJ3P36XZFAKUC33UJAPII3AS6A"/>
+      <archive extract="install" href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.3.8.1.zip" size="10748577" type="application/zip"/>
+    </implementation>
+  </group>
+
+  <entry-point binary-name="AutoIt3" command="run"/>
+  <entry-point binary-name="Au3Info" command="info">
+    <name>AutoIt Window Information Tool</name>
+    <summary>allows you to get information from a specified window that can be used to effectively automate it</summary>
+  </entry-point>
+  <entry-point binary-name="Au3Check" command="check">
+    <needs-terminal/>
+    <name>AutoIt3 Syntax checker</name>
+    <summary>checks the syntax of AutoIt v3 scripts</summary>
+  </entry-point>
+  <entry-point binary-name="AutoIt3Help" command="help">
+    <name>AutoIt Help</name>
+    <summary>help file with AutoIt documentation</summary>
+  </entry-point>
+  <entry-point binary-name="Aut2exe" command="aut2exe">
+    <name>Aut2Exe</name>
+    <summary>take your .au3 script and compile it into a standalone executable</summary>
+  </entry-point>
+  <entry-point binary-name="SciTE" command="scite">
+    <name>SciTE Lite</name>
+    <summary>a Scintilla based Text Editor modified by Jos for AutoIt3</summary>
+  </entry-point>
+
+  <capabilities os="Windows" xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <file-type id="AutoIt3Script">
+      <extension perceived-type="text" value=".au3"/>
+      <description>AutoIt v3 Script</description>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/AutoIt.script.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <verb args="&quot;%1&quot; %*" command="run" name="open">
+        <description>Run Script</description>
+      </verb>
+      <verb args="/in &quot;%l&quot;" command="aut2exe" name="compile">
+        <description>Compile Script</description>
+      </verb>
+      <verb args="&quot;%1&quot;" command="scite" name="edit">
+        <description>Edit Script</description>
+      </verb>
+    </file-type>
+    <file-type id="AutoIt3XScript">
+      <extension value=".a3x"/>
+      <description>AutoIt v3 Encoded Script</description>
+      <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/AutoIt.script.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <verb args="&quot;%1&quot; %*" command="run" name="Run">
+        <description>Run Script</description>
+      </verb>
+    </file-type>
+  </capabilities>
+</interface>

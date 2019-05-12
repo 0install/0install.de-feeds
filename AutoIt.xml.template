@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <name>AutoIt</name>
+  <summary>freeware BASIC-like scripting language designed for automating the Windows GUI</summary>
+  <description>AutoIt is a freeware BASIC-like scripting language designed for automating the Windows GUI and general scripting. It uses a combination of simulated keystrokes, mouse movement and window/control manipulation in order to automate tasks in a way not possible or reliable with other languages.</description>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/AutoIt.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/AutoIt.png" type="image/png"/>
+  <category>Development</category>
+  <homepage>https://www.autoitscript.com/</homepage>
+
+  <feed-for interface="http://0install.de/feeds/AutoIt.xml"/>
+
+  <group arch="Windows-i486">
+    <command name="run" path="AutoIt3.exe"/>
+    <command name="info" path="Au3Info.exe"/>
+    <command name="check" path="Au3Check.exe"/>
+    <command name="help" path="AutoIt3Help.exe"/>
+    <command name="aut2exe" path="Aut2Exe/Aut2exe.exe"/>
+    <command name="scite" path="SciTe/SciTE.exe"/>
+    <implementation id="{version}-i486" released="{released}" stability="stable" version="{version}">
+      <manifest-digest/>
+      <archive extract="install" href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v{version}.zip" type="application/zip"/>
+    </implementation>
+  </group>
+
+  <group arch="Windows-x86_64">
+    <command name="run" path="AutoIt3_x64.exe"/>
+    <command name="info" path="Au3Info_x64.exe"/>
+    <command name="check" path="Au3Check.exe"/>
+    <command name="help" path="AutoIt3Help.exe"/>
+    <command name="aut2exe" path="Aut2Exe/Aut2exe_x64.exe"/>
+    <command name="scite" path="SciTe/SciTE.exe"/>
+    <implementation id="{version}-x64" released="{released}" stability="stable" version="{version}">
+      <manifest-digest/>
+      <archive extract="install" href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v{version}.zip" type="application/zip"/>
+    </implementation>
+  </group>
+</interface>
