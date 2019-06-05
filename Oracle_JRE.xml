@@ -165,10 +165,6 @@
       <manifest-digest sha256new="TOL4XT7QF2IBQHHGMV34V7C5F7JQT4LWE7OWEE3KDNTSJQZ4SUTA"/>
       <archive extract="jre-9.0.4" href="jre-9.0.4_windows-x64_bin.tar.gz" size="76086793" type="application/x-compressed-tar"/>
     </implementation>
-    <implementation arch="Windows-x86_64" id="sha1new=46ade9b8e67fbeca33291c4d63ae5cae9a87251c" released="2018-03-21" version="10">
-      <manifest-digest sha256new="VMANZSWAMHZVASHOW42QQKP5NOI6ZJE2OPBKZIV32B47XRGSEFCA"/>
-      <archive extract="jre-10" href="jre-10_windows-x64_bin.tar.gz" size="79023057" type="application/x-compressed-tar"/>
-    </implementation>
     <implementation arch="Windows-x86_64" id="sha1new=1e6389f005611b98923d2262d2a1689f259c33aa" released="2018-09-21" version="10.0.2">
       <manifest-digest sha256new="INJ36DTMI5TBPDQRCGIOJXDNPLMJEYHZY3GIDGRGX2XBO72MCAKA"/>
       <archive extract="jre-10.0.2" href="jre-10.0.2_windows-x64_bin.tar.gz" size="79042057" type="application/x-compressed-tar"/>
