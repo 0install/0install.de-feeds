@@ -156,6 +156,10 @@
         <manifest-digest sha256new="QSJUUDBZWXN5FIEURIP2DH3IAGMMFXFDKGXMSQZX547ZDFVZBJUA"/>
         <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2019.1.win.zip" size="636859726" type="application/zip"/>
       </implementation>
+      <implementation id="sha1new=a7c34743fb2c6f6a3ddc72b9311642c03f81e42d" released="2019-06-06" stability="developer" version="2019.1.2">
+        <manifest-digest sha256new="H5UES5ELBFYJWO2XF5L5MUZ7CXTEX6DN6HH3K4266TFMRXVWATEA"/>
+        <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2019.1.2.win.zip" size="637102218" type="application/zip"/>
+      </implementation>
     </group>
   </group>
 

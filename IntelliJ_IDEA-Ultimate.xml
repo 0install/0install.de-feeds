@@ -175,6 +175,10 @@
         <manifest-digest sha256new="PLQNYF7CWTHOATWAX4RXX67KS763JRRO5ZXXRMQKB6DAJTG6AIPA"/>
         <archive extract="idea-IU-191.7141.44" href="https://download.jetbrains.com/idea/ideaIU-2019.1.2-no-jbr.tar.gz" size="618961577" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha1new=ecf64f52819be780b61ad8ba5afabeb49424397f" released="2019-05-28" stability="stable" version="2019.1.3">
+        <manifest-digest sha256new="H2YR6FLX7ZF5AWBWLTZTOAUBI66IHZDMZL2RTWDIDYSSLY4VLY6Q"/>
+        <archive extract="idea-IU-191.7479.19" href="https://download.jetbrains.com/idea/ideaIU-2019.1.3-no-jbr.tar.gz" size="619294240" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 
