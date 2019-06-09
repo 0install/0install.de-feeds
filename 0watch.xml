@@ -18,11 +18,6 @@
       <runner interface="http://repo.roscidus.com/python/python"/>
     </command>
 
-    <requires interface="http://0install.net/2007/interfaces/ZeroInstall.xml">
-      <environment insert="" mode="prepend" name="PYTHONPATH"/>
-      <version not-before="2.2-post"/>
-    </requires>
-
     <requires interface="http://0install.net/tools/0template.xml">
       <executable-in-path name="0template"/>
     </requires>
