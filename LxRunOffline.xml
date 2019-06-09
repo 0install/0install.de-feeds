@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<interface uri="http://0install.de/feeds/LxRunOffline.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <name>LxRunOffline</name>
+  <summary>utility for managing Windows Subsystem for Linux (WSL)</summary>
+  <category>Utility</category>
+  <needs-terminal/>
+
+  <group license="MIT License">
+    <command name="run" path="LxRunOffline.exe"/>
+    <implementation id="sha1new=9f7dc31eaec59d9a39ac23fe7f481bb6502105e3" released="2017-01-09" stability="stable" version="1.0.0">
+      <manifest-digest sha256new="5O7QR427TJJQNYZZCCNEDHNBGRKCGKGE3DCSEI3YXLNKOQPYJEEQ"/>
+      <archive extract="LxRunOffline-v1.0.0" href="https://github.com/DDoSolitary/LxRunOffline/releases/download/v1.0.0/LxRunOffline-v1.0.0.zip" size="276654" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=66927ab507f6a907d9f5d88b1b128f1ae6e4cb5e" released="2017-04-07" stability="stable" version="1.1.0">
+      <manifest-digest sha256new="D5WKQC2XXKBLRVW7KATB4ZGAVNG3OENU5UZUR27TKVFSTJVYCE4Q"/>
+      <archive extract="LxRunOffline-v1.1.0" href="https://github.com/DDoSolitary/LxRunOffline/releases/download/v1.1.0/LxRunOffline-v1.1.0.zip" size="146418" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=994fcba2216e3f41f0c4a5b1d6220d8d264b4676" released="2017-11-09" stability="stable" version="2.0.0">
+      <manifest-digest sha256new="QZKZHQUCQAWGERC2OWG6PX7NITT334DPCLHBJSIDBTANVLYO3AFA"/>
+      <archive extract="LxRunOffline-v2.0.0" href="https://github.com/DDoSolitary/LxRunOffline/releases/download/v2.0.0/LxRunOffline-v2.0.0.zip" size="5485" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=1e40d7ad4ca5b681e8f83f6e1f28320136cf11a9" released="2017-11-11" stability="stable" version="2.1.0">
+      <manifest-digest sha256new="KLP6U52ESRR3C2SDG6AL5HIW6MV3LSAN77NLFR2OX74OMOUEGCNA"/>
+      <archive extract="LxRunOffline-v2.1.0" href="https://github.com/DDoSolitary/LxRunOffline/releases/download/v2.1.0/LxRunOffline-v2.1.0.zip" size="650755" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=eca51a731aee20bc327e9716b79c70b2ffa45cb7" released="2017-11-24" stability="stable" version="2.1.1">
+      <manifest-digest sha256new="LRLXVROF45FEQPFB7UARLGDHWODYII2EY4LCHEIECFH7WA5JSA3Q"/>
+      <archive extract="LxRunOffline-v2.1.1" href="https://github.com/DDoSolitary/LxRunOffline/releases/download/v2.1.1/LxRunOffline-v2.1.1.zip" size="83801" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=ef5a48598c38e764a59f6af1a0b9beb91c50630c" released="2017-12-24" stability="stable" version="2.1.2">
+      <manifest-digest sha256new="NW6GDA52POW2OD6NE7VDCGOKHAGAFJD3GTI7MXYSO5FII5BAN2XQ"/>
+      <archive href="https://github.com/DDoSolitary/LxRunOffline/releases/download/v2.1.2/LxRunOffline-v2.1.2.zip" size="84003" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=88ecda5172af601737d6c0a422232821f40f55ef" released="2018-01-13" stability="stable" version="2.1.3">
+      <manifest-digest sha256new="654W7W25RA4GLQ55PC3L5R6IZEYNAK5WF7ZURPTWOPLMXEGWF4OA"/>
+      <archive href="https://github.com/DDoSolitary/LxRunOffline/releases/download/v2.1.3/LxRunOffline-v2.1.3.zip" size="86140" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=d8262848e89b0b86b2a869f6f19590011425dd4e" released="2018-02-06" stability="stable" version="2.2.0">
+      <manifest-digest sha256new="SKRBEKNYFBC6ZFCNV23AXV5LD6BU4S7XHXV4QVYMF7PT66UCKR4Q"/>
+      <archive href="https://github.com/DDoSolitary/LxRunOffline/releases/download/v2.2.0/LxRunOffline-v2.2.0.zip" size="373385" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=cb8429155367fdc4a8ab4c9be4821cbc098f0f7b" released="2018-02-07" stability="stable" version="2.2.1">
+      <manifest-digest sha256new="KGCHI7RB626LGTF5VCUAPC6L4HKTS27A562CD2WPFGA2WV52QCPA"/>
+      <archive href="https://github.com/DDoSolitary/LxRunOffline/releases/download/v2.2.1/LxRunOffline-v2.2.1.zip" size="388352" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=21b827ee71f04281076914966130af9e8e2e8eb1" released="2018-02-23" stability="stable" version="2.2.2">
+      <manifest-digest sha256new="2EAX6RGTNEAVH236NLQC24M2GO6YZF44JJ6OCSAEWJ7WRUAV6K3Q"/>
+      <archive href="https://github.com/DDoSolitary/LxRunOffline/releases/download/v2.2.2/LxRunOffline-v2.2.2.zip" size="389612" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=e9212405f83af3bb5f1b06b30687ca955f9e9614" released="2018-07-06" stability="stable" version="3.0.0">
+      <manifest-digest sha256new="KWXZMEOOZSQEC2AZ4VS2KF5RETLE7GLTBHB5OESWLPAA3DF57DXQ"/>
+      <archive href="https://github.com/DDoSolitary/LxRunOffline/releases/download/v3.0.0/LxRunOffline-v3.0.0.zip" size="3080338" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=43b76529b27db3090bc35f7f900125c5bc38f876" released="2018-07-06" stability="stable" version="3.0.1">
+      <manifest-digest sha256new="XX5ZEAQ5MAALSZ3KXYPLRGLOUIL4DROHWQGWYL5UQU77WLNSADFA"/>
+      <archive href="https://github.com/DDoSolitary/LxRunOffline/releases/download/v3.0.1/LxRunOffline-v3.0.1.zip" size="3082613" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=efb08c49a8d3de333f57d9fff545e806e259326b" released="2018-08-07" stability="stable" version="3.1.0">
+      <manifest-digest sha256new="JT2N7E43EEU6YSKMQM5MTV5ASXCPFYFDZ6VVONS4WHPWDULCBPSQ"/>
+      <archive href="https://github.com/DDoSolitary/LxRunOffline/releases/download/v3.1.0/LxRunOffline-v3.1.0.zip" size="3088723" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=ddcdf92c557314facf4819872ba119b4d4caa216" released="2018-08-23" stability="stable" version="3.1.1">
+      <manifest-digest sha256new="K2MJUM5GRIPXDKZD4XHTLBEITZETOPB4NC44OLUCG3EXQU75OTSA"/>
+      <archive href="https://github.com/DDoSolitary/LxRunOffline/releases/download/v3.1.1/LxRunOffline-v3.1.1.zip" size="3215801" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=2d99bce8f6dae1c6ed5640462a4c05434903694e" released="2018-09-15" stability="stable" version="3.2.0">
+      <manifest-digest sha256new="GPC664RGFMJN6VHIPDJYQQYHIPHGBBAEULBBKBMKDES7PFCLBVTA"/>
+      <archive href="https://github.com/DDoSolitary/LxRunOffline/releases/download/v3.2.0/LxRunOffline-v3.2.0.zip" size="3243541" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=f59bcad49ce5d2d17d68bdc1bda6cecde826541d" released="2018-10-03" stability="stable" version="3.3.0">
+      <manifest-digest sha256new="QE6M5EVOZAJQNZD56TORXC36Z3LT3W2FG5CFR5K7FS3DKKBPZXJA"/>
+      <archive href="https://github.com/DDoSolitary/LxRunOffline/releases/download/v3.3.0/LxRunOffline-v3.3.0.zip" size="3250952" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=d543aa83108b2008c07daba95835e86b185550bd" released="2018-11-21" stability="stable" version="3.3.1">
+      <manifest-digest sha256new="4F2Q5IIHUCAVWN3AF7BDWKVGLKZ4MDVLU7LUHWWAIC63MIVEMAKQ"/>
+      <archive href="https://github.com/DDoSolitary/LxRunOffline/releases/download/v3.3.1/LxRunOffline-v3.3.1.zip" size="2026958" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=7149308efa0f44de21c0bc43adbe76ff2c036d96" released="2018-12-08" stability="stable" version="3.3.2">
+      <manifest-digest sha256new="GWO7L2OQX6RM2YB4CQJTAVWJPRX5V3IIDDU6IXY4EV253FNAJDGA"/>
+      <archive href="https://github.com/DDoSolitary/LxRunOffline/releases/download/v3.3.2/LxRunOffline-v3.3.2.zip" size="2032332" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=2b99607ec96301a1d1fc1ce3f1bf2f95d9f88fd1" released="2019-02-02" stability="stable" version="3.3.3">
+      <manifest-digest sha256new="RU6SMYALSROJURPCQTOA54EKY6ZXP5HFKRP4B3DXS4GDBSHG3IVA"/>
+      <archive href="https://github.com/DDoSolitary/LxRunOffline/releases/download/v3.3.3/LxRunOffline-v3.3.3.zip" size="2039040" type="application/zip"/>
+    </implementation>
+  </group>
+
+  <entry-point binary-name="LxRunOffline" command="run"/>
+</interface>

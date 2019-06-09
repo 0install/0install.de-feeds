@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <name>LxRunOffline</name>
+  <summary>utility for managing Windows Subsystem for Linux (WSL)</summary>
+  <category>Utility</category>
+  <needs-terminal/>
+
+  <feed-for interface="http://0install.de/feeds/LxRunOffline.xml"/>
+
+  <group license="MIT License">
+    <command name="run" path="LxRunOffline.exe"/>
+    <implementation stability="stable" version="{version}" released="{released}">
+      <archive href="https://github.com/DDoSolitary/LxRunOffline/releases/download/v{version}/LxRunOffline-v{version}.zip" type="application/zip"/>
+    </implementation>
+  </group>
+</interface>
