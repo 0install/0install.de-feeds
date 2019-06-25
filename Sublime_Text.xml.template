@@ -9,23 +9,23 @@
   <implementation arch="Windows-x86_64" version="{version}" released="{released}" stability="stable" main="sublime_text.exe">
     <manifest-digest />
     <recipe>
-      <archive href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20{version}%20x64.zip" type="application/zip" />
+      <archive href="https://download.sublimetext.com/Sublime%20Text%20Build%20{build}%20x64.zip" type="application/zip" />
       <remove path="Data" />
     </recipe>
   </implementation>
   <implementation arch="Windows-i486" version="{version}" released="{released}" stability="stable" main="sublime_text.exe">
     <manifest-digest />
     <recipe>
-      <archive href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20{version}.zip" type="application/zip" />
+      <archive href="https://download.sublimetext.com/Sublime%20Text%20Build%20{build}.zip" type="application/zip" />
       <remove path="Data" />
     </recipe>
   </implementation>
   <implementation arch="Linux-x86_64" version="{version}" released="{released}" stability="stable" main="sublime_text">
     <manifest-digest />
-    <archive href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20{version}%20x64.tar.bz2" type="application/x-bzip-compressed-tar" extract="Sublime Text 2" />
+    <archive href="https://download.sublimetext.com/sublime_text_3_build_{build}_x64.tar.bz2" type="application/x-bzip-compressed-tar" extract="sublime_text_3" />
   </implementation>
   <implementation arch="Linux-i486" version="{version}" released="{released}" stability="stable" main="sublime_text">
     <manifest-digest />
-    <archive href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20{version}.tar.bz2" type="application/x-bzip-compressed-tar" extract="Sublime Text 2" />
+    <archive href="https://download.sublimetext.com/sublime_text_3_build_{build}_x32.tar.bz2" type="application/x-bzip-compressed-tar" extract="sublime_text_3" />
   </implementation>
 </interface>
