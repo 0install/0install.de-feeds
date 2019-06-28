@@ -83,6 +83,10 @@
       <manifest-digest sha256new="RU6SMYALSROJURPCQTOA54EKY6ZXP5HFKRP4B3DXS4GDBSHG3IVA"/>
       <archive href="https://github.com/DDoSolitary/LxRunOffline/releases/download/v3.3.3/LxRunOffline-v3.3.3.zip" size="2039040" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=e4b28d48ce9939ead4c65b996380817d408f590f" released="2019-06-27" stability="stable" version="3.4.0">
+      <manifest-digest sha256new="PZNLQ2VKKV4GI65E4JYGGGDHFHPPGEBGAFEOTAYVFP7EWH6GUKYQ"/>
+      <archive href="https://github.com/DDoSolitary/LxRunOffline/releases/download/v3.4.0/LxRunOffline-v3.4.0.zip" size="3308311" type="application/zip"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="LxRunOffline" command="run"/>
