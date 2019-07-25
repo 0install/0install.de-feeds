@@ -180,6 +180,13 @@
         <archive extract="idea-IC-191.7479.19" href="https://download.jetbrains.com/idea/ideaIC-2019.1.3-no-jbr.tar.gz" size="496395133" type="application/x-compressed-tar"/>
       </implementation>
     </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="IdeaIC2019.2"/>
+      <implementation id="sha1new=bc35187201237a5ec6dc77064e1247c31bd85739" released="2019-07-24" stability="stable" version="2019.2">
+        <manifest-digest sha256new="IEJSTIKYURS4HERXV3VQWIFZXDBMHV2WNOOSEDHPKCHAV5KTLQFA"/>
+        <archive extract="idea-IC-192.5728.98" href="https://download.jetbrains.com/idea/ideaIC-2019.2-no-jbr.tar.gz" size="531207945" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
   </group>
 
   <entry-point binary-name="idea" command="run"/>

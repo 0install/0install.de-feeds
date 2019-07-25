@@ -298,6 +298,13 @@
         <archive extract="pycharm-community-2019.1.3" href="https://download.jetbrains.com/python/pycharm-community-2019.1.3.tar.gz" size="334018235" type="application/x-compressed-tar"/>
       </implementation>
     </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="PyCharmCE2019.2"/>
+      <implementation id="sha1new=39bebb1f1f1cbced5962f4ce36397d0e041d9816" released="2019-07-24" stability="stable" version="2019.2">
+        <manifest-digest sha256new="U2PB3IW37QPI3ABBMSLJ5Y6A4NHIQJFS3HPRUYAR7EY5XNSCW32Q"/>
+        <archive extract="pycharm-community-2019.2" href="https://download.jetbrains.com/python/pycharm-community-2019.2.tar.gz" size="359295798" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
   </group>
 
   <entry-point binary-name="pycharm" command="run"/>
