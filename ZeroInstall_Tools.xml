@@ -9,11 +9,11 @@ and the New Feed Wizard (walks you through the entire feed creation process, aut
   <description xml:lang="de">Zero Install verwendet Feeds, XML Dateien im Internet, um Anwendungen sowie deren Download zu beschreiben. Die Zero Install Publishing Tools ermöglichen es Ihnen, Ihre eigenen Feeds zu erstellen. Sie bestehen aus zwei Hauptkomponenten:
 Der Feed Editor (Split Screen mit grafischer und XML Ansicht)
 und der New Feed Wizard (leitet Sie durch den kompletten Feed-Erstellungsprozess, extrahiert automatisch Metadaten wenn möglich)</description>
-  <homepage>http://0install.de/about/tools/</homepage>
   <icon href="https://raw.githubusercontent.com/0install/0publish-win/master/icon.png" type="image/png"/>
   <icon href="https://raw.githubusercontent.com/0install/0publish-win/master/icon.ico" type="image/vnd.microsoft.icon"/>
+  <homepage>https://docs.0install.de/tools/0publish-win/</homepage>
 
-  <group>
+  <group license="LGPL v3 (GNU Lesser General Public License)">
     <requires interface="http://repo.roscidus.com/security/gnupg">
       <environment insert="." name="PATH"/>
     </requires>
@@ -59,6 +59,10 @@ und der New Feed Wizard (leitet Sie durch den kompletten Feed-Erstellungsprozess
     <implementation id="sha1new=edcf24dfaded125738c94692b70ea537c597790c" license="LGPL v3 (GNU Lesser General Public License)" released="2019-05-24" stability="stable" version="2.16.5">
       <manifest-digest sha256new="IZJFVNV6QW5QG5CORP6GMB47MACBBPFSEA7FFIYOSJWAOHRQGHAA"/>
       <archive href="https://github.com/0install/0publish-win/releases/download/2.16.5/ZeroInstall_Tools-2.16.5.tar.gz" size="2652601"/>
+    </implementation>
+    <implementation id="sha1new=4ef83ca118c827c0682367070988b25bbabfff17" released="2019-07-25" stability="stable" version="2.16.7">
+      <manifest-digest sha256new="D4Y77ARPDVTDJLUNYK4OJIH2PL25KNHSSOHB2D5BYXXVPU3YEODQ"/>
+      <archive href="https://github.com/0install/0publish-win/releases/download/2.16.7/ZeroInstall_Tools-2.16.7.tar.gz" size="2653592"/>
     </implementation>
   </group>
 
