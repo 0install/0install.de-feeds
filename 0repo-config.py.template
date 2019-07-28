@@ -15,7 +15,7 @@ def get_public_rel_path(feeds_rel_path):
 	return feeds_rel_path
 
 def get_archive_rel_url(archive_basename, impl):
-	return feeds_rel_path
+	return archive_basename
 
 def check_new_impl(impl):
 	return None
