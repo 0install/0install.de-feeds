@@ -19,7 +19,7 @@
     http://reality.sgi.com/opengl/glut3/glut-faq.html</description>
   <category>Graphics</category>
   <homepage>https://user.xmission.com/~nate/glut.html</homepage>
-  <implementation arch="Windows-*" id="sha1new=b5959cf35e247b71e319073c80eafba97127da3d" license="Freely distributable" released="2001-11-08" version="3.7.6">
+  <implementation arch="Windows-i486" id="sha1new=b5959cf35e247b71e319073c80eafba97127da3d" license="Freely distributable" released="2001-11-08" version="3.7.6">
     <manifest-digest sha256new="MQEBJ4WBY4WUVNJPZLZJM6HQ5WJFSEW3GWRAYGE34WKTBCRF2PFQ"/>
     <archive extract="glut-3.7.6-bin" href="https://user.xmission.com/~nate/glut/glut-3.7.6-bin.zip" size="119897" type="application/zip"/>
   </implementation>
