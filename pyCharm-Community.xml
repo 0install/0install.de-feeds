@@ -312,6 +312,10 @@
         <manifest-digest sha256new="LXRBPMYEDN63ZWEVRU4EJHWVQ4YRZTTRL7E7Z6USVOQA4D4PWCFQ"/>
         <archive extract="pycharm-community-2019.2.1" href="https://download.jetbrains.com/python/pycharm-community-2019.2.1.tar.gz" size="359710467" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha1new=07250a5a2ca170efeae9093ce914c0d14c715071" released="2019-09-11" stability="stable" version="2019.2.2">
+        <manifest-digest sha256new="F3C4NCPHZ3A5ETOXIBRLWO4YE6UJ6DMYSNMUV5OJ4Q7N6PYGATTA"/>
+        <archive extract="pycharm-community-2019.2.2" href="https://download.jetbrains.com/python/pycharm-community-2019.2.2.tar.gz" size="359797110" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 
