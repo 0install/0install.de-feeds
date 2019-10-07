@@ -118,6 +118,10 @@
       <manifest-digest sha256new="U66GX6UL4PHZ3XGAMHXJ53QZSJX3ZPDLRWPH7LJ2KC6MBUIQ4C3A"/>
       <archive href="https://github.com/NickeManarin/ScreenToGif/releases/download/2.18/ScreenToGif.2.18.Portable.zip" size="980299" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=ece4140322fd80498e7092e17b32b8b5dee96fd8" released="2019-10-07" stability="stable" version="2.19">
+      <manifest-digest sha256new="PAJCPQQO4LP545RMMRNA26BLPTD2W2R3SI63DCBCJFIJSVKT26WQ"/>
+      <archive href="https://github.com/NickeManarin/ScreenToGif/releases/download/2.19/ScreenToGif.2.19.Portable.zip" size="1046129" type="application/zip"/>
+    </implementation>
   </group>
 
   <implementation arch="Windows-*" id="sha1new=4014b3913299c2c8f2ff4c439c6d47fdc765d595" license="Microsoft Public License (Ms-PL)" main="ScreenToGif 2.2.exe" released="2016-09-04" stability="stable" version="2.2">
