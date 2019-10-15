@@ -64,6 +64,10 @@ und der New Feed Wizard (leitet Sie durch den kompletten Feed-Erstellungsprozess
       <manifest-digest sha256new="D4Y77ARPDVTDJLUNYK4OJIH2PL25KNHSSOHB2D5BYXXVPU3YEODQ"/>
       <archive href="https://github.com/0install/0publish-win/releases/download/2.16.7/ZeroInstall_Tools-2.16.7.tar.gz" size="2653592"/>
     </implementation>
+    <implementation id="sha1new=9c28761a2186114cf8cb3c535752f6a7b65e5b5e" released="2019-10-15" stability="stable" version="2.16.8">
+      <manifest-digest sha256new="XW4NO3D46N33RG6EL5NZDNWYSEBIEH7VAKQDX63WENIOD4GYK5HQ"/>
+      <archive href="https://github.com/0install/0publish-win/releases/download/2.16.8/ZeroInstall_Tools-2.16.8.tar.gz" size="2652723"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="0publish-win" command="run">
