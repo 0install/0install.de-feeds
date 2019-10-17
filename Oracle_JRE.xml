@@ -65,6 +65,14 @@
       <manifest-digest sha256new="JBMVGNM5QZTFEV752RBTKY7ILUVCPLPK5NTX6E34PTGIX2JGU25Q"/>
       <archive extract="jre1.8.0_221" href="https://javadl.oracle.com/webapps/download/AutoDL?BundleId=239848_230deb18db3e4014bb8e3e8324f81b43" size="87964916" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation arch="Linux-i586" id="sha1new=4ec3bb8197096842a72df757dca5d42b7fd55166" released="2019-10-15" stability="stable" version="8.0.231">
+      <manifest-digest sha256new="QTMKCJW7WVCRLAG243JUXHKGJCIYJSHLPV6B7G6ECX5VCFZIDGNA"/>
+      <archive extract="jre1.8.0_231" href="https://javadl.oracle.com/webapps/download/AutoDL?BundleId=240716_5b13a193868b4bf28bcb45c792fce896" size="87307599" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=c9ee2214e34bd47e53baa240292e0a6b978d6095" released="2019-10-15" stability="stable" version="8.0.231">
+      <manifest-digest sha256new="4J3BJWHEDUWDVMBB3L5SLKWUKEPT4UOPU3Z3QBSD7YR4QKI6HCUA"/>
+      <archive extract="jre1.8.0_231" href="https://javadl.oracle.com/webapps/download/AutoDL?BundleId=240718_5b13a193868b4bf28bcb45c792fce896" size="86441080" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
 
   <group license="Oracle Binary Code License Agreement for Java SE">
@@ -131,6 +139,14 @@
     <implementation arch="Windows-x86_64" id="sha1new=0338e2a269ee9c8d6bf7c474e343e7a607828631" released="2019-07-16" stability="stable" version="8.0.221">
       <manifest-digest sha256new="UVIZUA4FVZ24WSGX6HX74LZRJINFQPAB3BCJ2VAABUA2BUIODFPQ"/>
       <archive extract="jre1.8.0_221" href="https://javadl.oracle.com/webapps/download/AutoDL?BundleId=239859_230deb18db3e4014bb8e3e8324f81b43" size="78740601" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-i586" id="sha1new=0fd031c506003da48b7f393ca1bf04bf9d3289c2" released="2019-10-15" stability="stable" version="8.0.231">
+      <manifest-digest sha256new="MNG6LTM22NNEVPERGWYKVLO7EH4RYIJUWUUTARZFAFLCHZTDKNJA"/>
+      <archive extract="jre1.8.0_231" href="https://javadl.oracle.com/webapps/download/AutoDL?BundleId=240727_5b13a193868b4bf28bcb45c792fce896" size="70660081" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=f8706d8626bd9010c3d4b5e3380e4e20aa10c089" released="2019-10-15" stability="stable" version="8.0.231">
+      <manifest-digest sha256new="LUCVB2E7BICH4PJOBHHXNBMYNF7QOBOAWYW6QAM7KCAKG737WQLQ"/>
+      <archive extract="jre1.8.0_231" href="https://javadl.oracle.com/webapps/download/AutoDL?BundleId=240729_5b13a193868b4bf28bcb45c792fce896" size="75968517" type="application/x-compressed-tar"/>
     </implementation>
   </group>
 
