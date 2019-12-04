@@ -6,5 +6,5 @@
   <category>Network</category>
   <category>Utility</category>
   <needs-terminal />
-  <feed-for interface="http://repo.roscidus.com/utils/curl" />
+  <feed src="http://repo.roscidus.com/utils/curl" />
 </interface>
