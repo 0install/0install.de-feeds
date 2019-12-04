@@ -207,6 +207,13 @@
         <archive extract="idea-IU-192.7142.36" href="https://download.jetbrains.com/idea/ideaIU-2019.2.4-no-jbr.tar.gz" size="702772063" type="application/x-compressed-tar"/>
       </implementation>
     </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="IntelliJIdea2019.3"/>
+      <implementation id="sha1new=aa54f1a83e2327d3a498c403a647738312803821" released="2019-11-28" stability="stable" version="2019.3">
+        <manifest-digest sha256new="KIEIIJLMARZPBE4XBQ6NAGZDKMBYBSE3YEFUGNJF7GBCXMFCC3XA"/>
+        <archive extract="idea-IU-193.5233.102" href="https://download.jetbrains.com/idea/ideaIU-2019.3-no-jbr.tar.gz" size="686777779" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
   </group>
 
   <entry-point binary-name="idea" command="run"/>
