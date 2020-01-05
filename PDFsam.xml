@@ -13,7 +13,7 @@
       <arg>-classpath</arg>
       <arg>$PDFSAMJAR</arg>
       <arg>org.pdfsam.guiclient.GuiClient</arg>
-      <runner interface="http://repo.roscidus.com/java/openjdk-jre" command="run-gui" />
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run-gui" />
     </command>
     <command name="console">
       <arg>-Xmx256m</arg>
@@ -21,7 +21,7 @@
       <arg>-classpath</arg>
       <arg>$CONSOLEJAR</arg>
       <arg>org.pdfsam.console.ConsoleClient</arg>
-      <runner interface="http://repo.roscidus.com/java/openjdk-jre" command="run" />
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run" />
     </command>
     <implementation version="2.2.2" released="2012-11-05" stability="stable" id="sha1new=3ed303100a8d92772d8342ce2d70dee22f1c9fe5">
       <environment name="PDFSAMJAR" insert="pdfsam-2.2.2.jar" mode="replace" />

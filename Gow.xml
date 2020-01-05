@@ -8,7 +8,7 @@
   <category>Utility</category>
   <needs-terminal/>
   <group arch="Windows-*">
-    <requires importance="recommended" interface="http://repo.roscidus.com/utils/putty">
+    <requires importance="recommended" interface="https://apps.0install.net/gui/putty.xml">
       <executable-in-path command="plink" name="ssh"/>
       <executable-in-path command="pscp" name="scp"/>
       <executable-in-path command="psftp" name="sftp"/>

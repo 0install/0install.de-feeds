@@ -9,7 +9,7 @@
   <homepage>http://www.jetbrains.com/decompiler/</homepage>
   <group>
     <command name="run" path="dotPeek.exe">
-      <runner interface="http://repo.roscidus.com/dotnet/framework" version="2.0.." command="run-gui" />
+      <runner interface="https://apps.0install.net/dotnet/framework.xml" version="2.0.." command="run-gui" />
     </command>
     <implementation arch="Windows-x86_64" version="1.1.1.33" stability="stable" id="sha1new=6ad7a1fcce4cb19c2054db24769904a9b5cbab5f">
       <manifest-digest sha1new="6ad7a1fcce4cb19c2054db24769904a9b5cbab5f" sha256="e26e89c242a44fc46e3e90c881a14051d2688635b3e64ec5816b4410fc7f6935" sha256new="4JXITQSCURH4I3R6SDEIDIKAKHJGRBRVWPTE5RMBNNCBB7D7NE2Q" />

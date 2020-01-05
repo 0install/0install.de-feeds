@@ -11,7 +11,7 @@
   <category>Development</category>
   <feed-for interface="http://0install.de/feeds/NetBeans_All.xml" />
   <group license="CDDL, GPL v2 with Classpath Exception">
-    <requires interface="http://repo.roscidus.com/java/openjdk-jdk">
+    <requires interface="https://apps.0install.net/java/jdk.xml">
       <environment name="netbeans_jdkhome" insert="." mode="replace" />
     </requires>
     <implementation arch="Windows-x86_64" version="{version}" released="{released}" stability="stable" id="v{version}_windows64">

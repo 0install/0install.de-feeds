@@ -10,10 +10,10 @@
 
   <group license="GPL v2 (GNU General Public License)">
     <command name="NAPS2.Console" path="NAPS2.Console.exe">
-      <runner command="run" interface="http://repo.roscidus.com/dotnet/clr" version="4.0.."/>
+      <runner command="run" interface="https://apps.0install.net/dotnet/clr.xml" version="4.0.."/>
     </command>
     <command name="run" path="NAPS2.exe">
-      <runner command="run-gui" interface="http://repo.roscidus.com/dotnet/clr" version="4.0.."/>
+      <runner command="run-gui" interface="https://apps.0install.net/dotnet/clr.xml" version="4.0.."/>
     </command>
     <implementation id="sha1new=caadb3fb4a35c59cbac52b6612a306f7019e2f66" released="2015-08-30" stability="stable" version="4.2.2">
       <manifest-digest sha256new="MFLE2RBT66QFU4VDQX77UFH567RDWG3RCUXS7H3X75T7ETM4OQ3A"/>

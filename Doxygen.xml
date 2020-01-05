@@ -1,11 +1,12 @@
 <?xml version="1.0" ?>
 <interface uri="http://0install.de/feeds/Doxygen.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
-  <name>Doxygen (legacy feed)</name>
+  <name>Doxygen</name>
   <summary>generate documentation from source code</summary>
   <homepage>http://www.doxygen.nl/</homepage>
   <needs-terminal/>
 
-  <feed src="http://repo.roscidus.com/devel/doxygen" />
+  <feed src="https://apps.0install.net/devel/doxygen.xml"/>
+  <replaced-by interface="https://apps.0install.net/devel/doxygen.xml"/>
 
   <entry-point binary-name="doxygen" command="run"/>
   <entry-point binary-name="doxyindexer" command="doxyindexer">

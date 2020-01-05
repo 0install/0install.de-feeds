@@ -10,7 +10,7 @@
   <category>Development</category>
   <feed-for interface="http://0install.de/feeds/Eclipse.xml" />
   <group license="EPL (Eclipse Public License)">
-    <requires interface="http://repo.roscidus.com/java/openjdk-jdk">
+    <requires interface="https://apps.0install.net/java/jdk.xml">
       <environment name="JAVA_HOME" insert="." mode="replace" />
       <environment name="PATH" insert="bin" />
     </requires>

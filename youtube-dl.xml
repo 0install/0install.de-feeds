@@ -9,11 +9,11 @@
   <homepage>http://rg3.github.io/youtube-dl/</homepage>
   <needs-terminal/>
   <group license="Public Domain">
-    <requires importance="recommended" interface="http://repo.roscidus.com/utils/ffmpeg">
+    <requires importance="recommended" interface="https://apps.0install.net/utils/ffmpeg.xml">
       <environment insert="bin" name="PATH"/>
     </requires>
     <command name="run" path="youtube-dl">
-      <runner interface="http://repo.roscidus.com/python/python"/>
+      <runner interface="https://apps.0install.net/python/python.xml"/>
     </command>
     <implementation id="sha1new=81fb51a07b4fd4c5fd7735035eb337694105dbba" released="2016-12-18" stability="stable" version="2016.12.18">
       <manifest-digest sha256new="UQPQZCH27UTQDIENSCR4LSCCKJQODELASLSIGUHMPHNK4UN3WN6A"/>

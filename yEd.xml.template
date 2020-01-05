@@ -9,7 +9,7 @@
   <feed-for interface="http://0install.de/feeds/yEd.xml" />
   <group>
     <command name="run" path="yed.jar">
-      <runner interface="http://repo.roscidus.com/java/openjdk-jre" command="run-gui">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run-gui">
         <arg>-jar</arg>
       </runner>
     </command>

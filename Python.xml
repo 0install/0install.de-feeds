@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <interface uri="http://0install.de/feeds/Python.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
-  <name>Python (legacy feed)</name>
+  <name>Python</name>
   <summary xml:lang="en">interactive high-level object-oriented language</summary>
   <description xml:lang="en">
 Python is an interpreted, interactive, object-oriented programming language. It
@@ -10,11 +10,11 @@ typing. There are interfaces to many system calls and libraries, as well as to
 various windowing systems (Tk, Mac, MFC, GTK+, Qt, wxWindows). New built-in
 modules are easily written in C or C++. Python is also usable as an extension
  language for applications that need a programmable interface.</description>
-  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/python/python.png" type="image/png" />
-  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/python/python.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/python/python.png" type="image/png" />
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/python/python.ico" type="image/vnd.microsoft.icon" />
   <homepage>http://www.python.org/</homepage>
   <needs-terminal/>
-  <feed src="http://repo.roscidus.com/python/python"/>
+  <feed src="https://apps.0install.net/python/python.xml"/>
   <entry-point binary-name="python" command="run">
     <needs-terminal/>
     <name xml:lang="en">Python command-line interpreter</name>

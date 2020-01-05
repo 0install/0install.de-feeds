@@ -10,7 +10,7 @@
   <category>Game</category>
   <group>
     <command name="run" path="GCFScape.exe">
-      <runner interface="http://repo.roscidus.com/dotnet/framework" command="run-gui" version="2.0.." />
+      <runner interface="https://apps.0install.net/dotnet/framework.xml" command="run-gui" version="2.0.." />
     </command>
     <group version="1.8.5" stability="stable">
       <implementation arch="Windows-x86_64" id="sha1new=284b8f837fc499e5fbda64cb00c62da664c21ced">

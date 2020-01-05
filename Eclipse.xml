@@ -9,7 +9,7 @@
   <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Eclipse.png" type="image/png"/>
   <category>Development</category>
   <group license="EPL (Eclipse Public License)">
-    <requires interface="http://repo.roscidus.com/java/openjdk-jdk">
+    <requires interface="https://apps.0install.net/java/jdk.xml">
       <environment insert="." mode="replace" name="JAVA_HOME"/>
       <environment insert="bin" name="PATH"/>
     </requires>

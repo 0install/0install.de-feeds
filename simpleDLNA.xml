@@ -8,10 +8,10 @@
   <homepage>http://nmaier.github.io/simpleDLNA/</homepage>
   <implementation version="1.0" id="sha1new=356877a6fc30df34113a5e5ddcab4e742f218fd6">
     <command name="run" path="SimpleDLNA.exe">
-      <runner interface="http://repo.roscidus.com/dotnet/clr" command="run-gui" />
+      <runner interface="https://apps.0install.net/dotnet/clr.xml" command="run-gui" />
     </command>
     <command name="sdlna" path="sdlna.exe">
-      <runner interface="http://repo.roscidus.com/dotnet/clr" command="run" />
+      <runner interface="https://apps.0install.net/dotnet/clr.xml" command="run" />
     </command>
     <manifest-digest sha256new="66DH2TGNR44AEPOZGB7WTCV4ELICD5MUPHM2EA6FHOVGL3J3PM6A" />
     <archive href="https://github.com/nmaier/simpleDLNA/releases/download/v1.0/simpledlna-1.0.7z" size="1342690" type="application/x-7z-compressed" />

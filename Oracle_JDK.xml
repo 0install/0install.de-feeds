@@ -1,11 +1,11 @@
 <?xml version="1.0" ?>
 <interface uri="http://0install.de/feeds/Oracle_JDK.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
-  <name>JDK (legacy feed)</name>
+  <name>JDK</name>
   <summary>Java Development Kit</summary>
-  <feed-for interface="http://repo.roscidus.com/java/openjdk-jdk"/>
+  <feed-for interface="https://apps.0install.net/java/jdk.xml"/>
   <needs-terminal/>
 
-  <feed src="http://repo.roscidus.com/java/openjdk-jdk"/>
+  <feed src="https://apps.0install.net/java/jdk.xml"/>
 
   <group license="Oracle Binary Code License Agreement for the Java SE Platform Products and JavaFX">
     <command name="run" path="bin/javac.exe"/>

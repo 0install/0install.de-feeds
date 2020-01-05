@@ -9,10 +9,10 @@
   <feed-for interface="http://0install.de/feeds/Dependencies.xml"/>
   <group license="MIT License">
     <command name="run" path="DependenciesGui.exe">
-      <runner interface="http://repo.roscidus.com/dotnet/clr" command="run-gui"/>
+      <runner interface="https://apps.0install.net/dotnet/clr.xml" command="run-gui"/>
     </command>
     <command name="run-cli" path="Dependencies.exe">
-      <runner interface="http://repo.roscidus.com/dotnet/clr" command="run"/>
+      <runner interface="https://apps.0install.net/dotnet/clr.xml" command="run"/>
     </command>
     <implementation arch="Windows-x86_64" version="{version}" released="{released}" stability="stable">
       <manifest-digest/>

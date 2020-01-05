@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/IronPython.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
-  <name>IronPython (legacy feed)</name>
+  <name>IronPython</name>
   <summary xml:lang="en">implementation of Python running under .NET/Mono</summary>
   <summary xml:lang="de">Implementierung von Python die unter .NET/Mono läuft</summary>
   <description xml:lang="en">IronPython is an implementation of the Python programming language running under .NET/Mono and Silverlight/Moonlight. It supports an interactive console with fully dynamic compilation. It's well integrated with the rest of the .NET Framework and makes all .NET libraries easily available to Python programmers, while maintaining compatibility with the Python language. There also is Visual Studio tooling integration.</description>
   <description xml:lang="de">IronPython ist eine Implementierung der Programmiersprache Python die unter .NET/Mono und Silverlight/Moonlight läuft. Es unterstüzt eine interaktive Konsole mit voller dynamischer Kompilierung. Es ist gut in den Rest des .NET Framework integriert und macht Pythonprogrammierern alle .NET Bibliotheken einfach verfügbar, während es die Kompatiblität mit der Sprache Python aufrechterhält.</description>
   <homepage>http://ironpython.net/</homepage>
-  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/dotnet/ironpython.png" type="image/png" />
-  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/dotnet/ironpython.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/dotnet/ironpython.png" type="image/png" />
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/dotnet/ironpython.ico" type="image/vnd.microsoft.icon" />
   <category>Development</category>
-  <feed src="http://repo.roscidus.com/dotnet/ironpython" />
+  <feed src="https://apps.0install.net/dotnet/ironpython.xml"/>
+  <replaced-by interface="https://apps.0install.net/dotnet/ironpython.xml"/>
   <entry-point command="run" binary-name="ipy">
     <needs-terminal />
     <name xml:lang="en">IronPython command-line interpreter</name>
@@ -23,7 +24,7 @@
     <file-type id="IronPython.File">
       <description xml:lang="en">Python source code file</description>
       <description xml:lang="de">Python Quellcodedatei</description>
-      <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/dotnet/ironpython.doc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
+      <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/dotnet/ironpython.doc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" />
       <verb name="open" args="&quot;%1&quot;" />
       <extension value=".py" />
     </file-type>

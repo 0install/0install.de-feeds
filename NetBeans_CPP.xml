@@ -10,12 +10,12 @@
   <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/NetBeans.ico" type="image/vnd.microsoft.icon"/>
   <category>Development</category>
   <group license="CDDL, GPL v2 with Classpath Exception">
-    <requires interface="http://repo.roscidus.com/java/openjdk-jre">
+    <requires interface="https://apps.0install.net/java/jre.xml">
       <environment insert="." mode="replace" name="netbeans_jdkhome"/>
     </requires>
   </group>
   <group>
-    <requires interface="http://repo.roscidus.com/java/openjdk-jdk">
+    <requires interface="https://apps.0install.net/java/jdk.xml">
       <environment insert="." mode="replace" name="netbeans_jdkhome"/>
     </requires>
     <command name="run" path="bin/netbeans64.exe">
@@ -78,7 +78,7 @@
     </implementation>
   </group>
   <group>
-    <requires interface="http://repo.roscidus.com/java/openjdk-jdk">
+    <requires interface="https://apps.0install.net/java/jdk.xml">
       <environment insert="." mode="replace" name="netbeans_jdkhome"/>
     </requires>
     <implementation arch="Linux-*" id="v7.4_linux" license="CDDL, GPL v2 with Classpath Exception" main="bin/netbeans" released="2013-10-11" stability="stable" version="7.4">

@@ -10,11 +10,11 @@
   <needs-terminal />
   <feed-for interface="http://0install.de/feeds/youtube-dl.xml" />
   <group license="Public Domain">
-    <requires interface="http://repo.roscidus.com/utils/ffmpeg" importance="recommended">
+    <requires interface="https://apps.0install.net/utils/ffmpeg.xml" importance="recommended">
       <environment name="PATH" insert="bin" />
     </requires>
     <command name="run" path="youtube-dl">
-      <runner interface="http://repo.roscidus.com/python/python" />
+      <runner interface="https://apps.0install.net/python/python.xml" />
     </command>
     <implementation version="{version}" released="{released}" stability="stable">
       <manifest-digest />

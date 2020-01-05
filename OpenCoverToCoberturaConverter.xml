@@ -6,7 +6,7 @@
   <needs-terminal />
   <group license="Apache License">
     <command name="run" path="OpenCoverToCoberturaConverter.exe">
-      <runner interface="http://repo.roscidus.com/dotnet/clr" command="run" />
+      <runner interface="https://apps.0install.net/dotnet/clr.xml" command="run" />
     </command>
     <implementation version="0.2.4" id="sha1new=fb143a33fb248933c07925cf60ecf1c71cf01831">
       <manifest-digest sha1new="fb143a33fb248933c07925cf60ecf1c71cf01831" sha256="63c4312a1fa7f7bee0b505c9b19fcca4f773443ea183bf615c786008a5fcdad0" sha256new="MPCDCKQ7U7335YFVAXE3DH6MUT3XGRB6UGB36YK4PBQARJP43LIA" />

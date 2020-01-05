@@ -14,7 +14,7 @@
       <environment name="DOCFETCHER_LIB" insert="lib" mode="replace" />
       <environment name="CLASSPATH" insert="lib/*" />
       <working-dir />
-      <runner interface="http://repo.roscidus.com/java/openjdk-jre" command="run-gui">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run-gui">
         <arg>-enableassertions</arg>
         <arg>-Xmx512m</arg>
         <arg>-Xss2m</arg>
@@ -36,7 +36,7 @@
   </implementation>
   <implementation arch="POSIX-*" version="1.1.14" stability="stable" id="v1.1.14-posix">
     <command name="run" path="DocFetcher.sh">
-      <requires interface="http://repo.roscidus.com/java/openjdk-jre">
+      <requires interface="https://apps.0install.net/java/jre.xml">
         <executable-in-path name="java" />
       </requires>
     </command>
@@ -51,7 +51,7 @@
   </implementation>
   <implementation arch="MacOSX-*" version="1.1.14" stability="stable" id="v1.1.14-mac">
     <command name="run" path="DocFetcher.app/Contents/MacOS/DocFetcher">
-      <requires interface="http://repo.roscidus.com/java/openjdk-jre">
+      <requires interface="https://apps.0install.net/java/jre.xml">
         <executable-in-path name="java" />
       </requires>
     </command>

@@ -1,17 +1,18 @@
 <?xml version="1.0" ?>
 <interface uri="http://0install.de/feeds/CMake.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
-  <name>CMake (legacy feed)</name>
+  <name>CMake</name>
   <summary xml:lang="en">cross platform make</summary>
   <description xml:lang="en">Make is a family of tools designed to build, test and package software. CMake is
 used to control the software compilation process using simple platform and
 compiler independent configuration files. CMake generates native makefiles and
 workspaces that can be used in the compiler environment of your choice.</description>
   <homepage>http://www.cmake.org/</homepage>
-  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/devel/cmake.ico" type="image/vnd.microsoft.icon"/>
-  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/devel/cmake.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/devel/cmake.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/devel/cmake.png" type="image/png"/>
   <category>Development</category>
   <needs-terminal/>
-  <feed src="http://repo.roscidus.com/devel/cmake" />
+  <feed src="https://apps.0install.net/devel/cmake.xml"/>
+  <replaced-by interface="https://apps.0install.net/devel/cmake.xml"/>
   <entry-point binary-name="cmake" command="run">
     <needs-terminal/>
     <name xml:lang="en">CMake command-line</name>

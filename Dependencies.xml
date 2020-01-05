@@ -9,7 +9,7 @@
   <category>Development</category>
   <group license="MIT License">
     <command name="run" path="Dependencies.exe">
-      <runner command="run-gui" interface="http://repo.roscidus.com/dotnet/clr"/>
+      <runner command="run-gui" interface="https://apps.0install.net/dotnet/clr.xml"/>
     </command>
     <implementation arch="Windows-*" id="sha1new=6913dd81fd2da6a5efb4abff72eb0cb1a70dab6a" released="2017-07-09" stability="stable" version="1.0">
       <manifest-digest sha256new="2GPZUXMXE6OELZSTMGK4ZMWLYLTN4WXORFAMXFNBPQVL2IODNGVA"/>
@@ -26,10 +26,10 @@
   </group>
   <group license="MIT License">
     <command name="run" path="DependenciesGui.exe">
-      <runner command="run-gui" interface="http://repo.roscidus.com/dotnet/clr"/>
+      <runner command="run-gui" interface="https://apps.0install.net/dotnet/clr.xml"/>
     </command>
     <command name="run-cli" path="Dependencies.exe">
-      <runner command="run" interface="http://repo.roscidus.com/dotnet/clr"/>
+      <runner command="run" interface="https://apps.0install.net/dotnet/clr.xml"/>
     </command>
     <implementation arch="Windows-*" id="sha1new=95b57ec3f909aa3c09d688e096aac6593840b7a0" released="2018-04-29" stability="stable" version="1.7">
       <manifest-digest sha256new="FO4YZGPYZFJZP6C2ZKOZTEIRCHSPSWBSRFVZPLYQ5Z3JR5KAEUXA"/>

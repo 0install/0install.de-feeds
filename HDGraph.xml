@@ -12,7 +12,7 @@
   <category>Utility</category>
   <group license="GPL v2 (GNU General Public License)">
     <command name="run" path="HDGraph.exe">
-      <runner interface="http://repo.roscidus.com/dotnet/clr" command="run-gui" />
+      <runner interface="https://apps.0install.net/dotnet/clr.xml" command="run-gui" />
     </command>
     <implementation version="1.3.0" released="2009-03-03" stability="stable" id="sha1new=bccb4f1f47fc086db69f3ace16e614868c87f9c2">
       <manifest-digest sha1new="bccb4f1f47fc086db69f3ace16e614868c87f9c2" sha256="c7162176f43ca700bfe6ec8595512b91c01fe4a7c7810bc4acc393d69e239151" sha256new="Y4LCC5XUHSTQBP7G5SCZKUJLSHAB7ZFHY6AQXRFMYOJ5NHRDSFIQ" />

@@ -3,7 +3,7 @@
   <name>Oracle JRE</name>
   <summary>official Oracle Java Runtime Environment</summary>
 
-  <feed-for interface="http://repo.roscidus.com/java/openjdk-jre"/>
+  <feed-for interface="https://apps.0install.net/java/jre.xml"/>
 
   <group license="Oracle Binary Code License Agreement for Java SE">
     <command name="run" path="bin/java"/>

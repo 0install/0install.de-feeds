@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/xz.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
-  <name>XZ Utils (legacy feed)</name>
+  <name>XZ Utils</name>
   <summary xml:lang="en">xz data compression tool for .xz and .lzma files</summary>
   <description xml:lang="en">XZ Utils is free general-purpose data compression software with high compression ratio. XZ Utils are the successor to LZMA Utils.</description>
   <homepage>http://tukaani.org/xz/</homepage>
   <category>Utility</category>
   <needs-terminal />
-  <feed src="http://repo.roscidus.com/utils/xz" />
+  <feed src="https://apps.0install.net/utils/xz.xml"/>
+  <replaced-by interface="https://apps.0install.net/utils/xz.xml"/>
   <entry-point command="run" binary-name="xz">
     <name xml:lang="en">compress .xz file</name>
     <name xml:lang="de">.xz Datei komprimieren</name>

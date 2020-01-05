@@ -8,7 +8,7 @@
   <category>Graphics</category>
   <group>
     <command name="run" path="yed.jar">
-      <runner command="run-gui" interface="http://repo.roscidus.com/java/openjdk-jre">
+      <runner command="run-gui" interface="https://apps.0install.net/java/jre.xml">
         <arg>-jar</arg>
       </runner>
     </command>

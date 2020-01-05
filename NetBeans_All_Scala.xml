@@ -10,7 +10,7 @@
   <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/NetBeans.ico" type="image/vnd.microsoft.icon" />
   <category>Development</category>
   <implementation version="1" stability="stable" id="empty">
-    <requires interface="http://repo.roscidus.com/java/scala">
+    <requires interface="https://apps.0install.net/java/scala.xml">
       <environment name="SCALA_HOME" insert="." mode="replace" />
     </requires>
     <command name="run">

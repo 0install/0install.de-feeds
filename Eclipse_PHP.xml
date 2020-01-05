@@ -9,7 +9,7 @@
   <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Eclipse.png" type="image/png"/>
   <category>Development</category>
   <group license="EPL (Eclipse Public License)">
-    <requires interface="http://repo.roscidus.com/java/openjdk-jre">
+    <requires interface="https://apps.0install.net/java/jre.xml">
       <environment insert="bin" name="PATH"/>
     </requires>
     <implementation arch="Windows-x86_64" id="sha1new=fbfcaaedf0c1920dd1df9c1c454083a25165fa54" main="eclipse.exe" released="2015-06-24" stability="stable" version="4.5">

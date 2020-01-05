@@ -8,7 +8,7 @@
   <category>Development</category>
 
   <group>
-    <requires interface="http://repo.roscidus.com/java/openjdk-jdk">
+    <requires interface="https://apps.0install.net/java/jdk.xml">
       <environment insert="lib/tools.jar" name="CLASS_PATH"/>
     </requires>
     <environment insert="." name="IDE_HOME"/>
@@ -21,7 +21,7 @@
     <environment insert="lib/trove4j.jar" name="CLASS_PATH"/>
     <environment insert="lib/jna.jar" name="CLASS_PATH"/>
     <command name="run">
-      <runner command="java-gui" interface="http://repo.roscidus.com/java/openjdk-jdk">
+      <runner command="java-gui" interface="https://apps.0install.net/java/jdk.xml">
         <arg>-server</arg>
         <arg>-Xms128m</arg>
         <arg>-Xmx512m</arg>

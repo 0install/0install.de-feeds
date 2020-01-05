@@ -10,7 +10,7 @@
   <category>Development</category>
   <feed-for interface="http://0install.de/feeds/Eclipse_CPP.xml" />
   <group license="EPL (Eclipse Public License)">
-    <requires interface="http://repo.roscidus.com/java/openjdk-jre">
+    <requires interface="https://apps.0install.net/java/jre.xml">
       <environment name="PATH" insert="bin" />
     </requires>
     <implementation version="{version}" stability="stable" released="{released}" arch="Windows-x86_64" main="eclipse.exe">

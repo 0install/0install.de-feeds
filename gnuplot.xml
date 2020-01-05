@@ -1,17 +1,18 @@
 <?xml version="1.0" ?>
 <interface uri="http://0install.de/feeds/gnuplot.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
-  <name>gnuplot (legacy feed)</name>
+  <name>gnuplot</name>
   <summary xml:lang="en">famous scientific plotting package</summary>
   <summary xml:lang="de">berühmtes wissenschaftliches Plotting-Paket</summary>
   <description xml:lang="en">Gnuplot is a portable command-line driven graphing utility.</description>
   <description xml:lang="de">Gnuplot ist ein portierbares Befehlszeilen-getriebes Graph-Tool.</description>
   <homepage>http://gnuplot.sourceforge.net/</homepage>
-  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/utils/gnuplot.png" type="image/png"/>
-  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/utils/gnuplot.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/gui/gnuplot.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/gui/gnuplot.ico" type="image/vnd.microsoft.icon"/>
   <category>Graphics</category>
   <category>Utility</category>
   <needs-terminal/>
-  <feed src="http://repo.roscidus.com/utils/gnuplot" />
+  <feed src="https://apps.0install.net/utils/gnuplot.xml"/>
+  <replaced-by interface="https://apps.0install.net/utils/gnuplot.xml"/>
   <entry-point binary-name="gnuplot" command="run">
     <name xml:lang="en">Gnuplot command-line interface</name>
     <name xml:lang="de">Gnuplot Befehlszeilenoberfläche</name>

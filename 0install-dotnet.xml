@@ -10,7 +10,7 @@
 
   <group license="LGPL v3 (GNU Lesser General Public License)">
     <command name="run" path="0install.dll">
-      <runner interface="http://repo.roscidus.com/dotnet/core" version="2.."/>
+      <runner interface="https://apps.0install.net/dotnet/core.xml" version="2.."/>
     </command>
 
     <implementation id="sha1new=271f903790bba7a1ad917f594dbdb08dbd982f1c" released="2019-07-25" stability="stable" version="2.16.7">

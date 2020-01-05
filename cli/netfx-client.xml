@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd" uri="http://0install.de/feeds/cli/netfx-client.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
-  <name>.NET Framework Client Profile (legacy feed)</name>
+  <replaced-by interface="https://apps.0install.net/dotnet/framework-client-profile.xml"/>
+  <feed src="https://apps.0install.net/dotnet/framework-client-profile.xml"/>
+  <name>.NET Framework Client Profile</name>
   <summary>a limited version of the .NET Framework from Microsoft</summary>
 
-  <feed src="http://repo.roscidus.com/dotnet/framework-client-profile" />
+  <!-- The regular .NET Framework is a superset of the Client Profile -->
+  <feed src="https://apps.0install.net/dotnet/framework.xml"/>
 </interface>

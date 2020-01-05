@@ -1,13 +1,14 @@
 <?xml version="1.0" ?>
 <interface uri="http://0install.de/feeds/GDisk.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
-  <name>GPT fdisk (legacy feed)</name>
+  <name>GPT fdisk</name>
   <summary>text-mode tool designed to correct some common problems with computer partition tables</summary>
   <homepage>http://www.rodsbooks.com/gdisk/</homepage>
   <category>System</category>
   <category>Utility</category>
   <needs-terminal/>
 
-  <feed src="http://repo.roscidus.com/utils/gdisk"/>
+  <feed src="https://apps.0install.net/utils/gdisk.xml"/>
+  <replaced-by interface="https://apps.0install.net/utils/gdisk.xml"/>
 
   <entry-point binary-name="gdisk" command="run" />
 </interface>

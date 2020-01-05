@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/GnuPG.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
-  <name>GnuPG (legacy feed)</name>
+  <name>GnuPG</name>
   <summary xml:lang="en">GNU privacy guard - a free PGP replacement</summary>
   <description xml:lang="en">GnuPG is GNU's tool for secure communication and data storage. It can be used to
 encrypt data and to create digital signatures. It includes an advanced key
@@ -12,7 +12,9 @@ because it uses IDEA (which is patented worldwide).</description>
   <homepage>http://www.gnupg.org/</homepage>
   <category>Utility</category>
   <needs-terminal />
-  <feed src="http://repo.roscidus.com/security/gnupg" />
+  <feed src="https://apps.0install.net/utils/gnupg.xml"/>
+  <replaced-by interface="https://apps.0install.net/utils/gnupg.xml"/>
+
   <entry-point command="run" binary-name="gpg" />
   <entry-point command="gpgv">
     <name xml:lang="en">OpenPGP signature checking tool</name>

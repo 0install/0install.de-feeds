@@ -14,14 +14,14 @@ und der New Feed Wizard (leitet Sie durch den kompletten Feed-Erstellungsprozess
   <homepage>https://docs.0install.de/tools/0publish-win/</homepage>
 
   <group license="LGPL v3 (GNU Lesser General Public License)">
-    <requires interface="http://repo.roscidus.com/security/gnupg">
+    <requires interface="https://apps.0install.net/utils/gnupg.xml">
       <environment insert="." name="PATH"/>
     </requires>
     <command name="0publish" path="0publish.exe">
-      <runner command="run" interface="http://repo.roscidus.com/dotnet/clr" version="4.5.."/>
+      <runner command="run" interface="https://apps.0install.net/dotnet/clr.xml" version="4.5.."/>
     </command>
     <command name="run" path="0publish-win.exe">
-      <runner command="run-gui" interface="http://repo.roscidus.com/dotnet/clr" version="4.5.."/>
+      <runner command="run-gui" interface="https://apps.0install.net/dotnet/clr.xml" version="4.5.."/>
     </command>
 
     <implementation id="sha1new=4107dd240bb7b63832f14163755f1118fc8f76c3" released="2017-11-13" stability="stable" version="2.14.0">
