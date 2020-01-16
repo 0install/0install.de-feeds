@@ -15,7 +15,7 @@
 
   <group license="OSI Approved :: GNU Lesser General Public License (LGPL)">
     <command name="run" path="0watch.py">
-      <runner interface="https://apps.0install.net/python/python.xml"/>
+      <runner interface="https://apps.0install.net/python/python.xml" version="..!3.7"/>
     </command>
 
     <requires interface="http://0install.net/tools/0template.xml">
