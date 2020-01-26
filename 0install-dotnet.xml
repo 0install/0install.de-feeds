@@ -8,14 +8,6 @@
   <homepage>https://github.com/0install/0install-dotnet</homepage>
   <needs-terminal/>
 
-  <group license="LGPL v3 (GNU Lesser General Public License)">
-    <command name="run" path="0install.dll">
-      <runner interface="https://apps.0install.net/dotnet/core.xml" version="2.."/>
-    </command>
-
-    <implementation id="sha1new=271f903790bba7a1ad917f594dbdb08dbd982f1c" released="2019-07-25" stability="stable" version="2.16.7">
-      <manifest-digest sha256new="2LKG77QIFPMVZWFD3UDSMJXF26EUBHGO5TC463T2AVR2ELESBS2A"/>
-      <archive href="https://github.com/0install/0install-dotnet/releases/download/2.16.7/0install-dotnet-2.16.7.tar.gz" size="5591098"/>
-    </implementation>
-  </group>
+  <replaced-by interface="https://apps.0install.net/0install/0install-dotnet.xml"/>
+  <feed src="https://apps.0install.net/0install/0install-dotnet.xml"/>
 </interface>
