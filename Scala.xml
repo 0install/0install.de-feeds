@@ -6,8 +6,8 @@
   <description xml:lang="en">Scala is a functional and object-oriented programming language based on the Java Virtual Machine.</description>
   <description xml:lang="de">Scala ist eine funktionale und objektorientierte Programmiersprache auf Basis der Java Virtual Machine.</description>
   <homepage>http://www.scala-lang.org/</homepage>
-  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/java/scala.png" type="image/png" />
-  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/java/scala.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://raw.githubusercontent.com/0install/apps/master/java/scala.png" type="image/png" />
+  <icon href="https://raw.githubusercontent.com/0install/apps/master/java/scala.ico" type="image/vnd.microsoft.icon" />
   <category>Development</category>
   <needs-terminal/>
   <feed src="https://apps.0install.net/java/scala.xml"/>

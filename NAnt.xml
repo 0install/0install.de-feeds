@@ -5,7 +5,7 @@
   <summary xml:lang="de">freies .NET Build Tool</summary>
   <description xml:lang="en">NAnt is a free .NET build tool. In theory it is kind of like make without make's wrinkles. In practice it's a lot like Ant.</description>
   <description xml:lang="de">NAnt ist ein freies .NET Build Tool. In der Theorie ist es etwa wie make ohne make's Eigenheiten. In der Praxis ist es Ant sehr ähnlich.</description>
-  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/dotnet/nant.png" type="image/png" />
+  <icon href="https://raw.githubusercontent.com/0install/apps/master/dotnet/nant.png" type="image/png" />
   <category>Development</category>
   <category>Utility</category>
   <homepage>http://nant.sourceforge.net/</homepage>
