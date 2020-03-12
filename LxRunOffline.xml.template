@@ -10,7 +10,7 @@
   <group license="MIT License">
     <command name="run" path="LxRunOffline.exe"/>
     <implementation stability="stable" version="{version}" released="{released}">
-      <archive href="https://github.com/DDoSolitary/LxRunOffline/releases/download/v{version}/LxRunOffline-v{version}.zip" type="application/zip"/>
+      <archive href="https://github.com/DDoSolitary/LxRunOffline/releases/download/v{version}/LxRunOffline-v{version}-mingw.zip" type="application/zip"/>
     </implementation>
   </group>
 </interface>
