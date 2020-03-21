@@ -1,0 +1,180 @@
+<?xml version="1.0" ?>
+<interface uri="http://0install.de/feeds/GoLand.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <name>JetBrains GoLand</name>
+  <summary>Capable and Ergonomic Go IDE</summary>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/GoLand.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/GoLand.png" type="image/png"/>
+  <homepage>http://www.jetbrains.com/go/</homepage>
+  <category>Development</category>
+
+  <entry-point binary-name="goland" command="run"/>
+
+  <group>
+    <environment insert="." name="IDE_HOME"/>
+    <environment insert="bin" name="PATH"/>
+    <environment insert="lib/bootstrap.jar" name="CLASS_PATH"/>
+    <environment insert="lib/extensions.jar" name="CLASS_PATH"/>
+    <environment insert="lib/util.jar" name="CLASS_PATH"/>
+    <environment insert="lib/jdom.jar" name="CLASS_PATH"/>
+    <environment insert="lib/log4j.jar" name="CLASS_PATH"/>
+    <environment insert="lib/trove4j.jar" name="CLASS_PATH"/>
+    <environment insert="lib/jna.jar" name="CLASS_PATH"/>
+    <environment insert="jre/lib/tools.jar" name="CLASS_PATH"/>
+    <requires interface="https://apps.0install.net/golang/go.xml">
+      <environment mode="replace" name="GOROOT" insert="."/>
+      <environment name="PATH" value="bin"/>
+    </requires>
+    <command name="run">
+      <runner command="run-gui" interface="https://apps.0install.net/java/jre.xml">
+        <arg>-server</arg>
+        <arg>-Xms128m</arg>
+        <arg>-Xmx512m</arg>
+        <arg>-XX:ReservedCodeCacheSize=240m</arg>
+        <arg>-XX:+UseConcMarkSweepGC</arg>
+        <arg>-XX:SoftRefLRUPolicyMSPerMB=50</arg>
+        <arg>-ea</arg>
+        <arg>-Dsun.io.useCanonCaches=false</arg>
+        <arg>-Djava.net.preferIPv4Stack=true</arg>
+        <arg>-XX:+HeapDumpOnOutOfMemoryError</arg>
+        <arg>-XX:-OmitStackTraceInFastThrow</arg>
+        <arg>-Xbootclasspath/a:$IDE_HOME/lib/boot.jar</arg>
+        <arg>-Didea.paths.selector=$IDEA_PATHS_SELECTOR</arg>
+        <arg>-Didea.platform.prefix=GoLand</arg>
+        <arg>-cp</arg>
+        <arg>$CLASS_PATH</arg>
+        <arg>com.intellij.idea.Main</arg>
+      </runner>
+    </command>
+
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="GoLand2017.3"/>
+      <implementation id="sha1new=232261948921879dd7ce7b82bfc7e5bbf09c05de" released="2018-04-09" stability="stable" version="2017.3.4">
+        <manifest-digest sha256new="2AFKPTFV7DULEK6ADSEZJWFMSRRGGBSC4VI63O3AQWMNNCHFP3CQ"/>
+        <archive extract="GoLand-2017.3.4" href="https://download.jetbrains.com/go/goland-2017.3.4.tar.gz" size="214176225" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=397662dc9c7ed62f6c4170daf3da4980125494a3" released="2018-11-23" stability="stable" version="2017.3.5">
+        <manifest-digest sha256new="3N223A4PLRD4MY5ERA75POQ7LAUAKUCCCSNI5NDA2W6ICAF2QCAQ"/>
+        <archive extract="GoLand-2017.3.5" href="https://download.jetbrains.com/go/goland-2017.3.5.tar.gz" size="219960048" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="GoLand2018.1"/>
+      <implementation id="sha1new=1ecc51fc39845201c94f19595776b77c98226add" released="2018-07-30" stability="stable" version="2018.1.6">
+        <manifest-digest sha256new="XM6VU5ZEOH56CUD4FMB2BC2E5S2UZD3ULURHCUO6DJPX2UX6QGYQ"/>
+        <archive extract="GoLand-2018.1.6" href="https://download.jetbrains.com/go/goland-2018.1.6.tar.gz" size="217584989" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=983709741d01b566635afd31275fc1125bdcb504" released="2018-11-23" stability="stable" version="2018.1.7">
+        <manifest-digest sha256new="IU4NSOLCIYQERSMTHRSXHVV6U6N4UURYG2DLW72KFAANM5GRFC7A"/>
+        <archive extract="GoLand-2018.1.7" href="https://download.jetbrains.com/go/goland-2018.1.7.tar.gz" size="223363875" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=2ec109a978ad11aed5e801bcdd395dd996b7f14b" released="2019-04-12" stability="stable" version="2018.1.8">
+        <manifest-digest sha256new="EDBKKS2AKF253SJ5RJDD3LABMLBBPJKX3BQZNOU67YAPMNZEMKCQ"/>
+        <archive extract="GoLand-2018.1.8" href="https://download.jetbrains.com/go/goland-2018.1.8.tar.gz" size="223347480" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="GoLand2018.2"/>
+      <implementation id="sha1new=00022522aa67e826b9d58ad0c7b7cc974c5b8644" released="2018-09-20" stability="stable" version="2018.2.3">
+        <manifest-digest sha256new="W3UOL26CLYMKSBKD3A44K5OBWKD2P4DRXWOM553IBNQ724K4JMUA"/>
+        <archive extract="GoLand-2018.2.3" href="https://download.jetbrains.com/go/goland-2018.2.3.tar.gz" size="254186919" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=ba16af88b01e8c9eb737af15f2f9f59a025762a3" released="2018-11-15" stability="stable" version="2018.2.4">
+        <manifest-digest sha256new="D6NUBLC27G5NLFZ3LLCVXNE6ZBPYKKQRILW4D3BVBWJBMB3UTY3A"/>
+        <archive extract="GoLand-2018.2.4" href="https://download.jetbrains.com/go/goland-2018.2.4.tar.gz" size="257166374" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="GoLand2018.3"/>
+      <implementation id="sha1new=bff7d2c1054d7c738c6d7404a941061b7977f720" released="2019-02-13" stability="stable" version="2018.3.4">
+        <manifest-digest sha256new="LATLMJBHZTCEWIIOVDM7M3NW36RW3BHDBSEJOJVLUO7V7N6EQTVQ"/>
+        <archive extract="GoLand-2018.3.4" href="https://download.jetbrains.com/go/goland-2018.3.4.tar.gz" size="298506989" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=6e6c9d4e881cbcc801951643d3485451a546bf0e" released="2019-03-01" stability="stable" version="2018.3.5">
+        <manifest-digest sha256new="ANQYYDNO2LWJGFTWGTRKF27RHUHOMKXMK4VWWELU5XNEL2Q22I2A"/>
+        <archive extract="GoLand-2018.3.5" href="https://download.jetbrains.com/go/goland-2018.3.5.tar.gz" size="298539155" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=f45176c7f1af1d0fd9bcdf12ac3b8ee564e5516e" released="2019-03-28" stability="stable" version="2018.3.6">
+        <manifest-digest sha256new="3TGKSP7EB3J7O7XEXJTNFWRYAAXAZTOIKL6SH3JU3A76BFNI7NVA"/>
+        <archive extract="GoLand-2018.3.6" href="https://download.jetbrains.com/go/goland-2018.3.6.tar.gz" size="298574954" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="GoLand2019.1"/>
+      <implementation id="sha1new=971ff14e68ab7d29f7a5ccd5413094fd2d3fb1ca" released="2019-03-27" stability="stable" version="2019.1">
+        <manifest-digest sha256new="3ESYYQCD5WGNQMUG3PDX3D4ANEQ7YHSJWMMLT3LKJI3SFBCP4XBQ"/>
+        <archive extract="GoLand-2019.1" href="https://download.jetbrains.com/go/goland-2019.1.tar.gz" size="311137122" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=b89364a330e901168046fd3edaddf5e7eb7d8ab0" released="2019-04-18" stability="stable" version="2019.1.1">
+        <manifest-digest sha256new="R3A6PSEFUY3BCWFSXAGC7YL2VVAZPM3ZLDUFF7Y7V46TD6DGXHPA"/>
+        <archive extract="GoLand-2019.1.1" href="https://download.jetbrains.com/go/goland-2019.1.1.tar.gz" size="311687094" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=312cb37e8b934261868a5fad547bd2b16f774a37" released="2019-05-16" stability="stable" version="2019.1.2">
+        <manifest-digest sha256new="VBBV63R4TWEAUDZGBPV35MUIOQDYO3MXME6ORJVSLYQIBI4XFTHA"/>
+        <archive extract="GoLand-2019.1.2" href="https://download.jetbrains.com/go/goland-2019.1.2.tar.gz" size="312490907" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=84b19f69bbcca1ee6396e0a05a7c08280920f3db" released="2019-05-30" stability="stable" version="2019.1.3">
+        <manifest-digest sha256new="IY7SP5ZOUHWLZZJSRTSZCM3GEJ6UFEP34J6NO72JYWYRCAUOA7XA"/>
+        <archive extract="GoLand-2019.1.3" href="https://download.jetbrains.com/go/goland-2019.1.3.tar.gz" size="312837589" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=b26f6578d2f72e1e6b1c79b32506023f50a2501d" released="2019-08-06" stability="stable" version="2019.1.4">
+        <manifest-digest sha256new="ANKQKVLMD4DDG6WIXG4HQ5E6VPCESYP72V57PF32EEPHK3MSUPBQ"/>
+        <archive extract="GoLand-2019.1.4" href="https://download.jetbrains.com/go/goland-2019.1.4.tar.gz" size="317760072" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="GoLand2019.2"/>
+      <implementation id="sha1new=3d02616dde9e90599b468ac8e91764e7d12e99e6" released="2019-07-25" stability="stable" version="2019.2">
+        <manifest-digest sha256new="3OQ7SOS6AOL6XV7BRMY3G3B6BGOAKB36GSFJ7JH6Z4GRUNFWN3DQ"/>
+        <archive extract="GoLand-2019.2" href="https://download.jetbrains.com/go/goland-2019.2.tar.gz" size="359568580" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=a2a50ad851b427d19c6cb075c8e6b2cea93fbefc" released="2019-08-22" stability="stable" version="2019.2.1">
+        <manifest-digest sha256new="F2LMOEPWS4VDDVUBJP3ONTU4GX7IMNZXIPUCIJ7L54NHGOECRZVA"/>
+        <archive extract="GoLand-2019.2.1" href="https://download.jetbrains.com/go/goland-2019.2.1.tar.gz" size="360863903" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=6d8bf1012f69e0071c2f836da43947bf4b6b8605" released="2019-09-11" stability="stable" version="2019.2.2">
+        <manifest-digest sha256new="PPLWRXPVX2O35V2NYHBYFVKCCYHNBLMUOWD4PLFISYF2W27FEQOA"/>
+        <archive extract="GoLand-2019.2.2" href="https://download.jetbrains.com/go/goland-2019.2.2.tar.gz" size="361184476" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=1cdea33bc5f91829580ae31de8a718308bf18703" released="2019-10-07" stability="stable" version="2019.2.3">
+        <manifest-digest sha256new="6X7K5XAG6QGSLAYLY6OBTCOOIWYGR54ATPJJAQFDBOCOATO75RBQ"/>
+        <archive extract="GoLand-2019.2.3" href="https://download.jetbrains.com/go/goland-2019.2.3.tar.gz" size="361572774" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=a5a5129f085f22995ef9d6579702003bc361fd4c" released="2019-11-08" stability="stable" version="2019.2.5">
+        <manifest-digest sha256new="ZYXBUCAA3KR354VJV3VHSWXUZNMDHLYTDP3FJS2NITLJ6X46KNSA"/>
+        <archive extract="GoLand-2019.2.5" href="https://download.jetbrains.com/go/goland-2019.2.5.tar.gz" size="362034996" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="GoLand2019.3"/>
+      <implementation id="sha1new=0b953f56a239fb05390f120c9d6b3354365debe0" released="2019-11-29" stability="stable" version="2019.3">
+        <manifest-digest sha256new="55DTR63TLLIR2ZUXA4FLHBRO5E3PBLLWXDC5DZK3BBJHB74XJ2AA"/>
+        <archive extract="GoLand-2019.3" href="https://download.jetbrains.com/go/goland-2019.3.tar.gz" size="360367644" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=f662bbfc0fc44f05b6c662302efa521550b6fc2f" released="2019-12-25" stability="stable" version="2019.3.1">
+        <manifest-digest sha256new="TN4TQLC232OCRJZFZHLIB3DCBQOHQNN2GJC3TFWZZHX2Q5XBGX6A"/>
+        <archive extract="GoLand-2019.3.1" href="https://download.jetbrains.com/go/goland-2019.3.1.tar.gz" size="366271112" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=73541f2316121d89c71e5829bf3a44ce3357bc43" released="2020-02-04" stability="stable" version="2019.3.2">
+        <manifest-digest sha256new="XEFUS7KUWPSMSH7PWC5MKUPAAQECA3YHL44YAUFG5DC4JKV7NSUA"/>
+        <archive extract="GoLand-2019.3.2" href="https://download.jetbrains.com/go/goland-2019.3.2.tar.gz" size="369471609" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=89fc1117c7429a3bb68d050fad1fe688efed6d63" released="2020-03-04" stability="stable" version="2019.3.3">
+        <manifest-digest sha256new="AXMOCK5V63C3BOHZ5DZXXQ3DQ34SGXQ2N7PYBSTXULLUUT3NWQQA"/>
+        <archive extract="GoLand-2019.3.3" href="https://download.jetbrains.com/go/goland-2019.3.3.tar.gz" size="369856107" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
+  </group>
+
+  <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <file-type id="GoLand.IntelliJIdeaProjectFile">
+      <description>IntelliJ IDEA Project File</description>
+      <verb args="&quot;%1&quot;" name="open"/>
+      <extension value=".ipr"/>
+    </file-type>
+    <file-type id="GoLand.GoFile">
+      <description>Go source file</description>
+      <verb args="&quot;%1&quot;" name="open"/>
+      <extension perceived-type="text" value=".go"/>
+    </file-type>
+  </capabilities>
+</interface>
