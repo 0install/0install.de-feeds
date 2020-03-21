@@ -217,6 +217,18 @@
         <manifest-digest sha256new="ZTTZXEC73MHELRLZCOUDINYKAD2KIPLW35E4MHL2QLSV7ENYCH3A"/>
         <archive extract="idea-IC-193.5662.53" href="https://download.jetbrains.com/idea/ideaIC-2019.3.1-no-jbr.tar.gz" size="563768421" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha1new=fb8732c3ae266aee7d873b04e484584fcf3999ed" released="2020-01-21" stability="stable" version="2019.3.2">
+        <manifest-digest sha256new="OJ75PFUKRP2NLG7L3EFDLX5CM2RGC5ZLBDOB44WR24NX3CBPJ5BQ"/>
+        <archive extract="idea-IC-193.6015.39" href="https://download.jetbrains.com/idea/ideaIC-2019.3.2-no-jbr.tar.gz" size="563811740" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=d61fb07fc278bbe59ec62b580f76e3412f48d8c5" released="2020-02-11" stability="stable" version="2019.3.3">
+        <manifest-digest sha256new="7OCQDVMKTB6MSFGCJLV3KXYGVPMXWWJW3CSS6GM3AA4X23SID5YA"/>
+        <archive extract="idea-IC-193.6494.35" href="https://download.jetbrains.com/idea/ideaIC-2019.3.3-no-jbr.tar.gz" size="563410584" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=e5b2d1e54b5d759fdcba1886ec4b10b4b701f14f" released="2020-03-17" stability="stable" version="2019.3.4">
+        <manifest-digest sha256new="2GFCHVDYJWNGBXY5III5BV3YFP5XU242PCM2CQ26ERZHD4G6L4NA"/>
+        <archive extract="idea-IC-193.6911.18" href="https://download.jetbrains.com/idea/ideaIC-2019.3.4-no-jbr.tar.gz" size="563415699" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 

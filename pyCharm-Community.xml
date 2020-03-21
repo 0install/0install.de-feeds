@@ -328,6 +328,10 @@
         <manifest-digest sha256new="VPIRNMDNMECOXCQDBBGKUTZG6B2DS46735BCPVDZKAM65XQJLRLQ"/>
         <archive extract="pycharm-community-2019.2.5" href="https://download.jetbrains.com/python/pycharm-community-2019.2.5.tar.gz" size="363809835" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha1new=67289c42356c935ea4d675c74a5d11ac644fed0f" released="2020-02-10" stability="stable" version="2019.2.6">
+        <manifest-digest sha256new="52DJ7LYTG3AKZZ4Y5GYXD7IGBOSELA6ZNMEKVRPAXHBUQSYT43XQ"/>
+        <archive extract="pycharm-community-2019.2.6" href="https://download.jetbrains.com/python/pycharm-community-2019.2.6.tar.gz" size="364212405" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
     <group>
       <environment name="IDEA_PATHS_SELECTOR" value="PyCharmCE2019.3"/>
@@ -338,6 +342,18 @@
       <implementation id="sha1new=55e530b1d63854bb77ef61e3f1149f918abac3e3" released="2019-12-19" stability="stable" version="2019.3.1">
         <manifest-digest sha256new="NZBHURR5UK6HUHJ5YTD6YJRSCHFPL73QFVM2IC3PHLYP7KGFEUXA"/>
         <archive extract="pycharm-community-2019.3.1" href="https://download.jetbrains.com/python/pycharm-community-2019.3.1.tar.gz" size="389620376" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=3b3f247231cd100e505937113e903b3ce828abc6" released="2020-01-22" stability="stable" version="2019.3.2">
+        <manifest-digest sha256new="RBOHPU4I4Z44GBOMLV3BL5L55YA6LALMVONJUEWJCG26YPOEVBEA"/>
+        <archive extract="pycharm-community-2019.3.2" href="https://download.jetbrains.com/python/pycharm-community-2019.3.2.tar.gz" size="391689310" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=5a54a0b40fce24b920f92bdd0d7f417e512eb64c" released="2020-02-07" stability="stable" version="2019.3.3">
+        <manifest-digest sha256new="27576R2MWAW7HUNDPFGHNLKVXQ3AJWANF7U5JZYG2U3GW4TNVXZA"/>
+        <archive extract="pycharm-community-2019.3.3" href="https://download.jetbrains.com/python/pycharm-community-2019.3.3.tar.gz" size="391606138" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=3baed1ae21b8f619e39a252cda62e56f2e0d85e6" released="2020-03-18" stability="stable" version="2019.3.4">
+        <manifest-digest sha256new="F6YHKBTAAHXK634MNIKFPBC5D3LM4PVUS3ZHVMVYWCWILJZG4GPA"/>
+        <archive extract="pycharm-community-2019.3.4" href="https://download.jetbrains.com/python/pycharm-community-2019.3.4.tar.gz" size="391698063" type="application/x-compressed-tar"/>
       </implementation>
     </group>
   </group>

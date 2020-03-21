@@ -9,42 +9,10 @@
 
   <feed-for interface="http://0install.de/feeds/Rider.xml"/>
 
-  <group>
-    <environment insert="." name="IDE_HOME"/>
-    <environment insert="bin" name="PATH"/>
-    <environment insert="lib/bootstrap.jar" name="CLASS_PATH"/>
-    <environment insert="lib/extensions.jar" name="CLASS_PATH"/>
-    <environment insert="lib/util.jar" name="CLASS_PATH"/>
-    <environment insert="lib/jdom.jar" name="CLASS_PATH"/>
-    <environment insert="lib/log4j.jar" name="CLASS_PATH"/>
-    <environment insert="lib/trove4j.jar" name="CLASS_PATH"/>
-    <environment insert="lib/jna.jar" name="CLASS_PATH"/>
-    <environment insert="jre/lib/tools.jar" name="CLASS_PATH"/>
-    <command name="run">
-      <runner command="run-gui" interface="https://apps.0install.net/java/jre.xml">
-        <arg>-server</arg>
-        <arg>-Xms128m</arg>
-        <arg>-Xmx512m</arg>
-        <arg>-XX:ReservedCodeCacheSize=240m</arg>
-        <arg>-XX:+UseConcMarkSweepGC</arg>
-        <arg>-XX:SoftRefLRUPolicyMSPerMB=50</arg>
-        <arg>-ea</arg>
-        <arg>-Dsun.io.useCanonCaches=false</arg>
-        <arg>-Djava.net.preferIPv4Stack=true</arg>
-        <arg>-XX:+HeapDumpOnOutOfMemoryError</arg>
-        <arg>-XX:-OmitStackTraceInFastThrow</arg>
-        <arg>-Xbootclasspath/a:$IDE_HOME/lib/boot.jar</arg>
-        <arg>-Didea.paths.selector=$IDEA_PATHS_SELECTOR</arg>
-        <arg>-Didea.platform.prefix=Rider</arg>
-        <arg>-cp</arg>
-        <arg>$CLASS_PATH</arg>
-        <arg>com.intellij.idea.Main</arg>
-      </runner>
-    </command>
-
-    <implementation released="{released}" stability="developer" version="{version}">
-      <environment name="IDEA_PATHS_SELECTOR" value="Rider{major-version}"/>
-      <archive href="{download-url}" type="application/zip"/>
-    </implementation>
-  </group>
+  <implementation arch="Windows-x86_64" main="bin/rider64.exe" released="{released}" stability="stable" version="{version}">
+    <archive href="{download-url-windows}" type="application/zip"/>
+  </implementation>
+  <implementation arch="Linux-x86_64" main="bin/rider.sh" released="{released}" stability="stable" version="{version}">
+    <archive extract="JetBrains Rider-{version}" href="{download-url-linux}" type="application/x-compressed-tar"/>
+  </implementation>
 </interface>

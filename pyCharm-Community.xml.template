@@ -42,9 +42,11 @@
       </runner>
     </command>
 
-    <implementation released="{released}" stability="stable" version="{version}">
+    <group>
       <environment name="IDEA_PATHS_SELECTOR" value="PyCharmCE{major-version}"/>
-      <archive extract="pycharm-community-{version}" href="https://download.jetbrains.com/python/pycharm-community-{version}.tar.gz" type="application/x-compressed-tar"/>
-    </implementation>
+      <implementation released="{released}" stability="stable" version="{version}">
+        <archive extract="pycharm-community-{version}" href="https://download.jetbrains.com/python/pycharm-community-{version}.tar.gz" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
   </group>
 </interface>
