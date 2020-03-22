@@ -5,7 +5,7 @@ pushd $PSScriptRoot
 if ((Split-Path $(pwd) -Leaf) -ne "feeds") {
   throw "This Git repo must be cloned into a directory named 'feeds' in order for 0repo to work."
 }
-copy 0repo-config.py.template ..\0repo-config.py
+if (!(Test-Path ..\0repo-config.py)) {copy 0repo-config.py.template ..\0repo-config.py}
 mkdir -Force ..\incoming | Out-Null
 copy *\*.zip ..\incoming\
 
