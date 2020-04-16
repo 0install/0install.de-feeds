@@ -11,6 +11,9 @@
   <category>Video</category>
 
   <feed src="https://apps.0install.net/gui/blender.xml"/>
+  <feed arch="Linux-*" src="https://apps.0install.net/gui/blender-linux.xml"/>
+  <feed arch="MacOSX-*" src="https://apps.0install.net/gui/blender-macos.xml"/>
+  <feed arch="Windows-*" src="https://apps.0install.net/gui/blender-windows.xml"/>
   <replaced-by interface="https://apps.0install.net/gui/blender.xml"/>
 
   <entry-point binary-name="blender" command="run"/>
