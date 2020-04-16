@@ -21,7 +21,7 @@
     <environment insert="lib/jna.jar" name="CLASS_PATH"/>
     <environment insert="jre/lib/tools.jar" name="CLASS_PATH"/>
     <requires interface="https://apps.0install.net/golang/go.xml">
-      <environment mode="replace" name="GOROOT" insert="."/>
+      <environment insert="." mode="replace" name="GOROOT"/>
       <environment name="PATH" value="bin"/>
     </requires>
     <command name="run">
@@ -161,6 +161,17 @@
       <implementation id="sha1new=89fc1117c7429a3bb68d050fad1fe688efed6d63" released="2020-03-04" stability="stable" version="2019.3.3">
         <manifest-digest sha256new="AXMOCK5V63C3BOHZ5DZXXQ3DQ34SGXQ2N7PYBSTXULLUUT3NWQQA"/>
         <archive extract="GoLand-2019.3.3" href="https://download.jetbrains.com/go/goland-2019.3.3.tar.gz" size="369856107" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=603ef590e1b58982ce2ccbf012fca0e91f82c206" released="2020-03-24" stability="stable" version="2019.3.4">
+        <manifest-digest sha256new="C4OG5P73VVO43N5SUHGVP5SRXDEQBDAWCSZX74O4XBQ7ZMPMUJGA"/>
+        <archive extract="GoLand-2019.3.4" href="https://download.jetbrains.com/go/goland-2019.3.4.tar.gz" size="370064668" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="GoLand2020.1"/>
+      <implementation id="sha1new=214658f3b72bd7689028b6100148385304bf6702" released="2020-04-09" stability="stable" version="2020.1">
+        <manifest-digest sha256new="U2572LGT6F6UBSGS5BRU433UBGTQPFALBXOICH7Z7RFZOHWT225Q"/>
+        <archive extract="GoLand-2020.1" href="https://download.jetbrains.com/go/goland-2020.1.tar.gz" size="380192586" type="application/x-compressed-tar"/>
       </implementation>
     </group>
   </group>

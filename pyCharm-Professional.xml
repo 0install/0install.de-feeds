@@ -356,6 +356,13 @@
         <archive extract="pycharm-2019.3.4" href="https://download.jetbrains.com/python/pycharm-professional-2019.3.4.tar.gz" size="513944449" type="application/x-compressed-tar"/>
       </implementation>
     </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="PyCharm2020.1"/>
+      <implementation id="sha1new=ebc5b194b15d9a76964bdb6a54156ee29c035e29" released="2020-04-08" stability="stable" version="2020.1">
+        <manifest-digest sha256new="NMKYESDHRBJB3GJYK3T7WB7R3SCTNSLJHO6C6B4F3N6UKFFLD5OA"/>
+        <archive extract="pycharm-2020.1" href="https://download.jetbrains.com/python/pycharm-professional-2020.1.tar.gz" size="507643980" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
   </group>
 
   <entry-point binary-name="pycharm" command="run"/>

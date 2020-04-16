@@ -230,6 +230,13 @@
         <archive extract="idea-IC-193.6911.18" href="https://download.jetbrains.com/idea/ideaIC-2019.3.4-no-jbr.tar.gz" size="563415699" type="application/x-compressed-tar"/>
       </implementation>
     </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="IdeaIC2020.1"/>
+      <implementation id="sha1new=4d21d8ecd86248924636f8aa99ef99c19da11963" released="2020-04-09" stability="stable" version="2020.1">
+        <manifest-digest sha256new="PUE6XMZWQAH6GQVNVZZWRFVLNFV6OUU5IQP6ON347SN7Q6QTXDHA"/>
+        <archive extract="idea-IC-201.6668.121" href="https://download.jetbrains.com/idea/ideaIC-2020.1-no-jbr.tar.gz" size="524536881" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
   </group>
 
   <entry-point binary-name="idea" command="run"/>

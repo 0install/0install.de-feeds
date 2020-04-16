@@ -356,6 +356,13 @@
         <archive extract="pycharm-community-2019.3.4" href="https://download.jetbrains.com/python/pycharm-community-2019.3.4.tar.gz" size="391698063" type="application/x-compressed-tar"/>
       </implementation>
     </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="PyCharmCE2020.1"/>
+      <implementation id="sha1new=76dc9774a89af50e62502da534d2e02beba7baa3" released="2020-04-08" stability="stable" version="2020.1">
+        <manifest-digest sha256new="RTF7Y2T7W7BCUS3EWDU5R57JG5BKG4MIQOPNG76RJGWJC35KQ4MQ"/>
+        <archive extract="pycharm-community-2020.1" href="https://download.jetbrains.com/python/pycharm-community-2020.1.tar.gz" size="382333125" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
   </group>
 
   <entry-point binary-name="pycharm" command="run"/>
