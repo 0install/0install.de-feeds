@@ -42,7 +42,7 @@
 
     <group>
       <environment name="IDEA_PATHS_SELECTOR" value="Rider2017.1"/>
-      <implementation id="sha1new=6a79850cf0b83bad9b43e2866305c9bea8c7143d" released="2017-08-03" stability="stable" version="2017.1">
+      <implementation id="sha1new=6a79850cf0b83bad9b43e2866305c9bea8c7143d" released="2017-08-03" stability="stable" version="2017.1.0">
         <manifest-digest sha256new="DQR6A3NUTZLLBHSSKDDHVY2ST6W46LIBEAE6PJBAJEXQVNYCPZVQ"/>
         <archive href="https://download.jetbrains.com/resharper/JetBrains.Rider-2017.1.zip" size="337024050" type="application/zip"/>
       </implementation>
@@ -57,7 +57,7 @@
     </group>
     <group>
       <environment name="IDEA_PATHS_SELECTOR" value="Rider2017.2"/>
-      <implementation id="sha1new=7667b7c848819171f7473c2e43c1a9da87a6c7c2" released="2017-10-12" stability="stable" version="2017.2">
+      <implementation id="sha1new=7667b7c848819171f7473c2e43c1a9da87a6c7c2" released="2017-10-12" stability="stable" version="2017.2.0">
         <manifest-digest sha256new="MW2QXB2ODOHPTZUMYFYNY3MWYDXOZRE4VWZA7EZ5DNWRRHDQAIVQ"/>
         <archive href="https://download.jetbrains.com/resharper/JetBrains.Rider-2017.2.zip" size="337739285" type="application/zip"/>
       </implementation>
@@ -68,7 +68,7 @@
     </group>
     <group>
       <environment name="IDEA_PATHS_SELECTOR" value="Rider2017.3"/>
-      <implementation id="sha1new=d8f338c0605d78ef0bffc87c1b867881a563e754" released="2017-12-27" stability="stable" version="2017.3">
+      <implementation id="sha1new=d8f338c0605d78ef0bffc87c1b867881a563e754" released="2017-12-27" stability="stable" version="2017.3.0">
         <manifest-digest sha256new="2TD3A2BJDFBULWYTFBCNV3X74LILUN5W74MHH6V5EBIMHLNIHCOA"/>
         <archive href="https://download.jetbrains.com/resharper/JetBrains.Rider-2017.3.zip" size="368854153" type="application/zip"/>
       </implementation>
@@ -79,7 +79,7 @@
     </group>
     <group>
       <environment name="IDEA_PATHS_SELECTOR" value="Rider2018.1"/>
-      <implementation id="sha1new=26eb268c51aa1b069b0b7ffa612246e214ed01d5" released="2018-04-19" stability="stable" version="2018.1">
+      <implementation id="sha1new=26eb268c51aa1b069b0b7ffa612246e214ed01d5" released="2018-04-19" stability="stable" version="2018.1.0">
         <manifest-digest sha256new="2EWTUUWOQDR6DCQQCDEAE7Y2OGAQPGU6SKBGGAAPIZV76AEL37HA"/>
         <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2018.1.zip" size="383901150" type="application/zip"/>
       </implementation>
@@ -102,7 +102,7 @@
     </group>
     <group>
       <environment name="IDEA_PATHS_SELECTOR" value="Rider2018.2"/>
-      <implementation id="sha1new=dcadba371398d0715385bd8d460390a84f8ae046" released="2018-08-23" stability="stable" version="2018.2">
+      <implementation id="sha1new=dcadba371398d0715385bd8d460390a84f8ae046" released="2018-08-23" stability="stable" version="2018.2.0">
         <manifest-digest sha256new="H757UJMCM6IL26EPYMVDDOBX3UIF5CY2K6OZKGHBLZ2OSLM6QOIA"/>
         <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2018.2.tar.gz" size="450048723" type="application/x-compressed-tar"/>
       </implementation>
@@ -121,7 +121,7 @@
     </group>
     <group>
       <environment name="IDEA_PATHS_SELECTOR" value="Rider2018.3"/>
-      <implementation id="sha1new=9ef4174b6c22f8218e63be4526c3376a5ed104fc" released="2018-12-18" stability="stable" version="2018.3">
+      <implementation id="sha1new=9ef4174b6c22f8218e63be4526c3376a5ed104fc" released="2018-12-18" stability="stable" version="2018.3.0">
         <manifest-digest sha256new="QPI4BIV44OFRWLECGIT7DSUUZ4CKKGDTHQGX7GWWVINMLL3ND44Q"/>
         <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2018.3.zip" size="626553535" type="application/zip"/>
       </implementation>
@@ -148,13 +148,13 @@
     </group>
     <group>
       <environment name="IDEA_PATHS_SELECTOR" value="Rider2019.1"/>
+      <implementation id="sha1new=956ae1f0558e50b393b54290f7a09493217b76bc" released="2019-04-30" stability="stable" version="2019.1.0">
+        <manifest-digest sha256new="QSJUUDBZWXN5FIEURIP2DH3IAGMMFXFDKGXMSQZX547ZDFVZBJUA"/>
+        <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2019.1.win.zip" size="636859726" type="application/zip"/>
+      </implementation>
       <implementation id="sha1new=427916e54a0a50252514d98b7fb39b4400f2b24c" released="2019-05-02" stability="stable" version="2019.1.1">
         <manifest-digest sha256new="357Q7TPIIIA3KI5RG6O7XWG6IBLJ276R7QWDW4CPADM4P32MNBNA"/>
         <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2019.1.1.win.zip" size="636849862" type="application/zip"/>
-      </implementation>
-      <implementation id="sha1new=956ae1f0558e50b393b54290f7a09493217b76bc" released="2019-04-30" stability="stable" version="2019.1">
-        <manifest-digest sha256new="QSJUUDBZWXN5FIEURIP2DH3IAGMMFXFDKGXMSQZX547ZDFVZBJUA"/>
-        <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2019.1.win.zip" size="636859726" type="application/zip"/>
       </implementation>
       <implementation id="sha1new=a7c34743fb2c6f6a3ddc72b9311642c03f81e42d" released="2019-06-06" stability="stable" version="2019.1.2">
         <manifest-digest sha256new="H5UES5ELBFYJWO2XF5L5MUZ7CXTEX6DN6HH3K4266TFMRXVWATEA"/>
@@ -167,7 +167,7 @@
     </group>
     <group>
       <environment name="IDEA_PATHS_SELECTOR" value="Rider2019.2"/>
-      <implementation id="sha1new=e2e1522171c1ba5c4c22f9c78c10a9c9d97aadd6" released="2019-08-08" stability="stable" version="2019.2">
+      <implementation id="sha1new=e2e1522171c1ba5c4c22f9c78c10a9c9d97aadd6" released="2019-08-08" stability="stable" version="2019.2.0">
         <manifest-digest sha256new="OAX4UIAFWATJEQUGYB47PSVIKZWCIXUHKS7IQKG25CTDBDFHNS5Q"/>
         <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2019.2.win.zip" size="629275866" type="application/zip"/>
       </implementation>
@@ -204,6 +204,14 @@
       <extension mime-type="text/plain" value=".sln"/>
     </file-type>
   </capabilities>
+  <implementation arch="Windows-x86_64" id="sha1new=7c5c4c7db997a8755a0fa2187cfa5c9a5f3019be" main="bin/rider64.exe" released="2019-12-11" stability="stable" version="2019.3.0">
+    <manifest-digest sha256new="RQ24QVE5TEF537I5AO4MR6XXBCGKTDWISTOJLRB2FX3HRVT3VYYQ"/>
+    <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2019.3.win.zip" size="691010379" type="application/zip"/>
+  </implementation>
+  <implementation arch="Linux-x86_64" id="sha1new=cfb2026330765fbdc4edea7d8a34c97e9a0db142" main="bin/rider.sh" released="2019-12-11" stability="stable" version="2019.3.0">
+    <manifest-digest sha256new="X66Z2DW2IUK3IKQQX5TWY36WNANMXBRQDKHQOWB45T5RSUPKM2VQ"/>
+    <archive extract="JetBrains Rider-2019.3" href="https://download.jetbrains.com/rider/JetBrains.Rider-2019.3.tar.gz" size="675829999" type="application/x-compressed-tar"/>
+  </implementation>
   <implementation arch="Windows-x86_64" id="sha1new=441af86d996ba54a0b11f9d17920c31ee96ae3b0" main="bin/rider64.exe" released="2019-12-20" stability="stable" version="2019.3.1">
     <manifest-digest sha256new="HLJU3TZWMH4GODD5ADQFODADNKALNZWZWDMCIIZEMNFHCJVR4OUQ"/>
     <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2019.3.1.win.zip" size="697386808" type="application/zip"/>
@@ -236,14 +244,6 @@
     <manifest-digest sha256new="NEKRUZOYNVR6WZN36G6SLFT5VPZCCCYBDR2V4UQE4ZB426VNIVKA"/>
     <archive extract="JetBrains Rider-2019.3.4" href="https://download.jetbrains.com/rider/JetBrains.Rider-2019.3.4.tar.gz" size="661849418" type="application/x-compressed-tar"/>
   </implementation>
-  <implementation arch="Windows-x86_64" id="sha1new=7c5c4c7db997a8755a0fa2187cfa5c9a5f3019be" main="bin/rider64.exe" released="2019-12-11" stability="stable" version="2019.3">
-    <manifest-digest sha256new="RQ24QVE5TEF537I5AO4MR6XXBCGKTDWISTOJLRB2FX3HRVT3VYYQ"/>
-    <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2019.3.win.zip" size="691010379" type="application/zip"/>
-  </implementation>
-  <implementation arch="Linux-x86_64" id="sha1new=cfb2026330765fbdc4edea7d8a34c97e9a0db142" main="bin/rider.sh" released="2019-12-11" stability="stable" version="2019.3">
-    <manifest-digest sha256new="X66Z2DW2IUK3IKQQX5TWY36WNANMXBRQDKHQOWB45T5RSUPKM2VQ"/>
-    <archive extract="JetBrains Rider-2019.3" href="https://download.jetbrains.com/rider/JetBrains.Rider-2019.3.tar.gz" size="675829999" type="application/x-compressed-tar"/>
-  </implementation>
   <implementation arch="Windows-x86_64" id="sha1new=5bcbaaeff54118dc3c94c44f6c8b5758b1080b7f" main="bin/rider64.exe" released="2020-04-16" stability="stable" version="2020.1.0">
     <manifest-digest sha256new="DMCKOWBUFDZOORUQ2ZHWTMAJJD43KWU66DUR6AKKE2ZGQNVIGDNA"/>
     <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2020.1.0.win.zip" size="873675592" type="application/zip"/>
@@ -251,5 +251,13 @@
   <implementation arch="Linux-x86_64" id="sha1new=437a4c548eab8e59b256648832cfcb34835f9cad" main="bin/rider.sh" released="2020-04-16" stability="stable" version="2020.1.0">
     <manifest-digest sha256new="FCNOEXR2JJLDMYQGANDCRSA5424DM3CDIIVLWVM7QKQUTMOCP3WA"/>
     <archive extract="JetBrains Rider-2020.1.0" href="https://download.jetbrains.com/rider/JetBrains.Rider-2020.1.0.tar.gz" size="796664863" type="application/x-compressed-tar"/>
+  </implementation>
+  <implementation arch="Windows-x86_64" id="sha1new=83d3e940a42ef86bc3ed7db50a6683c497f9e357" main="bin/rider64.exe" released="2020-04-29" stability="stable" version="2020.1.1">
+    <manifest-digest sha256new="TFQYIIYXAMDW5HU7UUNGHPOYKI3AJU7NQGXF2P4AQLDBQYFXIULQ"/>
+    <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2020.1.1.win.zip" size="873692281" type="application/zip"/>
+  </implementation>
+  <implementation arch="Linux-x86_64" id="sha1new=5de170dd934d42c3f0c4eafc37c45f2140c116ca" main="bin/rider.sh" released="2020-04-29" stability="stable" version="2020.1.1">
+    <manifest-digest sha256new="W526TNZ22UAA7LVFGEQ4NPRUDTIUXUSB7RKJGYAVR75N2KQVVDKA"/>
+    <archive extract="JetBrains Rider-2020.1.1" href="https://download.jetbrains.com/rider/JetBrains.Rider-2020.1.1.tar.gz" size="796686096" type="application/x-compressed-tar"/>
   </implementation>
 </interface>
