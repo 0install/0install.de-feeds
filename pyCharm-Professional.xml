@@ -355,12 +355,20 @@
         <manifest-digest sha256new="GBIBAHDFPPZR2LWE4QGJ5U5B2QCZJSHRGI3FN4XRELYC33KHMRSQ"/>
         <archive extract="pycharm-2019.3.4" href="https://download.jetbrains.com/python/pycharm-professional-2019.3.4.tar.gz" size="513944449" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha1new=129e434b2e48e34aa2f3c6348cd1315efb30d0e3" released="2020-05-08" stability="stable" version="2019.3.5">
+        <manifest-digest sha256new="QAOKLNVPK4ZYWLAPTIBOKBPQRGBVJIGMJKXG5H7K3VLJ3ARXQJBQ"/>
+        <archive extract="pycharm-2019.3.5" href="https://download.jetbrains.com/python/pycharm-professional-2019.3.5.tar.gz" size="514205863" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
     <group>
       <environment name="IDEA_PATHS_SELECTOR" value="PyCharm2020.1"/>
       <implementation id="sha1new=ebc5b194b15d9a76964bdb6a54156ee29c035e29" released="2020-04-08" stability="stable" version="2020.1">
         <manifest-digest sha256new="NMKYESDHRBJB3GJYK3T7WB7R3SCTNSLJHO6C6B4F3N6UKFFLD5OA"/>
         <archive extract="pycharm-2020.1" href="https://download.jetbrains.com/python/pycharm-professional-2020.1.tar.gz" size="507643980" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=4413092fbf1579592a694edff821f5fefdfe0c6e" released="2020-05-07" stability="stable" version="2020.1.1">
+        <manifest-digest sha256new="MDSXRB5ENR4VK7UVDOLCUPVLDCXRX5H7YJARBCGVLVN7LJMQDSXA"/>
+        <archive extract="pycharm-2020.1.1" href="https://download.jetbrains.com/python/pycharm-professional-2020.1.1.tar.gz" size="507346192" type="application/x-compressed-tar"/>
       </implementation>
     </group>
   </group>
