@@ -6,15 +6,7 @@
   <homepage>http://pmt.sourceforge.net/pngcrush/</homepage>
   <category>Utility</category>
   <needs-terminal/>
-  <group license="GPL v2 (GNU General Public License)" main="pngcrush.exe">
-    <implementation arch="Windows-x86_64" id="sha1new=4b0433aaa9d08a1018561a05552c99a681d5ed27" released="2015-03-09" stability="stable" version="1.7.85">
-      <manifest-digest sha1new="4b0433aaa9d08a1018561a05552c99a681d5ed27" sha256="fa8d27fd760c81fcd046c949ce76d9d96e04a507237cd1e8ffb7d2922ebc1555" sha256new="7KGSP7LWBSA7ZUCGZFE445WZ3FXAJJIHEN6ND2H7W7JJELV4CVKQ"/>
-      <file dest="pngcrush.exe" href="http://downloads.sourceforge.net/pmt/pngcrush_1_7_85_w64.exe" size="665827"/>
-    </implementation>
-    <implementation arch="Windows-i486" id="sha1new=53cca34bf53838ec5a8699602f7878a32529a993" released="2015-03-09" stability="stable" version="1.7.85">
-      <manifest-digest sha1new="53cca34bf53838ec5a8699602f7878a32529a993" sha256="1e85a8ee1a81f81c6148ed099540722667b38ef8ab3b7b5d7495d5dde4c55b4f" sha256new="D2C2R3Q2QH4BYYKI5UEZKQDSEZT3HDXYVM5XWXLUSXK53ZGFLNHQ"/>
-      <file dest="pngcrush.exe" href="http://downloads.sourceforge.net/pmt/pngcrush_1_7_85_w32.exe" size="567611"/>
-    </implementation>
-  </group>
+  <feed src="https://apps.0install.net/utils/pngcrush.xml"/>
+  <replaced-by interface="https://apps.0install.net/utils/pngcrush.xml"/>
   <entry-point binary-name="pngcrush" command="run" />
 </interface>
