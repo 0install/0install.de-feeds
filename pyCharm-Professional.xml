@@ -370,6 +370,10 @@
         <manifest-digest sha256new="MDSXRB5ENR4VK7UVDOLCUPVLDCXRX5H7YJARBCGVLVN7LJMQDSXA"/>
         <archive extract="pycharm-2020.1.1" href="https://download.jetbrains.com/python/pycharm-professional-2020.1.1.tar.gz" size="507346192" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha1new=38f8e43ccf35c8ef1272cb0df39e2e0ce4174112" released="2020-06-03" stability="stable" version="2020.1.2">
+        <manifest-digest sha256new="ZJXDIXAH4OY2B4MLR5CHJ6YNKIQFNB7ARJPOD3NBFRFZLTOPTIGA"/>
+        <archive extract="pycharm-2020.1.2" href="https://download.jetbrains.com/python/pycharm-professional-2020.1.2.tar.gz" size="507271542" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 
