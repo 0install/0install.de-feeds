@@ -190,6 +190,17 @@
         <archive extract="GoLand-2020.1.4" href="https://download.jetbrains.com/go/goland-2020.1.4.tar.gz" size="379596859" type="application/x-compressed-tar"/>
       </implementation>
     </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="GoLand2020.2"/>
+      <implementation arch="Windows-x86_64" id="sha1new=c5833855f4f6733d41d95f539f42ba16b35dafe1" released="2020-07-30" stability="stable" version="2020.2">
+        <manifest-digest sha256new="IEO6HW7SKKA7ERAGPXECC2RI5TO4RM2RWB6K3UN65VYSGNQXHKEQ"/>
+        <archive href="https://download.jetbrains.com/go/goland-2020.2.win.zip" size="422192627" type="application/zip"/>
+      </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=80fb34fb5cbbe2c774d1b6566da491c370e0c249" released="2020-07-30" stability="stable" version="2020.2">
+        <manifest-digest sha256new="5KCVN2D4YFF6HEDPELTCIEUWOPF7SZKUVC3CGGTHQSZ3U723G3YQ"/>
+        <archive extract="GoLand-2020.2" href="https://download.jetbrains.com/go/goland-2020.2.tar.gz" size="424116115" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
   </group>
 
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">

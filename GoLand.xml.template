@@ -48,7 +48,10 @@
 
     <group>
       <environment name="IDEA_PATHS_SELECTOR" value="GoLand{major-version}"/>
-      <implementation released="{released}" stability="stable" version="{version}">
+      <implementation arch="Windows-x86_64" released="{released}" stability="stable" version="{version}">
+        <archive href="https://download.jetbrains.com/go/goland-{version}.win.zip" type="application/zip"/>
+      </implementation>
+      <implementation arch="Linux-x86_64" released="{released}" stability="stable" version="{version}">
         <archive extract="GoLand-{version}" href="https://download.jetbrains.com/go/goland-{version}.tar.gz" type="application/x-compressed-tar"/>
       </implementation>
     </group>

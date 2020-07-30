@@ -378,6 +378,17 @@
         <manifest-digest sha256new="4XMN52SYHABED2MM5N55P6GV6Z72N5ZWLC6LP3MRRRZY4HIP2K3A"/>
         <archive extract="pycharm-community-2020.1.3" href="https://download.jetbrains.com/python/pycharm-community-2020.1.3.tar.gz" size="384015566" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha1new=9c04e58ef8f684fb30dba2085f2d4995fbc51b2a" released="2020-07-22" stability="stable" version="2020.1.4">
+        <manifest-digest sha256new="5QWCGJLKVKRUHHFN3YZCY4E6663JAN4JBZXZU7WH22H24NJHNF2Q"/>
+        <archive extract="pycharm-community-2020.1.4" href="https://download.jetbrains.com/python/pycharm-community-2020.1.4.tar.gz" size="384017022" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="PyCharmCE2020.2"/>
+      <implementation id="sha1new=ac69fd912771158a84e460cd2b10cc7933c3b59a" released="2020-07-29" stability="stable" version="2020.2">
+        <manifest-digest sha256new="NSIWL5RFK3VTWURZ7VYV3VO4HF5K7KJO7QQJRNEARQSSXH73GDAA"/>
+        <archive extract="pycharm-community-2020.2" href="https://download.jetbrains.com/python/pycharm-community-2020.2.tar.gz" size="399199416" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 
