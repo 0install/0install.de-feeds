@@ -200,6 +200,22 @@
         <manifest-digest sha256new="5KCVN2D4YFF6HEDPELTCIEUWOPF7SZKUVC3CGGTHQSZ3U723G3YQ"/>
         <archive extract="GoLand-2020.2" href="https://download.jetbrains.com/go/goland-2020.2.tar.gz" size="424116115" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation arch="Windows-x86_64" id="sha1new=1d747780e1af00f46464baa9eaba9dccc0d50b2a" released="2020-08-06" stability="stable" version="2020.2.1">
+        <manifest-digest sha256new="KCKRCQHVTYGDJRNMN3ALW7KPOQ6IXMNU42DIOU54XKOVGIACS5NA"/>
+        <archive href="https://download.jetbrains.com/go/goland-2020.2.1.win.zip" size="422323278" type="application/zip"/>
+      </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=92cbc2a779c5ef12ad2cf241ebcd9fc29df30475" released="2020-08-06" stability="stable" version="2020.2.1">
+        <manifest-digest sha256new="Z3CJV36USR4UVOLRSGXUDXFTPC6VUZQLHFIQFY53DD3UZ733527Q"/>
+        <archive extract="GoLand-2020.2.1" href="https://download.jetbrains.com/go/goland-2020.2.1.tar.gz" size="424237985" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation arch="Windows-x86_64" id="sha1new=b876a42e3144364be9af25837a54a2ca2b2b6e12" released="2020-08-13" stability="stable" version="2020.2.2">
+        <manifest-digest sha256new="OSZMGBGW3IROSVQLDMCCHL6Y2Q3EQNVWSFZZ4DVPK7MTJINQBUCQ"/>
+        <archive href="https://download.jetbrains.com/go/goland-2020.2.2.win.zip" size="422397479" type="application/zip"/>
+      </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=18e4ec37a877b51da9daac290aad26d0a5b6367c" released="2020-08-13" stability="stable" version="2020.2.2">
+        <manifest-digest sha256new="ZNCHXCYLGALT5MYSORWN23YU4CP4B2TIHVLNQRO3IGOTF4DNMY7Q"/>
+        <archive extract="GoLand-2020.2.2" href="https://download.jetbrains.com/go/goland-2020.2.2.tar.gz" size="427513377" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 
