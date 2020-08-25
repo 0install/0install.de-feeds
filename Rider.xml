@@ -284,12 +284,20 @@
     <manifest-digest sha256new="EAKLLP2OWGT5MSLO6RQD5TEUWYLWD2LSMZJK6UP5OOSNVXJVBSRA"/>
     <archive extract="JetBrains Rider-2020.1.4" href="https://download.jetbrains.com/rider/JetBrains.Rider-2020.1.4.tar.gz" size="795849212" type="application/x-compressed-tar"/>
   </implementation>
-  <implementation arch="Windows-x86_64" id="sha1new=edfa6e7f2acc463f5339248b2a7ee0f778e84422" main="bin/rider64.exe" released="2020-08-13" stability="stable" version="2020.2">
+  <implementation arch="Windows-x86_64" id="sha1new=edfa6e7f2acc463f5339248b2a7ee0f778e84422" main="bin/rider64.exe" released="2020-08-13" stability="stable" version="2020.2.0">
     <manifest-digest sha256new="B65W74ZMFBMWBB2KXMOIAS3VLZ7PU4KGZSRKDVOQ6G3VJD2JKTUQ"/>
     <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2020.2.win.zip" size="908557695" type="application/zip"/>
   </implementation>
-  <implementation arch="Linux-x86_64" id="sha1new=9b513fe6009e80d8c6c4c5f0507a5a57b9bc0467" main="bin/rider.sh" released="2020-08-13" stability="stable" version="2020.2">
+  <implementation arch="Linux-x86_64" id="sha1new=9b513fe6009e80d8c6c4c5f0507a5a57b9bc0467" main="bin/rider.sh" released="2020-08-13" stability="stable" version="2020.2.0">
     <manifest-digest sha256new="O6XSTBH6K3L75QOMLQXF22YAVQ77OOGOORE2MAIKMRABI2NEVQ7A"/>
     <archive extract="JetBrains Rider-2020.2" href="https://download.jetbrains.com/rider/JetBrains.Rider-2020.2.tar.gz" size="825431913" type="application/x-compressed-tar"/>
+  </implementation>
+  <implementation arch="Windows-x86_64" id="sha1new=7aab79b193a0f8fe862c7931187da57a0ec1faa7" main="bin/rider64.exe" released="2020-08-21" stability="stable" version="2020.2.1">
+    <manifest-digest sha256new="6ASZJEOOUCE6AOBTKY3KU7UQKJDXGS5U2RE4RKGNSNZPVOSWATJQ"/>
+    <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2020.2.1.win.zip" size="908590420" type="application/zip"/>
+  </implementation>
+  <implementation arch="Linux-x86_64" id="sha1new=1352fde1628b1f31019705ce94249e83bc753509" main="bin/rider.sh" released="2020-08-21" stability="stable" version="2020.2.1">
+    <manifest-digest sha256new="W2MGMRGNTVFWG5SBIC5SZSQTB5DXK3ARTUPU43OVWMR4BTBY7ENA"/>
+    <archive extract="JetBrains Rider-2020.2.1" href="https://download.jetbrains.com/rider/JetBrains.Rider-2020.2.1.tar.gz" size="825490377" type="application/x-compressed-tar"/>
   </implementation>
 </interface>
