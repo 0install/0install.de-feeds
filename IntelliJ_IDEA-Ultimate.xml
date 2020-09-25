@@ -267,6 +267,10 @@
         <manifest-digest sha256new="MZ6GHT7SH746VOC24PFHPAY4PBCHTJBVSVZTF6SJZTROQV3MTCVA"/>
         <archive extract="idea-IU-202.6948.69" href="https://download.jetbrains.com/idea/ideaIU-2020.2.1-no-jbr.tar.gz" size="660550075" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha1new=a4bff41884793b3ca9fb77ceaf3a12a1be02c0c3" released="2020-09-15" stability="stable" version="2020.2.2">
+        <manifest-digest sha256new="G5Z6R6GLRSES3BYTX4OMBODMUE26CE3IXLXDDXUJL4V4HWKJGLIA"/>
+        <archive extract="idea-IU-202.7319.50" href="https://download.jetbrains.com/idea/ideaIU-2020.2.2-no-jbr.tar.gz" size="659690730" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 

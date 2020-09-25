@@ -389,6 +389,14 @@
         <manifest-digest sha256new="NSIWL5RFK3VTWURZ7VYV3VO4HF5K7KJO7QQJRNEARQSSXH73GDAA"/>
         <archive extract="pycharm-community-2020.2" href="https://download.jetbrains.com/python/pycharm-community-2020.2.tar.gz" size="399199416" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha1new=b729cedc1ac2bd4c1c5c3be7245656cff522b8bd" released="2020-08-26" stability="stable" version="2020.2.1">
+        <manifest-digest sha256new="XXJKWNFYRYQ2M4OQNP4J4KSU2MVWA32ECSOQW657UNR2EKZOGXHA"/>
+        <archive extract="pycharm-community-2020.2.1" href="https://download.jetbrains.com/python/pycharm-community-2020.2.1.tar.gz" size="404677355" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=6303e40f9ba10dd77ac637b4b2470a122f63f8d1" released="2020-09-17" stability="stable" version="2020.2.2">
+        <manifest-digest sha256new="TI3JSC4Q3Y6LNRJSJTWG7PQ2ONZ2TU626AYCCUNWYQKMQCN7R77Q"/>
+        <archive extract="pycharm-community-2020.2.2" href="https://download.jetbrains.com/python/pycharm-community-2020.2.2.tar.gz" size="404517937" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 

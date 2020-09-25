@@ -267,6 +267,10 @@
         <manifest-digest sha256new="ZUOAYTR6PV32RVOJ53BZZRCE3C5EIC6N2KU5Z6DLKKP6MY5PLO3A"/>
         <archive extract="idea-IC-202.6948.69" href="https://download.jetbrains.com/idea/ideaIC-2020.2.1-no-jbr.tar.gz" size="529563846" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha1new=c531b53da3b32db6b9281818747256ad3e6d8066" released="2020-09-15" stability="stable" version="2020.2.2">
+        <manifest-digest sha256new="B2ZQ7CY6DBPSJPSV2VU7DSTVYZCQTLMIQ2QIM4FIWARRLHLOMC3A"/>
+        <archive extract="idea-IC-202.7319.50" href="https://download.jetbrains.com/idea/ideaIC-2020.2.2-no-jbr.tar.gz" size="529375561" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 
