@@ -324,4 +324,12 @@
     <manifest-digest sha256new="IP4S67N3CSNF5AUDNYBGEH7VPIFHKYERBGCYKGJNKDICOAKEKKIQ"/>
     <archive extract="JetBrains Rider-2020.2.4" href="https://download.jetbrains.com/rider/JetBrains.Rider-2020.2.4.tar.gz" size="829320879" type="application/x-compressed-tar"/>
   </implementation>
+  <implementation arch="Windows-x86_64" id="sha1new=6fb48655d005a3184ba1ca129d9d94d19f881ab6" main="bin/rider64.exe" released="2020-12-14" stability="stable" version="2020.3.0">
+    <manifest-digest sha256new="BH5SCZRD3D4OJAD6EXYS52QZSREN2X6OOFZT4I5VIREIXZWQFWFQ"/>
+    <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2020.3.win.zip" size="1001383876" type="application/zip"/>
+  </implementation>
+  <implementation arch="Linux-x86_64" id="sha1new=828c3bf03b187521e7ef95f3c8cb1bad953a116b" main="bin/rider.sh" released="2020-12-14" stability="stable" version="2020.3.0">
+    <manifest-digest sha256new="UJEXJN5GGAQOVHRAFA6INEWP6ECYDP4ODEYEPLC2FTWASFA6EC4Q"/>
+    <archive extract="JetBrains Rider-2020.3" href="https://download.jetbrains.com/rider/JetBrains.Rider-2020.3.tar.gz" size="916600496" type="application/x-compressed-tar"/>
+  </implementation>
 </interface>

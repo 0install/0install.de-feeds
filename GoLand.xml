@@ -224,6 +224,25 @@
         <manifest-digest sha256new="NNF6PW76UQGYTVPUOUVTYUPEGSJR4GH5DM7OYHGDZUROHTZTEJJQ"/>
         <archive extract="GoLand-2020.2.3" href="https://download.jetbrains.com/go/goland-2020.2.3.tar.gz" size="427140538" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation arch="Windows-x86_64" id="sha1new=b4edeceed2b3b2974fcb77e24f738cee69fe0cc0" released="2020-12-10" stability="stable" version="2020.2.4">
+        <manifest-digest sha256new="XD6L6QE24TXTOMJCJPCDBB4UIGPPQ7D2NB3744RYNUKG52ZG2H5A"/>
+        <archive href="https://download.jetbrains.com/go/goland-2020.2.4.win.zip" size="422249743" type="application/zip"/>
+      </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=06873ccff8616e7c06f17a184777a0676fbd2a9c" released="2020-12-10" stability="stable" version="2020.2.4">
+        <manifest-digest sha256new="JW334J3CVEDISESLZQBEXOOVUDKCOWEWLBFETITGHL5SZBK7J7QA"/>
+        <archive extract="GoLand-2020.2.4" href="https://download.jetbrains.com/go/goland-2020.2.4.tar.gz" size="427235299" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="GoLand2020.3"/>
+      <implementation arch="Windows-x86_64" id="sha1new=371176b1e664232ce5f1c5e4dbe019507b369b71" released="2020-12-03" stability="stable" version="2020.3">
+        <manifest-digest sha256new="HCLHCQBXRRR4TSFQXTLPGSXE3MYTRO5VN56RBH7NTD4DIZNBTEYQ"/>
+        <archive href="https://download.jetbrains.com/go/goland-2020.3.win.zip" size="471994802" type="application/zip"/>
+      </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=6c02b6ffc9115854e36112b0f6a8b71dc8137ddc" released="2020-12-03" stability="stable" version="2020.3">
+        <manifest-digest sha256new="IDP5LKUKK7VX7N3MU6Z3PQE6IT4SIAUWV3SLBYTFAMDSOAI4OYMQ"/>
+        <archive extract="GoLand-2020.3" href="https://download.jetbrains.com/go/goland-2020.3.tar.gz" size="484825433" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 

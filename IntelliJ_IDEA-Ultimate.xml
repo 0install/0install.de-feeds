@@ -280,6 +280,13 @@
         <archive extract="idea-IU-202.8194.7" href="https://download.jetbrains.com/idea/ideaIU-2020.2.4-no-jbr.tar.gz" size="660362407" type="application/x-compressed-tar"/>
       </implementation>
     </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="IntelliJIdea2020.3"/>
+      <implementation id="sha1new=4b896df657c16d53bfa971c97261c709a289b557" released="2020-12-01" stability="stable" version="2020.3">
+        <manifest-digest sha256new="SMGHRV5EV26IPTL7ODVNUXCN4D2JOIANEKSI3RLR5JWSP4NKYJPA"/>
+        <archive extract="idea-IU-203.5981.155" href="https://download.jetbrains.com/idea/ideaIU-2020.3-no-jbr.tar.gz" size="720141081" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
   </group>
 
   <entry-point binary-name="idea" command="run"/>

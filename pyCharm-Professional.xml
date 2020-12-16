@@ -382,6 +382,10 @@
         <manifest-digest sha256new="F2L2KIJO6OXSOOFPNRTWEA4KDQFYRHAT32GSGMQWDQM4U36QKZAQ"/>
         <archive extract="pycharm-2020.1.4" href="https://download.jetbrains.com/python/pycharm-professional-2020.1.4.tar.gz" size="508032779" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha1new=b0e0d6e31355acf95100497036373bc489d52c4e" released="2020-12-02" stability="stable" version="2020.1.5">
+        <manifest-digest sha256new="W5W5OA4FWKR4GZBHQG3CHU6S3LID6ICEKOJDHL6APFWKJSRJIPVA"/>
+        <archive extract="pycharm-2020.1.5" href="https://download.jetbrains.com/python/pycharm-professional-2020.1.5.tar.gz" size="507030815" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
     <group>
       <environment name="IDEA_PATHS_SELECTOR" value="PyCharm2020.2"/>
@@ -404,6 +408,17 @@
       <implementation id="sha1new=60c3570b607f921a7e88f0b1c48849b54a9cf248" released="2020-11-27" stability="stable" version="2020.2.4">
         <manifest-digest sha256new="VNCICOPEOMBXHTKNXASQ3AS3Z7EGG36X4GYHCHH6QRX2BTRJGBGQ"/>
         <archive extract="pycharm-2020.2.4" href="https://download.jetbrains.com/python/pycharm-professional-2020.2.4.tar.gz" size="528262627" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=ae2e4f4aee7714f7440b00f2e2e2d07a8a1c7861" released="2020-12-02" stability="stable" version="2020.2.5">
+        <manifest-digest sha256new="R2NTZWNL7HOCPG7UVYL7GKY7PAST63DCMGP6RC4IUKEJBNIWQD6Q"/>
+        <archive extract="pycharm-2020.2.5" href="https://download.jetbrains.com/python/pycharm-professional-2020.2.5.tar.gz" size="528249678" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="PyCharm2020.3"/>
+      <implementation id="sha1new=755310c67849a771018a25ca59fb84aaa8a0c7d9" released="2020-12-02" stability="stable" version="2020.3">
+        <manifest-digest sha256new="PY4LVK5SQ4G5ZZ6FGBROIBFLDYVXQAYBSK3Y4SH6FUONIS4X4KOQ"/>
+        <archive extract="pycharm-2020.3" href="https://download.jetbrains.com/python/pycharm-professional-2020.3.tar.gz" size="614570714" type="application/x-compressed-tar"/>
       </implementation>
     </group>
   </group>
