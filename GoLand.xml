@@ -282,6 +282,37 @@
         <manifest-digest sha256new="IDP5LKUKK7VX7N3MU6Z3PQE6IT4SIAUWV3SLBYTFAMDSOAI4OYMQ"/>
         <archive extract="GoLand-2020.3" href="https://download.jetbrains.com/go/goland-2020.3.tar.gz" size="484825433" type="application/x-compressed-tar"/>
       </implementation>
+      <group>
+        <command name="run">
+          <runner command="run-gui" interface="https://apps.0install.net/java/jre.xml" version="11..">
+            <arg>-server</arg>
+            <arg>-Xms128m</arg>
+            <arg>-Xmx512m</arg>
+            <arg>-XX:ReservedCodeCacheSize=240m</arg>
+            <arg>-XX:+UseConcMarkSweepGC</arg>
+            <arg>-XX:SoftRefLRUPolicyMSPerMB=50</arg>
+            <arg>-ea</arg>
+            <arg>-Dsun.io.useCanonCaches=false</arg>
+            <arg>-Djava.net.preferIPv4Stack=true</arg>
+            <arg>-XX:+HeapDumpOnOutOfMemoryError</arg>
+            <arg>-XX:-OmitStackTraceInFastThrow</arg>
+            <arg>-Xbootclasspath/a:$IDE_HOME/lib/boot.jar</arg>
+            <arg>-Didea.paths.selector=$IDEA_PATHS_SELECTOR</arg>
+            <arg>-Didea.platform.prefix=GoLand</arg>
+            <arg>-cp</arg>
+            <arg>$CLASS_PATH</arg>
+            <arg>com.intellij.idea.Main</arg>
+          </runner>
+        </command>
+        <implementation arch="Windows-x86_64" id="sha1new=d6f4198d19a37dd7cc2f4daa26b0731d05ce01c0" released="2020-12-30" stability="stable" version="2020.3.1">
+          <manifest-digest sha256new="P6ELHCDZSRBJJDQDG7M7N2RH7XHOR55LNFVKDQAMEEHAYRGY2D4Q"/>
+          <archive href="https://download.jetbrains.com/go/goland-2020.3.1.win.zip" size="472026100" type="application/zip"/>
+        </implementation>
+        <implementation arch="Linux-x86_64" id="sha1new=e701fef926dfa568d41cbb7c2b7b95017d8ae7ca" released="2020-12-30" stability="stable" version="2020.3.1">
+          <manifest-digest sha256new="Q6267YD2HGDRM2XKAYBJ4L3T3BS2RSK43JZMUOOVNBT26ARGOZYA"/>
+          <archive extract="GoLand-2020.3.1" href="https://download.jetbrains.com/go/goland-2020.3.1.tar.gz" size="478385153" type="application/x-compressed-tar"/>
+        </implementation>
+      </group>
     </group>
   </group>
 
