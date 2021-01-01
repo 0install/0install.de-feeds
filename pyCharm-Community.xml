@@ -414,6 +414,41 @@
         <archive extract="pycharm-community-2020.2.5" href="https://download.jetbrains.com/python/pycharm-community-2020.2.5.tar.gz" size="404431769" type="application/x-compressed-tar"/>
       </implementation>
     </group>
+  </group>
+
+  <group>
+    <environment insert="." name="IDE_HOME"/>
+    <environment insert="bin" name="PATH"/>
+    <environment insert="lib/bootstrap.jar" name="CLASS_PATH"/>
+    <environment insert="lib/extensions.jar" name="CLASS_PATH"/>
+    <environment insert="lib/util.jar" name="CLASS_PATH"/>
+    <environment insert="lib/jdom.jar" name="CLASS_PATH"/>
+    <environment insert="lib/log4j.jar" name="CLASS_PATH"/>
+    <environment insert="lib/trove4j.jar" name="CLASS_PATH"/>
+    <environment insert="lib/jna.jar" name="CLASS_PATH"/>
+    <environment insert="jre/lib/tools.jar" name="CLASS_PATH"/>
+    <command name="run">
+      <runner command="java-gui" interface="https://apps.0install.net/java/jdk.xml" version="11..">
+        <arg>-server</arg>
+        <arg>-Xms128m</arg>
+        <arg>-Xmx512m</arg>
+        <arg>-XX:ReservedCodeCacheSize=240m</arg>
+        <arg>-XX:+UseConcMarkSweepGC</arg>
+        <arg>-XX:SoftRefLRUPolicyMSPerMB=50</arg>
+        <arg>-ea</arg>
+        <arg>-Dsun.io.useCanonCaches=false</arg>
+        <arg>-Djava.net.preferIPv4Stack=true</arg>
+        <arg>-XX:+HeapDumpOnOutOfMemoryError</arg>
+        <arg>-XX:-OmitStackTraceInFastThrow</arg>
+        <arg>-Xbootclasspath/a:$IDE_HOME/lib/boot.jar</arg>
+        <arg>-Didea.paths.selector=$IDEA_PATHS_SELECTOR</arg>
+        <arg>-Didea.platform.prefix=PyCharmCore</arg>
+        <arg>-cp</arg>
+        <arg>$CLASS_PATH</arg>
+        <arg>com.intellij.idea.Main</arg>
+      </runner>
+    </command>
+
     <group>
       <environment name="IDEA_PATHS_SELECTOR" value="PyCharmCE2020.3"/>
       <implementation id="sha1new=95c6da67a58a1ba4bafa44a75eff274952e0b715" released="2020-12-02" stability="stable" version="2020.3">

@@ -21,7 +21,7 @@
     <environment insert="lib/jna.jar" name="CLASS_PATH"/>
     <environment insert="jre/lib/tools.jar" name="CLASS_PATH"/>
     <command name="run">
-      <runner command="run-gui" interface="https://apps.0install.net/java/jre.xml">
+      <runner command="java-gui" interface="https://apps.0install.net/java/jdk.xml" version="11..">
         <arg>-server</arg>
         <arg>-Xms128m</arg>
         <arg>-Xmx512m</arg>

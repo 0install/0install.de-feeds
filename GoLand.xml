@@ -233,6 +233,45 @@
         <archive extract="GoLand-2020.2.4" href="https://download.jetbrains.com/go/goland-2020.2.4.tar.gz" size="427235299" type="application/x-compressed-tar"/>
       </implementation>
     </group>
+  </group>
+
+  <group>
+    <environment insert="." name="IDE_HOME"/>
+    <environment insert="bin" name="PATH"/>
+    <environment insert="lib/bootstrap.jar" name="CLASS_PATH"/>
+    <environment insert="lib/extensions.jar" name="CLASS_PATH"/>
+    <environment insert="lib/util.jar" name="CLASS_PATH"/>
+    <environment insert="lib/jdom.jar" name="CLASS_PATH"/>
+    <environment insert="lib/log4j.jar" name="CLASS_PATH"/>
+    <environment insert="lib/trove4j.jar" name="CLASS_PATH"/>
+    <environment insert="lib/jna.jar" name="CLASS_PATH"/>
+    <environment insert="jre/lib/tools.jar" name="CLASS_PATH"/>
+    <requires interface="https://apps.0install.net/golang/go.xml">
+      <environment insert="." mode="replace" name="GOROOT"/>
+      <environment name="PATH" value="bin"/>
+    </requires>
+    <command name="run">
+      <runner command="java-gui" interface="https://apps.0install.net/java/jdk.xml" version="11..">
+        <arg>-server</arg>
+        <arg>-Xms128m</arg>
+        <arg>-Xmx512m</arg>
+        <arg>-XX:ReservedCodeCacheSize=240m</arg>
+        <arg>-XX:+UseConcMarkSweepGC</arg>
+        <arg>-XX:SoftRefLRUPolicyMSPerMB=50</arg>
+        <arg>-ea</arg>
+        <arg>-Dsun.io.useCanonCaches=false</arg>
+        <arg>-Djava.net.preferIPv4Stack=true</arg>
+        <arg>-XX:+HeapDumpOnOutOfMemoryError</arg>
+        <arg>-XX:-OmitStackTraceInFastThrow</arg>
+        <arg>-Xbootclasspath/a:$IDE_HOME/lib/boot.jar</arg>
+        <arg>-Didea.paths.selector=$IDEA_PATHS_SELECTOR</arg>
+        <arg>-Didea.platform.prefix=GoLand</arg>
+        <arg>-cp</arg>
+        <arg>$CLASS_PATH</arg>
+        <arg>com.intellij.idea.Main</arg>
+      </runner>
+    </command>
+
     <group>
       <environment name="IDEA_PATHS_SELECTOR" value="GoLand2020.3"/>
       <implementation arch="Windows-x86_64" id="sha1new=371176b1e664232ce5f1c5e4dbe019507b369b71" released="2020-12-03" stability="stable" version="2020.3">
