@@ -11,7 +11,7 @@ Der Feed Editor (Split Screen mit grafischer und XML Ansicht)
 und der New Feed Wizard (leitet Sie durch den kompletten Feed-Erstellungsprozess, extrahiert automatisch Metadaten wenn möglich)</description>
   <icon href="https://raw.githubusercontent.com/0install/0publish-win/master/icon.png" type="image/png"/>
   <icon href="https://raw.githubusercontent.com/0install/0publish-win/master/icon.ico" type="image/vnd.microsoft.icon"/>
-  <homepage>https://docs.0install.de/tools/0publish-win/</homepage>
+  <homepage>https://docs.0install.net/tools/0publish-win/</homepage>
 
   <replaced-by interface="https://apps.0install.net/0install/0publish-win.xml"/>
   <feed src="https://apps.0install.net/0install/0publish-win.xml"/>
