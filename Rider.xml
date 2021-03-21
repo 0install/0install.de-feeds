@@ -356,4 +356,20 @@
     <manifest-digest sha256new="RWS3STWGQPTX6WG6322ZGQG3LVRF3HVZCYQU3EPV56SNW2MMHA2Q"/>
     <archive extract="JetBrains Rider-2020.3.2" href="https://download.jetbrains.com/rider/JetBrains.Rider-2020.3.2.tar.gz" size="916913040" type="application/x-compressed-tar"/>
   </implementation>
+  <implementation arch="Windows-x86_64" id="sha1new=b2336cd0ede999bcd9cf2190c164713e5cf7b6e3" main="bin/rider64.exe" released="2021-02-22" stability="stable" version="2020.3.3">
+    <manifest-digest sha256new="ORTLD6XAEIUYPFNHTB35ZNAEN6VZEWH353WK3RCIYT627P3XP6CA"/>
+    <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2020.3.3.win.zip" size="943763031" type="application/zip"/>
+  </implementation>
+  <implementation arch="Linux-x86_64" id="sha1new=40db989474359cd5a56e2d4de2212bfa4021d9f2" main="bin/rider.sh" released="2021-02-22" stability="stable" version="2020.3.3">
+    <manifest-digest sha256new="L2GYYWEY43RHRRGDWUPKVKV5OOHDZ2L55YE2DNZD72KUPWOSJ6CQ"/>
+    <archive extract="JetBrains Rider-2020.3.3" href="https://download.jetbrains.com/rider/JetBrains.Rider-2020.3.3.tar.gz" size="917680444" type="application/x-compressed-tar"/>
+  </implementation>
+  <implementation arch="Windows-x86_64" id="sha1new=26c97b90c8eb397a8345cb0450bf049eca8f868a" main="bin/rider64.exe" released="2021-03-17" stability="stable" version="2020.3.4">
+    <manifest-digest sha256new="NSE6SG7EUG4IZLUMYYCVDUDLBU777M2DBQSGK7554JETKUFYZT7Q"/>
+    <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2020.3.4.win.zip" size="943875739" type="application/zip"/>
+  </implementation>
+  <implementation arch="Linux-x86_64" id="sha1new=3cfec727fca188df6bfcb1730c17d88a58eea99c" main="bin/rider.sh" released="2021-03-17" stability="stable" version="2020.3.4">
+    <manifest-digest sha256new="APCFOISPYS6YZCHWRDKH3XFNCDZM6W2OCHUORCUI6FYVPLAAGLUQ"/>
+    <archive extract="JetBrains Rider-2020.3.4" href="https://download.jetbrains.com/rider/JetBrains.Rider-2020.3.4.tar.gz" size="917759161" type="application/x-compressed-tar"/>
+  </implementation>
 </interface>
