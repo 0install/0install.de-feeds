@@ -471,6 +471,17 @@
         <manifest-digest sha256new="RENHA7ZUNID7SWIMV5ZRDUXA4JE7DFHC6WHP75K4L2FL7PLZ6NBQ"/>
         <archive extract="pycharm-2020.3.4" href="https://download.jetbrains.com/python/pycharm-professional-2020.3.4.tar.gz" size="608172710" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha1new=68649f0217dafe6093427ac04775b4fa86c6f8d5" released="2021-03-26" stability="stable" version="2020.3.5">
+        <manifest-digest sha256new="ZNMZXPGKQ6ORT46QRPPY3NP5WVDB6OWELBVKA5LZPQETDW6F5FZQ"/>
+        <archive extract="pycharm-2020.3.5" href="https://download.jetbrains.com/python/pycharm-professional-2020.3.5.tar.gz" size="608047004" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="PyCharm2021.1"/>
+      <implementation id="sha1new=36c19a046f933f6fc28e108f5e2bbfb2217039d6" released="2021-04-07" stability="stable" version="2021.1">
+        <manifest-digest sha256new="P5VFPHRVGBEMWEDO55SBYF7NXTDRRQPZJBJT7YAOQ4UDUVEJI4YQ"/>
+        <archive extract="pycharm-2021.1" href="https://download.jetbrains.com/python/pycharm-professional-2021.1.tar.gz" size="580913875" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 

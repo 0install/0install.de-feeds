@@ -299,6 +299,13 @@
         <archive extract="idea-IU-203.7717.56" href="https://download.jetbrains.com/idea/ideaIU-2020.3.3-no-jbr.tar.gz" size="715752782" type="application/x-compressed-tar"/>
       </implementation>
     </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="IntelliJIdea2021.1"/>
+      <implementation id="sha1new=4adc1276dad9b0aec43dae49eac651a497a9f438" released="2021-04-07" stability="stable" version="2021.1">
+        <manifest-digest sha256new="CBSUYNQFTMJW7J56BF54SPLIJ4U7S355Q4N77XFNINITBT4YPTHA"/>
+        <archive extract="idea-IU-211.6693.111" href="https://download.jetbrains.com/idea/ideaIU-2021.1-no-jbr.tar.gz" size="775964421" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
   </group>
 
   <entry-point binary-name="idea" command="run"/>
