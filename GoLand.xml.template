@@ -25,7 +25,7 @@
       <environment name="PATH" value="bin"/>
     </requires>
     <command name="run">
-      <runner command="run-gui" interface="https://apps.0install.net/java/jre.xml" version="11..">
+      <runner command="run-gui" interface="https://apps.0install.net/java/jre.xml" version="11..!15">
         <arg>-server</arg>
         <arg>-Xms128m</arg>
         <arg>-Xmx512m</arg>

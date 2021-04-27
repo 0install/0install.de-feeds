@@ -233,6 +233,46 @@
         <archive extract="GoLand-2020.2.4" href="https://download.jetbrains.com/go/goland-2020.2.4.tar.gz" size="427235299" type="application/x-compressed-tar"/>
       </implementation>
     </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="GoLand2021.1"/>
+      <command name="run">
+        <runner command="run-gui" interface="https://apps.0install.net/java/jre.xml" version="11..!15">
+          <arg>-server</arg>
+          <arg>-Xms128m</arg>
+          <arg>-Xmx512m</arg>
+          <arg>-XX:ReservedCodeCacheSize=240m</arg>
+          <arg>-XX:+UseConcMarkSweepGC</arg>
+          <arg>-XX:SoftRefLRUPolicyMSPerMB=50</arg>
+          <arg>-ea</arg>
+          <arg>-Dsun.io.useCanonCaches=false</arg>
+          <arg>-Djava.net.preferIPv4Stack=true</arg>
+          <arg>-XX:+HeapDumpOnOutOfMemoryError</arg>
+          <arg>-XX:-OmitStackTraceInFastThrow</arg>
+          <arg>-Xbootclasspath/a:$IDE_HOME/lib/boot.jar</arg>
+          <arg>-Didea.paths.selector=$IDEA_PATHS_SELECTOR</arg>
+          <arg>-Didea.platform.prefix=GoLand</arg>
+          <arg>-cp</arg>
+          <arg>$CLASS_PATH</arg>
+          <arg>com.intellij.idea.Main</arg>
+        </runner>
+      </command>
+      <implementation arch="Windows-x86_64" id="sha1new=b3ec7ade086ed1c09d45db911f4747efaaca0350" released="2021-04-22" stability="stable" version="2021.1.1">
+        <manifest-digest sha256new="AYMVGCMQFAKZSSTEQR4R5FZ6ZPTOTYIKUZEQHTUWWYNZHTMLZNFQ"/>
+        <archive href="https://download.jetbrains.com/go/goland-2021.1.1.win.zip" size="539056741" type="application/zip"/>
+      </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=3f67467aac35c7cb8f9fc922a486307861510ca7" released="2021-04-22" stability="stable" version="2021.1.1">
+        <manifest-digest sha256new="7EKCBEUJMX6J3YVQKVP4Q5HPIBPPXYJVSM55EGAH76S2THZ3KA6A"/>
+        <archive extract="GoLand-2021.1.1" href="https://download.jetbrains.com/go/goland-2021.1.1.tar.gz" size="544517245" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation arch="Windows-x86_64" id="sha1new=0e1f5e0c010820e5c03fc48b44a997ef264dbadd" released="2021-04-08" stability="stable" version="2021.1">
+        <manifest-digest sha256new="EI3RXUJOK3AA2VHT3VRMAIFHCO67G5MMBQM36GH3XWFO2M7LUBKA"/>
+        <archive href="https://download.jetbrains.com/go/goland-2021.1.win.zip" size="538607886" type="application/zip"/>
+      </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=0fc5b62ac6bff47c8327d98dfc3b2b5739ee26e4" released="2021-04-08" stability="stable" version="2021.1">
+        <manifest-digest sha256new="L7T2KCKPAQG5IDAXE6Y72QWWUZGUMZQRIEQXBKVZWIWN6RHDCTNQ"/>
+        <archive extract="GoLand-2021.1" href="https://download.jetbrains.com/go/goland-2021.1.tar.gz" size="544067959" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
   </group>
 
   <group>
@@ -251,7 +291,7 @@
       <environment name="PATH" value="bin"/>
     </requires>
     <command name="run">
-      <runner command="java-gui" interface="https://apps.0install.net/java/jdk.xml" version="11..">
+      <runner command="java-gui" interface="https://apps.0install.net/java/jdk.xml" version="11..!15">
         <arg>-server</arg>
         <arg>-Xms128m</arg>
         <arg>-Xmx512m</arg>
@@ -284,7 +324,7 @@
       </implementation>
       <group>
         <command name="run">
-          <runner command="run-gui" interface="https://apps.0install.net/java/jre.xml" version="11..">
+          <runner command="run-gui" interface="https://apps.0install.net/java/jre.xml" version="11..!15">
             <arg>-server</arg>
             <arg>-Xms128m</arg>
             <arg>-Xmx512m</arg>
