@@ -376,6 +376,14 @@
           <manifest-digest sha256new="G77QPQID22UKPPXF5PKOMZI3X7HW5DQPD3MMCXCQVEMVCBJAHNEA"/>
           <archive extract="GoLand-2020.3.4" href="https://download.jetbrains.com/go/goland-2020.3.4.tar.gz" size="485410205" type="application/x-compressed-tar"/>
         </implementation>
+        <implementation arch="Windows-x86_64" id="sha1new=597500bd05bf2c00c79869990620c21e84260172" released="2021-04-30" stability="stable" version="2020.3.5">
+          <manifest-digest sha256new="PEI2W3ADMJKIF3PJRNQPG4N5LIS5L5Q4OW643W4NGDHYJBKAXEXA"/>
+          <archive href="https://download.jetbrains.com/go/goland-2020.3.5.win.zip" size="479312952" type="application/zip"/>
+        </implementation>
+        <implementation arch="Linux-x86_64" id="sha1new=d26ed7daf1d903c20ebd03bc14c4fd752d2efa5a" released="2021-04-30" stability="stable" version="2020.3.5">
+          <manifest-digest sha256new="VXVK3QCILXYOXHAFU2ZDDGGTTZ2C3FKMJGUCTBLP437XDP3E5E7Q"/>
+          <archive extract="GoLand-2020.3.5" href="https://download.jetbrains.com/go/goland-2020.3.5.tar.gz" size="485643980" type="application/x-compressed-tar"/>
+        </implementation>
       </group>
     </group>
   </group>

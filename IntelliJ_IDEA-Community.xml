@@ -298,12 +298,20 @@
         <manifest-digest sha256new="RAV2CZQRTOHTGA3ND73BH3N2R76B66F45DFLMS26E4GADXK2KH6A"/>
         <archive extract="idea-IC-203.7717.56" href="https://download.jetbrains.com/idea/ideaIC-2020.3.3-no-jbr.tar.gz" size="578257372" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha1new=657403bd1c4e0dcffa3fd11d6e660e079785a211" released="2021-04-27" stability="stable" version="2020.3.4">
+        <manifest-digest sha256new="6JB5RYU3DOZ4BV3AI2MG4RF72QG5I3YRXCVQKSPXDTBE326PPNWA"/>
+        <archive extract="idea-IC-203.8084.24" href="https://download.jetbrains.com/idea/ideaIC-2020.3.4-no-jbr.tar.gz" size="578151325" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
     <group>
       <environment name="IDEA_PATHS_SELECTOR" value="IdeaIC2021.1"/>
       <implementation id="sha1new=754475433e69493203f7ae058030fc5d8a5263c1" released="2021-04-07" stability="stable" version="2021.1">
         <manifest-digest sha256new="R6TNLX6CS7HHPEPHTUGDBMIPNIAUEAJ6D3DHVS6KP64GJMJ5YP2A"/>
         <archive extract="idea-IC-211.6693.111" href="https://download.jetbrains.com/idea/ideaIC-2021.1-no-jbr.tar.gz" size="652142239" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha1new=8a233eb7d40eaccc5fa3640baa9ef2fedb6609e1" released="2021-04-30" stability="stable" version="2021.1.1">
+        <manifest-digest sha256new="7ELJFEKVXNPF3XG4HSEZWR4EDVST5MLLYSBREDUEH4RIOPJP6SZQ"/>
+        <archive extract="idea-IC-211.7142.45" href="https://download.jetbrains.com/idea/ideaIC-2021.1.1-no-jbr.tar.gz" size="652283495" type="application/x-compressed-tar"/>
       </implementation>
     </group>
   </group>
