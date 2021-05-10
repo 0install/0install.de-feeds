@@ -21,11 +21,11 @@
     <environment insert="lib/jna.jar" name="CLASS_PATH"/>
     <environment insert="jre/lib/tools.jar" name="CLASS_PATH"/>
     <requires interface="https://apps.0install.net/golang/go.xml">
-      <environment mode="replace" name="GOROOT" insert="."/>
+      <environment insert="." mode="replace" name="GOROOT"/>
       <environment name="PATH" value="bin"/>
     </requires>
     <command name="run">
-      <runner command="run-gui" interface="https://apps.0install.net/java/jre.xml" version="11..!15">
+      <runner command="java-gui" interface="https://apps.0install.net/java/jdk.xml" version="11..!15">
         <arg>-server</arg>
         <arg>-Xms128m</arg>
         <arg>-Xmx512m</arg>

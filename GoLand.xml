@@ -25,7 +25,7 @@
       <environment name="PATH" value="bin"/>
     </requires>
     <command name="run">
-      <runner command="run-gui" interface="https://apps.0install.net/java/jre.xml">
+      <runner command="java-gui" interface="https://apps.0install.net/java/jdk.xml" version="11..!15">
         <arg>-server</arg>
         <arg>-Xms128m</arg>
         <arg>-Xmx512m</arg>
@@ -235,27 +235,6 @@
     </group>
     <group>
       <environment name="IDEA_PATHS_SELECTOR" value="GoLand2021.1"/>
-      <command name="run">
-        <runner command="run-gui" interface="https://apps.0install.net/java/jre.xml" version="11..!15">
-          <arg>-server</arg>
-          <arg>-Xms128m</arg>
-          <arg>-Xmx512m</arg>
-          <arg>-XX:ReservedCodeCacheSize=240m</arg>
-          <arg>-XX:+UseConcMarkSweepGC</arg>
-          <arg>-XX:SoftRefLRUPolicyMSPerMB=50</arg>
-          <arg>-ea</arg>
-          <arg>-Dsun.io.useCanonCaches=false</arg>
-          <arg>-Djava.net.preferIPv4Stack=true</arg>
-          <arg>-XX:+HeapDumpOnOutOfMemoryError</arg>
-          <arg>-XX:-OmitStackTraceInFastThrow</arg>
-          <arg>-Xbootclasspath/a:$IDE_HOME/lib/boot.jar</arg>
-          <arg>-Didea.paths.selector=$IDEA_PATHS_SELECTOR</arg>
-          <arg>-Didea.platform.prefix=GoLand</arg>
-          <arg>-cp</arg>
-          <arg>$CLASS_PATH</arg>
-          <arg>com.intellij.idea.Main</arg>
-        </runner>
-      </command>
       <implementation arch="Windows-x86_64" id="sha1new=b3ec7ade086ed1c09d45db911f4747efaaca0350" released="2021-04-22" stability="stable" version="2021.1.1">
         <manifest-digest sha256new="AYMVGCMQFAKZSSTEQR4R5FZ6ZPTOTYIKUZEQHTUWWYNZHTMLZNFQ"/>
         <archive href="https://download.jetbrains.com/go/goland-2021.1.1.win.zip" size="539056741" type="application/zip"/>
@@ -273,45 +252,6 @@
         <archive extract="GoLand-2021.1" href="https://download.jetbrains.com/go/goland-2021.1.tar.gz" size="544067959" type="application/x-compressed-tar"/>
       </implementation>
     </group>
-  </group>
-
-  <group>
-    <environment insert="." name="IDE_HOME"/>
-    <environment insert="bin" name="PATH"/>
-    <environment insert="lib/bootstrap.jar" name="CLASS_PATH"/>
-    <environment insert="lib/extensions.jar" name="CLASS_PATH"/>
-    <environment insert="lib/util.jar" name="CLASS_PATH"/>
-    <environment insert="lib/jdom.jar" name="CLASS_PATH"/>
-    <environment insert="lib/log4j.jar" name="CLASS_PATH"/>
-    <environment insert="lib/trove4j.jar" name="CLASS_PATH"/>
-    <environment insert="lib/jna.jar" name="CLASS_PATH"/>
-    <environment insert="jre/lib/tools.jar" name="CLASS_PATH"/>
-    <requires interface="https://apps.0install.net/golang/go.xml">
-      <environment insert="." mode="replace" name="GOROOT"/>
-      <environment name="PATH" value="bin"/>
-    </requires>
-    <command name="run">
-      <runner command="java-gui" interface="https://apps.0install.net/java/jdk.xml" version="11..!15">
-        <arg>-server</arg>
-        <arg>-Xms128m</arg>
-        <arg>-Xmx512m</arg>
-        <arg>-XX:ReservedCodeCacheSize=240m</arg>
-        <arg>-XX:+UseConcMarkSweepGC</arg>
-        <arg>-XX:SoftRefLRUPolicyMSPerMB=50</arg>
-        <arg>-ea</arg>
-        <arg>-Dsun.io.useCanonCaches=false</arg>
-        <arg>-Djava.net.preferIPv4Stack=true</arg>
-        <arg>-XX:+HeapDumpOnOutOfMemoryError</arg>
-        <arg>-XX:-OmitStackTraceInFastThrow</arg>
-        <arg>-Xbootclasspath/a:$IDE_HOME/lib/boot.jar</arg>
-        <arg>-Didea.paths.selector=$IDEA_PATHS_SELECTOR</arg>
-        <arg>-Didea.platform.prefix=GoLand</arg>
-        <arg>-cp</arg>
-        <arg>$CLASS_PATH</arg>
-        <arg>com.intellij.idea.Main</arg>
-      </runner>
-    </command>
-
     <group>
       <environment name="IDEA_PATHS_SELECTOR" value="GoLand2020.3"/>
       <implementation arch="Windows-x86_64" id="sha1new=371176b1e664232ce5f1c5e4dbe019507b369b71" released="2020-12-03" stability="stable" version="2020.3">
@@ -322,69 +262,46 @@
         <manifest-digest sha256new="IDP5LKUKK7VX7N3MU6Z3PQE6IT4SIAUWV3SLBYTFAMDSOAI4OYMQ"/>
         <archive extract="GoLand-2020.3" href="https://download.jetbrains.com/go/goland-2020.3.tar.gz" size="484825433" type="application/x-compressed-tar"/>
       </implementation>
-      <group>
-        <command name="run">
-          <runner command="run-gui" interface="https://apps.0install.net/java/jre.xml" version="11..!15">
-            <arg>-server</arg>
-            <arg>-Xms128m</arg>
-            <arg>-Xmx512m</arg>
-            <arg>-XX:ReservedCodeCacheSize=240m</arg>
-            <arg>-XX:+UseConcMarkSweepGC</arg>
-            <arg>-XX:SoftRefLRUPolicyMSPerMB=50</arg>
-            <arg>-ea</arg>
-            <arg>-Dsun.io.useCanonCaches=false</arg>
-            <arg>-Djava.net.preferIPv4Stack=true</arg>
-            <arg>-XX:+HeapDumpOnOutOfMemoryError</arg>
-            <arg>-XX:-OmitStackTraceInFastThrow</arg>
-            <arg>-Xbootclasspath/a:$IDE_HOME/lib/boot.jar</arg>
-            <arg>-Didea.paths.selector=$IDEA_PATHS_SELECTOR</arg>
-            <arg>-Didea.platform.prefix=GoLand</arg>
-            <arg>-cp</arg>
-            <arg>$CLASS_PATH</arg>
-            <arg>com.intellij.idea.Main</arg>
-          </runner>
-        </command>
-        <implementation arch="Windows-x86_64" id="sha1new=d6f4198d19a37dd7cc2f4daa26b0731d05ce01c0" released="2020-12-30" stability="stable" version="2020.3.1">
-          <manifest-digest sha256new="P6ELHCDZSRBJJDQDG7M7N2RH7XHOR55LNFVKDQAMEEHAYRGY2D4Q"/>
-          <archive href="https://download.jetbrains.com/go/goland-2020.3.1.win.zip" size="472026100" type="application/zip"/>
-        </implementation>
-        <implementation arch="Linux-x86_64" id="sha1new=e701fef926dfa568d41cbb7c2b7b95017d8ae7ca" released="2020-12-30" stability="stable" version="2020.3.1">
-          <manifest-digest sha256new="Q6267YD2HGDRM2XKAYBJ4L3T3BS2RSK43JZMUOOVNBT26ARGOZYA"/>
-          <archive extract="GoLand-2020.3.1" href="https://download.jetbrains.com/go/goland-2020.3.1.tar.gz" size="478385153" type="application/x-compressed-tar"/>
-        </implementation>
-        <implementation arch="Windows-x86_64" id="sha1new=7ac8eb18edae75d2a71280abe9f11a80822f3656" released="2021-01-28" stability="stable" version="2020.3.2">
-          <manifest-digest sha256new="OSN32C364OG5QH5XID54C3GSGIMI57OEGCCUP6SNH4FKVP4G3FTQ"/>
-          <archive href="https://download.jetbrains.com/go/goland-2020.3.2.win.zip" size="478581349" type="application/zip"/>
-        </implementation>
-        <implementation arch="Linux-x86_64" id="sha1new=bfb7fe35bd1efc98f3d3dce5416a5edb43ee0f70" released="2021-01-28" stability="stable" version="2020.3.2">
-          <manifest-digest sha256new="LGPMTKGFB7533SGYOON7PMUEOR5IVFLXGRWCRO6SXZV7D7DJX77A"/>
-          <archive extract="GoLand-2020.3.2" href="https://download.jetbrains.com/go/goland-2020.3.2.tar.gz" size="484904300" type="application/x-compressed-tar"/>
-        </implementation>
-        <implementation arch="Windows-x86_64" id="sha1new=1ec4088d4f7e8e722d57cd51aaea32f11243690f" released="2021-03-04" stability="stable" version="2020.3.3">
-          <manifest-digest sha256new="4GJCA2XOXCUPLADA73GAGDM3PYDYBMF43TETDTZBZKQBIBAZPGNA"/>
-          <archive href="https://download.jetbrains.com/go/goland-2020.3.3.win.zip" size="478634743" type="application/zip"/>
-        </implementation>
-        <implementation arch="Linux-x86_64" id="sha1new=6bc07ecdc7706a3bd23d46975fb820c873f5df46" released="2021-03-04" stability="stable" version="2020.3.3">
-          <manifest-digest sha256new="24S2FMOQAQDVZ2GYVMYJWEDWBHQFAOTPZ6J7XB5HAYE3OA7ZNNTA"/>
-          <archive extract="GoLand-2020.3.3" href="https://download.jetbrains.com/go/goland-2020.3.3.tar.gz" size="484958892" type="application/x-compressed-tar"/>
-        </implementation>
-        <implementation arch="Windows-x86_64" id="sha1new=676fdf9078749061c5c4231f3bef95ce524dd471" released="2021-03-16" stability="stable" version="2020.3.4">
-          <manifest-digest sha256new="23OW4ULA66TKA7GBZDQJJTPN6TJDEKGPCZ6ZTZAZN7ZHIE66CCLQ"/>
-          <archive href="https://download.jetbrains.com/go/goland-2020.3.4.win.zip" size="479077429" type="application/zip"/>
-        </implementation>
-        <implementation arch="Linux-x86_64" id="sha1new=e60c4861b08df7b9581f10fcf9a27b18dfdd1262" released="2021-03-16" stability="stable" version="2020.3.4">
-          <manifest-digest sha256new="G77QPQID22UKPPXF5PKOMZI3X7HW5DQPD3MMCXCQVEMVCBJAHNEA"/>
-          <archive extract="GoLand-2020.3.4" href="https://download.jetbrains.com/go/goland-2020.3.4.tar.gz" size="485410205" type="application/x-compressed-tar"/>
-        </implementation>
-        <implementation arch="Windows-x86_64" id="sha1new=597500bd05bf2c00c79869990620c21e84260172" released="2021-04-30" stability="stable" version="2020.3.5">
-          <manifest-digest sha256new="PEI2W3ADMJKIF3PJRNQPG4N5LIS5L5Q4OW643W4NGDHYJBKAXEXA"/>
-          <archive href="https://download.jetbrains.com/go/goland-2020.3.5.win.zip" size="479312952" type="application/zip"/>
-        </implementation>
-        <implementation arch="Linux-x86_64" id="sha1new=d26ed7daf1d903c20ebd03bc14c4fd752d2efa5a" released="2021-04-30" stability="stable" version="2020.3.5">
-          <manifest-digest sha256new="VXVK3QCILXYOXHAFU2ZDDGGTTZ2C3FKMJGUCTBLP437XDP3E5E7Q"/>
-          <archive extract="GoLand-2020.3.5" href="https://download.jetbrains.com/go/goland-2020.3.5.tar.gz" size="485643980" type="application/x-compressed-tar"/>
-        </implementation>
-      </group>
+      <implementation arch="Windows-x86_64" id="sha1new=d6f4198d19a37dd7cc2f4daa26b0731d05ce01c0" released="2020-12-30" stability="stable" version="2020.3.1">
+        <manifest-digest sha256new="P6ELHCDZSRBJJDQDG7M7N2RH7XHOR55LNFVKDQAMEEHAYRGY2D4Q"/>
+        <archive href="https://download.jetbrains.com/go/goland-2020.3.1.win.zip" size="472026100" type="application/zip"/>
+      </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=e701fef926dfa568d41cbb7c2b7b95017d8ae7ca" released="2020-12-30" stability="stable" version="2020.3.1">
+        <manifest-digest sha256new="Q6267YD2HGDRM2XKAYBJ4L3T3BS2RSK43JZMUOOVNBT26ARGOZYA"/>
+        <archive extract="GoLand-2020.3.1" href="https://download.jetbrains.com/go/goland-2020.3.1.tar.gz" size="478385153" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation arch="Windows-x86_64" id="sha1new=7ac8eb18edae75d2a71280abe9f11a80822f3656" released="2021-01-28" stability="stable" version="2020.3.2">
+        <manifest-digest sha256new="OSN32C364OG5QH5XID54C3GSGIMI57OEGCCUP6SNH4FKVP4G3FTQ"/>
+        <archive href="https://download.jetbrains.com/go/goland-2020.3.2.win.zip" size="478581349" type="application/zip"/>
+      </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=bfb7fe35bd1efc98f3d3dce5416a5edb43ee0f70" released="2021-01-28" stability="stable" version="2020.3.2">
+        <manifest-digest sha256new="LGPMTKGFB7533SGYOON7PMUEOR5IVFLXGRWCRO6SXZV7D7DJX77A"/>
+        <archive extract="GoLand-2020.3.2" href="https://download.jetbrains.com/go/goland-2020.3.2.tar.gz" size="484904300" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation arch="Windows-x86_64" id="sha1new=1ec4088d4f7e8e722d57cd51aaea32f11243690f" released="2021-03-04" stability="stable" version="2020.3.3">
+        <manifest-digest sha256new="4GJCA2XOXCUPLADA73GAGDM3PYDYBMF43TETDTZBZKQBIBAZPGNA"/>
+        <archive href="https://download.jetbrains.com/go/goland-2020.3.3.win.zip" size="478634743" type="application/zip"/>
+      </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=6bc07ecdc7706a3bd23d46975fb820c873f5df46" released="2021-03-04" stability="stable" version="2020.3.3">
+        <manifest-digest sha256new="24S2FMOQAQDVZ2GYVMYJWEDWBHQFAOTPZ6J7XB5HAYE3OA7ZNNTA"/>
+        <archive extract="GoLand-2020.3.3" href="https://download.jetbrains.com/go/goland-2020.3.3.tar.gz" size="484958892" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation arch="Windows-x86_64" id="sha1new=676fdf9078749061c5c4231f3bef95ce524dd471" released="2021-03-16" stability="stable" version="2020.3.4">
+        <manifest-digest sha256new="23OW4ULA66TKA7GBZDQJJTPN6TJDEKGPCZ6ZTZAZN7ZHIE66CCLQ"/>
+        <archive href="https://download.jetbrains.com/go/goland-2020.3.4.win.zip" size="479077429" type="application/zip"/>
+      </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=e60c4861b08df7b9581f10fcf9a27b18dfdd1262" released="2021-03-16" stability="stable" version="2020.3.4">
+        <manifest-digest sha256new="G77QPQID22UKPPXF5PKOMZI3X7HW5DQPD3MMCXCQVEMVCBJAHNEA"/>
+        <archive extract="GoLand-2020.3.4" href="https://download.jetbrains.com/go/goland-2020.3.4.tar.gz" size="485410205" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation arch="Windows-x86_64" id="sha1new=597500bd05bf2c00c79869990620c21e84260172" released="2021-04-30" stability="stable" version="2020.3.5">
+        <manifest-digest sha256new="PEI2W3ADMJKIF3PJRNQPG4N5LIS5L5Q4OW643W4NGDHYJBKAXEXA"/>
+        <archive href="https://download.jetbrains.com/go/goland-2020.3.5.win.zip" size="479312952" type="application/zip"/>
+      </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=d26ed7daf1d903c20ebd03bc14c4fd752d2efa5a" released="2021-04-30" stability="stable" version="2020.3.5">
+        <manifest-digest sha256new="VXVK3QCILXYOXHAFU2ZDDGGTTZ2C3FKMJGUCTBLP437XDP3E5E7Q"/>
+        <archive extract="GoLand-2020.3.5" href="https://download.jetbrains.com/go/goland-2020.3.5.tar.gz" size="485643980" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 
