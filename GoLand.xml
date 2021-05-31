@@ -251,6 +251,14 @@
         <manifest-digest sha256new="L7T2KCKPAQG5IDAXE6Y72QWWUZGUMZQRIEQXBKVZWIWN6RHDCTNQ"/>
         <archive extract="GoLand-2021.1" href="https://download.jetbrains.com/go/goland-2021.1.tar.gz" size="544067959" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation arch="Windows-x86_64" id="sha1new=dfe7f977e9ea59993a1cf25450333cf913f5c3cc" released="2021-05-25" stability="stable" version="2021.1.2">
+        <manifest-digest sha256new="OXPX22F36RMO36SPHKHUHIIYZ3LLFF5CHGXGFVR4PC7NTHBRZVDA"/>
+        <archive href="https://download.jetbrains.com/go/goland-2021.1.2.win.zip" size="538653658" type="application/zip"/>
+      </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=181cb81f4e6dfa7b22dc7dea33310eca9611578e" released="2021-05-25" stability="stable" version="2021.1.2">
+        <manifest-digest sha256new="UQC7A7SOO4KCSXRC5ULYGD6OOUR2ERC5DX46EKDJIOV44HNGM6WA"/>
+        <archive extract="GoLand-2021.1.2" href="https://download.jetbrains.com/go/goland-2021.1.2.tar.gz" size="544202619" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
     <group>
       <environment name="IDEA_PATHS_SELECTOR" value="GoLand2020.3"/>
