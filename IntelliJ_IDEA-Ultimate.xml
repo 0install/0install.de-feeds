@@ -313,6 +313,10 @@
         <manifest-digest sha256new="7CH4PX7YDDGZN755TSJCE6F3ZNIRY5ZUMESK6PU25OUZH6HREATQ"/>
         <archive extract="idea-IU-211.7142.45" href="https://download.jetbrains.com/idea/ideaIU-2021.1.1-no-jbr.tar.gz" size="776490689" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha1new=41a93899986ee33aef7f83fc1a3508ba56673711" released="2021-06-01" stability="stable" version="2021.1.2">
+        <manifest-digest sha256new="O4XSMUA3VOB3DDHCOF36OF2QGXQU43MH2QRSFV7CN4XFVZ3PQ4CA"/>
+        <archive extract="idea-IU-211.7442.40" href="https://download.jetbrains.com/idea/ideaIU-2021.1.2-no-jbr.tar.gz" size="775158741" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 
