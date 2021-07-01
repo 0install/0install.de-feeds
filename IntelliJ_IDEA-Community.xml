@@ -317,6 +317,10 @@
         <manifest-digest sha256new="26OXG5ZAGYR6NUSFBQJ6YHBG6N6UURJJEIB3N56SD7BEFOFUUXCQ"/>
         <archive extract="idea-IC-211.7442.40" href="https://download.jetbrains.com/idea/ideaIC-2021.1.2-no-jbr.tar.gz" size="650671989" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha1new=c67d2476ffbc559611fcaf7cbe46db7588b6e997" released="2021-06-29" stability="stable" version="2021.1.3">
+        <manifest-digest sha256new="3VZMTL4FUVZQYTQTRSZAMQJNFDJOQEFICPY7H5TPKV7EZ2BV5HKQ"/>
+        <archive extract="idea-IC-211.7628.21" href="https://download.jetbrains.com/idea/ideaIC-2021.1.3-no-jbr.tar.gz" size="650820635" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 

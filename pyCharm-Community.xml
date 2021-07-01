@@ -490,6 +490,10 @@
         <manifest-digest sha256new="OT37HZY6YZPWN6UKNQXQ5LXUBV2NR2YWP7UYLJU4LWSPGHR6F44Q"/>
         <archive extract="pycharm-community-2021.1.2" href="https://download.jetbrains.com/python/pycharm-community-2021.1.2.tar.gz" size="466806126" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha1new=092c2d5b1ed613044d60c85909770dd239266c36" released="2021-06-30" stability="stable" version="2021.1.3">
+        <manifest-digest sha256new="Z4VWIHH5ZV6S6JUQHZCF7AWKSE46LQAQNG75ICT3IQKPBKBOEKQA"/>
+        <archive extract="pycharm-community-2021.1.3" href="https://download.jetbrains.com/python/pycharm-community-2021.1.3.tar.gz" size="469828501" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 
