@@ -7,4 +7,4 @@ releases = [{
     'released': release['date'],
     'download-url-windows': release['downloads']['zip']['link'],
     'download-url-linux': release['downloads']['linux']['link']
-} for release in json.loads(data)['RD'] if 'downloads' in release]
+} for release in json.loads(data)['RD'] if 'downloads' in release and 'zip' and release['downloads']]
