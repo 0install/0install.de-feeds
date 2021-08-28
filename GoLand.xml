@@ -319,6 +319,25 @@
         <archive extract="GoLand-2020.3.5" href="https://download.jetbrains.com/go/goland-2020.3.5.tar.gz" size="485643980" type="application/x-compressed-tar"/>
       </implementation>
     </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="GoLand2021.2"/>
+      <implementation arch="Windows-x86_64" id="sha256new_GNBZHB2TUPAOLKNCV32CUAIS52RRBU6KJ5HBXVBV4KETCCYHUKGA" released="2021-08-20" stability="stable" version="2021.2.1">
+        <manifest-digest sha256new="GNBZHB2TUPAOLKNCV32CUAIS52RRBU6KJ5HBXVBV4KETCCYHUKGA"/>
+        <archive href="https://download.jetbrains.com/go/goland-2021.2.1.win.zip" size="548729052" type="application/zip"/>
+      </implementation>
+      <implementation arch="Linux-x86_64" id="sha256new_HSJKL7NKRA6JKQE5EKTQWTCLBX6U7GXHGE7T6JPE63ACW37Y5VRQ" released="2021-08-20" stability="stable" version="2021.2.1">
+        <manifest-digest sha256new="HSJKL7NKRA6JKQE5EKTQWTCLBX6U7GXHGE7T6JPE63ACW37Y5VRQ"/>
+        <archive extract="GoLand-2021.2.1" href="https://download.jetbrains.com/go/goland-2021.2.1.tar.gz" size="553125042" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation arch="Windows-x86_64" id="sha256new_WX2M2N2BVR27IKDQDWWVUH5X3KXVICYABMNSDECZPQJMHSHE2NJA" released="2021-07-29" stability="stable" version="2021.2">
+        <manifest-digest sha256new="WX2M2N2BVR27IKDQDWWVUH5X3KXVICYABMNSDECZPQJMHSHE2NJA"/>
+        <archive href="https://download.jetbrains.com/go/goland-2021.2.win.zip" size="548174891" type="application/zip"/>
+      </implementation>
+      <implementation arch="Linux-x86_64" id="sha256new_PUOX4VNFVPSWWODIR4MNP5N6BXYKB7UB4P2YGFEOMXATFOJ2DEKA" released="2021-07-29" stability="stable" version="2021.2">
+        <manifest-digest sha256new="PUOX4VNFVPSWWODIR4MNP5N6BXYKB7UB4P2YGFEOMXATFOJ2DEKA"/>
+        <archive extract="GoLand-2021.2" href="https://download.jetbrains.com/go/goland-2021.2.tar.gz" size="552538756" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
   </group>
 
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">

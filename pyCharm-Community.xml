@@ -495,6 +495,17 @@
         <archive extract="pycharm-community-2021.1.3" href="https://download.jetbrains.com/python/pycharm-community-2021.1.3.tar.gz" size="469828501" type="application/x-compressed-tar"/>
       </implementation>
     </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="PyCharmCE2021.2"/>
+      <implementation id="sha256new_7U322DHXVP54OE2PIJRPPO36VT6L6CKZQ5WLXZUDTEPOX2WUBHHA" released="2021-08-27" stability="stable" version="2021.2.1">
+        <manifest-digest sha256new="7U322DHXVP54OE2PIJRPPO36VT6L6CKZQ5WLXZUDTEPOX2WUBHHA"/>
+        <archive extract="pycharm-community-2021.2.1" href="https://download.jetbrains.com/python/pycharm-community-2021.2.1.tar.gz" size="496166702" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha256new_GQYXWZJLT6Y64B26KZLQHME6UWJDUHDNJVIWBKNAG7YYKVSDL5DA" released="2021-07-28" stability="stable" version="2021.2">
+        <manifest-digest sha256new="GQYXWZJLT6Y64B26KZLQHME6UWJDUHDNJVIWBKNAG7YYKVSDL5DA"/>
+        <archive extract="pycharm-community-2021.2" href="https://download.jetbrains.com/python/pycharm-community-2021.2.tar.gz" size="496051590" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
   </group>
 
   <entry-point binary-name="pycharm" command="run"/>

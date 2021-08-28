@@ -495,6 +495,17 @@
         <archive extract="pycharm-2021.1.3" href="https://download.jetbrains.com/python/pycharm-professional-2021.1.3.tar.gz" size="583786036" type="application/x-compressed-tar"/>
       </implementation>
     </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="PyCharm2021.2"/>
+      <implementation id="sha256new_GTLFQMLDMWSNRGZRWPOIX5SPVVG7WZXSSUZRG5NA3DEAPW43FZCA" released="2021-08-27" stability="stable" version="2021.2.1">
+        <manifest-digest sha256new="GTLFQMLDMWSNRGZRWPOIX5SPVVG7WZXSSUZRG5NA3DEAPW43FZCA"/>
+        <archive extract="pycharm-2021.2.1" href="https://download.jetbrains.com/python/pycharm-professional-2021.2.1.tar.gz" size="624480343" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha256new_BQFBJY4P3MC4NL6WAG4C4HB5QEXXJKBSZQRIFOZBQXMXQNRG36UA" released="2021-07-28" stability="stable" version="2021.2">
+        <manifest-digest sha256new="BQFBJY4P3MC4NL6WAG4C4HB5QEXXJKBSZQRIFOZBQXMXQNRG36UA"/>
+        <archive extract="pycharm-2021.2" href="https://download.jetbrains.com/python/pycharm-professional-2021.2.tar.gz" size="625171267" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
   </group>
 
   <entry-point binary-name="pycharm" command="run"/>

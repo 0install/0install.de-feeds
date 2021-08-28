@@ -322,6 +322,17 @@
         <archive extract="idea-IU-211.7628.21" href="https://download.jetbrains.com/idea/ideaIU-2021.1.3-no-jbr.tar.gz" size="775211589" type="application/x-compressed-tar"/>
       </implementation>
     </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="IntelliJIdea2021.2"/>
+      <implementation id="sha256new_BIHEKQYAAG23LKFLJMELFTNRWVBVFB3WPUY3HQUEX5H7QCUT2V5A" released="2021-08-24" stability="stable" version="2021.2.1">
+        <manifest-digest sha256new="BIHEKQYAAG23LKFLJMELFTNRWVBVFB3WPUY3HQUEX5H7QCUT2V5A"/>
+        <archive extract="idea-IU-212.5080.55" href="https://download.jetbrains.com/idea/ideaIU-2021.2.1-no-jbr.tar.gz" size="797088329" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha256new_R73PBCHSCVPCW5EYVAU7DT3QBQPNBA54L56D4JKREQDXTFYCNZWQ" released="2021-07-27" stability="stable" version="2021.2">
+        <manifest-digest sha256new="R73PBCHSCVPCW5EYVAU7DT3QBQPNBA54L56D4JKREQDXTFYCNZWQ"/>
+        <archive extract="idea-IU-212.4746.92" href="https://download.jetbrains.com/idea/ideaIU-2021.2-no-jbr.tar.gz" size="796513623" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
   </group>
 
   <entry-point binary-name="idea" command="run"/>

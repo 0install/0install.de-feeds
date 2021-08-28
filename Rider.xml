@@ -412,4 +412,20 @@
     <manifest-digest sha256new="GOQO4XDYFYYHPWXARRZHACGC4ZTHN2CRVOC2XU2LBAIICNQ4V6KA"/>
     <archive extract="JetBrains Rider-2021.1.5" href="https://download.jetbrains.com/rider/JetBrains.Rider-2021.1.5.tar.gz" size="922228325" type="application/x-compressed-tar"/>
   </implementation>
+  <implementation arch="Windows-x86_64" id="sha256new_6CRD7YIAEDN72AWRB4SK2F7NTX6MEK46SZ2QYTG4SYZJCTGQRJ3Q" main="bin/rider64.exe" released="2021-08-03" stability="stable" version="2021.2.0">
+    <manifest-digest sha256new="6CRD7YIAEDN72AWRB4SK2F7NTX6MEK46SZ2QYTG4SYZJCTGQRJ3Q"/>
+    <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2021.2.win.zip" size="971010572" type="application/zip"/>
+  </implementation>
+  <implementation arch="Linux-x86_64" id="sha256new_4OYMIQUY7QOBJGX36TEJS35ZEQT24QPEMSNZGTFESWMRW6CSXBKQ" main="bin/rider.sh" released="2021-08-03" stability="stable" version="2021.2.0">
+    <manifest-digest sha256new="4OYMIQUY7QOBJGX36TEJS35ZEQT24QPEMSNZGTFESWMRW6CSXBKQ"/>
+    <archive extract="JetBrains Rider-2021.2.0" href="https://download.jetbrains.com/rider/JetBrains.Rider-2021.2.tar.gz" size="939470871" type="application/x-compressed-tar"/>
+  </implementation>
+  <implementation arch="Windows-x86_64" id="sha256new_GHL5E3VPL43F2CYYZ3WCZVW23XCQRTV7NBI6MZT53GHFRBXINDIA" main="bin/rider64.exe" released="2021-08-27" stability="stable" version="2021.2.1">
+    <manifest-digest sha256new="GHL5E3VPL43F2CYYZ3WCZVW23XCQRTV7NBI6MZT53GHFRBXINDIA"/>
+    <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2021.2.1.win.zip" size="972538014" type="application/zip"/>
+  </implementation>
+  <implementation arch="Linux-x86_64" id="sha256new_3WIILT2DH3YPFVT3YHI52SJHOAHHY4LGNPXMKPFQJJMWEFJETUSQ" main="bin/rider.sh" released="2021-08-27" stability="stable" version="2021.2.1">
+    <manifest-digest sha256new="3WIILT2DH3YPFVT3YHI52SJHOAHHY4LGNPXMKPFQJJMWEFJETUSQ"/>
+    <archive extract="JetBrains Rider-2021.2.1" href="https://download.jetbrains.com/rider/JetBrains.Rider-2021.2.1.tar.gz" size="940979634" type="application/x-compressed-tar"/>
+  </implementation>
 </interface>

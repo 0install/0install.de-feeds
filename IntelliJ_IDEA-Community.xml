@@ -322,6 +322,17 @@
         <archive extract="idea-IC-211.7628.21" href="https://download.jetbrains.com/idea/ideaIC-2021.1.3-no-jbr.tar.gz" size="650820635" type="application/x-compressed-tar"/>
       </implementation>
     </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="IdeaIC2021.2"/>
+      <implementation id="sha256new_A2ZE4RATYUYBXRBN5UPRVIJNLRD5WPQ3L2SK7GSJWYW4GCLMJJUQ" released="2021-08-24" stability="stable" version="2021.2.1">
+        <manifest-digest sha256new="A2ZE4RATYUYBXRBN5UPRVIJNLRD5WPQ3L2SK7GSJWYW4GCLMJJUQ"/>
+        <archive extract="idea-IC-212.5080.55" href="https://download.jetbrains.com/idea/ideaIC-2021.2.1-no-jbr.tar.gz" size="666677177" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha256new_ZDF6RZAMU6KAEO3H5OIYWUVMTAKYQAL2NUFNFTSFOZI62ZN6FTWA" released="2021-07-27" stability="stable" version="2021.2">
+        <manifest-digest sha256new="ZDF6RZAMU6KAEO3H5OIYWUVMTAKYQAL2NUFNFTSFOZI62ZN6FTWA"/>
+        <archive extract="idea-IC-212.4746.92" href="https://download.jetbrains.com/idea/ideaIC-2021.2-no-jbr.tar.gz" size="666332731" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
   </group>
 
   <entry-point binary-name="idea" command="run"/>
