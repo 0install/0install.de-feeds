@@ -505,6 +505,10 @@
         <manifest-digest sha256new="BQFBJY4P3MC4NL6WAG4C4HB5QEXXJKBSZQRIFOZBQXMXQNRG36UA"/>
         <archive extract="pycharm-2021.2" href="https://download.jetbrains.com/python/pycharm-professional-2021.2.tar.gz" size="625171267" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha256new_FW2C23R4NAYN5BLWBSVWWWBVDXG26Z5RRSXARKBQCJT7NUD3ZE7Q" released="2021-09-15" stability="stable" version="2021.2.2">
+        <manifest-digest sha256new="FW2C23R4NAYN5BLWBSVWWWBVDXG26Z5RRSXARKBQCJT7NUD3ZE7Q"/>
+        <archive extract="pycharm-2021.2.2" href="https://download.jetbrains.com/python/pycharm-professional-2021.2.2.tar.gz" size="624776245" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 

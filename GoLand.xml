@@ -337,6 +337,22 @@
         <manifest-digest sha256new="PUOX4VNFVPSWWODIR4MNP5N6BXYKB7UB4P2YGFEOMXATFOJ2DEKA"/>
         <archive extract="GoLand-2021.2" href="https://download.jetbrains.com/go/goland-2021.2.tar.gz" size="552538756" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation arch="Windows-x86_64" id="sha256new_2X5YZZW5J52MHBLIRBZOISAAIQU2XIZF7WE7SGPLISW5WQ4OROPQ" released="2021-09-01" stability="stable" version="2021.2.2">
+        <manifest-digest sha256new="2X5YZZW5J52MHBLIRBZOISAAIQU2XIZF7WE7SGPLISW5WQ4OROPQ"/>
+        <archive href="https://download.jetbrains.com/go/goland-2021.2.2.win.zip" size="548768668" type="application/zip"/>
+      </implementation>
+      <implementation arch="Linux-x86_64" id="sha256new_EUUNPHZ7KKHS4EJVSZC3CCVOVVV5O6QCSUAFT7D2CFCKTGX4X2PQ" released="2021-09-01" stability="stable" version="2021.2.2">
+        <manifest-digest sha256new="EUUNPHZ7KKHS4EJVSZC3CCVOVVV5O6QCSUAFT7D2CFCKTGX4X2PQ"/>
+        <archive extract="GoLand-2021.2.2" href="https://download.jetbrains.com/go/goland-2021.2.2.tar.gz" size="553166768" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation arch="Windows-x86_64" id="sha256new_OKOGS7YGYJ6NW2L5A2H4QRTYFSJMFX6L6UVC4733LS3RXF5YAZVQ" released="2021-09-15" stability="stable" version="2021.2.3">
+        <manifest-digest sha256new="OKOGS7YGYJ6NW2L5A2H4QRTYFSJMFX6L6UVC4733LS3RXF5YAZVQ"/>
+        <archive href="https://download.jetbrains.com/go/goland-2021.2.3.win.zip" size="549008210" type="application/zip"/>
+      </implementation>
+      <implementation arch="Linux-x86_64" id="sha256new_NTQDREE5TPOHY4VCKDURZSOK2K4Q2MZ6JFLTWR2OHA53WFRQXYIA" released="2021-09-15" stability="stable" version="2021.2.3">
+        <manifest-digest sha256new="NTQDREE5TPOHY4VCKDURZSOK2K4Q2MZ6JFLTWR2OHA53WFRQXYIA"/>
+        <archive extract="GoLand-2021.2.3" href="https://download.jetbrains.com/go/goland-2021.2.3.tar.gz" size="553339341" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 

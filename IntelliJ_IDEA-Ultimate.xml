@@ -332,6 +332,10 @@
         <manifest-digest sha256new="R73PBCHSCVPCW5EYVAU7DT3QBQPNBA54L56D4JKREQDXTFYCNZWQ"/>
         <archive extract="idea-IU-212.4746.92" href="https://download.jetbrains.com/idea/ideaIU-2021.2-no-jbr.tar.gz" size="796513623" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha256new_SWJPKSFZNTT6OO6GPCIOEGHHBYOCQYP2WGFLSN3T4TOU3MSFKNWQ" released="2021-09-14" stability="stable" version="2021.2.2">
+        <manifest-digest sha256new="SWJPKSFZNTT6OO6GPCIOEGHHBYOCQYP2WGFLSN3T4TOU3MSFKNWQ"/>
+        <archive extract="idea-IU-212.5284.40" href="https://download.jetbrains.com/idea/ideaIU-2021.2.2-no-jbr.tar.gz" size="797293262" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 
