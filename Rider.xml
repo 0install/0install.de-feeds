@@ -428,4 +428,12 @@
     <manifest-digest sha256new="3WIILT2DH3YPFVT3YHI52SJHOAHHY4LGNPXMKPFQJJMWEFJETUSQ"/>
     <archive extract="JetBrains Rider-2021.2.1" href="https://download.jetbrains.com/rider/JetBrains.Rider-2021.2.1.tar.gz" size="940979634" type="application/x-compressed-tar"/>
   </implementation>
+  <implementation arch="Windows-x86_64" id="sha256new_OAEAGAIOHDAZATPKMVLAYUCSQPQHRJS6TRCLAW4IJNPYETICFX3Q" main="bin/rider64.exe" released="2021-10-13" stability="stable" version="2021.2.2">
+    <manifest-digest sha256new="OAEAGAIOHDAZATPKMVLAYUCSQPQHRJS6TRCLAW4IJNPYETICFX3Q"/>
+    <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2021.2.2.win.zip" size="973793321" type="application/zip"/>
+  </implementation>
+  <implementation arch="Linux-x86_64" id="sha256new_S7TYN7IIPEG4P7H44ISGJOG577QW23SLYOZXAWQKWSYWSPM46DDQ" main="bin/rider.sh" released="2021-10-13" stability="stable" version="2021.2.2">
+    <manifest-digest sha256new="S7TYN7IIPEG4P7H44ISGJOG577QW23SLYOZXAWQKWSYWSPM46DDQ"/>
+    <archive extract="JetBrains Rider-2021.2.2" href="https://download.jetbrains.com/rider/JetBrains.Rider-2021.2.2.tar.gz" size="942036961" type="application/x-compressed-tar"/>
+  </implementation>
 </interface>
