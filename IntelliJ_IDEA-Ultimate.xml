@@ -340,6 +340,21 @@
         <manifest-digest sha256new="USBBZWHXACS6YGKAFGUHBJQZMGLYOMMK6XPAXZEICUWJYUEQ2XGQ"/>
         <archive extract="idea-IU-212.5457.46" href="https://download.jetbrains.com/idea/ideaIU-2021.2.3-no-jbr.tar.gz" size="797677053" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha256new_NMRNERISUBGDFJCQ5JE2MSCHKIBLNLENN246SOOMJXDRYKLLZGGQ" released="2021-12-21" stability="stable" version="2021.2.4">
+        <manifest-digest sha256new="NMRNERISUBGDFJCQ5JE2MSCHKIBLNLENN246SOOMJXDRYKLLZGGQ"/>
+        <archive extract="idea-IU-212.5712.43" href="https://download.jetbrains.com/idea/ideaIU-2021.2.4-no-jbr.tar.gz" size="803834752" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="IntelliJIdea2021.3"/>
+      <implementation id="sha256new_N2EGXTCHXQ2BHY2NEYVX5FWQ6ZL72PGD4OX3PKDZB3GUN7QDNZJQ" released="2021-12-29" stability="stable" version="2021.3.1">
+        <manifest-digest sha256new="N2EGXTCHXQ2BHY2NEYVX5FWQ6ZL72PGD4OX3PKDZB3GUN7QDNZJQ"/>
+        <archive extract="idea-IU-213.6461.79" href="https://download.jetbrains.com/idea/ideaIU-2021.3.1-no-jbr.tar.gz" size="799160002" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha256new_XQPAI7WOOP23LOORSP57Y65ECLKKQIHN35QIEDBJPTOJ3UT3AMYA" released="2021-11-30" stability="stable" version="2021.3">
+        <manifest-digest sha256new="XQPAI7WOOP23LOORSP57Y65ECLKKQIHN35QIEDBJPTOJ3UT3AMYA"/>
+        <archive extract="idea-IU-213.5744.223" href="https://download.jetbrains.com/idea/ideaIU-2021.3-no-jbr.tar.gz" size="791799945" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 

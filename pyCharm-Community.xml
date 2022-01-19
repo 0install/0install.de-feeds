@@ -513,6 +513,21 @@
         <manifest-digest sha256new="SX262RQDGXYPYYDNASGXPK74NMZHMH55BCM4YZYKBIMC2Y62FYLQ"/>
         <archive extract="pycharm-community-2021.2.3" href="https://download.jetbrains.com/python/pycharm-community-2021.2.3.tar.gz" size="496352895" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha256new_M6ZQVGOZOLW5PBP5XH6B4VTD3ULAHXPOMSRKPYTHJJFJVTN55LRA" released="2021-12-22" stability="stable" version="2021.2.4">
+        <manifest-digest sha256new="M6ZQVGOZOLW5PBP5XH6B4VTD3ULAHXPOMSRKPYTHJJFJVTN55LRA"/>
+        <archive extract="pycharm-community-2021.2.4" href="https://download.jetbrains.com/python/pycharm-community-2021.2.4.tar.gz" size="502463365" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="PyCharmCE2021.3"/>
+      <implementation id="sha256new_EEF3GHE75HSRZP5YLN2TVVHMBWS4523YXRB3J7JQGQB3SITYTL3A" released="2021-12-29" stability="stable" version="2021.3.1">
+        <manifest-digest sha256new="EEF3GHE75HSRZP5YLN2TVVHMBWS4523YXRB3J7JQGQB3SITYTL3A"/>
+        <archive extract="pycharm-community-2021.3.1" href="https://download.jetbrains.com/python/pycharm-community-2021.3.1.tar.gz" size="505888477" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha256new_DLRGIL3WQ6YY3HKVUKUPN6EIID7KGKA4K5U6YBWNUBXSFTR3RJ4A" released="2021-12-01" stability="stable" version="2021.3">
+        <manifest-digest sha256new="DLRGIL3WQ6YY3HKVUKUPN6EIID7KGKA4K5U6YBWNUBXSFTR3RJ4A"/>
+        <archive extract="pycharm-community-2021.3" href="https://download.jetbrains.com/python/pycharm-community-2021.3.tar.gz" size="498868447" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 
