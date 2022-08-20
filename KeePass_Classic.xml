@@ -8,8 +8,8 @@ Classic runs on all Windows systems without any prerequisites.</description>
   <description xml:lang="de">KeePass ist ein kostenloser Open Source Passwort Manager, welcher Ihnen hilft Ihre Passwörter auf sichere Art und Weise zu verwalten. Sie können alle Ihre Passwörter in einer Datenbank ablegen, welche mit einem Master-Passwort oder einer Schlüsseldatei gesichert ist. So müssen Sie sich nur ein einzelnes Passwort merken oder die Schlüsseldatei öffnen um die gesamte Datenbank freizugeben.  Die Datenbanken werden mit den derzeit besten und sichersten Verschlüsselungsalgorithmen (AES and Twofish) verschlüsselt.
 Classic läuft auf allen Windows-Systemen ohne weitere Abhängigkeiten.</description>
   <homepage>http://keepass.info/</homepage>
-  <icon href="https://raw.githubusercontent.com/0install/apps/master/gui/keepass.png" type="image/png"/>
-  <icon href="https://raw.githubusercontent.com/0install/apps/master/gui/keepass.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://apps.0install.net/gui/keepass.png" type="image/png"/>
+  <icon href="https://apps.0install.net/gui/keepass.ico" type="image/vnd.microsoft.icon"/>
   <category>Utility</category>
   <feed src="https://apps.0install.net/gui/keepass-classic.xml"/>
   <replaced-by interface="https://apps.0install.net/gui/keepass-classic.xml"/>

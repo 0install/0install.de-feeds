@@ -3,8 +3,8 @@
   <name>Celestia</name>
   <summary xml:lang="en">free space simulation</summary>
   <description xml:lang="en">The free space simulation that lets you explore our universe in three dimensions.</description>
-  <icon href="https://raw.githubusercontent.com/0install/apps/master/gui/celestia.png" type="image/png" />
-  <icon href="https://raw.githubusercontent.com/0install/apps/master/gui/celestia.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://apps.0install.net/gui/celestia.png" type="image/png" />
+  <icon href="https://apps.0install.net/gui/celestia.ico" type="image/vnd.microsoft.icon" />
   <category>Education</category>
   <feed src="https://apps.0install.net/gui/celestia.xml"/>
   <replaced-by interface="https://apps.0install.net/gui/celestia.xml"/>

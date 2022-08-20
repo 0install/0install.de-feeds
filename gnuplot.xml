@@ -6,8 +6,8 @@
   <description xml:lang="en">Gnuplot is a portable command-line driven graphing utility.</description>
   <description xml:lang="de">Gnuplot ist ein portierbares Befehlszeilen-getriebes Graph-Tool.</description>
   <homepage>http://gnuplot.sourceforge.net/</homepage>
-  <icon href="https://raw.githubusercontent.com/0install/apps/master/gui/gnuplot.png" type="image/png"/>
-  <icon href="https://raw.githubusercontent.com/0install/apps/master/gui/gnuplot.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://apps.0install.net/gui/gnuplot.png" type="image/png"/>
+  <icon href="https://apps.0install.net/gui/gnuplot.ico" type="image/vnd.microsoft.icon"/>
   <category>Graphics</category>
   <category>Utility</category>
   <needs-terminal/>
