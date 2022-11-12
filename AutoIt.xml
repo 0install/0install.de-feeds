@@ -99,6 +99,14 @@
       <manifest-digest sha256new="3DOKRUPHXMRIVDLMVDWHARPVPNXLDRFDW43OUXY2EMVLR4JVRXBA"/>
       <archive href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.2.8.1.zip" size="6244170" type="application/zip"/>
     </implementation>
+    <implementation arch="Windows-i486" id="3.3.16.0-i486" released="2022-03-06" stability="stable" version="3.3.16.0">
+      <manifest-digest sha256new="RTOHZFN4FYRY4DZYBIVBZGXUMFRA6A24OK7PB7DTN74MP6ZX7HAA"/>
+      <archive extract="install" href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.3.16.0.zip" size="17608642" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="3.3.16.1-i486" released="2022-09-19" stability="stable" version="3.3.16.1">
+      <manifest-digest sha256new="MBQSFYVPSIIUMOS6BSVLRYSEQ4ROZXZHLZHZILKK5R6UEQHNWO6Q"/>
+      <archive extract="install" href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.3.16.1.zip" size="17620444" type="application/zip"/>
+    </implementation>
   </group>
 
   <group arch="Windows-i486">
@@ -204,6 +212,14 @@
     <implementation id="3.3.8.1-x64" released="2016-06-12" stability="stable" version="3.3.8.1">
       <manifest-digest sha256new="G3SXYAYI3SEEUL554MVC2UWZS4YJ3P36XZFAKUC33UJAPII3AS6A"/>
       <archive extract="install" href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.3.8.1.zip" size="10748577" type="application/zip"/>
+    </implementation>
+    <implementation id="3.3.16.0-x64" released="2022-03-06" stability="stable" version="3.3.16.0">
+      <manifest-digest sha256new="RTOHZFN4FYRY4DZYBIVBZGXUMFRA6A24OK7PB7DTN74MP6ZX7HAA"/>
+      <archive extract="install" href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.3.16.0.zip" size="17608642" type="application/zip"/>
+    </implementation>
+    <implementation id="3.3.16.1-x64" released="2022-09-19" stability="stable" version="3.3.16.1">
+      <manifest-digest sha256new="MBQSFYVPSIIUMOS6BSVLRYSEQ4ROZXZHLZHZILKK5R6UEQHNWO6Q"/>
+      <archive extract="install" href="https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.3.16.1.zip" size="17620444" type="application/zip"/>
     </implementation>
   </group>
 
