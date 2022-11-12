@@ -6,4 +6,4 @@ releases = [{
     'version': release['version'],
     'major-version': release['majorVersion'],
     'released': release['date']
-} for release in json.loads(data)['GO'] if 'downloads' in release and not release['version'].startswith('2017') and not release['version'].startswith('2018')]
+} for release in json.loads(data)['GO'] if 'downloads' in release and not release['version'].startswith('2017') and not release['version'].startswith('2018') and not release['version'].startswith('2021')]

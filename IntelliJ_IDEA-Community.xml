@@ -355,6 +355,37 @@
         <manifest-digest sha256new="V7RQ5YZCI6MR3OOPCG2QOPWE3CUDDK5WW2GVAKERSY4PSJC5PRFQ"/>
         <archive extract="idea-IC-213.5744.223" href="https://download.jetbrains.com/idea/ideaIC-2021.3-no-jbr.tar.gz" size="629835415" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha256new_5GFOCUBEDSOQL35PPQD4ST25ZYWX7KZSVFYG3SYKEYYZG2WEEZMQ" released="2022-01-28" stability="stable" version="2021.3.2">
+        <manifest-digest sha256new="5GFOCUBEDSOQL35PPQD4ST25ZYWX7KZSVFYG3SYKEYYZG2WEEZMQ"/>
+        <archive extract="idea-IC-213.6777.52" href="https://download.jetbrains.com/idea/ideaIC-2021.3.2-no-jbr.tar.gz" size="636932173" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha256new_HM7YPJ6L6RLK34B4KZUW6EXKI5R2FVHC6HH7754NMOOHEMTZGTCQ" released="2022-03-17" stability="stable" version="2021.3.3">
+        <manifest-digest sha256new="HM7YPJ6L6RLK34B4KZUW6EXKI5R2FVHC6HH7754NMOOHEMTZGTCQ"/>
+        <archive extract="idea-IC-213.7172.25" href="https://download.jetbrains.com/idea/ideaIC-2021.3.3-no-jbr.tar.gz" size="636020953" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="IdeaIC2022.1"/>
+      <implementation id="sha256new_A4Y3CVCFEXFEXXF7GXFJ7K7PO4XR46QEML2QSK7RSL42ULKH4LSA" released="2022-05-11" stability="stable" version="2022.1.1">
+        <manifest-digest sha256new="A4Y3CVCFEXFEXXF7GXFJ7K7PO4XR46QEML2QSK7RSL42ULKH4LSA"/>
+        <archive extract="idea-IC-221.5591.52" href="https://download.jetbrains.com/idea/ideaIC-2022.1.1-no-jbr.tar.gz" size="672278131" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha256new_KQHOPOZL7QT4YZW3AQD53BTSHVBSZ3Y3OGURTCUD43OXJ6KUIYBQ" released="2022-06-01" stability="stable" version="2022.1.2">
+        <manifest-digest sha256new="KQHOPOZL7QT4YZW3AQD53BTSHVBSZ3Y3OGURTCUD43OXJ6KUIYBQ"/>
+        <archive extract="idea-IC-221.5787.30" href="https://download.jetbrains.com/idea/ideaIC-2022.1.2-no-jbr.tar.gz" size="672318023" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha256new_JGELVNLHHOJHTIG6BC7D6DQDI7YHBPXXNFMYWFFKLRFSBEOK34QQ" released="2022-06-21" stability="stable" version="2022.1.3">
+        <manifest-digest sha256new="JGELVNLHHOJHTIG6BC7D6DQDI7YHBPXXNFMYWFFKLRFSBEOK34QQ"/>
+        <archive extract="idea-IC-221.5921.22" href="https://download.jetbrains.com/idea/ideaIC-2022.1.3-no-jbr.tar.gz" size="672300394" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha256new_5E7TLU3G5ENGYPUR6QQHYWPRGDLYQGZ3674TG3PEZC5QX66WAB7Q" released="2022-07-19" stability="stable" version="2022.1.4">
+        <manifest-digest sha256new="5E7TLU3G5ENGYPUR6QQHYWPRGDLYQGZ3674TG3PEZC5QX66WAB7Q"/>
+        <archive extract="idea-IC-221.6008.13" href="https://download.jetbrains.com/idea/ideaIC-2022.1.4-no-jbr.tar.gz" size="672307485" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha256new_Z4Q5YMXZY3XOHL6ZQWN6E6RX6XTI3C56UAQFPG4L3GQJT2UGCUGA" released="2022-04-12" stability="stable" version="2022.1">
+        <manifest-digest sha256new="Z4Q5YMXZY3XOHL6ZQWN6E6RX6XTI3C56UAQFPG4L3GQJT2UGCUGA"/>
+        <archive extract="idea-IC-221.5080.210" href="https://download.jetbrains.com/idea/ideaIC-2022.1-no-jbr.tar.gz" size="671907781" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 
