@@ -578,6 +578,10 @@
         <manifest-digest sha256new="AR2UIK6VE4GNDXQN46ZXITEXFJ3TJFHUOC355J5O4F5Q4CUZ644Q"/>
         <archive extract="pycharm-2022.2" href="https://download.jetbrains.com/python/pycharm-professional-2022.2.tar.gz" size="695805472" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha256new_DQ3AJOV7FKY3ZK5M3QES6ML4BPD3VYTSMIU3ACPX2G2RCJEYPEUA" released="2022-11-17" stability="stable" version="2022.2.4">
+        <manifest-digest sha256new="DQ3AJOV7FKY3ZK5M3QES6ML4BPD3VYTSMIU3ACPX2G2RCJEYPEUA"/>
+        <archive extract="pycharm-2022.2.4" href="https://download.jetbrains.com/python/pycharm-professional-2022.2.4.tar.gz" size="697025844" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 
