@@ -583,6 +583,13 @@
         <archive extract="pycharm-community-2022.2.4" href="https://download.jetbrains.com/python/pycharm-community-2022.2.4.tar.gz" size="535908869" type="application/x-compressed-tar"/>
       </implementation>
     </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="PyCharmCE2022.3"/>
+      <implementation id="sha256new_42222NQUNWZNCSJDY42JT5TBEUQDJ3ZVUZOKMFFKGXOLKWN6UONA" released="2022-12-01" stability="stable" version="2022.3">
+        <manifest-digest sha256new="42222NQUNWZNCSJDY42JT5TBEUQDJ3ZVUZOKMFFKGXOLKWN6UONA"/>
+        <archive extract="pycharm-community-2022.3" href="https://download.jetbrains.com/python/pycharm-community-2022.3.tar.gz" size="562364769" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
   </group>
 
   <entry-point binary-name="pycharm" command="run"/>

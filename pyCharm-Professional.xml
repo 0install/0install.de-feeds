@@ -583,6 +583,13 @@
         <archive extract="pycharm-2022.2.4" href="https://download.jetbrains.com/python/pycharm-professional-2022.2.4.tar.gz" size="697025844" type="application/x-compressed-tar"/>
       </implementation>
     </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="PyCharm2022.3"/>
+      <implementation id="sha256new_G7ARYZYZFWH4IM7XE5FTSWDZSHI7P6SFTQSSNJJ2VIJQCKFYESMQ" released="2022-12-01" stability="stable" version="2022.3">
+        <manifest-digest sha256new="G7ARYZYZFWH4IM7XE5FTSWDZSHI7P6SFTQSSNJJ2VIJQCKFYESMQ"/>
+        <archive extract="pycharm-2022.3" href="https://download.jetbrains.com/python/pycharm-professional-2022.3.tar.gz" size="707829681" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
   </group>
 
   <entry-point binary-name="pycharm" command="run"/>
