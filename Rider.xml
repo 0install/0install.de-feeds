@@ -544,4 +544,12 @@
     <manifest-digest sha256new="A6Q6TQW7ISLWAH3HRG57EDLZWKRLSOZH344KYRJDON4SX7EPDSVA"/>
     <archive extract="JetBrains Rider-2022.3.1" href="https://download.jetbrains.com/rider/JetBrains.Rider-2022.3.1.tar.gz" size="1064761037" type="application/x-compressed-tar"/>
   </implementation>
+  <implementation arch="Windows-x86_64" id="sha256new_JPELTT5ABTYWTXD3VIHPKA6WA5TJUZCYUTWRVQHT25ASJZKOHBSA" main="bin/rider64.exe" released="2023-01-27" stability="stable" version="2022.3.2">
+    <manifest-digest sha256new="JPELTT5ABTYWTXD3VIHPKA6WA5TJUZCYUTWRVQHT25ASJZKOHBSA"/>
+    <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2022.3.2.win.zip" size="1203397106" type="application/zip"/>
+  </implementation>
+  <implementation arch="Linux-x86_64" id="sha256new_THV75XZM6BOFKUAVCV2SNMKAPXOO5V3XJ56MR7SQ3N77DHKPE44A" main="bin/rider.sh" released="2023-01-27" stability="stable" version="2022.3.2">
+    <manifest-digest sha256new="THV75XZM6BOFKUAVCV2SNMKAPXOO5V3XJ56MR7SQ3N77DHKPE44A"/>
+    <archive extract="JetBrains Rider-2022.3.2" href="https://download.jetbrains.com/rider/JetBrains.Rider-2022.3.2.tar.gz" size="1125940858" type="application/x-compressed-tar"/>
+  </implementation>
 </interface>

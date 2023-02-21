@@ -593,6 +593,10 @@
         <manifest-digest sha256new="3O47JRN42KNLZVEBCAG65DXY3P7OAAPV6JQQXPV6SOFO5TU7AAFQ"/>
         <archive extract="pycharm-community-2022.3.1" href="https://download.jetbrains.com/python/pycharm-community-2022.3.1.tar.gz" size="574512592" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha256new_TKHF6PLTJ5ZAOEQQMDFGWARDJFDG4E6WH33RRBW72E3UU6KBOE4Q" released="2023-01-26" stability="stable" version="2022.3.2">
+        <manifest-digest sha256new="TKHF6PLTJ5ZAOEQQMDFGWARDJFDG4E6WH33RRBW72E3UU6KBOE4Q"/>
+        <archive extract="pycharm-community-2022.3.2" href="https://download.jetbrains.com/python/pycharm-community-2022.3.2.tar.gz" size="575274048" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 
