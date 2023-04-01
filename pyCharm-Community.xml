@@ -582,6 +582,10 @@
         <manifest-digest sha256new="2WNL7QC4ZCGESSNWLLGHOZY7T6KGF545XSKUL45PAFQMISAJK33A"/>
         <archive extract="pycharm-community-2022.2.4" href="https://download.jetbrains.com/python/pycharm-community-2022.2.4.tar.gz" size="535908869" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha256new_KBB63ZXPCGBF5X4QXURUKSWR4GJ2ZGKK7GI6YCKY4WFEGXY7ZGAQ" released="2023-03-16" stability="stable" version="2022.2.5">
+        <manifest-digest sha256new="KBB63ZXPCGBF5X4QXURUKSWR4GJ2ZGKK7GI6YCKY4WFEGXY7ZGAQ"/>
+        <archive extract="pycharm-community-2022.2.5" href="https://download.jetbrains.com/python/pycharm-community-2022.2.5.tar.gz" size="535751704" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
     <group>
       <environment name="IDEA_PATHS_SELECTOR" value="PyCharmCE2022.3"/>
@@ -600,6 +604,13 @@
       <implementation id="sha256new_DMUKQADZMJPTAKWXUOIOCKDS2YCKPISI2ZOWCCJZQKTHOV4DIZUA" released="2023-03-09" stability="stable" version="2022.3.3">
         <manifest-digest sha256new="DMUKQADZMJPTAKWXUOIOCKDS2YCKPISI2ZOWCCJZQKTHOV4DIZUA"/>
         <archive extract="pycharm-community-2022.3.3" href="https://download.jetbrains.com/python/pycharm-community-2022.3.3.tar.gz" size="575595412" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="PyCharmCE2023.1"/>
+      <implementation id="sha256new_JHAJ3CDSKFUL2UIASLSSUO5ZF2TOFN56W2PJDNCQWSSSCYEEJFBQ" released="2023-03-30" stability="stable" version="2023.1">
+        <manifest-digest sha256new="JHAJ3CDSKFUL2UIASLSSUO5ZF2TOFN56W2PJDNCQWSSSCYEEJFBQ"/>
+        <archive extract="pycharm-community-2023.1" href="https://download.jetbrains.com/python/pycharm-community-2023.1.tar.gz" size="576971333" type="application/x-compressed-tar"/>
       </implementation>
     </group>
   </group>

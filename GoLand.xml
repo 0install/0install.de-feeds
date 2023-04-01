@@ -455,6 +455,14 @@
         <manifest-digest sha256new="AIQRM3PY4GZ4DK5M5GBD2ITCJJGO3SGB3UMB3NTD7JXFDQQ74IVQ"/>
         <archive extract="GoLand-2022.2.5" href="https://download.jetbrains.com/go/goland-2022.2.5.tar.gz" size="656392679" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation arch="Windows-x86_64" id="sha256new_VHAZE2ZMR5SWP53AI7W7NSGMMDOIHH3FXV3GXUSQICDYXPJCZM4A" released="2023-03-17" stability="stable" version="2022.2.6">
+        <manifest-digest sha256new="VHAZE2ZMR5SWP53AI7W7NSGMMDOIHH3FXV3GXUSQICDYXPJCZM4A"/>
+        <archive href="https://download.jetbrains.com/go/goland-2022.2.6.win.zip" size="640228400" type="application/zip"/>
+      </implementation>
+      <implementation arch="Linux-x86_64" id="sha256new_FLFLUUUJZU5IRF3ITDPMAXGGTPTUCX44JY6DGPLQZ7STN2OZK34A" released="2023-03-17" stability="stable" version="2022.2.6">
+        <manifest-digest sha256new="FLFLUUUJZU5IRF3ITDPMAXGGTPTUCX44JY6DGPLQZ7STN2OZK34A"/>
+        <archive extract="GoLand-2022.2.6" href="https://download.jetbrains.com/go/goland-2022.2.6.tar.gz" size="656405126" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
     <group>
       <environment name="IDEA_PATHS_SELECTOR" value="GoLand2022.3"/>
@@ -489,6 +497,14 @@
       <implementation arch="Linux-x86_64" id="sha256new_C76G2L2QEMSHZNILEOLCA7HB6IGP3QIH4NWRFL4KPIQMCENK3W4A" released="2023-03-09" stability="stable" version="2022.3.3">
         <manifest-digest sha256new="C76G2L2QEMSHZNILEOLCA7HB6IGP3QIH4NWRFL4KPIQMCENK3W4A"/>
         <archive extract="GoLand-2022.3.3" href="https://download.jetbrains.com/go/goland-2022.3.3.tar.gz" size="673567402" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation arch="Windows-x86_64" id="sha256new_GRJNTYOPSM2XWKB77EJSOUIOWUODIBOVMR2TDUM4DFMH75QLDDOA" released="2023-03-24" stability="stable" version="2022.3.4">
+        <manifest-digest sha256new="GRJNTYOPSM2XWKB77EJSOUIOWUODIBOVMR2TDUM4DFMH75QLDDOA"/>
+        <archive href="https://download.jetbrains.com/go/goland-2022.3.4.win.zip" size="660832593" type="application/zip"/>
+      </implementation>
+      <implementation arch="Linux-x86_64" id="sha256new_JDBIKYIQSP6EOK2PICDZRJIIXT7TTZNHHOLWVDU76NBPK552VY4A" released="2023-03-24" stability="stable" version="2022.3.4">
+        <manifest-digest sha256new="JDBIKYIQSP6EOK2PICDZRJIIXT7TTZNHHOLWVDU76NBPK552VY4A"/>
+        <archive extract="GoLand-2022.3.4" href="https://download.jetbrains.com/go/goland-2022.3.4.tar.gz" size="673573202" type="application/x-compressed-tar"/>
       </implementation>
     </group>
   </group>
