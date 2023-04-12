@@ -507,6 +507,17 @@
         <archive extract="GoLand-2022.3.4" href="https://download.jetbrains.com/go/goland-2022.3.4.tar.gz" size="673573202" type="application/x-compressed-tar"/>
       </implementation>
     </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="GoLand2023.1"/>
+      <implementation arch="Windows-x86_64" id="sha256new_ACR4QXIKRCWNROQPNWHE5MDBH3YOOOOMSTUKGGAY34WG7IUFOWLA" released="2023-04-03" stability="stable" version="2023.1">
+        <manifest-digest sha256new="ACR4QXIKRCWNROQPNWHE5MDBH3YOOOOMSTUKGGAY34WG7IUFOWLA"/>
+        <archive href="https://download.jetbrains.com/go/goland-2023.1.win.zip" size="666299839" type="application/zip"/>
+      </implementation>
+      <implementation arch="Linux-x86_64" id="sha256new_JWZFBRVSXAHDEZYXWJ4N6TZXPAPJ5SVLYUI53BAVW7HLRQQBMGKQ" released="2023-04-03" stability="stable" version="2023.1">
+        <manifest-digest sha256new="JWZFBRVSXAHDEZYXWJ4N6TZXPAPJ5SVLYUI53BAVW7HLRQQBMGKQ"/>
+        <archive extract="GoLand-2023.1" href="https://download.jetbrains.com/go/goland-2023.1.tar.gz" size="677471564" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
   </group>
 
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
