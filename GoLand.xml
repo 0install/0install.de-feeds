@@ -541,6 +541,25 @@
         <manifest-digest sha256new="7EOZBE2W4II4FYQ6MXZZOV5XLMWJRXBQ5LPISP6H4XPE5M45DB3A"/>
         <archive extract="GoLand-2023.1.3" href="https://download.jetbrains.com/go/goland-2023.1.3.tar.gz" size="678194205" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation arch="Windows-x86_64" id="sha256new_HC2WR6EUPFVFWXJDZK7R4C3FABFDJVKCJAFYVY2FYD6GHF7KHVOA" released="2023-07-12" stability="stable" version="2023.1.4">
+        <manifest-digest sha256new="HC2WR6EUPFVFWXJDZK7R4C3FABFDJVKCJAFYVY2FYD6GHF7KHVOA"/>
+        <archive href="https://download.jetbrains.com/go/goland-2023.1.4.win.zip" size="669600661" type="application/zip"/>
+      </implementation>
+      <implementation arch="Linux-x86_64" id="sha256new_CQYH3W53TLB7CRIU3XFSWQDBICNGV6YUK6GN266MPX2DSDU5ZZDA" released="2023-07-12" stability="stable" version="2023.1.4">
+        <manifest-digest sha256new="CQYH3W53TLB7CRIU3XFSWQDBICNGV6YUK6GN266MPX2DSDU5ZZDA"/>
+        <archive extract="GoLand-2023.1.4" href="https://download.jetbrains.com/go/goland-2023.1.4.tar.gz" size="680749135" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
+    <group>
+      <environment name="IDEA_PATHS_SELECTOR" value="GoLand2023.2"/>
+      <implementation arch="Windows-x86_64" id="sha256new_IX2APADBZJDQGNAS55RCGL3EKWRTGQRAATKBPZ5MBUSZX3H7BZ4A" released="2023-07-27" stability="stable" version="2023.2">
+        <manifest-digest sha256new="IX2APADBZJDQGNAS55RCGL3EKWRTGQRAATKBPZ5MBUSZX3H7BZ4A"/>
+        <archive href="https://download.jetbrains.com/go/goland-2023.2.win.zip" size="680115021" type="application/zip"/>
+      </implementation>
+      <implementation arch="Linux-x86_64" id="sha256new_H4VHXVSTU7AT6DABY2TRRWWO25B3E2XKLRMEGBUTBYMLDK4PMMWA" released="2023-07-27" stability="stable" version="2023.2">
+        <manifest-digest sha256new="H4VHXVSTU7AT6DABY2TRRWWO25B3E2XKLRMEGBUTBYMLDK4PMMWA"/>
+        <archive extract="GoLand-2023.2" href="https://download.jetbrains.com/go/goland-2023.2.tar.gz" size="683760860" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 
