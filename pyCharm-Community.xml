@@ -635,6 +635,10 @@
         <manifest-digest sha256new="LBU5EIO5AHZ24LHI5GXG5O42OI65VZ4Y2UJO3EXVHY2572MSY75Q"/>
         <archive extract="pycharm-community-2023.2" href="https://download.jetbrains.com/python/pycharm-community-2023.2.tar.gz" size="583032691" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha256new_BPEKPH5K745JJ2IAERJ46FM3OFFQ2LCYRYWUOAAK64GLVG2SSS3A" released="2023-08-24" stability="stable" version="2023.2.1">
+        <manifest-digest sha256new="BPEKPH5K745JJ2IAERJ46FM3OFFQ2LCYRYWUOAAK64GLVG2SSS3A"/>
+        <archive extract="pycharm-community-2023.2.1" href="https://download.jetbrains.com/python/pycharm-community-2023.2.1.tar.gz" size="588203470" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 
