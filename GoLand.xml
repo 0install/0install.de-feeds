@@ -576,6 +576,22 @@
         <manifest-digest sha256new="J5Z52YMRXC6TLNEDBRTTRLQDBFZPWBUDSH76URVIZWWMEMTPNR4Q"/>
         <archive extract="GoLand-2023.2.2" href="https://download.jetbrains.com/go/goland-2023.2.2.tar.gz" size="691847998" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation arch="Windows-x86_64" id="sha256new_JB4WAF5NYCEBPOLH5G7MSF56NVJNVYVBVMKBJQW7FJRAEF6PTVIQ" released="2023-10-12" stability="stable" version="2023.2.3">
+        <manifest-digest sha256new="JB4WAF5NYCEBPOLH5G7MSF56NVJNVYVBVMKBJQW7FJRAEF6PTVIQ"/>
+        <archive href="https://download.jetbrains.com/go/goland-2023.2.3.win.zip" size="688309388" type="application/zip"/>
+      </implementation>
+      <implementation arch="Linux-x86_64" id="sha256new_W36JG26PY5WRFVDJL57DMELXH6DXE4IMJIRRXGSRAFNWIVQZLPCQ" released="2023-10-12" stability="stable" version="2023.2.3">
+        <manifest-digest sha256new="W36JG26PY5WRFVDJL57DMELXH6DXE4IMJIRRXGSRAFNWIVQZLPCQ"/>
+        <archive extract="GoLand-2023.2.3" href="https://download.jetbrains.com/go/goland-2023.2.3.tar.gz" size="691929813" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation arch="Windows-x86_64" id="sha256new_AUDALRI6UGODQ7ZXKOQVXNP4QOHU3OKFQACMP2JK46AK46RXQACA" released="2023-10-27" stability="stable" version="2023.2.4">
+        <manifest-digest sha256new="AUDALRI6UGODQ7ZXKOQVXNP4QOHU3OKFQACMP2JK46AK46RXQACA"/>
+        <archive href="https://download.jetbrains.com/go/goland-2023.2.4.win.zip" size="688323745" type="application/zip"/>
+      </implementation>
+      <implementation arch="Linux-x86_64" id="sha256new_CH4RSTPXARHEEWIDHR7YFOAB3KRAIXCHGA2GT2CCJQQSLDZ23WYA" released="2023-10-27" stability="stable" version="2023.2.4">
+        <manifest-digest sha256new="CH4RSTPXARHEEWIDHR7YFOAB3KRAIXCHGA2GT2CCJQQSLDZ23WYA"/>
+        <archive extract="GoLand-2023.2.4" href="https://download.jetbrains.com/go/goland-2023.2.4.tar.gz" size="691943924" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 
