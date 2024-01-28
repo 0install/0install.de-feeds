@@ -670,6 +670,10 @@
         <manifest-digest sha256new="LQU2Q53C6XVYG3BTFMLWMPJ6UGTDHTNSIMQXKSSTXLYZLJASLPOA"/>
         <archive extract="pycharm-2023.3" href="https://download.jetbrains.com/python/pycharm-professional-2023.3.tar.gz" size="812592918" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha256new_KK3AF7SBGRNTDC4W76B6FN7QGHOVPQOCJ3ADOI6OHQYXELQWFFEQ" released="2024-01-26" stability="stable" version="2023.3.3">
+        <manifest-digest sha256new="KK3AF7SBGRNTDC4W76B6FN7QGHOVPQOCJ3ADOI6OHQYXELQWFFEQ"/>
+        <archive extract="pycharm-2023.3.3" href="https://download.jetbrains.com/python/pycharm-professional-2023.3.3.tar.gz" size="816045880" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 
