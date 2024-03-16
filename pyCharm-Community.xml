@@ -628,6 +628,10 @@
         <manifest-digest sha256new="CQNVVC2KCBEVA6QHBDLZJQ7MRJ2NBKO357R5MTJOY6IJPOKOKU5Q"/>
         <archive extract="pycharm-community-2023.1.4" href="https://download.jetbrains.com/python/pycharm-community-2023.1.4.tar.gz" size="577477377" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha256new_LDMRNFM76YK2TCTKU2QDUVORG73VPO4TSLDUSUWKUBAKWPX47U7Q" released="2024-02-15" stability="stable" version="2023.1.5">
+        <manifest-digest sha256new="LDMRNFM76YK2TCTKU2QDUVORG73VPO4TSLDUSUWKUBAKWPX47U7Q"/>
+        <archive extract="pycharm-community-2023.1.5" href="https://download.jetbrains.com/python/pycharm-community-2023.1.5.tar.gz" size="577686086" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
     <group>
       <environment name="IDEA_PATHS_SELECTOR" value="PyCharmCE2023.2"/>
@@ -655,6 +659,10 @@
         <manifest-digest sha256new="ERZ3MG6YLQ6W33IY3ZK76QV7EHJBVTTWN6SOMLNYJ5DBB4YE3PDQ"/>
         <archive extract="pycharm-community-2023.2.5" href="https://download.jetbrains.com/python/pycharm-community-2023.2.5.tar.gz" size="588548535" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha256new_ZPIHRJFRTJB5FNCMPCJVVEUBLU6FUR4UGKNQYCOOMIQBQFKBKPYQ" released="2024-02-15" stability="stable" version="2023.2.6">
+        <manifest-digest sha256new="ZPIHRJFRTJB5FNCMPCJVVEUBLU6FUR4UGKNQYCOOMIQBQFKBKPYQ"/>
+        <archive extract="pycharm-community-2023.2.6" href="https://download.jetbrains.com/python/pycharm-community-2023.2.6.tar.gz" size="588576764" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
     <group>
       <environment name="IDEA_PATHS_SELECTOR" value="PyCharmCE2023.3"/>
@@ -673,6 +681,10 @@
       <implementation id="sha256new_5NTUUWYOANSDNVAOCEOHBYCIYCXPLQBU4KCVKPEDZA3EHM5NWZGQ" released="2024-01-26" stability="stable" version="2023.3.3">
         <manifest-digest sha256new="5NTUUWYOANSDNVAOCEOHBYCIYCXPLQBU4KCVKPEDZA3EHM5NWZGQ"/>
         <archive extract="pycharm-community-2023.3.3" href="https://download.jetbrains.com/python/pycharm-community-2023.3.3.tar.gz" size="611059375" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha256new_2GV73ND5V72JLBDEQYAYZMUCJ6TVQXNNUYSGAAB4JWFPCUK7BSHA" released="2024-02-26" stability="stable" version="2023.3.4">
+        <manifest-digest sha256new="2GV73ND5V72JLBDEQYAYZMUCJ6TVQXNNUYSGAAB4JWFPCUK7BSHA"/>
+        <archive extract="pycharm-community-2023.3.4" href="https://download.jetbrains.com/python/pycharm-community-2023.3.4.tar.gz" size="611235167" type="application/x-compressed-tar"/>
       </implementation>
     </group>
   </group>

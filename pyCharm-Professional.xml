@@ -628,6 +628,10 @@
         <manifest-digest sha256new="VBWSYJKWQ7J72YFMI4Q4GJDOD2TBZL4HKBOLJ7OQSX2Q3GUMCJJQ"/>
         <archive extract="pycharm-2023.1.4" href="https://download.jetbrains.com/python/pycharm-professional-2023.1.4.tar.gz" size="733759740" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha256new_OEGIUDU4VH6W5XVR273LWQ2PIA32RCTKOSHYD2RYXE5UZCMNSTCA" released="2024-02-15" stability="stable" version="2023.1.5">
+        <manifest-digest sha256new="OEGIUDU4VH6W5XVR273LWQ2PIA32RCTKOSHYD2RYXE5UZCMNSTCA"/>
+        <archive extract="pycharm-2023.1.5" href="https://download.jetbrains.com/python/pycharm-professional-2023.1.5.tar.gz" size="733973045" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
     <group>
       <environment name="IDEA_PATHS_SELECTOR" value="PyCharm2023.2"/>
@@ -655,6 +659,10 @@
         <manifest-digest sha256new="YP4AMVOAYXX24YJ5NB245VDY3UYWG43NZAYHKJUDB3D4O2UGSU4A"/>
         <archive extract="pycharm-2023.2.5" href="https://download.jetbrains.com/python/pycharm-professional-2023.2.5.tar.gz" size="765650072" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha256new_VVVLXE4WKIEG6OXATUCTFPFPGHR62MF3XHETFRIPQ6U7VIXTH4VA" released="2024-02-15" stability="stable" version="2023.2.6">
+        <manifest-digest sha256new="VVVLXE4WKIEG6OXATUCTFPFPGHR62MF3XHETFRIPQ6U7VIXTH4VA"/>
+        <archive extract="pycharm-2023.2.6" href="https://download.jetbrains.com/python/pycharm-professional-2023.2.6.tar.gz" size="765680083" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
     <group>
       <environment name="IDEA_PATHS_SELECTOR" value="PyCharm2023.3"/>
@@ -673,6 +681,10 @@
       <implementation id="sha256new_KK3AF7SBGRNTDC4W76B6FN7QGHOVPQOCJ3ADOI6OHQYXELQWFFEQ" released="2024-01-26" stability="stable" version="2023.3.3">
         <manifest-digest sha256new="KK3AF7SBGRNTDC4W76B6FN7QGHOVPQOCJ3ADOI6OHQYXELQWFFEQ"/>
         <archive extract="pycharm-2023.3.3" href="https://download.jetbrains.com/python/pycharm-professional-2023.3.3.tar.gz" size="816045880" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation id="sha256new_ICJQPBTQV3Y2E6KIPAJDSPRQL6PMVHPW6GHQ2Y5VQ46DOEEPWXIQ" released="2024-02-26" stability="stable" version="2023.3.4">
+        <manifest-digest sha256new="ICJQPBTQV3Y2E6KIPAJDSPRQL6PMVHPW6GHQ2Y5VQ46DOEEPWXIQ"/>
+        <archive extract="pycharm-2023.3.4" href="https://download.jetbrains.com/python/pycharm-professional-2023.3.4.tar.gz" size="816422690" type="application/x-compressed-tar"/>
       </implementation>
     </group>
   </group>
