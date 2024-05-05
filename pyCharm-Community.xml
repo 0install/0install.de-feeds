@@ -697,6 +697,10 @@
         <manifest-digest sha256new="W3QPKI2TTAQPQTIYZOW6VIMTXZXOY6JMWKTYRXJIDYBICU7G72ZQ"/>
         <archive extract="pycharm-community-2024.1" href="https://download.jetbrains.com/python/pycharm-community-2024.1.tar.gz" size="637141232" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha256new_PIGK4SGYPW5VYIGQKKEGWFASD4MYECDAREJD2MDGVR7CDHY5FZZA" released="2024-04-30" stability="stable" version="2024.1.1">
+        <manifest-digest sha256new="PIGK4SGYPW5VYIGQKKEGWFASD4MYECDAREJD2MDGVR7CDHY5FZZA"/>
+        <archive extract="pycharm-community-2024.1.1" href="https://download.jetbrains.com/python/pycharm-community-2024.1.1.tar.gz" size="639228532" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 
