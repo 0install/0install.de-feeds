@@ -694,6 +694,14 @@
         <manifest-digest sha256new="RXHYTH7JH5PVMJVCZ4YOVT3RKUN2ISFWCJL4XI7BBUCO4AZT3FHQ"/>
         <archive extract="GoLand-2024.1.1" href="https://download.jetbrains.com/go/goland-2024.1.1.tar.gz" size="887361990" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation arch="Windows-x86_64" id="sha256new_DQBLZ6E4A7SZ4XDXECZ2PSIR67UP5DS3ANS66JJJJU2KS45WAN3Q" released="2024-05-23" stability="stable" version="2024.1.2">
+        <manifest-digest sha256new="DQBLZ6E4A7SZ4XDXECZ2PSIR67UP5DS3ANS66JJJJU2KS45WAN3Q"/>
+        <archive href="https://download.jetbrains.com/go/goland-2024.1.2.win.zip" size="894879862" type="application/zip"/>
+      </implementation>
+      <implementation arch="Linux-x86_64" id="sha256new_WAC6KRILYAX2DOKDD462PG2OVI4RRMZCNZ3ZKRRF754HRHRMHWVA" released="2024-05-23" stability="stable" version="2024.1.2">
+        <manifest-digest sha256new="WAC6KRILYAX2DOKDD462PG2OVI4RRMZCNZ3ZKRRF754HRHRMHWVA"/>
+        <archive extract="GoLand-2024.1.2" href="https://download.jetbrains.com/go/goland-2024.1.2.tar.gz" size="887109304" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 
