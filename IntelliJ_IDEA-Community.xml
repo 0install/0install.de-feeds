@@ -364,29 +364,351 @@
         <archive extract="idea-IC-213.7172.25" href="https://download.jetbrains.com/idea/ideaIC-2021.3.3-no-jbr.tar.gz" size="636020953" type="application/x-compressed-tar"/>
       </implementation>
     </group>
-    <group>
-      <environment name="IDEA_PATHS_SELECTOR" value="IdeaIC2022.1"/>
-      <implementation id="sha256new_A4Y3CVCFEXFEXXF7GXFJ7K7PO4XR46QEML2QSK7RSL42ULKH4LSA" released="2022-05-11" stability="stable" version="2022.1.1">
-        <manifest-digest sha256new="A4Y3CVCFEXFEXXF7GXFJ7K7PO4XR46QEML2QSK7RSL42ULKH4LSA"/>
-        <archive extract="idea-IC-221.5591.52" href="https://download.jetbrains.com/idea/ideaIC-2022.1.1-no-jbr.tar.gz" size="672278131" type="application/x-compressed-tar"/>
-      </implementation>
-      <implementation id="sha256new_KQHOPOZL7QT4YZW3AQD53BTSHVBSZ3Y3OGURTCUD43OXJ6KUIYBQ" released="2022-06-01" stability="stable" version="2022.1.2">
-        <manifest-digest sha256new="KQHOPOZL7QT4YZW3AQD53BTSHVBSZ3Y3OGURTCUD43OXJ6KUIYBQ"/>
-        <archive extract="idea-IC-221.5787.30" href="https://download.jetbrains.com/idea/ideaIC-2022.1.2-no-jbr.tar.gz" size="672318023" type="application/x-compressed-tar"/>
-      </implementation>
-      <implementation id="sha256new_JGELVNLHHOJHTIG6BC7D6DQDI7YHBPXXNFMYWFFKLRFSBEOK34QQ" released="2022-06-21" stability="stable" version="2022.1.3">
-        <manifest-digest sha256new="JGELVNLHHOJHTIG6BC7D6DQDI7YHBPXXNFMYWFFKLRFSBEOK34QQ"/>
-        <archive extract="idea-IC-221.5921.22" href="https://download.jetbrains.com/idea/ideaIC-2022.1.3-no-jbr.tar.gz" size="672300394" type="application/x-compressed-tar"/>
-      </implementation>
-      <implementation id="sha256new_5E7TLU3G5ENGYPUR6QQHYWPRGDLYQGZ3674TG3PEZC5QX66WAB7Q" released="2022-07-19" stability="stable" version="2022.1.4">
-        <manifest-digest sha256new="5E7TLU3G5ENGYPUR6QQHYWPRGDLYQGZ3674TG3PEZC5QX66WAB7Q"/>
-        <archive extract="idea-IC-221.6008.13" href="https://download.jetbrains.com/idea/ideaIC-2022.1.4-no-jbr.tar.gz" size="672307485" type="application/x-compressed-tar"/>
-      </implementation>
-      <implementation id="sha256new_Z4Q5YMXZY3XOHL6ZQWN6E6RX6XTI3C56UAQFPG4L3GQJT2UGCUGA" released="2022-04-12" stability="stable" version="2022.1">
-        <manifest-digest sha256new="Z4Q5YMXZY3XOHL6ZQWN6E6RX6XTI3C56UAQFPG4L3GQJT2UGCUGA"/>
-        <archive extract="idea-IC-221.5080.210" href="https://download.jetbrains.com/idea/ideaIC-2022.1-no-jbr.tar.gz" size="671907781" type="application/x-compressed-tar"/>
-      </implementation>
-    </group>
+  </group>
+
+  <group>
+    <requires importance="recommended" interface="https://apps.0install.net/java/jdk.xml" version="8..!22">
+      <environment insert="." mode="replace" name="JAVA_HOME"/>
+      <environment insert="." mode="replace" name="JDK_HOME"/>
+      <environment insert="bin" name="PATH"/>
+    </requires>
+
+    <implementation arch="Windows-x86_64" id="sha256new_5QXZBIKTDAZXPVJWOR2KI7UKJU6TZ3HP5CB5WORCGMRIXS7KR52Q" main="bin/idea64.exe" released="2022-12-20" stability="stable" version="2022.3.1">
+      <manifest-digest sha256new="5QXZBIKTDAZXPVJWOR2KI7UKJU6TZ3HP5CB5WORCGMRIXS7KR52Q"/>
+      <archive href="https://download.jetbrains.com/idea/ideaIC-2022.3.1.win.zip" size="940422576" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_PK5W5KIBPS7ZEFZNG4N4ALQQVLCORJD2SSGMGL6IKE5AMDZVJYLA" main="bin/idea.sh" released="2022-12-20" stability="stable" version="2022.3.1">
+      <manifest-digest sha256new="PK5W5KIBPS7ZEFZNG4N4ALQQVLCORJD2SSGMGL6IKE5AMDZVJYLA"/>
+      <archive extract="idea-IC-223.8214.52" href="https://download.jetbrains.com/idea/ideaIC-2022.3.1.tar.gz" size="941758149" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_5E7XFBKOYUFRROHEHZQKXHQYV5V5PSMUCXO642WPI4B4BQXDI7BQ" main="bin/idea.sh" released="2022-12-20" stability="stable" version="2022.3.1">
+      <manifest-digest sha256new="5E7XFBKOYUFRROHEHZQKXHQYV5V5PSMUCXO642WPI4B4BQXDI7BQ"/>
+      <archive extract="idea-IC-223.8214.52" href="https://download.jetbrains.com/idea/ideaIC-2022.3.1-aarch64.tar.gz" size="939158838" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_QYOWPXWCXL3LQHH2ERJV6TZY2PM6V3NF2VBVKZTZ2PFSOGLR742A" main="bin/idea64.exe" released="2023-01-26" stability="stable" version="2022.3.2">
+      <manifest-digest sha256new="QYOWPXWCXL3LQHH2ERJV6TZY2PM6V3NF2VBVKZTZ2PFSOGLR742A"/>
+      <archive href="https://download.jetbrains.com/idea/ideaIC-2022.3.2.win.zip" size="936849849" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_EQGDE47WQ6VZYEG5NL2NTEGQQICNYCSEF4I34SIHMWGEV7E4RGGA" main="bin/idea.sh" released="2023-01-26" stability="stable" version="2022.3.2">
+      <manifest-digest sha256new="EQGDE47WQ6VZYEG5NL2NTEGQQICNYCSEF4I34SIHMWGEV7E4RGGA"/>
+      <archive extract="idea-IC-223.8617.56" href="https://download.jetbrains.com/idea/ideaIC-2022.3.2.tar.gz" size="938318729" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_RQ43VIQL4LGJ54AM6UNBRQXKXOMNEIBNPBWH6A3T6YN6F7FR2ITQ" main="bin/idea.sh" released="2023-01-26" stability="stable" version="2022.3.2">
+      <manifest-digest sha256new="RQ43VIQL4LGJ54AM6UNBRQXKXOMNEIBNPBWH6A3T6YN6F7FR2ITQ"/>
+      <archive extract="idea-IC-223.8617.56" href="https://download.jetbrains.com/idea/ideaIC-2022.3.2-aarch64.tar.gz" size="935732299" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_NQ4HRPADKXAO4RYFJ7SHVAKWPDF24H2WEO6A5YFYWRWBH7UMV6MA" main="bin/idea64.exe" released="2023-03-08" stability="stable" version="2022.3.3">
+      <manifest-digest sha256new="NQ4HRPADKXAO4RYFJ7SHVAKWPDF24H2WEO6A5YFYWRWBH7UMV6MA"/>
+      <archive href="https://download.jetbrains.com/idea/ideaIC-2022.3.3.win.zip" size="936963792" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_GYC54WQEQB5FKZ2CU3Z5RZKWBRQEI6NZ74IDNHEIYRPGSSMNDKZQ" main="bin/idea.sh" released="2023-03-08" stability="stable" version="2022.3.3">
+      <manifest-digest sha256new="GYC54WQEQB5FKZ2CU3Z5RZKWBRQEI6NZ74IDNHEIYRPGSSMNDKZQ"/>
+      <archive extract="idea-IC-223.8836.41" href="https://download.jetbrains.com/idea/ideaIC-2022.3.3.tar.gz" size="938366935" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_SGQ4YNLTWIX37PCH53HVI3TBBJ6L3CU7UL5OWWKEZATDPQ7JOSXQ" main="bin/idea.sh" released="2023-03-08" stability="stable" version="2022.3.3">
+      <manifest-digest sha256new="SGQ4YNLTWIX37PCH53HVI3TBBJ6L3CU7UL5OWWKEZATDPQ7JOSXQ"/>
+      <archive extract="idea-IC-223.8836.41" href="https://download.jetbrains.com/idea/ideaIC-2022.3.3-aarch64.tar.gz" size="935780898" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_WENSTFGLC5S3MH5YGZRBXEKDVUKGRBBZQNPEOBZEM4XJV2AJVRZQ" main="bin/idea64.exe" released="2022-11-30" stability="stable" version="2022.3">
+      <manifest-digest sha256new="WENSTFGLC5S3MH5YGZRBXEKDVUKGRBBZQNPEOBZEM4XJV2AJVRZQ"/>
+      <archive href="https://download.jetbrains.com/idea/ideaIC-2022.3.win.zip" size="945935713" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_K3E5COD6TMQBQVGY4DR2PCD3B2HG6EZ6KYA7K3A7FOVUZMRGOPSA" main="bin/idea.sh" released="2022-11-30" stability="stable" version="2022.3">
+      <manifest-digest sha256new="K3E5COD6TMQBQVGY4DR2PCD3B2HG6EZ6KYA7K3A7FOVUZMRGOPSA"/>
+      <archive extract="idea-IC-223.7571.182" href="https://download.jetbrains.com/idea/ideaIC-2022.3.tar.gz" size="947236841" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_CN7V2H5LNRVLGAXYZMQ2RFAQ4BM6SA5UGS4P2TZ3G4JFF5CKDDGQ" main="bin/idea.sh" released="2022-11-30" stability="stable" version="2022.3">
+      <manifest-digest sha256new="CN7V2H5LNRVLGAXYZMQ2RFAQ4BM6SA5UGS4P2TZ3G4JFF5CKDDGQ"/>
+      <archive extract="idea-IC-223.7571.182" href="https://download.jetbrains.com/idea/ideaIC-2022.3-aarch64.tar.gz" size="944651438" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_BC5W2GMYO3T3YJXA72G6NBDLZD3AZE6NG7XDC2GIALU2HFUOJXDA" main="bin/idea64.exe" released="2023-04-28" stability="stable" version="2023.1.1">
+      <manifest-digest sha256new="BC5W2GMYO3T3YJXA72G6NBDLZD3AZE6NG7XDC2GIALU2HFUOJXDA"/>
+      <archive href="https://download.jetbrains.com/idea/ideaIC-2023.1.1.win.zip" size="937113057" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_PGFFUFY4LEGNTUBLN2KBQQQFBWI6OZNAHHXUYOOGGM23E2TQ6ALQ" main="bin/idea.sh" released="2023-04-28" stability="stable" version="2023.1.1">
+      <manifest-digest sha256new="PGFFUFY4LEGNTUBLN2KBQQQFBWI6OZNAHHXUYOOGGM23E2TQ6ALQ"/>
+      <archive extract="idea-IC-231.8770.65" href="https://download.jetbrains.com/idea/ideaIC-2023.1.1.tar.gz" size="937975661" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_EJTWC7ADMBAYTCYQ7QTQCEWZU3ZB4QTJKOFM26HM7NBK77UK62LA" main="bin/idea.sh" released="2023-04-28" stability="stable" version="2023.1.1">
+      <manifest-digest sha256new="EJTWC7ADMBAYTCYQ7QTQCEWZU3ZB4QTJKOFM26HM7NBK77UK62LA"/>
+      <archive extract="idea-IC-231.8770.65" href="https://download.jetbrains.com/idea/ideaIC-2023.1.1-aarch64.tar.gz" size="935413975" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_MXFCTB7S5IQ6EXXYZ6LVU5BPBXNATMRJWH27MKFHXJAY5CAS63BQ" main="bin/idea64.exe" released="2023-05-16" stability="stable" version="2023.1.2">
+      <manifest-digest sha256new="MXFCTB7S5IQ6EXXYZ6LVU5BPBXNATMRJWH27MKFHXJAY5CAS63BQ"/>
+      <archive href="https://download.jetbrains.com/idea/ideaIC-2023.1.2.win.zip" size="937233781" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_JH6EM74O6ZOQZMJKZB4BBZTT7WKEQH3GW6ZNT6JM7SMZY7JMPMFA" main="bin/idea.sh" released="2023-05-16" stability="stable" version="2023.1.2">
+      <manifest-digest sha256new="JH6EM74O6ZOQZMJKZB4BBZTT7WKEQH3GW6ZNT6JM7SMZY7JMPMFA"/>
+      <archive extract="idea-IC-231.9011.34" href="https://download.jetbrains.com/idea/ideaIC-2023.1.2.tar.gz" size="938083157" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_3TSG7JF5NER3QOVWIXDGHFQLD567LWWQULEFGX6YPFF3I7BDGNMA" main="bin/idea.sh" released="2023-05-16" stability="stable" version="2023.1.2">
+      <manifest-digest sha256new="3TSG7JF5NER3QOVWIXDGHFQLD567LWWQULEFGX6YPFF3I7BDGNMA"/>
+      <archive extract="idea-IC-231.9011.34" href="https://download.jetbrains.com/idea/ideaIC-2023.1.2-aarch64.tar.gz" size="935505839" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_7YZ3RBYNJCDURPLJYI7VKJEU6POD2DWZKFOXW5SRYEI57QJIRYQA" main="bin/idea64.exe" released="2023-06-20" stability="stable" version="2023.1.3">
+      <manifest-digest sha256new="7YZ3RBYNJCDURPLJYI7VKJEU6POD2DWZKFOXW5SRYEI57QJIRYQA"/>
+      <archive href="https://download.jetbrains.com/idea/ideaIC-2023.1.3.win.zip" size="937292081" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_AEZ4HHDBLQAM3ODNA3AS7HYF5BGHRAXAAJJVACMPDDUS7XFQOPUA" main="bin/idea.sh" released="2023-06-20" stability="stable" version="2023.1.3">
+      <manifest-digest sha256new="AEZ4HHDBLQAM3ODNA3AS7HYF5BGHRAXAAJJVACMPDDUS7XFQOPUA"/>
+      <archive extract="idea-IC-231.9161.38" href="https://download.jetbrains.com/idea/ideaIC-2023.1.3.tar.gz" size="938144163" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_EPS3RS5FNNHIP6IB6IWUR6DPE2HBLSLBAXGAB57NP7HDXE2Z7Q6A" main="bin/idea.sh" released="2023-06-20" stability="stable" version="2023.1.3">
+      <manifest-digest sha256new="EPS3RS5FNNHIP6IB6IWUR6DPE2HBLSLBAXGAB57NP7HDXE2Z7Q6A"/>
+      <archive extract="idea-IC-231.9161.38" href="https://download.jetbrains.com/idea/ideaIC-2023.1.3-aarch64.tar.gz" size="935570146" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_GXAP33WWJZLXQQG7K5IT2O7YISW5ZUGMVIMLNOSMTWBSXIMUQH5Q" main="bin/idea64.exe" released="2023-07-12" stability="stable" version="2023.1.4">
+      <manifest-digest sha256new="GXAP33WWJZLXQQG7K5IT2O7YISW5ZUGMVIMLNOSMTWBSXIMUQH5Q"/>
+      <archive href="https://download.jetbrains.com/idea/ideaIC-2023.1.4.win.zip" size="937332248" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_4V5TQ2276S3U3I4FLVEECILIZZFFZLL5XEPEGQZZZ3F2PKCL7XOQ" main="bin/idea.sh" released="2023-07-12" stability="stable" version="2023.1.4">
+      <manifest-digest sha256new="4V5TQ2276S3U3I4FLVEECILIZZFFZLL5XEPEGQZZZ3F2PKCL7XOQ"/>
+      <archive extract="idea-IC-231.9225.16" href="https://download.jetbrains.com/idea/ideaIC-2023.1.4.tar.gz" size="938207113" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_7OTNEEXFG6E7QB4R7OEAT235FD26SSKY7RE5EUGJHYKKQBICMFKQ" main="bin/idea.sh" released="2023-07-12" stability="stable" version="2023.1.4">
+      <manifest-digest sha256new="7OTNEEXFG6E7QB4R7OEAT235FD26SSKY7RE5EUGJHYKKQBICMFKQ"/>
+      <archive extract="idea-IC-231.9225.16" href="https://download.jetbrains.com/idea/ideaIC-2023.1.4-aarch64.tar.gz" size="935622516" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_VH7AOSNGTT7K5VXLIHMDVHMWK4FJGM2EQX4INCKKBFHZ2YIYJEFA" main="bin/idea64.exe" released="2023-07-25" stability="stable" version="2023.1.5">
+      <manifest-digest sha256new="VH7AOSNGTT7K5VXLIHMDVHMWK4FJGM2EQX4INCKKBFHZ2YIYJEFA"/>
+      <archive href="https://download.jetbrains.com/idea/ideaIC-2023.1.5.win.zip" size="937331596" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_OYAOZWEX2APCYYNXMVVJZ27YE4XPK75VPJAA5JJBKA6CIB7HCMEQ" main="bin/idea.sh" released="2023-07-25" stability="stable" version="2023.1.5">
+      <manifest-digest sha256new="OYAOZWEX2APCYYNXMVVJZ27YE4XPK75VPJAA5JJBKA6CIB7HCMEQ"/>
+      <archive extract="idea-IC-231.9392.1" href="https://download.jetbrains.com/idea/ideaIC-2023.1.5.tar.gz" size="938204327" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_QQUZTNQ4YNTHC33DR3H6O35QV5MXEVB2A4KEXCOUKT5NLDFGFH7Q" main="bin/idea.sh" released="2023-07-25" stability="stable" version="2023.1.5">
+      <manifest-digest sha256new="QQUZTNQ4YNTHC33DR3H6O35QV5MXEVB2A4KEXCOUKT5NLDFGFH7Q"/>
+      <archive extract="idea-IC-231.9392.1" href="https://download.jetbrains.com/idea/ideaIC-2023.1.5-aarch64.tar.gz" size="935630424" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_B6OECHYGU5GKXTMG3WDEHL4EUACENBS7236RB3LID7LRSAHN6HVQ" main="bin/idea64.exe" released="2024-02-16" stability="stable" version="2023.1.6">
+      <manifest-digest sha256new="B6OECHYGU5GKXTMG3WDEHL4EUACENBS7236RB3LID7LRSAHN6HVQ"/>
+      <archive href="https://download.jetbrains.com/idea/ideaIC-2023.1.6.win.zip" size="937484703" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_ICZZM4FYW2KQJQFZB3AVDJ7TCXP6POHJRXA3TVHYY4SNS2LGLA7Q" main="bin/idea.sh" released="2024-02-16" stability="stable" version="2023.1.6">
+      <manifest-digest sha256new="ICZZM4FYW2KQJQFZB3AVDJ7TCXP6POHJRXA3TVHYY4SNS2LGLA7Q"/>
+      <archive extract="idea-IC-231.9414.13" href="https://download.jetbrains.com/idea/ideaIC-2023.1.6.tar.gz" size="938387189" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_6CWB5LE6IRVOEWI5PX647OSDAX7CGW6L474TKC2M27KF3BF2VCLA" main="bin/idea.sh" released="2024-02-16" stability="stable" version="2023.1.6">
+      <manifest-digest sha256new="6CWB5LE6IRVOEWI5PX647OSDAX7CGW6L474TKC2M27KF3BF2VCLA"/>
+      <archive extract="idea-IC-231.9414.13" href="https://download.jetbrains.com/idea/ideaIC-2023.1.6-aarch64.tar.gz" size="935880397" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_CEZSOLV4CSLLVADZGZXFRZGVIAY673CG2FXFXYDHW5RFMOTP3EVA" main="bin/idea64.exe" released="2023-03-28" stability="stable" version="2023.1">
+      <manifest-digest sha256new="CEZSOLV4CSLLVADZGZXFRZGVIAY673CG2FXFXYDHW5RFMOTP3EVA"/>
+      <archive href="https://download.jetbrains.com/idea/ideaIC-2023.1.win.zip" size="935798775" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_DTDNXGAOIMD2QH5JOY2Q5MN2XUONGV7VZQAVRSMCKLWCZUSHPAOQ" main="bin/idea.sh" released="2023-03-28" stability="stable" version="2023.1">
+      <manifest-digest sha256new="DTDNXGAOIMD2QH5JOY2Q5MN2XUONGV7VZQAVRSMCKLWCZUSHPAOQ"/>
+      <archive extract="idea-IC-231.8109.175" href="https://download.jetbrains.com/idea/ideaIC-2023.1.tar.gz" size="936649014" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_LGVDIHPHWE5LM7YEVEMOXDZ5ZQTCFD3TIOKZZ25Q32MZLFJKRQVQ" main="bin/idea.sh" released="2023-03-28" stability="stable" version="2023.1">
+      <manifest-digest sha256new="LGVDIHPHWE5LM7YEVEMOXDZ5ZQTCFD3TIOKZZ25Q32MZLFJKRQVQ"/>
+      <archive extract="idea-IC-231.8109.175" href="https://download.jetbrains.com/idea/ideaIC-2023.1-aarch64.tar.gz" size="934075248" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_GNBLQI5JG6F7UBLPE4W5YIP6XQXDDG57Y52VFQ6VTO66ARR5Z4UQ" main="bin/idea64.exe" released="2023-08-23" stability="stable" version="2023.2.1">
+      <manifest-digest sha256new="GNBLQI5JG6F7UBLPE4W5YIP6XQXDDG57Y52VFQ6VTO66ARR5Z4UQ"/>
+      <archive href="https://download.jetbrains.com/idea/ideaIC-2023.2.1.win.zip" size="983436924" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_GR5IIJ7I2TIADJKI2HO4OJEIDK62A23SFQFZGSF5W7O2HD6VDIGA" main="bin/idea.sh" released="2023-08-23" stability="stable" version="2023.2.1">
+      <manifest-digest sha256new="GR5IIJ7I2TIADJKI2HO4OJEIDK62A23SFQFZGSF5W7O2HD6VDIGA"/>
+      <archive extract="idea-IC-232.9559.62" href="https://download.jetbrains.com/idea/ideaIC-2023.2.1.tar.gz" size="973050563" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_BSNYEL7C2ZBIMDJ4SJEJM7MMGKS7RE5B6R7EAJXQ6VWQDRLEXXJQ" main="bin/idea.sh" released="2023-08-23" stability="stable" version="2023.2.1">
+      <manifest-digest sha256new="BSNYEL7C2ZBIMDJ4SJEJM7MMGKS7RE5B6R7EAJXQ6VWQDRLEXXJQ"/>
+      <archive extract="idea-IC-232.9559.62" href="https://download.jetbrains.com/idea/ideaIC-2023.2.1-aarch64.tar.gz" size="974955793" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_2ZSO4YITNKLT2NB5ZZSUCMZS7X4H6KO5MSDXSNLLKM7W22KJ2I3Q" main="bin/idea64.exe" released="2023-09-13" stability="stable" version="2023.2.2">
+      <manifest-digest sha256new="2ZSO4YITNKLT2NB5ZZSUCMZS7X4H6KO5MSDXSNLLKM7W22KJ2I3Q"/>
+      <archive href="https://download.jetbrains.com/idea/ideaIC-2023.2.2.win.zip" size="984538521" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_UZNIQYEZRGXSCWH7KHGFYSFSDWB6WFWI6XZG55LD72W4KAHHA64Q" main="bin/idea.sh" released="2023-09-13" stability="stable" version="2023.2.2">
+      <manifest-digest sha256new="UZNIQYEZRGXSCWH7KHGFYSFSDWB6WFWI6XZG55LD72W4KAHHA64Q"/>
+      <archive extract="idea-IC-232.9921.47" href="https://download.jetbrains.com/idea/ideaIC-2023.2.2.tar.gz" size="974152883" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_4JOMV2X6GXNN4PQ5YWDKF4MAITUNVL2C7MVBVU2DPFIL2LDZ2ZOQ" main="bin/idea.sh" released="2023-09-13" stability="stable" version="2023.2.2">
+      <manifest-digest sha256new="4JOMV2X6GXNN4PQ5YWDKF4MAITUNVL2C7MVBVU2DPFIL2LDZ2ZOQ"/>
+      <archive extract="idea-IC-232.9921.47" href="https://download.jetbrains.com/idea/ideaIC-2023.2.2-aarch64.tar.gz" size="976076726" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_ZVHW73X73LW7W4TCVKZ4GG6PYWUFSPG4IMI7VJQDOT4EXEUZ2IAA" main="bin/idea64.exe" released="2023-10-11" stability="stable" version="2023.2.3">
+      <manifest-digest sha256new="ZVHW73X73LW7W4TCVKZ4GG6PYWUFSPG4IMI7VJQDOT4EXEUZ2IAA"/>
+      <archive href="https://download.jetbrains.com/idea/ideaIC-2023.2.3.win.zip" size="984773352" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_7JIELSYPDLKA6Q5JBSQEJ2RDAFWOMADDYVJ3JQY2LCPDPGWHEG7Q" main="bin/idea.sh" released="2023-10-11" stability="stable" version="2023.2.3">
+      <manifest-digest sha256new="7JIELSYPDLKA6Q5JBSQEJ2RDAFWOMADDYVJ3JQY2LCPDPGWHEG7Q"/>
+      <archive extract="idea-IC-232.10072.27" href="https://download.jetbrains.com/idea/ideaIC-2023.2.3.tar.gz" size="974257506" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_RAAACTX4TKPYY4D2VY6HMKZ2DAGIZKQS25TWCJSJMWXDCMLYN3GQ" main="bin/idea.sh" released="2023-10-11" stability="stable" version="2023.2.3">
+      <manifest-digest sha256new="RAAACTX4TKPYY4D2VY6HMKZ2DAGIZKQS25TWCJSJMWXDCMLYN3GQ"/>
+      <archive extract="idea-IC-232.10072.27" href="https://download.jetbrains.com/idea/ideaIC-2023.2.3-aarch64.tar.gz" size="976167712" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_33OP5KUHIGJZ3TASXEHNDRH5BWLCSDA5RO7QM7KAUBPA47UKZXIA" main="bin/idea64.exe" released="2023-10-24" stability="stable" version="2023.2.4">
+      <manifest-digest sha256new="33OP5KUHIGJZ3TASXEHNDRH5BWLCSDA5RO7QM7KAUBPA47UKZXIA"/>
+      <archive href="https://download.jetbrains.com/idea/ideaIC-2023.2.4.win.zip" size="984612061" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_VRGZZAJXQUI67GJIUZKTKHDJRXF7OP743WIQ362D5UCGQ3MOBMYA" main="bin/idea.sh" released="2023-10-24" stability="stable" version="2023.2.4">
+      <manifest-digest sha256new="VRGZZAJXQUI67GJIUZKTKHDJRXF7OP743WIQ362D5UCGQ3MOBMYA"/>
+      <archive extract="idea-IC-232.10203.10" href="https://download.jetbrains.com/idea/ideaIC-2023.2.4.tar.gz" size="974143871" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_2LAHTPIXV3GJ5B4MVKMUOSXMZYVIIFUJUTUCQOAWC7IKJSWZCLKA" main="bin/idea.sh" released="2023-10-24" stability="stable" version="2023.2.4">
+      <manifest-digest sha256new="2LAHTPIXV3GJ5B4MVKMUOSXMZYVIIFUJUTUCQOAWC7IKJSWZCLKA"/>
+      <archive extract="idea-IC-232.10203.10" href="https://download.jetbrains.com/idea/ideaIC-2023.2.4-aarch64.tar.gz" size="976054462" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_G6ZBXPVXHQR5MK4IDDIA6JDJIEAKXADJL5DK2SHBGNQFTAYD6PUA" main="bin/idea64.exe" released="2023-11-09" stability="stable" version="2023.2.5">
+      <manifest-digest sha256new="G6ZBXPVXHQR5MK4IDDIA6JDJIEAKXADJL5DK2SHBGNQFTAYD6PUA"/>
+      <archive href="https://download.jetbrains.com/idea/ideaIC-2023.2.5.win.zip" size="984498393" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_OZX6FCW3OM3VELIGSOAVOI2Q2VJLNOX6KZAMDU5EURCP77BALKLA" main="bin/idea.sh" released="2023-11-09" stability="stable" version="2023.2.5">
+      <manifest-digest sha256new="OZX6FCW3OM3VELIGSOAVOI2Q2VJLNOX6KZAMDU5EURCP77BALKLA"/>
+      <archive extract="idea-IC-232.10227.8" href="https://download.jetbrains.com/idea/ideaIC-2023.2.5.tar.gz" size="974169852" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_SLIN7JKQGLKFRWDTT53ZIEO4CDB6GLHIC6RTU5PDFFSAN2R52QVQ" main="bin/idea.sh" released="2023-11-09" stability="stable" version="2023.2.5">
+      <manifest-digest sha256new="SLIN7JKQGLKFRWDTT53ZIEO4CDB6GLHIC6RTU5PDFFSAN2R52QVQ"/>
+      <archive extract="idea-IC-232.10227.8" href="https://download.jetbrains.com/idea/ideaIC-2023.2.5-aarch64.tar.gz" size="976113145" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_6ITRZTP2FEIJDV3KTDNVP2LB5ARWHXGBC66LYJ3WOPW2I632VMUQ" main="bin/idea64.exe" released="2024-02-16" stability="stable" version="2023.2.6">
+      <manifest-digest sha256new="6ITRZTP2FEIJDV3KTDNVP2LB5ARWHXGBC66LYJ3WOPW2I632VMUQ"/>
+      <archive href="https://download.jetbrains.com/idea/ideaIC-2023.2.6.win.zip" size="984542183" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_IRGWN3WQNZZ7LNFULWURFB3H4UYAQPYQCASRGT2K7EI76Z2KGBYA" main="bin/idea.sh" released="2024-02-16" stability="stable" version="2023.2.6">
+      <manifest-digest sha256new="IRGWN3WQNZZ7LNFULWURFB3H4UYAQPYQCASRGT2K7EI76Z2KGBYA"/>
+      <archive extract="idea-IC-232.10300.40" href="https://download.jetbrains.com/idea/ideaIC-2023.2.6.tar.gz" size="974215871" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_5T5PGUCBHSQA7GR57GK6S32XWVRWHNZGVKXP7U25XYWJ4KEUEPEQ" main="bin/idea.sh" released="2024-02-16" stability="stable" version="2023.2.6">
+      <manifest-digest sha256new="5T5PGUCBHSQA7GR57GK6S32XWVRWHNZGVKXP7U25XYWJ4KEUEPEQ"/>
+      <archive extract="idea-IC-232.10300.40" href="https://download.jetbrains.com/idea/ideaIC-2023.2.6-aarch64.tar.gz" size="976130741" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_DVFYJO2GQIXYY4VJEIMSH4JKFCBIFC4WKGPGUBSSGGPGQC2W6CFQ" main="bin/idea64.exe" released="2023-07-26" stability="stable" version="2023.2">
+      <manifest-digest sha256new="DVFYJO2GQIXYY4VJEIMSH4JKFCBIFC4WKGPGUBSSGGPGQC2W6CFQ"/>
+      <archive href="https://download.jetbrains.com/idea/ideaIC-2023.2.win.zip" size="977138322" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_BBGB5YW37NK3GSV6R5QMWTCWEXOS2YIONYKIP3UTTFDCTMNXXTAQ" main="bin/idea.sh" released="2023-07-26" stability="stable" version="2023.2">
+      <manifest-digest sha256new="BBGB5YW37NK3GSV6R5QMWTCWEXOS2YIONYKIP3UTTFDCTMNXXTAQ"/>
+      <archive extract="idea-IC-232.8660.185" href="https://download.jetbrains.com/idea/ideaIC-2023.2.tar.gz" size="966649704" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_Z2RHDR4T2SYFZ5GBKF6L2TC23B6M6PARZAMIODY2ABDDJSE3GTLQ" main="bin/idea.sh" released="2023-07-26" stability="stable" version="2023.2">
+      <manifest-digest sha256new="Z2RHDR4T2SYFZ5GBKF6L2TC23B6M6PARZAMIODY2ABDDJSE3GTLQ"/>
+      <archive extract="idea-IC-232.8660.185" href="https://download.jetbrains.com/idea/ideaIC-2023.2-aarch64.tar.gz" size="968582333" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_4JQJDBGRAJRWE7VIHFCMYVEM4E2THTRCWU4BBZJFIKC5MQBQZ4LA" main="bin/idea64.exe" released="2023-12-12" stability="stable" version="2023.3.1">
+      <manifest-digest sha256new="4JQJDBGRAJRWE7VIHFCMYVEM4E2THTRCWU4BBZJFIKC5MQBQZ4LA"/>
+      <archive href="https://download.jetbrains.com/idea/ideaIC-2023.3.1.win.zip" size="813311988" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_7GSZMDCY4RB7WKAV36RA3KWA5LJCRY4O2NAHS3TCUNPZ2H63YOTA" main="bin/idea.sh" released="2023-12-12" stability="stable" version="2023.3.1">
+      <manifest-digest sha256new="7GSZMDCY4RB7WKAV36RA3KWA5LJCRY4O2NAHS3TCUNPZ2H63YOTA"/>
+      <archive extract="idea-IC-233.11799.300" href="https://download.jetbrains.com/idea/ideaIC-2023.3.1.tar.gz" size="803881760" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_YIFXD7OVDBVAIRU7UG4WXI6PDTUJORTZC3XDR4AAAUBJ7FOTEJYA" main="bin/idea.sh" released="2023-12-12" stability="stable" version="2023.3.1">
+      <manifest-digest sha256new="YIFXD7OVDBVAIRU7UG4WXI6PDTUJORTZC3XDR4AAAUBJ7FOTEJYA"/>
+      <archive extract="idea-IC-233.11799.300" href="https://download.jetbrains.com/idea/ideaIC-2023.3.1-aarch64.tar.gz" size="805087209" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_RB2JTEOSFAWDSLYEPW6MM36K2OGT57M5VRX746V5EV4XK2GL6NQA" main="bin/idea64.exe" released="2023-12-20" stability="stable" version="2023.3.2">
+      <manifest-digest sha256new="RB2JTEOSFAWDSLYEPW6MM36K2OGT57M5VRX746V5EV4XK2GL6NQA"/>
+      <archive href="https://download.jetbrains.com/idea/ideaIC-2023.3.2.win.zip" size="814468452" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_O63MUUBT2NIRBOPPWOU6UB42A3ICH4PERM77M5R5MEXNYX32C2IQ" main="bin/idea.sh" released="2023-12-20" stability="stable" version="2023.3.2">
+      <manifest-digest sha256new="O63MUUBT2NIRBOPPWOU6UB42A3ICH4PERM77M5R5MEXNYX32C2IQ"/>
+      <archive extract="idea-IC-233.13135.103" href="https://download.jetbrains.com/idea/ideaIC-2023.3.2.tar.gz" size="804698472" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_SASO3QLWK7KQMV5P2FTOLA7W5MKKWJZWP2X2C73PZOM5ZOXE6U6Q" main="bin/idea.sh" released="2023-12-20" stability="stable" version="2023.3.2">
+      <manifest-digest sha256new="SASO3QLWK7KQMV5P2FTOLA7W5MKKWJZWP2X2C73PZOM5ZOXE6U6Q"/>
+      <archive extract="idea-IC-233.13135.103" href="https://download.jetbrains.com/idea/ideaIC-2023.3.2-aarch64.tar.gz" size="805899997" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_7QJTKUTBPLQ2LOHIN5HK2ECOKIN43BTPHVI67ABYWZDR6LOQ4SNQ" main="bin/idea64.exe" released="2024-01-25" stability="stable" version="2023.3.3">
+      <manifest-digest sha256new="7QJTKUTBPLQ2LOHIN5HK2ECOKIN43BTPHVI67ABYWZDR6LOQ4SNQ"/>
+      <archive href="https://download.jetbrains.com/idea/ideaIC-2023.3.3.win.zip" size="825617457" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_LXGF6G23BJYWJZEJYOVELK542OHIETOJO563IABHLP67IF2A7AEQ" main="bin/idea.sh" released="2024-01-25" stability="stable" version="2023.3.3">
+      <manifest-digest sha256new="LXGF6G23BJYWJZEJYOVELK542OHIETOJO563IABHLP67IF2A7AEQ"/>
+      <archive extract="idea-IC-233.14015.106" href="https://download.jetbrains.com/idea/ideaIC-2023.3.3.tar.gz" size="815817613" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_DZZN6ZF5GEBY56MJNO5OO5DQH7SUHC5STPSJQC4CHGS3D6Y3TKTA" main="bin/idea.sh" released="2024-01-25" stability="stable" version="2023.3.3">
+      <manifest-digest sha256new="DZZN6ZF5GEBY56MJNO5OO5DQH7SUHC5STPSJQC4CHGS3D6Y3TKTA"/>
+      <archive extract="idea-IC-233.14015.106" href="https://download.jetbrains.com/idea/ideaIC-2023.3.3-aarch64.tar.gz" size="817025212" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_JZU73XQP7TAIMA5E4RKRBCC24H26OHRILWRBHD4FGFNP7Q34ZA2A" main="bin/idea64.exe" released="2024-02-13" stability="stable" version="2023.3.4">
+      <manifest-digest sha256new="JZU73XQP7TAIMA5E4RKRBCC24H26OHRILWRBHD4FGFNP7Q34ZA2A"/>
+      <archive href="https://download.jetbrains.com/idea/ideaIC-2023.3.4.win.zip" size="825702362" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_7Z3FWOO67S6JUDF6FQWLZ7YZZLGCBCSRPQ6UDLPSYXCH725WFMBQ" main="bin/idea.sh" released="2024-02-13" stability="stable" version="2023.3.4">
+      <manifest-digest sha256new="7Z3FWOO67S6JUDF6FQWLZ7YZZLGCBCSRPQ6UDLPSYXCH725WFMBQ"/>
+      <archive extract="idea-IC-233.14475.28" href="https://download.jetbrains.com/idea/ideaIC-2023.3.4.tar.gz" size="815935882" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_T2SQAIZZZUNVW4UKRKIHRJLOZYTEJB3GS4UXCXTX2KVHSMFMXEOA" main="bin/idea.sh" released="2024-02-13" stability="stable" version="2023.3.4">
+      <manifest-digest sha256new="T2SQAIZZZUNVW4UKRKIHRJLOZYTEJB3GS4UXCXTX2KVHSMFMXEOA"/>
+      <archive extract="idea-IC-233.14475.28" href="https://download.jetbrains.com/idea/ideaIC-2023.3.4-aarch64.tar.gz" size="817123037" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_XBXHBGPB6A3Q23VW6C5Z32DNG2SL4ILTNSCP5GS3PJZPO4NC3K4A" main="bin/idea64.exe" released="2024-03-12" stability="stable" version="2023.3.5">
+      <manifest-digest sha256new="XBXHBGPB6A3Q23VW6C5Z32DNG2SL4ILTNSCP5GS3PJZPO4NC3K4A"/>
+      <archive href="https://download.jetbrains.com/idea/ideaIC-2023.3.5.win.zip" size="825718029" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_5GOHPQ5VZIPDJ6QMDEOQNP7C3GLITRHYWTULSMHPJ5I5II752EBQ" main="bin/idea.sh" released="2024-03-12" stability="stable" version="2023.3.5">
+      <manifest-digest sha256new="5GOHPQ5VZIPDJ6QMDEOQNP7C3GLITRHYWTULSMHPJ5I5II752EBQ"/>
+      <archive extract="idea-IC-233.14808.21" href="https://download.jetbrains.com/idea/ideaIC-2023.3.5.tar.gz" size="815949614" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_53ELXHK3TNWAFAC42HKG5FIDH364RZ5WIUEPBEAH427Z5KGQVRXA" main="bin/idea.sh" released="2024-03-12" stability="stable" version="2023.3.5">
+      <manifest-digest sha256new="53ELXHK3TNWAFAC42HKG5FIDH364RZ5WIUEPBEAH427Z5KGQVRXA"/>
+      <archive extract="idea-IC-233.14808.21" href="https://download.jetbrains.com/idea/ideaIC-2023.3.5-aarch64.tar.gz" size="817137782" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_FSDTA6ACXZ3HFHKTLB3ABNXZDUH5QAS7YGDSVVPOYV6HAYPPGGBQ" main="bin/idea64.exe" released="2024-03-21" stability="stable" version="2023.3.6">
+      <manifest-digest sha256new="FSDTA6ACXZ3HFHKTLB3ABNXZDUH5QAS7YGDSVVPOYV6HAYPPGGBQ"/>
+      <archive href="https://download.jetbrains.com/idea/ideaIC-2023.3.6.win.zip" size="825729287" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_FNEVB7GL2AS5OFM6W3C7XMCDXV354G3MCSZASKQIALBFCVG2KIRQ" main="bin/idea.sh" released="2024-03-21" stability="stable" version="2023.3.6">
+      <manifest-digest sha256new="FNEVB7GL2AS5OFM6W3C7XMCDXV354G3MCSZASKQIALBFCVG2KIRQ"/>
+      <archive extract="idea-IC-233.15026.9" href="https://download.jetbrains.com/idea/ideaIC-2023.3.6.tar.gz" size="815924011" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_NTQ5NXAGLJHNEWRVWEUPPLFVWPIQLOVKABTGHPXOHSX2SWPMFN4Q" main="bin/idea.sh" released="2024-03-21" stability="stable" version="2023.3.6">
+      <manifest-digest sha256new="NTQ5NXAGLJHNEWRVWEUPPLFVWPIQLOVKABTGHPXOHSX2SWPMFN4Q"/>
+      <archive extract="idea-IC-233.15026.9" href="https://download.jetbrains.com/idea/ideaIC-2023.3.6-aarch64.tar.gz" size="817116538" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_6W2GWI7FXKJ254YYMHDSTEOZFTVZOKYTRE6YKJ4VLRQOBEITSXYA" main="bin/idea64.exe" released="2023-12-06" stability="stable" version="2023.3">
+      <manifest-digest sha256new="6W2GWI7FXKJ254YYMHDSTEOZFTVZOKYTRE6YKJ4VLRQOBEITSXYA"/>
+      <archive href="https://download.jetbrains.com/idea/ideaIC-2023.3.win.zip" size="813208834" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_F3SATXQ3GM4J2IJMLTUR2K32RPDFBFURFDLYO6MXGRDTBWEWH7SA" main="bin/idea.sh" released="2023-12-06" stability="stable" version="2023.3">
+      <manifest-digest sha256new="F3SATXQ3GM4J2IJMLTUR2K32RPDFBFURFDLYO6MXGRDTBWEWH7SA"/>
+      <archive extract="idea-IC-233.11799.241" href="https://download.jetbrains.com/idea/ideaIC-2023.3.tar.gz" size="803784854" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_QVKXRDXZCT6WIOCQQC2QZ4XEAW7VX5NOJYATNIKPNG6FPB6OI3DQ" main="bin/idea.sh" released="2023-12-06" stability="stable" version="2023.3">
+      <manifest-digest sha256new="QVKXRDXZCT6WIOCQQC2QZ4XEAW7VX5NOJYATNIKPNG6FPB6OI3DQ"/>
+      <archive extract="idea-IC-233.11799.241" href="https://download.jetbrains.com/idea/ideaIC-2023.3-aarch64.tar.gz" size="804996590" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_BTCNWLYYR6SBIRA2QAHRHDQZAJNAARSTNSBCOZATXMT7UGFMGY2Q" main="bin/idea64.exe" released="2024-04-04" stability="stable" version="2024.1">
+      <manifest-digest sha256new="BTCNWLYYR6SBIRA2QAHRHDQZAJNAARSTNSBCOZATXMT7UGFMGY2Q"/>
+      <archive href="https://download.jetbrains.com/idea/ideaIC-2024.1.win.zip" size="839348461" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_JZKDZLQ4RRO64QNET6XO5YU2Q7VVNVVZ4PVRHZC2POVLMDFGQUDA" main="bin/idea.sh" released="2024-04-04" stability="stable" version="2024.1">
+      <manifest-digest sha256new="JZKDZLQ4RRO64QNET6XO5YU2Q7VVNVVZ4PVRHZC2POVLMDFGQUDA"/>
+      <archive extract="idea-IC-241.14494.240" href="https://download.jetbrains.com/idea/ideaIC-2024.1.tar.gz" size="817447015" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_CZ42O6LOK2EAG76TVPZMBCOBWUBB7UJUOSOTMRPROCABZF6JEE4Q" main="bin/idea.sh" released="2024-04-04" stability="stable" version="2024.1">
+      <manifest-digest sha256new="CZ42O6LOK2EAG76TVPZMBCOBWUBB7UJUOSOTMRPROCABZF6JEE4Q"/>
+      <archive extract="idea-IC-241.14494.240" href="https://download.jetbrains.com/idea/ideaIC-2024.1-aarch64.tar.gz" size="817149507" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_IHS6PCPUJP7SAXP4H6I6QGIJMPIIFWJA75MQBDBIUXWLOPKBCBUQ" main="bin/idea64.exe" released="2024-04-30" stability="stable" version="2024.1.1">
+      <manifest-digest sha256new="IHS6PCPUJP7SAXP4H6I6QGIJMPIIFWJA75MQBDBIUXWLOPKBCBUQ"/>
+      <archive href="https://download.jetbrains.com/idea/ideaIC-2024.1.1.win.zip" size="840548175" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_FJMUZMGTZDV3BH4AMCBDCQU22RNIWVHDHENQVMMFPWDCKGCXFXJA" main="bin/idea.sh" released="2024-04-30" stability="stable" version="2024.1.1">
+      <manifest-digest sha256new="FJMUZMGTZDV3BH4AMCBDCQU22RNIWVHDHENQVMMFPWDCKGCXFXJA"/>
+      <archive extract="idea-IC-241.15989.150" href="https://download.jetbrains.com/idea/ideaIC-2024.1.1.tar.gz" size="818675061" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_LIAK36YUZAQBWFQQJ4KA67Y72SILZ3VXMWMRUD3SXGU5FLACHUIQ" main="bin/idea.sh" released="2024-04-30" stability="stable" version="2024.1.1">
+      <manifest-digest sha256new="LIAK36YUZAQBWFQQJ4KA67Y72SILZ3VXMWMRUD3SXGU5FLACHUIQ"/>
+      <archive extract="idea-IC-241.15989.150" href="https://download.jetbrains.com/idea/ideaIC-2024.1.1-aarch64.tar.gz" size="818376053" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_TJP4Y7T2LMT6WNQWNVUM3FTIFBPATOCXHGS5BMMG2SSKNTHM2C6A" main="bin/idea64.exe" released="2024-05-23" stability="stable" version="2024.1.2">
+      <manifest-digest sha256new="TJP4Y7T2LMT6WNQWNVUM3FTIFBPATOCXHGS5BMMG2SSKNTHM2C6A"/>
+      <archive href="https://download.jetbrains.com/idea/ideaIC-2024.1.2.win.zip" size="841005150" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_QRUMGP7QNEN7ZSUEPXZ4RRBBVMAXX3SNI4XAWB7I5TG7LIZB2OYA" main="bin/idea.sh" released="2024-05-23" stability="stable" version="2024.1.2">
+      <manifest-digest sha256new="QRUMGP7QNEN7ZSUEPXZ4RRBBVMAXX3SNI4XAWB7I5TG7LIZB2OYA"/>
+      <archive extract="idea-IC-241.17011.79" href="https://download.jetbrains.com/idea/ideaIC-2024.1.2.tar.gz" size="819182024" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_PGDK4XZZ4MVTMJGAZIGQIR64TQORHK6XFXTQW3VEI2UFIIDHHG5A" main="bin/idea.sh" released="2024-05-23" stability="stable" version="2024.1.2">
+      <manifest-digest sha256new="PGDK4XZZ4MVTMJGAZIGQIR64TQORHK6XFXTQW3VEI2UFIIDHHG5A"/>
+      <archive extract="idea-IC-241.17011.79" href="https://download.jetbrains.com/idea/ideaIC-2024.1.2-aarch64.tar.gz" size="818853263" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="idea" command="run"/>

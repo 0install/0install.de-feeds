@@ -10,44 +10,20 @@
   <feed-for interface="http://0install.de/feeds/IntelliJ_IDEA-Community.xml"/>
 
   <group>
-    <requires interface="https://apps.0install.net/java/jdk.xml">
-      <environment insert="lib/tools.jar" name="CLASS_PATH"/>
+    <requires interface="https://apps.0install.net/java/jdk.xml" version="8..!22" importance="recommended">
+      <environment insert="." mode="replace" name="JAVA_HOME"/>
+      <environment insert="." mode="replace" name="JDK_HOME"/>
+      <environment insert="bin" name="PATH"/>
     </requires>
-    <environment insert="." name="IDE_HOME"/>
-    <environment insert="bin" name="PATH"/>
-    <environment insert="lib/bootstrap.jar" name="CLASS_PATH"/>
-    <environment insert="lib/extensions.jar" name="CLASS_PATH"/>
-    <environment insert="lib/util.jar" name="CLASS_PATH"/>
-    <environment insert="lib/jdom.jar" name="CLASS_PATH"/>
-    <environment insert="lib/log4j.jar" name="CLASS_PATH"/>
-    <environment insert="lib/trove4j.jar" name="CLASS_PATH"/>
-    <environment insert="lib/jna.jar" name="CLASS_PATH"/>
-    <command name="run">
-      <runner command="java-gui" interface="https://apps.0install.net/java/jdk.xml" version="11..!15">
-        <arg>-server</arg>
-        <arg>-Xms128m</arg>
-        <arg>-Xmx512m</arg>
-        <arg>-XX:ReservedCodeCacheSize=240m</arg>
-        <arg>-XX:+UseConcMarkSweepGC</arg>
-        <arg>-XX:SoftRefLRUPolicyMSPerMB=50</arg>
-        <arg>-ea</arg>
-        <arg>-Dsun.io.useCanonCaches=false</arg>
-        <arg>-Djava.net.preferIPv4Stack=true</arg>
-        <arg>-XX:+HeapDumpOnOutOfMemoryError</arg>
-        <arg>-XX:-OmitStackTraceInFastThrow</arg>
-        <arg>-Xbootclasspath/a:$IDE_HOME/lib/boot.jar</arg>
-        <arg>-Didea.paths.selector=$IDEA_PATHS_SELECTOR</arg>
-        <arg>-cp</arg>
-        <arg>$CLASS_PATH</arg>
-        <arg>com.intellij.idea.Main</arg>
-      </runner>
-    </command>
 
-    <group>
-      <environment name="IDEA_PATHS_SELECTOR" value="IdeaIC{major-version}"/>
-      <implementation released="{released}" stability="stable" version="{version}">
-        <archive extract="idea-IC-{build}" href="https://download.jetbrains.com/idea/ideaIC-{version}-no-jbr.tar.gz" type="application/x-compressed-tar"/>
-      </implementation>
-    </group>
+    <implementation arch="Windows-x86_64" main="bin/idea64.exe" released="{released}" stability="stable" version="{version}">
+      <archive href="https://download.jetbrains.com/idea/ideaIC-{version}.win.zip" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" main="bin/idea.sh" released="{released}" stability="stable" version="{version}">
+      <archive extract="idea-IC-{build}" href="https://download.jetbrains.com/idea/ideaIC-{version}.tar.gz" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" main="bin/idea.sh" released="{released}" stability="stable" version="{version}">
+      <archive extract="idea-IC-{build}" href="https://download.jetbrains.com/idea/ideaIC-{version}-aarch64.tar.gz" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
 </interface>
