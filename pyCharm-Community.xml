@@ -794,6 +794,22 @@
       <manifest-digest sha256new="UTV3OMPMIM4SA7VKKPI3EDQIOQLZTQGO43YGTXKBQK3FM73WWWGQ"/>
       <archive extract="pycharm-community-2024.1.4" href="https://download.jetbrains.com/python/pycharm-community-2024.1.4-aarch64.tar.gz" size="640210318" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_EP43P3FHTSHPNZ5L6V4KZQXNZONNBPZGZS65HPJFKXOLYB4OR33A" main="bin/pycharm64.exe" released="2024-08-06" stability="stable" version="2024.1.5">
+      <manifest-digest sha256new="EP43P3FHTSHPNZ5L6V4KZQXNZONNBPZGZS65HPJFKXOLYB4OR33A"/>
+      <archive href="https://download.jetbrains.com/python/pycharm-community-2024.1.5.win.zip" size="671336778" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-aarch64" id="sha256new_4JOG2G3UQLGNW64RDN7NJGLHZXZGOZZIUWMCEGGRWYELRG4B5WMA" main="bin/pycharm64.exe" released="2024-08-06" stability="stable" version="2024.1.5">
+      <manifest-digest sha256new="4JOG2G3UQLGNW64RDN7NJGLHZXZGOZZIUWMCEGGRWYELRG4B5WMA"/>
+      <archive href="https://download.jetbrains.com/python/pycharm-community-2024.1.5-aarch64.win.zip" size="647075062" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_C4FXLJMS4CEKEXHG4HKVZ2DDGTJIZZUUEFGNZB4UJM4NFOUIZKQA" main="bin/pycharm.sh" released="2024-08-06" stability="stable" version="2024.1.5">
+      <manifest-digest sha256new="C4FXLJMS4CEKEXHG4HKVZ2DDGTJIZZUUEFGNZB4UJM4NFOUIZKQA"/>
+      <archive extract="pycharm-community-2024.1.5" href="https://download.jetbrains.com/python/pycharm-community-2024.1.5.tar.gz" size="640819487" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_6C4ORIFDJCVGXCQBGDN7SQRAXYRCE6PNJDHD7O6F7CJOLODMMQPQ" main="bin/pycharm.sh" released="2024-08-06" stability="stable" version="2024.1.5">
+      <manifest-digest sha256new="6C4ORIFDJCVGXCQBGDN7SQRAXYRCE6PNJDHD7O6F7CJOLODMMQPQ"/>
+      <archive extract="pycharm-community-2024.1.5" href="https://download.jetbrains.com/python/pycharm-community-2024.1.5-aarch64.tar.gz" size="640823853" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="pycharm" command="run"/>
