@@ -970,6 +970,38 @@
       <manifest-digest sha256new="IUHGLWAWIQONJRIFKIJHWVZUP7URCCZJAFMHLWUODJFMIYMI5BFQ"/>
       <archive extract="pycharm-community-2024.3" href="https://download.jetbrains.com/python/pycharm-community-2024.3-aarch64.tar.gz" size="716326087" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_F2NQICCVFISVMLT6EUVJT4LREHHOXZWW7STJ4WPF2QDUTLBNZJCQ" main="bin/pycharm64.exe" released="2024-11-28" stability="stable" version="2024.2.5">
+      <manifest-digest sha256new="F2NQICCVFISVMLT6EUVJT4LREHHOXZWW7STJ4WPF2QDUTLBNZJCQ"/>
+      <archive href="https://download.jetbrains.com/python/pycharm-community-2024.2.5.win.zip" size="684731840" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-aarch64" id="sha256new_Y5ZX2EFK3XB2TZ6JMQSN6AC5HZGXPEILOZUBMQCTRG6MR4WC76UQ" main="bin/pycharm64.exe" released="2024-11-28" stability="stable" version="2024.2.5">
+      <manifest-digest sha256new="Y5ZX2EFK3XB2TZ6JMQSN6AC5HZGXPEILOZUBMQCTRG6MR4WC76UQ"/>
+      <archive href="https://download.jetbrains.com/python/pycharm-community-2024.2.5-aarch64.win.zip" size="660317830" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_WWR73DIFLSPENE4QQHAFSVXRDRAQ6BMAGHU5DOMLXBWZ5ZQ3EGWQ" main="bin/pycharm.sh" released="2024-11-28" stability="stable" version="2024.2.5">
+      <manifest-digest sha256new="WWR73DIFLSPENE4QQHAFSVXRDRAQ6BMAGHU5DOMLXBWZ5ZQ3EGWQ"/>
+      <archive extract="pycharm-community-2024.2.5" href="https://download.jetbrains.com/python/pycharm-community-2024.2.5.tar.gz" size="654985590" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_WMLCYEIAKCHZYTAEXCB5BSDUBGW57VZGB2K6YPNDXXHMFPO7XZVA" main="bin/pycharm.sh" released="2024-11-28" stability="stable" version="2024.2.5">
+      <manifest-digest sha256new="WMLCYEIAKCHZYTAEXCB5BSDUBGW57VZGB2K6YPNDXXHMFPO7XZVA"/>
+      <archive extract="pycharm-community-2024.2.5" href="https://download.jetbrains.com/python/pycharm-community-2024.2.5-aarch64.tar.gz" size="654734145" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_BD3RVT5C2KAHQU2SAMSBIJYTAEJIZ6UNTYXWEPSVV4HWL5YLDHVA" main="bin/pycharm64.exe" released="2024-12-12" stability="stable" version="2024.3.1">
+      <manifest-digest sha256new="BD3RVT5C2KAHQU2SAMSBIJYTAEJIZ6UNTYXWEPSVV4HWL5YLDHVA"/>
+      <archive href="https://download.jetbrains.com/python/pycharm-community-2024.3.1.win.zip" size="754681327" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-aarch64" id="sha256new_XYXYYT7LZZKSSPU67JLYXKQ46GRR33XFGJ3DWRBGYJJV7MJR76NA" main="bin/pycharm64.exe" released="2024-12-12" stability="stable" version="2024.3.1">
+      <manifest-digest sha256new="XYXYYT7LZZKSSPU67JLYXKQ46GRR33XFGJ3DWRBGYJJV7MJR76NA"/>
+      <archive href="https://download.jetbrains.com/python/pycharm-community-2024.3.1-aarch64.win.zip" size="712755448" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_RPXSL6MSIL37S63VFB6SM7VSDPWFMCUDH4X5ZBM3U3YR56CSTSZA" main="bin/pycharm.sh" released="2024-12-12" stability="stable" version="2024.3.1">
+      <manifest-digest sha256new="RPXSL6MSIL37S63VFB6SM7VSDPWFMCUDH4X5ZBM3U3YR56CSTSZA"/>
+      <archive extract="pycharm-community-2024.3.1" href="https://download.jetbrains.com/python/pycharm-community-2024.3.1.tar.gz" size="715342701" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_LDGRY3QXDZRNL4VVRZD4PLIGFKW37FDPOKLWH4HMALP5IMZM5VBA" main="bin/pycharm.sh" released="2024-12-12" stability="stable" version="2024.3.1">
+      <manifest-digest sha256new="LDGRY3QXDZRNL4VVRZD4PLIGFKW37FDPOKLWH4HMALP5IMZM5VBA"/>
+      <archive extract="pycharm-community-2024.3.1" href="https://download.jetbrains.com/python/pycharm-community-2024.3.1-aarch64.tar.gz" size="715558932" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="pycharm" command="run"/>

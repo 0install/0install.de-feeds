@@ -912,6 +912,42 @@
       <manifest-digest sha256new="NGAH2U23POBIE5DTWQH3MR6C4N7BGD7465ZNTKPNGEONJHSW6MAA"/>
       <archive extract="GoLand-2024.2.3" href="https://download.jetbrains.com/go/goland-2024.2.3-aarch64.tar.gz" size="1003146660" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_RBNZHZPMX4TVMWJSOYGVGMXIEGPQZXNXI6ANTJWW2G3NBEV3SPQQ" main="bin/goland64.exe" released="2024-11-28" stability="stable" version="2024.2.4">
+      <manifest-digest sha256new="RBNZHZPMX4TVMWJSOYGVGMXIEGPQZXNXI6ANTJWW2G3NBEV3SPQQ"/>
+      <archive href="https://download.jetbrains.com/go/goland-2024.2.4.win.zip" size="1009768101" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_Y3E4TTJZWZ2ARJDWV2WXHEQPNTEASM2NDK6LTOTIBSXFWDACEMFA" main="bin/goland.sh" released="2024-11-28" stability="stable" version="2024.2.4">
+      <manifest-digest sha256new="Y3E4TTJZWZ2ARJDWV2WXHEQPNTEASM2NDK6LTOTIBSXFWDACEMFA"/>
+      <archive extract="GoLand-2024.2.4" href="https://download.jetbrains.com/go/goland-2024.2.4.tar.gz" size="1003972560" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_AEFSWDTA42VH6JGZIUENJDG4NN7ZEPSCBW6XTS7YDXEZRKTJSBGQ" main="bin/goland.sh" released="2024-11-28" stability="stable" version="2024.2.4">
+      <manifest-digest sha256new="AEFSWDTA42VH6JGZIUENJDG4NN7ZEPSCBW6XTS7YDXEZRKTJSBGQ"/>
+      <archive extract="GoLand-2024.2.4" href="https://download.jetbrains.com/go/goland-2024.2.4-aarch64.tar.gz" size="1003161909" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_NB7JYHONTNBDUOSF6KFFREHQ62OFTTBAR225YQQULS5SJG2JKW2Q" main="bin/goland64.exe" released="2024-12-12" stability="stable" version="2024.3.1">
+      <manifest-digest sha256new="NB7JYHONTNBDUOSF6KFFREHQ62OFTTBAR225YQQULS5SJG2JKW2Q"/>
+      <archive href="https://download.jetbrains.com/go/goland-2024.3.1.win.zip" size="1091022637" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_7RJMVADYBPVF6PM23M6QRRL2DJMK63KNBTOERPIFSF5HW7OMCKNQ" main="bin/goland.sh" released="2024-12-12" stability="stable" version="2024.3.1">
+      <manifest-digest sha256new="7RJMVADYBPVF6PM23M6QRRL2DJMK63KNBTOERPIFSF5HW7OMCKNQ"/>
+      <archive extract="GoLand-2024.3.1" href="https://download.jetbrains.com/go/goland-2024.3.1.tar.gz" size="1075472812" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_EIMXFOXHURRDYGUAZGYCDK3FSFYGIXNP3VCAQKERKPMDTXNBVLDA" main="bin/goland.sh" released="2024-12-12" stability="stable" version="2024.3.1">
+      <manifest-digest sha256new="EIMXFOXHURRDYGUAZGYCDK3FSFYGIXNP3VCAQKERKPMDTXNBVLDA"/>
+      <archive extract="GoLand-2024.3.1" href="https://download.jetbrains.com/go/goland-2024.3.1-aarch64.tar.gz" size="1075179505" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_NVTGSURFAAIBZJRMV73QMNC63EQIF7BGJQWXNCRQEUILOKB73A4A" main="bin/goland64.exe" released="2024-11-14" stability="stable" version="2024.3">
+      <manifest-digest sha256new="NVTGSURFAAIBZJRMV73QMNC63EQIF7BGJQWXNCRQEUILOKB73A4A"/>
+      <archive href="https://download.jetbrains.com/go/goland-2024.3.win.zip" size="1088880815" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_7QY4KXFZKOH75RQMSEDMHIGG6KKQ6MCVWLCDGLS6G3N47M6DC3VA" main="bin/goland.sh" released="2024-11-14" stability="stable" version="2024.3">
+      <manifest-digest sha256new="7QY4KXFZKOH75RQMSEDMHIGG6KKQ6MCVWLCDGLS6G3N47M6DC3VA"/>
+      <archive extract="GoLand-2024.3" href="https://download.jetbrains.com/go/goland-2024.3.tar.gz" size="1078025829" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_IC4M327QLV67BGVZDHI26ERQNBRL33QSDIJBZ22U7YHTC57EHI6Q" main="bin/goland.sh" released="2024-11-14" stability="stable" version="2024.3">
+      <manifest-digest sha256new="IC4M327QLV67BGVZDHI26ERQNBRL33QSDIJBZ22U7YHTC57EHI6Q"/>
+      <archive extract="GoLand-2024.3" href="https://download.jetbrains.com/go/goland-2024.3-aarch64.tar.gz" size="1077894616" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
 
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
