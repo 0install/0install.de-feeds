@@ -1088,6 +1088,22 @@
       <manifest-digest sha256new="AIM34NTSFJPCSHNAYLPT22EDQHIGGSWVN7XTMPSRPUP6LP2GQXVQ"/>
       <archive extract="JetBrains Rider-2024.3.5" href="https://download.jetbrains.com/rider/JetBrains.Rider-2024.3.5-aarch64.tar.gz" size="1899800470" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_2IYJB7KTSBBYFAQWFEMSSRICIWAJIYZZNWSKK2655S64KEHUCYFA" main="bin/rider64.exe" released="2025-02-28" stability="stable" version="2024.3.6">
+      <manifest-digest sha256new="2IYJB7KTSBBYFAQWFEMSSRICIWAJIYZZNWSKK2655S64KEHUCYFA"/>
+      <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2024.3.6.win.zip" size="2073958580" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-aarch64" id="sha256new_R3UYABETIFLBADJW2AXEZ23BCOCT2JNKMXU5FP5WPNUA56SOZTMQ" main="bin/rider64.exe" released="2025-02-28" stability="stable" version="2024.3.6">
+      <manifest-digest sha256new="R3UYABETIFLBADJW2AXEZ23BCOCT2JNKMXU5FP5WPNUA56SOZTMQ"/>
+      <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2024.3.6-aarch64.win.zip" size="2123377548" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_H44X2SBRP3GTLPIM5UHDHB2TRJ6VHWGQYJH6K5UZM3QXEQA4MYGQ" main="bin/rider.sh" released="2025-02-28" stability="stable" version="2024.3.6">
+      <manifest-digest sha256new="H44X2SBRP3GTLPIM5UHDHB2TRJ6VHWGQYJH6K5UZM3QXEQA4MYGQ"/>
+      <archive extract="JetBrains Rider-2024.3.6" href="https://download.jetbrains.com/rider/JetBrains.Rider-2024.3.6.tar.gz" size="1907343120" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_L2C3MZR3OKIB6A52QDUZAYT2K3A3MCCOMQ5QBVUMRNMDJT745YFA" main="bin/rider.sh" released="2025-02-28" stability="stable" version="2024.3.6">
+      <manifest-digest sha256new="L2C3MZR3OKIB6A52QDUZAYT2K3A3MCCOMQ5QBVUMRNMDJT745YFA"/>
+      <archive extract="JetBrains Rider-2024.3.6" href="https://download.jetbrains.com/rider/JetBrains.Rider-2024.3.6-aarch64.tar.gz" size="1897856920" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="rider" command="run"/>
@@ -1102,6 +1118,11 @@
       <description>Visual Studio solution</description>
       <verb args="&quot;%1&quot;" name="open"/>
       <extension mime-type="text/plain" value=".sln"/>
+    </file-type>
+    <file-type id="Rider.SlnxFile">
+      <description>Visual Studio XML solution</description>
+      <verb args="&quot;%1&quot;" name="open"/>
+      <extension mime-type="text/plain" value=".slnx"/>
     </file-type>
   </capabilities>
 </interface>
