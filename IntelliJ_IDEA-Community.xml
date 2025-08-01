@@ -1117,6 +1117,30 @@
       <manifest-digest sha256new="SJRP4BODIWR4SDLVQG77IHCSLLNKJKTDTHYL6WGBVT7WLQ7LPVJA"/>
       <archive extract="idea-IC-251.26094.121" href="https://download.jetbrains.com/idea/ideaIC-2025.1.2-aarch64.tar.gz" size="1147739667" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_CU2SYXGF2OGAT246KKTIPWM5EFAQM3JZ3O4YD7OZVYSTYY5OLWFA" main="bin/idea64.exe" released="2025-06-23" stability="stable" version="2025.1.3">
+      <manifest-digest sha256new="CU2SYXGF2OGAT246KKTIPWM5EFAQM3JZ3O4YD7OZVYSTYY5OLWFA"/>
+      <archive href="https://download.jetbrains.com/idea/ideaIC-2025.1.3.win.zip" size="1182416957" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_JP5UDORFLUJUCHOV7WZKJBVI7D5QDDQVGUSESQLRWWBF7MY4PW7Q" main="bin/idea.sh" released="2025-06-23" stability="stable" version="2025.1.3">
+      <manifest-digest sha256new="JP5UDORFLUJUCHOV7WZKJBVI7D5QDDQVGUSESQLRWWBF7MY4PW7Q"/>
+      <archive extract="idea-IC-251.26927.53" href="https://download.jetbrains.com/idea/ideaIC-2025.1.3.tar.gz" size="1155955148" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_6URCHYWO7OKAPFYDUWO3NG3TMZWAG54RL7IYWY2AVHTTRBHKF4PQ" main="bin/idea.sh" released="2025-06-23" stability="stable" version="2025.1.3">
+      <manifest-digest sha256new="6URCHYWO7OKAPFYDUWO3NG3TMZWAG54RL7IYWY2AVHTTRBHKF4PQ"/>
+      <archive extract="idea-IC-251.26927.53" href="https://download.jetbrains.com/idea/ideaIC-2025.1.3-aarch64.tar.gz" size="1155039689" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_UWBHHJWNXJAXSGEFOLGU6SHTS5ZQWLLSDASQ2WIBCR776L3LU2PQ" main="bin/idea64.exe" released="2025-07-25" stability="stable" version="2025.1.4.1">
+      <manifest-digest sha256new="UWBHHJWNXJAXSGEFOLGU6SHTS5ZQWLLSDASQ2WIBCR776L3LU2PQ"/>
+      <archive href="https://download.jetbrains.com/idea/ideaIC-2025.1.4.1.win.zip" size="1137294871" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_VMTR55KMNK2OOEVPSU3VR7IMXEMA2KPUOAY4WLOR2EMK5HYGIBPA" main="bin/idea.sh" released="2025-07-25" stability="stable" version="2025.1.4.1">
+      <manifest-digest sha256new="VMTR55KMNK2OOEVPSU3VR7IMXEMA2KPUOAY4WLOR2EMK5HYGIBPA"/>
+      <archive extract="idea-IC-251.27812.49" href="https://download.jetbrains.com/idea/ideaIC-2025.1.4.1.tar.gz" size="1113464188" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_RKWMR37WDJ2PJAIFX3HUYZCV524ZIXPQKHYVTGGOTKE6VNK25Z6Q" main="bin/idea.sh" released="2025-07-25" stability="stable" version="2025.1.4.1">
+      <manifest-digest sha256new="RKWMR37WDJ2PJAIFX3HUYZCV524ZIXPQKHYVTGGOTKE6VNK25Z6Q"/>
+      <archive extract="idea-IC-251.27812.49" href="https://download.jetbrains.com/idea/ideaIC-2025.1.4.1-aarch64.tar.gz" size="1110387599" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="idea" command="run"/>

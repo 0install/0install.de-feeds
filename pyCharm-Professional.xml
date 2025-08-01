@@ -1178,6 +1178,38 @@
       <manifest-digest sha256new="P4T7QLKO34HPJH5DPZGHZHCMBXS4Q77GJUTTNI5CVNY5HCAOQPPQ"/>
       <archive extract="pycharm-2025.1.2" href="https://download.jetbrains.com/python/pycharm-professional-2025.1.2-aarch64.tar.gz" size="1178743040" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_GVGPGVMFWWQ5NVZBVMQEGK2WCM3KRWZVVICRNACKIEBU7HO3LWLA" main="bin/pycharm64.exe" released="2025-07-11" stability="stable" version="2025.1.3.1">
+      <manifest-digest sha256new="GVGPGVMFWWQ5NVZBVMQEGK2WCM3KRWZVVICRNACKIEBU7HO3LWLA"/>
+      <archive href="https://download.jetbrains.com/python/pycharm-professional-2025.1.3.1.win.zip" size="1209624383" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-aarch64" id="sha256new_AN66SP5VVSTZVTP6P4IQ6EC6SPKMNROZCFJSEMVRMYNWWVCM2ZWQ" main="bin/pycharm64.exe" released="2025-07-11" stability="stable" version="2025.1.3.1">
+      <manifest-digest sha256new="AN66SP5VVSTZVTP6P4IQ6EC6SPKMNROZCFJSEMVRMYNWWVCM2ZWQ"/>
+      <archive href="https://download.jetbrains.com/python/pycharm-professional-2025.1.3.1-aarch64.win.zip" size="1167113660" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_Y2ZOCWSA7UTKUGDJTBP33MT776WTNHH25TPQNBHP5SZWCI4MMSDA" main="bin/pycharm.sh" released="2025-07-11" stability="stable" version="2025.1.3.1">
+      <manifest-digest sha256new="Y2ZOCWSA7UTKUGDJTBP33MT776WTNHH25TPQNBHP5SZWCI4MMSDA"/>
+      <archive extract="pycharm-2025.1.3.1" href="https://download.jetbrains.com/python/pycharm-professional-2025.1.3.1.tar.gz" size="1185371744" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_NKMPFK6HFZ64V7HN26W46FSEGJFJQKA4RWUP2SD2IXRWCGZ4ZPGQ" main="bin/pycharm.sh" released="2025-07-11" stability="stable" version="2025.1.3.1">
+      <manifest-digest sha256new="NKMPFK6HFZ64V7HN26W46FSEGJFJQKA4RWUP2SD2IXRWCGZ4ZPGQ"/>
+      <archive extract="pycharm-2025.1.3.1" href="https://download.jetbrains.com/python/pycharm-professional-2025.1.3.1-aarch64.tar.gz" size="1184238867" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_WFQC2IIVN6NZJU3I6H4XGH56X7XM6MEHWKORCWRQFTMM4RSNBLIA" main="bin/pycharm64.exe" released="2025-07-03" stability="stable" version="2025.1.3">
+      <manifest-digest sha256new="WFQC2IIVN6NZJU3I6H4XGH56X7XM6MEHWKORCWRQFTMM4RSNBLIA"/>
+      <archive href="https://download.jetbrains.com/python/pycharm-professional-2025.1.3.win.zip" size="1211406235" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-aarch64" id="sha256new_LSTBYJJQMUIJHA3BOMIKFFZP224VTY3ENABBMZZXU6PGRDDAV2DQ" main="bin/pycharm64.exe" released="2025-07-03" stability="stable" version="2025.1.3">
+      <manifest-digest sha256new="LSTBYJJQMUIJHA3BOMIKFFZP224VTY3ENABBMZZXU6PGRDDAV2DQ"/>
+      <archive href="https://download.jetbrains.com/python/pycharm-professional-2025.1.3-aarch64.win.zip" size="1168895528" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_CKU64GONAVRUIU2SMQ3ML7ZX4GGPDCOCESIQ3DGRQERO2D6KBGXA" main="bin/pycharm.sh" released="2025-07-03" stability="stable" version="2025.1.3">
+      <manifest-digest sha256new="CKU64GONAVRUIU2SMQ3ML7ZX4GGPDCOCESIQ3DGRQERO2D6KBGXA"/>
+      <archive extract="pycharm-2025.1.3" href="https://download.jetbrains.com/python/pycharm-professional-2025.1.3.tar.gz" size="1187171716" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_W6T6GXQBTXOXWZO3N32XMPCXEXJNKM2HETFAS45XEO66LQ32X53Q" main="bin/pycharm.sh" released="2025-07-03" stability="stable" version="2025.1.3">
+      <manifest-digest sha256new="W6T6GXQBTXOXWZO3N32XMPCXEXJNKM2HETFAS45XEO66LQ32X53Q"/>
+      <archive extract="pycharm-2025.1.3" href="https://download.jetbrains.com/python/pycharm-professional-2025.1.3-aarch64.tar.gz" size="1186030132" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="pycharm" command="run"/>
