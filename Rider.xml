@@ -1296,6 +1296,38 @@
       <manifest-digest sha256new="YGMVRGU5PUA3ECO7FSKCROIIRU67S6IYF4J5OPEY3PT7MH4M242Q"/>
       <archive extract="JetBrains Rider-2025.2" href="https://download.jetbrains.com/rider/JetBrains.Rider-2025.2-aarch64.tar.gz" size="1996675889" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_3EV3HQEXEWE5WRYPWYFQPLWX374P262N3MWPYRAWATLGDTCKXLKQ" main="bin/rider64.exe" released="2025-09-26" stability="stable" version="2025.2.2.1">
+      <manifest-digest sha256new="3EV3HQEXEWE5WRYPWYFQPLWX374P262N3MWPYRAWATLGDTCKXLKQ"/>
+      <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2025.2.2.1.win.zip" size="2287443156" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-aarch64" id="sha256new_QM3RMRV7AMU74MRAGRAXE47CMJJNX4PJ4GR2GOW5JNVP3CC5EYSA" main="bin/rider64.exe" released="2025-09-26" stability="stable" version="2025.2.2.1">
+      <manifest-digest sha256new="QM3RMRV7AMU74MRAGRAXE47CMJJNX4PJ4GR2GOW5JNVP3CC5EYSA"/>
+      <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2025.2.2.1-aarch64.win.zip" size="2239045796" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_PHKJP2UDKB5WGQKYUJHA4ZABVLQL2SCL3RNG2VGIWQ27ULXXRJHA" main="bin/rider.sh" released="2025-09-26" stability="stable" version="2025.2.2.1">
+      <manifest-digest sha256new="PHKJP2UDKB5WGQKYUJHA4ZABVLQL2SCL3RNG2VGIWQ27ULXXRJHA"/>
+      <archive extract="JetBrains Rider-2025.2.2.1" href="https://download.jetbrains.com/rider/JetBrains.Rider-2025.2.2.1.tar.gz" size="2014159967" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_5SOOPAMYPRS3H3OM6XYPDU66K7LG7Z6OKXRTIJ6AGZGGQDVLF7HA" main="bin/rider.sh" released="2025-09-26" stability="stable" version="2025.2.2.1">
+      <manifest-digest sha256new="5SOOPAMYPRS3H3OM6XYPDU66K7LG7Z6OKXRTIJ6AGZGGQDVLF7HA"/>
+      <archive extract="JetBrains Rider-2025.2.2.1" href="https://download.jetbrains.com/rider/JetBrains.Rider-2025.2.2.1-aarch64.tar.gz" size="2001561803" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_5PAF6TH6BMZXEINXXXSCSLM5DBZND3MVTVBQZ5FT7PDUQRORFGKA" main="bin/rider64.exe" released="2025-09-18" stability="stable" version="2025.2.2">
+      <manifest-digest sha256new="5PAF6TH6BMZXEINXXXSCSLM5DBZND3MVTVBQZ5FT7PDUQRORFGKA"/>
+      <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2025.2.2.win.zip" size="2287203073" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-aarch64" id="sha256new_HCRONENAOV7WXKVF32C5WGZDFDOWTHAAQG4JLPT3UQW2ZOWXS2RQ" main="bin/rider64.exe" released="2025-09-18" stability="stable" version="2025.2.2">
+      <manifest-digest sha256new="HCRONENAOV7WXKVF32C5WGZDFDOWTHAAQG4JLPT3UQW2ZOWXS2RQ"/>
+      <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2025.2.2-aarch64.win.zip" size="2238807147" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_HEAS7U2LL2UC5V3XBTSOVUESNQAANGRG4CQHOLYDOMLRRWIQMHSA" main="bin/rider.sh" released="2025-09-18" stability="stable" version="2025.2.2">
+      <manifest-digest sha256new="HEAS7U2LL2UC5V3XBTSOVUESNQAANGRG4CQHOLYDOMLRRWIQMHSA"/>
+      <archive extract="JetBrains Rider-2025.2.2" href="https://download.jetbrains.com/rider/JetBrains.Rider-2025.2.2.tar.gz" size="2013739432" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_I3HHYRCS34MNYW3WC5QYFTDDVCWKVJQDR5P6UVXCLMHNH5C5XVKQ" main="bin/rider.sh" released="2025-09-18" stability="stable" version="2025.2.2">
+      <manifest-digest sha256new="I3HHYRCS34MNYW3WC5QYFTDDVCWKVJQDR5P6UVXCLMHNH5C5XVKQ"/>
+      <archive extract="JetBrains Rider-2025.2.2" href="https://download.jetbrains.com/rider/JetBrains.Rider-2025.2.2-aarch64.tar.gz" size="2001128717" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="rider" command="run"/>
