@@ -1370,6 +1370,22 @@
       <manifest-digest sha256new="G6WFJQ6TUIGBKEVTU3CUW4X3M5SGJKPP36BUDAA2HJDLHSBFUYQA"/>
       <archive extract="pycharm-community-2025.1.6" href="https://download.jetbrains.com/python/pycharm-community-2025.1.6-aarch64.tar.gz" size="829743878" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_SH3LMBN3OY4FAPOM4BELN4FPA4QYZRVG4HDLQ6LEM62OHSEAP67Q" main="bin/pycharm64.exe" released="2025-11-28" stability="stable" version="2025.2.5">
+      <manifest-digest sha256new="SH3LMBN3OY4FAPOM4BELN4FPA4QYZRVG4HDLQ6LEM62OHSEAP67Q"/>
+      <archive href="https://download.jetbrains.com/python/pycharm-community-2025.2.5.win.zip" size="1069027785" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-aarch64" id="sha256new_U3J3JSJVDZJCKI7R66MAAS6RJMSLPA36ZXOR5U2B4U2MXMY22VOQ" main="bin/pycharm64.exe" released="2025-11-28" stability="stable" version="2025.2.5">
+      <manifest-digest sha256new="U3J3JSJVDZJCKI7R66MAAS6RJMSLPA36ZXOR5U2B4U2MXMY22VOQ"/>
+      <archive href="https://download.jetbrains.com/python/pycharm-community-2025.2.5-aarch64.win.zip" size="911750592" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_3CEVHPBPD3VF45PENSUO6QCTFDMF35T32OK6ZKDU7P4S5UN6Z2BA" main="bin/pycharm.sh" released="2025-11-28" stability="stable" version="2025.2.5">
+      <manifest-digest sha256new="3CEVHPBPD3VF45PENSUO6QCTFDMF35T32OK6ZKDU7P4S5UN6Z2BA"/>
+      <archive extract="pycharm-community-2025.2.5" href="https://download.jetbrains.com/python/pycharm-community-2025.2.5.tar.gz" size="921590103" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_LXAVIFEHWKIEP5FZNV5DEAVANBQ7HYHXX5SVJVGUEBMU7I57WFXA" main="bin/pycharm.sh" released="2025-11-28" stability="stable" version="2025.2.5">
+      <manifest-digest sha256new="LXAVIFEHWKIEP5FZNV5DEAVANBQ7HYHXX5SVJVGUEBMU7I57WFXA"/>
+      <archive extract="pycharm-community-2025.2.5" href="https://download.jetbrains.com/python/pycharm-community-2025.2.5-aarch64.tar.gz" size="919409169" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="pycharm" command="run"/>
