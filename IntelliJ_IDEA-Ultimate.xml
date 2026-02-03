@@ -1333,6 +1333,18 @@
       <manifest-digest sha256new="RYB4KCHGY5TFPA6XRDR4PRYESZ57CSKLFIKWJNGH4K4XUO6L7UFQ"/>
       <archive extract="idea-IU-253.29346.138" href="https://download.jetbrains.com/idea/ideaIU-2025.3.1-aarch64.tar.gz" size="1512282519" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_RP56SUTPVS7FMUDMACOAKOV7DCGEA2ISLU5WLYA4GT7H2CUZUMSQ" main="bin/idea64.exe" released="2026-01-22" stability="stable" version="2025.3.2">
+      <manifest-digest sha256new="RP56SUTPVS7FMUDMACOAKOV7DCGEA2ISLU5WLYA4GT7H2CUZUMSQ"/>
+      <archive href="https://download.jetbrains.com/idea/ideaIU-2025.3.2.win.zip" size="1527154973" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_RRPNZPWWTYZO6GUBWFU45CVGHTTG3Y57EBM23NIFRMHKF3EJV7RQ" main="bin/idea.sh" released="2026-01-22" stability="stable" version="2025.3.2">
+      <manifest-digest sha256new="RRPNZPWWTYZO6GUBWFU45CVGHTTG3Y57EBM23NIFRMHKF3EJV7RQ"/>
+      <archive extract="idea-IU-253.30387.90" href="https://download.jetbrains.com/idea/ideaIU-2025.3.2.tar.gz" size="1514917780" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_YENILR24SSJYLTDKEQWKSQ6FZZEQANBKG3ULLOKX2CY3K5XGW4DA" main="bin/idea.sh" released="2026-01-22" stability="stable" version="2025.3.2">
+      <manifest-digest sha256new="YENILR24SSJYLTDKEQWKSQ6FZZEQANBKG3ULLOKX2CY3K5XGW4DA"/>
+      <archive extract="idea-IU-253.30387.90" href="https://download.jetbrains.com/idea/ideaIU-2025.3.2-aarch64.tar.gz" size="1510633096" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="idea" command="run"/>
