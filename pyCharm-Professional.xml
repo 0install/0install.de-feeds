@@ -1530,6 +1530,86 @@
       <manifest-digest sha256new="2IAWQA46O3R6P7UMDRN4CXAP2KL3Y2RRVMJ7F73L2O66IHWTI22Q"/>
       <archive extract="pycharm-2026.1" href="https://download.jetbrains.com/python/pycharm-professional-2026.1-aarch64.tar.gz" size="1212974472" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_GGTIWZLCZS4DFJHOMBMGXZRHSWV3X6DUUNRDEYEGMH7Z34RX2VPA" main="bin/pycharm64.exe" released="2026-04-30" stability="stable" version="2024.3.6.1">
+      <manifest-digest sha256new="GGTIWZLCZS4DFJHOMBMGXZRHSWV3X6DUUNRDEYEGMH7Z34RX2VPA"/>
+      <archive href="https://download.jetbrains.com/python/pycharm-professional-2024.3.6.1.win.zip" size="1196694742" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-aarch64" id="sha256new_4Q4XE737UI6GYSUJJNX3XJDB4YDOP4DA3UYAKM3UZRDU4TAJL4NA" main="bin/pycharm64.exe" released="2026-04-30" stability="stable" version="2024.3.6.1">
+      <manifest-digest sha256new="4Q4XE737UI6GYSUJJNX3XJDB4YDOP4DA3UYAKM3UZRDU4TAJL4NA"/>
+      <archive href="https://download.jetbrains.com/python/pycharm-professional-2024.3.6.1-aarch64.win.zip" size="1154742250" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_Q3A3H54TJ4XUR4PMUCIFZ2PEKCC6EDCBZPAYCPWIRUEIMWCCSFHA" main="bin/pycharm.sh" released="2026-04-30" stability="stable" version="2024.3.6.1">
+      <manifest-digest sha256new="Q3A3H54TJ4XUR4PMUCIFZ2PEKCC6EDCBZPAYCPWIRUEIMWCCSFHA"/>
+      <archive extract="pycharm-2024.3.6.1" href="https://download.jetbrains.com/python/pycharm-professional-2024.3.6.1.tar.gz" size="1166971498" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_GPMJVZWIYCTOOG5UURRFMG7RC74LRJ43BSMAWHTZEDHIJFQLQSQA" main="bin/pycharm.sh" released="2026-04-30" stability="stable" version="2024.3.6.1">
+      <manifest-digest sha256new="GPMJVZWIYCTOOG5UURRFMG7RC74LRJ43BSMAWHTZEDHIJFQLQSQA"/>
+      <archive extract="pycharm-2024.3.6.1" href="https://download.jetbrains.com/python/pycharm-professional-2024.3.6.1-aarch64.tar.gz" size="1166675425" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_K6E2X3QSQVYBP6SPEFKVTFWOCDBXKGT3IPEGRLWS7MFNCZBBWCKA" main="bin/pycharm64.exe" released="2026-04-30" stability="stable" version="2025.1.6.1">
+      <manifest-digest sha256new="K6E2X3QSQVYBP6SPEFKVTFWOCDBXKGT3IPEGRLWS7MFNCZBBWCKA"/>
+      <archive href="https://download.jetbrains.com/python/pycharm-professional-2025.1.6.1.win.zip" size="1164926582" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-aarch64" id="sha256new_Y4SYOLF3CH3M63Z5XCXFUKWOXAQ53QZL74726MK4UG726H6WHF7Q" main="bin/pycharm64.exe" released="2026-04-30" stability="stable" version="2025.1.6.1">
+      <manifest-digest sha256new="Y4SYOLF3CH3M63Z5XCXFUKWOXAQ53QZL74726MK4UG726H6WHF7Q"/>
+      <archive href="https://download.jetbrains.com/python/pycharm-professional-2025.1.6.1-aarch64.win.zip" size="1121820420" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_BXYECWQIQG2HER77NVKK3IYTRIGNOJ3PYLAHC7PNRBWGS63KCWXA" main="bin/pycharm.sh" released="2026-04-30" stability="stable" version="2025.1.6.1">
+      <manifest-digest sha256new="BXYECWQIQG2HER77NVKK3IYTRIGNOJ3PYLAHC7PNRBWGS63KCWXA"/>
+      <archive extract="pycharm-2025.1.6.1" href="https://download.jetbrains.com/python/pycharm-professional-2025.1.6.1.tar.gz" size="1143458674" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_4HP2ETEL5CM2MJW64F5BQTFAE4M26HYULKR3TKXA3P4TFTKUCJ7A" main="bin/pycharm.sh" released="2026-04-30" stability="stable" version="2025.1.6.1">
+      <manifest-digest sha256new="4HP2ETEL5CM2MJW64F5BQTFAE4M26HYULKR3TKXA3P4TFTKUCJ7A"/>
+      <archive extract="pycharm-2025.1.6.1" href="https://download.jetbrains.com/python/pycharm-professional-2025.1.6.1-aarch64.tar.gz" size="1139983959" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_QS342IELSIY744VIMITNJBV5QH5E4TXS5VHRMASY3K34DMZHI36Q" main="bin/pycharm64.exe" released="2026-04-30" stability="stable" version="2025.2.6.1">
+      <manifest-digest sha256new="QS342IELSIY744VIMITNJBV5QH5E4TXS5VHRMASY3K34DMZHI36Q"/>
+      <archive href="https://download.jetbrains.com/python/pycharm-professional-2025.2.6.1.win.zip" size="1393277731" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-aarch64" id="sha256new_K4FI7XLESU6IFGWDW3UP3MMT3GE6PB5YW5E2XLRPE2OLUUM72OGQ" main="bin/pycharm64.exe" released="2026-04-30" stability="stable" version="2025.2.6.1">
+      <manifest-digest sha256new="K4FI7XLESU6IFGWDW3UP3MMT3GE6PB5YW5E2XLRPE2OLUUM72OGQ"/>
+      <archive href="https://download.jetbrains.com/python/pycharm-professional-2025.2.6.1-aarch64.win.zip" size="1235958501" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_7S6Y2UJHE6MO2IWKZHPPKIGYQRMTFIHQXFIOECLC5YNMSWGP5YIA" main="bin/pycharm.sh" released="2026-04-30" stability="stable" version="2025.2.6.1">
+      <manifest-digest sha256new="7S6Y2UJHE6MO2IWKZHPPKIGYQRMTFIHQXFIOECLC5YNMSWGP5YIA"/>
+      <archive extract="pycharm-2025.2.6.1" href="https://download.jetbrains.com/python/pycharm-professional-2025.2.6.1.tar.gz" size="1258962902" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_DI4PV36EIHRLQPY2AQPXBRQSYJKT6LOPQTNFFMOXLNULQZZDYS2A" main="bin/pycharm.sh" released="2026-04-30" stability="stable" version="2025.2.6.1">
+      <manifest-digest sha256new="DI4PV36EIHRLQPY2AQPXBRQSYJKT6LOPQTNFFMOXLNULQZZDYS2A"/>
+      <archive extract="pycharm-2025.2.6.1" href="https://download.jetbrains.com/python/pycharm-professional-2025.2.6.1-aarch64.tar.gz" size="1256196386" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_V5PWZS2ZQOM2H33QMSWU4XRZDLQTPLLVNSYDPUH5XYYDQJFHQQHA" main="bin/pycharm64.exe" released="2026-04-30" stability="stable" version="2025.3.4.1">
+      <manifest-digest sha256new="V5PWZS2ZQOM2H33QMSWU4XRZDLQTPLLVNSYDPUH5XYYDQJFHQQHA"/>
+      <archive href="https://download.jetbrains.com/python/pycharm-professional-2025.3.4.1.win.zip" size="1234804037" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-aarch64" id="sha256new_BLP7IZMYRGKZ2ELII5WRH2L3YSZQM5VDMPLN7YL7VIQA4DZEK3MA" main="bin/pycharm64.exe" released="2026-04-30" stability="stable" version="2025.3.4.1">
+      <manifest-digest sha256new="BLP7IZMYRGKZ2ELII5WRH2L3YSZQM5VDMPLN7YL7VIQA4DZEK3MA"/>
+      <archive href="https://download.jetbrains.com/python/pycharm-professional-2025.3.4.1-aarch64.win.zip" size="1192588202" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_M2WNL4YC6OUYKANPHUQZDVIYKCTNNFOEGSKH5PQZGINAQSAKJ5RA" main="bin/pycharm.sh" released="2026-04-30" stability="stable" version="2025.3.4.1">
+      <manifest-digest sha256new="M2WNL4YC6OUYKANPHUQZDVIYKCTNNFOEGSKH5PQZGINAQSAKJ5RA"/>
+      <archive extract="pycharm-2025.3.4.1" href="https://download.jetbrains.com/python/pycharm-professional-2025.3.4.1.tar.gz" size="1210454466" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_2LXAMLQ7YCSUCR4OBE4V3D2B3KA5ZF6NIQ2RFG7EFAK2AEQP4BQQ" main="bin/pycharm.sh" released="2026-04-30" stability="stable" version="2025.3.4.1">
+      <manifest-digest sha256new="2LXAMLQ7YCSUCR4OBE4V3D2B3KA5ZF6NIQ2RFG7EFAK2AEQP4BQQ"/>
+      <archive extract="pycharm-2025.3.4.1" href="https://download.jetbrains.com/python/pycharm-professional-2025.3.4.1-aarch64.tar.gz" size="1206175341" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_LPFYM44VU52BVIVRIIXTNSUSRLIRX4YSXDP4PYFXWPHD5J3EPKBA" main="bin/pycharm64.exe" released="2026-04-28" stability="stable" version="2026.1.1">
+      <manifest-digest sha256new="LPFYM44VU52BVIVRIIXTNSUSRLIRX4YSXDP4PYFXWPHD5J3EPKBA"/>
+      <archive href="https://download.jetbrains.com/python/pycharm-professional-2026.1.1.win.zip" size="1243159376" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-aarch64" id="sha256new_3FGQJZXSEJLOZAHSCHBJF4HBUGGKZLAGXHBIIVTLSKG2ULGQN6IA" main="bin/pycharm64.exe" released="2026-04-28" stability="stable" version="2026.1.1">
+      <manifest-digest sha256new="3FGQJZXSEJLOZAHSCHBJF4HBUGGKZLAGXHBIIVTLSKG2ULGQN6IA"/>
+      <archive href="https://download.jetbrains.com/python/pycharm-professional-2026.1.1-aarch64.win.zip" size="1226723384" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_NZ2REVVNCNCDR3HPX6AN74U536RGHTUWINPSQLD5CTE3OAGKAAYA" main="bin/pycharm.sh" released="2026-04-28" stability="stable" version="2026.1.1">
+      <manifest-digest sha256new="NZ2REVVNCNCDR3HPX6AN74U536RGHTUWINPSQLD5CTE3OAGKAAYA"/>
+      <archive extract="pycharm-2026.1.1" href="https://download.jetbrains.com/python/pycharm-professional-2026.1.1.tar.gz" size="1216500497" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_NHLD7RNJ2SLIKBDEBQS6J4JOTUUYMW2W5WSLRDRTMPHALHIPO4ZA" main="bin/pycharm.sh" released="2026-04-28" stability="stable" version="2026.1.1">
+      <manifest-digest sha256new="NHLD7RNJ2SLIKBDEBQS6J4JOTUUYMW2W5WSLRDRTMPHALHIPO4ZA"/>
+      <archive extract="pycharm-2026.1.1" href="https://download.jetbrains.com/python/pycharm-professional-2026.1.1-aarch64.tar.gz" size="1211885841" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="pycharm" command="run"/>

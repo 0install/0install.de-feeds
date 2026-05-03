@@ -1584,6 +1584,86 @@
       <manifest-digest sha256new="FSWFX6ZIN4SA4YB7HROPDZNLSM4ZAZE3AAGKVOL5QZQJKKEIJUZA"/>
       <archive extract="JetBrains Rider-2026.1.0.1" href="https://download.jetbrains.com/rider/JetBrains.Rider-2026.1.0.1-aarch64.tar.gz" size="2082600231" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_3NXKFZXCP54AEQBZZMRYHYZ6TYUKK5PVMU4EEMIRBAAQPY345KYA" main="bin/rider64.exe" released="2026-04-30" stability="stable" version="2024.3.10">
+      <manifest-digest sha256new="3NXKFZXCP54AEQBZZMRYHYZ6TYUKK5PVMU4EEMIRBAAQPY345KYA"/>
+      <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2024.3.10.win.zip" size="2074427411" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-aarch64" id="sha256new_7ILCYVNRMU6MWGZ6BYM4KTBHHMIJQ567BTHJI2T6TB6ZKCEVWMXA" main="bin/rider64.exe" released="2026-04-30" stability="stable" version="2024.3.10">
+      <manifest-digest sha256new="7ILCYVNRMU6MWGZ6BYM4KTBHHMIJQ567BTHJI2T6TB6ZKCEVWMXA"/>
+      <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2024.3.10-aarch64.win.zip" size="2123853229" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_SEYXL2QFUFFZUBVDR3UE4D4LQID65V7MAB4ZWJLKRTDDM44ZZPYA" main="bin/rider.sh" released="2026-04-30" stability="stable" version="2024.3.10">
+      <manifest-digest sha256new="SEYXL2QFUFFZUBVDR3UE4D4LQID65V7MAB4ZWJLKRTDDM44ZZPYA"/>
+      <archive extract="JetBrains Rider-2024.3.10" href="https://download.jetbrains.com/rider/JetBrains.Rider-2024.3.10.tar.gz" size="1907998751" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_PAM4ZERFEFFGKSRBIIOVJIE6CJ74IBJWVSBIKZEXEQ3YGWJ7QYEA" main="bin/rider.sh" released="2026-04-30" stability="stable" version="2024.3.10">
+      <manifest-digest sha256new="PAM4ZERFEFFGKSRBIIOVJIE6CJ74IBJWVSBIKZEXEQ3YGWJ7QYEA"/>
+      <archive extract="JetBrains Rider-2024.3.10" href="https://download.jetbrains.com/rider/JetBrains.Rider-2024.3.10-aarch64.tar.gz" size="1898518895" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_W4PZACWM4ZHTTOO5GNVSOTJYZIOU6RSPIKODUQ2XLQUVWORLASOQ" main="bin/rider64.exe" released="2026-04-30" stability="stable" version="2025.1.9">
+      <manifest-digest sha256new="W4PZACWM4ZHTTOO5GNVSOTJYZIOU6RSPIKODUQ2XLQUVWORLASOQ"/>
+      <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2025.1.9.win.zip" size="2056716132" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-aarch64" id="sha256new_RXYEGDBGXJJNRRUBMJ7GFUQ7OXPEYF7ALDK6ZHTFM5YOFD55A4VQ" main="bin/rider64.exe" released="2026-04-30" stability="stable" version="2025.1.9">
+      <manifest-digest sha256new="RXYEGDBGXJJNRRUBMJ7GFUQ7OXPEYF7ALDK6ZHTFM5YOFD55A4VQ"/>
+      <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2025.1.9-aarch64.win.zip" size="2120539869" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_E2VRCJXU6YE4IQNJJ3M6IQSDVS2TMQHZXYY6RGPWKVHVGDRHGA6Q" main="bin/rider.sh" released="2026-04-30" stability="stable" version="2025.1.9">
+      <manifest-digest sha256new="E2VRCJXU6YE4IQNJJ3M6IQSDVS2TMQHZXYY6RGPWKVHVGDRHGA6Q"/>
+      <archive extract="JetBrains Rider-2025.1.9" href="https://download.jetbrains.com/rider/JetBrains.Rider-2025.1.9.tar.gz" size="1897764704" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_KTZIOGIZKFQG6ANTZEZ34SM3DD5JEMRG6LCLLQBMWI2LMP3UMPIA" main="bin/rider.sh" released="2026-04-30" stability="stable" version="2025.1.9">
+      <manifest-digest sha256new="KTZIOGIZKFQG6ANTZEZ34SM3DD5JEMRG6LCLLQBMWI2LMP3UMPIA"/>
+      <archive extract="JetBrains Rider-2025.1.9" href="https://download.jetbrains.com/rider/JetBrains.Rider-2025.1.9-aarch64.tar.gz" size="1885251426" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_6FIHOSDFBKJX5CIBZGHPL22MNB4QAGNH5PB7YRBXYQFNQAQ5SNDA" main="bin/rider64.exe" released="2026-04-30" stability="stable" version="2025.2.6">
+      <manifest-digest sha256new="6FIHOSDFBKJX5CIBZGHPL22MNB4QAGNH5PB7YRBXYQFNQAQ5SNDA"/>
+      <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2025.2.6.win.zip" size="2307279011" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-aarch64" id="sha256new_QFFLWVXO4WHHWAGCWKQHOYVKDVXTRB3IATTJDEVZ6DOFONX35VNQ" main="bin/rider64.exe" released="2026-04-30" stability="stable" version="2025.2.6">
+      <manifest-digest sha256new="QFFLWVXO4WHHWAGCWKQHOYVKDVXTRB3IATTJDEVZ6DOFONX35VNQ"/>
+      <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2025.2.6-aarch64.win.zip" size="2242920748" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_ORYM36SCFQSJI5SBDVWZVK6O3IJOGGKMK7UEPTDQE7TA7HCYJJBQ" main="bin/rider.sh" released="2026-04-30" stability="stable" version="2025.2.6">
+      <manifest-digest sha256new="ORYM36SCFQSJI5SBDVWZVK6O3IJOGGKMK7UEPTDQE7TA7HCYJJBQ"/>
+      <archive extract="JetBrains Rider-2025.2.6" href="https://download.jetbrains.com/rider/JetBrains.Rider-2025.2.6.tar.gz" size="1967816447" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_FMDI3Z7IJCTKHNOF7NRX2G2YGZFMSIWT472ZKJE5U4RGRDCORB4A" main="bin/rider.sh" released="2026-04-30" stability="stable" version="2025.2.6">
+      <manifest-digest sha256new="FMDI3Z7IJCTKHNOF7NRX2G2YGZFMSIWT472ZKJE5U4RGRDCORB4A"/>
+      <archive extract="JetBrains Rider-2025.2.6" href="https://download.jetbrains.com/rider/JetBrains.Rider-2025.2.6-aarch64.tar.gz" size="1954250341" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_3BOOTGHYLLO2TL4WUQFMPFEFW3BNC5HYDHGAVQOBO25IGQQQQ6UA" main="bin/rider64.exe" released="2026-04-30" stability="stable" version="2025.3.4.1">
+      <manifest-digest sha256new="3BOOTGHYLLO2TL4WUQFMPFEFW3BNC5HYDHGAVQOBO25IGQQQQ6UA"/>
+      <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2025.3.4.1.win.zip" size="2330479366" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-aarch64" id="sha256new_JCECEDNOM323FVHUSB5E7VHJXS4W2UZ3YX7FMP5JVGFR3IDWV62A" main="bin/rider64.exe" released="2026-04-30" stability="stable" version="2025.3.4.1">
+      <manifest-digest sha256new="JCECEDNOM323FVHUSB5E7VHJXS4W2UZ3YX7FMP5JVGFR3IDWV62A"/>
+      <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2025.3.4.1-aarch64.win.zip" size="2403235928" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_K6JCUFVE24VKNFPSFRE446T7L3XNUM3IP5JPZ4WJF4NUEV665BVQ" main="bin/rider.sh" released="2026-04-30" stability="stable" version="2025.3.4.1">
+      <manifest-digest sha256new="K6JCUFVE24VKNFPSFRE446T7L3XNUM3IP5JPZ4WJF4NUEV665BVQ"/>
+      <archive extract="JetBrains Rider-2025.3.4.1" href="https://download.jetbrains.com/rider/JetBrains.Rider-2025.3.4.1.tar.gz" size="2005466034" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_EVSZRD35TFODPEVZBWLREEA4Q7DHUFSF6X6R7SVZA5VKDU4Y42KQ" main="bin/rider.sh" released="2026-04-30" stability="stable" version="2025.3.4.1">
+      <manifest-digest sha256new="EVSZRD35TFODPEVZBWLREEA4Q7DHUFSF6X6R7SVZA5VKDU4Y42KQ"/>
+      <archive extract="JetBrains Rider-2025.3.4.1" href="https://download.jetbrains.com/rider/JetBrains.Rider-2025.3.4.1-aarch64.tar.gz" size="1992982783" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_5AQWABTLKKJLUHVNRF4YA3F6JCFFT4UWZ4BOW7ZEUILZCWLCN4FQ" main="bin/rider64.exe" released="2026-04-27" stability="stable" version="2026.1.1">
+      <manifest-digest sha256new="5AQWABTLKKJLUHVNRF4YA3F6JCFFT4UWZ4BOW7ZEUILZCWLCN4FQ"/>
+      <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2026.1.1.win.zip" size="2429591974" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-aarch64" id="sha256new_XTDGJRFVHDLFOCSNXSOQBSDN3M33URFO3DRKZMGHOYAXGZBJEOMQ" main="bin/rider64.exe" released="2026-04-27" stability="stable" version="2026.1.1">
+      <manifest-digest sha256new="XTDGJRFVHDLFOCSNXSOQBSDN3M33URFO3DRKZMGHOYAXGZBJEOMQ"/>
+      <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2026.1.1-aarch64.win.zip" size="2526586756" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_HZ2LSR4JUNYSDZYJJGOKJCTPQOOCV7YRUM5IGT6W6MCR4ADSP3TQ" main="bin/rider.sh" released="2026-04-27" stability="stable" version="2026.1.1">
+      <manifest-digest sha256new="HZ2LSR4JUNYSDZYJJGOKJCTPQOOCV7YRUM5IGT6W6MCR4ADSP3TQ"/>
+      <archive extract="JetBrains Rider-2026.1.1" href="https://download.jetbrains.com/rider/JetBrains.Rider-2026.1.1.tar.gz" size="2095721538" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_TSWGMVDW5GBD3KZ34DPQ7IXU3CTR3MYRPPZXB3U7U7GVKWHESDRA" main="bin/rider.sh" released="2026-04-27" stability="stable" version="2026.1.1">
+      <manifest-digest sha256new="TSWGMVDW5GBD3KZ34DPQ7IXU3CTR3MYRPPZXB3U7U7GVKWHESDRA"/>
+      <archive extract="JetBrains Rider-2026.1.1" href="https://download.jetbrains.com/rider/JetBrains.Rider-2026.1.1-aarch64.tar.gz" size="2080788569" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="rider" command="run"/>
