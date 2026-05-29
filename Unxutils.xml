@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="http://0install.de/feeds/Unxutils.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>UnxUtils</name>
+  <summary xml:lang="en">Here are some ports of common GNU utilities to native Win32. In this context, native means the executables do only depend on the Microsoft C-runtime (msvcrt.dll) and not an emulation layer like that provided by Cygwin tools.</summary>
+  <description xml:lang="en">The programs are in use on all continents of earth, including Antarctica. Still no users on Mars.
+
+The following program versions are covered:
+
+bc-1.05
+bison-1.28
+bzip2-1.0.2
+diffutils-2.7
+fileutils-3.16
+findutils-4.1
+flex-2.5.4
+gawk-3.1.3
+grep-2.5.1
+gsar110
+gzip-1.2.4
+indent-2.2.9
+jwhois-2.4.1
+less-381
+m4-1.4
+make-3.80
+patch-2.5
+recode-3.6
+rman-3.0.7
+sed-4.07
+shellutils-1.9.4
+tar-1.12
+textutils-2.1
+unrar-3.00
+wget-1.8.2
+which-2.4
+zsh-3.0.5-nt-beta-0.75
+
+Standard behavior:
+
+•forward as well as backward slashes in file paths are accepted.
+
+</description>
+  <category>Utility</category>
+  <homepage>http://unxutils.sourceforge.net/</homepage>
+  <needs-terminal />
+  <group arch="Windows-*">
+    <command name="run" path="bin/zsh.exe" />
+    <command name="sh" path="bin/zsh.exe">
+      <arg>--emulate</arg>
+      <arg>sh</arg>
+    </command>
+    <command name="ksh" path="bin/zsh.exe">
+      <arg>--emulate</arg>
+      <arg>ksh</arg>
+    </command>
+    <command name="agrep" path="usr/local/wbin/agrep.exe" />
+    <command name="ansi2knr" path="usr/local/wbin/ansi2knr.exe" />
+    <command name="basename" path="usr/local/wbin/basename.exe" />
+    <command name="bc" path="usr/local/wbin/bc.exe" />
+    <command name="bison" path="usr/local/wbin/bison.exe" />
+    <command name="bunzip2" path="usr/local/wbin/bunzip2.exe" />
+    <command name="bzip2" path="usr/local/wbin/bzip2.exe" />
+    <command name="bzip2recover" path="usr/local/wbin/bzip2recover.exe" />
+    <command name="cat" path="usr/local/wbin/cat.exe" />
+    <command name="chmod" path="usr/local/wbin/chmod.exe" />
+    <command name="cksum" path="usr/local/wbin/cksum.exe" />
+    <command name="cmp" path="usr/local/wbin/cmp.exe" />
+    <command name="comm" path="usr/local/wbin/comm.exe" />
+    <command name="compress" path="usr/local/wbin/compress.exe" />
+    <command name="cp" path="usr/local/wbin/cp.exe" />
+    <command name="csplit" path="usr/local/wbin/csplit.exe" />
+    <command name="cut" path="usr/local/wbin/cut.exe" />
+    <command name="date" path="usr/local/wbin/date.exe" />
+    <command name="dc" path="usr/local/wbin/dc.exe" />
+    <command name="dd" path="usr/local/wbin/dd.exe" />
+    <command name="diff" path="usr/local/wbin/diff.exe" />
+    <command name="diff3" path="usr/local/wbin/diff3.exe" />
+    <command name="dircolors" path="usr/local/wbin/dircolors.exe" />
+    <command name="dirname" path="usr/local/wbin/dirname.exe" />
+    <command name="du" path="usr/local/wbin/du.exe" />
+    <command name="echo" path="usr/local/wbin/echo.exe" />
+    <command name="egrep" path="usr/local/wbin/egrep.exe" />
+    <command name="expand" path="usr/local/wbin/expand.exe" />
+    <command name="expr" path="usr/local/wbin/expr.exe" />
+    <command name="factor" path="usr/local/wbin/factor.exe" />
+    <command name="fgrep" path="usr/local/wbin/fgrep.exe" />
+    <command name="find" path="usr/local/wbin/find.exe" />
+    <command name="flex" path="usr/local/wbin/flex.exe" />
+    <command name="fmt" path="usr/local/wbin/fmt.exe" />
+    <command name="fold" path="usr/local/wbin/fold.exe" />
+    <command name="fsplit" path="usr/local/wbin/fsplit.exe" />
+    <command name="gawk" path="usr/local/wbin/gawk.exe" />
+    <command name="gclip" path="usr/local/wbin/gclip.exe" />
+    <command name="gplay" path="usr/local/wbin/gplay.exe" />
+    <command name="grep" path="usr/local/wbin/grep.exe" />
+    <command name="gsar" path="usr/local/wbin/gsar.exe" />
+    <command name="gunzip" path="usr/local/wbin/gunzip.exe" />
+    <command name="gzip" path="usr/local/wbin/gzip.exe" />
+    <command name="head" path="usr/local/wbin/head.exe" />
+    <command name="indent" path="usr/local/wbin/indent.exe" />
+    <command name="install" path="usr/local/wbin/install.exe" />
+    <command name="join" path="usr/local/wbin/join.exe" />
+    <command name="jwhois" path="usr/local/wbin/jwhois.exe" />
+    <command name="less" path="usr/local/wbin/less.exe" />
+    <command name="lesskey" path="usr/local/wbin/lesskey.exe" />
+    <command name="ln" path="usr/local/wbin/ln.exe" />
+    <command name="logname" path="usr/local/wbin/logname.exe" />
+    <command name="ls" path="usr/local/wbin/ls.exe" />
+    <command name="m4" path="usr/local/wbin/m4.exe" />
+    <command name="make" path="usr/local/wbin/make.exe" />
+    <command name="makedepend" path="usr/local/wbin/makedepend.exe" />
+    <command name="makemsg" path="usr/local/wbin/makemsg.exe" />
+    <command name="man" path="usr/local/wbin/man.exe" />
+    <command name="md5sum" path="usr/local/wbin/md5sum.exe" />
+    <command name="mkdir" path="usr/local/wbin/mkdir.exe" />
+    <command name="mv" path="usr/local/wbin/mv.exe" />
+    <command name="mvdir" path="usr/local/wbin/mvdir.exe" />
+    <command name="nl" path="usr/local/wbin/nl.exe" />
+    <command name="od" path="usr/local/wbin/od.exe" />
+    <command name="paste" path="usr/local/wbin/paste.exe" />
+    <command name="patch" path="usr/local/wbin/patch.exe" />
+    <command name="pathchk" path="usr/local/wbin/pathchk.exe" />
+    <command name="pclip" path="usr/local/wbin/pclip.exe" />
+    <command name="pr" path="usr/local/wbin/pr.exe" />
+    <command name="printenv" path="usr/local/wbin/printenv.exe" />
+    <command name="printf" path="usr/local/wbin/printf.exe" />
+    <command name="pwd" path="usr/local/wbin/pwd.exe" />
+    <command name="recode" path="usr/local/wbin/recode.exe" />
+    <command name="rm" path="usr/local/wbin/rm.exe" />
+    <command name="rman" path="usr/local/wbin/rman.exe" />
+    <command name="rmdir" path="usr/local/wbin/rmdir.exe" />
+    <command name="sdiff" path="usr/local/wbin/sdiff.exe" />
+    <command name="sed" path="usr/local/wbin/sed.exe" />
+    <command name="seq" path="usr/local/wbin/seq.exe" />
+    <command name="shar" path="usr/local/wbin/shar.exe" />
+    <command name="sleep" path="usr/local/wbin/sleep.exe" />
+    <command name="sort" path="usr/local/wbin/sort.exe" />
+    <command name="split" path="usr/local/wbin/split.exe" />
+    <command name="stego" path="usr/local/wbin/stego.exe" />
+    <command name="sum" path="usr/local/wbin/sum.exe" />
+    <command name="sync" path="usr/local/wbin/sync.exe" />
+    <command name="tac" path="usr/local/wbin/tac.exe" />
+    <command name="tail" path="usr/local/wbin/tail.exe" />
+    <command name="tar" path="usr/local/wbin/tar.exe" />
+    <command name="tee" path="usr/local/wbin/tee.exe" />
+    <command name="test" path="usr/local/wbin/test.exe" />
+    <command name="touch" path="usr/local/wbin/touch.exe" />
+    <command name="tr" path="usr/local/wbin/tr.exe" />
+    <command name="type" path="usr/local/wbin/type.exe" />
+    <command name="uname" path="usr/local/wbin/uname.exe" />
+    <command name="unexpand" path="usr/local/wbin/unexpand.exe" />
+    <command name="uniq" path="usr/local/wbin/uniq.exe" />
+    <command name="unrar" path="usr/local/wbin/unrar.exe" />
+    <command name="unshar" path="usr/local/wbin/unshar.exe" />
+    <command name="unzip" path="usr/local/wbin/unzip.exe" />
+    <command name="uudecode" path="usr/local/wbin/uudecode.exe" />
+    <command name="uuencode" path="usr/local/wbin/uuencode.exe" />
+    <command name="wc" path="usr/local/wbin/wc.exe" />
+    <command name="wget" path="usr/local/wbin/wget.exe" />
+    <command name="which" path="usr/local/wbin/which.exe" />
+    <command name="whoami" path="usr/local/wbin/whoami.exe" />
+    <command name="xargs" path="usr/local/wbin/xargs.exe" />
+    <command name="yes" path="usr/local/wbin/yes.exe" />
+    <command name="zcat" path="usr/local/wbin/zcat.exe" />
+    <command name="zip" path="usr/local/wbin/zip.exe" />
+    <implementation version="2007-3-1" released="2007-03-01" id="sha1new=21196644d9107b3af39f3f2f3d5377f0614b61ef">
+      <manifest-digest sha256new="2MP46IKJYYY3UXIIGTMPCHTDPGX2736DDZCBJZGEHE4DFGPY735A" />
+      <recipe>
+        <archive href="https://sourceforge.net/projects/unxutils/files/unxutils/current/UnxUtils.zip" size="3365638" type="application/zip" />
+        <rename source="bin/sh.exe" dest="bin/zsh.exe" />
+        <file href="https://github.com/MiKTex/miktex/blob/master/Resources/Manifests/asInvoker.manifest?raw=true" size="380" dest="usr/local/wbin/install.exe.manifest" />
+        <file href="https://github.com/MiKTex/miktex/blob/master/Resources/Manifests/asInvoker.manifest?raw=true" size="380" dest="usr/local/wbin/patch.exe.manifest" />
+      </recipe>
+    </implementation>
+    <implementation version="2014-4-3" released="2014-04-03" id="sha1new=49a24309fe5fe695bbebc4ce994e09f8fcdf49c5">
+      <command name="ptx" path="usr/local/wbin/ptx.exe" />
+      <command name="sha1sum" path="usr/local/wbin/sha1sum.exe" />
+      <command name="tsort" path="usr/local/wbin/tsort.exe" />
+      <manifest-digest sha256new="YD6S7EM7P2SUQ3ECLP7MEVADO2ZRPZDFO3K3QMHXCYPF75FJCVHQ" />
+      <recipe>
+        <archive href="https://sourceforge.net/projects/unxutils/files/unxutils/current/UnxUtils.zip" size="3365638" type="application/zip" />
+        <archive href="http://unxutils.sourceforge.net/UnxUpdates.zip" size="878847" type="application/zip" dest="usr/local/wbin" />
+        <remove path="bin/sh.exe" />
+        <rename source="usr/local/wbin/zsh.exe" dest="bin/zsh.exe" />
+        <file href="https://github.com/MiKTex/miktex/blob/master/Resources/Manifests/asInvoker.manifest?raw=true" size="380" dest="usr/local/wbin/install.exe.manifest" />
+        <file href="https://github.com/MiKTex/miktex/blob/master/Resources/Manifests/asInvoker.manifest?raw=true" size="380" dest="usr/local/wbin/patch.exe.manifest" />
+      </recipe>
+    </implementation>
+  </group>
+  <entry-point command="run" binary-name="zsh">
+    <name xml:lang="en">Zsh</name>
+    <description xml:lang="en">zsh - this is no replacement for the Cygwin bash
+Thanks to the Wind River people at Salzburg</description>
+  </entry-point>
+  <entry-point command="agrep" binary-name="agrep">
+    <needs-terminal />
+    <summary xml:lang="en">AGREP is a powerful tool for fast searching a file or many files for a string or regular expression, with approximate matching capabilities and user-definable records.</summary>
+    <description xml:lang="en">AGREP is a powerful tool for fast searching a file or many files for a string or regular expression, with approximate matching capabilities and user-definable records. It was developed 1989-1991 by Udi Manber and Sun Wu at the University of Arizona and many others (please read CONTRIB.TXT and MANUAL.DOC). AGREP is similar to egrep (or grep or fgrep), but it is much more general and usually faster. 
+It also supports many kinds of queries including arbitrary wild cards, sets of patterns, and in general, regular expressions. It supports most of the options supported by the GREP family plus several more (but it is not 100% compatible with grep). 
+AGREP is the search engine and part of the GLIMPSE tool for searching and indexing whole file systems. GLIMPSE stands for Global Implicit Search and is part of the HARVEST Information Discovery and Access System. 
+AGREP belongs to the University of Arizona, which licenses it (see copyright). 
+It is not public-domain, but free for non-commercial use. And it comes with source! 
+</description>
+  </entry-point>
+  <entry-point command="ansi2knr" binary-name="ansi2knr">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="basename" binary-name="basename">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="bc" binary-name="bc">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="bison" binary-name="bison">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="bunzip2" binary-name="bunzip2">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="bzip2" binary-name="bzip2">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="bzip2recover" binary-name="bzip2recover">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="cat" binary-name="cat">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="chmod" binary-name="chmod">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="cksum" binary-name="cksum">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="cmp" binary-name="cmp">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="comm" binary-name="comm">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="compress" binary-name="compress">
+    <needs-terminal />
+    <summary xml:lang="en">for (de)compressing .Z files</summary>
+    <description xml:lang="en">This is actually a program called ncompress and was found on one of  the Linux mirrors
+ </description>
+  </entry-point>
+  <entry-point command="cp" binary-name="cp">
+    <needs-terminal />
+    <description xml:lang="en">works only on NT, does real hardlinks on NTFS</description>
+  </entry-point>
+  <entry-point command="csplit" binary-name="csplit">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="cut" binary-name="cut">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="date" binary-name="date">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="dc" binary-name="dc">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="dd" binary-name="dd">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="diff" binary-name="diff">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="diff3" binary-name="diff3">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="dircolors" binary-name="dircolors">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="dirname" binary-name="dirname">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="du" binary-name="du">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="echo" binary-name="echo">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="egrep" binary-name="egrep">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="expand" binary-name="gexpand">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="expr" binary-name="expr">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="factor" binary-name="factor">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="fgrep" binary-name="fgrep">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="find" binary-name="gfind">
+    <needs-terminal />
+    <description xml:lang="en">Example of command line under Cmd/Command shell:
+gfind -name *.txt -exec cat {} ; </description>
+  </entry-point>
+  <entry-point command="flex" binary-name="flex">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="fmt" binary-name="fmt">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="fold" binary-name="fold">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="fsplit" binary-name="fsplit">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="gawk" binary-name="gawk">
+    <needs-terminal />
+    <description xml:lang="en">input files are opened in text mode</description>
+  </entry-point>
+  <entry-point command="gclip" binary-name="gclip">
+    <needs-terminal />
+    <summary xml:lang="en">get  the Windows clipboard text from stdin</summary>
+    <description xml:lang="en">
+Example: run the text from the clipboard through sed and put the result back
+               pclip | sed "s/string1/string2/g" | gclip</description>
+  </entry-point>
+  <entry-point command="gplay" binary-name="gplay">
+    <needs-terminal />
+    <name xml:lang="en">ACME gplay</name>
+    <summary xml:lang="en">Windows console multimedia player</summary>
+    <description xml:lang="en">My minimalist console multimedia player using DirectShow. With
+gplay filename | URL
+you should be able to play just everything, as long as Microsoft supports it</description>
+  </entry-point>
+  <entry-point command="grep" binary-name="grep">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="gsar" binary-name="gsar">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="gunzip" binary-name="gunzip">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="gzip" binary-name="gzip">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="head" binary-name="head">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="indent" binary-name="indent">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="install" binary-name="install">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="join" binary-name="join">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="jwhois" binary-name="jwhois">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="less" binary-name="less">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="lesskey" binary-name="lesskey">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="ln" binary-name="ln">
+    <needs-terminal />
+    <description xml:lang="en">works only on NT, does real hardlinks on NTFS
+ </description>
+  </entry-point>
+  <entry-point command="logname" binary-name="logname">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="ls" binary-name="ls">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="m4" binary-name="m4">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="make" binary-name="make">
+    <needs-terminal />
+    <description xml:lang="en">From v3.77 upwards, make searches for a sh.exe on the path. If it does not find one, it switches to win32 make mode that is it uses intermediate batch files for command processing.
+This is fine until your makefile tries to execute something like mkdir, which will invoke the internal mkdir from cmd.exe or command.com. As the results may not be to your liking, you may prefer to use the sh.exe provide here.</description>
+  </entry-point>
+  <entry-point command="makedepend" binary-name="makedepend">
+    <needs-terminal />
+    <description xml:lang="en">from the X11 distribution.</description>
+  </entry-point>
+  <entry-point command="makemsg" binary-name="makemsg">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="man" binary-name="man">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="md5sum" binary-name="md5sum">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="mkdir" binary-name="mkdir">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="mv" binary-name="mv">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="mvdir" binary-name="mvdir">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="nl" binary-name="nl">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="od" binary-name="od">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="paste" binary-name="paste">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="patch" binary-name="patch">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="pathchk" binary-name="pathchk">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="pclip" binary-name="pclip">
+    <needs-terminal />
+    <summary xml:lang="en">put the Windows clipboard text to stdout</summary>
+  </entry-point>
+  <entry-point command="pr" binary-name="pr">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="printenv" binary-name="printenv">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="printf" binary-name="printf">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="ptx" binary-name="ptx">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="pwd" binary-name="pwd">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="recode" binary-name="recode">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="rm" binary-name="rm">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="rman" binary-name="rman">
+    <needs-terminal />
+    <description xml:lang="en">PolyglotMan by Thomas A. Phelps </description>
+  </entry-point>
+  <entry-point command="rmdir" binary-name="rmdir">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="sdiff" binary-name="sdiff">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="sed" binary-name="sed">
+    <needs-terminal />
+    <description xml:lang="en">uses binary mode for input and output files by default,
+unless the --text option is given</description>
+  </entry-point>
+  <entry-point command="seq" binary-name="seq">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="sha1sum" binary-name="sha1sum">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="shar" binary-name="shar">
+    <needs-terminal />
+    <description xml:lang="en">only works with -T (text) option
+ </description>
+  </entry-point>
+  <entry-point command="sleep" binary-name="sleep">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="sort" binary-name="gsort">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="split" binary-name="split">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="stego" binary-name="stego">
+    <needs-terminal />
+    <summary xml:lang="en">John Walkers steganographic encryption program</summary>
+    <description xml:lang="en">stego -E encode.me -T words.txt
+Encodes file encode.me as gibberish text using words from the words.txt file to stdout. If the -T option is omitted, stego looks for a file called "words" in the current directory. Of course, the -D option will decode the input file; remember to redistribute words.txt together with the encoded file.
+The purpose of this program is to disguise binary files as a kind of text file or to drive your coworkers mad.</description>
+  </entry-point>
+  <entry-point command="sum" binary-name="sum">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="sync" binary-name="sync">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="tac" binary-name="tac">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="tail" binary-name="tail">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="tar" binary-name="tar">
+    <needs-terminal />
+    <description xml:lang="en">•only forward slashes are accepted 
+•the -z option (compression) does not work 
+•no remote archives 
+•works only on NT, does real hardlinks on NTFS</description>
+  </entry-point>
+  <entry-point command="tee" binary-name="tee">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="test" binary-name="test">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="touch" binary-name="touch">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="tr" binary-name="tr">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="tsort" binary-name="tsort">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="type" binary-name="type">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="uname" binary-name="uname">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="unexpand" binary-name="unexpand">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="uniq" binary-name="uniq">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="unrar" binary-name="unrar">
+    <needs-terminal />
+    <description xml:lang="en">This is unrar 3.00 beta 7, which seems to have been "free". Works good enough.
+ compiled from source code at http://www.rarlab.com.</description>
+  </entry-point>
+  <entry-point command="unshar" binary-name="unshar">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="unzip" binary-name="unzip">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="uudecode" binary-name="uudecode">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="uuencode" binary-name="uuencode">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="wc" binary-name="wc">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="wget" binary-name="wget">
+    <needs-terminal />
+    <description xml:lang="en">wget 1.8.2 builds out of the box with MS Visual C</description>
+  </entry-point>
+  <entry-point command="which" binary-name="which">
+    <needs-terminal />
+    <description xml:lang="en">does not search the current directory</description>
+  </entry-point>
+  <entry-point command="whoami" binary-name="whoami">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="xargs" binary-name="xargs">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="yes" binary-name="yes">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="zcat" binary-name="zcat">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="zip" binary-name="zip">
+    <needs-terminal />
+  </entry-point>
+  <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <file-type id="unixutil.ShellScript">
+      <description xml:lang="en">Shell Script</description>
+      <verb name="open" args="&quot;%1&quot; %*" />
+      <extension value=".sh" />
+    </file-type>
+    <context-menu id="unxutil-zsh" target="directories">
+      <verb name="unixutls_zsh" args="-c &quot;cd \&quot;%1\&quot;; exec bash&quot;">
+        <description xml:lang="en">UnixUtils Zsh</description>
+      </verb>
+    </context-menu>
+  </capabilities>
+</interface>
