@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://0install.de/feeds/crafty.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <name>Crafty</name>
+  <summary xml:lang="en">Crafty: chess program</summary>
+  <description xml:lang="en">Crafty lets most modern computers play a full game of chess. It has a plain terminal interface but supports visual interfaces such as X-Windows &quot;xboard&quot; or MS-Windows Winboard &lt;http://www.tim-mann.org/chess.html&gt;. </description>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/crafty.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/crafty.png" type="image/png"/>
+  <category>Game</category>
+  <homepage>http://gnuwin32.sourceforge.net/packages/crafty.htm</homepage>
+  <needs-terminal/>
+  <group license="Freeware">
+    <implementation arch="Windows-*" version="22.1" released="2008-06-13" id="sha1new=cc5b72d6c60917decee3181c038ebf03b7e9bff7">
+      <command name="run" path="bin/crafty.exe" />
+      <manifest-digest sha256new="HVJWANCOUEQ3W7WP5H2X6IGUHVYFY2M5IL6PJIM62X3LPBWUCSFA" />
+      <archive href="https://sourceforge.net/projects/gnuwin32/files/crafty/22.1/crafty-22.1-bin.zip" size="1193145" type="application/zip" />
+      <archive href="https://github.com/kkeybbs/gnuwin32/blob/master/gnuwin32/crafty-22.1-bin.zip?raw=true" size="1193145" type="application/zip" />
+    </implementation>
+    <group version="25.2" released="2017-01-21">
+      <implementation arch="Windows-x86_64" id="sha1new=a5260012205b11f76475023b53d25d799abf94a3">
+        <command name="run" path="crafty-win64.exe" />
+        <command name="crafty-amd" path="crafty-win64-amd.exe" />
+        <command name="crafty-old" path="crafty-win64-old.exe" />
+        <command name="speak" path="speak">
+          <runner interface="http://repo.roscidus.com/perl/perl" />
+        </command>
+        <manifest-digest sha256new="UKCD6Z5VWE4HT3DRVR6DRN2JCSYMKEXJOQU33G5FGVY4FSXRD3GQ" />
+        <archive href="https://github.com/MichaelB7/Crafty/releases/download/25.2/Crafty-25.2-Win64.zip" size="705014" type="application/zip" />
+      </implementation>
+      <implementation arch="Windows-i386" id="sha1new=cb55e1adfc9a3f9cb5093cf57183ee5cbf160fbb">
+        <command name="run" path="crafty-win32.exe" />
+        <command name="crafty-amd" path="crafty-win32-amd.exe" />
+        <command name="crafty-old" path="crafty-win32-old.exe" />
+        <command name="speak" path="speak">
+          <runner interface="http://repo.roscidus.com/perl/perl" />
+        </command>
+        <manifest-digest sha256new="NHALXCNGYT3N5CRRLAWRO4JULFLE4EV6ZBMDGJONLW7NSOE7IEPQ" />
+        <archive href="https://github.com/MichaelB7/Crafty/releases/download/25.2/Crafty-25.2-Win32.zip" size="553499" type="application/zip" />
+      </implementation>
+      <implementation arch="Linux-i386" id="sha1new=3bb6ae416217efb63329ba84918c07f80ba4fa6a">
+        <command name="run" path="crafty-lnx32" />
+        <command name="speak" path="speak">
+          <runner interface="http://repo.roscidus.com/perl/perl" />
+        </command>
+        <manifest-digest sha256new="PHQFT67LO3VQHXDQKXALYLXUPTLVGGD32DQBMPYYQL2BVIDKQ3AA" />
+        <recipe>
+          <archive href="https://github.com/MichaelB7/Crafty/releases/download/25.2/Crafty-25.2-Linux.zip" size="415924" type="application/zip" />
+          <remove path="crafty-lnx64" />
+        </recipe>
+      </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=4a22c4556a8f3a9d2694f6774ed04b4136df88cb">
+        <command name="run" path="crafty-lnx64" />
+        <command name="speak" path="speak">
+          <runner interface="http://repo.roscidus.com/perl/perl" />
+        </command>
+        <manifest-digest sha256new="P3YXTKF6ZZQAW2MZLY4BRWJD6HEJQT5DPKUPF2VQYTXEQX54T4SA" />
+        <recipe>
+          <archive href="https://github.com/MichaelB7/Crafty/releases/download/25.2/Crafty-25.2-Linux.zip" size="415924" type="application/zip" />
+          <remove path="crafty-lnx32" />
+        </recipe>
+      </implementation>
+      <implementation arch="MacOSX-x86_64" id="sha1new=1c9c2b40222eb2b06632fe5602f70952f2dbf492">
+        <command name="run" path="crafty-clang" />
+        <command name="crafty-gcc" path="crafty-gcc" />
+        <manifest-digest sha256new="4J4SARPJVNP6N2T7WJ74R4XGKGFVRT43EFSYVOVZZSAVWVY3QLXA" />
+        <archive href="https://github.com/MichaelB7/Crafty/releases/download/25.2/Craftyv25.2_macOS.zip" size="372609" type="application/zip" />
+      </implementation>
+    </group>
+    <implementation arch="MacOSX-x86_64" version="25.3" id="sha1new=257f2f4e685b27bbd9e59c970eb98f0dcb374a4b">
+      <command name="run" path="crafty-25.3-plain" />
+      <command name="crafty-25.3-gcc" path="crafty-25.3-gcc" />
+      <command name="crafty-25.3-corei7" path="crafty-25.3-corei7" />
+      <command name="crafty+25.3-clang" path="crafty+25.3-clang" />
+      <command name="speak" path="speak">
+        <runner interface="http://repo.roscidus.com/perl/perl" />
+      </command>
+      <manifest-digest sha256new="7ZEZDYTS6ERG62TNU7OYC75Q3YEPFWODIWQAJNKETD6WETDOUKKQ" />
+      <archive href="https://github.com/MichaelB7/Crafty/releases/download/25.3/Crafty-25.3_macOS.zip" size="759647" type="application/zip" />
+    </implementation>
+  </group>
+  <package-implementation distributions="Gentoo" package="games-board/crafty"/>
+  <package-implementation package="crafty"/>
+  <entry-point binary-name="crafty" command="run"/>
+  <entry-point command="crafty-amd" binary-name="crafty-amd">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="crafty-old" binary-name="crafty-old">
+    <needs-terminal />
+  </entry-point>
+</interface>
