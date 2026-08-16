@@ -1786,6 +1786,22 @@
       <manifest-digest sha256new="H47YMYNSJRZ3UFORMWLN5TBHTJL7EMXOEBFU735YCTSXYZ33KUBQ"/>
       <archive extract="pycharm-2026.1.5" href="https://download.jetbrains.com/python/pycharm-professional-2026.1.5-aarch64.tar.gz" size="1223304331" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_SWPXQBA6AJXZGZ7FV4FQWRT6M7EKSQXC5WNWESKBNZMUV2ZPYJSA" main="bin/pycharm64.exe" released="2026-08-12" stability="stable" version="2026.2.1">
+      <manifest-digest sha256new="SWPXQBA6AJXZGZ7FV4FQWRT6M7EKSQXC5WNWESKBNZMUV2ZPYJSA"/>
+      <archive href="https://download.jetbrains.com/python/pycharm-professional-2026.2.1.win.zip" size="1304642686" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-aarch64" id="sha256new_2FJHJHYELB7HXLQ6ZYMH3QYJLQAPS7RWH5KWNBJOD3JEMXP4JH7Q" main="bin/pycharm64.exe" released="2026-08-12" stability="stable" version="2026.2.1">
+      <manifest-digest sha256new="2FJHJHYELB7HXLQ6ZYMH3QYJLQAPS7RWH5KWNBJOD3JEMXP4JH7Q"/>
+      <archive href="https://download.jetbrains.com/python/pycharm-professional-2026.2.1-aarch64.win.zip" size="1293187756" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_NDSSRXQ5FPAOBOT2WS3F5P7LIBOO4E5OHRC7RLZ726PADF2CL7FA" main="bin/pycharm.sh" released="2026-08-12" stability="stable" version="2026.2.1">
+      <manifest-digest sha256new="NDSSRXQ5FPAOBOT2WS3F5P7LIBOO4E5OHRC7RLZ726PADF2CL7FA"/>
+      <archive extract="pycharm-2026.2.1" href="https://download.jetbrains.com/python/pycharm-professional-2026.2.1.tar.gz" size="1277700344" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_QJH5V752IDVY6PFCFVF74YVQNNJ33JFLUWTINI7HJVFCFG6KUNNQ" main="bin/pycharm.sh" released="2026-08-12" stability="stable" version="2026.2.1">
+      <manifest-digest sha256new="QJH5V752IDVY6PFCFVF74YVQNNJ33JFLUWTINI7HJVFCFG6KUNNQ"/>
+      <archive extract="pycharm-2026.2.1" href="https://download.jetbrains.com/python/pycharm-professional-2026.2.1-aarch64.tar.gz" size="1300725576" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="pycharm" command="run"/>
