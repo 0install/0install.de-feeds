@@ -1888,6 +1888,22 @@
       <manifest-digest sha256new="WYJBRCARYU6ZHQ6WQZVW3B4TSI5JJX4DRGTJJMPGMWXEBMQRRO3A"/>
       <archive extract="JetBrains Rider-2026.1.5.1" href="https://download.jetbrains.com/rider/JetBrains.Rider-2026.1.5.1-aarch64.tar.gz" size="2088806137" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha256new_VUV2EDKB4EOWCRVD3D7CJSE6MIPIDEQ46IU43OG6OTTHIBOMHGJA" main="bin/rider64.exe" released="2026-09-10" stability="stable" version="2026.1.5.2">
+      <manifest-digest sha256new="VUV2EDKB4EOWCRVD3D7CJSE6MIPIDEQ46IU43OG6OTTHIBOMHGJA"/>
+      <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2026.1.5.2.win.zip" size="2437962746" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-aarch64" id="sha256new_H5ASOA3GMAJC3TMGBPFLOCYDEAIWXHYJHCEHC7YOJH6VDIINSBMA" main="bin/rider64.exe" released="2026-09-10" stability="stable" version="2026.1.5.2">
+      <manifest-digest sha256new="H5ASOA3GMAJC3TMGBPFLOCYDEAIWXHYJHCEHC7YOJH6VDIINSBMA"/>
+      <archive href="https://download.jetbrains.com/rider/JetBrains.Rider-2026.1.5.2-aarch64.win.zip" size="2539876167" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha256new_H4MFJSRY6QAU62MGQQJANFMKWJC4ZYGDUT4XV2Q6W4LDHQE2FPEA" main="bin/rider.sh" released="2026-09-10" stability="stable" version="2026.1.5.2">
+      <manifest-digest sha256new="H4MFJSRY6QAU62MGQQJANFMKWJC4ZYGDUT4XV2Q6W4LDHQE2FPEA"/>
+      <archive extract="JetBrains Rider-2026.1.5.2" href="https://download.jetbrains.com/rider/JetBrains.Rider-2026.1.5.2.tar.gz" size="2104227431" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-aarch64" id="sha256new_DCP5UKAZWASJLOLZ5KE3GFGBREITQSLOIAUAIRBMEKXVMDFYHJWQ" main="bin/rider.sh" released="2026-09-10" stability="stable" version="2026.1.5.2">
+      <manifest-digest sha256new="DCP5UKAZWASJLOLZ5KE3GFGBREITQSLOIAUAIRBMEKXVMDFYHJWQ"/>
+      <archive extract="JetBrains Rider-2026.1.5.2" href="https://download.jetbrains.com/rider/JetBrains.Rider-2026.1.5.2-aarch64.tar.gz" size="2088810818" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="rider" command="run"/>
