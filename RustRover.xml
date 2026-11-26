@@ -658,4 +658,20 @@
       <extension perceived-type="text" value=".rs"/>
     </file-type>
   </capabilities>
+  <implementation arch="Windows-x86_64" id="sha256new_MDCPCR7ZXAI3DP5BMKA3FNMYMLWMOX3DLGTBX2NWR5UQWXDAIMGA" main="bin/rustrover64.exe" released="2026-11-24" stability="stable" version="2025.2.6.2">
+    <manifest-digest sha256new="MDCPCR7ZXAI3DP5BMKA3FNMYMLWMOX3DLGTBX2NWR5UQWXDAIMGA"/>
+    <archive href="https://download.jetbrains.com/rustrover/RustRover-2025.2.6.2.win.zip" size="1436568867" type="application/zip"/>
+  </implementation>
+  <implementation arch="Windows-aarch64" id="sha256new_FJITU2NXP27S4DXLSWNESU266XVQFJAUNJJRGHUTWSWCBSSJZERQ" main="bin/rustrover64.exe" released="2026-11-24" stability="stable" version="2025.2.6.2">
+    <manifest-digest sha256new="FJITU2NXP27S4DXLSWNESU266XVQFJAUNJJRGHUTWSWCBSSJZERQ"/>
+    <archive href="https://download.jetbrains.com/rustrover/RustRover-2025.2.6.2-aarch64.win.zip" size="1263097305" type="application/zip"/>
+  </implementation>
+  <implementation arch="Linux-x86_64" id="sha256new_4R2LQ2D6R4PHIOQRIK5DPMKHAVQRWX2H3NTJNXFBJFYDK5JQSS4Q" main="bin/rustrover.sh" released="2026-11-24" stability="stable" version="2025.2.6.2">
+    <manifest-digest sha256new="4R2LQ2D6R4PHIOQRIK5DPMKHAVQRWX2H3NTJNXFBJFYDK5JQSS4Q"/>
+    <archive extract="RustRover-2025.2.6.2" href="https://download.jetbrains.com/rustrover/RustRover-2025.2.6.2.tar.gz" size="1293445134" type="application/x-compressed-tar"/>
+  </implementation>
+  <implementation arch="Linux-aarch64" id="sha256new_ZQMQ3B4MZBXTEEF5325K4IUHXX5CKL2TUMNLEIM7YPJXD5FGHJKQ" main="bin/rustrover.sh" released="2026-11-24" stability="stable" version="2025.2.6.2">
+    <manifest-digest sha256new="ZQMQ3B4MZBXTEEF5325K4IUHXX5CKL2TUMNLEIM7YPJXD5FGHJKQ"/>
+    <archive extract="RustRover-2025.2.6.2" href="https://download.jetbrains.com/rustrover/RustRover-2025.2.6.2-aarch64.tar.gz" size="1289706011" type="application/x-compressed-tar"/>
+  </implementation>
 </interface>
