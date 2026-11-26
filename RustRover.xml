@@ -690,4 +690,20 @@
     <manifest-digest sha256new="SFLXUH5EAZO4G2VKQ7Z2QVTJFYU3BIV3AJDWXCRLVJWSEFTOHM2Q"/>
     <archive extract="RustRover-2025.3.7.2" href="https://download.jetbrains.com/rustrover/RustRover-2025.3.7.2-aarch64.tar.gz" size="1197358450" type="application/x-compressed-tar"/>
   </implementation>
+  <implementation arch="Windows-x86_64" id="sha256new_JB27TJQO4TDNDGW424W22QDI5AO75ZPLKVSTGXV4S2INALIRQGEQ" main="bin/rustrover64.exe" released="2026-11-24" stability="stable" version="2026.1.4.2">
+    <manifest-digest sha256new="JB27TJQO4TDNDGW424W22QDI5AO75ZPLKVSTGXV4S2INALIRQGEQ"/>
+    <archive href="https://download.jetbrains.com/rustrover/RustRover-2026.1.4.2.win.zip" size="1271279832" type="application/zip"/>
+  </implementation>
+  <implementation arch="Windows-aarch64" id="sha256new_VBN6QLVFIXTTMHVZTZCIZQ5HVAWMT5JKIR5S43Z4E6FE3GO4GMJQ" main="bin/rustrover64.exe" released="2026-11-24" stability="stable" version="2026.1.4.2">
+    <manifest-digest sha256new="VBN6QLVFIXTTMHVZTZCIZQ5HVAWMT5JKIR5S43Z4E6FE3GO4GMJQ"/>
+    <archive href="https://download.jetbrains.com/rustrover/RustRover-2026.1.4.2-aarch64.win.zip" size="1244102601" type="application/zip"/>
+  </implementation>
+  <implementation arch="Linux-x86_64" id="sha256new_4D6TUQJZQM5MC5K7GXQEFGF7OUX2WAIM6I7J2SIEJSG5C6JAKONA" main="bin/rustrover.sh" released="2026-11-24" stability="stable" version="2026.1.4.2">
+    <manifest-digest sha256new="4D6TUQJZQM5MC5K7GXQEFGF7OUX2WAIM6I7J2SIEJSG5C6JAKONA"/>
+    <archive extract="RustRover-2026.1.4.2" href="https://download.jetbrains.com/rustrover/RustRover-2026.1.4.2.tar.gz" size="1228115065" type="application/x-compressed-tar"/>
+  </implementation>
+  <implementation arch="Linux-aarch64" id="sha256new_4FNFCZYH6ZEBPBFSACYOJQDPNSDQ4WJNUGUSAE566H3QBJNXGOTQ" main="bin/rustrover.sh" released="2026-11-24" stability="stable" version="2026.1.4.2">
+    <manifest-digest sha256new="4FNFCZYH6ZEBPBFSACYOJQDPNSDQ4WJNUGUSAE566H3QBJNXGOTQ"/>
+    <archive extract="RustRover-2026.1.4.2" href="https://download.jetbrains.com/rustrover/RustRover-2026.1.4.2-aarch64.tar.gz" size="1221863625" type="application/x-compressed-tar"/>
+  </implementation>
 </interface>
